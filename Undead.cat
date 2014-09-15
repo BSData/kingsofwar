@@ -1,55 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue id="582ab938-cba5-4c8b-98a4-ceeea1163d94" revision="6" gameSystemId="01e31045-05fb-42cc-9803-cd07615b4148" gameSystemRevision="1" battleScribeVersion="1.14b" name="Undead" authorContact="http://forum.manticblog.com/showthread.php?658-Kings-of-War-Warpath-for-Battlescribe-%28free-list-building-software%29" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
-    <entry id="10dc680e-5921-43d6-aa95-4047a7d30b74" name="Undead Army Standard Bearer" points="25.0" categoryId="4865726f65732f204d6f6e737465727323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kings of War Rulebook" page="138">
-      <entries>
-        <entry id="6c44b9e1-cbd3-46fc-a5a0-a8acb561ea9d" name="Undead Horse" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links/>
-        </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="4d386df5-ed2e-76f8-ce8f-1cda05f382fb" profileTypeId="4865726f23232344415441232323" name="Army Standard Bearer" hidden="false" page="0">
-          <characteristics>
-            <characteristic characteristicId="556e69742053697a6523232344415441232323" name="Unit Size" value="1"/>
-            <characteristic characteristicId="537023232344415441232323" name="Sp" value="5"/>
-            <characteristic characteristicId="4d6523232344415441232323" name="Me" value="4+"/>
-            <characteristic characteristicId="526123232344415441232323" name="Ra" value="-"/>
-            <characteristic characteristicId="446523232344415441232323" name="De" value="4+"/>
-            <characteristic characteristicId="417423232344415441232323" name="At" value="1"/>
-            <characteristic characteristicId="4e6523232344415441232323" name="Ne" value="-/12"/>
-          </characteristics>
-          <modifiers>
-            <modifier type="set" field="537023232344415441232323" value="8" repeat="true" numRepeats="1" incrementParentId="10dc680e-5921-43d6-aa95-4047a7d30b74" incrementChildId="6c44b9e1-cbd3-46fc-a5a0-a8acb561ea9d" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-        </profile>
-      </profiles>
-      <links>
-        <link id="2b9e1511-10eb-6303-4e45-3e161e7e700b" targetId="4e92f01c-9499-ddc2-c286-1804399e3817" linkType="entry group">
-          <modifiers/>
-        </link>
-        <link id="0232c5fc-4f26-b162-1343-5015f1bf1de6" targetId="bf7ea0e2-511d-d1db-fea1-e6376ec76121" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="65fa3030-24f1-08f5-e0cd-37b748e55541" targetId="215531fc-f49c-a180-c77d-783faa79c840" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="f7539d24-cede-b1f7-e2b7-b47e3538c611" targetId="b8da49bb-f87a-cbc5-9d1a-de6ffb52a807" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="9722d56e-7483-4fc6-89f7-722ca355bfcc" name="Balefire Catapult" points="65.0" categoryId="57617220456e67696e657323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kings of War Rulebook" page="137">
+    <entry id="9722d56e-7483-4fc6-89f7-722ca355bfcc" name="Balefire Catapult" points="65.0" categoryId="57617220456e67696e657323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="">
       <entries>
         <entry id="ab0b1a45-a92d-f523-cd74-af66b2d0e07d" name="Blast (2D6)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
@@ -68,7 +20,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="8e9fcc37-b47d-4693-1e0b-8f1fc244d55e" profileTypeId="57617220456e67696e6523232344415441232323" name="Balefire Catapult" hidden="false" page="0">
+        <profile id="8e9fcc37-b47d-4693-1e0b-8f1fc244d55e" profileTypeId="57617220456e67696e6523232344415441232323" name="Balefire Catapult" hidden="false" book="KoW Rulebook" page="137">
           <characteristics>
             <characteristic characteristicId="556e69742053697a6523232344415441232323" name="Unit Size" value="1"/>
             <characteristic characteristicId="537023232344415441232323" name="Sp" value="5"/>
@@ -93,7 +45,7 @@
         </link>
       </links>
     </entry>
-    <entry id="9c482266-c034-43c5-b1e3-709089c91641" name="Cursed Pharaoh" points="200.0" categoryId="4865726f65732f204d6f6e737465727323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kings of War Rulebook" page="138">
+    <entry id="9c482266-c034-43c5-b1e3-709089c91641" name="Cursed Pharaoh" points="200.0" categoryId="4865726f65732f204d6f6e737465727323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="">
       <entries>
         <entry id="135bd7b9-4f33-e7e7-e7f8-7b9be05ce692" name="Dark Surge (6) (Mummies only)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
@@ -117,7 +69,7 @@
         </rule>
       </rules>
       <profiles>
-        <profile id="330e164c-c773-d010-9a51-dc3585345b40" profileTypeId="4865726f23232344415441232323" name="Cursed Pharaoh" hidden="false" page="0">
+        <profile id="330e164c-c773-d010-9a51-dc3585345b40" profileTypeId="4865726f23232344415441232323" name="Cursed Pharaoh" hidden="false" book="KoW Rulebook" page="138">
           <characteristics>
             <characteristic characteristicId="556e69742053697a6523232344415441232323" name="Unit Size" value="1"/>
             <characteristic characteristicId="537023232344415441232323" name="Sp" value="4"/>
@@ -145,13 +97,13 @@
         </link>
       </links>
     </entry>
-    <entry id="f1d531e2-b134-4f22-ba09-67be666aa314" name="Ghoul Horde" points="150.0" categoryId="536f6c696420556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kings of War Rulebook" page="136">
+    <entry id="f1d531e2-b134-4f22-ba09-67be666aa314" name="Ghoul Horde" points="150.0" categoryId="536f6c696420556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="">
       <entries/>
       <entryGroups/>
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="d1312d5d-df71-dd16-056f-a905ba81ec33" profileTypeId="496e66616e74727923232344415441232323" name="Ghoul Horde" hidden="false" page="0">
+        <profile id="d1312d5d-df71-dd16-056f-a905ba81ec33" profileTypeId="496e66616e74727923232344415441232323" name="Ghoul Horde" hidden="false" book="KoW Rulebook" page="136">
           <characteristics>
             <characteristic characteristicId="556e69742053697a6523232344415441232323" name="Unit Size" value="40"/>
             <characteristic characteristicId="537023232344415441232323" name="Sp" value="6"/>
@@ -170,13 +122,13 @@
         </link>
       </links>
     </entry>
-    <entry id="363b65cb-bcbb-40f7-b22a-39463b90a71b" name="Ghoul Regiment" points="80.0" categoryId="536f6c696420556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kings of War Rulebook" page="136">
+    <entry id="363b65cb-bcbb-40f7-b22a-39463b90a71b" name="Ghoul Regiment" points="80.0" categoryId="536f6c696420556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="">
       <entries/>
       <entryGroups/>
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="d32f343c-640c-8372-dc85-5e937b80b68a" profileTypeId="496e66616e74727923232344415441232323" name="Ghoul Regiment" hidden="false" page="0">
+        <profile id="d32f343c-640c-8372-dc85-5e937b80b68a" profileTypeId="496e66616e74727923232344415441232323" name="Ghoul Regiment" hidden="false" book="KoW Rulebook" page="136">
           <characteristics>
             <characteristic characteristicId="556e69742053697a6523232344415441232323" name="Unit Size" value="20"/>
             <characteristic characteristicId="537023232344415441232323" name="Sp" value="6"/>
@@ -195,13 +147,13 @@
         </link>
       </links>
     </entry>
-    <entry id="24bbca86-af0e-41e9-8df9-874e3190b614" name="Ghoul Troop" points="60.0" categoryId="556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kings of War Rulebook" page="136">
+    <entry id="24bbca86-af0e-41e9-8df9-874e3190b614" name="Ghoul Troop" points="60.0" categoryId="556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="">
       <entries/>
       <entryGroups/>
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="3d0e93de-31e7-9c3b-3a16-70e66a58a783" profileTypeId="496e66616e74727923232344415441232323" name="Ghoul Troop" hidden="false" page="0">
+        <profile id="3d0e93de-31e7-9c3b-3a16-70e66a58a783" profileTypeId="496e66616e74727923232344415441232323" name="Ghoul Troop" hidden="false" book="KoW Rulebook" page="136">
           <characteristics>
             <characteristic characteristicId="556e69742053697a6523232344415441232323" name="Unit Size" value="10"/>
             <characteristic characteristicId="537023232344415441232323" name="Sp" value="6"/>
@@ -220,7 +172,7 @@
         </link>
       </links>
     </entry>
-    <entry id="6a2a5ca2-6245-4f86-9f06-61eb16160c97" name="Liche King" points="180.0" categoryId="4865726f65732f204d6f6e737465727323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kings of War Rulebook" page="139">
+    <entry id="6a2a5ca2-6245-4f86-9f06-61eb16160c97" name="Liche King" points="180.0" categoryId="4865726f65732f204d6f6e737465727323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="">
       <entries>
         <entry id="bebbab1e-31f6-41e1-8df9-206447c5fdcc" name="Undead Horse" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
@@ -271,7 +223,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="88143eb1-1ced-a1e2-ab45-9c8166bbdb79" profileTypeId="4865726f23232344415441232323" name="Liche King" hidden="false" page="0">
+        <profile id="88143eb1-1ced-a1e2-ab45-9c8166bbdb79" profileTypeId="4865726f23232344415441232323" name="Liche King" hidden="false" book="KoW Rulebook" page="139">
           <characteristics>
             <characteristic characteristicId="556e69742053697a6523232344415441232323" name="Unit Size" value="1"/>
             <characteristic characteristicId="537023232344415441232323" name="Sp" value="5"/>
@@ -298,7 +250,7 @@
         </link>
       </links>
     </entry>
-    <entry id="e79ca816-d2e4-48db-b6ad-6af3fefff3ae" name="Mhorgoth the Faceless" points="400.0" categoryId="4865726f65732f204d6f6e737465727323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kings of War Rulebook" page="138">
+    <entry id="e79ca816-d2e4-48db-b6ad-6af3fefff3ae" name="Mhorgoth the Faceless" points="400.0" categoryId="4865726f65732f204d6f6e737465727323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="">
       <entries>
         <entry id="ebde4515-9dd0-0634-98ae-c0b6f8e8394e" name="Dark Surge (12)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
@@ -353,7 +305,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="a8222f29-06a3-8ca2-b1b6-5cc11e35a509" profileTypeId="4865726f23232344415441232323" name="Mhorgoth the Faceless" hidden="false" page="0">
+        <profile id="a8222f29-06a3-8ca2-b1b6-5cc11e35a509" profileTypeId="4865726f23232344415441232323" name="Mhorgoth the Faceless" hidden="false" book="KoW Rulebook" page="138">
           <characteristics>
             <characteristic characteristicId="556e69742053697a6523232344415441232323" name="Unit Size" value="1"/>
             <characteristic characteristicId="537023232344415441232323" name="Sp" value="10"/>
@@ -381,13 +333,13 @@
         </link>
       </links>
     </entry>
-    <entry id="2695ec81-b854-4d1f-82ca-9d5d3e2b6e2b" name="Mummies Half-Regiment" points="220.0" categoryId="556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kings of War Rulebook" page="135">
+    <entry id="2695ec81-b854-4d1f-82ca-9d5d3e2b6e2b" name="Mummies Half-Regiment" points="220.0" categoryId="556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="">
       <entries/>
       <entryGroups/>
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="598865a0-0800-df68-83ab-d3d8e009bfac" profileTypeId="496e66616e74727923232344415441232323" name="Mummies Half-Regiment" hidden="false" page="0">
+        <profile id="598865a0-0800-df68-83ab-d3d8e009bfac" profileTypeId="496e66616e74727923232344415441232323" name="Mummies Half-Regiment" hidden="false" book="KoW Rulebook" page="135">
           <characteristics>
             <characteristic characteristicId="556e69742053697a6523232344415441232323" name="Unit Size" value="10"/>
             <characteristic characteristicId="537023232344415441232323" name="Sp" value="4"/>
@@ -415,13 +367,13 @@
         </link>
       </links>
     </entry>
-    <entry id="bb98ade7-759a-4cf4-bde1-87e75acf91b7" name="Mummies Regiment" points="295.0" categoryId="536f6c696420556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kings of War Rulebook" page="135">
+    <entry id="bb98ade7-759a-4cf4-bde1-87e75acf91b7" name="Mummies Regiment" points="295.0" categoryId="536f6c696420556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="">
       <entries/>
       <entryGroups/>
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="72179b84-cd70-83b3-359c-59d2e04e6424" profileTypeId="496e66616e74727923232344415441232323" name="Mummies Regiment" hidden="false" page="0">
+        <profile id="72179b84-cd70-83b3-359c-59d2e04e6424" profileTypeId="496e66616e74727923232344415441232323" name="Mummies Regiment" hidden="false" book="KoW Rulebook" page="135">
           <characteristics>
             <characteristic characteristicId="556e69742053697a6523232344415441232323" name="Unit Size" value="20"/>
             <characteristic characteristicId="537023232344415441232323" name="Sp" value="4"/>
@@ -449,13 +401,13 @@
         </link>
       </links>
     </entry>
-    <entry id="9d34dda2-29c3-4ff4-a0da-871a05c58d55" name="Mummies Troop" points="120.0" categoryId="556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kings of War Rulebook" page="135">
+    <entry id="9d34dda2-29c3-4ff4-a0da-871a05c58d55" name="Mummies Troop" points="120.0" categoryId="556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="">
       <entries/>
       <entryGroups/>
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="c8c4a803-d5ca-802a-8a29-7a3bf1e04804" profileTypeId="496e66616e74727923232344415441232323" name="Mummies Troop" hidden="false" page="0">
+        <profile id="c8c4a803-d5ca-802a-8a29-7a3bf1e04804" profileTypeId="496e66616e74727923232344415441232323" name="Mummies Troop" hidden="false" book="KoW Rulebook" page="135">
           <characteristics>
             <characteristic characteristicId="556e69742053697a6523232344415441232323" name="Unit Size" value="5"/>
             <characteristic characteristicId="537023232344415441232323" name="Sp" value="4"/>
@@ -483,7 +435,7 @@
         </link>
       </links>
     </entry>
-    <entry id="a3fcd5db-1011-4b28-88a8-932e32bba2c9" name="Necromancer" points="110.0" categoryId="4865726f65732f204d6f6e737465727323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kings of War Rulebook" page="139">
+    <entry id="a3fcd5db-1011-4b28-88a8-932e32bba2c9" name="Necromancer" points="110.0" categoryId="4865726f65732f204d6f6e737465727323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="">
       <entries>
         <entry id="6d5cc6ac-40eb-4910-837f-7e19f06c6abb" name="Undead Horse" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
@@ -534,7 +486,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="6a36fad1-19b1-368d-c27c-4ccbab29fdcc" profileTypeId="4865726f23232344415441232323" name="Necromancer" hidden="false" page="0">
+        <profile id="6a36fad1-19b1-368d-c27c-4ccbab29fdcc" profileTypeId="4865726f23232344415441232323" name="Necromancer" hidden="false" book="KoW Rulebook" page="139">
           <characteristics>
             <characteristic characteristicId="556e69742053697a6523232344415441232323" name="Unit Size" value="1"/>
             <characteristic characteristicId="537023232344415441232323" name="Sp" value="5"/>
@@ -561,7 +513,7 @@
         </link>
       </links>
     </entry>
-    <entry id="8107a6fc-c3a2-4ff6-9d7f-7b1f4ec447e8" name="Revenant Cavalry Regiment" points="155.0" categoryId="536f6c696420556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kings of War Rulebook" page="137">
+    <entry id="8107a6fc-c3a2-4ff6-9d7f-7b1f4ec447e8" name="Revenant Cavalry Regiment" points="155.0" categoryId="536f6c696420556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="">
       <entries>
         <entry id="aafa88e7-c414-483d-91df-c417c1e86455" name="Banner" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
@@ -584,7 +536,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="178785c2-d665-c3a0-c839-9eace80b754e" profileTypeId="436176616c727923232344415441232323" name="Revenant Cavalry Regiment" hidden="false" page="0">
+        <profile id="178785c2-d665-c3a0-c839-9eace80b754e" profileTypeId="436176616c727923232344415441232323" name="Revenant Cavalry Regiment" hidden="false" book="KoW Rulebook" page="137">
           <characteristics>
             <characteristic characteristicId="556e69742053697a6523232344415441232323" name="Unit Size" value="10"/>
             <characteristic characteristicId="537023232344415441232323" name="Sp" value="8"/>
@@ -609,7 +561,7 @@
         </link>
       </links>
     </entry>
-    <entry id="53af167a-2a07-47d8-83a5-0ef87a5895e3" name="Revenant Cavalry Troop" points="85.0" categoryId="556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kings of War Rulebook" page="137">
+    <entry id="53af167a-2a07-47d8-83a5-0ef87a5895e3" name="Revenant Cavalry Troop" points="85.0" categoryId="556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="">
       <entries>
         <entry id="a3a28513-f5bd-4c84-8911-8ff5318745dc" name="Banner" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
@@ -632,7 +584,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="e6f97b9d-5bfc-0249-b060-e05ab23b28d8" profileTypeId="436176616c727923232344415441232323" name="Revenant Cavalry Troop" hidden="false" page="0">
+        <profile id="e6f97b9d-5bfc-0249-b060-e05ab23b28d8" profileTypeId="436176616c727923232344415441232323" name="Revenant Cavalry Troop" hidden="false" book="KoW Rulebook" page="137">
           <characteristics>
             <characteristic characteristicId="556e69742053697a6523232344415441232323" name="Unit Size" value="5"/>
             <characteristic characteristicId="537023232344415441232323" name="Sp" value="8"/>
@@ -657,7 +609,7 @@
         </link>
       </links>
     </entry>
-    <entry id="d2a1755f-2ffa-4be8-b931-23c6a2ae0f10" name="Revenant Horde" points="210.0" categoryId="536f6c696420556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kings of War Rulebook" page="134">
+    <entry id="d2a1755f-2ffa-4be8-b931-23c6a2ae0f10" name="Revenant Horde" points="210.0" categoryId="536f6c696420556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="">
       <entries>
         <entry id="c22228ea-8348-4e44-ac97-ec9fddd208f3" name="Banner" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
@@ -692,7 +644,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="c4f294dd-ee69-2c33-c2b1-180db4c0be8d" profileTypeId="496e66616e74727923232344415441232323" name="Revenant Horde" hidden="false" page="0">
+        <profile id="c4f294dd-ee69-2c33-c2b1-180db4c0be8d" profileTypeId="496e66616e74727923232344415441232323" name="Revenant Horde" hidden="false" book="KoW Rulebook" page="134">
           <characteristics>
             <characteristic characteristicId="556e69742053697a6523232344415441232323" name="Unit Size" value="40"/>
             <characteristic characteristicId="537023232344415441232323" name="Sp" value="5"/>
@@ -719,7 +671,7 @@
         </link>
       </links>
     </entry>
-    <entry id="f2bd64b8-de1a-481c-910a-1f615553c536" name="Revenant King" points="120.0" categoryId="4865726f65732f204d6f6e737465727323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kings of War Rulebook" page="139">
+    <entry id="f2bd64b8-de1a-481c-910a-1f615553c536" name="Revenant King" points="120.0" categoryId="4865726f65732f204d6f6e737465727323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="">
       <entries>
         <entry id="7ad60d15-2043-4988-b142-da7a35c2f872" name="Undead Horse" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
@@ -746,7 +698,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="50109a08-ed76-64f8-0d55-ec0ec4546182" profileTypeId="4865726f23232344415441232323" name="Revenant King" hidden="false" page="0">
+        <profile id="50109a08-ed76-64f8-0d55-ec0ec4546182" profileTypeId="4865726f23232344415441232323" name="Revenant King" hidden="false" book="KoW Rulebook" page="139">
           <characteristics>
             <characteristic characteristicId="556e69742053697a6523232344415441232323" name="Unit Size" value="1"/>
             <characteristic characteristicId="537023232344415441232323" name="Sp" value="5"/>
@@ -779,7 +731,7 @@
         </link>
       </links>
     </entry>
-    <entry id="fa3641c1-7595-4b37-8984-c860cca0f301" name="Revenant Regiment" points="110.0" categoryId="536f6c696420556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kings of War Rulebook" page="134">
+    <entry id="fa3641c1-7595-4b37-8984-c860cca0f301" name="Revenant Regiment" points="110.0" categoryId="536f6c696420556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="">
       <entries>
         <entry id="435835ca-fd75-4d6d-bd81-5c8cd724dc9b" name="Banner" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
@@ -814,7 +766,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="d91d4dd7-a5af-c78a-924c-617d382098b6" profileTypeId="496e66616e74727923232344415441232323" name="Revenant Regiment" hidden="false" page="0">
+        <profile id="d91d4dd7-a5af-c78a-924c-617d382098b6" profileTypeId="496e66616e74727923232344415441232323" name="Revenant Regiment" hidden="false" book="KoW Rulebook" page="134">
           <characteristics>
             <characteristic characteristicId="556e69742053697a6523232344415441232323" name="Unit Size" value="20"/>
             <characteristic characteristicId="537023232344415441232323" name="Sp" value="5"/>
@@ -841,7 +793,7 @@
         </link>
       </links>
     </entry>
-    <entry id="46d80365-5d9b-47bc-a026-ac33febf42d7" name="Revenant Troop" points="85.0" categoryId="556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kings of War Rulebook" page="134">
+    <entry id="46d80365-5d9b-47bc-a026-ac33febf42d7" name="Revenant Troop" points="85.0" categoryId="556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="">
       <entries>
         <entry id="c08b9311-c47e-42b8-9890-d999cdab2477" name="Banner" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
@@ -876,7 +828,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="81cca2b4-146d-042c-deb9-5e01b9e31cdc" profileTypeId="496e66616e74727923232344415441232323" name="Revenant Troop" hidden="false" page="0">
+        <profile id="81cca2b4-146d-042c-deb9-5e01b9e31cdc" profileTypeId="496e66616e74727923232344415441232323" name="Revenant Troop" hidden="false" book="KoW Rulebook" page="134">
           <characteristics>
             <characteristic characteristicId="556e69742053697a6523232344415441232323" name="Unit Size" value="10"/>
             <characteristic characteristicId="537023232344415441232323" name="Sp" value="5"/>
@@ -903,15 +855,19 @@
         </link>
       </links>
     </entry>
-    <entry id="39560ba4-5eaa-4267-a338-1e59f664e527" name="Skeleton Archers Horde" points="135.0" categoryId="536f6c696420556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kings of War Rulebook" page="135">
+    <entry id="39560ba4-5eaa-4267-a338-1e59f664e527" name="Skeleton Archers Horde" points="135.0" categoryId="536f6c696420556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="">
       <entries>
-        <entry id="9d931def-c144-45cc-995b-b5179c6a4191" name="Undead Dogs" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+        <entry id="9d931def-c144-45cc-995b-b5179c6a4191" name="Undead Giant Rats / Dogs" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules/>
           <profiles/>
-          <links/>
+          <links>
+            <link id="ec22b3eb-3dfd-37d1-7483-e38e702aefed" targetId="e97e344e-e34a-7ef7-4bdc-c31c9a4b98ad" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
         </entry>
         <entry id="b35a77c6-4294-43f1-bb73-902f3a481e35" name="Banner" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
@@ -942,7 +898,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="fdd07e07-1f52-ffb0-2177-56994c1f311e" profileTypeId="496e66616e74727923232344415441232323" name="Skeleton Archers Horde" hidden="false" page="0">
+        <profile id="fdd07e07-1f52-ffb0-2177-56994c1f311e" profileTypeId="496e66616e74727923232344415441232323" name="Skeleton Archers Horde" hidden="false" book="KoW Rulebook" page="135">
           <characteristics>
             <characteristic characteristicId="556e69742053697a6523232344415441232323" name="Unit Size" value="40"/>
             <characteristic characteristicId="537023232344415441232323" name="Sp" value="5"/>
@@ -964,15 +920,19 @@
         </link>
       </links>
     </entry>
-    <entry id="6d8264b0-34b7-4c14-9091-d4d7ed718ef2" name="Skeleton Archers Regiment" points="70.0" categoryId="536f6c696420556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kings of War Rulebook" page="135">
+    <entry id="6d8264b0-34b7-4c14-9091-d4d7ed718ef2" name="Skeleton Archers Regiment" points="70.0" categoryId="536f6c696420556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="">
       <entries>
-        <entry id="f28d6701-8162-4a25-a664-fca87e713f73" name="Undead Dogs" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+        <entry id="f28d6701-8162-4a25-a664-fca87e713f73" name="Undead Giant Rats / Dogs" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules/>
           <profiles/>
-          <links/>
+          <links>
+            <link id="fccec85f-4892-4e21-4512-4a68f79e0a3b" targetId="e97e344e-e34a-7ef7-4bdc-c31c9a4b98ad" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
         </entry>
         <entry id="e9fe743a-cfb7-4cc0-a32f-09dc1454936d" name="Banner" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
@@ -1003,7 +963,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="5333db60-acb8-4728-6682-95fc4f86acc0" profileTypeId="496e66616e74727923232344415441232323" name="Skeleton Archers Regiment" hidden="false" page="0">
+        <profile id="5333db60-acb8-4728-6682-95fc4f86acc0" profileTypeId="496e66616e74727923232344415441232323" name="Skeleton Archers Regiment" hidden="false" book="KoW Rulebook" page="135">
           <characteristics>
             <characteristic characteristicId="556e69742053697a6523232344415441232323" name="Unit Size" value="20"/>
             <characteristic characteristicId="537023232344415441232323" name="Sp" value="5"/>
@@ -1025,15 +985,19 @@
         </link>
       </links>
     </entry>
-    <entry id="96bb5463-47d1-43e1-b767-75723fd26b7a" name="Skeleton Archers Troop" points="55.0" categoryId="556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kings of War Rulebook" page="135">
+    <entry id="96bb5463-47d1-43e1-b767-75723fd26b7a" name="Skeleton Archers Troop" points="55.0" categoryId="556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="">
       <entries>
-        <entry id="812a300c-b18a-4b8e-a7dc-2a50c0a6a7cd" name="Undead Dogs" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+        <entry id="812a300c-b18a-4b8e-a7dc-2a50c0a6a7cd" name="Undead Giant Rats / Dogs" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules/>
           <profiles/>
-          <links/>
+          <links>
+            <link id="10acd730-4209-bfa5-ece9-9c2052548948" targetId="e97e344e-e34a-7ef7-4bdc-c31c9a4b98ad" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
         </entry>
         <entry id="78386444-4220-4406-a403-0134ed43dd75" name="Banner" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
@@ -1064,7 +1028,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="c0e0170d-d734-d626-b3ce-e594470cc722" profileTypeId="496e66616e74727923232344415441232323" name="Skeleton Archers Troop" hidden="false" page="0">
+        <profile id="c0e0170d-d734-d626-b3ce-e594470cc722" profileTypeId="496e66616e74727923232344415441232323" name="Skeleton Archers Troop" hidden="false" book="KoW Rulebook" page="135">
           <characteristics>
             <characteristic characteristicId="556e69742053697a6523232344415441232323" name="Unit Size" value="10"/>
             <characteristic characteristicId="537023232344415441232323" name="Sp" value="5"/>
@@ -1086,15 +1050,19 @@
         </link>
       </links>
     </entry>
-    <entry id="cd5ed191-e925-40e5-9560-6fec399ab7c1" name="Skeleton Horde" points="135.0" categoryId="536f6c696420556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kings of War Rulebook" page="135">
+    <entry id="cd5ed191-e925-40e5-9560-6fec399ab7c1" name="Skeleton Horde" points="135.0" categoryId="536f6c696420556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="">
       <entries>
-        <entry id="7f4033b5-825e-4375-8471-9a2c130e770f" name="Undead Dogs" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+        <entry id="7f4033b5-825e-4375-8471-9a2c130e770f" name="Undead Giant Rats / Dogs" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules/>
           <profiles/>
-          <links/>
+          <links>
+            <link id="78b1a7a7-480e-6e24-ab33-c3a5a1ccf9e5" targetId="e97e344e-e34a-7ef7-4bdc-c31c9a4b98ad" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
         </entry>
         <entry id="606b9fa0-b6e6-49b9-b3a0-f92fc1b6c2ab" name="Spears" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
@@ -1129,7 +1097,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="4ede7dae-8e35-668e-f9be-0281dea575e1" profileTypeId="496e66616e74727923232344415441232323" name="Skeleton Horde" hidden="false" page="0">
+        <profile id="4ede7dae-8e35-668e-f9be-0281dea575e1" profileTypeId="496e66616e74727923232344415441232323" name="Skeleton Horde" hidden="false" book="KoW Rulebook" page="135">
           <characteristics>
             <characteristic characteristicId="556e69742053697a6523232344415441232323" name="Unit Size" value="40"/>
             <characteristic characteristicId="537023232344415441232323" name="Sp" value="5"/>
@@ -1151,15 +1119,19 @@
         </link>
       </links>
     </entry>
-    <entry id="012f8dc7-7d39-4bc5-818d-cb915fcf0d5b" name="Skeleton Regiment" points="70.0" categoryId="536f6c696420556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kings of War Rulebook" page="135">
+    <entry id="012f8dc7-7d39-4bc5-818d-cb915fcf0d5b" name="Skeleton Regiment" points="70.0" categoryId="536f6c696420556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="">
       <entries>
-        <entry id="30e2bddf-ecb6-465f-b948-b7d952485c19" name="Undead Dogs" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+        <entry id="30e2bddf-ecb6-465f-b948-b7d952485c19" name="Undead Giant Rats / Dogs" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules/>
           <profiles/>
-          <links/>
+          <links>
+            <link id="2feefd13-53d7-1fbd-ddf3-323ee5e71c56" targetId="e97e344e-e34a-7ef7-4bdc-c31c9a4b98ad" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
         </entry>
         <entry id="6fc1285c-7557-4e1c-97b4-551a6c2d6899" name="Banner" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
@@ -1194,7 +1166,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="9b91abe2-5e41-6d4f-4f53-d69f22a6ea22" profileTypeId="496e66616e74727923232344415441232323" name="Skeleton Regiment" hidden="false" page="0">
+        <profile id="9b91abe2-5e41-6d4f-4f53-d69f22a6ea22" profileTypeId="496e66616e74727923232344415441232323" name="Skeleton Regiment" hidden="false" book="KoW Rulebook" page="135">
           <characteristics>
             <characteristic characteristicId="556e69742053697a6523232344415441232323" name="Unit Size" value="20"/>
             <characteristic characteristicId="537023232344415441232323" name="Sp" value="5"/>
@@ -1216,15 +1188,19 @@
         </link>
       </links>
     </entry>
-    <entry id="901382f6-b40f-4b1f-882d-a475b6153d96" name="Skeleton Troop" points="55.0" categoryId="556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kings of War Rulebook" page="135">
+    <entry id="901382f6-b40f-4b1f-882d-a475b6153d96" name="Skeleton Troop" points="55.0" categoryId="556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="">
       <entries>
-        <entry id="730f9108-ed76-4b26-8d25-d56438babf0e" name="Undead Dogs" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+        <entry id="730f9108-ed76-4b26-8d25-d56438babf0e" name="Undead Giant Rats / Dogs" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules/>
           <profiles/>
-          <links/>
+          <links>
+            <link id="7d0d0de5-262f-a65c-d5c7-04195e09c488" targetId="e97e344e-e34a-7ef7-4bdc-c31c9a4b98ad" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
         </entry>
         <entry id="0b07df7b-a425-4856-a214-26e225d483c9" name="Banner" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
@@ -1259,7 +1235,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="4667bb03-a0db-1e26-d84b-7d48d716ad8c" profileTypeId="496e66616e74727923232344415441232323" name="Skeleton Troop" hidden="false" page="0">
+        <profile id="4667bb03-a0db-1e26-d84b-7d48d716ad8c" profileTypeId="496e66616e74727923232344415441232323" name="Skeleton Troop" hidden="false" book="KoW Rulebook" page="135">
           <characteristics>
             <characteristic characteristicId="556e69742053697a6523232344415441232323" name="Unit Size" value="10"/>
             <characteristic characteristicId="537023232344415441232323" name="Sp" value="5"/>
@@ -1281,7 +1257,7 @@
         </link>
       </links>
     </entry>
-    <entry id="2227bc63-ed19-4ee6-9556-4b1bf0494578" name="Soul Reavers Regiment" points="335.0" categoryId="536f6c696420556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kings of War Rulebook" page="137">
+    <entry id="2227bc63-ed19-4ee6-9556-4b1bf0494578" name="Soul Reavers Regiment" points="335.0" categoryId="536f6c696420556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="">
       <entries>
         <entry id="650d2c25-e744-45c3-b281-191893860574" name="Banner" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
@@ -1304,7 +1280,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="777a88ad-9101-91bd-5bf3-a7e5e5d0e9fc" profileTypeId="436176616c727923232344415441232323" name="Soul Reavers Regiment" hidden="false" page="0">
+        <profile id="777a88ad-9101-91bd-5bf3-a7e5e5d0e9fc" profileTypeId="436176616c727923232344415441232323" name="Soul Reavers Regiment" hidden="false" book="KoW Rulebook" page="137">
           <characteristics>
             <characteristic characteristicId="556e69742053697a6523232344415441232323" name="Unit Size" value="10"/>
             <characteristic characteristicId="537023232344415441232323" name="Sp" value="8"/>
@@ -1326,7 +1302,7 @@
         </link>
       </links>
     </entry>
-    <entry id="77641806-f5b3-4825-beba-7e2e23df9e8a" name="Soul Reavers Troop" points="185.0" categoryId="556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kings of War Rulebook" page="137">
+    <entry id="77641806-f5b3-4825-beba-7e2e23df9e8a" name="Soul Reavers Troop" points="185.0" categoryId="556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="">
       <entries>
         <entry id="ed6fda7c-6757-475d-9a07-37eb492927a1" name="Banner" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
@@ -1349,7 +1325,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="d2ed39e3-1eed-4e93-3244-dbb1d3b46218" profileTypeId="436176616c727923232344415441232323" name="Soul Reavers Troop" hidden="false" page="0">
+        <profile id="d2ed39e3-1eed-4e93-3244-dbb1d3b46218" profileTypeId="436176616c727923232344415441232323" name="Soul Reavers Troop" hidden="false" book="KoW Rulebook" page="137">
           <characteristics>
             <characteristic characteristicId="556e69742053697a6523232344415441232323" name="Unit Size" value="5"/>
             <characteristic characteristicId="537023232344415441232323" name="Sp" value="8"/>
@@ -1371,7 +1347,55 @@
         </link>
       </links>
     </entry>
-    <entry id="acc11089-0d6c-4e11-9808-be37b9af4d4a" name="Vampire Lord" points="275.0" categoryId="4865726f65732f204d6f6e737465727323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kings of War Rulebook" page="138">
+    <entry id="10dc680e-5921-43d6-aa95-4047a7d30b74" name="Undead Army Standard Bearer" points="25.0" categoryId="4865726f65732f204d6f6e737465727323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="" page="138">
+      <entries>
+        <entry id="6c44b9e1-cbd3-46fc-a5a0-a8acb561ea9d" name="Undead Horse" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="4d386df5-ed2e-76f8-ce8f-1cda05f382fb" profileTypeId="4865726f23232344415441232323" name="Undead Army Standard Bearer" hidden="false" book="KoW Rulebook" page="138">
+          <characteristics>
+            <characteristic characteristicId="556e69742053697a6523232344415441232323" name="Unit Size" value="1"/>
+            <characteristic characteristicId="537023232344415441232323" name="Sp" value="5"/>
+            <characteristic characteristicId="4d6523232344415441232323" name="Me" value="4+"/>
+            <characteristic characteristicId="526123232344415441232323" name="Ra" value="-"/>
+            <characteristic characteristicId="446523232344415441232323" name="De" value="4+"/>
+            <characteristic characteristicId="417423232344415441232323" name="At" value="1"/>
+            <characteristic characteristicId="4e6523232344415441232323" name="Ne" value="-/12"/>
+          </characteristics>
+          <modifiers>
+            <modifier type="set" field="537023232344415441232323" value="8" repeat="true" numRepeats="1" incrementParentId="10dc680e-5921-43d6-aa95-4047a7d30b74" incrementChildId="6c44b9e1-cbd3-46fc-a5a0-a8acb561ea9d" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </profile>
+      </profiles>
+      <links>
+        <link id="2b9e1511-10eb-6303-4e45-3e161e7e700b" targetId="4e92f01c-9499-ddc2-c286-1804399e3817" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="0232c5fc-4f26-b162-1343-5015f1bf1de6" targetId="bf7ea0e2-511d-d1db-fea1-e6376ec76121" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="65fa3030-24f1-08f5-e0cd-37b748e55541" targetId="215531fc-f49c-a180-c77d-783faa79c840" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="f7539d24-cede-b1f7-e2b7-b47e3538c611" targetId="b8da49bb-f87a-cbc5-9d1a-de6ffb52a807" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="acc11089-0d6c-4e11-9808-be37b9af4d4a" name="Vampire Lord" points="275.0" categoryId="4865726f65732f204d6f6e737465727323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="">
       <entries>
         <entry id="4fa1480c-44f6-4013-a32e-1fb28eb1ad93" name="Undead Horse" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
@@ -1422,7 +1446,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="fa819368-b6de-e7b1-a046-39bc05504a0f" profileTypeId="4865726f23232344415441232323" name="Vampire Lord" hidden="false" page="0">
+        <profile id="fa819368-b6de-e7b1-a046-39bc05504a0f" profileTypeId="4865726f23232344415441232323" name="Vampire Lord" hidden="false" book="KoW Rulebook" page="138">
           <characteristics>
             <characteristic characteristicId="556e69742053697a6523232344415441232323" name="Unit Size" value="1"/>
             <characteristic characteristicId="537023232344415441232323" name="Sp" value="7"/>
@@ -1455,7 +1479,7 @@
         </link>
       </links>
     </entry>
-    <entry id="196dec42-97f3-4be0-b405-a6955ec77965" name="Vampire on Undead Pegasus" points="285.0" categoryId="4865726f65732f204d6f6e737465727323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kings of War Rulebook" page="138">
+    <entry id="196dec42-97f3-4be0-b405-a6955ec77965" name="Vampire on Undead Pegasus" points="285.0" categoryId="4865726f65732f204d6f6e737465727323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="">
       <entries>
         <entry id="60841e9a-532f-7b55-bbbc-c9cf1006114c" name="Heal (3)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
@@ -1498,7 +1522,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="ad6f41c2-9ae2-1ea6-d369-150be2764e64" profileTypeId="4d6f6e7374657223232344415441232323" name="Vampire on Undead Pegasus" hidden="false" page="0">
+        <profile id="ad6f41c2-9ae2-1ea6-d369-150be2764e64" profileTypeId="4d6f6e7374657223232344415441232323" name="Vampire on Undead Pegasus" hidden="false" book="KoW Rulebook" page="138">
           <characteristics>
             <characteristic characteristicId="556e69742053697a6523232344415441232323" name="Unit Size" value="1"/>
             <characteristic characteristicId="537023232344415441232323" name="Sp" value="10"/>
@@ -1526,13 +1550,13 @@
         </link>
       </links>
     </entry>
-    <entry id="8fbefe7f-20ad-46e6-abc4-8a85424c4bfc" name="Werewolf" points="70.0" categoryId="556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kings of War Rulebook" page="136">
+    <entry id="8fbefe7f-20ad-46e6-abc4-8a85424c4bfc" name="Werewolf" points="70.0" categoryId="556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="">
       <entries/>
       <entryGroups/>
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="ddd58cc4-7f75-3afa-3c03-591d548fa501" profileTypeId="4c6172676520496e66616e74727923232344415441232323" name="Werewolf" hidden="false" page="0">
+        <profile id="ddd58cc4-7f75-3afa-3c03-591d548fa501" profileTypeId="4c6172676520496e66616e74727923232344415441232323" name="Werewolf" hidden="false" book="KoW Rulebook" page="136">
           <characteristics>
             <characteristic characteristicId="556e69742053697a6523232344415441232323" name="Unit Size" value="1"/>
             <characteristic characteristicId="537023232344415441232323" name="Sp" value="9"/>
@@ -1557,13 +1581,13 @@
         </link>
       </links>
     </entry>
-    <entry id="2290fee5-968e-4c8a-9345-61111a3e5b58" name="Werewolves Regiment" points="285.0" categoryId="536f6c696420556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kings of War Rulebook" page="136">
+    <entry id="2290fee5-968e-4c8a-9345-61111a3e5b58" name="Werewolves Regiment" points="285.0" categoryId="536f6c696420556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="">
       <entries/>
       <entryGroups/>
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="f07d13a8-2025-d573-d466-6ae162f3f180" profileTypeId="4c6172676520496e66616e74727923232344415441232323" name="Werewolves Regiment" hidden="false" page="0">
+        <profile id="f07d13a8-2025-d573-d466-6ae162f3f180" profileTypeId="4c6172676520496e66616e74727923232344415441232323" name="Werewolves Regiment" hidden="false" book="KoW Rulebook" page="136">
           <characteristics>
             <characteristic characteristicId="556e69742053697a6523232344415441232323" name="Unit Size" value="6"/>
             <characteristic characteristicId="537023232344415441232323" name="Sp" value="9"/>
@@ -1588,13 +1612,13 @@
         </link>
       </links>
     </entry>
-    <entry id="942204ba-782e-4bad-8fb7-d3f68c8c8cfd" name="Werewolves Troop" points="150.0" categoryId="536f6c696420556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kings of War Rulebook" page="136">
+    <entry id="942204ba-782e-4bad-8fb7-d3f68c8c8cfd" name="Werewolves Troop" points="150.0" categoryId="536f6c696420556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="">
       <entries/>
       <entryGroups/>
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="73130d00-7305-f962-67b4-c41d82c80964" profileTypeId="4c6172676520496e66616e74727923232344415441232323" name="Werewolves Troop" hidden="false" page="0">
+        <profile id="73130d00-7305-f962-67b4-c41d82c80964" profileTypeId="4c6172676520496e66616e74727923232344415441232323" name="Werewolves Troop" hidden="false" book="KoW Rulebook" page="136">
           <characteristics>
             <characteristic characteristicId="556e69742053697a6523232344415441232323" name="Unit Size" value="3"/>
             <characteristic characteristicId="537023232344415441232323" name="Sp" value="9"/>
@@ -1619,13 +1643,13 @@
         </link>
       </links>
     </entry>
-    <entry id="014ec003-cfa0-45a1-b33d-afb694393d74" name="Wights Troop" points="180.0" categoryId="556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kings of War Rulebook" page="135">
+    <entry id="014ec003-cfa0-45a1-b33d-afb694393d74" name="Wights Troop" points="180.0" categoryId="556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="">
       <entries/>
       <entryGroups/>
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="e25e5bd9-23c0-8213-2f6d-7ed05eda231f" profileTypeId="496e66616e74727923232344415441232323" name="Wights" hidden="false" page="0">
+        <profile id="e25e5bd9-23c0-8213-2f6d-7ed05eda231f" profileTypeId="496e66616e74727923232344415441232323" name="Wights" hidden="false" book="KoW Rulebook" page="135">
           <characteristics>
             <characteristic characteristicId="556e69742053697a6523232344415441232323" name="Unit Size" value="3"/>
             <characteristic characteristicId="537023232344415441232323" name="Sp" value="5"/>
@@ -1653,13 +1677,13 @@
         </link>
       </links>
     </entry>
-    <entry id="c7071765-8482-4530-9103-ee5d47e3ec7f" name="Wraiths Half-Regiment" points="200.0" categoryId="556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kings of War Rulebook" page="134">
+    <entry id="c7071765-8482-4530-9103-ee5d47e3ec7f" name="Wraiths Half-Regiment" points="200.0" categoryId="556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="">
       <entries/>
       <entryGroups/>
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="2a9406f4-b91e-cfc2-1f88-f0d0ecdfed5e" profileTypeId="496e66616e74727923232344415441232323" name="Wraiths Half-Regiment" hidden="false" page="0">
+        <profile id="2a9406f4-b91e-cfc2-1f88-f0d0ecdfed5e" profileTypeId="496e66616e74727923232344415441232323" name="Wraiths Half-Regiment" hidden="false" book="KoW Rulebook" page="134">
           <characteristics>
             <characteristic characteristicId="556e69742053697a6523232344415441232323" name="Unit Size" value="10"/>
             <characteristic characteristicId="537023232344415441232323" name="Sp" value="10"/>
@@ -1687,13 +1711,13 @@
         </link>
       </links>
     </entry>
-    <entry id="34be5888-849b-4cef-98f2-38e92d16043a" name="Wraiths Regiment" points="265.0" categoryId="536f6c696420556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kings of War Rulebook" page="134">
+    <entry id="34be5888-849b-4cef-98f2-38e92d16043a" name="Wraiths Regiment" points="265.0" categoryId="536f6c696420556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="">
       <entries/>
       <entryGroups/>
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="46ffcd8f-229f-ceb7-f7eb-da45cba02d2c" profileTypeId="496e66616e74727923232344415441232323" name="Wraiths Regiment" hidden="false" page="0">
+        <profile id="46ffcd8f-229f-ceb7-f7eb-da45cba02d2c" profileTypeId="496e66616e74727923232344415441232323" name="Wraiths Regiment" hidden="false" book="KoW Rulebook" page="134">
           <characteristics>
             <characteristic characteristicId="556e69742053697a6523232344415441232323" name="Unit Size" value="20"/>
             <characteristic characteristicId="537023232344415441232323" name="Sp" value="10"/>
@@ -1721,13 +1745,13 @@
         </link>
       </links>
     </entry>
-    <entry id="d3e641f9-06df-483c-b354-3e95ad1877cf" name="Wraiths Troop" points="110.0" categoryId="556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kings of War Rulebook" page="134">
+    <entry id="d3e641f9-06df-483c-b354-3e95ad1877cf" name="Wraiths Troop" points="110.0" categoryId="556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="">
       <entries/>
       <entryGroups/>
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="0d64007a-eba9-2598-2b98-cb4ba8228ebc" profileTypeId="496e66616e74727923232344415441232323" name="Wraiths Troop" hidden="false" page="0">
+        <profile id="0d64007a-eba9-2598-2b98-cb4ba8228ebc" profileTypeId="496e66616e74727923232344415441232323" name="Wraiths Troop" hidden="false" book="KoW Rulebook" page="134">
           <characteristics>
             <characteristic characteristicId="556e69742053697a6523232344415441232323" name="Unit Size" value="5"/>
             <characteristic characteristicId="537023232344415441232323" name="Sp" value="10"/>
@@ -1755,7 +1779,7 @@
         </link>
       </links>
     </entry>
-    <entry id="15ebfffd-0aff-15d8-efff-4bb5e1359ca2" name="Zombie Endless Swarm" points="200.0" categoryId="536f6c696420556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kings of War Rulebook" page="136">
+    <entry id="15ebfffd-0aff-15d8-efff-4bb5e1359ca2" name="Zombie Endless Swarm" points="200.0" categoryId="536f6c696420556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="">
       <entries>
         <entry id="a5edb425-b94c-5803-01bb-6e6c55a69f7f" name="Banner" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
@@ -1778,7 +1802,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="f78d8c31-a4e9-aba3-1ee3-1d787167ad9f" profileTypeId="496e66616e74727923232344415441232323" name="Zombie Endless Swarm" hidden="false" page="0">
+        <profile id="f78d8c31-a4e9-aba3-1ee3-1d787167ad9f" profileTypeId="496e66616e74727923232344415441232323" name="Zombie Endless Swarm" hidden="false" book="KoW Rulebook" page="136">
           <characteristics>
             <characteristic characteristicId="556e69742053697a6523232344415441232323" name="Unit Size" value="60"/>
             <characteristic characteristicId="537023232344415441232323" name="Sp" value="5"/>
@@ -1800,7 +1824,7 @@
         </link>
       </links>
     </entry>
-    <entry id="fb71885f-0a0d-4416-9af6-b147ed854f72" name="Zombie Horde" points="95.0" categoryId="536f6c696420556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kings of War Rulebook" page="136">
+    <entry id="fb71885f-0a0d-4416-9af6-b147ed854f72" name="Zombie Horde" points="95.0" categoryId="536f6c696420556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="">
       <entries>
         <entry id="fd8c0035-6e88-4977-b2fc-4fcb73d0be74" name="Banner" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
@@ -1823,7 +1847,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="93c49034-e2b2-a190-d396-656d00af69f7" profileTypeId="496e66616e74727923232344415441232323" name="Zombie Horde" hidden="false" page="0">
+        <profile id="93c49034-e2b2-a190-d396-656d00af69f7" profileTypeId="496e66616e74727923232344415441232323" name="Zombie Horde" hidden="false" book="KoW Rulebook" page="136">
           <characteristics>
             <characteristic characteristicId="556e69742053697a6523232344415441232323" name="Unit Size" value="30"/>
             <characteristic characteristicId="537023232344415441232323" name="Sp" value="5"/>
@@ -1845,7 +1869,7 @@
         </link>
       </links>
     </entry>
-    <entry id="5d8d091d-840e-4747-b4b5-c5c66217bd29" name="Zombie Regiment" points="65.0" categoryId="536f6c696420556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kings of War Rulebook" page="136">
+    <entry id="5d8d091d-840e-4747-b4b5-c5c66217bd29" name="Zombie Regiment" points="65.0" categoryId="536f6c696420556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="">
       <entries>
         <entry id="4c59a9d9-b134-4dda-b906-c792b1390fbd" name="Banner" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
@@ -1868,7 +1892,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="626d38e6-fe4a-d687-19d0-3b277e07d8df" profileTypeId="496e66616e74727923232344415441232323" name="Zombie Regiment" hidden="false" page="0">
+        <profile id="626d38e6-fe4a-d687-19d0-3b277e07d8df" profileTypeId="496e66616e74727923232344415441232323" name="Zombie Regiment" hidden="false" book="KoW Rulebook" page="136">
           <characteristics>
             <characteristic characteristicId="556e69742053697a6523232344415441232323" name="Unit Size" value="20"/>
             <characteristic characteristicId="537023232344415441232323" name="Sp" value="5"/>
@@ -1890,7 +1914,7 @@
         </link>
       </links>
     </entry>
-    <entry id="4f33c26c-b5ab-404c-9591-cedc6f102db3" name="Zombie Swarm" points="120.0" categoryId="536f6c696420556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kings of War Rulebook" page="135">
+    <entry id="4f33c26c-b5ab-404c-9591-cedc6f102db3" name="Zombie Swarm" points="120.0" categoryId="536f6c696420556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="">
       <entries>
         <entry id="9d75accb-6bd1-431c-a870-977f55026b99" name="Banner" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
@@ -1913,7 +1937,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="87aeb070-3f6a-3f8d-7ff0-f939b7bfa524" profileTypeId="496e66616e74727923232344415441232323" name="Zombie Swarm" hidden="false" page="0">
+        <profile id="87aeb070-3f6a-3f8d-7ff0-f939b7bfa524" profileTypeId="496e66616e74727923232344415441232323" name="Zombie Swarm" hidden="false" book="KoW Rulebook" page="136">
           <characteristics>
             <characteristic characteristicId="556e69742053697a6523232344415441232323" name="Unit Size" value="40"/>
             <characteristic characteristicId="537023232344415441232323" name="Sp" value="5"/>
@@ -1937,7 +1961,7 @@
     </entry>
   </entries>
   <rules>
-    <rule id="74564526-454d-5cae-8c59-250a5b4936d0" name="Army Special Rule: Evil Dead" hidden="false" page="0">
+    <rule id="74564526-454d-5cae-8c59-250a5b4936d0" name="Army Special Rule: Evil Dead" hidden="false" book="KoW Rulebook" page="133">
       <description>Every time a unit inflicts one or more points of damage against an enemy in melee, it regains a single point of damage that it has previously suffered.</description>
       <modifiers/>
     </rule>
@@ -1947,12 +1971,12 @@
   <sharedEntryGroups>
     <entryGroup id="4e92f01c-9499-ddc2-c286-1804399e3817" name="Heroic Magical Artefact" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="0cce75ba-d11f-2f6c-dd53-0821c9306846" name="Fire-Oil" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kings of War Rulebook" page="44">
+        <entry id="0cce75ba-d11f-2f6c-dd53-0821c9306846" name="Fire-Oil" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="KoW Rulebook" page="44">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules>
-            <rule id="ae1bfdb5-1328-5229-d330-f2dacef08dce" name="Fire-Oil" hidden="false" book="">
+            <rule id="ae1bfdb5-1328-5229-d330-f2dacef08dce" name="Fire-Oil" hidden="false" book="KoW Rulebook" page="44">
               <description>Successful ranged or melee damage from this unit against a unit with Regeneration causes the target unit to lose Regeneration for the rest of the game.</description>
               <modifiers/>
             </rule>
@@ -1960,7 +1984,7 @@
           <profiles/>
           <links/>
         </entry>
-        <entry id="f5ebdd91-4a0a-4614-a4a9-a936629b94b6" name="Medallion of Life" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kings of War Rulebook" page="45">
+        <entry id="f5ebdd91-4a0a-4614-a4a9-a936629b94b6" name="Medallion of Life" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="KoW Rulebook" page="45">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -1972,7 +1996,7 @@
             </link>
           </links>
         </entry>
-        <entry id="236745da-29df-8918-64b7-e2fdf63f3152" name="Chant of Hate" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kings of War Rulebook" page="45">
+        <entry id="236745da-29df-8918-64b7-e2fdf63f3152" name="Chant of Hate" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="KoW Rulebook" page="45">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -1984,12 +2008,12 @@
             </link>
           </links>
         </entry>
-        <entry id="38c7c845-7978-5e10-d372-bf69b95aefe2" name="Brew of Courage" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kings of War Rulebook" page="45">
+        <entry id="38c7c845-7978-5e10-d372-bf69b95aefe2" name="Brew of Courage" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="KoW Rulebook" page="45">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules>
-            <rule id="2f2c5187-bbc9-9abc-3940-cbcfd8cac9a8" name="Brew of Courage" hidden="false" book="" page="0">
+            <rule id="2f2c5187-bbc9-9abc-3940-cbcfd8cac9a8" name="Brew of Courage" hidden="false" book="KoW Rulebook" page="45">
               <description>-1 to Nerve Tests.</description>
               <modifiers/>
             </rule>
@@ -1997,7 +2021,7 @@
           <profiles/>
           <links/>
         </entry>
-        <entry id="cf4ca33a-6eec-3c70-7fd3-75aede369d11" name="Blessing of the Gods" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kings of War Rulebook" page="45">
+        <entry id="cf4ca33a-6eec-3c70-7fd3-75aede369d11" name="Blessing of the Gods" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="KoW Rulebook" page="45">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -2009,12 +2033,12 @@
             </link>
           </links>
         </entry>
-        <entry id="2c357a17-47d3-b1c4-1017-727b76646cab" name="Blasting Arrow" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kings of War Rulebook" page="44">
+        <entry id="2c357a17-47d3-b1c4-1017-727b76646cab" name="Blasting Arrow" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="KoW Rulebook" page="44">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules>
-            <rule id="fa022664-c805-354d-ddc0-45e52c635777" name="Blasting Arrow" hidden="false" page="0">
+            <rule id="fa022664-c805-354d-ddc0-45e52c635777" name="Blasting Arrow" hidden="false" book="KoW Rulebook" page="44">
               <description>Roll one of the unit&apos;s ranged attacks separately. This one attack only counts as Blast (d6). Can only be used by normal ranged attacks.</description>
               <modifiers/>
             </rule>
@@ -2022,12 +2046,12 @@
           <profiles/>
           <links/>
         </entry>
-        <entry id="36f9d56d-6386-a5f4-c000-a04094fd85df" name="Pipes of Terror" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kings of War Rulebook" page="44">
+        <entry id="36f9d56d-6386-a5f4-c000-a04094fd85df" name="Pipes of Terror" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="KoW Rulebook" page="44">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules>
-            <rule id="be4a7fa1-7858-7886-08e3-34dcdaf24052" name="Pipes of Terror" hidden="false" book="" page="0">
+            <rule id="be4a7fa1-7858-7886-08e3-34dcdaf24052" name="Pipes of Terror" hidden="false" book="KoW Rulebook" page="44">
               <description>Add +1 to Nerve test if unit inflicts any damage on an enemy in melee.</description>
               <modifiers/>
             </rule>
@@ -2035,12 +2059,12 @@
           <profiles/>
           <links/>
         </entry>
-        <entry id="af90e348-9d5e-df7f-1f14-ef6ab0e1cf7e" name="Brew of Haste" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kings of War Rulebook" page="44">
+        <entry id="af90e348-9d5e-df7f-1f14-ef6ab0e1cf7e" name="Brew of Haste" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="KoW Rulebook" page="44">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules>
-            <rule id="84032a09-98b1-06aa-4751-07c1ffdcca31" name="Brew of Haste" hidden="false" book="">
+            <rule id="84032a09-98b1-06aa-4751-07c1ffdcca31" name="Brew of Haste" hidden="false" book="KoW Rulebook" page="44">
               <description>+1 Speed.</description>
               <modifiers/>
             </rule>
@@ -2048,7 +2072,7 @@
           <profiles/>
           <links/>
         </entry>
-        <entry id="a4ab7768-e6f3-c7c2-0edd-1ea246fafc3b" name="Talisman of Inspiration" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kings of War Rulebook" page="44">
+        <entry id="a4ab7768-e6f3-c7c2-0edd-1ea246fafc3b" name="Talisman of Inspiration" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="KoW Rulebook" page="44">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -2060,12 +2084,12 @@
             </link>
           </links>
         </entry>
-        <entry id="29f84b81-225e-6f33-0129-c315bc7bd6ec" name="Piercing Arrow" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kings of War Rulebook" page="44">
+        <entry id="29f84b81-225e-6f33-0129-c315bc7bd6ec" name="Piercing Arrow" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="KoW Rulebook" page="44">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules>
-            <rule id="657fbb36-4955-666e-3d05-1f7ee1439c30" name="Piercing Arrow" hidden="false" book="">
+            <rule id="657fbb36-4955-666e-3d05-1f7ee1439c30" name="Piercing Arrow" hidden="false" book="KoW Rulebook" page="44">
               <description>Roll one of the unit&apos;s ranged attacks separately. This one attack only counts as Piercing (4). Can only be used by normal ranged attacks.</description>
               <modifiers/>
             </rule>
@@ -2073,12 +2097,12 @@
           <profiles/>
           <links/>
         </entry>
-        <entry id="4e637f82-3c7a-d1a1-764a-90a8811ccec9" name="Mace of Crushing" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kings of War Rulebook" page="44">
+        <entry id="4e637f82-3c7a-d1a1-764a-90a8811ccec9" name="Mace of Crushing" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="KoW Rulebook" page="44">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules>
-            <rule id="6ca9d1e5-c9e4-10bf-e47f-ae36d5c3b5cf" name="Mace of Crushing" hidden="false" page="0">
+            <rule id="6ca9d1e5-c9e4-10bf-e47f-ae36d5c3b5cf" name="Mace of Crushing" hidden="false" book="KoW Rulebook" page="44">
               <description>Roll one of the unit&apos;s melee attacks separately. This one attack only counts as Crushing Strength (1) or the unit&apos;s current Crushing Strength +1 if it already has the ability.</description>
               <modifiers/>
             </rule>
@@ -2086,12 +2110,12 @@
           <profiles/>
           <links/>
         </entry>
-        <entry id="525259cc-871f-5a77-bb59-e2427161c3ab" name="Ensorcelled Armour" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kings of War Rulebook" page="45">
+        <entry id="525259cc-871f-5a77-bb59-e2427161c3ab" name="Ensorcelled Armour" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="KoW Rulebook" page="45">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules>
-            <rule id="b88c1a0f-4f7e-bfda-fc2f-c51b7526abf2" name="Ensorcelled Armour" hidden="false" page="0">
+            <rule id="b88c1a0f-4f7e-bfda-fc2f-c51b7526abf2" name="Ensorcelled Armour" hidden="false" book="KoW Rulebook" page="45">
               <description>+1 Defence (to a maximum of 6+).</description>
               <modifiers/>
             </rule>
@@ -2099,12 +2123,12 @@
           <profiles/>
           <links/>
         </entry>
-        <entry id="1de74779-5369-a8fa-e86f-820778d4124f" name="Helm of Confidence" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kings of War Rulebook" page="45">
+        <entry id="1de74779-5369-a8fa-e86f-820778d4124f" name="Helm of Confidence" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="KoW Rulebook" page="45">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules>
-            <rule id="65828841-38b4-4a8a-950a-c508a353525e" name="Helm of Confidence" hidden="false" page="0">
+            <rule id="65828841-38b4-4a8a-950a-c508a353525e" name="Helm of Confidence" hidden="false" book="KoW Rulebook" page="45">
               <description>Unit always counts as if in range of a unit with Inspiring.</description>
               <modifiers/>
             </rule>
@@ -2112,12 +2136,12 @@
           <profiles/>
           <links/>
         </entry>
-        <entry id="f7431c97-cbf0-9487-1eec-b19a7447e093" name="Boots of Levitation" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kings of War Rulebook" page="45">
+        <entry id="f7431c97-cbf0-9487-1eec-b19a7447e093" name="Boots of Levitation" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="KoW Rulebook" page="45">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules>
-            <rule id="e101701d-c2ba-19d2-006a-6278be9ac41b" name="Boots of Levitation" hidden="false" page="0">
+            <rule id="e101701d-c2ba-19d2-006a-6278be9ac41b" name="Boots of Levitation" hidden="false" book="KoW Rulebook" page="45">
               <description>Unit may advance and shoot as if it had halted, or move at the double and shoot as if it had advanced.</description>
               <modifiers/>
             </rule>
@@ -2125,12 +2149,12 @@
           <profiles/>
           <links/>
         </entry>
-        <entry id="78c0946d-0f10-70d9-07b5-725c5415a9b9" name="Brew of Strength" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kings of War Rulebook" page="45">
+        <entry id="78c0946d-0f10-70d9-07b5-725c5415a9b9" name="Brew of Strength" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="KoW Rulebook" page="45">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules>
-            <rule id="ffdb249b-43a2-8d31-6e4c-0dc2e1f00fb1" name="Brew of Strength" hidden="false" page="0">
+            <rule id="ffdb249b-43a2-8d31-6e4c-0dc2e1f00fb1" name="Brew of Strength" hidden="false" book="KoW Rulebook" page="45">
               <description>Grants Crushing Strength (1) or increases the unit&apos;s current Crushing Strength value by 1.</description>
               <modifiers/>
             </rule>
@@ -2138,12 +2162,12 @@
           <profiles/>
           <links/>
         </entry>
-        <entry id="c73811b6-8923-9241-916f-0dab7e620aa3" name="Steed-Bane Incense" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kings of War Rulebook" page="45">
+        <entry id="c73811b6-8923-9241-916f-0dab7e620aa3" name="Steed-Bane Incense" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="KoW Rulebook" page="45">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules>
-            <rule id="547cd84b-a49e-9ede-cb91-9b5d6736236f" name="Steed-Bane Incense" hidden="false" page="0">
+            <rule id="547cd84b-a49e-9ede-cb91-9b5d6736236f" name="Steed-Bane Incense" hidden="false" book="KoW Rulebook" page="45">
               <description>Cavalry and units with Fly suffer -1 to hit this unit in melee.</description>
               <modifiers/>
             </rule>
@@ -2151,7 +2175,7 @@
           <profiles/>
           <links/>
         </entry>
-        <entry id="083d9ee5-8ec4-11ef-eec9-dd257159ce17" name="Wine of Elvenkind" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kings of War Rulebook" page="45">
+        <entry id="083d9ee5-8ec4-11ef-eec9-dd257159ce17" name="Wine of Elvenkind" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="KoW Rulebook" page="45">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -2163,7 +2187,7 @@
             </link>
           </links>
         </entry>
-        <entry id="18602e60-370e-d229-d4b1-52e6a56f38fb" name="Dwarven Ale" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kings of War Rulebook" page="45">
+        <entry id="18602e60-370e-d229-d4b1-52e6a56f38fb" name="Dwarven Ale" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="KoW Rulebook" page="45">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -2175,12 +2199,12 @@
             </link>
           </links>
         </entry>
-        <entry id="816e1ac7-75de-c292-f89d-41c6af9e969b" name="Boots of the Seven Leagues" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kings of War Rulebook" page="45">
+        <entry id="816e1ac7-75de-c292-f89d-41c6af9e969b" name="Boots of the Seven Leagues" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="KoW Rulebook" page="45">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules>
-            <rule id="7cc56723-ca2e-da1d-0d2f-89b22439dc2a" name="Boots of the Seven Leagues" hidden="false" page="0">
+            <rule id="7cc56723-ca2e-da1d-0d2f-89b22439dc2a" name="Boots of the Seven Leagues" hidden="false" book="KoW Rulebook" page="45">
               <description>Hero gains Vanguard (must have the Individual rule).</description>
               <modifiers/>
             </rule>
@@ -2188,7 +2212,7 @@
           <profiles/>
           <links/>
         </entry>
-        <entry id="b0afe72f-760d-6465-cec6-659fa3ab04e1" name="The Boomstick" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kings of War Rulebook" page="45">
+        <entry id="b0afe72f-760d-6465-cec6-659fa3ab04e1" name="The Boomstick" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="KoW Rulebook" page="45">
           <entries>
             <entry id="fbc731aa-fcbe-b686-8d6e-c0496cdb2769" name="Zap! (3)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
               <entries/>
@@ -2209,12 +2233,12 @@
           <profiles/>
           <links/>
         </entry>
-        <entry id="f3a03ab9-7304-1a02-919b-5e05d726cb6c" name="Jar of the Four Winds" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kings of War Rulebook" page="45">
+        <entry id="f3a03ab9-7304-1a02-919b-5e05d726cb6c" name="Jar of the Four Winds" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="KoW Rulebook" page="45">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules>
-            <rule id="8ddd3822-567f-72c1-5205-ba101fdb31be" name="Jar of the Four Winds" hidden="false" page="0">
+            <rule id="8ddd3822-567f-72c1-5205-ba101fdb31be" name="Jar of the Four Winds" hidden="false" book="KoW Rulebook" page="45">
               <description>The unit&apos;s normal ranged attacks gain +12&quot; range.</description>
               <modifiers/>
             </rule>
@@ -2222,7 +2246,7 @@
           <profiles/>
           <links/>
         </entry>
-        <entry id="7ba557a7-9036-1866-af31-5d51e5a9564f" name="Healing Charm" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kings of War Rulebook" page="45">
+        <entry id="7ba557a7-9036-1866-af31-5d51e5a9564f" name="Healing Charm" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="KoW Rulebook" page="45">
           <entries>
             <entry id="f008cf67-4bb9-e005-d1a3-39903daff798" name="Heal (3)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
               <entries/>
@@ -2243,12 +2267,12 @@
           <profiles/>
           <links/>
         </entry>
-        <entry id="ad64ac9d-a0c5-c8ab-e50b-5c56f545351f" name="Brew of Keen-Eyeness" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kings of War Rulebook" page="45">
+        <entry id="ad64ac9d-a0c5-c8ab-e50b-5c56f545351f" name="Brew of Keen-Eyeness" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="KoW Rulebook" page="45">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules>
-            <rule id="6ea3095b-5ccc-53e1-7dfc-07e08526f0e2" name="Brew of Keen-Eyeness" hidden="false" book="" page="0">
+            <rule id="6ea3095b-5ccc-53e1-7dfc-07e08526f0e2" name="Brew of Keen-Eyeness" hidden="false" book="KoW Rulebook" page="45">
               <description>+1 to hit with normal ranged attacks.</description>
               <modifiers/>
             </rule>
@@ -2256,12 +2280,12 @@
           <profiles/>
           <links/>
         </entry>
-        <entry id="926820e9-9d3f-05b3-a00c-26f2560add2b" name="Wings of Honeymaze" points="45.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kings of War Rulebook" page="45">
+        <entry id="926820e9-9d3f-05b3-a00c-26f2560add2b" name="Wings of Honeymaze" points="45.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="KoW Rulebook" page="45">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules>
-            <rule id="2017107b-91fb-0407-265d-7e526d8cb951" name="Wings of Honeymaze" hidden="false" page="0">
+            <rule id="2017107b-91fb-0407-265d-7e526d8cb951" name="Wings of Honeymaze" hidden="false" book="KoW Rulebook" page="45">
               <description>Grants Fly and increases Speed to 10.</description>
               <modifiers/>
             </rule>
@@ -2273,12 +2297,12 @@
             </link>
           </links>
         </entry>
-        <entry id="5b3090a7-2e28-3db4-52ff-fd326d80729c" name="Heart-Seeking Chant" points="45.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kings of War Rulebook" page="45">
+        <entry id="5b3090a7-2e28-3db4-52ff-fd326d80729c" name="Heart-Seeking Chant" points="45.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="KoW Rulebook" page="45">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules>
-            <rule id="086b2563-abb7-bcaa-1fa4-d2a1b0801119" name="Heart-Seeking Chant" hidden="false" page="0">
+            <rule id="086b2563-abb7-bcaa-1fa4-d2a1b0801119" name="Heart-Seeking Chant" hidden="false" book="KoW Rulebook" page="45">
               <description>Grants Piercing (1) or increases the unit&apos;s current Piercing value by 1. Normal ranged attacks only.</description>
               <modifiers/>
             </rule>
@@ -2286,7 +2310,7 @@
           <profiles/>
           <links/>
         </entry>
-        <entry id="9494a865-716a-79a0-db15-86c2a75e10e8" name="The Fog" points="40.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kings of War Rulebook" page="45">
+        <entry id="9494a865-716a-79a0-db15-86c2a75e10e8" name="The Fog" points="40.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="KoW Rulebook" page="45">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -2298,9 +2322,9 @@
             </link>
           </links>
         </entry>
-        <entry id="898258cf-69f6-fe3f-3db1-e4631766fb1c" name="Diadem of Dragon-Kind" points="40.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kings of War Rulebook" page="45">
+        <entry id="898258cf-69f6-fe3f-3db1-e4631766fb1c" name="Diadem of Dragon-Kind" points="40.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="KoW Rulebook" page="45">
           <entries>
-            <entry id="f9f771b0-e68b-b773-a4b3-4773e6a3f94a" name="Breath Attack (10)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+            <entry id="f9f771b0-e68b-b773-a4b3-4773e6a3f94a" name="Breath Attack (10)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="KoW Rulebook" page="45">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -2319,12 +2343,12 @@
           <profiles/>
           <links/>
         </entry>
-        <entry id="e5675ff1-7eab-0ab3-36d6-1da5195f75fa" name="Brew of Sharpness" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kings of War Rulebook" page="45">
+        <entry id="e5675ff1-7eab-0ab3-36d6-1da5195f75fa" name="Brew of Sharpness" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="KoW Rulebook" page="45">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules>
-            <rule id="cb92f679-57e5-9987-cbc9-d6779a0dd624" name="Brew of Sharpness" hidden="false" book="">
+            <rule id="cb92f679-57e5-9987-cbc9-d6779a0dd624" name="Brew of Sharpness" hidden="false" book="KoW Rulebook" page="45">
               <description>+1 to hit in melee.</description>
               <modifiers/>
             </rule>
@@ -2332,12 +2356,12 @@
           <profiles/>
           <links/>
         </entry>
-        <entry id="cab44613-f12d-263a-73c0-c423c28809ca" name="Blade of Slashing" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kings of War Rulebook" page="44">
+        <entry id="cab44613-f12d-263a-73c0-c423c28809ca" name="Blade of Slashing" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="KoW Rulebook" page="44">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules>
-            <rule id="8682b51d-3c95-87f9-8d24-4b83faf8a0d2" name="Blade of Slashing" hidden="false" page="0">
+            <rule id="8682b51d-3c95-87f9-8d24-4b83faf8a0d2" name="Blade of Slashing" hidden="false" book="KoW Rulebook" page="44">
               <description>Roll one extra dice in Melee.</description>
               <modifiers/>
             </rule>
@@ -2729,12 +2753,12 @@
     </entryGroup>
     <entryGroup id="ec58bca7-676d-2c92-9151-088d5c4c7d7c" name="Magical Artefact" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="5e0f82bb-23e8-ea0e-5102-4399bf95cef7" name="Fire-Oil" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kings of War Rulebook" page="44">
+        <entry id="5e0f82bb-23e8-ea0e-5102-4399bf95cef7" name="Fire-Oil" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="KoW Rulebook" page="44">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules>
-            <rule id="94021c15-905b-4139-41be-625c3cfb0b7b" name="Fire-Oil" hidden="false" book="">
+            <rule id="94021c15-905b-4139-41be-625c3cfb0b7b" name="Fire-Oil" hidden="false" book="KoW Rulebook" page="44">
               <description>Successful ranged or melee damage from this unit against a unit with Regeneration causes the target unit to lose Regeneration for the rest of the game.</description>
               <modifiers/>
             </rule>
@@ -2742,7 +2766,7 @@
           <profiles/>
           <links/>
         </entry>
-        <entry id="08f080fb-6cf7-e3fc-e0a6-a2c31d7627da" name="Chant of Hate" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kings of War Rulebook" page="45">
+        <entry id="08f080fb-6cf7-e3fc-e0a6-a2c31d7627da" name="Chant of Hate" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="KoW Rulebook" page="45">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -2754,12 +2778,12 @@
             </link>
           </links>
         </entry>
-        <entry id="4a9f76eb-78d8-e399-86b4-278fa4259635" name="Brew of Courage" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kings of War Rulebook" page="45">
+        <entry id="4a9f76eb-78d8-e399-86b4-278fa4259635" name="Brew of Courage" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="KoW Rulebook" page="45">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules>
-            <rule id="2d5dea72-4ddd-0fd2-9ea8-036bc1964738" name="Brew of Courage" hidden="false" page="0">
+            <rule id="2d5dea72-4ddd-0fd2-9ea8-036bc1964738" name="Brew of Courage" hidden="false" book="KoW Rulebook" page="45">
               <description>-1 to Nerve Tests.</description>
               <modifiers/>
             </rule>
@@ -2767,7 +2791,7 @@
           <profiles/>
           <links/>
         </entry>
-        <entry id="c8749481-1e2e-a8a7-9c44-126040bb9ce7" name="Blessing of the Gods" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kings of War Rulebook" page="45">
+        <entry id="c8749481-1e2e-a8a7-9c44-126040bb9ce7" name="Blessing of the Gods" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="KoW Rulebook" page="45">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -2779,12 +2803,12 @@
             </link>
           </links>
         </entry>
-        <entry id="e1e779c8-0b3d-a624-43cf-283a73b84711" name="Blasting Arrow" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kings of War Rulebook" page="44">
+        <entry id="e1e779c8-0b3d-a624-43cf-283a73b84711" name="Blasting Arrow" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="KoW Rulebook" page="44">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules>
-            <rule id="96de2597-261a-dad8-08cc-90f6571037c3" name="Blasting Arrow" hidden="false" book="">
+            <rule id="96de2597-261a-dad8-08cc-90f6571037c3" name="Blasting Arrow" hidden="false" book="KoW Rulebook" page="44">
               <description>Roll one of the unit&apos;s ranged attacks separately. This one attack only counts as Blast (d6). Can only be used by normal ranged attacks.</description>
               <modifiers/>
             </rule>
@@ -2792,12 +2816,12 @@
           <profiles/>
           <links/>
         </entry>
-        <entry id="c6cad721-0028-6686-0773-1afd9343d456" name="Pipes of Terror" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kings of War Rulebook" page="44">
+        <entry id="c6cad721-0028-6686-0773-1afd9343d456" name="Pipes of Terror" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="KoW Rulebook" page="44">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules>
-            <rule id="285a0fca-4844-191a-a7b2-b92953d4fbb4" name="Pipes of Terror" hidden="false" page="0">
+            <rule id="285a0fca-4844-191a-a7b2-b92953d4fbb4" name="Pipes of Terror" hidden="false" book="KoW Rulebook" page="44">
               <description>Add +1 to Nerve test if unit inflicts any damage on an enemy in melee.</description>
               <modifiers/>
             </rule>
@@ -2805,12 +2829,12 @@
           <profiles/>
           <links/>
         </entry>
-        <entry id="cd8c4d84-4933-2fff-b735-31a94d6da51a" name="Brew of Haste" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kings of War Rulebook" page="44">
+        <entry id="cd8c4d84-4933-2fff-b735-31a94d6da51a" name="Brew of Haste" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="KoW Rulebook" page="44">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules>
-            <rule id="51dcf150-88f0-e2c4-6be0-92c4356a9ef5" name="Brew of Haste" hidden="false" book="">
+            <rule id="51dcf150-88f0-e2c4-6be0-92c4356a9ef5" name="Brew of Haste" hidden="false" book="KoW Rulebook" page="44">
               <description>+1 Speed.</description>
               <modifiers/>
             </rule>
@@ -2818,12 +2842,12 @@
           <profiles/>
           <links/>
         </entry>
-        <entry id="09788ec0-7902-e8bb-873c-309a6a6e66c6" name="Piercing Arrow" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+        <entry id="09788ec0-7902-e8bb-873c-309a6a6e66c6" name="Piercing Arrow" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="KoW Rulebook" page="44">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules>
-            <rule id="b173247a-b7cb-7799-1ae8-abea4df79a05" name="Piercing Arrow" hidden="false" page="0">
+            <rule id="b173247a-b7cb-7799-1ae8-abea4df79a05" name="Piercing Arrow" hidden="false" book="KoW Rulebook" page="44">
               <description>Roll one of the unit&apos;s ranged attacks separately. This one attack only counts as Piercing (4). Can only be used by normal ranged attacks.</description>
               <modifiers/>
             </rule>
@@ -2831,12 +2855,12 @@
           <profiles/>
           <links/>
         </entry>
-        <entry id="20f6bdb8-62da-3b1f-6e12-81cecee98002" name="Mace of Crushing" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kings of War Rulebook" page="44">
+        <entry id="20f6bdb8-62da-3b1f-6e12-81cecee98002" name="Mace of Crushing" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="KoW Rulebook" page="44">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules>
-            <rule id="7b6ffccf-fa40-c5b3-83e0-a480a5272cc8" name="Mace of Crushing" hidden="false" book="">
+            <rule id="7b6ffccf-fa40-c5b3-83e0-a480a5272cc8" name="Mace of Crushing" hidden="false" book="KoW Rulebook" page="44">
               <description>Roll one of the unit&apos;s melee attacks separately. This one attack only counts as Crushing Strength (1) or the unit&apos;s current Crushing Strength +1 if it already has the ability.</description>
               <modifiers/>
             </rule>
@@ -2844,12 +2868,12 @@
           <profiles/>
           <links/>
         </entry>
-        <entry id="63c90ea8-54de-fa0b-c2e7-9d1cbe24bcfc" name="Helm of Confidence" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kings of War Rulebook" page="45">
+        <entry id="63c90ea8-54de-fa0b-c2e7-9d1cbe24bcfc" name="Helm of Confidence" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="KoW Rulebook" page="45">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules>
-            <rule id="b099874d-25bc-edc7-3da0-b6655a712ac2" name="Helm of Confidence" hidden="false" page="0">
+            <rule id="b099874d-25bc-edc7-3da0-b6655a712ac2" name="Helm of Confidence" hidden="false" book="KoW Rulebook" page="45">
               <description>Unit always counts as if in range of a unit with Inspiring.</description>
               <modifiers/>
             </rule>
@@ -2857,12 +2881,12 @@
           <profiles/>
           <links/>
         </entry>
-        <entry id="2152a761-9255-c51a-1bd0-b07f5c533ba0" name="Brew of Strength" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kings of War Rulebook" page="45">
+        <entry id="2152a761-9255-c51a-1bd0-b07f5c533ba0" name="Brew of Strength" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="KoW Rulebook" page="45">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules>
-            <rule id="94768aa8-59ed-0766-a507-7db94752075b" name="Brew of Strength" hidden="false" book="" page="0">
+            <rule id="94768aa8-59ed-0766-a507-7db94752075b" name="Brew of Strength" hidden="false" book="KoW Rulebook" page="45">
               <description>Grants Crushing Strength (1) or increases the unit&apos;s current Crushing Strength value by 1.</description>
               <modifiers/>
             </rule>
@@ -2870,12 +2894,12 @@
           <profiles/>
           <links/>
         </entry>
-        <entry id="3eccbf88-0de3-ece1-6c05-884b70ce97df" name="Steed-Bane Incense" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kings of War Rulebook" page="45">
+        <entry id="3eccbf88-0de3-ece1-6c05-884b70ce97df" name="Steed-Bane Incense" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="KoW Rulebook" page="45">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules>
-            <rule id="638ac78a-db00-2537-1b37-011ae18f221d" name="Steed-Bane Incense" hidden="false" book="Kings of War Rulebook" page="45">
+            <rule id="638ac78a-db00-2537-1b37-011ae18f221d" name="Steed-Bane Incense" hidden="false" book="KoW Rulebook" page="45">
               <description>Cavalry and units with Fly suffer -1 to hit this unit in melee.</description>
               <modifiers/>
             </rule>
@@ -2883,7 +2907,7 @@
           <profiles/>
           <links/>
         </entry>
-        <entry id="0d9000dc-63cc-972e-6222-b776685857ed" name="Wine of Elvenkind" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kings of War Rulebook" page="45">
+        <entry id="0d9000dc-63cc-972e-6222-b776685857ed" name="Wine of Elvenkind" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="KoW Rulebook" page="45">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -2895,7 +2919,7 @@
             </link>
           </links>
         </entry>
-        <entry id="61532771-1438-234a-0668-ffd3975a987d" name="Dwarven Ale" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kings of War Rulebook" page="45">
+        <entry id="61532771-1438-234a-0668-ffd3975a987d" name="Dwarven Ale" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="KoW Rulebook" page="45">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -2907,12 +2931,12 @@
             </link>
           </links>
         </entry>
-        <entry id="e665e1f0-fd6c-ce39-98fc-fa52bc27f908" name="Jar of the Four Winds" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+        <entry id="e665e1f0-fd6c-ce39-98fc-fa52bc27f908" name="Jar of the Four Winds" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="KoW Rulebook" page="45">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules>
-            <rule id="3b2a48b1-e009-624e-fd19-205411a7b9f5" name="Jar of the Four Winds" hidden="false" book="Kings of War Rulebook" page="45">
+            <rule id="3b2a48b1-e009-624e-fd19-205411a7b9f5" name="Jar of the Four Winds" hidden="false" book="KoW Rulebook" page="45">
               <description>The unit&apos;s normal ranged attacks gain +12&quot; range.</description>
               <modifiers/>
             </rule>
@@ -2920,12 +2944,12 @@
           <profiles/>
           <links/>
         </entry>
-        <entry id="b7f4f1d9-160d-96f9-b027-ff43c13ac806" name="Brew of Keen-Eyeness" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kings of War Rulebook" page="45">
+        <entry id="b7f4f1d9-160d-96f9-b027-ff43c13ac806" name="Brew of Keen-Eyeness" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="KoW Rulebook" page="45">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules>
-            <rule id="72a34254-ef2b-7e5d-51dc-48ab1f746824" name="Brew of Keen-Eyeness" hidden="false" page="0">
+            <rule id="72a34254-ef2b-7e5d-51dc-48ab1f746824" name="Brew of Keen-Eyeness" hidden="false" book="KoW Rulebook" page="45">
               <description>+1 to hit with normal ranged attacks.</description>
               <modifiers/>
             </rule>
@@ -2933,12 +2957,12 @@
           <profiles/>
           <links/>
         </entry>
-        <entry id="364a8bc3-6762-62c1-9697-4e94bf756f33" name="Heart-Seeking Chant" points="45.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kings of War Rulebook" page="45">
+        <entry id="364a8bc3-6762-62c1-9697-4e94bf756f33" name="Heart-Seeking Chant" points="45.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="KoW Rulebook" page="45">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules>
-            <rule id="c56526ff-1a54-c73a-ddd4-2c48be77f4ed" name="Heart-Seeking Chant" hidden="false" book="">
+            <rule id="c56526ff-1a54-c73a-ddd4-2c48be77f4ed" name="Heart-Seeking Chant" hidden="false" book="KoW Rulebook" page="45">
               <description>Grants Piercing (1) or increases the unit&apos;s current Piercing value by 1. Normal ranged attacks only.</description>
               <modifiers/>
             </rule>
@@ -2946,7 +2970,7 @@
           <profiles/>
           <links/>
         </entry>
-        <entry id="1d0bf79a-4793-6144-e99d-781140631fcd" name="The Fog" points="40.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kings of War Rulebook" page="45">
+        <entry id="1d0bf79a-4793-6144-e99d-781140631fcd" name="The Fog" points="40.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="KoW Rulebook" page="45">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -2958,7 +2982,7 @@
             </link>
           </links>
         </entry>
-        <entry id="d97a70e1-d3e4-b0ed-776f-03a3c079bed4" name="Diadem of Dragon-Kind" points="40.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kings of War Rulebook" page="45">
+        <entry id="d97a70e1-d3e4-b0ed-776f-03a3c079bed4" name="Diadem of Dragon-Kind" points="40.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="KoW Rulebook" page="45">
           <entries>
             <entry id="c832f3e2-fab8-3255-ab56-94dd3700528b" name="Breath Attack (10)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
               <entries/>
@@ -2979,12 +3003,12 @@
           <profiles/>
           <links/>
         </entry>
-        <entry id="180912dd-ebd1-4071-7f24-7477b44dc875" name="Brew of Sharpness" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kings of War Rulebook" page="45">
+        <entry id="180912dd-ebd1-4071-7f24-7477b44dc875" name="Brew of Sharpness" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="KoW Rulebook" page="45">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules>
-            <rule id="c5f83d3a-e729-0089-6646-eac83bef2876" name="Brew of Sharpness" hidden="false" page="0">
+            <rule id="c5f83d3a-e729-0089-6646-eac83bef2876" name="Brew of Sharpness" hidden="false" book="KoW Rulebook" page="45">
               <description>+1 to hit in melee.</description>
               <modifiers/>
             </rule>
@@ -2992,12 +3016,12 @@
           <profiles/>
           <links/>
         </entry>
-        <entry id="6f434ae5-652e-9b95-6b31-15180ede3fa2" name="Blade of Slashing" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kings of War Rulebook" page="44">
+        <entry id="6f434ae5-652e-9b95-6b31-15180ede3fa2" name="Blade of Slashing" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="KoW Rulebook" page="44">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules>
-            <rule id="d0d72b82-588b-2d38-a86b-990703000e1c" name="Blade of Slashing" hidden="false" book="">
+            <rule id="d0d72b82-588b-2d38-a86b-990703000e1c" name="Blade of Slashing" hidden="false" book="KoW Rulebook" page="44">
               <description>Roll one extra dice in Melee.</description>
               <modifiers/>
             </rule>
@@ -3311,67 +3335,67 @@
     </entryGroup>
   </sharedEntryGroups>
   <sharedRules>
-    <rule id="0a25270e-3569-c96b-037c-dd4ae71ea5f6" name="Blast (X)" hidden="false" page="0">
-      <description>If the unit’s ranged attack hits the target, roll (X) dice and multiply the hit by the result. Once this is done, roll for damage as normal for all of the hits caused.</description>
+    <rule id="0a25270e-3569-c96b-037c-dd4ae71ea5f6" name="Blast (X)" hidden="false" book="KoW Rulebook" page="39">
+      <description>If the unit&apos;s ranged attack hits the target, roll (X) dice and multiply the hit by the result. Once this is done, roll for damage as normal for all of the hits caused.</description>
       <modifiers/>
     </rule>
-    <rule id="0f46fc4b-be77-4557-69bc-02fb46cbe0fc" name="Breath Attack (X)" hidden="false" page="0">
+    <rule id="0f46fc4b-be77-4557-69bc-02fb46cbe0fc" name="Breath Attack (X)" hidden="false" book="KoW Rulebook" page="39">
       <description>Ranged attack with 12&quot; range. Roll X dice rather than the Attacks value of the unit. Always hits on 4+, regardless of any modifier.</description>
       <modifiers/>
     </rule>
-    <rule id="91f6374b-eef5-b75c-d049-219f49e64820" name="Crushing Strength (1)" hidden="false" page="0">
+    <rule id="91f6374b-eef5-b75c-d049-219f49e64820" name="Crushing Strength (1)" hidden="false" book="KoW Rulebook" page="39">
       <description>All melee hits inflicted by the unit have a +1 modifier when rolling to damage.</description>
       <modifiers/>
     </rule>
-    <rule id="d3290994-8fe6-deb9-7073-abce28a64093" name="Crushing Strength (2)" hidden="false" page="0">
+    <rule id="d3290994-8fe6-deb9-7073-abce28a64093" name="Crushing Strength (2)" hidden="false" book="KoW Rulebook" page="39">
       <description>All melee hits inflicted by the unit have a +2 modifier when rolling to damage.</description>
       <modifiers/>
     </rule>
-    <rule id="1d4a542c-a574-ce19-02cc-52e7bff7a62e" name="Crushing Strength (3)" hidden="false" page="0">
+    <rule id="1d4a542c-a574-ce19-02cc-52e7bff7a62e" name="Crushing Strength (3)" hidden="false" book="KoW Rulebook" page="39">
       <description>All melee hits inflicted by the unit have a +3 modifier when rolling to damage.</description>
       <modifiers/>
     </rule>
-    <rule id="0a9fb0d6-2d6b-d261-7f05-c6cfaaefa717" name="Crushing Strength (4)" hidden="false" page="0">
+    <rule id="0a9fb0d6-2d6b-d261-7f05-c6cfaaefa717" name="Crushing Strength (4)" hidden="false" book="KoW Rulebook" page="39">
       <description>All melee hits inflicted by the unit have a +4 modifier when rolling to damage.</description>
       <modifiers/>
     </rule>
-    <rule id="dea0eee7-24a6-9da4-23ca-6780eed45f33" name="Crushing Strength (5)" hidden="false" page="0">
+    <rule id="dea0eee7-24a6-9da4-23ca-6780eed45f33" name="Crushing Strength (5)" hidden="false" book="KoW Rulebook" page="39">
       <description>All melee hits inflicted by the unit have a +5 modifier when rolling to damage.</description>
       <modifiers/>
     </rule>
-    <rule id="47b8c1ea-369b-21b0-9aa8-8b8e3af461eb" name="Crushing Strength (6)" hidden="false" page="0">
+    <rule id="47b8c1ea-369b-21b0-9aa8-8b8e3af461eb" name="Crushing Strength (6)" hidden="false" book="KoW Rulebook" page="39">
       <description>All melee hits inflicted by the unit have a +6 modifier when rolling to damage.</description>
       <modifiers/>
     </rule>
-    <rule id="e023415c-5308-2b9b-144d-1c1a28a480a8" name="Dark Surge (X)" hidden="false" page="0">
+    <rule id="e023415c-5308-2b9b-144d-1c1a28a480a8" name="Dark Surge (X)" hidden="false" book="KoW Rulebook" page="133">
       <description>Ranged attack, can only target friendly Shambling units. Range 12&quot;. Roll X dice, hits on 4+ unmodified. For every hit, the friendly unit moves forward 1&quot;, counts as charging if an enemy unit is contacted. The contacted enemy unit ignores nerve tests for any shooting damage this phase.</description>
       <modifiers/>
     </rule>
-    <rule id="254328e5-6fb7-1d7a-c118-28818d1717c1" name="Elite" hidden="false" page="0">
+    <rule id="254328e5-6fb7-1d7a-c118-28818d1717c1" name="Elite" hidden="false" book="KoW Rulebook" page="39">
       <description>Whenever the unit rolls to hit, it can re-roll one of the dice that failed to hit.</description>
       <modifiers/>
     </rule>
-    <rule id="15e99b72-a2f8-a6a4-c082-80e14e10b857" name="Fly" hidden="false" page="0">
+    <rule id="15e99b72-a2f8-a6a4-c082-80e14e10b857" name="Fly" hidden="false" book="KoW Rulebook" page="39">
       <description>The unit can move over anything (blocking terrain, enemy units, friendly units when charging, etc.), but still cannot land on top of them. As a consequence, in melee it never suffers the -1 to hit penalty for charging a defensive position or for a disrupted charge.</description>
       <modifiers/>
     </rule>
-    <rule id="cebf0d4c-156c-85a5-14af-5c4780e97883" name="Grapeshot" hidden="false" page="0">
+    <rule id="cebf0d4c-156c-85a5-14af-5c4780e97883" name="Grapeshot" hidden="false" book="KoW Rulebook" page="39">
       <description>The unit may either fire normally or fire a Breath Attack (10) with Piercing (1).</description>
       <modifiers/>
     </rule>
-    <rule id="1ec0eda4-90f6-f0d4-4ce0-31bc83a0f473" name="Headstrong" hidden="false" page="0">
+    <rule id="1ec0eda4-90f6-f0d4-4ce0-31bc83a0f473" name="Headstrong" hidden="false" book="KoW Rulebook" page="39">
       <description>Whenever the unit begins a turn Wavering, it rolls a die. On a 4+ it shrugs off the effects of Wavering and can act normally that turn.</description>
       <modifiers/>
     </rule>
-    <rule id="b6b45d51-f68e-7f5c-f3e1-66f9b27ab2d8" name="Heal (X)" hidden="false" page="0">
-      <description>Ranged attack with 12&quot; range. Can only target friendly units, including those in melee. Cannot target itself. Roll X dice for this attack. Always hits on 4+, regardless of any modifier. For every hit ‘inflicted’, the friendly unit removes a point of damage that it has previously suffered.</description>
+    <rule id="b6b45d51-f68e-7f5c-f3e1-66f9b27ab2d8" name="Heal (X)" hidden="false" book="KoW Rulebook" page="39">
+      <description>Ranged attack with 12&quot; range. Can only target friendly units, including those in melee. Cannot target itself. Roll X dice for this attack. Always hits on 4+, regardless of any modifier. For every hit &apos;inflicted&apos;, the friendly unit removes a point of damage that it has previously suffered.</description>
       <modifiers/>
     </rule>
-    <rule id="862330aa-f856-fc43-dac6-aef59344b4f0" name="Indirect Fire" hidden="false" page="0">
+    <rule id="862330aa-f856-fc43-dac6-aef59344b4f0" name="Indirect Fire" hidden="false" book="KoW Rulebook" page="39">
       <description>Unit never suffers any to hit modifiers for range or cover (but it does still need to see its target!). Cannot shoot targets within 12″.</description>
       <modifiers/>
     </rule>
-    <rule id="b8da49bb-f87a-cbc5-9d1a-de6ffb52a807" name="Individual" hidden="false" page="0">
+    <rule id="b8da49bb-f87a-cbc5-9d1a-de6ffb52a807" name="Individual" hidden="false" book="KoW Rulebook" page="40">
       <description>Individuals do not have any flank or rear facings. They have a 360° arc of sight. 
 Individuals can make any number of pivots as they move, including At The Double! moves.
 Enemies never double/treble their Attacks when fighting Individuals, and vice-versa, war engines excluded.
@@ -3380,75 +3404,79 @@ Individuals turn to face the enemy when charged rather than the other way around
 If an Individual is routed and the enemy advances d6&quot;, it can make contact with another enemy unit. This is treated as a successful charge which is resolved immediately as normal. This rule applies to charging Individuals as well.</description>
       <modifiers/>
     </rule>
-    <rule id="215531fc-f49c-a180-c77d-783faa79c840" name="Inspiring" hidden="false" page="0">
+    <rule id="215531fc-f49c-a180-c77d-783faa79c840" name="Inspiring" hidden="false" book="KoW Rulebook" page="40">
       <description>If this unit, or any friendly unit within 6″ of this unit, is Routed, the opponent must re-roll that Nerve test. The second result stands.</description>
       <modifiers/>
     </rule>
-    <rule id="8978ca44-cb3f-12e5-cd49-7335d65c88e0" name="Nimble" hidden="false" page="0">
+    <rule id="8978ca44-cb3f-12e5-cd49-7335d65c88e0" name="Nimble" hidden="false" book="KoW Rulebook" page="40">
       <description>The unit can make a single extra pivot of up to 90 degrees around its centre at any point during its movement, even At The Double!</description>
       <modifiers/>
     </rule>
-    <rule id="bfd3cfcb-5b81-bd2a-df50-81cad8c27d83" name="Phalanx" hidden="false" page="0">
+    <rule id="bfd3cfcb-5b81-bd2a-df50-81cad8c27d83" name="Phalanx" hidden="false" book="KoW Rulebook" page="40">
       <description>The unit rolls an extra 5 Attacks in melee if it is a Regiment, or 10 extra Attacks if it is a Horde. These attacks are added after multiplying the Attacks for flank/rear charges. Cavalry units and fliers charging the unit&apos;s front suffer -1 to hit.</description>
       <modifiers/>
     </rule>
-    <rule id="fc8da20a-4c57-b015-9cb2-295117322796" name="Piercing (1)" hidden="false" page="0">
+    <rule id="fc8da20a-4c57-b015-9cb2-295117322796" name="Piercing (1)" hidden="false" book="KoW Rulebook" page="40">
       <description>All ranged hits inflicted by the unit have a +1 modifier when rolling to damage.</description>
       <modifiers/>
     </rule>
-    <rule id="b3ed8357-1a94-2f1f-2ce3-81af4ce114ae" name="Piercing (2)" hidden="false" page="0">
+    <rule id="b3ed8357-1a94-2f1f-2ce3-81af4ce114ae" name="Piercing (2)" hidden="false" book="KoW Rulebook" page="40">
       <description>All ranged hits inflicted by the unit have a +2 modifier when rolling to damage.</description>
       <modifiers/>
     </rule>
-    <rule id="32eb47d1-6265-6fa2-e2bc-37281f042ac4" name="Piercing (3)" hidden="false" page="0">
+    <rule id="32eb47d1-6265-6fa2-e2bc-37281f042ac4" name="Piercing (3)" hidden="false" book="KoW Rulebook" page="40">
       <description>All ranged hits inflicted by the unit have a +3 modifier when rolling to damage.
 Unit never suffers the -1 penalty for soft cover. Unit only suffers a -1 penalty to hit when shooting at units in hard cover.</description>
       <modifiers/>
     </rule>
-    <rule id="c2ca5d85-819e-5f97-82b6-6484003c1205" name="Piercing (4)" hidden="false" page="0">
+    <rule id="c2ca5d85-819e-5f97-82b6-6484003c1205" name="Piercing (4)" hidden="false" book="KoW Rulebook" page="40">
       <description>All ranged hits inflicted by the unit have a +3 modifier when rolling to damage.
 Unit never suffers the -1 penalty for soft cover. Unit only suffers a -1 penalty to hit when shooting at units in hard cover.</description>
       <modifiers/>
     </rule>
-    <rule id="2279aca6-99d0-cf30-24e5-a47f350c23c4" name="Piercing (5)" hidden="false" page="0">
+    <rule id="2279aca6-99d0-cf30-24e5-a47f350c23c4" name="Piercing (5)" hidden="false" book="KoW Rulebook" page="40">
       <description>All ranged hits inflicted by the unit have a +3 modifier when rolling to damage.
 Unit never suffers the -1 penalty for soft cover. Unit only suffers a -1 penalty to hit when shooting at units in hard cover.</description>
       <modifiers/>
     </rule>
-    <rule id="7c31685c-7341-5c4e-32d1-32b03818f4fe" name="Piercing (6)" hidden="false" page="0">
+    <rule id="7c31685c-7341-5c4e-32d1-32b03818f4fe" name="Piercing (6)" hidden="false" book="KoW Rulebook" page="40">
       <description>All ranged hits inflicted by the unit have a +3 modifier when rolling to damage.
 Unit never suffers the -1 penalty for soft cover. Unit only suffers a -1 penalty to hit when shooting at units in hard cover.</description>
       <modifiers/>
     </rule>
-    <rule id="a85c603a-79c8-c346-3753-2f4c5a83fe9a" name="Regeneration" hidden="false" page="0">
+    <rule id="a85c603a-79c8-c346-3753-2f4c5a83fe9a" name="Regeneration" hidden="false" book="KoW Rulebook" page="41">
       <description>Every time this unit receives an order (including Halt!), before doing anything else, roll 3 dice.
 For every result of 4+, the unit recovers a point of damage it has suffered previously during the game.
 This rule is lost if the unit suffers any damage from a Breath Attack or Zap!.</description>
       <modifiers/>
     </rule>
-    <rule id="b64bfb60-81c7-d907-67cf-28ef446980e9" name="Reload!" hidden="false" page="0">
+    <rule id="b64bfb60-81c7-d907-67cf-28ef446980e9" name="Reload!" hidden="false" book="KoW Rulebook" page="41">
       <description>The unit can fire only if it received a Halt order that turn.</description>
       <modifiers/>
     </rule>
-    <rule id="bf7ea0e2-511d-d1db-fea1-e6376ec76121" name="Shambling" hidden="false" page="0">
-      <description>The unit cannot be ordered ‘At the Double’. In addition, it treats Wavering results as Steady instead.</description>
+    <rule id="bf7ea0e2-511d-d1db-fea1-e6376ec76121" name="Shambling" hidden="false" book="KoW Rulebook" page="41">
+      <description>The unit cannot be ordered &apos;At the Double&apos;. In addition, it treats Wavering results as Steady instead.</description>
       <modifiers/>
     </rule>
-    <rule id="3047ba54-95f3-4389-8174-935a61029006" name="Stealthy" hidden="false" page="0">
+    <rule id="3047ba54-95f3-4389-8174-935a61029006" name="Stealthy" hidden="false" book="KoW Rulebook" page="41">
       <description>Enemies shooting against the unit suffer an additional -1 to hit modifier.</description>
       <modifiers/>
     </rule>
-    <rule id="079fd577-a663-1885-a062-33fe12a5d819" name="Vanguard" hidden="false" page="0">
+    <rule id="079fd577-a663-1885-a062-33fe12a5d819" name="Vanguard" hidden="false" book="KoW Rulebook" page="41">
       <description>Unit can make a single At the Double move after set-up is finished, but before the players roll to decide who goes first.
 If both armies have units with this rule, roll a die. The highest scorer decides who begins to move one of his Vanguard units first, then the players alternate until all Vanguard units have been moved.</description>
       <modifiers/>
     </rule>
-    <rule id="8ebc3545-990c-21e7-44b1-c9c5fa116e71" name="Vicious" hidden="false" page="0">
+    <rule id="8ebc3545-990c-21e7-44b1-c9c5fa116e71" name="Vicious" hidden="false" book="KoW Rulebook" page="41">
       <description>Whenever the unit rolls to damage, it can re-roll one of the dice that failed to damage.</description>
       <modifiers/>
     </rule>
-    <rule id="063136d1-5030-e8a2-7094-4c2bcc6c223c" name="Zap! (X)" hidden="false" page="0">
+    <rule id="063136d1-5030-e8a2-7094-4c2bcc6c223c" name="Zap! (X)" hidden="false" book="KoW Rulebook" page="41">
       <description>Ranged attack with range 24&quot;. Roll X dice rather than using the Attacks value of the unit. This attack always hits on 4+ (regardless of modifiers) and is Piercing (1).</description>
+      <modifiers/>
+    </rule>
+    <rule id="e97e344e-e34a-7ef7-4bdc-c31c9a4b98ad" name="Undead Giant Rats / Dogs" hidden="false" book="KoW Rulebook" page="133">
+      <description>Increases effects of the Evil Dead rule. Unit recovers one point of damage for every point of damage it causes to another unit in melee, rather than just recovering a single point. After the melee, this ability is lost on a roll of 1-3.</description>
       <modifiers/>
     </rule>
   </sharedRules>
