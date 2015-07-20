@@ -255,6 +255,122 @@
         </link>
       </links>
     </entry>
+    <entry id="faa8-9686-134e-8c82" name="Abyssal Harbinger" points="60.0" categoryId="4e85-806b-4c44-2cb8" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="9dca-e2a2-8432-5e95" name="Mounted" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="40a2-aca6-40d4-bd65" profileTypeId="ee75-6c23-6aad-aa05" name="Horse" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="This unit has Speed 8, and becomes Hero (Cav) (All changes already in profile)."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="020a-da73-6fa6-4486" name="Magic Artefact" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="9566-953d-9852-1ba7" targetId="886a-898c-6ebe-904a" linkType="entry group">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="62c6-6155-e584-2dc6" name="Regeneration (5+)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="2631-49a8-326a-3056" targetId="5815-9306-b2e7-0436" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="6926-6977-6aa5-696c" name="Firebolts" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="8ee5-24ca-8588-6ab5" profileTypeId="ee75-6c23-6aad-aa05" name="Firebolts" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="18&quot; range, Piercing (1)."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="7753-05e6-21ca-4d57" name="Piercing (1)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="b1ea-ec35-f2aa-9760" targetId="cc29-8e7d-2a0e-c995" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="687c-ddc2-9f3c-2f72" profileTypeId="97cc-56ab-eb5b-85a6" name="Abyssal Harbinger" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="1"/>
+            <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="1"/>
+            <characteristic characteristicId="7b4d-35b9-dd84-e672" name="Unit Type" value="Hero (Inf)"/>
+            <characteristic characteristicId="6a0b-5ca3-681f-6b2e" name="Speed" value="5"/>
+            <characteristic characteristicId="ae92-a124-75e4-e22d" name="Melee" value="5"/>
+            <characteristic characteristicId="fa16-f2da-63d9-71c2" name="Ranged" value="4"/>
+            <characteristic characteristicId="a65b-2083-ea38-304f" name="Defense" value="4"/>
+            <characteristic characteristicId="058e-7a4a-4a9c-1be0" name="Attacks" value="1"/>
+            <characteristic characteristicId="03d5-4167-faba-63a6" name="Nerve" value="10/12"/>
+          </characteristics>
+          <modifiers>
+            <modifier type="set" field="786c-09f7-bc4a-bc1a" value="2" repeat="true" numRepeats="1" incrementParentId="faa8-9686-134e-8c82" incrementChildId="9dca-e2a2-8432-5e95" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="6a0b-5ca3-681f-6b2e" value="8" repeat="true" numRepeats="1" incrementParentId="faa8-9686-134e-8c82" incrementChildId="9dca-e2a2-8432-5e95" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="7b4d-35b9-dd84-e672" value="Hero (Cav)" repeat="true" numRepeats="1" incrementParentId="faa8-9686-134e-8c82" incrementChildId="9dca-e2a2-8432-5e95" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </profile>
+      </profiles>
+      <links>
+        <link id="e04e-0055-b71d-a4a8" targetId="aabd-ec96-e46d-8dcb" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="1c9b-ab2f-cd08-5e90" targetId="9657-1079-91be-b2bd" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="2c9d-b59a-4077-2c5f" targetId="7c18-e2b7-bc3b-fe10" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="fdc5-f0e1-b671-c840" targetId="b79a-f274-5123-df1d" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="4721-5323-aa47-45cd" name="Abyssal Horsemen (10)" points="215.0" categoryId="e254-2b91-de9e-2381" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
         <entry id="10a7-af83-c438-14eb" name="Crushing Strength (1)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -1244,6 +1360,70 @@
         </link>
       </links>
     </entry>
+    <entry id="8f6e-47c1-065d-63f7" name="Ifriit" points="135.0" categoryId="4e85-806b-4c44-2cb8" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="7872-5400-cfd8-3bf4" name="Magic Artefact" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="04d2-9322-a23f-4575" targetId="886a-898c-6ebe-904a" linkType="entry group">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="3d5a-37e6-982b-557c" name="Breath Attack (20)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="af5f-3997-31fd-8ae8" profileTypeId="ee75-6c23-6aad-aa05" name="Breath Attack (20)" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="Ranged attack with (n) dice rather than Attacks value, unless listed as (Att). 12&quot; range, always hits on 4+ regardless of modifiers."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="46c8-4923-90ff-27fc" profileTypeId="97cc-56ab-eb5b-85a6" name="Ifriit" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="1"/>
+            <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="1"/>
+            <characteristic characteristicId="7b4d-35b9-dd84-e672" name="Unit Type" value="Hero (Inf)"/>
+            <characteristic characteristicId="6a0b-5ca3-681f-6b2e" name="Speed" value="7"/>
+            <characteristic characteristicId="ae92-a124-75e4-e22d" name="Melee" value="4"/>
+            <characteristic characteristicId="fa16-f2da-63d9-71c2" name="Ranged" value="-"/>
+            <characteristic characteristicId="a65b-2083-ea38-304f" name="Defense" value="4"/>
+            <characteristic characteristicId="058e-7a4a-4a9c-1be0" name="Attacks" value="1"/>
+            <characteristic characteristicId="03d5-4167-faba-63a6" name="Nerve" value="11/13"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="8d2a-c6a1-a5e7-378b" targetId="9657-1079-91be-b2bd" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="d2e7-31ef-ea37-d2bb" targetId="b79a-f274-5123-df1d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="1fb6-f2a9-2432-6efa" targetId="aabd-ec96-e46d-8dcb" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="d91f-2266-3a7f-c49e" targetId="0bf5-2b12-5cc7-a963" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="2ffd-b337-43f1-2313" name="Imps* (3)" points="70.0" categoryId="d5a9-edbf-71e8-399f" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
         <entry id="d421-7590-dc09-5c77" name="Magic Artefact" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -1879,6 +2059,277 @@
         </link>
       </links>
     </entry>
+    <entry id="1930-1de3-c7fb-a5c6" name="Temptress" points="90.0" categoryId="4e85-806b-4c44-2cb8" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="c65c-b2c7-6c16-c5cc" name="Magic Artefact" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="74e5-b032-9e1b-a901" targetId="886a-898c-6ebe-904a" linkType="entry group">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="ca49-fdd7-2d8e-ef91" name="Inspiring (Succubi only)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="8001-ce0a-de15-f0c2" targetId="7c18-e2b7-bc3b-fe10" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="e43f-6fc1-b6f2-f242" name="Winged" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="557f-aa7e-4e0e-63e2" targetId="dc50-fdaa-d751-9cdf" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups>
+        <entryGroup id="90c5-077d-f870-97e0" name="Spells" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="7366-2a59-9b18-7987" name="Wind Blast (6)" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="d3d1-e947-ffad-590c" targetId="da65-6a10-c6a3-9022" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="ea6d-87c2-48a3-4526" name="Bane Chant (2)" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="ee1e-9d40-9070-bac4" targetId="0faf-9276-c8a0-9bcd" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="25ee-067d-76b6-45cf" profileTypeId="97cc-56ab-eb5b-85a6" name="Temptress" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="1"/>
+            <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="1"/>
+            <characteristic characteristicId="7b4d-35b9-dd84-e672" name="Unit Type" value="Hero (Inf)"/>
+            <characteristic characteristicId="6a0b-5ca3-681f-6b2e" name="Speed" value="6"/>
+            <characteristic characteristicId="ae92-a124-75e4-e22d" name="Melee" value="3"/>
+            <characteristic characteristicId="fa16-f2da-63d9-71c2" name="Ranged" value="-"/>
+            <characteristic characteristicId="a65b-2083-ea38-304f" name="Defense" value="4"/>
+            <characteristic characteristicId="058e-7a4a-4a9c-1be0" name="Attacks" value="5"/>
+            <characteristic characteristicId="03d5-4167-faba-63a6" name="Nerve" value="11/13"/>
+          </characteristics>
+          <modifiers>
+            <modifier type="set" field="6a0b-5ca3-681f-6b2e" value="10" repeat="true" numRepeats="1" incrementParentId="1930-1de3-c7fb-a5c6" incrementChildId="e43f-6fc1-b6f2-f242" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </profile>
+      </profiles>
+      <links>
+        <link id="98c3-555e-ae8f-fb92" targetId="9657-1079-91be-b2bd" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="a523-885e-36ff-b704" targetId="aabd-ec96-e46d-8dcb" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="a9c8-1bf3-f231-2a55" targetId="b79a-f274-5123-df1d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="7e11-1950-56b4-5f30" targetId="3b62-ea44-71f8-1c42" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="dedf-cc1f-1781-f171" targetId="bdd0-eb1b-bf45-750e" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="7e5b-f0fd-4ee3-2a97" name="The Lord of Lies [1]" points="300.0" categoryId="4e85-806b-4c44-2cb8" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="465b-7d97-0bc6-75a8" name="Crushing Strength (2)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="0691-a306-f1e4-0ed9" targetId="3131-8f0a-0927-8489" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="d415-d31a-fa44-bfad" name="Thunderous Charge (2)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="1e1c-9dad-5e3e-2df9" targetId="a8ce-2f96-b0be-47d6" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="5d0d-2e46-f9ea-0458" name="Lightning Bolt (7)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="e506-cf8b-35bc-0c71" targetId="643b-d49d-8d14-c765" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="2a1e-b7e3-d3b8-07e3" profileTypeId="97cc-56ab-eb5b-85a6" name="The Lord of Lies [1]" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="1"/>
+            <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="3"/>
+            <characteristic characteristicId="7b4d-35b9-dd84-e672" name="Unit Type" value="Hero (Lrg Inf)"/>
+            <characteristic characteristicId="6a0b-5ca3-681f-6b2e" name="Speed" value="10"/>
+            <characteristic characteristicId="ae92-a124-75e4-e22d" name="Melee" value="3"/>
+            <characteristic characteristicId="fa16-f2da-63d9-71c2" name="Ranged" value="-"/>
+            <characteristic characteristicId="a65b-2083-ea38-304f" name="Defense" value="5"/>
+            <characteristic characteristicId="058e-7a4a-4a9c-1be0" name="Attacks" value="5"/>
+            <characteristic characteristicId="03d5-4167-faba-63a6" name="Nerve" value="15/20"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="9840-b497-9641-d431" targetId="dc50-fdaa-d751-9cdf" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="c75f-6872-e334-73be" targetId="aabd-ec96-e46d-8dcb" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="df5e-e3e7-aa63-e95a" targetId="7c18-e2b7-bc3b-fe10" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="4010-5a4c-9eaf-ae0c" targetId="b79a-f274-5123-df1d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="3323-1545-1f29-c2bb" targetId="3b62-ea44-71f8-1c42" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="631b-012e-1b86-7f46" targetId="bdd0-eb1b-bf45-750e" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="e04a-21e5-6989-dfe2" name="The Well of Souls [1]" points="275.0" categoryId="4e85-806b-4c44-2cb8" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="bd72-8195-cd6c-66cb" name="Crushing Strength (2)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="61be-cbf6-0d46-28ad" targetId="3131-8f0a-0927-8489" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="c56e-1802-0551-a4aa" name="Lifeleech (5)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="c3ef-f97e-d1bc-e369" targetId="2fcc-d747-ea72-2828" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="4da0-e61d-a879-abff" name="Soul Harvest" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules>
+            <rule id="57e9-84f6-a608-3a17" name="Soul Harvest" hidden="false">
+              <description>The Well of Souls pulls the life force from the enemy and feeds the Abyssal army.
+
+When the Well of Souls is given an order (at the start of its turn), it may put up to 20 points of damage on itself. However, this cannot take it to more than 20 damage in total. For each point of damage taken in this way, it may remove 1 point of damage from a friendly, non-allied unit within 9&quot;. The Well of Souls will not take a Nerve test for damage taken in this way.</description>
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles/>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="620e-0e3a-5b46-fba2" profileTypeId="97cc-56ab-eb5b-85a6" name="The Well of Souls [1]" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="1"/>
+            <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="4"/>
+            <characteristic characteristicId="7b4d-35b9-dd84-e672" name="Unit Type" value="Hero (Mon)"/>
+            <characteristic characteristicId="6a0b-5ca3-681f-6b2e" name="Speed" value="10"/>
+            <characteristic characteristicId="ae92-a124-75e4-e22d" name="Melee" value="4"/>
+            <characteristic characteristicId="fa16-f2da-63d9-71c2" name="Ranged" value="-"/>
+            <characteristic characteristicId="a65b-2083-ea38-304f" name="Defense" value="5"/>
+            <characteristic characteristicId="058e-7a4a-4a9c-1be0" name="Attacks" value="10"/>
+            <characteristic characteristicId="03d5-4167-faba-63a6" name="Nerve" value="-/20"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="b1b6-fe28-fb7e-b0bd" targetId="aabd-ec96-e46d-8dcb" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="f539-3ed1-4686-c69e" targetId="dc50-fdaa-d751-9cdf" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="1c32-b753-1067-0fa9" targetId="7c18-e2b7-bc3b-fe10" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="73d5-165c-b3a2-ff00" targetId="36fd-c324-ddc8-ef9a" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="072e-baf0-996e-e041" targetId="b79a-f274-5123-df1d" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="ae20-cd59-4bea-8a69" name="Tortured Souls (3)" points="145.0" categoryId="e254-2b91-de9e-2381" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
         <entry id="7392-c9d6-112e-ffcf" name="Magic Artefact" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -2021,457 +2472,6 @@
           <modifiers/>
         </link>
         <link id="3b12-ad3c-d979-9cf6" targetId="36fd-c324-ddc8-ef9a" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="faa8-9686-134e-8c82" name="Abyssal Harbinger" points="60.0" categoryId="4e85-806b-4c44-2cb8" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="9dca-e2a2-8432-5e95" name="Mounted" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="40a2-aca6-40d4-bd65" profileTypeId="ee75-6c23-6aad-aa05" name="Horse" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="This unit has Speed 8, and becomes Hero (Cav) (All changes already in profile)."/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
-        </entry>
-        <entry id="020a-da73-6fa6-4486" name="Magic Artefact" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="9566-953d-9852-1ba7" targetId="886a-898c-6ebe-904a" linkType="entry group">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="62c6-6155-e584-2dc6" name="Regeneration (5+)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="2631-49a8-326a-3056" targetId="5815-9306-b2e7-0436" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="6926-6977-6aa5-696c" name="Firebolts" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="8ee5-24ca-8588-6ab5" profileTypeId="ee75-6c23-6aad-aa05" name="Firebolts" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="18&quot; range, Piercing (1)."/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
-        </entry>
-        <entry id="7753-05e6-21ca-4d57" name="Piercing (1)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="b1ea-ec35-f2aa-9760" targetId="cc29-8e7d-2a0e-c995" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="687c-ddc2-9f3c-2f72" profileTypeId="97cc-56ab-eb5b-85a6" name="Abyssal Harbinger" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="1"/>
-            <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="1"/>
-            <characteristic characteristicId="7b4d-35b9-dd84-e672" name="Unit Type" value="Hero (Inf)"/>
-            <characteristic characteristicId="6a0b-5ca3-681f-6b2e" name="Speed" value="5"/>
-            <characteristic characteristicId="ae92-a124-75e4-e22d" name="Melee" value="5"/>
-            <characteristic characteristicId="fa16-f2da-63d9-71c2" name="Ranged" value="4"/>
-            <characteristic characteristicId="a65b-2083-ea38-304f" name="Defense" value="4"/>
-            <characteristic characteristicId="058e-7a4a-4a9c-1be0" name="Attacks" value="1"/>
-            <characteristic characteristicId="03d5-4167-faba-63a6" name="Nerve" value="10/12"/>
-          </characteristics>
-          <modifiers>
-            <modifier type="set" field="786c-09f7-bc4a-bc1a" value="2" repeat="true" numRepeats="1" incrementParentId="faa8-9686-134e-8c82" incrementChildId="9dca-e2a2-8432-5e95" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="set" field="6a0b-5ca3-681f-6b2e" value="8" repeat="true" numRepeats="1" incrementParentId="faa8-9686-134e-8c82" incrementChildId="9dca-e2a2-8432-5e95" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="set" field="7b4d-35b9-dd84-e672" value="Hero (Cav)" repeat="true" numRepeats="1" incrementParentId="faa8-9686-134e-8c82" incrementChildId="9dca-e2a2-8432-5e95" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-        </profile>
-      </profiles>
-      <links>
-        <link id="e04e-0055-b71d-a4a8" targetId="aabd-ec96-e46d-8dcb" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="1c9b-ab2f-cd08-5e90" targetId="9657-1079-91be-b2bd" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="2c9d-b59a-4077-2c5f" targetId="7c18-e2b7-bc3b-fe10" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="fdc5-f0e1-b671-c840" targetId="b79a-f274-5123-df1d" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="1930-1de3-c7fb-a5c6" name="Temptress" points="90.0" categoryId="4e85-806b-4c44-2cb8" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="c65c-b2c7-6c16-c5cc" name="Magic Artefact" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="74e5-b032-9e1b-a901" targetId="886a-898c-6ebe-904a" linkType="entry group">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="ca49-fdd7-2d8e-ef91" name="Inspiring (Succubi only)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="8001-ce0a-de15-f0c2" targetId="7c18-e2b7-bc3b-fe10" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="e43f-6fc1-b6f2-f242" name="Winged" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="557f-aa7e-4e0e-63e2" targetId="dc50-fdaa-d751-9cdf" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
-      <entryGroups>
-        <entryGroup id="90c5-077d-f870-97e0" name="Spells" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="7366-2a59-9b18-7987" name="Wind Blast (6)" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="d3d1-e947-ffad-590c" targetId="da65-6a10-c6a3-9022" linkType="rule">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-            <entry id="ea6d-87c2-48a3-4526" name="Bane Chant (2)" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="ee1e-9d40-9070-bac4" targetId="0faf-9276-c8a0-9bcd" linkType="rule">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
-          <links/>
-        </entryGroup>
-      </entryGroups>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="25ee-067d-76b6-45cf" profileTypeId="97cc-56ab-eb5b-85a6" name="Temptress" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="1"/>
-            <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="1"/>
-            <characteristic characteristicId="7b4d-35b9-dd84-e672" name="Unit Type" value="Hero (Inf)"/>
-            <characteristic characteristicId="6a0b-5ca3-681f-6b2e" name="Speed" value="6"/>
-            <characteristic characteristicId="ae92-a124-75e4-e22d" name="Melee" value="3"/>
-            <characteristic characteristicId="fa16-f2da-63d9-71c2" name="Ranged" value="-"/>
-            <characteristic characteristicId="a65b-2083-ea38-304f" name="Defense" value="4"/>
-            <characteristic characteristicId="058e-7a4a-4a9c-1be0" name="Attacks" value="5"/>
-            <characteristic characteristicId="03d5-4167-faba-63a6" name="Nerve" value="11/13"/>
-          </characteristics>
-          <modifiers>
-            <modifier type="set" field="6a0b-5ca3-681f-6b2e" value="10" repeat="true" numRepeats="1" incrementParentId="1930-1de3-c7fb-a5c6" incrementChildId="e43f-6fc1-b6f2-f242" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-        </profile>
-      </profiles>
-      <links>
-        <link id="98c3-555e-ae8f-fb92" targetId="9657-1079-91be-b2bd" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="a523-885e-36ff-b704" targetId="aabd-ec96-e46d-8dcb" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="a9c8-1bf3-f231-2a55" targetId="b79a-f274-5123-df1d" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="7e11-1950-56b4-5f30" targetId="3b62-ea44-71f8-1c42" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="dedf-cc1f-1781-f171" targetId="bdd0-eb1b-bf45-750e" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="8f6e-47c1-065d-63f7" name="Ifriit" points="135.0" categoryId="4e85-806b-4c44-2cb8" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="7872-5400-cfd8-3bf4" name="Magic Artefact" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="04d2-9322-a23f-4575" targetId="886a-898c-6ebe-904a" linkType="entry group">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="3d5a-37e6-982b-557c" name="Breath Attack (20)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="af5f-3997-31fd-8ae8" profileTypeId="ee75-6c23-6aad-aa05" name="Breath Attack (20)" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="Ranged attack with (n) dice rather than Attacks value, unless listed as (Att). 12&quot; range, always hits on 4+ regardless of modifiers."/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
-        </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="46c8-4923-90ff-27fc" profileTypeId="97cc-56ab-eb5b-85a6" name="Ifriit" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="1"/>
-            <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="1"/>
-            <characteristic characteristicId="7b4d-35b9-dd84-e672" name="Unit Type" value="Hero (Inf)"/>
-            <characteristic characteristicId="6a0b-5ca3-681f-6b2e" name="Speed" value="7"/>
-            <characteristic characteristicId="ae92-a124-75e4-e22d" name="Melee" value="4"/>
-            <characteristic characteristicId="fa16-f2da-63d9-71c2" name="Ranged" value="-"/>
-            <characteristic characteristicId="a65b-2083-ea38-304f" name="Defense" value="4"/>
-            <characteristic characteristicId="058e-7a4a-4a9c-1be0" name="Attacks" value="1"/>
-            <characteristic characteristicId="03d5-4167-faba-63a6" name="Nerve" value="11/13"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="8d2a-c6a1-a5e7-378b" targetId="9657-1079-91be-b2bd" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="d2e7-31ef-ea37-d2bb" targetId="b79a-f274-5123-df1d" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="1fb6-f2a9-2432-6efa" targetId="aabd-ec96-e46d-8dcb" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="d91f-2266-3a7f-c49e" targetId="0bf5-2b12-5cc7-a963" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="e04a-21e5-6989-dfe2" name="The Well of Souls [1]" points="275.0" categoryId="4e85-806b-4c44-2cb8" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="bd72-8195-cd6c-66cb" name="Crushing Strength (2)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="61be-cbf6-0d46-28ad" targetId="3131-8f0a-0927-8489" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="c56e-1802-0551-a4aa" name="Lifeleech (5)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="c3ef-f97e-d1bc-e369" targetId="2fcc-d747-ea72-2828" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="4da0-e61d-a879-abff" name="Soul Harvest" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules>
-            <rule id="57e9-84f6-a608-3a17" name="Soul Harvest" hidden="false">
-              <description>The Well of Souls pulls the life force from the enemy and feeds the Abyssal army.
-
-When the Well of Souls is given an order (at the start of its turn), it may put up to 20 points of damage on itself. However, this cannot take it to more than 20 damage in total. For each point of damage taken in this way, it may remove 1 point of damage from a friendly, non-allied unit within 9&quot;. The Well of Souls will not take a Nerve test for damage taken in this way.</description>
-              <modifiers/>
-            </rule>
-          </rules>
-          <profiles/>
-          <links/>
-        </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="620e-0e3a-5b46-fba2" profileTypeId="97cc-56ab-eb5b-85a6" name="The Well of Souls [1]" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="1"/>
-            <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="4"/>
-            <characteristic characteristicId="7b4d-35b9-dd84-e672" name="Unit Type" value="Hero (Mon)"/>
-            <characteristic characteristicId="6a0b-5ca3-681f-6b2e" name="Speed" value="10"/>
-            <characteristic characteristicId="ae92-a124-75e4-e22d" name="Melee" value="4"/>
-            <characteristic characteristicId="fa16-f2da-63d9-71c2" name="Ranged" value="-"/>
-            <characteristic characteristicId="a65b-2083-ea38-304f" name="Defense" value="5"/>
-            <characteristic characteristicId="058e-7a4a-4a9c-1be0" name="Attacks" value="10"/>
-            <characteristic characteristicId="03d5-4167-faba-63a6" name="Nerve" value="-/20"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="b1b6-fe28-fb7e-b0bd" targetId="aabd-ec96-e46d-8dcb" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="f539-3ed1-4686-c69e" targetId="dc50-fdaa-d751-9cdf" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="1c32-b753-1067-0fa9" targetId="7c18-e2b7-bc3b-fe10" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="73d5-165c-b3a2-ff00" targetId="36fd-c324-ddc8-ef9a" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="072e-baf0-996e-e041" targetId="b79a-f274-5123-df1d" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="7e5b-f0fd-4ee3-2a97" name="The Lord of Lies [1]" points="300.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="465b-7d97-0bc6-75a8" name="Crushing Strength (2)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="0691-a306-f1e4-0ed9" targetId="3131-8f0a-0927-8489" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="d415-d31a-fa44-bfad" name="Thunderous Charge (2)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="1e1c-9dad-5e3e-2df9" targetId="a8ce-2f96-b0be-47d6" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="5d0d-2e46-f9ea-0458" name="Lightning Bolt (7)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="e506-cf8b-35bc-0c71" targetId="643b-d49d-8d14-c765" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="2a1e-b7e3-d3b8-07e3" profileTypeId="97cc-56ab-eb5b-85a6" name="The Lord of Lies [1]" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="1"/>
-            <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="3"/>
-            <characteristic characteristicId="7b4d-35b9-dd84-e672" name="Unit Type" value="Hero (Lrg Inf)"/>
-            <characteristic characteristicId="6a0b-5ca3-681f-6b2e" name="Speed" value="10"/>
-            <characteristic characteristicId="ae92-a124-75e4-e22d" name="Melee" value="3"/>
-            <characteristic characteristicId="fa16-f2da-63d9-71c2" name="Ranged" value="-"/>
-            <characteristic characteristicId="a65b-2083-ea38-304f" name="Defense" value="5"/>
-            <characteristic characteristicId="058e-7a4a-4a9c-1be0" name="Attacks" value="5"/>
-            <characteristic characteristicId="03d5-4167-faba-63a6" name="Nerve" value="15/20"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="9840-b497-9641-d431" targetId="dc50-fdaa-d751-9cdf" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="c75f-6872-e334-73be" targetId="aabd-ec96-e46d-8dcb" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="df5e-e3e7-aa63-e95a" targetId="7c18-e2b7-bc3b-fe10" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="4010-5a4c-9eaf-ae0c" targetId="b79a-f274-5123-df1d" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="3323-1545-1f29-c2bb" targetId="3b62-ea44-71f8-1c42" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="631b-012e-1b86-7f46" targetId="bdd0-eb1b-bf45-750e" linkType="rule">
           <modifiers/>
         </link>
       </links>
