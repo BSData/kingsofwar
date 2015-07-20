@@ -1,16 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue id="e915-889b-4ddf-5182" revision="1" gameSystemId="697b-dd1f-a597-82e2" gameSystemRevision="1" battleScribeVersion="1.15" name="Goblins 2E" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
-    <entry id="2206-3523-a443-28a5" name="Sharpsticks (20)" points="95.0" categoryId="e254-2b91-de9e-2381" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="e1a6-0a11-eaea-6d04" name="Big Rocks Thrower" points="80.0" categoryId="a974-8216-3217-bd70" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="6ac1-3d15-f9c1-d900" name="Magic Artefact" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="acb1-1946-1cea-bec7" name="Piercing (3)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules/>
           <profiles/>
           <links>
-            <link id="aa08-4985-393b-984b" targetId="886a-898c-6ebe-904a" linkType="entry group">
+            <link id="0c9a-13fb-0527-8e99" targetId="cc29-8e7d-2a0e-c995" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="ce1f-b36a-af22-7e30" name="Blast (D6+2)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="4872-23ce-b0d5-92c0" targetId="8c02-8957-63ab-1084" linkType="rule">
               <modifiers/>
             </link>
           </links>
@@ -20,245 +32,42 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="0ebc-d08e-fc0e-dbda" profileTypeId="1766-7f43-a8c0-711d" name="Sharpsticks" hidden="false">
+        <profile id="aa9b-c1eb-d345-eb9b" profileTypeId="021a-1e31-e581-4e84" name="Big Rocks Thrower" hidden="false">
           <characteristics>
-            <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="Regiment (20)"/>
+            <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="1"/>
             <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="1"/>
-            <characteristic characteristicId="7b4d-35b9-dd84-e672" name="Unit Type" value="Infantry"/>
+            <characteristic characteristicId="7b4d-35b9-dd84-e672" name="Unit Type" value="War Engine"/>
             <characteristic characteristicId="6a0b-5ca3-681f-6b2e" name="Speed" value="5"/>
-            <characteristic characteristicId="ae92-a124-75e4-e22d" name="Melee" value="5"/>
-            <characteristic characteristicId="fa16-f2da-63d9-71c2" name="Ranged" value="-"/>
+            <characteristic characteristicId="ae92-a124-75e4-e22d" name="Melee" value="-"/>
+            <characteristic characteristicId="fa16-f2da-63d9-71c2" name="Ranged" value="5"/>
             <characteristic characteristicId="a65b-2083-ea38-304f" name="Defense" value="4"/>
-            <characteristic characteristicId="058e-7a4a-4a9c-1be0" name="Attacks" value="15"/>
-            <characteristic characteristicId="03d5-4167-faba-63a6" name="Nerve" value="12/14"/>
+            <characteristic characteristicId="058e-7a4a-4a9c-1be0" name="Attacks" value="1"/>
+            <characteristic characteristicId="03d5-4167-faba-63a6" name="Nerve" value="8/10"/>
           </characteristics>
           <modifiers/>
         </profile>
       </profiles>
       <links>
-        <link id="121d-171f-e5f0-e802" targetId="fbfb-4339-b268-fbae" linkType="rule">
+        <link id="5a45-b9a9-e867-895d" targetId="5f9b-2fdf-ddf6-b612" linkType="rule">
           <modifiers/>
         </link>
-        <link id="ab40-5a39-1d35-8359" targetId="5f9b-2fdf-ddf6-b612" linkType="rule">
+        <link id="258a-4376-5155-9bf1" targetId="c0b3-3b50-e88f-5461" linkType="rule">
           <modifiers/>
         </link>
-      </links>
-    </entry>
-    <entry id="61b9-c3c1-be98-80fc" name="Sharpsticks (40)" points="155.0" categoryId="1df8-619c-72e1-2447" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="d1a3-ebb9-9561-ca4a" name="Magic Artefact" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="9ee5-60a3-4773-cfec" targetId="886a-898c-6ebe-904a" linkType="entry group">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="505b-8e51-2176-3e3b" profileTypeId="1766-7f43-a8c0-711d" name="Sharpsticks" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="Horde (40)"/>
-            <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="1"/>
-            <characteristic characteristicId="7b4d-35b9-dd84-e672" name="Unit Type" value="Infantry"/>
-            <characteristic characteristicId="6a0b-5ca3-681f-6b2e" name="Speed" value="5"/>
-            <characteristic characteristicId="ae92-a124-75e4-e22d" name="Melee" value="5"/>
-            <characteristic characteristicId="fa16-f2da-63d9-71c2" name="Ranged" value="-"/>
-            <characteristic characteristicId="a65b-2083-ea38-304f" name="Defense" value="4"/>
-            <characteristic characteristicId="058e-7a4a-4a9c-1be0" name="Attacks" value="30"/>
-            <characteristic characteristicId="03d5-4167-faba-63a6" name="Nerve" value="19/21"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="c2cf-df54-d0ab-b0fe" targetId="fbfb-4339-b268-fbae" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="d69b-9111-b416-b93b" targetId="5f9b-2fdf-ddf6-b612" linkType="rule">
+        <link id="f6a9-5a87-3298-b803" targetId="140a-2d51-ef73-c9b1" linkType="rule">
           <modifiers/>
         </link>
       </links>
     </entry>
-    <entry id="1d51-e364-c649-a229" name="Sharpsticks (60)" points="230.0" categoryId="1df8-619c-72e1-2447" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="cf11-ed5d-8bfd-ea07" name="Biggit" points="60.0" categoryId="4e85-806b-4c44-2cb8" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="8a54-bd40-918f-ad8f" name="Magic Artefact" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="b1f7-7859-0ab7-a43b" targetId="886a-898c-6ebe-904a" linkType="entry group">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="dfa5-4bc9-656e-e424" profileTypeId="1766-7f43-a8c0-711d" name="Sharpsticks" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="Legion (60)"/>
-            <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="1"/>
-            <characteristic characteristicId="7b4d-35b9-dd84-e672" name="Unit Type" value="Infantry"/>
-            <characteristic characteristicId="6a0b-5ca3-681f-6b2e" name="Speed" value="5"/>
-            <characteristic characteristicId="ae92-a124-75e4-e22d" name="Melee" value="5"/>
-            <characteristic characteristicId="fa16-f2da-63d9-71c2" name="Ranged" value="-"/>
-            <characteristic characteristicId="a65b-2083-ea38-304f" name="Defense" value="4"/>
-            <characteristic characteristicId="058e-7a4a-4a9c-1be0" name="Attacks" value="35"/>
-            <characteristic characteristicId="03d5-4167-faba-63a6" name="Nerve" value="25/27"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="4706-6b87-458d-83bb" targetId="fbfb-4339-b268-fbae" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="0cc5-0776-2224-185c" targetId="5f9b-2fdf-ddf6-b612" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="3af6-3d8d-2b72-3fbf" name="Rabble (20)" points="75.0" categoryId="e254-2b91-de9e-2381" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="119a-07b9-f474-f320" name="Magic Artefact" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="a3f0-1041-e6ad-40bd" targetId="886a-898c-6ebe-904a" linkType="entry group">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="161a-5e86-c315-5ffc" profileTypeId="1766-7f43-a8c0-711d" name="Rabble" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="Regiment (20)"/>
-            <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="1"/>
-            <characteristic characteristicId="7b4d-35b9-dd84-e672" name="Unit Type" value="Infantry"/>
-            <characteristic characteristicId="6a0b-5ca3-681f-6b2e" name="Speed" value="5"/>
-            <characteristic characteristicId="ae92-a124-75e4-e22d" name="Melee" value="5"/>
-            <characteristic characteristicId="fa16-f2da-63d9-71c2" name="Ranged" value="-"/>
-            <characteristic characteristicId="a65b-2083-ea38-304f" name="Defense" value="4"/>
-            <characteristic characteristicId="058e-7a4a-4a9c-1be0" name="Attacks" value="12"/>
-            <characteristic characteristicId="03d5-4167-faba-63a6" name="Nerve" value="12/14"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="93fe-072a-a5b9-78ad" targetId="5f9b-2fdf-ddf6-b612" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="015a-e9f8-93df-0b29" name="Rabble (40)" points="125.0" categoryId="1df8-619c-72e1-2447" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="fbad-fd53-0f73-c7b0" name="Magic Artefact" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="8e20-a149-b464-abb7" targetId="886a-898c-6ebe-904a" linkType="entry group">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="64c8-2374-8c09-293f" profileTypeId="1766-7f43-a8c0-711d" name="Rabble" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="Horde (40)"/>
-            <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="1"/>
-            <characteristic characteristicId="7b4d-35b9-dd84-e672" name="Unit Type" value="Infantry"/>
-            <characteristic characteristicId="6a0b-5ca3-681f-6b2e" name="Speed" value="5"/>
-            <characteristic characteristicId="ae92-a124-75e4-e22d" name="Melee" value="5"/>
-            <characteristic characteristicId="fa16-f2da-63d9-71c2" name="Ranged" value="-"/>
-            <characteristic characteristicId="a65b-2083-ea38-304f" name="Defense" value="4"/>
-            <characteristic characteristicId="058e-7a4a-4a9c-1be0" name="Attacks" value="25"/>
-            <characteristic characteristicId="03d5-4167-faba-63a6" name="Nerve" value="19/21"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="e4ac-b69b-1391-f756" targetId="5f9b-2fdf-ddf6-b612" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="0621-0558-3daf-3fa0" name="Rabble (60)" points="180.0" categoryId="1df8-619c-72e1-2447" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="6bde-dac3-571a-904d" name="Magic Artefact" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="847d-69ab-1633-9be6" targetId="886a-898c-6ebe-904a" linkType="entry group">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="0023-3fe6-1dde-7daa" profileTypeId="1766-7f43-a8c0-711d" name="Rabble" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="Legion (60)"/>
-            <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="1"/>
-            <characteristic characteristicId="7b4d-35b9-dd84-e672" name="Unit Type" value="Infantry"/>
-            <characteristic characteristicId="6a0b-5ca3-681f-6b2e" name="Speed" value="5"/>
-            <characteristic characteristicId="ae92-a124-75e4-e22d" name="Melee" value="5"/>
-            <characteristic characteristicId="fa16-f2da-63d9-71c2" name="Ranged" value="-"/>
-            <characteristic characteristicId="a65b-2083-ea38-304f" name="Defense" value="4"/>
-            <characteristic characteristicId="058e-7a4a-4a9c-1be0" name="Attacks" value="30"/>
-            <characteristic characteristicId="03d5-4167-faba-63a6" name="Nerve" value="25/27"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="c422-4cea-e5ef-5471" targetId="5f9b-2fdf-ddf6-b612" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="ef38-119a-eb72-3f67" name="Spitters (20)" points="85.0" categoryId="e254-2b91-de9e-2381" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="ef50-88c6-4716-47ce" name="Bows" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="96e5-a3b1-3230-f6d7" name="Bow" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="c04e-a3da-c671-f7b2" profileTypeId="ee75-6c23-6aad-aa05" name="Bows" hidden="false">
+            <profile id="5b96-5706-67c3-f542" profileTypeId="ee75-6c23-6aad-aa05" name="Bow" hidden="false">
               <characteristics>
                 <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="24&quot; range."/>
               </characteristics>
@@ -267,14 +76,106 @@
           </profiles>
           <links/>
         </entry>
-        <entry id="90f9-ca79-2365-d37d" name="Magic Artefact" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="3387-2b58-a754-de99" name="Magic Artefact" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules/>
           <profiles/>
           <links>
-            <link id="e0a0-e3b4-21db-e894" targetId="886a-898c-6ebe-904a" linkType="entry group">
+            <link id="56cd-c6c7-1347-6b6d" targetId="886a-898c-6ebe-904a" linkType="entry group">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="9db7-df2e-ed11-5cd3" name="Mounted" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="312d-5c63-c92b-652f" profileTypeId="ee75-6c23-6aad-aa05" name="Fleabag" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="This unit has Speed 10, and becomes Hero (Cav) (All changes already in profile)."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="71fa-c7f7-3740-8a30" profileTypeId="97cc-56ab-eb5b-85a6" name="Biggit" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="1"/>
+            <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="1"/>
+            <characteristic characteristicId="7b4d-35b9-dd84-e672" name="Unit Type" value="Hero (Inf)"/>
+            <characteristic characteristicId="6a0b-5ca3-681f-6b2e" name="Speed" value="5"/>
+            <characteristic characteristicId="ae92-a124-75e4-e22d" name="Melee" value="4"/>
+            <characteristic characteristicId="fa16-f2da-63d9-71c2" name="Ranged" value="4"/>
+            <characteristic characteristicId="a65b-2083-ea38-304f" name="Defense" value="4"/>
+            <characteristic characteristicId="058e-7a4a-4a9c-1be0" name="Attacks" value="3"/>
+            <characteristic characteristicId="03d5-4167-faba-63a6" name="Nerve" value="9/11"/>
+          </characteristics>
+          <modifiers>
+            <modifier type="set" field="786c-09f7-bc4a-bc1a" value="2" repeat="true" numRepeats="1" incrementParentId="cf11-ed5d-8bfd-ea07" incrementChildId="9db7-df2e-ed11-5cd3" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="6a0b-5ca3-681f-6b2e" value="10" repeat="true" numRepeats="1" incrementParentId="cf11-ed5d-8bfd-ea07" incrementChildId="9db7-df2e-ed11-5cd3" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="7b4d-35b9-dd84-e672" value="Hero (Cav)" repeat="true" numRepeats="1" incrementParentId="cf11-ed5d-8bfd-ea07" incrementChildId="9db7-df2e-ed11-5cd3" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </profile>
+      </profiles>
+      <links>
+        <link id="a0fe-c2b5-6068-772f" targetId="9657-1079-91be-b2bd" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="9d13-609a-d79c-74c5" targetId="7c18-e2b7-bc3b-fe10" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="ea31-7504-f124-6d43" targetId="b79a-f274-5123-df1d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="97d7-bdd9-ce88-fef2" targetId="5f9b-2fdf-ddf6-b612" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="4f4f-70f3-164b-d697" name="Flaggit" points="40.0" categoryId="4e85-806b-4c44-2cb8" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="480e-6b98-0f56-78e7" name="Mounted" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="43b9-0466-576a-38d6" profileTypeId="ee75-6c23-6aad-aa05" name="Fleabag" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="This unit has Speed 10, and becomes Hero (Cav) (All changes already in profile)."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="992b-03cf-96c5-6f63" name="Magic Artefact" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="8ba9-9f90-7809-deec" targetId="886a-898c-6ebe-904a" linkType="entry group">
               <modifiers/>
             </link>
           </links>
@@ -284,611 +185,45 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="ea80-0877-9cef-bc65" profileTypeId="1766-7f43-a8c0-711d" name="Spitters" hidden="false">
+        <profile id="8b06-0c38-7739-366b" profileTypeId="97cc-56ab-eb5b-85a6" name="Flaggit" hidden="false">
           <characteristics>
-            <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="Regiment (20)"/>
+            <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="1"/>
             <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="1"/>
-            <characteristic characteristicId="7b4d-35b9-dd84-e672" name="Unit Type" value="Infantry"/>
+            <characteristic characteristicId="7b4d-35b9-dd84-e672" name="Unit Type" value="Hero (Inf)"/>
             <characteristic characteristicId="6a0b-5ca3-681f-6b2e" name="Speed" value="5"/>
             <characteristic characteristicId="ae92-a124-75e4-e22d" name="Melee" value="6"/>
-            <characteristic characteristicId="fa16-f2da-63d9-71c2" name="Ranged" value="5"/>
-            <characteristic characteristicId="a65b-2083-ea38-304f" name="Defense" value="3"/>
-            <characteristic characteristicId="058e-7a4a-4a9c-1be0" name="Attacks" value="10"/>
-            <characteristic characteristicId="03d5-4167-faba-63a6" name="Nerve" value="12/14"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="a73d-6d38-e37f-1342" targetId="5f9b-2fdf-ddf6-b612" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="c569-8bcd-fc35-727c" name="Spitters (40)" points="140.0" categoryId="1df8-619c-72e1-2447" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="d749-11a3-1aea-aed1" name="Bows" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="5b37-ec92-bb4c-d244" profileTypeId="ee75-6c23-6aad-aa05" name="Bows" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="24&quot; range."/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
-        </entry>
-        <entry id="d6be-71a9-26f5-b975" name="Magic Artefact" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="a07a-cccd-c644-1bb5" targetId="886a-898c-6ebe-904a" linkType="entry group">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="a964-17d3-87a0-a05e" profileTypeId="1766-7f43-a8c0-711d" name="Spitters" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="Horde (40)"/>
-            <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="1"/>
-            <characteristic characteristicId="7b4d-35b9-dd84-e672" name="Unit Type" value="Infantry"/>
-            <characteristic characteristicId="6a0b-5ca3-681f-6b2e" name="Speed" value="5"/>
-            <characteristic characteristicId="ae92-a124-75e4-e22d" name="Melee" value="6"/>
-            <characteristic characteristicId="fa16-f2da-63d9-71c2" name="Ranged" value="5"/>
-            <characteristic characteristicId="a65b-2083-ea38-304f" name="Defense" value="3"/>
-            <characteristic characteristicId="058e-7a4a-4a9c-1be0" name="Attacks" value="20"/>
-            <characteristic characteristicId="03d5-4167-faba-63a6" name="Nerve" value="19/21"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="6aac-9cb9-0616-b4d1" targetId="5f9b-2fdf-ddf6-b612" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="cd34-8f83-dc84-0918" name="Trolls (3)" points="125.0" categoryId="e254-2b91-de9e-2381" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="9dab-45c1-e490-1431" name="Crushing Strength (2)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="7f68-e928-52e2-7312" targetId="3131-8f0a-0927-8489" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="c21d-6ff1-8ee4-239a" name="Regeneration (5+)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="d940-656f-94c8-fcde" targetId="5815-9306-b2e7-0436" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="9398-9758-844a-36a5" name="Does not have Yellow Bellied" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links/>
-        </entry>
-        <entry id="9963-ed57-989e-0982" name="Magic Artefact" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="1897-175e-845e-7078" targetId="886a-898c-6ebe-904a" linkType="entry group">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="6582-6f68-f6c0-1b62" profileTypeId="cdbe-57f0-c402-11d8" name="Trolls" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="Regiment (3)"/>
-            <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="2"/>
-            <characteristic characteristicId="7b4d-35b9-dd84-e672" name="Unit Type" value="Large Infantry"/>
-            <characteristic characteristicId="6a0b-5ca3-681f-6b2e" name="Speed" value="6"/>
-            <characteristic characteristicId="ae92-a124-75e4-e22d" name="Melee" value="4"/>
-            <characteristic characteristicId="fa16-f2da-63d9-71c2" name="Ranged" value="-"/>
-            <characteristic characteristicId="a65b-2083-ea38-304f" name="Defense" value="5"/>
-            <characteristic characteristicId="058e-7a4a-4a9c-1be0" name="Attacks" value="9"/>
-            <characteristic characteristicId="03d5-4167-faba-63a6" name="Nerve" value="11/14"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="5863-5463-1c65-3239" name="Trolls (6)" points="190.0" categoryId="1df8-619c-72e1-2447" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="e13e-b75f-2f63-d2ce" name="Crushing Strength (2)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="63a3-f68b-6383-a152" targetId="3131-8f0a-0927-8489" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="fdcd-208b-994c-c878" name="Does not have Yellow Bellied" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links/>
-        </entry>
-        <entry id="2ccc-65c3-df39-0a4c" name="Magic Artefact" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="a556-8889-40c7-a755" targetId="886a-898c-6ebe-904a" linkType="entry group">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="a60b-4f5e-10f0-d0c0" name="Regeneration (5+)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="e888-27b1-3ff9-4e74" targetId="5815-9306-b2e7-0436" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="f920-0271-8894-6f9d" profileTypeId="cdbe-57f0-c402-11d8" name="Trolls" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="Horde (6)"/>
-            <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="2"/>
-            <characteristic characteristicId="7b4d-35b9-dd84-e672" name="Unit Type" value="Large Infantry"/>
-            <characteristic characteristicId="6a0b-5ca3-681f-6b2e" name="Speed" value="6"/>
-            <characteristic characteristicId="ae92-a124-75e4-e22d" name="Melee" value="4"/>
-            <characteristic characteristicId="fa16-f2da-63d9-71c2" name="Ranged" value="-"/>
-            <characteristic characteristicId="a65b-2083-ea38-304f" name="Defense" value="5"/>
-            <characteristic characteristicId="058e-7a4a-4a9c-1be0" name="Attacks" value="18"/>
-            <characteristic characteristicId="03d5-4167-faba-63a6" name="Nerve" value="14/17"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="bf86-a64d-7368-ade3" name="Mawbeasts Pack* (5)" points="60.0" categoryId="d5a9-edbf-71e8-399f" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="a781-8c77-2336-6f2b" name="Magic Artefact" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="bd84-2eaa-f84f-b7c7" targetId="886a-898c-6ebe-904a" linkType="entry group">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="1b70-8a88-7a57-ee1e" name="Crushing Strength (1)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="7d6a-ac30-2eda-c527" targetId="3131-8f0a-0927-8489" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="635b-0fd4-a53f-00bc" profileTypeId="2d97-40c5-cd44-108f" name="Mawbeasts Pack*" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="Troop (5)"/>
-            <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="1"/>
-            <characteristic characteristicId="7b4d-35b9-dd84-e672" name="Unit Type" value="Cavalry"/>
-            <characteristic characteristicId="6a0b-5ca3-681f-6b2e" name="Speed" value="6"/>
-            <characteristic characteristicId="ae92-a124-75e4-e22d" name="Melee" value="3"/>
-            <characteristic characteristicId="fa16-f2da-63d9-71c2" name="Ranged" value="-"/>
-            <characteristic characteristicId="a65b-2083-ea38-304f" name="Defense" value="3"/>
-            <characteristic characteristicId="058e-7a4a-4a9c-1be0" name="Attacks" value="6"/>
-            <characteristic characteristicId="03d5-4167-faba-63a6" name="Nerve" value="9/11"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="0bab-aa13-5ca4-4f34" targetId="b79a-f274-5123-df1d" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="d284-5285-d54a-ef29" targetId="47c7-1334-d1bf-24d9" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="23ab-477f-8eef-9a44" targetId="5f9b-2fdf-ddf6-b612" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="4e37-e176-e4dc-1128" name="Mawbeasts Pack* (10)" points="95.0" categoryId="d5a9-edbf-71e8-399f" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="74a2-bd79-5175-56f4" name="Crushing Strength (1)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="9181-b954-1095-b898" targetId="3131-8f0a-0927-8489" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="f586-e326-39a5-ff1a" name="Magic Artefact" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="781b-d2cc-7b29-e4f8" targetId="886a-898c-6ebe-904a" linkType="entry group">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="2daf-7b99-db8e-0dea" profileTypeId="1766-7f43-a8c0-711d" name="Mawbeasts Pack*" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="Regiment (10)"/>
-            <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="2"/>
-            <characteristic characteristicId="7b4d-35b9-dd84-e672" name="Unit Type" value="Cavalry"/>
-            <characteristic characteristicId="6a0b-5ca3-681f-6b2e" name="Speed" value="6"/>
-            <characteristic characteristicId="ae92-a124-75e4-e22d" name="Melee" value="3"/>
-            <characteristic characteristicId="fa16-f2da-63d9-71c2" name="Ranged" value="-"/>
-            <characteristic characteristicId="a65b-2083-ea38-304f" name="Defense" value="3"/>
-            <characteristic characteristicId="058e-7a4a-4a9c-1be0" name="Attacks" value="12"/>
-            <characteristic characteristicId="03d5-4167-faba-63a6" name="Nerve" value="12/14"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="9b16-d74a-b16f-f11f" targetId="b79a-f274-5123-df1d" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="0f40-d375-7c77-53d8" targetId="47c7-1334-d1bf-24d9" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="aaed-67ca-f87d-db70" targetId="5f9b-2fdf-ddf6-b612" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="b51f-b5d9-7834-d2aa" name="Fleabag Riders (5)" points="95.0" categoryId="d5a9-edbf-71e8-399f" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="b2ef-6ff6-12c6-cfac" name="Thunderous Charge (1)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="22e6-e426-17b1-f86c" targetId="a8ce-2f96-b0be-47d6" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="fd7a-b30d-2031-a709" name="Magic Artefact" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="06f2-9d1d-4f8a-c48e" targetId="886a-898c-6ebe-904a" linkType="entry group">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="cc7d-5b91-dbf8-c8b9" profileTypeId="2d97-40c5-cd44-108f" name="Fleabag Riders" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="Troop (5)"/>
-            <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="2"/>
-            <characteristic characteristicId="7b4d-35b9-dd84-e672" name="Unit Type" value="Cavalry"/>
-            <characteristic characteristicId="6a0b-5ca3-681f-6b2e" name="Speed" value="10"/>
-            <characteristic characteristicId="ae92-a124-75e4-e22d" name="Melee" value="4"/>
             <characteristic characteristicId="fa16-f2da-63d9-71c2" name="Ranged" value="-"/>
             <characteristic characteristicId="a65b-2083-ea38-304f" name="Defense" value="4"/>
-            <characteristic characteristicId="058e-7a4a-4a9c-1be0" name="Attacks" value="7"/>
-            <characteristic characteristicId="03d5-4167-faba-63a6" name="Nerve" value="9/11"/>
+            <characteristic characteristicId="058e-7a4a-4a9c-1be0" name="Attacks" value="1"/>
+            <characteristic characteristicId="03d5-4167-faba-63a6" name="Nerve" value="8/10"/>
           </characteristics>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="786c-09f7-bc4a-bc1a" value="2" repeat="true" numRepeats="1" incrementParentId="4f4f-70f3-164b-d697" incrementChildId="480e-6b98-0f56-78e7" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="6a0b-5ca3-681f-6b2e" value="10" repeat="true" numRepeats="1" incrementParentId="4f4f-70f3-164b-d697" incrementChildId="480e-6b98-0f56-78e7" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="7b4d-35b9-dd84-e672" value="Hero (Cav)" repeat="true" numRepeats="1" incrementParentId="4f4f-70f3-164b-d697" incrementChildId="480e-6b98-0f56-78e7" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
         </profile>
       </profiles>
       <links>
-        <link id="5ae9-4a88-ac32-ad76" targetId="b79a-f274-5123-df1d" linkType="rule">
+        <link id="b77f-fd61-00fa-e031" targetId="9657-1079-91be-b2bd" linkType="rule">
           <modifiers/>
         </link>
-        <link id="e468-8782-6c4b-dd7f" targetId="5f9b-2fdf-ddf6-b612" linkType="rule">
+        <link id="ebca-2822-cc58-7d25" targetId="7c18-e2b7-bc3b-fe10" linkType="rule">
           <modifiers/>
         </link>
-      </links>
-    </entry>
-    <entry id="0ab6-2091-b723-57cf" name="Fleabag Riders (10)" points="145.0" categoryId="e254-2b91-de9e-2381" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="7e7f-d395-3eb8-4522" name="Magic Artefact" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="273d-b74d-dca1-6ea7" targetId="886a-898c-6ebe-904a" linkType="entry group">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="66e5-31aa-748c-1942" name="Thunderous Charge (1)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="3ac9-7acc-741a-6ca7" targetId="a8ce-2f96-b0be-47d6" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="4e7e-2570-f300-c8f6" profileTypeId="2d97-40c5-cd44-108f" name="Fleabag Riders" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="Regiment (10)"/>
-            <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="2"/>
-            <characteristic characteristicId="7b4d-35b9-dd84-e672" name="Unit Type" value="Cavalry"/>
-            <characteristic characteristicId="6a0b-5ca3-681f-6b2e" name="Speed" value="10"/>
-            <characteristic characteristicId="ae92-a124-75e4-e22d" name="Melee" value="4"/>
-            <characteristic characteristicId="fa16-f2da-63d9-71c2" name="Ranged" value="-"/>
-            <characteristic characteristicId="a65b-2083-ea38-304f" name="Defense" value="4"/>
-            <characteristic characteristicId="058e-7a4a-4a9c-1be0" name="Attacks" value="14"/>
-            <characteristic characteristicId="03d5-4167-faba-63a6" name="Nerve" value="12/14"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="eda3-3d8c-480d-99dd" targetId="b79a-f274-5123-df1d" linkType="rule">
+        <link id="81c8-3d45-0b4e-969f" targetId="b79a-f274-5123-df1d" linkType="rule">
           <modifiers/>
         </link>
-        <link id="9cd5-adb6-b6de-f291" targetId="5f9b-2fdf-ddf6-b612" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="ced8-34cf-fc6d-c683" name="Fleabag Riders (20)" points="255.0" categoryId="1df8-619c-72e1-2447" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="9044-ac6f-de68-f5b2" name="Magic Artefact" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="2977-f860-d233-ff87" targetId="886a-898c-6ebe-904a" linkType="entry group">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="1db5-9dd8-1531-3956" name="Thunderous Charge (1)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="e080-9ecc-c23d-e1a1" targetId="a8ce-2f96-b0be-47d6" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="c11a-f9aa-bc42-f98d" profileTypeId="2d97-40c5-cd44-108f" name="Fleabag Riders" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="Horde (20)"/>
-            <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="2"/>
-            <characteristic characteristicId="7b4d-35b9-dd84-e672" name="Unit Type" value="Cavalry"/>
-            <characteristic characteristicId="6a0b-5ca3-681f-6b2e" name="Speed" value="10"/>
-            <characteristic characteristicId="ae92-a124-75e4-e22d" name="Melee" value="4"/>
-            <characteristic characteristicId="fa16-f2da-63d9-71c2" name="Ranged" value="-"/>
-            <characteristic characteristicId="a65b-2083-ea38-304f" name="Defense" value="4"/>
-            <characteristic characteristicId="058e-7a4a-4a9c-1be0" name="Attacks" value="28"/>
-            <characteristic characteristicId="03d5-4167-faba-63a6" name="Nerve" value="17/19"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="a87a-b63f-10cb-cde1" targetId="b79a-f274-5123-df1d" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="61f1-ec07-3e0a-6926" targetId="5f9b-2fdf-ddf6-b612" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="c8ea-e248-3b90-d95d" name="Fleabag Rider Sniffs (5)" points="95.0" categoryId="d5a9-edbf-71e8-399f" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="ea6f-8063-dfc2-4a18" name="Bows" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="7011-1bca-3863-1409" profileTypeId="ee75-6c23-6aad-aa05" name="Bows" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="24&quot; range."/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
-        </entry>
-        <entry id="fb93-dc67-a560-36cd" name="Magic Artefact" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="143c-7822-3b4d-a85d" targetId="886a-898c-6ebe-904a" linkType="entry group">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="87ce-2531-898c-8485" profileTypeId="2d97-40c5-cd44-108f" name="Fleabag Rider Sniffs" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="Troop (5)"/>
-            <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="2"/>
-            <characteristic characteristicId="7b4d-35b9-dd84-e672" name="Unit Type" value="Cavalry"/>
-            <characteristic characteristicId="6a0b-5ca3-681f-6b2e" name="Speed" value="10"/>
-            <characteristic characteristicId="ae92-a124-75e4-e22d" name="Melee" value="5"/>
-            <characteristic characteristicId="fa16-f2da-63d9-71c2" name="Ranged" value="5"/>
-            <characteristic characteristicId="a65b-2083-ea38-304f" name="Defense" value="3"/>
-            <characteristic characteristicId="058e-7a4a-4a9c-1be0" name="Attacks" value="7"/>
-            <characteristic characteristicId="03d5-4167-faba-63a6" name="Nerve" value="9/11"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="350a-973b-a78f-bc73" targetId="5f9b-2fdf-ddf6-b612" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="7930-c5e0-89a8-8f16" targetId="b79a-f274-5123-df1d" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="8bad-65a3-e463-f803" name="Fleabag Rider Sniffs (10)" points="145.0" categoryId="e254-2b91-de9e-2381" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="0aec-2183-b4ce-64eb" name="Bows" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="f64d-144e-be37-ca65" profileTypeId="ee75-6c23-6aad-aa05" name="Bows" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="24&quot; range."/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
-        </entry>
-        <entry id="e61f-8129-0e02-9b01" name="Magic Artefact" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="5388-0c56-b72a-bdf4" targetId="886a-898c-6ebe-904a" linkType="entry group">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="f317-0ccc-6a47-0fc7" profileTypeId="2d97-40c5-cd44-108f" name="Fleabag Rider Sniffs" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="Regiment (10)"/>
-            <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="2"/>
-            <characteristic characteristicId="7b4d-35b9-dd84-e672" name="Unit Type" value="Cavalry"/>
-            <characteristic characteristicId="6a0b-5ca3-681f-6b2e" name="Speed" value="10"/>
-            <characteristic characteristicId="ae92-a124-75e4-e22d" name="Melee" value="5"/>
-            <characteristic characteristicId="fa16-f2da-63d9-71c2" name="Ranged" value="5"/>
-            <characteristic characteristicId="a65b-2083-ea38-304f" name="Defense" value="3"/>
-            <characteristic characteristicId="058e-7a4a-4a9c-1be0" name="Attacks" value="14"/>
-            <characteristic characteristicId="03d5-4167-faba-63a6" name="Nerve" value="12/14"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="88c5-e872-888e-2120" targetId="b79a-f274-5123-df1d" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="8abd-3aa2-129e-9ccb" targetId="5f9b-2fdf-ddf6-b612" linkType="rule">
+        <link id="42e3-12dc-04da-342a" targetId="5f9b-2fdf-ddf6-b612" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -1027,31 +362,31 @@
         </link>
       </links>
     </entry>
-    <entry id="4f0b-8d86-eb60-19a7" name="War-Trombone" points="65.0" categoryId="a974-8216-3217-bd70" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="8bad-65a3-e463-f803" name="Fleabag Rider Sniffs (10)" points="145.0" categoryId="e254-2b91-de9e-2381" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="fb1b-cf8c-0894-5830" name="Breath Attack (Att)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="0aec-2183-b4ce-64eb" name="Bows" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="ed43-bc28-0001-c569" profileTypeId="ee75-6c23-6aad-aa05" name="Breath Attack (Att)" hidden="false">
+            <profile id="f64d-144e-be37-ca65" profileTypeId="ee75-6c23-6aad-aa05" name="Bows" hidden="false">
               <characteristics>
-                <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="Ranged attack with (n) dice rather than Attacks value, unless listed as (Att). 12&quot; range, Piercing (1), always hits on 4+ regardless of modifiers."/>
+                <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="24&quot; range."/>
               </characteristics>
               <modifiers/>
             </profile>
           </profiles>
           <links/>
         </entry>
-        <entry id="7ba1-9d3d-b4c5-be48" name="Piercing (1)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="e61f-8129-0e02-9b01" name="Magic Artefact" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules/>
           <profiles/>
           <links>
-            <link id="3c31-899c-643e-3da3" targetId="cc29-8e7d-2a0e-c995" linkType="rule">
+            <link id="5388-0c56-b72a-bdf4" targetId="886a-898c-6ebe-904a" linkType="entry group">
               <modifiers/>
             </link>
           </links>
@@ -1061,49 +396,165 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="b8d4-92af-39ec-33a2" profileTypeId="021a-1e31-e581-4e84" name="War-Trombone" hidden="false">
+        <profile id="f317-0ccc-6a47-0fc7" profileTypeId="2d97-40c5-cd44-108f" name="Fleabag Rider Sniffs" hidden="false">
           <characteristics>
-            <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="1"/>
-            <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="1"/>
-            <characteristic characteristicId="7b4d-35b9-dd84-e672" name="Unit Type" value="War Engine"/>
-            <characteristic characteristicId="6a0b-5ca3-681f-6b2e" name="Speed" value="5"/>
-            <characteristic characteristicId="ae92-a124-75e4-e22d" name="Melee" value="-"/>
+            <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="Regiment (10)"/>
+            <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="2"/>
+            <characteristic characteristicId="7b4d-35b9-dd84-e672" name="Unit Type" value="Cavalry"/>
+            <characteristic characteristicId="6a0b-5ca3-681f-6b2e" name="Speed" value="10"/>
+            <characteristic characteristicId="ae92-a124-75e4-e22d" name="Melee" value="5"/>
+            <characteristic characteristicId="fa16-f2da-63d9-71c2" name="Ranged" value="5"/>
+            <characteristic characteristicId="a65b-2083-ea38-304f" name="Defense" value="3"/>
+            <characteristic characteristicId="058e-7a4a-4a9c-1be0" name="Attacks" value="14"/>
+            <characteristic characteristicId="03d5-4167-faba-63a6" name="Nerve" value="12/14"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="88c5-e872-888e-2120" targetId="b79a-f274-5123-df1d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="8abd-3aa2-129e-9ccb" targetId="5f9b-2fdf-ddf6-b612" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="c8ea-e248-3b90-d95d" name="Fleabag Rider Sniffs (5)" points="95.0" categoryId="d5a9-edbf-71e8-399f" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="ea6f-8063-dfc2-4a18" name="Bows" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="7011-1bca-3863-1409" profileTypeId="ee75-6c23-6aad-aa05" name="Bows" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="24&quot; range."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="fb93-dc67-a560-36cd" name="Magic Artefact" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="143c-7822-3b4d-a85d" targetId="886a-898c-6ebe-904a" linkType="entry group">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="87ce-2531-898c-8485" profileTypeId="2d97-40c5-cd44-108f" name="Fleabag Rider Sniffs" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="Troop (5)"/>
+            <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="2"/>
+            <characteristic characteristicId="7b4d-35b9-dd84-e672" name="Unit Type" value="Cavalry"/>
+            <characteristic characteristicId="6a0b-5ca3-681f-6b2e" name="Speed" value="10"/>
+            <characteristic characteristicId="ae92-a124-75e4-e22d" name="Melee" value="5"/>
+            <characteristic characteristicId="fa16-f2da-63d9-71c2" name="Ranged" value="5"/>
+            <characteristic characteristicId="a65b-2083-ea38-304f" name="Defense" value="3"/>
+            <characteristic characteristicId="058e-7a4a-4a9c-1be0" name="Attacks" value="7"/>
+            <characteristic characteristicId="03d5-4167-faba-63a6" name="Nerve" value="9/11"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="350a-973b-a78f-bc73" targetId="5f9b-2fdf-ddf6-b612" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="7930-c5e0-89a8-8f16" targetId="b79a-f274-5123-df1d" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="0ab6-2091-b723-57cf" name="Fleabag Riders (10)" points="145.0" categoryId="e254-2b91-de9e-2381" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="7e7f-d395-3eb8-4522" name="Magic Artefact" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="273d-b74d-dca1-6ea7" targetId="886a-898c-6ebe-904a" linkType="entry group">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="66e5-31aa-748c-1942" name="Thunderous Charge (1)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="3ac9-7acc-741a-6ca7" targetId="a8ce-2f96-b0be-47d6" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="4e7e-2570-f300-c8f6" profileTypeId="2d97-40c5-cd44-108f" name="Fleabag Riders" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="Regiment (10)"/>
+            <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="2"/>
+            <characteristic characteristicId="7b4d-35b9-dd84-e672" name="Unit Type" value="Cavalry"/>
+            <characteristic characteristicId="6a0b-5ca3-681f-6b2e" name="Speed" value="10"/>
+            <characteristic characteristicId="ae92-a124-75e4-e22d" name="Melee" value="4"/>
             <characteristic characteristicId="fa16-f2da-63d9-71c2" name="Ranged" value="-"/>
             <characteristic characteristicId="a65b-2083-ea38-304f" name="Defense" value="4"/>
-            <characteristic characteristicId="058e-7a4a-4a9c-1be0" name="Attacks" value="12"/>
-            <characteristic characteristicId="03d5-4167-faba-63a6" name="Nerve" value="8/10"/>
+            <characteristic characteristicId="058e-7a4a-4a9c-1be0" name="Attacks" value="14"/>
+            <characteristic characteristicId="03d5-4167-faba-63a6" name="Nerve" value="12/14"/>
           </characteristics>
           <modifiers/>
         </profile>
       </profiles>
       <links>
-        <link id="09e6-86b5-3c83-6a22" targetId="5f9b-2fdf-ddf6-b612" linkType="rule">
+        <link id="eda3-3d8c-480d-99dd" targetId="b79a-f274-5123-df1d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="9cd5-adb6-b6de-f291" targetId="5f9b-2fdf-ddf6-b612" linkType="rule">
           <modifiers/>
         </link>
       </links>
     </entry>
-    <entry id="e1a6-0a11-eaea-6d04" name="Big Rocks Thrower" points="80.0" categoryId="a974-8216-3217-bd70" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="ced8-34cf-fc6d-c683" name="Fleabag Riders (20)" points="255.0" categoryId="1df8-619c-72e1-2447" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="acb1-1946-1cea-bec7" name="Piercing (3)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="9044-ac6f-de68-f5b2" name="Magic Artefact" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules/>
           <profiles/>
           <links>
-            <link id="0c9a-13fb-0527-8e99" targetId="cc29-8e7d-2a0e-c995" linkType="rule">
+            <link id="2977-f860-d233-ff87" targetId="886a-898c-6ebe-904a" linkType="entry group">
               <modifiers/>
             </link>
           </links>
         </entry>
-        <entry id="ce1f-b36a-af22-7e30" name="Blast (D6+2)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="1db5-9dd8-1531-3956" name="Thunderous Charge (1)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules/>
           <profiles/>
           <links>
-            <link id="4872-23ce-b0d5-92c0" targetId="8c02-8957-63ab-1084" linkType="rule">
+            <link id="e080-9ecc-c23d-e1a1" targetId="a8ce-2f96-b0be-47d6" linkType="rule">
               <modifiers/>
             </link>
           </links>
@@ -1113,55 +564,52 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="aa9b-c1eb-d345-eb9b" profileTypeId="021a-1e31-e581-4e84" name="Big Rocks Thrower" hidden="false">
+        <profile id="c11a-f9aa-bc42-f98d" profileTypeId="2d97-40c5-cd44-108f" name="Fleabag Riders" hidden="false">
           <characteristics>
-            <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="1"/>
-            <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="1"/>
-            <characteristic characteristicId="7b4d-35b9-dd84-e672" name="Unit Type" value="War Engine"/>
-            <characteristic characteristicId="6a0b-5ca3-681f-6b2e" name="Speed" value="5"/>
-            <characteristic characteristicId="ae92-a124-75e4-e22d" name="Melee" value="-"/>
-            <characteristic characteristicId="fa16-f2da-63d9-71c2" name="Ranged" value="5"/>
+            <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="Horde (20)"/>
+            <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="2"/>
+            <characteristic characteristicId="7b4d-35b9-dd84-e672" name="Unit Type" value="Cavalry"/>
+            <characteristic characteristicId="6a0b-5ca3-681f-6b2e" name="Speed" value="10"/>
+            <characteristic characteristicId="ae92-a124-75e4-e22d" name="Melee" value="4"/>
+            <characteristic characteristicId="fa16-f2da-63d9-71c2" name="Ranged" value="-"/>
             <characteristic characteristicId="a65b-2083-ea38-304f" name="Defense" value="4"/>
-            <characteristic characteristicId="058e-7a4a-4a9c-1be0" name="Attacks" value="1"/>
-            <characteristic characteristicId="03d5-4167-faba-63a6" name="Nerve" value="8/10"/>
+            <characteristic characteristicId="058e-7a4a-4a9c-1be0" name="Attacks" value="28"/>
+            <characteristic characteristicId="03d5-4167-faba-63a6" name="Nerve" value="17/19"/>
           </characteristics>
           <modifiers/>
         </profile>
       </profiles>
       <links>
-        <link id="5a45-b9a9-e867-895d" targetId="5f9b-2fdf-ddf6-b612" linkType="rule">
+        <link id="a87a-b63f-10cb-cde1" targetId="b79a-f274-5123-df1d" linkType="rule">
           <modifiers/>
         </link>
-        <link id="258a-4376-5155-9bf1" targetId="c0b3-3b50-e88f-5461" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="f6a9-5a87-3298-b803" targetId="140a-2d51-ef73-c9b1" linkType="rule">
+        <link id="61f1-ec07-3e0a-6926" targetId="5f9b-2fdf-ddf6-b612" linkType="rule">
           <modifiers/>
         </link>
       </links>
     </entry>
-    <entry id="b40d-38be-9a46-3106" name="Sharpstick Thrower" points="55.0" categoryId="a974-8216-3217-bd70" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="b51f-b5d9-7834-d2aa" name="Fleabag Riders (5)" points="95.0" categoryId="d5a9-edbf-71e8-399f" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="f9d8-efe2-3d5d-f0f6" name="Blast (D3)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="b2ef-6ff6-12c6-cfac" name="Thunderous Charge (1)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules/>
           <profiles/>
           <links>
-            <link id="ea3f-9d96-7349-45eb" targetId="8c02-8957-63ab-1084" linkType="rule">
+            <link id="22e6-e426-17b1-f86c" targetId="a8ce-2f96-b0be-47d6" linkType="rule">
               <modifiers/>
             </link>
           </links>
         </entry>
-        <entry id="7c9d-7edc-81e0-2042" name="Piercing (2)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="fd7a-b30d-2031-a709" name="Magic Artefact" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules/>
           <profiles/>
           <links>
-            <link id="034b-4c0a-7cfd-03cc" targetId="cc29-8e7d-2a0e-c995" linkType="rule">
+            <link id="06f2-9d1d-4f8a-c48e" targetId="886a-898c-6ebe-904a" linkType="entry group">
               <modifiers/>
             </link>
           </links>
@@ -1171,26 +619,26 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="e518-072a-ddd7-55d3" profileTypeId="021a-1e31-e581-4e84" name="Sharpstick Thrower" hidden="false">
+        <profile id="cc7d-5b91-dbf8-c8b9" profileTypeId="2d97-40c5-cd44-108f" name="Fleabag Riders" hidden="false">
           <characteristics>
-            <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="1"/>
-            <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="1"/>
-            <characteristic characteristicId="7b4d-35b9-dd84-e672" name="Unit Type" value="War Engine"/>
-            <characteristic characteristicId="6a0b-5ca3-681f-6b2e" name="Speed" value="5"/>
-            <characteristic characteristicId="ae92-a124-75e4-e22d" name="Melee" value="-"/>
-            <characteristic characteristicId="fa16-f2da-63d9-71c2" name="Ranged" value="5"/>
+            <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="Troop (5)"/>
+            <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="2"/>
+            <characteristic characteristicId="7b4d-35b9-dd84-e672" name="Unit Type" value="Cavalry"/>
+            <characteristic characteristicId="6a0b-5ca3-681f-6b2e" name="Speed" value="10"/>
+            <characteristic characteristicId="ae92-a124-75e4-e22d" name="Melee" value="4"/>
+            <characteristic characteristicId="fa16-f2da-63d9-71c2" name="Ranged" value="-"/>
             <characteristic characteristicId="a65b-2083-ea38-304f" name="Defense" value="4"/>
-            <characteristic characteristicId="058e-7a4a-4a9c-1be0" name="Attacks" value="2"/>
-            <characteristic characteristicId="03d5-4167-faba-63a6" name="Nerve" value="8/10"/>
+            <characteristic characteristicId="058e-7a4a-4a9c-1be0" name="Attacks" value="7"/>
+            <characteristic characteristicId="03d5-4167-faba-63a6" name="Nerve" value="9/11"/>
           </characteristics>
           <modifiers/>
         </profile>
       </profiles>
       <links>
-        <link id="3297-d22f-7b40-132a" targetId="c0b3-3b50-e88f-5461" linkType="rule">
+        <link id="5ae9-4a88-ac32-ad76" targetId="b79a-f274-5123-df1d" linkType="rule">
           <modifiers/>
         </link>
-        <link id="f8f3-06e1-b472-d11e" targetId="5f9b-2fdf-ddf6-b612" linkType="rule">
+        <link id="e468-8782-6c4b-dd7f" targetId="5f9b-2fdf-ddf6-b612" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -1245,429 +693,6 @@
           <modifiers/>
         </link>
         <link id="175f-771b-de55-5ec0" targetId="e70c-1148-97d1-9348" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="3730-90cb-af38-b2db" name="Mincer" points="80.0" categoryId="9565-04ac-b74f-a11c" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="50b4-5f2b-2c37-dcc1" name="Thunderous Charge (3)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="c443-7af1-fe8c-381c" targetId="a8ce-2f96-b0be-47d6" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="2fa7-1ca0-c950-5e4c" profileTypeId="9988-daf2-67fa-f17e" name="Mincer" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="1 (50x100mm)"/>
-            <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="3"/>
-            <characteristic characteristicId="7b4d-35b9-dd84-e672" name="Unit Type" value="Monster"/>
-            <characteristic characteristicId="6a0b-5ca3-681f-6b2e" name="Speed" value="5"/>
-            <characteristic characteristicId="ae92-a124-75e4-e22d" name="Melee" value="4"/>
-            <characteristic characteristicId="fa16-f2da-63d9-71c2" name="Ranged" value="-"/>
-            <characteristic characteristicId="a65b-2083-ea38-304f" name="Defense" value="4"/>
-            <characteristic characteristicId="058e-7a4a-4a9c-1be0" name="Attacks" value="D6+6"/>
-            <characteristic characteristicId="03d5-4167-faba-63a6" name="Nerve" value="9/11"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="dcc2-a076-e8e7-855b" targetId="11d0-aa5a-4eb4-83a8" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="1a4c-6ad8-3926-b575" targetId="51fa-428e-ca3d-8a63" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="837d-3a7b-955d-d327" targetId="5f9b-2fdf-ddf6-b612" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="a197-1a94-3c0a-654c" name="Slasher" points="165.0" categoryId="9565-04ac-b74f-a11c" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="9a81-c94c-e1f5-d755" name="Mounted Sharpstick Thrower" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="bd50-feb8-edae-e262" profileTypeId="ee75-6c23-6aad-aa05" name="Sharpstick Thrower" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="36&quot; range, 2 attacks, Blast (D3), Piercing (2)."/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links>
-            <link id="0af0-8e65-e819-c73b" targetId="8c02-8957-63ab-1084" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="548e-f9a9-edd8-5ec1" targetId="cc29-8e7d-2a0e-c995" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="0514-ba82-fdd5-8bdd" name="Crushing Strength (2)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="a1a0-a234-37e7-5b3f" targetId="3131-8f0a-0927-8489" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="9abf-03db-a352-f87b" name="Thunderous Charge (1)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="f213-0646-14d2-9a9f" targetId="a8ce-2f96-b0be-47d6" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="52d7-ae4b-214d-a380" name="Does not have Yellow Bellied" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links/>
-        </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="0f1e-3d9e-c540-7d1b" profileTypeId="9988-daf2-67fa-f17e" name="Slasher" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="1"/>
-            <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="4"/>
-            <characteristic characteristicId="7b4d-35b9-dd84-e672" name="Unit Type" value="Monster"/>
-            <characteristic characteristicId="6a0b-5ca3-681f-6b2e" name="Speed" value="7"/>
-            <characteristic characteristicId="ae92-a124-75e4-e22d" name="Melee" value="4"/>
-            <characteristic characteristicId="fa16-f2da-63d9-71c2" name="Ranged" value="5"/>
-            <characteristic characteristicId="a65b-2083-ea38-304f" name="Defense" value="5"/>
-            <characteristic characteristicId="058e-7a4a-4a9c-1be0" name="Attacks" value="8"/>
-            <characteristic characteristicId="03d5-4167-faba-63a6" name="Nerve" value="14/16"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="cf11-ed5d-8bfd-ea07" name="Biggit" points="60.0" categoryId="4e85-806b-4c44-2cb8" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="96e5-a3b1-3230-f6d7" name="Bow" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="5b96-5706-67c3-f542" profileTypeId="ee75-6c23-6aad-aa05" name="Bow" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="24&quot; range."/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
-        </entry>
-        <entry id="3387-2b58-a754-de99" name="Magic Artefact" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="56cd-c6c7-1347-6b6d" targetId="886a-898c-6ebe-904a" linkType="entry group">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="9db7-df2e-ed11-5cd3" name="Mounted" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="312d-5c63-c92b-652f" profileTypeId="ee75-6c23-6aad-aa05" name="Fleabag" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="This unit has Speed 10, and becomes Hero (Cav) (All changes already in profile)."/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
-        </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="71fa-c7f7-3740-8a30" profileTypeId="97cc-56ab-eb5b-85a6" name="Biggit" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="1"/>
-            <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="1"/>
-            <characteristic characteristicId="7b4d-35b9-dd84-e672" name="Unit Type" value="Hero (Inf)"/>
-            <characteristic characteristicId="6a0b-5ca3-681f-6b2e" name="Speed" value="5"/>
-            <characteristic characteristicId="ae92-a124-75e4-e22d" name="Melee" value="4"/>
-            <characteristic characteristicId="fa16-f2da-63d9-71c2" name="Ranged" value="4"/>
-            <characteristic characteristicId="a65b-2083-ea38-304f" name="Defense" value="4"/>
-            <characteristic characteristicId="058e-7a4a-4a9c-1be0" name="Attacks" value="3"/>
-            <characteristic characteristicId="03d5-4167-faba-63a6" name="Nerve" value="9/11"/>
-          </characteristics>
-          <modifiers>
-            <modifier type="set" field="786c-09f7-bc4a-bc1a" value="2" repeat="true" numRepeats="1" incrementParentId="cf11-ed5d-8bfd-ea07" incrementChildId="9db7-df2e-ed11-5cd3" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="set" field="6a0b-5ca3-681f-6b2e" value="10" repeat="true" numRepeats="1" incrementParentId="cf11-ed5d-8bfd-ea07" incrementChildId="9db7-df2e-ed11-5cd3" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="set" field="7b4d-35b9-dd84-e672" value="Hero (Cav)" repeat="true" numRepeats="1" incrementParentId="cf11-ed5d-8bfd-ea07" incrementChildId="9db7-df2e-ed11-5cd3" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-        </profile>
-      </profiles>
-      <links>
-        <link id="a0fe-c2b5-6068-772f" targetId="9657-1079-91be-b2bd" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="9d13-609a-d79c-74c5" targetId="7c18-e2b7-bc3b-fe10" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="ea31-7504-f124-6d43" targetId="b79a-f274-5123-df1d" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="97d7-bdd9-ce88-fef2" targetId="5f9b-2fdf-ddf6-b612" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="4f4f-70f3-164b-d697" name="Flaggit" points="40.0" categoryId="4e85-806b-4c44-2cb8" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="480e-6b98-0f56-78e7" name="Mounted" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="43b9-0466-576a-38d6" profileTypeId="ee75-6c23-6aad-aa05" name="Fleabag" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="This unit has Speed 10, and becomes Hero (Cav) (All changes already in profile)."/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
-        </entry>
-        <entry id="992b-03cf-96c5-6f63" name="Magic Artefact" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="8ba9-9f90-7809-deec" targetId="886a-898c-6ebe-904a" linkType="entry group">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="8b06-0c38-7739-366b" profileTypeId="97cc-56ab-eb5b-85a6" name="Flaggit" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size"/>
-            <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="1"/>
-            <characteristic characteristicId="7b4d-35b9-dd84-e672" name="Unit Type" value="Hero (Inf)"/>
-            <characteristic characteristicId="6a0b-5ca3-681f-6b2e" name="Speed" value="5"/>
-            <characteristic characteristicId="ae92-a124-75e4-e22d" name="Melee" value="6"/>
-            <characteristic characteristicId="fa16-f2da-63d9-71c2" name="Ranged" value="-"/>
-            <characteristic characteristicId="a65b-2083-ea38-304f" name="Defense" value="4"/>
-            <characteristic characteristicId="058e-7a4a-4a9c-1be0" name="Attacks" value="1"/>
-            <characteristic characteristicId="03d5-4167-faba-63a6" name="Nerve" value="8/10"/>
-          </characteristics>
-          <modifiers>
-            <modifier type="set" field="786c-09f7-bc4a-bc1a" value="2" repeat="true" numRepeats="1" incrementParentId="4f4f-70f3-164b-d697" incrementChildId="480e-6b98-0f56-78e7" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="set" field="6a0b-5ca3-681f-6b2e" value="10" repeat="true" numRepeats="1" incrementParentId="4f4f-70f3-164b-d697" incrementChildId="480e-6b98-0f56-78e7" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="set" field="7b4d-35b9-dd84-e672" value="Hero (Cav)" repeat="true" numRepeats="1" incrementParentId="4f4f-70f3-164b-d697" incrementChildId="480e-6b98-0f56-78e7" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-        </profile>
-      </profiles>
-      <links>
-        <link id="b77f-fd61-00fa-e031" targetId="9657-1079-91be-b2bd" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="ebca-2822-cc58-7d25" targetId="7c18-e2b7-bc3b-fe10" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="81c8-3d45-0b4e-969f" targetId="b79a-f274-5123-df1d" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="42e3-12dc-04da-342a" targetId="5f9b-2fdf-ddf6-b612" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="e293-3378-73ce-6da6" name="Wiz" points="45.0" categoryId="4e85-806b-4c44-2cb8" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="aa63-f3bc-e1db-b1f1" name="Mounted" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="97aa-c7da-06d0-3600" profileTypeId="ee75-6c23-6aad-aa05" name="Fleabag" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="This unit has Speed 10, and becomes Hero (Cav) (All changes already in profile)."/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
-        </entry>
-        <entry id="5c3a-c8ba-2b39-610c" name="Magic Artefact" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="a5dc-1e2f-89a8-9cde" targetId="886a-898c-6ebe-904a" linkType="entry group">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="f026-4441-61c5-16c1" name="Lightning Bolt (3)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="6b41-5d26-184c-bd54" targetId="643b-d49d-8d14-c765" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
-      <entryGroups>
-        <entryGroup id="8913-e65d-cc4c-3f36" name="Spells" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="8edc-42bb-2832-91d8" name="Bane Chant (2)" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="7024-f16f-eff0-d730" targetId="0faf-9276-c8a0-9bcd" linkType="rule">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-            <entry id="6e73-cb54-4f05-986b" name="Fireball (6)" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="b0e0-f505-d122-d809" targetId="a496-054d-a2d6-47b8" linkType="rule">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-            <entry id="870b-e235-7bae-930a" name="Wind Blast (5)" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="4aab-24d1-8a86-863c" targetId="da65-6a10-c6a3-9022" linkType="rule">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
-          <links/>
-        </entryGroup>
-      </entryGroups>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="5d9a-589e-eaf4-9f75" profileTypeId="97cc-56ab-eb5b-85a6" name="Wiz" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="1"/>
-            <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="1"/>
-            <characteristic characteristicId="7b4d-35b9-dd84-e672" name="Unit Type" value="Hero (Inf)"/>
-            <characteristic characteristicId="6a0b-5ca3-681f-6b2e" name="Speed" value="5"/>
-            <characteristic characteristicId="ae92-a124-75e4-e22d" name="Melee" value="5"/>
-            <characteristic characteristicId="fa16-f2da-63d9-71c2" name="Ranged" value="-"/>
-            <characteristic characteristicId="a65b-2083-ea38-304f" name="Defense" value="4"/>
-            <characteristic characteristicId="058e-7a4a-4a9c-1be0" name="Attacks" value="1"/>
-            <characteristic characteristicId="03d5-4167-faba-63a6" name="Nerve" value="9/11"/>
-          </characteristics>
-          <modifiers>
-            <modifier type="set" field="786c-09f7-bc4a-bc1a" value="2" repeat="true" numRepeats="1" incrementParentId="e293-3378-73ce-6da6" incrementChildId="aa63-f3bc-e1db-b1f1" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="set" field="6a0b-5ca3-681f-6b2e" value="10" repeat="true" numRepeats="1" incrementParentId="e293-3378-73ce-6da6" incrementChildId="aa63-f3bc-e1db-b1f1" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="set" field="7b4d-35b9-dd84-e672" value="Hero (Cav)" repeat="true" numRepeats="1" incrementParentId="e293-3378-73ce-6da6" incrementChildId="aa63-f3bc-e1db-b1f1" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-        </profile>
-      </profiles>
-      <links>
-        <link id="2b97-492d-2852-61cd" targetId="9657-1079-91be-b2bd" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="4196-7b04-d1e7-85e3" targetId="b79a-f274-5123-df1d" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="5881-7b17-19bd-9036" targetId="5f9b-2fdf-ddf6-b612" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -1844,6 +869,863 @@
         </link>
       </links>
     </entry>
+    <entry id="7939-6f7d-b46d-aae5" name="Magwa &amp; Jo&apos;os [1]" points="110.0" categoryId="4e85-806b-4c44-2cb8" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="02e9-e832-6503-1298" name="Lightning Bolt (4)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="b9c6-f75b-be61-1d81" targetId="643b-d49d-8d14-c765" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="b80b-8a95-b432-b641" name="Crushing Strength (2)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="feb0-1390-66b6-175d" targetId="3131-8f0a-0927-8489" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="1717-1910-baa1-11ee" name="The Magwa&apos;ns" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules>
+            <rule id="b39d-09ef-df2f-9d48" name="The Magwa&apos;ns" hidden="false">
+              <description>Mawbeast Pack units included in this army are no longer irregular (Include them AFTER choosing Magwa &amp; Jo&apos;os).</description>
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles/>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="a895-2bbe-6901-b442" profileTypeId="97cc-56ab-eb5b-85a6" name="Magwa &amp; Jo&apos;os [1]" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="1"/>
+            <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="1"/>
+            <characteristic characteristicId="7b4d-35b9-dd84-e672" name="Unit Type" value="Hero (Lrg Cav)"/>
+            <characteristic characteristicId="6a0b-5ca3-681f-6b2e" name="Speed" value="6"/>
+            <characteristic characteristicId="ae92-a124-75e4-e22d" name="Melee" value="3"/>
+            <characteristic characteristicId="fa16-f2da-63d9-71c2" name="Ranged" value="-"/>
+            <characteristic characteristicId="a65b-2083-ea38-304f" name="Defense" value="4"/>
+            <characteristic characteristicId="058e-7a4a-4a9c-1be0" name="Attacks" value="4"/>
+            <characteristic characteristicId="03d5-4167-faba-63a6" name="Nerve" value="12/14"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="d03e-a0be-3892-08e4" targetId="5f9b-2fdf-ddf6-b612" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="07d0-2012-8341-4d40" targetId="9657-1079-91be-b2bd" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="8d12-7293-a1a6-360b" targetId="7c18-e2b7-bc3b-fe10" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="0b21-827b-4b8d-0b75" targetId="b79a-f274-5123-df1d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="0864-1da3-0444-7d77" targetId="47c7-1334-d1bf-24d9" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="965e-cea4-c973-b48a" name="Mawbeasts Pack (10)" points="95.0" categoryId="e254-2b91-de9e-2381" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
+      <entries>
+        <entry id="65de-dd95-03ce-2ea9" name="Crushing Strength (1)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="d78b-f87b-37e4-3f7c" targetId="3131-8f0a-0927-8489" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="34b6-7069-1512-2b7d" name="Magic Artefact" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="9404-a9f1-7a85-88fb" targetId="886a-898c-6ebe-904a" linkType="entry group">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers>
+        <modifier type="show" field="minSelections" value="0.0" repeat="true" numRepeats="1" incrementParentId="roster" incrementChildId="7939-6f7d-b46d-aae5" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <rules/>
+      <profiles>
+        <profile id="28a9-b25f-405b-5b63" profileTypeId="2d97-40c5-cd44-108f" name="Mawbeasts Pack" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="Regiment (10)"/>
+            <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="1"/>
+            <characteristic characteristicId="7b4d-35b9-dd84-e672" name="Unit Type" value="Cavalry"/>
+            <characteristic characteristicId="6a0b-5ca3-681f-6b2e" name="Speed" value="6"/>
+            <characteristic characteristicId="ae92-a124-75e4-e22d" name="Melee" value="3"/>
+            <characteristic characteristicId="fa16-f2da-63d9-71c2" name="Ranged" value="-"/>
+            <characteristic characteristicId="a65b-2083-ea38-304f" name="Defense" value="3"/>
+            <characteristic characteristicId="058e-7a4a-4a9c-1be0" name="Attacks" value="12"/>
+            <characteristic characteristicId="03d5-4167-faba-63a6" name="Nerve" value="12/14"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="7e9f-02a5-f657-4e18" targetId="b79a-f274-5123-df1d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="1945-2499-1825-d2a7" targetId="47c7-1334-d1bf-24d9" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="257d-54b1-83b4-bad2" targetId="5f9b-2fdf-ddf6-b612" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="6a8a-8678-db3e-62d6" name="Mawbeasts Pack (5)" points="60.0" categoryId="d5a9-edbf-71e8-399f" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
+      <entries>
+        <entry id="82a9-446d-356c-9a29" name="Crushing Strength (1)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="2170-e1a1-5dde-2afb" targetId="3131-8f0a-0927-8489" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="18a9-469e-8c84-71cf" name="Magic Artefact" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="bcb7-06a8-9db0-8117" targetId="886a-898c-6ebe-904a" linkType="entry group">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers>
+        <modifier type="show" field="minSelections" value="0.0" repeat="true" numRepeats="1" incrementParentId="roster" incrementChildId="7939-6f7d-b46d-aae5" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <rules/>
+      <profiles>
+        <profile id="f496-d9a1-6810-1852" profileTypeId="2d97-40c5-cd44-108f" name="Mawbeasts Pack" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="Troop (5)"/>
+            <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="1"/>
+            <characteristic characteristicId="7b4d-35b9-dd84-e672" name="Unit Type" value="Cavalry"/>
+            <characteristic characteristicId="6a0b-5ca3-681f-6b2e" name="Speed" value="6"/>
+            <characteristic characteristicId="ae92-a124-75e4-e22d" name="Melee" value="3"/>
+            <characteristic characteristicId="fa16-f2da-63d9-71c2" name="Ranged" value="-"/>
+            <characteristic characteristicId="a65b-2083-ea38-304f" name="Defense" value="3"/>
+            <characteristic characteristicId="058e-7a4a-4a9c-1be0" name="Attacks" value="6"/>
+            <characteristic characteristicId="03d5-4167-faba-63a6" name="Nerve" value="9/11"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="9525-a5b2-774e-9017" targetId="b79a-f274-5123-df1d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="b33d-6fc0-c45e-704f" targetId="47c7-1334-d1bf-24d9" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="7c51-aec3-fed0-0e2d" targetId="5f9b-2fdf-ddf6-b612" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="4e37-e176-e4dc-1128" name="Mawbeasts Pack* (10)" points="95.0" categoryId="d5a9-edbf-71e8-399f" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="74a2-bd79-5175-56f4" name="Crushing Strength (1)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="9181-b954-1095-b898" targetId="3131-8f0a-0927-8489" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="f586-e326-39a5-ff1a" name="Magic Artefact" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="781b-d2cc-7b29-e4f8" targetId="886a-898c-6ebe-904a" linkType="entry group">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="2daf-7b99-db8e-0dea" profileTypeId="1766-7f43-a8c0-711d" name="Mawbeasts Pack*" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="Regiment (10)"/>
+            <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="2"/>
+            <characteristic characteristicId="7b4d-35b9-dd84-e672" name="Unit Type" value="Cavalry"/>
+            <characteristic characteristicId="6a0b-5ca3-681f-6b2e" name="Speed" value="6"/>
+            <characteristic characteristicId="ae92-a124-75e4-e22d" name="Melee" value="3"/>
+            <characteristic characteristicId="fa16-f2da-63d9-71c2" name="Ranged" value="-"/>
+            <characteristic characteristicId="a65b-2083-ea38-304f" name="Defense" value="3"/>
+            <characteristic characteristicId="058e-7a4a-4a9c-1be0" name="Attacks" value="12"/>
+            <characteristic characteristicId="03d5-4167-faba-63a6" name="Nerve" value="12/14"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="9b16-d74a-b16f-f11f" targetId="b79a-f274-5123-df1d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="0f40-d375-7c77-53d8" targetId="47c7-1334-d1bf-24d9" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="aaed-67ca-f87d-db70" targetId="5f9b-2fdf-ddf6-b612" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="bf86-a64d-7368-ade3" name="Mawbeasts Pack* (5)" points="60.0" categoryId="d5a9-edbf-71e8-399f" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="a781-8c77-2336-6f2b" name="Magic Artefact" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="bd84-2eaa-f84f-b7c7" targetId="886a-898c-6ebe-904a" linkType="entry group">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="1b70-8a88-7a57-ee1e" name="Crushing Strength (1)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="7d6a-ac30-2eda-c527" targetId="3131-8f0a-0927-8489" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="635b-0fd4-a53f-00bc" profileTypeId="2d97-40c5-cd44-108f" name="Mawbeasts Pack*" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="Troop (5)"/>
+            <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="1"/>
+            <characteristic characteristicId="7b4d-35b9-dd84-e672" name="Unit Type" value="Cavalry"/>
+            <characteristic characteristicId="6a0b-5ca3-681f-6b2e" name="Speed" value="6"/>
+            <characteristic characteristicId="ae92-a124-75e4-e22d" name="Melee" value="3"/>
+            <characteristic characteristicId="fa16-f2da-63d9-71c2" name="Ranged" value="-"/>
+            <characteristic characteristicId="a65b-2083-ea38-304f" name="Defense" value="3"/>
+            <characteristic characteristicId="058e-7a4a-4a9c-1be0" name="Attacks" value="6"/>
+            <characteristic characteristicId="03d5-4167-faba-63a6" name="Nerve" value="9/11"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="0bab-aa13-5ca4-4f34" targetId="b79a-f274-5123-df1d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="d284-5285-d54a-ef29" targetId="47c7-1334-d1bf-24d9" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="23ab-477f-8eef-9a44" targetId="5f9b-2fdf-ddf6-b612" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="3730-90cb-af38-b2db" name="Mincer" points="80.0" categoryId="9565-04ac-b74f-a11c" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="50b4-5f2b-2c37-dcc1" name="Thunderous Charge (3)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="c443-7af1-fe8c-381c" targetId="a8ce-2f96-b0be-47d6" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="2fa7-1ca0-c950-5e4c" profileTypeId="9988-daf2-67fa-f17e" name="Mincer" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="1 (50x100mm)"/>
+            <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="3"/>
+            <characteristic characteristicId="7b4d-35b9-dd84-e672" name="Unit Type" value="Monster"/>
+            <characteristic characteristicId="6a0b-5ca3-681f-6b2e" name="Speed" value="5"/>
+            <characteristic characteristicId="ae92-a124-75e4-e22d" name="Melee" value="4"/>
+            <characteristic characteristicId="fa16-f2da-63d9-71c2" name="Ranged" value="-"/>
+            <characteristic characteristicId="a65b-2083-ea38-304f" name="Defense" value="4"/>
+            <characteristic characteristicId="058e-7a4a-4a9c-1be0" name="Attacks" value="D6+6"/>
+            <characteristic characteristicId="03d5-4167-faba-63a6" name="Nerve" value="9/11"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="dcc2-a076-e8e7-855b" targetId="11d0-aa5a-4eb4-83a8" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="1a4c-6ad8-3926-b575" targetId="51fa-428e-ca3d-8a63" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="837d-3a7b-955d-d327" targetId="5f9b-2fdf-ddf6-b612" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="3af6-3d8d-2b72-3fbf" name="Rabble (20)" points="75.0" categoryId="e254-2b91-de9e-2381" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="119a-07b9-f474-f320" name="Magic Artefact" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="a3f0-1041-e6ad-40bd" targetId="886a-898c-6ebe-904a" linkType="entry group">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="161a-5e86-c315-5ffc" profileTypeId="1766-7f43-a8c0-711d" name="Rabble" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="Regiment (20)"/>
+            <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="1"/>
+            <characteristic characteristicId="7b4d-35b9-dd84-e672" name="Unit Type" value="Infantry"/>
+            <characteristic characteristicId="6a0b-5ca3-681f-6b2e" name="Speed" value="5"/>
+            <characteristic characteristicId="ae92-a124-75e4-e22d" name="Melee" value="5"/>
+            <characteristic characteristicId="fa16-f2da-63d9-71c2" name="Ranged" value="-"/>
+            <characteristic characteristicId="a65b-2083-ea38-304f" name="Defense" value="4"/>
+            <characteristic characteristicId="058e-7a4a-4a9c-1be0" name="Attacks" value="12"/>
+            <characteristic characteristicId="03d5-4167-faba-63a6" name="Nerve" value="12/14"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="93fe-072a-a5b9-78ad" targetId="5f9b-2fdf-ddf6-b612" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="015a-e9f8-93df-0b29" name="Rabble (40)" points="125.0" categoryId="1df8-619c-72e1-2447" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="fbad-fd53-0f73-c7b0" name="Magic Artefact" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="8e20-a149-b464-abb7" targetId="886a-898c-6ebe-904a" linkType="entry group">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="64c8-2374-8c09-293f" profileTypeId="1766-7f43-a8c0-711d" name="Rabble" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="Horde (40)"/>
+            <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="1"/>
+            <characteristic characteristicId="7b4d-35b9-dd84-e672" name="Unit Type" value="Infantry"/>
+            <characteristic characteristicId="6a0b-5ca3-681f-6b2e" name="Speed" value="5"/>
+            <characteristic characteristicId="ae92-a124-75e4-e22d" name="Melee" value="5"/>
+            <characteristic characteristicId="fa16-f2da-63d9-71c2" name="Ranged" value="-"/>
+            <characteristic characteristicId="a65b-2083-ea38-304f" name="Defense" value="4"/>
+            <characteristic characteristicId="058e-7a4a-4a9c-1be0" name="Attacks" value="25"/>
+            <characteristic characteristicId="03d5-4167-faba-63a6" name="Nerve" value="19/21"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="e4ac-b69b-1391-f756" targetId="5f9b-2fdf-ddf6-b612" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="0621-0558-3daf-3fa0" name="Rabble (60)" points="180.0" categoryId="1df8-619c-72e1-2447" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="6bde-dac3-571a-904d" name="Magic Artefact" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="847d-69ab-1633-9be6" targetId="886a-898c-6ebe-904a" linkType="entry group">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="0023-3fe6-1dde-7daa" profileTypeId="1766-7f43-a8c0-711d" name="Rabble" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="Legion (60)"/>
+            <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="1"/>
+            <characteristic characteristicId="7b4d-35b9-dd84-e672" name="Unit Type" value="Infantry"/>
+            <characteristic characteristicId="6a0b-5ca3-681f-6b2e" name="Speed" value="5"/>
+            <characteristic characteristicId="ae92-a124-75e4-e22d" name="Melee" value="5"/>
+            <characteristic characteristicId="fa16-f2da-63d9-71c2" name="Ranged" value="-"/>
+            <characteristic characteristicId="a65b-2083-ea38-304f" name="Defense" value="4"/>
+            <characteristic characteristicId="058e-7a4a-4a9c-1be0" name="Attacks" value="30"/>
+            <characteristic characteristicId="03d5-4167-faba-63a6" name="Nerve" value="25/27"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="c422-4cea-e5ef-5471" targetId="5f9b-2fdf-ddf6-b612" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="b40d-38be-9a46-3106" name="Sharpstick Thrower" points="55.0" categoryId="a974-8216-3217-bd70" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="f9d8-efe2-3d5d-f0f6" name="Blast (D3)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="ea3f-9d96-7349-45eb" targetId="8c02-8957-63ab-1084" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="7c9d-7edc-81e0-2042" name="Piercing (2)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="034b-4c0a-7cfd-03cc" targetId="cc29-8e7d-2a0e-c995" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="e518-072a-ddd7-55d3" profileTypeId="021a-1e31-e581-4e84" name="Sharpstick Thrower" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="1"/>
+            <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="1"/>
+            <characteristic characteristicId="7b4d-35b9-dd84-e672" name="Unit Type" value="War Engine"/>
+            <characteristic characteristicId="6a0b-5ca3-681f-6b2e" name="Speed" value="5"/>
+            <characteristic characteristicId="ae92-a124-75e4-e22d" name="Melee" value="-"/>
+            <characteristic characteristicId="fa16-f2da-63d9-71c2" name="Ranged" value="5"/>
+            <characteristic characteristicId="a65b-2083-ea38-304f" name="Defense" value="4"/>
+            <characteristic characteristicId="058e-7a4a-4a9c-1be0" name="Attacks" value="2"/>
+            <characteristic characteristicId="03d5-4167-faba-63a6" name="Nerve" value="8/10"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="3297-d22f-7b40-132a" targetId="c0b3-3b50-e88f-5461" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="f8f3-06e1-b472-d11e" targetId="5f9b-2fdf-ddf6-b612" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="2206-3523-a443-28a5" name="Sharpsticks (20)" points="95.0" categoryId="e254-2b91-de9e-2381" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="6ac1-3d15-f9c1-d900" name="Magic Artefact" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="aa08-4985-393b-984b" targetId="886a-898c-6ebe-904a" linkType="entry group">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="0ebc-d08e-fc0e-dbda" profileTypeId="1766-7f43-a8c0-711d" name="Sharpsticks" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="Regiment (20)"/>
+            <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="1"/>
+            <characteristic characteristicId="7b4d-35b9-dd84-e672" name="Unit Type" value="Infantry"/>
+            <characteristic characteristicId="6a0b-5ca3-681f-6b2e" name="Speed" value="5"/>
+            <characteristic characteristicId="ae92-a124-75e4-e22d" name="Melee" value="5"/>
+            <characteristic characteristicId="fa16-f2da-63d9-71c2" name="Ranged" value="-"/>
+            <characteristic characteristicId="a65b-2083-ea38-304f" name="Defense" value="4"/>
+            <characteristic characteristicId="058e-7a4a-4a9c-1be0" name="Attacks" value="15"/>
+            <characteristic characteristicId="03d5-4167-faba-63a6" name="Nerve" value="12/14"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="121d-171f-e5f0-e802" targetId="fbfb-4339-b268-fbae" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="ab40-5a39-1d35-8359" targetId="5f9b-2fdf-ddf6-b612" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="61b9-c3c1-be98-80fc" name="Sharpsticks (40)" points="155.0" categoryId="1df8-619c-72e1-2447" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="d1a3-ebb9-9561-ca4a" name="Magic Artefact" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="9ee5-60a3-4773-cfec" targetId="886a-898c-6ebe-904a" linkType="entry group">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="505b-8e51-2176-3e3b" profileTypeId="1766-7f43-a8c0-711d" name="Sharpsticks" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="Horde (40)"/>
+            <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="1"/>
+            <characteristic characteristicId="7b4d-35b9-dd84-e672" name="Unit Type" value="Infantry"/>
+            <characteristic characteristicId="6a0b-5ca3-681f-6b2e" name="Speed" value="5"/>
+            <characteristic characteristicId="ae92-a124-75e4-e22d" name="Melee" value="5"/>
+            <characteristic characteristicId="fa16-f2da-63d9-71c2" name="Ranged" value="-"/>
+            <characteristic characteristicId="a65b-2083-ea38-304f" name="Defense" value="4"/>
+            <characteristic characteristicId="058e-7a4a-4a9c-1be0" name="Attacks" value="30"/>
+            <characteristic characteristicId="03d5-4167-faba-63a6" name="Nerve" value="19/21"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="c2cf-df54-d0ab-b0fe" targetId="fbfb-4339-b268-fbae" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="d69b-9111-b416-b93b" targetId="5f9b-2fdf-ddf6-b612" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="1d51-e364-c649-a229" name="Sharpsticks (60)" points="230.0" categoryId="1df8-619c-72e1-2447" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="8a54-bd40-918f-ad8f" name="Magic Artefact" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="b1f7-7859-0ab7-a43b" targetId="886a-898c-6ebe-904a" linkType="entry group">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="dfa5-4bc9-656e-e424" profileTypeId="1766-7f43-a8c0-711d" name="Sharpsticks" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="Legion (60)"/>
+            <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="1"/>
+            <characteristic characteristicId="7b4d-35b9-dd84-e672" name="Unit Type" value="Infantry"/>
+            <characteristic characteristicId="6a0b-5ca3-681f-6b2e" name="Speed" value="5"/>
+            <characteristic characteristicId="ae92-a124-75e4-e22d" name="Melee" value="5"/>
+            <characteristic characteristicId="fa16-f2da-63d9-71c2" name="Ranged" value="-"/>
+            <characteristic characteristicId="a65b-2083-ea38-304f" name="Defense" value="4"/>
+            <characteristic characteristicId="058e-7a4a-4a9c-1be0" name="Attacks" value="35"/>
+            <characteristic characteristicId="03d5-4167-faba-63a6" name="Nerve" value="25/27"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="4706-6b87-458d-83bb" targetId="fbfb-4339-b268-fbae" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="0cc5-0776-2224-185c" targetId="5f9b-2fdf-ddf6-b612" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="a197-1a94-3c0a-654c" name="Slasher" points="165.0" categoryId="9565-04ac-b74f-a11c" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="9a81-c94c-e1f5-d755" name="Mounted Sharpstick Thrower" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="bd50-feb8-edae-e262" profileTypeId="ee75-6c23-6aad-aa05" name="Sharpstick Thrower" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="36&quot; range, 2 attacks, Blast (D3), Piercing (2)."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="0af0-8e65-e819-c73b" targetId="8c02-8957-63ab-1084" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="548e-f9a9-edd8-5ec1" targetId="cc29-8e7d-2a0e-c995" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="0514-ba82-fdd5-8bdd" name="Crushing Strength (2)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="a1a0-a234-37e7-5b3f" targetId="3131-8f0a-0927-8489" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="9abf-03db-a352-f87b" name="Thunderous Charge (1)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="f213-0646-14d2-9a9f" targetId="a8ce-2f96-b0be-47d6" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="52d7-ae4b-214d-a380" name="Does not have Yellow Bellied" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="0f1e-3d9e-c540-7d1b" profileTypeId="9988-daf2-67fa-f17e" name="Slasher" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="1"/>
+            <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="4"/>
+            <characteristic characteristicId="7b4d-35b9-dd84-e672" name="Unit Type" value="Monster"/>
+            <characteristic characteristicId="6a0b-5ca3-681f-6b2e" name="Speed" value="7"/>
+            <characteristic characteristicId="ae92-a124-75e4-e22d" name="Melee" value="4"/>
+            <characteristic characteristicId="fa16-f2da-63d9-71c2" name="Ranged" value="5"/>
+            <characteristic characteristicId="a65b-2083-ea38-304f" name="Defense" value="5"/>
+            <characteristic characteristicId="058e-7a4a-4a9c-1be0" name="Attacks" value="8"/>
+            <characteristic characteristicId="03d5-4167-faba-63a6" name="Nerve" value="14/16"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="ef38-119a-eb72-3f67" name="Spitters (20)" points="85.0" categoryId="e254-2b91-de9e-2381" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="ef50-88c6-4716-47ce" name="Bows" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="c04e-a3da-c671-f7b2" profileTypeId="ee75-6c23-6aad-aa05" name="Bows" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="24&quot; range."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="90f9-ca79-2365-d37d" name="Magic Artefact" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="e0a0-e3b4-21db-e894" targetId="886a-898c-6ebe-904a" linkType="entry group">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="ea80-0877-9cef-bc65" profileTypeId="1766-7f43-a8c0-711d" name="Spitters" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="Regiment (20)"/>
+            <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="1"/>
+            <characteristic characteristicId="7b4d-35b9-dd84-e672" name="Unit Type" value="Infantry"/>
+            <characteristic characteristicId="6a0b-5ca3-681f-6b2e" name="Speed" value="5"/>
+            <characteristic characteristicId="ae92-a124-75e4-e22d" name="Melee" value="6"/>
+            <characteristic characteristicId="fa16-f2da-63d9-71c2" name="Ranged" value="5"/>
+            <characteristic characteristicId="a65b-2083-ea38-304f" name="Defense" value="3"/>
+            <characteristic characteristicId="058e-7a4a-4a9c-1be0" name="Attacks" value="10"/>
+            <characteristic characteristicId="03d5-4167-faba-63a6" name="Nerve" value="12/14"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="a73d-6d38-e37f-1342" targetId="5f9b-2fdf-ddf6-b612" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="c569-8bcd-fc35-727c" name="Spitters (40)" points="140.0" categoryId="1df8-619c-72e1-2447" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="d749-11a3-1aea-aed1" name="Bows" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="5b37-ec92-bb4c-d244" profileTypeId="ee75-6c23-6aad-aa05" name="Bows" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="24&quot; range."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="d6be-71a9-26f5-b975" name="Magic Artefact" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="a07a-cccd-c644-1bb5" targetId="886a-898c-6ebe-904a" linkType="entry group">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="a964-17d3-87a0-a05e" profileTypeId="1766-7f43-a8c0-711d" name="Spitters" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="Horde (40)"/>
+            <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="1"/>
+            <characteristic characteristicId="7b4d-35b9-dd84-e672" name="Unit Type" value="Infantry"/>
+            <characteristic characteristicId="6a0b-5ca3-681f-6b2e" name="Speed" value="5"/>
+            <characteristic characteristicId="ae92-a124-75e4-e22d" name="Melee" value="6"/>
+            <characteristic characteristicId="fa16-f2da-63d9-71c2" name="Ranged" value="5"/>
+            <characteristic characteristicId="a65b-2083-ea38-304f" name="Defense" value="3"/>
+            <characteristic characteristicId="058e-7a4a-4a9c-1be0" name="Attacks" value="20"/>
+            <characteristic characteristicId="03d5-4167-faba-63a6" name="Nerve" value="19/21"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="6aac-9cb9-0616-b4d1" targetId="5f9b-2fdf-ddf6-b612" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="968e-2a05-6518-0999" name="Troll Bruiser" points="125.0" categoryId="4e85-806b-4c44-2cb8" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
         <entry id="6f23-a981-1459-e63b" name="Does not have Yellow Bellied" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -1928,205 +1810,323 @@
         </link>
       </links>
     </entry>
-    <entry id="7939-6f7d-b46d-aae5" name="Magwa &amp; Jo&apos;os [1]" points="110.0" categoryId="4e85-806b-4c44-2cb8" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="cd34-8f83-dc84-0918" name="Trolls (3)" points="125.0" categoryId="e254-2b91-de9e-2381" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="02e9-e832-6503-1298" name="Lightning Bolt (4)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="9dab-45c1-e490-1431" name="Crushing Strength (2)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules/>
           <profiles/>
           <links>
-            <link id="b9c6-f75b-be61-1d81" targetId="643b-d49d-8d14-c765" linkType="rule">
+            <link id="7f68-e928-52e2-7312" targetId="3131-8f0a-0927-8489" linkType="rule">
               <modifiers/>
             </link>
           </links>
         </entry>
-        <entry id="b80b-8a95-b432-b641" name="Crushing Strength (2)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="c21d-6ff1-8ee4-239a" name="Regeneration (5+)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules/>
           <profiles/>
           <links>
-            <link id="feb0-1390-66b6-175d" targetId="3131-8f0a-0927-8489" linkType="rule">
+            <link id="d940-656f-94c8-fcde" targetId="5815-9306-b2e7-0436" linkType="rule">
               <modifiers/>
             </link>
           </links>
         </entry>
-        <entry id="1717-1910-baa1-11ee" name="The Magwa&apos;ns" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="9398-9758-844a-36a5" name="Does not have Yellow Bellied" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
-          <rules>
-            <rule id="b39d-09ef-df2f-9d48" name="The Magwa&apos;ns" hidden="false">
-              <description>Mawbeast Pack units included in this army are no longer irregular (Include them AFTER choosing Magwa &amp; Jo&apos;os).</description>
-              <modifiers/>
-            </rule>
-          </rules>
+          <rules/>
           <profiles/>
           <links/>
+        </entry>
+        <entry id="9963-ed57-989e-0982" name="Magic Artefact" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="1897-175e-845e-7078" targetId="886a-898c-6ebe-904a" linkType="entry group">
+              <modifiers/>
+            </link>
+          </links>
         </entry>
       </entries>
       <entryGroups/>
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="a895-2bbe-6901-b442" profileTypeId="97cc-56ab-eb5b-85a6" name="Magwa &amp; Jo&apos;os [1]" hidden="false">
+        <profile id="6582-6f68-f6c0-1b62" profileTypeId="cdbe-57f0-c402-11d8" name="Trolls" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="Regiment (3)"/>
+            <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="2"/>
+            <characteristic characteristicId="7b4d-35b9-dd84-e672" name="Unit Type" value="Large Infantry"/>
+            <characteristic characteristicId="6a0b-5ca3-681f-6b2e" name="Speed" value="6"/>
+            <characteristic characteristicId="ae92-a124-75e4-e22d" name="Melee" value="4"/>
+            <characteristic characteristicId="fa16-f2da-63d9-71c2" name="Ranged" value="-"/>
+            <characteristic characteristicId="a65b-2083-ea38-304f" name="Defense" value="5"/>
+            <characteristic characteristicId="058e-7a4a-4a9c-1be0" name="Attacks" value="9"/>
+            <characteristic characteristicId="03d5-4167-faba-63a6" name="Nerve" value="11/14"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="5863-5463-1c65-3239" name="Trolls (6)" points="190.0" categoryId="1df8-619c-72e1-2447" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="e13e-b75f-2f63-d2ce" name="Crushing Strength (2)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="63a3-f68b-6383-a152" targetId="3131-8f0a-0927-8489" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="fdcd-208b-994c-c878" name="Does not have Yellow Bellied" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+        <entry id="2ccc-65c3-df39-0a4c" name="Magic Artefact" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="a556-8889-40c7-a755" targetId="886a-898c-6ebe-904a" linkType="entry group">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="a60b-4f5e-10f0-d0c0" name="Regeneration (5+)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="e888-27b1-3ff9-4e74" targetId="5815-9306-b2e7-0436" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="f920-0271-8894-6f9d" profileTypeId="cdbe-57f0-c402-11d8" name="Trolls" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="Horde (6)"/>
+            <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="2"/>
+            <characteristic characteristicId="7b4d-35b9-dd84-e672" name="Unit Type" value="Large Infantry"/>
+            <characteristic characteristicId="6a0b-5ca3-681f-6b2e" name="Speed" value="6"/>
+            <characteristic characteristicId="ae92-a124-75e4-e22d" name="Melee" value="4"/>
+            <characteristic characteristicId="fa16-f2da-63d9-71c2" name="Ranged" value="-"/>
+            <characteristic characteristicId="a65b-2083-ea38-304f" name="Defense" value="5"/>
+            <characteristic characteristicId="058e-7a4a-4a9c-1be0" name="Attacks" value="18"/>
+            <characteristic characteristicId="03d5-4167-faba-63a6" name="Nerve" value="14/17"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="4f0b-8d86-eb60-19a7" name="War-Trombone" points="65.0" categoryId="a974-8216-3217-bd70" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="fb1b-cf8c-0894-5830" name="Breath Attack (Att)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="ed43-bc28-0001-c569" profileTypeId="ee75-6c23-6aad-aa05" name="Breath Attack (Att)" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="Ranged attack with (n) dice rather than Attacks value, unless listed as (Att). 12&quot; range, Piercing (1), always hits on 4+ regardless of modifiers."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="7ba1-9d3d-b4c5-be48" name="Piercing (1)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="3c31-899c-643e-3da3" targetId="cc29-8e7d-2a0e-c995" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="b8d4-92af-39ec-33a2" profileTypeId="021a-1e31-e581-4e84" name="War-Trombone" hidden="false">
           <characteristics>
             <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="1"/>
             <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="1"/>
-            <characteristic characteristicId="7b4d-35b9-dd84-e672" name="Unit Type" value="Hero (Lrg Cav)"/>
-            <characteristic characteristicId="6a0b-5ca3-681f-6b2e" name="Speed" value="6"/>
-            <characteristic characteristicId="ae92-a124-75e4-e22d" name="Melee" value="3"/>
+            <characteristic characteristicId="7b4d-35b9-dd84-e672" name="Unit Type" value="War Engine"/>
+            <characteristic characteristicId="6a0b-5ca3-681f-6b2e" name="Speed" value="5"/>
+            <characteristic characteristicId="ae92-a124-75e4-e22d" name="Melee" value="-"/>
             <characteristic characteristicId="fa16-f2da-63d9-71c2" name="Ranged" value="-"/>
             <characteristic characteristicId="a65b-2083-ea38-304f" name="Defense" value="4"/>
-            <characteristic characteristicId="058e-7a4a-4a9c-1be0" name="Attacks" value="4"/>
-            <characteristic characteristicId="03d5-4167-faba-63a6" name="Nerve" value="12/14"/>
+            <characteristic characteristicId="058e-7a4a-4a9c-1be0" name="Attacks" value="12"/>
+            <characteristic characteristicId="03d5-4167-faba-63a6" name="Nerve" value="8/10"/>
           </characteristics>
           <modifiers/>
         </profile>
       </profiles>
       <links>
-        <link id="d03e-a0be-3892-08e4" targetId="5f9b-2fdf-ddf6-b612" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="07d0-2012-8341-4d40" targetId="9657-1079-91be-b2bd" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="8d12-7293-a1a6-360b" targetId="7c18-e2b7-bc3b-fe10" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="0b21-827b-4b8d-0b75" targetId="b79a-f274-5123-df1d" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="0864-1da3-0444-7d77" targetId="47c7-1334-d1bf-24d9" linkType="rule">
+        <link id="09e6-86b5-3c83-6a22" targetId="5f9b-2fdf-ddf6-b612" linkType="rule">
           <modifiers/>
         </link>
       </links>
     </entry>
-    <entry id="6a8a-8678-db3e-62d6" name="Mawbeasts Pack (5)" points="60.0" categoryId="d5a9-edbf-71e8-399f" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
+    <entry id="e293-3378-73ce-6da6" name="Wiz" points="45.0" categoryId="4e85-806b-4c44-2cb8" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="82a9-446d-356c-9a29" name="Crushing Strength (1)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="aa63-f3bc-e1db-b1f1" name="Mounted" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="97aa-c7da-06d0-3600" profileTypeId="ee75-6c23-6aad-aa05" name="Fleabag" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="This unit has Speed 10, and becomes Hero (Cav) (All changes already in profile)."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="5c3a-c8ba-2b39-610c" name="Magic Artefact" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules/>
           <profiles/>
           <links>
-            <link id="2170-e1a1-5dde-2afb" targetId="3131-8f0a-0927-8489" linkType="rule">
+            <link id="a5dc-1e2f-89a8-9cde" targetId="886a-898c-6ebe-904a" linkType="entry group">
               <modifiers/>
             </link>
           </links>
         </entry>
-        <entry id="18a9-469e-8c84-71cf" name="Magic Artefact" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="f026-4441-61c5-16c1" name="Lightning Bolt (3)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules/>
           <profiles/>
           <links>
-            <link id="bcb7-06a8-9db0-8117" targetId="886a-898c-6ebe-904a" linkType="entry group">
+            <link id="6b41-5d26-184c-bd54" targetId="643b-d49d-8d14-c765" linkType="rule">
               <modifiers/>
             </link>
           </links>
         </entry>
       </entries>
-      <entryGroups/>
-      <modifiers>
-        <modifier type="show" field="minSelections" value="0.0" repeat="true" numRepeats="1" incrementParentId="roster" incrementChildId="7939-6f7d-b46d-aae5" incrementField="selections" incrementValue="1.0">
-          <conditions/>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
+      <entryGroups>
+        <entryGroup id="8913-e65d-cc4c-3f36" name="Spells" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="8edc-42bb-2832-91d8" name="Bane Chant (2)" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="7024-f16f-eff0-d730" targetId="0faf-9276-c8a0-9bcd" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="6e73-cb54-4f05-986b" name="Fireball (6)" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="b0e0-f505-d122-d809" targetId="a496-054d-a2d6-47b8" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="870b-e235-7bae-930a" name="Wind Blast (5)" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="4aab-24d1-8a86-863c" targetId="da65-6a10-c6a3-9022" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
       <rules/>
       <profiles>
-        <profile id="f496-d9a1-6810-1852" profileTypeId="2d97-40c5-cd44-108f" name="Mawbeasts Pack" hidden="false">
+        <profile id="5d9a-589e-eaf4-9f75" profileTypeId="97cc-56ab-eb5b-85a6" name="Wiz" hidden="false">
           <characteristics>
-            <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="Troop (5)"/>
+            <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="1"/>
             <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="1"/>
-            <characteristic characteristicId="7b4d-35b9-dd84-e672" name="Unit Type" value="Cavalry"/>
-            <characteristic characteristicId="6a0b-5ca3-681f-6b2e" name="Speed" value="6"/>
-            <characteristic characteristicId="ae92-a124-75e4-e22d" name="Melee" value="3"/>
+            <characteristic characteristicId="7b4d-35b9-dd84-e672" name="Unit Type" value="Hero (Inf)"/>
+            <characteristic characteristicId="6a0b-5ca3-681f-6b2e" name="Speed" value="5"/>
+            <characteristic characteristicId="ae92-a124-75e4-e22d" name="Melee" value="5"/>
             <characteristic characteristicId="fa16-f2da-63d9-71c2" name="Ranged" value="-"/>
-            <characteristic characteristicId="a65b-2083-ea38-304f" name="Defense" value="3"/>
-            <characteristic characteristicId="058e-7a4a-4a9c-1be0" name="Attacks" value="6"/>
+            <characteristic characteristicId="a65b-2083-ea38-304f" name="Defense" value="4"/>
+            <characteristic characteristicId="058e-7a4a-4a9c-1be0" name="Attacks" value="1"/>
             <characteristic characteristicId="03d5-4167-faba-63a6" name="Nerve" value="9/11"/>
           </characteristics>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="786c-09f7-bc4a-bc1a" value="2" repeat="true" numRepeats="1" incrementParentId="e293-3378-73ce-6da6" incrementChildId="aa63-f3bc-e1db-b1f1" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="6a0b-5ca3-681f-6b2e" value="10" repeat="true" numRepeats="1" incrementParentId="e293-3378-73ce-6da6" incrementChildId="aa63-f3bc-e1db-b1f1" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="7b4d-35b9-dd84-e672" value="Hero (Cav)" repeat="true" numRepeats="1" incrementParentId="e293-3378-73ce-6da6" incrementChildId="aa63-f3bc-e1db-b1f1" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
         </profile>
       </profiles>
       <links>
-        <link id="9525-a5b2-774e-9017" targetId="b79a-f274-5123-df1d" linkType="rule">
+        <link id="2b97-492d-2852-61cd" targetId="9657-1079-91be-b2bd" linkType="rule">
           <modifiers/>
         </link>
-        <link id="b33d-6fc0-c45e-704f" targetId="47c7-1334-d1bf-24d9" linkType="rule">
+        <link id="4196-7b04-d1e7-85e3" targetId="b79a-f274-5123-df1d" linkType="rule">
           <modifiers/>
         </link>
-        <link id="7c51-aec3-fed0-0e2d" targetId="5f9b-2fdf-ddf6-b612" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="965e-cea4-c973-b48a" name="Mawbeasts Pack (10)" points="95.0" categoryId="e254-2b91-de9e-2381" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
-      <entries>
-        <entry id="65de-dd95-03ce-2ea9" name="Crushing Strength (1)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="d78b-f87b-37e4-3f7c" targetId="3131-8f0a-0927-8489" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="34b6-7069-1512-2b7d" name="Magic Artefact" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="9404-a9f1-7a85-88fb" targetId="886a-898c-6ebe-904a" linkType="entry group">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers>
-        <modifier type="show" field="minSelections" value="0.0" repeat="true" numRepeats="1" incrementParentId="roster" incrementChildId="7939-6f7d-b46d-aae5" incrementField="selections" incrementValue="1.0">
-          <conditions/>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
-      <rules/>
-      <profiles>
-        <profile id="28a9-b25f-405b-5b63" profileTypeId="2d97-40c5-cd44-108f" name="Mawbeasts Pack" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="Regiment (10)"/>
-            <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="1"/>
-            <characteristic characteristicId="7b4d-35b9-dd84-e672" name="Unit Type" value="Cavalry"/>
-            <characteristic characteristicId="6a0b-5ca3-681f-6b2e" name="Speed" value="6"/>
-            <characteristic characteristicId="ae92-a124-75e4-e22d" name="Melee" value="3"/>
-            <characteristic characteristicId="fa16-f2da-63d9-71c2" name="Ranged" value="-"/>
-            <characteristic characteristicId="a65b-2083-ea38-304f" name="Defense" value="3"/>
-            <characteristic characteristicId="058e-7a4a-4a9c-1be0" name="Attacks" value="12"/>
-            <characteristic characteristicId="03d5-4167-faba-63a6" name="Nerve" value="12/14"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="7e9f-02a5-f657-4e18" targetId="b79a-f274-5123-df1d" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="1945-2499-1825-d2a7" targetId="47c7-1334-d1bf-24d9" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="257d-54b1-83b4-bad2" targetId="5f9b-2fdf-ddf6-b612" linkType="rule">
+        <link id="5881-7b17-19bd-9036" targetId="5f9b-2fdf-ddf6-b612" linkType="rule">
           <modifiers/>
         </link>
       </links>
