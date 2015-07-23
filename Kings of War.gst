@@ -1,25 +1,57 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<gameSystem xmlns="http://www.battlescribe.net/schema/gameSystemSchema" id="01e31045-05fb-42cc-9803-cd07615b4148" revision="3" battleScribeVersion="1.15" name="Kings of War">
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<gameSystem id="697b-dd1f-a597-82e2" revision="1" battleScribeVersion="1.15" name="Kings of War 2E" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <forceTypes>
     <forceType id="5374616e6461726423232344415441232323" name="Standard" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
       <categories>
-        <category id="536f6c696420556e69747323232344415441232323" name="Solid Units" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
+        <category id="e254-2b91-de9e-2381" name="Regiments (1 Hero OR 1 Mon OR 1 War Eng per)" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
           <modifiers/>
         </category>
-        <category id="556e69747323232344415441232323" name="Units" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
+        <category id="1df8-619c-72e1-2447" name="Hordes &amp; Legions (1 Hero AND 1 Mon AND 1 War Eng per)" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
           <modifiers/>
         </category>
-        <category id="57617220456e67696e657323232344415441232323" name="War Engines" minSelections="0" maxSelections="0" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
+        <category id="d5a9-edbf-71e8-399f" name="Troops (2 per Regiment, 4 per Horde &amp; Legion)" minSelections="0" maxSelections="0" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
           <modifiers>
-            <modifier type="increment" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="536f6c696420556e69747323232344415441232323" incrementField="selections" incrementValue="1.0">
+            <modifier type="increment" field="maxSelections" value="2.0" repeat="true" numRepeats="1" incrementParentId="e254-2b91-de9e-2381" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="maxSelections" value="4.0" repeat="true" numRepeats="1" incrementParentId="1df8-619c-72e1-2447" incrementField="selections" incrementValue="1.0">
               <conditions/>
               <conditionGroups/>
             </modifier>
           </modifiers>
         </category>
-        <category id="4865726f65732f204d6f6e737465727323232344415441232323" name="Heroes/ Monsters" minSelections="0" maxSelections="0" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
+        <category id="a974-8216-3217-bd70" name="War Engines" minSelections="0" maxSelections="0" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
           <modifiers>
-            <modifier type="increment" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="536f6c696420556e69747323232344415441232323" incrementField="selections" incrementValue="1.0">
+            <modifier type="increment" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="1df8-619c-72e1-2447" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="e254-2b91-de9e-2381" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </category>
+        <category id="9565-04ac-b74f-a11c" name="Monsters" minSelections="0" maxSelections="0" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
+          <modifiers>
+            <modifier type="increment" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="1df8-619c-72e1-2447" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="e254-2b91-de9e-2381" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </category>
+        <category id="4e85-806b-4c44-2cb8" name="Heroes" minSelections="0" maxSelections="0" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
+          <modifiers>
+            <modifier type="increment" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="1df8-619c-72e1-2447" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="e254-2b91-de9e-2381" incrementField="selections" incrementValue="1.0">
               <conditions/>
               <conditionGroups/>
             </modifier>
@@ -30,81 +62,100 @@
     </forceType>
   </forceTypes>
   <profileTypes>
-    <profileType id="496e66616e74727923232344415441232323" name="Infantry">
+    <profileType id="1766-7f43-a8c0-711d" name="Infantry">
       <characteristics>
-        <characteristic id="556e69742053697a6523232344415441232323" name="Unit Size"/>
-        <characteristic id="537023232344415441232323" name="Sp"/>
-        <characteristic id="4d6523232344415441232323" name="Me"/>
-        <characteristic id="526123232344415441232323" name="Ra"/>
-        <characteristic id="446523232344415441232323" name="De"/>
-        <characteristic id="417423232344415441232323" name="At"/>
-        <characteristic id="4e6523232344415441232323" name="Ne"/>
+        <characteristic id="1e88-2d83-1480-82f1" name="Unit Size"/>
+        <characteristic id="786c-09f7-bc4a-bc1a" name="Height"/>
+        <characteristic id="7b4d-35b9-dd84-e672" name="Unit Type"/>
+        <characteristic id="6a0b-5ca3-681f-6b2e" name="Speed"/>
+        <characteristic id="ae92-a124-75e4-e22d" name="Melee"/>
+        <characteristic id="fa16-f2da-63d9-71c2" name="Ranged"/>
+        <characteristic id="a65b-2083-ea38-304f" name="Defense"/>
+        <characteristic id="058e-7a4a-4a9c-1be0" name="Attacks"/>
+        <characteristic id="03d5-4167-faba-63a6" name="Nerve"/>
       </characteristics>
     </profileType>
-    <profileType id="436176616c727923232344415441232323" name="Cavalry">
+    <profileType id="cdbe-57f0-c402-11d8" name="Large Infantry">
       <characteristics>
-        <characteristic id="556e69742053697a6523232344415441232323" name="Unit Size"/>
-        <characteristic id="537023232344415441232323" name="Sp"/>
-        <characteristic id="4d6523232344415441232323" name="Me"/>
-        <characteristic id="526123232344415441232323" name="Ra"/>
-        <characteristic id="446523232344415441232323" name="De"/>
-        <characteristic id="417423232344415441232323" name="At"/>
-        <characteristic id="4e6523232344415441232323" name="Ne"/>
+        <characteristic id="1e88-2d83-1480-82f1" name="Unit Size"/>
+        <characteristic id="786c-09f7-bc4a-bc1a" name="Height"/>
+        <characteristic id="7b4d-35b9-dd84-e672" name="Unit Type"/>
+        <characteristic id="6a0b-5ca3-681f-6b2e" name="Speed"/>
+        <characteristic id="ae92-a124-75e4-e22d" name="Melee"/>
+        <characteristic id="fa16-f2da-63d9-71c2" name="Ranged"/>
+        <characteristic id="a65b-2083-ea38-304f" name="Defense"/>
+        <characteristic id="058e-7a4a-4a9c-1be0" name="Attacks"/>
+        <characteristic id="03d5-4167-faba-63a6" name="Nerve"/>
       </characteristics>
     </profileType>
-    <profileType id="57617220456e67696e6523232344415441232323" name="War Engine">
+    <profileType id="2d97-40c5-cd44-108f" name="Cavalry">
       <characteristics>
-        <characteristic id="556e69742053697a6523232344415441232323" name="Unit Size"/>
-        <characteristic id="537023232344415441232323" name="Sp"/>
-        <characteristic id="4d6523232344415441232323" name="Me"/>
-        <characteristic id="526123232344415441232323" name="Ra"/>
-        <characteristic id="446523232344415441232323" name="De"/>
-        <characteristic id="417423232344415441232323" name="At"/>
-        <characteristic id="4e6523232344415441232323" name="Ne"/>
+        <characteristic id="1e88-2d83-1480-82f1" name="Unit Size"/>
+        <characteristic id="786c-09f7-bc4a-bc1a" name="Height"/>
+        <characteristic id="7b4d-35b9-dd84-e672" name="Unit Type"/>
+        <characteristic id="6a0b-5ca3-681f-6b2e" name="Speed"/>
+        <characteristic id="ae92-a124-75e4-e22d" name="Melee"/>
+        <characteristic id="fa16-f2da-63d9-71c2" name="Ranged"/>
+        <characteristic id="a65b-2083-ea38-304f" name="Defense"/>
+        <characteristic id="058e-7a4a-4a9c-1be0" name="Attacks"/>
+        <characteristic id="03d5-4167-faba-63a6" name="Nerve"/>
       </characteristics>
     </profileType>
-    <profileType id="4865726f23232344415441232323" name="Hero">
+    <profileType id="a3d3-efe4-ae26-aa04" name="Large Cavalry">
       <characteristics>
-        <characteristic id="556e69742053697a6523232344415441232323" name="Unit Size"/>
-        <characteristic id="537023232344415441232323" name="Sp"/>
-        <characteristic id="4d6523232344415441232323" name="Me"/>
-        <characteristic id="526123232344415441232323" name="Ra"/>
-        <characteristic id="446523232344415441232323" name="De"/>
-        <characteristic id="417423232344415441232323" name="At"/>
-        <characteristic id="4e6523232344415441232323" name="Ne"/>
+        <characteristic id="1e88-2d83-1480-82f1" name="Unit Size"/>
+        <characteristic id="786c-09f7-bc4a-bc1a" name="Height"/>
+        <characteristic id="7b4d-35b9-dd84-e672" name="Unit Type"/>
+        <characteristic id="6a0b-5ca3-681f-6b2e" name="Speed"/>
+        <characteristic id="ae92-a124-75e4-e22d" name="Melee"/>
+        <characteristic id="fa16-f2da-63d9-71c2" name="Ranged"/>
+        <characteristic id="a65b-2083-ea38-304f" name="Defense"/>
+        <characteristic id="058e-7a4a-4a9c-1be0" name="Attacks"/>
+        <characteristic id="03d5-4167-faba-63a6" name="Nerve"/>
       </characteristics>
     </profileType>
-    <profileType id="4d6f6e7374657223232344415441232323" name="Monster">
+    <profileType id="9988-daf2-67fa-f17e" name="Monster">
       <characteristics>
-        <characteristic id="556e69742053697a6523232344415441232323" name="Unit Size"/>
-        <characteristic id="537023232344415441232323" name="Sp"/>
-        <characteristic id="4d6523232344415441232323" name="Me"/>
-        <characteristic id="526123232344415441232323" name="Ra"/>
-        <characteristic id="446523232344415441232323" name="De"/>
-        <characteristic id="417423232344415441232323" name="At"/>
-        <characteristic id="4e6523232344415441232323" name="Ne"/>
+        <characteristic id="1e88-2d83-1480-82f1" name="Unit Size"/>
+        <characteristic id="786c-09f7-bc4a-bc1a" name="Height"/>
+        <characteristic id="7b4d-35b9-dd84-e672" name="Unit Type"/>
+        <characteristic id="6a0b-5ca3-681f-6b2e" name="Speed"/>
+        <characteristic id="ae92-a124-75e4-e22d" name="Melee"/>
+        <characteristic id="fa16-f2da-63d9-71c2" name="Ranged"/>
+        <characteristic id="a65b-2083-ea38-304f" name="Defense"/>
+        <characteristic id="058e-7a4a-4a9c-1be0" name="Attacks"/>
+        <characteristic id="03d5-4167-faba-63a6" name="Nerve"/>
       </characteristics>
     </profileType>
-    <profileType id="4c6172676520496e66616e74727923232344415441232323" name="Large Infantry">
+    <profileType id="021a-1e31-e581-4e84" name="War Engine">
       <characteristics>
-        <characteristic id="556e69742053697a6523232344415441232323" name="Unit Size"/>
-        <characteristic id="537023232344415441232323" name="Sp"/>
-        <characteristic id="4d6523232344415441232323" name="Me"/>
-        <characteristic id="526123232344415441232323" name="Ra"/>
-        <characteristic id="446523232344415441232323" name="De"/>
-        <characteristic id="417423232344415441232323" name="At"/>
-        <characteristic id="4e6523232344415441232323" name="Ne"/>
+        <characteristic id="1e88-2d83-1480-82f1" name="Unit Size"/>
+        <characteristic id="786c-09f7-bc4a-bc1a" name="Height"/>
+        <characteristic id="7b4d-35b9-dd84-e672" name="Unit Type"/>
+        <characteristic id="6a0b-5ca3-681f-6b2e" name="Speed"/>
+        <characteristic id="ae92-a124-75e4-e22d" name="Melee"/>
+        <characteristic id="fa16-f2da-63d9-71c2" name="Ranged"/>
+        <characteristic id="a65b-2083-ea38-304f" name="Defense"/>
+        <characteristic id="058e-7a4a-4a9c-1be0" name="Attacks"/>
+        <characteristic id="03d5-4167-faba-63a6" name="Nerve"/>
       </characteristics>
     </profileType>
-    <profileType id="4c6172676520436176616c727923232344415441232323" name="Large Cavalry">
+    <profileType id="97cc-56ab-eb5b-85a6" name="Hero">
       <characteristics>
-        <characteristic id="556e69742053697a6523232344415441232323" name="Unit Size"/>
-        <characteristic id="537023232344415441232323" name="Sp"/>
-        <characteristic id="4d6523232344415441232323" name="Me"/>
-        <characteristic id="526123232344415441232323" name="Ra"/>
-        <characteristic id="446523232344415441232323" name="De"/>
-        <characteristic id="417423232344415441232323" name="At"/>
-        <characteristic id="4e6523232344415441232323" name="Ne"/>
+        <characteristic id="1e88-2d83-1480-82f1" name="Unit Size"/>
+        <characteristic id="786c-09f7-bc4a-bc1a" name="Height"/>
+        <characteristic id="7b4d-35b9-dd84-e672" name="Unit Type"/>
+        <characteristic id="6a0b-5ca3-681f-6b2e" name="Speed"/>
+        <characteristic id="ae92-a124-75e4-e22d" name="Melee"/>
+        <characteristic id="fa16-f2da-63d9-71c2" name="Ranged"/>
+        <characteristic id="a65b-2083-ea38-304f" name="Defense"/>
+        <characteristic id="058e-7a4a-4a9c-1be0" name="Attacks"/>
+        <characteristic id="03d5-4167-faba-63a6" name="Nerve"/>
+      </characteristics>
+    </profileType>
+    <profileType id="ee75-6c23-6aad-aa05" name="Z Profile Notes">
+      <characteristics>
+        <characteristic id="7faf-5d95-d741-0a54" name="Notes"/>
       </characteristics>
     </profileType>
   </profileTypes>
