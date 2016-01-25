@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ef03-aa38-d25a-9a71" revision="1" gameSystemId="697b-dd1f-a597-82e2" gameSystemRevision="1" battleScribeVersion="1.15" name="The League of Rhordia 2E" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ef03-aa38-d25a-9a71" revision="2" gameSystemId="697b-dd1f-a597-82e2" gameSystemRevision="1" battleScribeVersion="1.15" name="The League of Rhordia 2E" authorName="Johnathan Conz" authorContact="YouTube, reddit: Ekaznae" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="677b-b62d-88cd-d914" name="Army Standard Bearer" points="50.0" categoryId="4e85-806b-4c44-2cb8" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
@@ -89,7 +89,7 @@
             </link>
           </links>
         </entry>
-        <entry id="6f31-9fed-039e-f34f" name="Very Inspiring (Honour Guard only)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="6f31-9fed-039e-f34f" name="Very Inspiring (non-Halfling units only)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -101,115 +101,39 @@
             </link>
           </links>
         </entry>
-      </entries>
-      <entryGroups>
-        <entryGroup id="454a-c81d-1627-71d5" name="Options" defaultEntryId="7a32-79bb-ed18-d7e4" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="7a32-79bb-ed18-d7e4" name="On Foot" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries>
-                <entry id="737c-ec7e-261b-9cd0" name="Crushing Strength (1)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-                  <entries/>
-                  <entryGroups/>
-                  <modifiers/>
-                  <rules/>
-                  <profiles/>
-                  <links>
-                    <link id="3782-c414-fa88-24be" targetId="3131-8f0a-0927-8489" linkType="rule">
-                      <modifiers/>
-                    </link>
-                  </links>
-                </entry>
-              </entries>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="91f3-1ca2-b1d1-fd9d" targetId="9657-1079-91be-b2bd" linkType="rule">
-                  <modifiers/>
-                </link>
-                <link id="c8c4-e5d1-fab1-0367" targetId="b79a-f274-5123-df1d" linkType="rule">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-            <entry id="de06-fda1-dbe9-822a" name="On Horse" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries>
-                <entry id="8c75-a9cd-ca3a-7cd0" name="Crushing Strength (1)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-                  <entries/>
-                  <entryGroups/>
-                  <modifiers/>
-                  <rules/>
-                  <profiles/>
-                  <links>
-                    <link id="abe2-2a25-e06e-bddf" targetId="3131-8f0a-0927-8489" linkType="rule">
-                      <modifiers/>
-                    </link>
-                  </links>
-                </entry>
-              </entries>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles>
-                <profile id="222c-a8a6-de62-8ca3" profileTypeId="ee75-6c23-6aad-aa05" name="Horse" hidden="false">
-                  <characteristics>
-                    <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="This unit has Speed 8, and becomes Hero (Cav) (All changes already in profile)."/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-              </profiles>
-              <links>
-                <link id="a4d7-64d6-f4fb-48b8" targetId="9657-1079-91be-b2bd" linkType="rule">
-                  <modifiers/>
-                </link>
-                <link id="5a36-3c86-4b76-a5a7" targetId="b79a-f274-5123-df1d" linkType="rule">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-            <entry id="606d-afbf-f4de-c90e" name="On Aralez" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries>
-                <entry id="47c3-82cf-a6e7-2f73" name="Crushing Strength (2)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-                  <entries/>
-                  <entryGroups/>
-                  <modifiers/>
-                  <rules/>
-                  <profiles/>
-                  <links>
-                    <link id="937d-1db0-9f14-f461" targetId="3131-8f0a-0927-8489" linkType="rule">
-                      <modifiers/>
-                    </link>
-                  </links>
-                </entry>
-              </entries>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles>
-                <profile id="5fb9-f671-232b-df39" profileTypeId="ee75-6c23-6aad-aa05" name="Aralez" hidden="false">
-                  <characteristics>
-                    <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="This unit has Speed 8, the Crushing Strength (2) special rule, and becomes Hero (Lrg Cav) (All changes already in profile)."/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-              </profiles>
-              <links>
-                <link id="680f-7ba5-599f-244e" targetId="6182-5a87-de7a-4f56" linkType="rule">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-          </entries>
+        <entry id="0a78-3fb2-7c6f-efb1" name="Mounted" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
           <entryGroups/>
           <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="7fc2-95a2-de36-536c" profileTypeId="ee75-6c23-6aad-aa05" name="Horse" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="This unit has Speed 8, and becomes Hero (Cav) (All changes already in profile)."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
           <links/>
-        </entryGroup>
-      </entryGroups>
+        </entry>
+        <entry id="e9c2-8368-6a0a-c5a4" name="Crushing Strength (1)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="708b-ca7c-ec3f-5067" targetId="3131-8f0a-0927-8489" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="6894-2bec-76d1-f8f7" profileTypeId="97cc-56ab-eb5b-85a6" name="Baron" hidden="false">
+        <profile id="6894-2bec-76d1-f8f7" profileTypeId="97cc-56ab-eb5b-85a6" name="Baron" hidden="false" book="UE" page="35">
           <characteristics>
             <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="1"/>
             <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="1"/>
@@ -222,38 +146,33 @@
             <characteristic characteristicId="03d5-4167-faba-63a6" name="Nerve" value="10/12"/>
           </characteristics>
           <modifiers>
-            <modifier type="set" field="786c-09f7-bc4a-bc1a" value="2" repeat="true" numRepeats="1" incrementParentId="85bb-7377-ed97-185f" incrementChildId="de06-fda1-dbe9-822a" incrementField="selections" incrementValue="1.0">
+            <modifier type="set" field="786c-09f7-bc4a-bc1a" value="2" repeat="true" numRepeats="1" incrementParentId="85bb-7377-ed97-185f" incrementChildId="0a78-3fb2-7c6f-efb1" incrementField="selections" incrementValue="1.0">
               <conditions/>
               <conditionGroups/>
             </modifier>
-            <modifier type="set" field="6a0b-5ca3-681f-6b2e" value="8" repeat="true" numRepeats="1" incrementParentId="85bb-7377-ed97-185f" incrementChildId="de06-fda1-dbe9-822a" incrementField="selections" incrementValue="1.0">
+            <modifier type="set" field="7b4d-35b9-dd84-e672" value="Hero (Cav)" repeat="true" numRepeats="1" incrementParentId="85bb-7377-ed97-185f" incrementChildId="0a78-3fb2-7c6f-efb1" incrementField="selections" incrementValue="1.0">
               <conditions/>
               <conditionGroups/>
             </modifier>
-            <modifier type="set" field="7b4d-35b9-dd84-e672" value="Hero (Cav)" repeat="true" numRepeats="1" incrementParentId="85bb-7377-ed97-185f" incrementChildId="de06-fda1-dbe9-822a" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="set" field="786c-09f7-bc4a-bc1a" value="3" repeat="true" numRepeats="1" incrementParentId="85bb-7377-ed97-185f" incrementChildId="606d-afbf-f4de-c90e" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="set" field="7b4d-35b9-dd84-e672" value="Hero (Lrg Cav)" repeat="true" numRepeats="1" incrementParentId="85bb-7377-ed97-185f" incrementChildId="606d-afbf-f4de-c90e" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="set" field="6a0b-5ca3-681f-6b2e" value="8" repeat="true" numRepeats="1" incrementParentId="85bb-7377-ed97-185f" incrementChildId="606d-afbf-f4de-c90e" incrementField="selections" incrementValue="1.0">
+            <modifier type="set" field="6a0b-5ca3-681f-6b2e" value="8" repeat="true" numRepeats="1" incrementParentId="85bb-7377-ed97-185f" incrementChildId="0a78-3fb2-7c6f-efb1" incrementField="selections" incrementValue="1.0">
               <conditions/>
               <conditionGroups/>
             </modifier>
           </modifiers>
         </profile>
       </profiles>
-      <links/>
+      <links>
+        <link id="d85c-e440-4cb4-8d1b" targetId="9657-1079-91be-b2bd" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="33d8-bdd1-299b-958f" targetId="b79a-f274-5123-df1d" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
-    <entry id="9659-ef1e-428f-0112" name="Battle Shrine" points="160.0" categoryId="9565-04ac-b74f-a11c" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="9659-ef1e-428f-0112" name="Battle Shrine [1]" points="130.0" categoryId="4e85-806b-4c44-2cb8" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="39c1-2105-8fb6-86c1" name="Lightning Bolt (6)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="39c1-2105-8fb6-86c1" name="Lightning Bolt (5)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -265,31 +184,28 @@
             </link>
           </links>
         </entry>
-        <entry id="b1c1-6d1d-d378-f6a6" name="Rallying!" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="b1c1-6d1d-d378-f6a6" name="Rallying! (2)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules/>
-          <profiles>
-            <profile id="9949-3f0e-2455-cbcc" profileTypeId="ee75-6c23-6aad-aa05" name="Rallying!" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="Friendly non-allied units within 6&quot; have +1 to their Waver and Rout Nerve values. This is non-cumulative from multiple Battle Shrines."/>
-              </characteristics>
+          <profiles/>
+          <links>
+            <link id="610e-10e4-e718-5951" targetId="a621-0f14-db61-f580" linkType="rule">
               <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
+            </link>
+          </links>
         </entry>
       </entries>
       <entryGroups/>
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="4c17-9baf-f3d4-7f88" profileTypeId="9988-daf2-67fa-f17e" name="Battle Shrine" hidden="false">
+        <profile id="4c17-9baf-f3d4-7f88" profileTypeId="97cc-56ab-eb5b-85a6" name="Battle Shrine [1]" hidden="false" book="UE" page="37">
           <characteristics>
             <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="1 (50x100mm)"/>
-            <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="4"/>
-            <characteristic characteristicId="7b4d-35b9-dd84-e672" name="Unit Type" value="Monster"/>
+            <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="3"/>
+            <characteristic characteristicId="7b4d-35b9-dd84-e672" name="Unit Type" value="Hero (Lrg Cav)"/>
             <characteristic characteristicId="6a0b-5ca3-681f-6b2e" name="Speed" value="5"/>
             <characteristic characteristicId="ae92-a124-75e4-e22d" name="Melee" value="4"/>
             <characteristic characteristicId="fa16-f2da-63d9-71c2" name="Ranged" value="-"/>
@@ -333,7 +249,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="a416-acd9-910a-bc94" profileTypeId="1766-7f43-a8c0-711d" name="City Militia" hidden="false">
+        <profile id="a416-acd9-910a-bc94" profileTypeId="1766-7f43-a8c0-711d" name="City Militia" hidden="false" book="UE" page="32">
           <characteristics>
             <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="Troop (10)"/>
             <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="1"/>
@@ -381,7 +297,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="43fd-7a2b-aa6f-83cf" profileTypeId="1766-7f43-a8c0-711d" name="City Militia" hidden="false">
+        <profile id="43fd-7a2b-aa6f-83cf" profileTypeId="1766-7f43-a8c0-711d" name="City Militia" hidden="false" book="UE" page="32">
           <characteristics>
             <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="Regiment (20)"/>
             <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="1"/>
@@ -417,7 +333,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="2a2c-02e9-2c53-fb85" profileTypeId="1766-7f43-a8c0-711d" name="City Spear Militia" hidden="false">
+        <profile id="2a2c-02e9-2c53-fb85" profileTypeId="1766-7f43-a8c0-711d" name="City Spear Militia" hidden="false" book="UE" page="32">
           <characteristics>
             <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="Troop (10)"/>
             <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="1"/>
@@ -457,7 +373,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="ab5b-c4af-726e-f8dd" profileTypeId="1766-7f43-a8c0-711d" name="City Spear Militia" hidden="false">
+        <profile id="ab5b-c4af-726e-f8dd" profileTypeId="1766-7f43-a8c0-711d" name="City Spear Militia" hidden="false" book="UE" page="32">
           <characteristics>
             <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="Regiment (20)"/>
             <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="1"/>
@@ -497,7 +413,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="d710-9bcc-e5ee-9652" profileTypeId="1766-7f43-a8c0-711d" name="City Spear Militia" hidden="false">
+        <profile id="d710-9bcc-e5ee-9652" profileTypeId="1766-7f43-a8c0-711d" name="City Spear Militia" hidden="false" book="UE" page="32">
           <characteristics>
             <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="Horde (40)"/>
             <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="1"/>
@@ -564,7 +480,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="f48b-0963-3b52-0482" profileTypeId="1766-7f43-a8c0-711d" name="Crossbow Block" hidden="false">
+        <profile id="f48b-0963-3b52-0482" profileTypeId="1766-7f43-a8c0-711d" name="Crossbow Block" hidden="false" book="UE" page="33">
           <characteristics>
             <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="Troop (10)"/>
             <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="1"/>
@@ -585,7 +501,7 @@
         </link>
       </links>
     </entry>
-    <entry id="00fa-b9aa-60a1-5b66" name="Crossbow Block (20)" points="115.0" categoryId="e254-2b91-de9e-2381" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="00fa-b9aa-60a1-5b66" name="Crossbow Block (20)" points="110.0" categoryId="e254-2b91-de9e-2381" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
         <entry id="1ab9-c380-4af3-4f2c" name="Crossbows" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
@@ -631,7 +547,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="51fe-f111-8b92-74df" profileTypeId="1766-7f43-a8c0-711d" name="Crossbow Block" hidden="false">
+        <profile id="51fe-f111-8b92-74df" profileTypeId="1766-7f43-a8c0-711d" name="Crossbow Block" hidden="false" book="UE" page="33">
           <characteristics>
             <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="Regiment (20)"/>
             <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="1"/>
@@ -652,7 +568,7 @@
         </link>
       </links>
     </entry>
-    <entry id="c49d-80de-f235-d122" name="Dogs of War* (20)" points="175.0" categoryId="d5a9-edbf-71e8-399f" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="c49d-80de-f235-d122" name="Dogs of War* (20)" points="165.0" categoryId="d5a9-edbf-71e8-399f" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
         <entry id="98f6-d9d1-e2de-7056" name="Magic Artefact" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
@@ -671,7 +587,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="2933-2197-2ec6-d21d" profileTypeId="1766-7f43-a8c0-711d" name="Dogs of War*" hidden="false">
+        <profile id="2933-2197-2ec6-d21d" profileTypeId="1766-7f43-a8c0-711d" name="Dogs of War*" hidden="false" book="UE" page="33">
           <characteristics>
             <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="Regiment (20)"/>
             <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="1"/>
@@ -695,7 +611,7 @@
         </link>
       </links>
     </entry>
-    <entry id="cba5-8ea4-7df2-4dea" name="Dogs of War* (40)" points="290.0" categoryId="d5a9-edbf-71e8-399f" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="cba5-8ea4-7df2-4dea" name="Dogs of War* (40)" points="270.0" categoryId="d5a9-edbf-71e8-399f" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
         <entry id="3e96-a01b-2354-fb86" name="Magic Artefact" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
@@ -714,7 +630,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="96fb-ddac-a405-39b9" profileTypeId="1766-7f43-a8c0-711d" name="Dogs of War*" hidden="false">
+        <profile id="96fb-ddac-a405-39b9" profileTypeId="1766-7f43-a8c0-711d" name="Dogs of War*" hidden="false" book="UE" page="33">
           <characteristics>
             <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="Horde (40)"/>
             <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="1"/>
@@ -752,171 +668,39 @@
             </link>
           </links>
         </entry>
-      </entries>
-      <entryGroups>
-        <entryGroup id="2ddc-9473-21b2-6694" name="Options" defaultEntryId="412e-33bd-ba36-85c8" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="412e-33bd-ba36-85c8" name="On Foot" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries>
-                <entry id="dd1b-d212-5f2e-1387" name="Crushing Strength (1)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-                  <entries/>
-                  <entryGroups/>
-                  <modifiers/>
-                  <rules/>
-                  <profiles/>
-                  <links>
-                    <link id="aade-1780-e266-1957" targetId="3131-8f0a-0927-8489" linkType="rule">
-                      <modifiers/>
-                    </link>
-                  </links>
-                </entry>
-              </entries>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="46fb-72c9-ef46-98ca" targetId="9657-1079-91be-b2bd" linkType="rule">
-                  <modifiers/>
-                </link>
-                <link id="9459-192b-ba37-e113" targetId="b79a-f274-5123-df1d" linkType="rule">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-            <entry id="be03-aaf8-64b4-3819" name="On Horse" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries>
-                <entry id="bd4c-2249-1d62-acba" name="Crushing Strength (1)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-                  <entries/>
-                  <entryGroups/>
-                  <modifiers/>
-                  <rules/>
-                  <profiles/>
-                  <links>
-                    <link id="5db4-9803-26b3-f34b" targetId="3131-8f0a-0927-8489" linkType="rule">
-                      <modifiers/>
-                    </link>
-                  </links>
-                </entry>
-              </entries>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles>
-                <profile id="0d3e-8981-4d91-4642" profileTypeId="ee75-6c23-6aad-aa05" name="Horse" hidden="false">
-                  <characteristics>
-                    <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="This unit has Speed 8, and becomes Hero (Cav) (All changes already in profile)."/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-              </profiles>
-              <links>
-                <link id="b9bf-d61d-13bd-f7fc" targetId="9657-1079-91be-b2bd" linkType="rule">
-                  <modifiers/>
-                </link>
-                <link id="257a-02dc-609a-eec7" targetId="b79a-f274-5123-df1d" linkType="rule">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-            <entry id="deb5-52b1-2ae9-0244" name="On Winged Aralez" points="65.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries>
-                <entry id="487d-6156-da22-23d4" name="Crushing Strength (2)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-                  <entries/>
-                  <entryGroups/>
-                  <modifiers/>
-                  <rules/>
-                  <profiles/>
-                  <links>
-                    <link id="52c0-2125-a9ff-b01d" targetId="3131-8f0a-0927-8489" linkType="rule">
-                      <modifiers/>
-                    </link>
-                  </links>
-                </entry>
-              </entries>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles>
-                <profile id="a9f7-f829-8f67-8c06" profileTypeId="ee75-6c23-6aad-aa05" name="Winged Aralez" hidden="false">
-                  <characteristics>
-                    <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="This unit has Speed 10, the Crushing Strength (2), Fly, Iron Resolve and Nimble special rules, and becomes Hero (Lrg Cav) (All changes already in profile)."/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-              </profiles>
-              <links>
-                <link id="a502-891c-5234-6f90" targetId="b79a-f274-5123-df1d" linkType="rule">
-                  <modifiers/>
-                </link>
-                <link id="50ef-1fa2-d112-dbd3" targetId="dc50-fdaa-d751-9cdf" linkType="rule">
-                  <modifiers/>
-                </link>
-                <link id="69ba-bc7e-2e0a-9637" targetId="6182-5a87-de7a-4f56" linkType="rule">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-            <entry id="3068-c4dc-d442-f9ba" name="On Ancient Winged Aralez" points="120.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries>
-                <entry id="9633-fdfb-ae0e-54e9" name="Crushing Strength (2)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-                  <entries/>
-                  <entryGroups/>
-                  <modifiers/>
-                  <rules/>
-                  <profiles/>
-                  <links>
-                    <link id="1793-6ad3-7b02-c633" targetId="3131-8f0a-0927-8489" linkType="rule">
-                      <modifiers/>
-                    </link>
-                  </links>
-                </entry>
-                <entry id="057d-5a61-a948-0fc6" name="Heal (4)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-                  <entries/>
-                  <entryGroups/>
-                  <modifiers/>
-                  <rules/>
-                  <profiles/>
-                  <links>
-                    <link id="604c-586d-80d5-e3ad" targetId="a125-9eee-fc99-05f7" linkType="rule">
-                      <modifiers/>
-                    </link>
-                  </links>
-                </entry>
-              </entries>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles>
-                <profile id="a68e-9448-ed29-157e" profileTypeId="ee75-6c23-6aad-aa05" name="Ancient Winged Aralez" hidden="false">
-                  <characteristics>
-                    <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="This unit has Speed 10, +3 Attacks, 15/17 Nerve, the Crushing Strength (2), Fly, Iron Resolve and Nimble special rules, the Heal (4) spell, and becomes Hero (Mon) (All changes already in profile)."/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-              </profiles>
-              <links>
-                <link id="6a8a-f3ac-5cca-fb48" targetId="dc50-fdaa-d751-9cdf" linkType="rule">
-                  <modifiers/>
-                </link>
-                <link id="fecc-a0fd-f123-5d40" targetId="6182-5a87-de7a-4f56" linkType="rule">
-                  <modifiers/>
-                </link>
-                <link id="7606-858c-ecdb-fb98" targetId="b79a-f274-5123-df1d" linkType="rule">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-          </entries>
+        <entry id="b3d7-9d40-a5cc-605d" name="Mounted" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
           <entryGroups/>
           <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="26d1-254e-86db-0357" profileTypeId="ee75-6c23-6aad-aa05" name="Horse" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="This unit has Speed 8, and becomes Hero (Cav) (All changes already in profile)."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
           <links/>
-        </entryGroup>
-      </entryGroups>
+        </entry>
+        <entry id="1c6d-e7d2-0848-b078" name="Crushing Strength (1)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="ca4f-5928-6204-0397" targetId="3131-8f0a-0927-8489" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="28be-5945-2b9d-4b48" profileTypeId="97cc-56ab-eb5b-85a6" name="Duke" hidden="false">
+        <profile id="28be-5945-2b9d-4b48" profileTypeId="97cc-56ab-eb5b-85a6" name="Duke" hidden="false" book="UE" page="35">
           <characteristics>
             <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="1"/>
             <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="1"/>
@@ -929,47 +713,15 @@
             <characteristic characteristicId="03d5-4167-faba-63a6" name="Nerve" value="12/14"/>
           </characteristics>
           <modifiers>
-            <modifier type="set" field="786c-09f7-bc4a-bc1a" value="2" repeat="true" numRepeats="1" incrementParentId="a373-52f5-19e4-5e59" incrementChildId="be03-aaf8-64b4-3819" incrementField="selections" incrementValue="1.0">
+            <modifier type="set" field="786c-09f7-bc4a-bc1a" value="2" repeat="true" numRepeats="1" incrementParentId="a373-52f5-19e4-5e59" incrementChildId="b3d7-9d40-a5cc-605d" incrementField="selections" incrementValue="1.0">
               <conditions/>
               <conditionGroups/>
             </modifier>
-            <modifier type="set" field="7b4d-35b9-dd84-e672" value="Hero (Cav)" repeat="true" numRepeats="1" incrementParentId="a373-52f5-19e4-5e59" incrementChildId="be03-aaf8-64b4-3819" incrementField="selections" incrementValue="1.0">
+            <modifier type="set" field="7b4d-35b9-dd84-e672" value="Hero (Cav)" repeat="true" numRepeats="1" incrementParentId="a373-52f5-19e4-5e59" incrementChildId="b3d7-9d40-a5cc-605d" incrementField="selections" incrementValue="1.0">
               <conditions/>
               <conditionGroups/>
             </modifier>
-            <modifier type="set" field="6a0b-5ca3-681f-6b2e" value="8" repeat="true" numRepeats="1" incrementParentId="a373-52f5-19e4-5e59" incrementChildId="be03-aaf8-64b4-3819" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="set" field="786c-09f7-bc4a-bc1a" value="3" repeat="true" numRepeats="1" incrementParentId="a373-52f5-19e4-5e59" incrementChildId="deb5-52b1-2ae9-0244" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="set" field="7b4d-35b9-dd84-e672" value="Hero (Lrg Cav)" repeat="true" numRepeats="1" incrementParentId="a373-52f5-19e4-5e59" incrementChildId="deb5-52b1-2ae9-0244" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="set" field="6a0b-5ca3-681f-6b2e" value="10" repeat="true" numRepeats="1" incrementParentId="a373-52f5-19e4-5e59" incrementChildId="deb5-52b1-2ae9-0244" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="set" field="786c-09f7-bc4a-bc1a" value="4" repeat="true" numRepeats="1" incrementParentId="a373-52f5-19e4-5e59" incrementChildId="3068-c4dc-d442-f9ba" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="set" field="7b4d-35b9-dd84-e672" value="Hero (Mon)" repeat="true" numRepeats="1" incrementParentId="a373-52f5-19e4-5e59" incrementChildId="3068-c4dc-d442-f9ba" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="set" field="6a0b-5ca3-681f-6b2e" value="10" repeat="true" numRepeats="1" incrementParentId="a373-52f5-19e4-5e59" incrementChildId="3068-c4dc-d442-f9ba" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="increment" field="058e-7a4a-4a9c-1be0" value="3" repeat="true" numRepeats="1" incrementParentId="a373-52f5-19e4-5e59" incrementChildId="3068-c4dc-d442-f9ba" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="set" field="03d5-4167-faba-63a6" value="15/17" repeat="true" numRepeats="1" incrementParentId="a373-52f5-19e4-5e59" incrementChildId="3068-c4dc-d442-f9ba" incrementField="selections" incrementValue="1.0">
+            <modifier type="set" field="6a0b-5ca3-681f-6b2e" value="8" repeat="true" numRepeats="1" incrementParentId="a373-52f5-19e4-5e59" incrementChildId="b3d7-9d40-a5cc-605d" incrementField="selections" incrementValue="1.0">
               <conditions/>
               <conditionGroups/>
             </modifier>
@@ -978,6 +730,12 @@
       </profiles>
       <links>
         <link id="60e8-265e-e111-00f9" targetId="10ed-04da-d879-ce2e" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="b86c-ec63-4ea5-e27e" targetId="9657-1079-91be-b2bd" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="1141-df7a-bdb0-6e4e" targetId="b79a-f274-5123-df1d" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -1016,7 +774,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="400c-2e8c-e253-066c" profileTypeId="1766-7f43-a8c0-711d" name="Halfling Archers" hidden="false">
+        <profile id="400c-2e8c-e253-066c" profileTypeId="1766-7f43-a8c0-711d" name="Halfling Archers" hidden="false" book="UE" page="32">
           <characteristics>
             <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="Regiment (20)"/>
             <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="1"/>
@@ -1025,7 +783,7 @@
             <characteristic characteristicId="ae92-a124-75e4-e22d" name="Melee" value="6"/>
             <characteristic characteristicId="fa16-f2da-63d9-71c2" name="Ranged" value="5"/>
             <characteristic characteristicId="a65b-2083-ea38-304f" name="Defense" value="3"/>
-            <characteristic characteristicId="058e-7a4a-4a9c-1be0" name="Attacks" value="8"/>
+            <characteristic characteristicId="058e-7a4a-4a9c-1be0" name="Attacks" value="10"/>
             <characteristic characteristicId="03d5-4167-faba-63a6" name="Nerve" value="12/14"/>
           </characteristics>
           <modifiers/>
@@ -1071,7 +829,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="7cee-45cf-94f6-3d31" profileTypeId="1766-7f43-a8c0-711d" name="Halfling Archers" hidden="false">
+        <profile id="7cee-45cf-94f6-3d31" profileTypeId="1766-7f43-a8c0-711d" name="Halfling Archers" hidden="false" book="UE" page="32">
           <characteristics>
             <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="Horde (40)"/>
             <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="1"/>
@@ -1080,7 +838,7 @@
             <characteristic characteristicId="ae92-a124-75e4-e22d" name="Melee" value="6"/>
             <characteristic characteristicId="fa16-f2da-63d9-71c2" name="Ranged" value="5"/>
             <characteristic characteristicId="a65b-2083-ea38-304f" name="Defense" value="3"/>
-            <characteristic characteristicId="058e-7a4a-4a9c-1be0" name="Attacks" value="10"/>
+            <characteristic characteristicId="058e-7a4a-4a9c-1be0" name="Attacks" value="20"/>
             <characteristic characteristicId="03d5-4167-faba-63a6" name="Nerve" value="19/21"/>
           </characteristics>
           <modifiers/>
@@ -1138,7 +896,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="6371-5b28-448d-a2f7" profileTypeId="97cc-56ab-eb5b-85a6" name="Halfling Army Standard Bearer" hidden="false">
+        <profile id="6371-5b28-448d-a2f7" profileTypeId="97cc-56ab-eb5b-85a6" name="Halfling Army Standard Bearer" hidden="false" book="UE" page="37">
           <characteristics>
             <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="1"/>
             <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="1"/>
@@ -1178,7 +936,7 @@
         </link>
       </links>
     </entry>
-    <entry id="d98e-7c2a-38d5-fd63" name="Halfling Braves (20)" points="85.0" categoryId="e254-2b91-de9e-2381" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="d98e-7c2a-38d5-fd63" name="Halfling Braves (20)" points="80.0" categoryId="e254-2b91-de9e-2381" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
         <entry id="600a-3438-41a0-15c3" name="Magic Artefact" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
@@ -1197,7 +955,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="1252-cb4c-0759-a0dd" profileTypeId="1766-7f43-a8c0-711d" name="Halfling Braves" hidden="false">
+        <profile id="1252-cb4c-0759-a0dd" profileTypeId="1766-7f43-a8c0-711d" name="Halfling Braves" hidden="false" book="UE" page="32">
           <characteristics>
             <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="Regiment (20)"/>
             <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="1"/>
@@ -1218,7 +976,7 @@
         </link>
       </links>
     </entry>
-    <entry id="13be-d4b0-20f4-d377" name="Halfling Braves (40)" points="140.0" categoryId="1df8-619c-72e1-2447" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="13be-d4b0-20f4-d377" name="Halfling Braves (40)" points="130.0" categoryId="1df8-619c-72e1-2447" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
         <entry id="3897-b842-86e4-b8e1" name="Magic Artefact" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
@@ -1237,7 +995,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="be42-1c8f-9e83-31b2" profileTypeId="1766-7f43-a8c0-711d" name="Halfling Braves" hidden="false">
+        <profile id="be42-1c8f-9e83-31b2" profileTypeId="1766-7f43-a8c0-711d" name="Halfling Braves" hidden="false" book="UE" page="32">
           <characteristics>
             <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="Horde (40)"/>
             <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="1"/>
@@ -1289,7 +1047,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="d77b-789e-9edc-175b" profileTypeId="2d97-40c5-cd44-108f" name="Halfling Knights" hidden="false">
+        <profile id="d77b-789e-9edc-175b" profileTypeId="2d97-40c5-cd44-108f" name="Halfling Knights" hidden="false" book="UE" page="34">
           <characteristics>
             <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="Regiment (10)"/>
             <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="2"/>
@@ -1341,7 +1099,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="6e32-8f60-8b81-ce77" profileTypeId="2d97-40c5-cd44-108f" name="Halfling Knights" hidden="false">
+        <profile id="6e32-8f60-8b81-ce77" profileTypeId="2d97-40c5-cd44-108f" name="Halfling Knights" hidden="false" book="UE" page="34">
           <characteristics>
             <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="Troop (5)"/>
             <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="2"/>
@@ -1420,7 +1178,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="84f1-33a0-b714-5015" profileTypeId="97cc-56ab-eb5b-85a6" name="Halfling Master Engineer" hidden="false">
+        <profile id="84f1-33a0-b714-5015" profileTypeId="97cc-56ab-eb5b-85a6" name="Halfling Master Engineer" hidden="false" book="UE" page="37">
           <characteristics>
             <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="1"/>
             <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="1"/>
@@ -1440,6 +1198,12 @@
           <modifiers/>
         </link>
         <link id="9c72-85aa-a569-e530" targetId="bdd0-eb1b-bf45-750e" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="3607-6ead-e629-9385" targetId="9657-1079-91be-b2bd" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="2f2e-c51c-c2ba-88ce" targetId="b79a-f274-5123-df1d" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -1518,7 +1282,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="4bf5-d242-c552-e658" profileTypeId="97cc-56ab-eb5b-85a6" name="Halfling Master Sergeant" hidden="false">
+        <profile id="4bf5-d242-c552-e658" profileTypeId="97cc-56ab-eb5b-85a6" name="Halfling Master Sergeant" hidden="false" book="UE" page="37">
           <characteristics>
             <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="1"/>
             <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="1"/>
@@ -1595,7 +1359,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="b40d-a08e-be1a-bddb" profileTypeId="2d97-40c5-cd44-108f" name="Halfling Ranger Cavalry" hidden="false">
+        <profile id="b40d-a08e-be1a-bddb" profileTypeId="2d97-40c5-cd44-108f" name="Halfling Ranger Cavalry" hidden="false" book="UE" page="33">
           <characteristics>
             <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="Troop (5)"/>
             <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="2"/>
@@ -1650,7 +1414,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="482b-d0fb-7dc1-ee7f" profileTypeId="1766-7f43-a8c0-711d" name="Halfling Scouts" hidden="false">
+        <profile id="482b-d0fb-7dc1-ee7f" profileTypeId="1766-7f43-a8c0-711d" name="Halfling Scouts" hidden="false" book="UE" page="32">
           <characteristics>
             <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="Troop (10)"/>
             <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="1"/>
@@ -1735,7 +1499,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="8932-c50f-c34c-4388" profileTypeId="97cc-56ab-eb5b-85a6" name="Halfling Sorcerer" hidden="false">
+        <profile id="8932-c50f-c34c-4388" profileTypeId="97cc-56ab-eb5b-85a6" name="Halfling Sorcerer" hidden="false" book="UE" page="37">
           <characteristics>
             <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="1"/>
             <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="1"/>
@@ -1775,7 +1539,7 @@
         </link>
       </links>
     </entry>
-    <entry id="8eb3-3197-96f6-6f3d" name="Halfling Spearlings (20)" points="100.0" categoryId="e254-2b91-de9e-2381" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="8eb3-3197-96f6-6f3d" name="Halfling Spearlings (20)" points="90.0" categoryId="e254-2b91-de9e-2381" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
         <entry id="351f-88f8-0648-d17e" name="Magic Artefact" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
@@ -1794,7 +1558,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="0c89-96e8-160d-cb90" profileTypeId="1766-7f43-a8c0-711d" name="Halfling Spearlings" hidden="false">
+        <profile id="0c89-96e8-160d-cb90" profileTypeId="1766-7f43-a8c0-711d" name="Halfling Spearlings" hidden="false" book="UE" page="32">
           <characteristics>
             <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="Regiment (20)"/>
             <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="1"/>
@@ -1818,7 +1582,7 @@
         </link>
       </links>
     </entry>
-    <entry id="1b88-7dde-3fe9-7190" name="Halfling Spearlings (40)" points="160.0" categoryId="1df8-619c-72e1-2447" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="1b88-7dde-3fe9-7190" name="Halfling Spearlings (40)" points="150.0" categoryId="1df8-619c-72e1-2447" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
         <entry id="14a8-8adc-18f5-a57d" name="Magic Artefact" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
@@ -1837,7 +1601,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="5964-e94f-10f5-3b63" profileTypeId="1766-7f43-a8c0-711d" name="Halfling Spearlings" hidden="false">
+        <profile id="5964-e94f-10f5-3b63" profileTypeId="1766-7f43-a8c0-711d" name="Halfling Spearlings" hidden="false" book="UE" page="32">
           <characteristics>
             <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="Horde (40)"/>
             <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="1"/>
@@ -1861,9 +1625,9 @@
         </link>
       </links>
     </entry>
-    <entry id="6ac0-2dd8-08f5-d2de" name="Honour Guard (3)" points="175.0" categoryId="e254-2b91-de9e-2381" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="6ac0-2dd8-08f5-d2de" name="Honour Guard (3)" points="180.0" categoryId="e254-2b91-de9e-2381" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="edbf-c67b-a716-b8c3" name="Thunderous Charge (1)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="edbf-c67b-a716-b8c3" name="Thunderous Charge (2)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -1904,7 +1668,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="cf96-3099-f248-c1ec" profileTypeId="a3d3-efe4-ae26-aa04" name="Honour Guard" hidden="false">
+        <profile id="cf96-3099-f248-c1ec" profileTypeId="a3d3-efe4-ae26-aa04" name="Honour Guard" hidden="false" book="UE" page="34">
           <characteristics>
             <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="Regiment (3)"/>
             <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="3"/>
@@ -1925,7 +1689,7 @@
         </link>
       </links>
     </entry>
-    <entry id="08f0-2bfc-faa4-5714" name="Honour Guard (6)" points="270.0" categoryId="1df8-619c-72e1-2447" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="08f0-2bfc-faa4-5714" name="Honour Guard (6)" points="275.0" categoryId="1df8-619c-72e1-2447" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
         <entry id="926a-8108-19fe-f636" name="Crushing Strength (1)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
@@ -1951,7 +1715,7 @@
             </link>
           </links>
         </entry>
-        <entry id="5162-bf3d-feec-a3f5" name="Thunderous Charge (1)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="5162-bf3d-feec-a3f5" name="Thunderous Charge (2)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -1968,7 +1732,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="180c-8253-da14-ad34" profileTypeId="a3d3-efe4-ae26-aa04" name="Honour Guard" hidden="false">
+        <profile id="180c-8253-da14-ad34" profileTypeId="a3d3-efe4-ae26-aa04" name="Honour Guard" hidden="false" book="UE" page="34">
           <characteristics>
             <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="Horde (6)"/>
             <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="3"/>
@@ -2020,7 +1784,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="b52e-0640-0fef-31ac" profileTypeId="1766-7f43-a8c0-711d" name="House Guard" hidden="false">
+        <profile id="b52e-0640-0fef-31ac" profileTypeId="1766-7f43-a8c0-711d" name="House Guard" hidden="false" book="UE" page="33">
           <characteristics>
             <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="Troop (10)"/>
             <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="1"/>
@@ -2068,7 +1832,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="42bf-4d15-5210-be3d" profileTypeId="1766-7f43-a8c0-711d" name="House Guard" hidden="false">
+        <profile id="42bf-4d15-5210-be3d" profileTypeId="1766-7f43-a8c0-711d" name="House Guard" hidden="false" book="UE" page="32">
           <characteristics>
             <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="Regiment (20)"/>
             <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="1"/>
@@ -2116,7 +1880,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="11b8-6d1b-c3c3-6621" profileTypeId="2d97-40c5-cd44-108f" name="Household Knights" hidden="false">
+        <profile id="11b8-6d1b-c3c3-6621" profileTypeId="2d97-40c5-cd44-108f" name="Household Knights" hidden="false" book="UE" page="33">
           <characteristics>
             <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="Regiment (10)"/>
             <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="2"/>
@@ -2168,7 +1932,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="b0a0-dab2-0a4a-08d2" profileTypeId="2d97-40c5-cd44-108f" name="Household Knights" hidden="false">
+        <profile id="b0a0-dab2-0a4a-08d2" profileTypeId="2d97-40c5-cd44-108f" name="Household Knights" hidden="false" book="UE" page="33">
           <characteristics>
             <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="Troop (5)"/>
             <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="2"/>
@@ -2189,7 +1953,7 @@
         </link>
       </links>
     </entry>
-    <entry id="4c5f-32c3-b4dd-7394" name="Howitzer" points="95.0" categoryId="a974-8216-3217-bd70" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="4c5f-32c3-b4dd-7394" name="Halfling Howitzer" points="95.0" categoryId="a974-8216-3217-bd70" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
         <entry id="2de3-8475-0a85-0089" name="Lob It!" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
@@ -2254,7 +2018,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="2e96-cec2-a57c-9f57" profileTypeId="021a-1e31-e581-4e84" name="Howitzer" hidden="false">
+        <profile id="2e96-cec2-a57c-9f57" profileTypeId="021a-1e31-e581-4e84" name="Halfling Howitzer" hidden="false" book="UE" page="34">
           <characteristics>
             <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="1"/>
             <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="1"/>
@@ -2275,9 +2039,9 @@
         </link>
       </links>
     </entry>
-    <entry id="8e40-e730-78d6-3ebc" name="Iron Beast" points="210.0" categoryId="9565-04ac-b74f-a11c" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="8e40-e730-78d6-3ebc" name="Halfling Iron Beast" points="210.0" categoryId="9565-04ac-b74f-a11c" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="44f6-6d74-f084-e76f" name="Crushing Strength (1)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="44f6-6d74-f084-e76f" name="Crushing Strength (2)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -2307,7 +2071,7 @@
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="e0b1-b2ac-e019-3e46" profileTypeId="ee75-6c23-6aad-aa05" name="Breath Attack (8)" hidden="false">
+            <profile id="e0b1-b2ac-e019-3e46" profileTypeId="ee75-6c23-6aad-aa05" name="Breath Attack (8)" hidden="false" book="KoW" page="72">
               <characteristics>
                 <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="Ranged attack with (n) dice rather than Attacks value, unless listed as (Att). 12&quot; range, always hits on 4+ regardless of modifiers."/>
               </characteristics>
@@ -2321,16 +2085,16 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="fef2-5682-3f0a-5648" profileTypeId="9988-daf2-67fa-f17e" name="Iron Beast" hidden="false">
+        <profile id="fef2-5682-3f0a-5648" profileTypeId="9988-daf2-67fa-f17e" name="Halfling Iron Beast" hidden="false" book="UE" page="34">
           <characteristics>
             <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="1 (50x100mm)"/>
             <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="4"/>
             <characteristic characteristicId="7b4d-35b9-dd84-e672" name="Unit Type" value="Monster"/>
             <characteristic characteristicId="6a0b-5ca3-681f-6b2e" name="Speed" value="5"/>
-            <characteristic characteristicId="ae92-a124-75e4-e22d" name="Melee" value="4"/>
+            <characteristic characteristicId="ae92-a124-75e4-e22d" name="Melee" value="5"/>
             <characteristic characteristicId="fa16-f2da-63d9-71c2" name="Ranged" value="-"/>
             <characteristic characteristicId="a65b-2083-ea38-304f" name="Defense" value="6"/>
-            <characteristic characteristicId="058e-7a4a-4a9c-1be0" name="Attacks" value="D6+12"/>
+            <characteristic characteristicId="058e-7a4a-4a9c-1be0" name="Attacks" value="D6+15"/>
             <characteristic characteristicId="03d5-4167-faba-63a6" name="Nerve" value="16/18"/>
           </characteristics>
           <modifiers/>
@@ -2384,7 +2148,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="fbd8-9314-fcb7-424b" profileTypeId="1766-7f43-a8c0-711d" name="Musket Block" hidden="false">
+        <profile id="fbd8-9314-fcb7-424b" profileTypeId="1766-7f43-a8c0-711d" name="Musket Block" hidden="false" book="UE" page="33">
           <characteristics>
             <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="Troop (10)"/>
             <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="1"/>
@@ -2451,7 +2215,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="0991-a7ac-daec-7296" profileTypeId="1766-7f43-a8c0-711d" name="Musket Block" hidden="false">
+        <profile id="0991-a7ac-daec-7296" profileTypeId="1766-7f43-a8c0-711d" name="Musket Block" hidden="false" book="UE" page="33">
           <characteristics>
             <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="Regiment (20)"/>
             <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="1"/>
@@ -2472,7 +2236,7 @@
         </link>
       </links>
     </entry>
-    <entry id="8387-8ae9-2f10-09ee" name="Volley Gun" points="75.0" categoryId="a974-8216-3217-bd70" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="8387-8ae9-2f10-09ee" name="Halfling Volley Gun" points="85.0" categoryId="a974-8216-3217-bd70" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
         <entry id="8f30-ce7a-b239-a6d2" name="Piercing (2)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
@@ -2514,7 +2278,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="63ec-2a67-a30a-37a9" profileTypeId="021a-1e31-e581-4e84" name="Volley Gun" hidden="false">
+        <profile id="63ec-2a67-a30a-37a9" profileTypeId="021a-1e31-e581-4e84" name="Halfling Volley Gun" hidden="false" book="UE" page="34">
           <characteristics>
             <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="1"/>
             <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="1"/>
@@ -2561,116 +2325,63 @@
             </link>
           </links>
         </entry>
+        <entry id="e3f7-3f92-9d7b-7187" name="Mounted" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="17a3-bebf-dd02-1528" profileTypeId="ee75-6c23-6aad-aa05" name="Horse" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="This unit has Speed 9, and becomes Hero (Cav) (All changes already in profile)."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="987b-4df8-c5b5-c897" name="Lightning Bolt (3)" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="474f-7a11-da76-c8e8" targetId="643b-d49d-8d14-c765" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="a77c-b22a-97bf-b954" name="Heal (2)" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="52ee-b412-4d07-a40a" targetId="a125-9eee-fc99-05f7" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="3382-e563-db6c-536c" name="Bane Chant (2)" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="2fd7-54db-fa84-7b75" targetId="0faf-9276-c8a0-9bcd" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
       </entries>
-      <entryGroups>
-        <entryGroup id="7769-a94f-9977-2e2e" name="Spells" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="8fe2-da0b-2777-6e23" name="Lightning Bolt (3)" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="b234-cc3c-3e5c-6346" targetId="643b-d49d-8d14-c765" linkType="rule">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-            <entry id="b190-7517-1ae8-5247" name="Heal (2)" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="d6c4-1c4c-3ad8-5462" targetId="a125-9eee-fc99-05f7" linkType="rule">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-            <entry id="d87c-9901-8d03-fc75" name="Bane Chant (2)" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="3759-bf77-fe27-60f8" targetId="0faf-9276-c8a0-9bcd" linkType="rule">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
-          <links/>
-        </entryGroup>
-        <entryGroup id="98b0-9914-be5a-86b1" name="Options" defaultEntryId="40dc-0ea7-3f8e-6047" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="40dc-0ea7-3f8e-6047" name="On Foot" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="c2aa-29f7-f87f-3844" targetId="9657-1079-91be-b2bd" linkType="rule">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-            <entry id="a91b-bcc1-37fa-178d" name="On Horse" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles>
-                <profile id="e41f-64a0-62b6-e643" profileTypeId="ee75-6c23-6aad-aa05" name="Horse" hidden="false">
-                  <characteristics>
-                    <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="This unit has Speed 9, and becomes Hero (Cav) (All changes already in profile)."/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-              </profiles>
-              <links>
-                <link id="355d-ed7e-2e01-9b62" targetId="9657-1079-91be-b2bd" linkType="rule">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-            <entry id="71b1-fc6f-45bb-63c3" name="On Winged Aralez" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles>
-                <profile id="edd1-bd77-a638-cd75" profileTypeId="ee75-6c23-6aad-aa05" name="Winged Aralez" hidden="false">
-                  <characteristics>
-                    <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="This unit has Speed 10, the Fly and Iron Resolve special rules, and becomes Hero (Lrg Cav) (All changes already in profile)."/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-              </profiles>
-              <links>
-                <link id="234c-55e1-6a97-934c" targetId="dc50-fdaa-d751-9cdf" linkType="rule">
-                  <modifiers/>
-                </link>
-                <link id="45d7-5762-b390-c3ff" targetId="6182-5a87-de7a-4f56" linkType="rule">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
-          <links/>
-        </entryGroup>
-      </entryGroups>
+      <entryGroups/>
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="e782-2178-019f-d8ff" profileTypeId="97cc-56ab-eb5b-85a6" name="Wizard" hidden="false">
+        <profile id="e782-2178-019f-d8ff" profileTypeId="97cc-56ab-eb5b-85a6" name="Wizard" hidden="false" book="UE" page="36">
           <characteristics>
             <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="1"/>
             <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="1"/>
@@ -2683,27 +2394,15 @@
             <characteristic characteristicId="03d5-4167-faba-63a6" name="Nerve" value="10/12"/>
           </characteristics>
           <modifiers>
-            <modifier type="set" field="786c-09f7-bc4a-bc1a" value="2" repeat="true" numRepeats="1" incrementParentId="02dd-b076-385c-0136" incrementChildId="a91b-bcc1-37fa-178d" incrementField="selections" incrementValue="1.0">
+            <modifier type="set" field="786c-09f7-bc4a-bc1a" value="2" repeat="true" numRepeats="1" incrementParentId="02dd-b076-385c-0136" incrementChildId="e3f7-3f92-9d7b-7187" incrementField="selections" incrementValue="1.0">
               <conditions/>
               <conditionGroups/>
             </modifier>
-            <modifier type="set" field="7b4d-35b9-dd84-e672" value="Hero (Cav)" repeat="true" numRepeats="1" incrementParentId="02dd-b076-385c-0136" incrementChildId="a91b-bcc1-37fa-178d" incrementField="selections" incrementValue="1.0">
+            <modifier type="set" field="7b4d-35b9-dd84-e672" value="Hero (Cav)" repeat="true" numRepeats="1" incrementParentId="02dd-b076-385c-0136" incrementChildId="e3f7-3f92-9d7b-7187" incrementField="selections" incrementValue="1.0">
               <conditions/>
               <conditionGroups/>
             </modifier>
-            <modifier type="set" field="6a0b-5ca3-681f-6b2e" value="9" repeat="true" numRepeats="1" incrementParentId="02dd-b076-385c-0136" incrementChildId="a91b-bcc1-37fa-178d" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="set" field="786c-09f7-bc4a-bc1a" value="3" repeat="true" numRepeats="1" incrementParentId="02dd-b076-385c-0136" incrementChildId="71b1-fc6f-45bb-63c3" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="set" field="7b4d-35b9-dd84-e672" value="Hero (Lrg Cav)" repeat="true" numRepeats="1" incrementParentId="02dd-b076-385c-0136" incrementChildId="71b1-fc6f-45bb-63c3" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="set" field="6a0b-5ca3-681f-6b2e" value="10" repeat="true" numRepeats="1" incrementParentId="02dd-b076-385c-0136" incrementChildId="71b1-fc6f-45bb-63c3" incrementField="selections" incrementValue="1.0">
+            <modifier type="set" field="6a0b-5ca3-681f-6b2e" value="9" repeat="true" numRepeats="1" incrementParentId="02dd-b076-385c-0136" incrementChildId="e3f7-3f92-9d7b-7187" incrementField="selections" incrementValue="1.0">
               <conditions/>
               <conditionGroups/>
             </modifier>
@@ -2714,6 +2413,397 @@
         <link id="6651-379b-9bb0-bcd7" targetId="b79a-f274-5123-df1d" linkType="rule">
           <modifiers/>
         </link>
+        <link id="dfff-eafd-e235-192e" targetId="9657-1079-91be-b2bd" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="31e3-4e1c-2007-01b6" name="City Militia (40)" points="165.0" categoryId="1df8-619c-72e1-2447" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="ceea-7fa4-9120-9e99" name="Crushing Strength (1)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="66a8-598d-8bbb-1316" targetId="3131-8f0a-0927-8489" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="fba5-7c08-55e9-ba64" name="Magic Artefact" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="d657-177c-de99-1992" targetId="886a-898c-6ebe-904a" linkType="entry group">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="bb58-40f8-1cc3-a5a0" profileTypeId="1766-7f43-a8c0-711d" name="City Militia" hidden="false" book="UE" page="32">
+          <characteristics>
+            <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="Horde (40)"/>
+            <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="1"/>
+            <characteristic characteristicId="7b4d-35b9-dd84-e672" name="Unit Type" value="Infantry"/>
+            <characteristic characteristicId="6a0b-5ca3-681f-6b2e" name="Speed" value="5"/>
+            <characteristic characteristicId="ae92-a124-75e4-e22d" name="Melee" value="4"/>
+            <characteristic characteristicId="fa16-f2da-63d9-71c2" name="Ranged" value="-"/>
+            <characteristic characteristicId="a65b-2083-ea38-304f" name="Defense" value="3"/>
+            <characteristic characteristicId="058e-7a4a-4a9c-1be0" name="Attacks" value="25"/>
+            <characteristic characteristicId="03d5-4167-faba-63a6" name="Nerve" value="20/22"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="e230-236d-bb01-30e4" name="Baron on Aralez" points="100.0" categoryId="4e85-806b-4c44-2cb8" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="f54f-7b62-3946-d5b4" name="Magic Artefact" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="6d3b-d4ad-2e99-8442" targetId="886a-898c-6ebe-904a" linkType="entry group">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="c46b-c8e8-49c4-2d37" name="Crushing Strength (2)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="f1a5-769f-398c-f3c0" targetId="3131-8f0a-0927-8489" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="a267-fd54-2fbb-96ff" name="Thunderous Charge (1)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="5f42-ff0b-e2a9-1c26" targetId="a8ce-2f96-b0be-47d6" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="8af9-8dd2-1876-f3fd" name="Very Inspiring (non-Halfling units only)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="9154-83e5-859b-5668" targetId="10ed-04da-d879-ce2e" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="adee-c6b7-bf58-854b" profileTypeId="97cc-56ab-eb5b-85a6" name="Baron on Aralez" hidden="false" book="UE" page="35">
+          <characteristics>
+            <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="1"/>
+            <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="3"/>
+            <characteristic characteristicId="7b4d-35b9-dd84-e672" name="Unit Type" value="Hero (Lrg Cav)"/>
+            <characteristic characteristicId="6a0b-5ca3-681f-6b2e" name="Speed" value="8"/>
+            <characteristic characteristicId="ae92-a124-75e4-e22d" name="Melee" value="3"/>
+            <characteristic characteristicId="fa16-f2da-63d9-71c2" name="Ranged" value="-"/>
+            <characteristic characteristicId="a65b-2083-ea38-304f" name="Defense" value="5"/>
+            <characteristic characteristicId="058e-7a4a-4a9c-1be0" name="Attacks" value="4"/>
+            <characteristic characteristicId="03d5-4167-faba-63a6" name="Nerve" value="10/12"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="1657-5c2b-8f03-9f5a" targetId="6182-5a87-de7a-4f56" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="d3b0-3f81-0c60-f9bb" name="Duke on Winged Aralez" points="170.0" categoryId="4e85-806b-4c44-2cb8" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="0f03-5117-6d58-d6f2" name="Magic Artefact" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="ed29-d1b3-8edb-bb07" targetId="886a-898c-6ebe-904a" linkType="entry group">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="e0b2-1696-924a-75a1" name="Crushing Strength (2)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="c355-a400-15b8-8e5b" targetId="3131-8f0a-0927-8489" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="0c74-85e9-3dfd-e9a0" name="Thunderous Charge (1)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="0902-6a8c-d605-76d7" targetId="a8ce-2f96-b0be-47d6" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="726f-ab33-88a0-34a3" profileTypeId="97cc-56ab-eb5b-85a6" name="Duke on Winged Aralez" hidden="false" book="UE" page="35">
+          <characteristics>
+            <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="1"/>
+            <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="3"/>
+            <characteristic characteristicId="7b4d-35b9-dd84-e672" name="Unit Type" value="Hero (Lrg Cav)"/>
+            <characteristic characteristicId="6a0b-5ca3-681f-6b2e" name="Speed" value="10"/>
+            <characteristic characteristicId="ae92-a124-75e4-e22d" name="Melee" value="3"/>
+            <characteristic characteristicId="fa16-f2da-63d9-71c2" name="Ranged" value="-"/>
+            <characteristic characteristicId="a65b-2083-ea38-304f" name="Defense" value="5"/>
+            <characteristic characteristicId="058e-7a4a-4a9c-1be0" name="Attacks" value="5"/>
+            <characteristic characteristicId="03d5-4167-faba-63a6" name="Nerve" value="13/15"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="3838-81e4-ea9f-810f" targetId="dc50-fdaa-d751-9cdf" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="c0b0-07c4-8044-752d" targetId="6182-5a87-de7a-4f56" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="543f-0ed2-9355-3517" targetId="b79a-f274-5123-df1d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="80f9-c481-8780-e3b3" targetId="10ed-04da-d879-ce2e" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="4fd9-65c6-104b-e022" name="Duke on Ancient Winged Aralez" points="225.0" categoryId="4e85-806b-4c44-2cb8" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="fa55-a02e-105f-7848" name="Crushing Strength (2)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="97cd-58a6-6ab9-1372" targetId="3131-8f0a-0927-8489" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="7fa9-e2ef-09e1-ce15" name="Magic Artefact" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="db30-6593-7c5f-70c2" targetId="886a-898c-6ebe-904a" linkType="entry group">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="3ffb-5d95-c8dc-499a" name="Heal (4)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="3572-72c8-0c20-83b3" targetId="a125-9eee-fc99-05f7" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="c0a2-3d23-b5c8-db92" name="Thunderous Charge (1)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="5d44-a4cd-ae4e-240c" targetId="a8ce-2f96-b0be-47d6" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="00a8-0a3b-55c5-80e2" profileTypeId="97cc-56ab-eb5b-85a6" name="Duke on Ancient Winged Aralez" hidden="false" book="UE" page="35">
+          <characteristics>
+            <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="1"/>
+            <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="4"/>
+            <characteristic characteristicId="7b4d-35b9-dd84-e672" name="Unit Type" value="Hero (Mon)"/>
+            <characteristic characteristicId="6a0b-5ca3-681f-6b2e" name="Speed" value="10"/>
+            <characteristic characteristicId="ae92-a124-75e4-e22d" name="Melee" value="3"/>
+            <characteristic characteristicId="fa16-f2da-63d9-71c2" name="Ranged" value="-"/>
+            <characteristic characteristicId="a65b-2083-ea38-304f" name="Defense" value="5"/>
+            <characteristic characteristicId="058e-7a4a-4a9c-1be0" name="Attacks" value="7"/>
+            <characteristic characteristicId="03d5-4167-faba-63a6" name="Nerve" value="15/17"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="3f49-4f4b-e40b-0818" targetId="dc50-fdaa-d751-9cdf" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="5b6e-9f57-d5e0-0b84" targetId="b79a-f274-5123-df1d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="66bd-281c-8afd-7bc9" targetId="6182-5a87-de7a-4f56" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="1b83-af4a-70da-6e32" targetId="10ed-04da-d879-ce2e" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="5148-3e25-82a7-72ea" name="Wizard on Winged Aralez" points="85.0" categoryId="4e85-806b-4c44-2cb8" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="16ab-7e8d-87ee-5368" name="Magic Artefact" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="3f0f-232f-7e86-f20b" targetId="886a-898c-6ebe-904a" linkType="entry group">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="78db-a96f-5b88-1764" name="Fireball (6)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="edfe-e21b-1fdd-23e6" targetId="a496-054d-a2d6-47b8" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="5b88-ee87-2f08-67ba" name="Thunderous Charge (1)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="219d-79e4-3e96-cf44" targetId="a8ce-2f96-b0be-47d6" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="afd8-9620-20a9-8d7e" name="Lightning Bolt (3)" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="7038-44d0-e8d0-61c9" targetId="643b-d49d-8d14-c765" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="0d37-ba0e-764a-d25f" name="Heal (2)" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="a65a-1930-32c0-b310" targetId="a125-9eee-fc99-05f7" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="81e4-ed32-c4a8-88bc" name="Bane Chant (2)" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="7713-65ef-9cf2-05fb" targetId="0faf-9276-c8a0-9bcd" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="1c3d-5c95-1a61-968a" profileTypeId="97cc-56ab-eb5b-85a6" name="Wizard on Winged Aralez" hidden="false" book="UE" page="36">
+          <characteristics>
+            <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="1"/>
+            <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="3"/>
+            <characteristic characteristicId="7b4d-35b9-dd84-e672" name="Unit Type" value="Hero (Lrg Cav)"/>
+            <characteristic characteristicId="6a0b-5ca3-681f-6b2e" name="Speed" value="10"/>
+            <characteristic characteristicId="ae92-a124-75e4-e22d" name="Melee" value="4"/>
+            <characteristic characteristicId="fa16-f2da-63d9-71c2" name="Ranged" value="-"/>
+            <characteristic characteristicId="a65b-2083-ea38-304f" name="Defense" value="4"/>
+            <characteristic characteristicId="058e-7a4a-4a9c-1be0" name="Attacks" value="1"/>
+            <characteristic characteristicId="03d5-4167-faba-63a6" name="Nerve" value="10/12"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="d88c-0917-6064-11f3" targetId="dc50-fdaa-d751-9cdf" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="9793-1421-aaef-b410" targetId="b79a-f274-5123-df1d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="e75b-6a5c-56ee-8e72" targetId="6182-5a87-de7a-4f56" linkType="rule">
+          <modifiers/>
+        </link>
       </links>
     </entry>
   </entries>
@@ -2721,8 +2811,8 @@
     <rule id="bf74-bd49-f1aa-f325" name="Alignment (The League of Rhordia): Neutral" hidden="false">
       <modifiers/>
     </rule>
-    <rule id="dcce-01da-3ba4-e3c2" name="Rallying Cry" hidden="false">
-      <description>Amongst The League of Rhordia, all units with the Inspiring special rule have the Very Inspiring special rule instead, including Inspiring granted by other means such as Magic Artefacts.</description>
+    <rule id="dcce-01da-3ba4-e3c2" name="Supreme Command" hidden="false" book="UE" page="30">
+      <description>Amongst the League of Rhordia, all units with the Inspiring special rule have the Very Inspiring special rule instead, including Inspiring granted by other means such as Magic Artefacts.</description>
       <modifiers/>
     </rule>
   </rules>
@@ -2732,190 +2822,6 @@
     <entryGroup id="886a-898c-6ebe-904a" name="Magic Artefacts (Choose ONE)" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
-        <entryGroup id="2f30-0fcd-6fdc-c5da" name="Heroes Only" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="e595-c73b-b114-ae61" name="Talisman of Inspiration" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles>
-                <profile id="0d83-38e0-191a-d298" profileTypeId="ee75-6c23-6aad-aa05" name="Talisman of Inspiration" hidden="false">
-                  <characteristics>
-                    <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="This Hero has the Inspiring special rule."/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-              </profiles>
-              <links>
-                <link id="42bc-78e7-a8d6-69fa" targetId="7c18-e2b7-bc3b-fe10" linkType="rule">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-            <entry id="5143-f74d-f52e-d80d" name="Blade of the Beast Slayer" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles>
-                <profile id="6baa-f51d-986f-5e39" profileTypeId="ee75-6c23-6aad-aa05" name="Blade of the Beast Slayer" hidden="false">
-                  <characteristics>
-                    <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="This Hero has Crushing Strength (2) when attacking Large Infantry, Large Cavalry, Monsters or Heroes who do not have the Individual special rule. If this Hero already has Crushing Strength, it is increased by 2 when attacking those same targets (NOT already in profile)."/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-              </profiles>
-              <links/>
-            </entry>
-            <entry id="0043-3598-f94b-25e1" name="Darklord&apos;s Onyx Ring" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles>
-                <profile id="81c7-2e9c-5e44-e589" profileTypeId="ee75-6c23-6aad-aa05" name="Darklord&apos;s Onyx Ring" hidden="false">
-                  <characteristics>
-                    <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="Only usable by Heroes with the Regeneration special rule. This Hero&apos;s Regeneration value is improved by 1 (NOT already in profile)."/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-              </profiles>
-              <links/>
-            </entry>
-            <entry id="0ce7-f28f-74b5-c1d6" name="Boots of Levitation" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles>
-                <profile id="468b-b998-b216-3569" profileTypeId="ee75-6c23-6aad-aa05" name="Boots of Levitation" hidden="false">
-                  <characteristics>
-                    <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="This Hero can Advance and then shoot as if it had Halted that turn. It can also move At the Double and shoot as if it had Advanced that turn."/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-              </profiles>
-              <links/>
-            </entry>
-            <entry id="1f47-5892-4890-a3a1" name="Healing Charm" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles>
-                <profile id="2d31-65f1-c426-880a" profileTypeId="ee75-6c23-6aad-aa05" name="Healing Charm" hidden="false">
-                  <characteristics>
-                    <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="This Hero has the Heal (3) spell."/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-              </profiles>
-              <links>
-                <link id="ef0f-183f-f74b-e159" targetId="a125-9eee-fc99-05f7" linkType="rule">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-            <entry id="c7c9-a304-438f-d119" name="The Boomstick" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles>
-                <profile id="a8b9-95f1-d8cd-633e" profileTypeId="ee75-6c23-6aad-aa05" name="The Boomstick" hidden="false">
-                  <characteristics>
-                    <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="This Hero has the Lightning Bolt (3) spell."/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-              </profiles>
-              <links>
-                <link id="d9f0-63bf-81c1-e0b4" targetId="643b-d49d-8d14-c765" linkType="rule">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-            <entry id="d1f9-1a04-7bd0-f00c" name="Ensorcelled Armour" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles>
-                <profile id="a89b-9df7-9800-75d3" profileTypeId="ee75-6c23-6aad-aa05" name="Ensorcelled Armour" hidden="false">
-                  <characteristics>
-                    <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="This Hero&apos;s Defense is improved by 1, to a maximum of 6 (NOT already in profile)."/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-              </profiles>
-              <links/>
-            </entry>
-            <entry id="0276-9be8-2007-a53b" name="Boots of the Seven Leagues" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles>
-                <profile id="d3b2-2c1e-4b59-e7a3" profileTypeId="ee75-6c23-6aad-aa05" name="Boots of the Seven Leagues" hidden="false">
-                  <characteristics>
-                    <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="Only usable by Heroes with the Individual special rule. Confers the Vanguard special rule."/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-              </profiles>
-              <links>
-                <link id="8f30-f043-4017-38c2" targetId="4172-a0d9-878e-5057" linkType="rule">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-            <entry id="2382-cce5-ea78-bb92" name="Medallion of Life" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles>
-                <profile id="f81b-1acc-5564-b455" profileTypeId="ee75-6c23-6aad-aa05" name="Medallion of Life" hidden="false">
-                  <characteristics>
-                    <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="This Hero has the Regeneration (5+) special rule."/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-              </profiles>
-              <links>
-                <link id="a1be-536f-fdf9-cbf3" targetId="5815-9306-b2e7-0436" linkType="rule">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-            <entry id="3928-3863-883b-b418" name="Wings of Honeymaze" points="40.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles>
-                <profile id="80e6-44a8-5b44-b423" profileTypeId="ee75-6c23-6aad-aa05" name="Wings of Honeymaze" hidden="false">
-                  <characteristics>
-                    <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="Only usable by Heroes with the Individual special rule. Confers the Fly and Nimble special rules, and thusly increases this unit&apos;s Speed to 10 (NOT already in profile)."/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-              </profiles>
-              <links>
-                <link id="fe85-c6c3-c4fd-a276" targetId="b79a-f274-5123-df1d" linkType="rule">
-                  <modifiers/>
-                </link>
-                <link id="deea-6055-1a26-9592" targetId="dc50-fdaa-d751-9cdf" linkType="rule">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
-          <links/>
-        </entryGroup>
         <entryGroup id="2070-320f-0036-5b53" name="05 Points" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
             <entry id="b6ad-fc27-a6b8-6233" name="War-bow of Kaba" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -2924,7 +2830,7 @@
               <modifiers/>
               <rules/>
               <profiles>
-                <profile id="cc03-9590-9217-9b9f" profileTypeId="ee75-6c23-6aad-aa05" name="War-bow of Kaba" hidden="false">
+                <profile id="4b01-811f-a811-d346" profileTypeId="ee75-6c23-6aad-aa05" name="War-bow of Kaba" hidden="false" book="KoW" page="78">
                   <characteristics>
                     <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="A single additional ranged attack, 24&quot; range, Piercing (1), and calculated with a base Ranged 4 value."/>
                   </characteristics>
@@ -2933,13 +2839,13 @@
               </profiles>
               <links/>
             </entry>
-            <entry id="1ec8-a9da-0221-cd38" name="Fire-oil" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entry id="1ec8-a9da-0221-cd38" name="Fire-Oil" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
               <rules/>
               <profiles>
-                <profile id="ede6-edcb-105b-09f7" profileTypeId="ee75-6c23-6aad-aa05" name="Fire-oil" hidden="false">
+                <profile id="fbee-724e-4c51-cba3" profileTypeId="ee75-6c23-6aad-aa05" name="Fire-Oil" hidden="false" book="KoW" page="78">
                   <characteristics>
                     <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="Against units with the Regeneration rule this unit gains an additional Piercing (1) on normal ranged attacks (no Breath Attack, Spells, or Ogre Heavy Crossbows) and an additional Crushing Strength (1)."/>
                   </characteristics>
@@ -2954,7 +2860,7 @@
               <modifiers/>
               <rules/>
               <profiles>
-                <profile id="66b2-ca14-02bc-402b" profileTypeId="ee75-6c23-6aad-aa05" name="Mace of Crushing" hidden="false">
+                <profile id="599d-c783-b8b7-d78f" profileTypeId="ee75-6c23-6aad-aa05" name="Mace of Crushing" hidden="false" book="KoW" page="78">
                   <characteristics>
                     <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="Whenever this unit rolls to damage in melee, it can re-roll one of the dice that failed to damage."/>
                   </characteristics>
@@ -2969,7 +2875,7 @@
               <modifiers/>
               <rules/>
               <profiles>
-                <profile id="119b-824d-ffd9-ceb2" profileTypeId="ee75-6c23-6aad-aa05" name="Kevinar&apos;s Flying Hammer" hidden="false">
+                <profile id="9f23-a8a7-19d8-bd47" profileTypeId="ee75-6c23-6aad-aa05" name="Kevinar&apos;s Flying Hammer" hidden="false" book="KoW" page="78">
                   <characteristics>
                     <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="A single additional ranged attack, 12&quot; range, Piercing (2), and always hits on a 4+, regardless of modifiers."/>
                   </characteristics>
@@ -2978,30 +2884,15 @@
               </profiles>
               <links/>
             </entry>
-            <entry id="0b1f-7f49-aa54-860d" name="Blade of Slashing" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entry id="0b1f-7f49-aa54-860d" name="Blade of Slashing" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="">
               <entries/>
               <entryGroups/>
               <modifiers/>
               <rules/>
               <profiles>
-                <profile id="cc83-74c1-0dfd-fadd" profileTypeId="ee75-6c23-6aad-aa05" name="Blade of Slashing" hidden="false">
+                <profile id="dabc-4d77-4d19-7c34" profileTypeId="ee75-6c23-6aad-aa05" name="Blade of Slashing" hidden="false" book="KoW" page="78">
                   <characteristics>
                     <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="Whenever this unit rolls to hit in melee, it can re-roll one of the dice that failed to hit."/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-              </profiles>
-              <links/>
-            </entry>
-            <entry id="7e0b-6ec9-9722-296c" name="Piercing Arrow" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles>
-                <profile id="f466-18e7-8288-a25c" profileTypeId="ee75-6c23-6aad-aa05" name="Piercing Arrow" hidden="false">
-                  <characteristics>
-                    <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="Whenever this unit rolls to damage with a ranged attack, it can re-roll one of the dice that failed to damage."/>
                   </characteristics>
                   <modifiers/>
                 </profile>
@@ -3021,9 +2912,9 @@
               <modifiers/>
               <rules/>
               <profiles>
-                <profile id="f24d-b64a-50cd-aa8b" profileTypeId="ee75-6c23-6aad-aa05" name="Quicksilver Rapier" hidden="false">
+                <profile id="e34c-7214-49c1-9a62" profileTypeId="ee75-6c23-6aad-aa05" name="Quicksilver Rapier" hidden="false" book="KoW" page="79">
                   <characteristics>
-                    <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="This unit has +1 to hit when attacking Individuals in melee."/>
+                    <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="This unit has +1 to hit when attacking units with the Individual special rule in melee."/>
                   </characteristics>
                   <modifiers/>
                 </profile>
@@ -3036,9 +2927,9 @@
               <modifiers/>
               <rules/>
               <profiles>
-                <profile id="7ff3-a2ce-da04-feed" profileTypeId="ee75-6c23-6aad-aa05" name="Myrddin&apos;s Amulet of the Fire-heart" hidden="false">
+                <profile id="74d2-68b5-bb73-ddc7" profileTypeId="ee75-6c23-6aad-aa05" name="Myrddin&apos;s Amulet of the Fire-heart" hidden="false" book="KoW" page="79">
                   <characteristics>
-                    <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="Once per game, after using a ranged attack or spell, this unit may immediately use another different ranged attack or spell, against the same or a different target."/>
+                    <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="Once per game, after using a ranged attack or spell, this unit may immediately use another different ranged attack or spell it possesses, against the same or a different target."/>
                   </characteristics>
                   <modifiers/>
                 </profile>
@@ -3051,7 +2942,7 @@
               <modifiers/>
               <rules/>
               <profiles>
-                <profile id="9ebf-84dd-c0fc-5204" profileTypeId="ee75-6c23-6aad-aa05" name="Dwarven Ale" hidden="false">
+                <profile id="4235-7ea0-28fd-9b16" profileTypeId="ee75-6c23-6aad-aa05" name="Dwarven Ale" hidden="false" book="KoW" page="79">
                   <characteristics>
                     <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="Confers the Headstrong special rule."/>
                   </characteristics>
@@ -3059,7 +2950,7 @@
                 </profile>
               </profiles>
               <links>
-                <link id="2614-ab81-4495-addd" targetId="6be6-adad-42c1-637f" linkType="rule">
+                <link id="0bfa-05cc-7142-dcbd" targetId="6be6-adad-42c1-637f" linkType="rule">
                   <modifiers/>
                 </link>
               </links>
@@ -3070,7 +2961,7 @@
               <modifiers/>
               <rules/>
               <profiles>
-                <profile id="9158-57cb-f7f2-e24a" profileTypeId="ee75-6c23-6aad-aa05" name="Brew of Haste" hidden="false">
+                <profile id="c5d7-7468-42d2-cf9b" profileTypeId="ee75-6c23-6aad-aa05" name="Brew of Haste" hidden="false" book="KoW" page="79">
                   <characteristics>
                     <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="This unit has +1 Speed (NOT already in profile)."/>
                   </characteristics>
@@ -3085,7 +2976,7 @@
               <modifiers/>
               <rules/>
               <profiles>
-                <profile id="8679-b21d-57f0-ec2d" profileTypeId="ee75-6c23-6aad-aa05" name="Pipes of Terror" hidden="false">
+                <profile id="06ea-4cb8-df55-1063" profileTypeId="ee75-6c23-6aad-aa05" name="Pipes of Terror" hidden="false" book="KoW" page="79">
                   <characteristics>
                     <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="Confers the Brutal special rule."/>
                   </characteristics>
@@ -3093,7 +2984,7 @@
                 </profile>
               </profiles>
               <links>
-                <link id="5af1-3186-8e05-47bc" targetId="51fa-428e-ca3d-8a63" linkType="rule">
+                <link id="08ca-cb89-5d0a-2475" targetId="51fa-428e-ca3d-8a63" linkType="rule">
                   <modifiers/>
                 </link>
               </links>
@@ -3104,9 +2995,24 @@
               <modifiers/>
               <rules/>
               <profiles>
-                <profile id="fa6d-a4ff-8375-ba72" profileTypeId="ee75-6c23-6aad-aa05" name="Brew of Courage" hidden="false">
+                <profile id="fd62-405f-1257-841c" profileTypeId="ee75-6c23-6aad-aa05" name="Brew of Courage" hidden="false" book="KoW" page="79">
                   <characteristics>
                     <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="When testing Nerve against this unit, enemies suffer an additional -1 to their total."/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+            <entry id="bc00-e6da-10ea-15a4" name="Piercing Arrow" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="8080-a506-4987-77b2" profileTypeId="ee75-6c23-6aad-aa05" name="Piercing Arrow" hidden="false" book="KoW" page="79">
+                  <characteristics>
+                    <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="Whenever this unit rolls to damage with a normal ranged attack (no Breath Attack, Spells, or Ogre Heavy Crossbows), it can re-roll one of the dice that failed to damage."/>
                   </characteristics>
                   <modifiers/>
                 </profile>
@@ -3126,7 +3032,7 @@
               <modifiers/>
               <rules/>
               <profiles>
-                <profile id="8c69-d1d5-d985-4835" profileTypeId="ee75-6c23-6aad-aa05" name="Maccwar&apos;s Potion of the Caterpillar" hidden="false">
+                <profile id="dd5a-dea6-6e41-bf72" profileTypeId="ee75-6c23-6aad-aa05" name="Maccwar&apos;s Potion of the Caterpillar" hidden="false" book="KoW" page="80">
                   <characteristics>
                     <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="Confers the Pathfinder special rule."/>
                   </characteristics>
@@ -3134,7 +3040,7 @@
                 </profile>
               </profiles>
               <links>
-                <link id="9030-1d64-6ed2-4e78" targetId="0bf5-2b12-5cc7-a963" linkType="rule">
+                <link id="2aa5-42bd-5cc9-7e73" targetId="0bf5-2b12-5cc7-a963" linkType="rule">
                   <modifiers/>
                 </link>
               </links>
@@ -3145,7 +3051,7 @@
               <modifiers/>
               <rules/>
               <profiles>
-                <profile id="6d81-1e99-293a-4d3d" profileTypeId="ee75-6c23-6aad-aa05" name="Helm of Confidence" hidden="false">
+                <profile id="7964-7fe3-c6ea-8842" profileTypeId="ee75-6c23-6aad-aa05" name="Helm of Confidence" hidden="false" book="KoW" page="80">
                   <characteristics>
                     <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="When testing Nerve against this unit, a Routed result must always be re-rolled."/>
                   </characteristics>
@@ -3160,7 +3066,7 @@
               <modifiers/>
               <rules/>
               <profiles>
-                <profile id="2a3e-5aca-9155-c4f2" profileTypeId="ee75-6c23-6aad-aa05" name="Blessing of the Gods" hidden="false">
+                <profile id="783d-4c19-e190-d71c" profileTypeId="ee75-6c23-6aad-aa05" name="Blessing of the Gods" hidden="false" book="KoW" page="80">
                   <characteristics>
                     <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="Confers the Elite special rule."/>
                   </characteristics>
@@ -3168,7 +3074,7 @@
                 </profile>
               </profiles>
               <links>
-                <link id="0604-b96a-b6c9-0815" targetId="e0d0-5bf9-11c8-b4f1" linkType="rule">
+                <link id="ed36-6bb7-497a-7cff" targetId="e0d0-5bf9-11c8-b4f1" linkType="rule">
                   <modifiers/>
                 </link>
               </links>
@@ -3179,7 +3085,7 @@
               <modifiers/>
               <rules/>
               <profiles>
-                <profile id="2033-6af1-e35e-9733" profileTypeId="ee75-6c23-6aad-aa05" name="Chant of Hate" hidden="false">
+                <profile id="4daf-9816-1729-ed76" profileTypeId="ee75-6c23-6aad-aa05" name="Chant of Hate" hidden="false" book="KoW" page="80">
                   <characteristics>
                     <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="Confers the Vicious special rule."/>
                   </characteristics>
@@ -3187,7 +3093,7 @@
                 </profile>
               </profiles>
               <links>
-                <link id="8d7b-847c-2bf1-a15c" targetId="47c7-1334-d1bf-24d9" linkType="rule">
+                <link id="382c-3d4d-f964-122e" targetId="47c7-1334-d1bf-24d9" linkType="rule">
                   <modifiers/>
                 </link>
               </links>
@@ -3198,9 +3104,9 @@
               <modifiers/>
               <rules/>
               <profiles>
-                <profile id="7484-3158-ed95-1b2e" profileTypeId="ee75-6c23-6aad-aa05" name="Scarletmaw&apos;s Fenulian Amulet" hidden="false">
+                <profile id="baa0-24af-58a4-775f" profileTypeId="ee75-6c23-6aad-aa05" name="Scarletmaw&apos;s Fenulian Amulet" hidden="false" book="KoW" page="80">
                   <characteristics>
-                    <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="Units with the Lightning Bolt spell only. This unit&apos;s Lightning Bolt (n) value is increased by 2 (NOT already in profile)."/>
+                    <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="Limited to units with the Lightning Bolt spell. This unit&apos;s Lightning Bolt (n) value is increased by 2 (NOT already in profile)."/>
                   </characteristics>
                   <modifiers/>
                 </profile>
@@ -3213,7 +3119,7 @@
               <modifiers/>
               <rules/>
               <profiles>
-                <profile id="a810-989f-8418-31eb" profileTypeId="ee75-6c23-6aad-aa05" name="Kaba&apos;s Holy Hand Grenades" hidden="false">
+                <profile id="5bc0-3a26-ad71-2331" profileTypeId="ee75-6c23-6aad-aa05" name="Kaba&apos;s Holy Hand Grenades" hidden="false" book="KoW" page="80">
                   <characteristics>
                     <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="A single additional ranged attack, 12&quot; range, Blast (D6), Piercing (2), and always hits on a 4+, regardless of modifiers."/>
                   </characteristics>
@@ -3221,6 +3127,55 @@
                 </profile>
               </profiles>
               <links/>
+            </entry>
+            <entry id="5143-f74d-f52e-d80d" name="Blade of the Beast Slayer [H]" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="e0e3-5bf5-2959-6da2" profileTypeId="ee75-6c23-6aad-aa05" name="Blade of the Beast Slayer [H]" hidden="false" book="KoW" page="79">
+                  <characteristics>
+                    <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="Limited to Heroes. This unit has Crushing Strength (2) when attacking Large Infantry, Large Cavalry, Monsters or Heroes who do not have the Individual special rule. If this unit already has Crushing Strength, it is increased by 2 when attacking those same targets (NOT already in profile)."/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+            <entry id="0043-3598-f94b-25e1" name="Darklord&apos;s Onyx Ring [H]" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="3543-6c89-3307-2679" profileTypeId="ee75-6c23-6aad-aa05" name="Darklord&apos;s Onyx Ring [H]" hidden="false" book="KoW" page="79">
+                  <characteristics>
+                    <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="Limited to Heroes with the Regeneration special rule. This unit&apos;s Regeneration value is improved by 1 (NOT already in profile)."/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+            <entry id="e595-c73b-b114-ae61" name="Inspiring Talisman [H]" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="60ea-b897-8793-6871" profileTypeId="ee75-6c23-6aad-aa05" name="Inspiring Talisman [H]" hidden="false" book="KoW" page="80">
+                  <characteristics>
+                    <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="Limited to Heroes. Confers the Inspiring special rule."/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links>
+                <link id="3f31-a78c-2828-5852" targetId="7c18-e2b7-bc3b-fe10" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
             </entry>
           </entries>
           <entryGroups/>
@@ -3235,7 +3190,7 @@
               <modifiers/>
               <rules/>
               <profiles>
-                <profile id="fb80-ebc9-b104-6799" profileTypeId="ee75-6c23-6aad-aa05" name="Crepognon&apos;s Scrying Gem of Zellak" hidden="false">
+                <profile id="3392-ea56-6a9c-dc45" profileTypeId="ee75-6c23-6aad-aa05" name="Crepognon&apos;s Scrying Gem of Zellak" hidden="false" book="KoW" page="80">
                   <characteristics>
                     <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="When starting to deploy their units, your opponent must deploy D3+1 units instead of a single one."/>
                   </characteristics>
@@ -3250,7 +3205,7 @@
               <modifiers/>
               <rules/>
               <profiles>
-                <profile id="a4a2-da50-bc02-051d" profileTypeId="ee75-6c23-6aad-aa05" name="Brew of Strength" hidden="false">
+                <profile id="8d9e-28e4-3150-5d6a" profileTypeId="ee75-6c23-6aad-aa05" name="Brew of Strength" hidden="false" book="KoW" page="80">
                   <characteristics>
                     <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="This unit has Crushing Strength (1), or if this unit already has Crushing Strength, it is increased by 1 (NOT already in profile)."/>
                   </characteristics>
@@ -3265,9 +3220,9 @@
               <modifiers/>
               <rules/>
               <profiles>
-                <profile id="562f-2166-8a92-ebfa" profileTypeId="ee75-6c23-6aad-aa05" name="Mreb&apos;s Grimoire of Unspeakable Darkness" hidden="false">
+                <profile id="2d7d-dbce-2624-b5b5" profileTypeId="ee75-6c23-6aad-aa05" name="Mreb&apos;s Grimoire of Unspeakable Darkness" hidden="false" book="KoW" page="80">
                   <characteristics>
-                    <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="Units with the Surge (n) spell only. This item increases this unit&apos;s Surge (n) value by 4 (NOT already in profile)."/>
+                    <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="Limited to units with the Surge spell. This item increases this unit&apos;s Surge (n) value by 4 (NOT already in profile)."/>
                   </characteristics>
                   <modifiers/>
                 </profile>
@@ -3280,13 +3235,13 @@
               <modifiers/>
               <rules/>
               <profiles>
-                <profile id="f105-0739-586e-4797" profileTypeId="ee75-6c23-6aad-aa05" name="Diadem of Dragon-kind" hidden="false">
+                <profile id="e934-7f79-c0ea-310b" profileTypeId="ee75-6c23-6aad-aa05" name="Diadem of Dragon-kind" hidden="false" book="KoW" page="80">
                   <characteristics>
-                    <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="This unit has the Breath Attack (10) special rule."/>
+                    <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="Confers the Breath Attack (10) special rule."/>
                   </characteristics>
                   <modifiers/>
                 </profile>
-                <profile id="9894-30ab-dc98-8038" profileTypeId="ee75-6c23-6aad-aa05" name="Breath Attack (10)" hidden="false">
+                <profile id="87d8-0869-af1c-ce0c" profileTypeId="ee75-6c23-6aad-aa05" name="Breath Attack (10)" hidden="false" book="KoW" page="72">
                   <characteristics>
                     <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="Ranged attack with (n) dice rather than Attacks value, unless listed as (Att). 12&quot; range, always hits on 4+ regardless of modifiers."/>
                   </characteristics>
@@ -3301,7 +3256,7 @@
               <modifiers/>
               <rules/>
               <profiles>
-                <profile id="e673-c958-5e6a-0e39" profileTypeId="ee75-6c23-6aad-aa05" name="Heart-seeking Chant" hidden="false">
+                <profile id="8cbf-3373-121b-e41a" profileTypeId="ee75-6c23-6aad-aa05" name="Heart-seeking Chant" hidden="false" book="KoW" page="80">
                   <characteristics>
                     <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="This unit&apos;s ranged attacks and spells have the Piercing (1) special rule, or if the unit already has Piercing, it is increased by 1 (NOT already in profile)."/>
                   </characteristics>
@@ -3309,6 +3264,59 @@
                 </profile>
               </profiles>
               <links/>
+            </entry>
+            <entry id="0ce7-f28f-74b5-c1d6" name="Boots of Levitation [H]" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="bf8b-ad0b-3e7e-cfeb" profileTypeId="ee75-6c23-6aad-aa05" name="Boots of Levitation [H]" hidden="false" book="KoW" page="80">
+                  <characteristics>
+                    <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="Limited to Heroes. This unit can Advance and then shoot as if it had Halted that turn. It can also move At the Double and shoot as if it had Advanced that turn."/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+            <entry id="1f47-5892-4890-a3a1" name="Healing Charm [H]" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="cf80-e455-cdce-d6e3" profileTypeId="ee75-6c23-6aad-aa05" name="Healing Charm [H]" hidden="false" book="KoW" page="80">
+                  <characteristics>
+                    <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="Limited to Heroes. Confers the Heal (3) spell."/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links>
+                <link id="9e79-df2d-f0b3-7c65" targetId="a125-9eee-fc99-05f7" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="c7c9-a304-438f-d119" name="The Boomstick [H]" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="d674-39a0-3257-0ef3" profileTypeId="ee75-6c23-6aad-aa05" name="The Boomstick [H]" hidden="false" book="KoW" page="80">
+                  <characteristics>
+                    <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="Limited to Heroes. Confers the Lightning Bolt (3) spell."/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links>
+                <link id="9d78-2411-86c9-dc54" targetId="643b-d49d-8d14-c765" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
             </entry>
           </entries>
           <entryGroups/>
@@ -3323,15 +3331,15 @@
               <modifiers/>
               <rules/>
               <profiles>
-                <profile id="53fb-bc31-db6e-46f6" profileTypeId="ee75-6c23-6aad-aa05" name="Orcsbain&apos;s Amulet of Thorns" hidden="false">
+                <profile id="aff8-93ed-303e-199d" profileTypeId="ee75-6c23-6aad-aa05" name="Orcsbain&apos;s Amulet of Thorns" hidden="false" book="KoW" page="81">
                   <characteristics>
-                    <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="Confers the Ensnare special rule."/>
+                    <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="Confers the Phalanx special rule."/>
                   </characteristics>
                   <modifiers/>
                 </profile>
               </profiles>
               <links>
-                <link id="f276-8734-98aa-9709" targetId="3b62-ea44-71f8-1c42" linkType="rule">
+                <link id="405a-beb9-26e7-b2d6" targetId="fbfb-4339-b268-fbae" linkType="rule">
                   <modifiers/>
                 </link>
               </links>
@@ -3342,7 +3350,7 @@
               <modifiers/>
               <rules/>
               <profiles>
-                <profile id="1f27-6cd4-c805-0f2c" profileTypeId="ee75-6c23-6aad-aa05" name="The Fog" hidden="false">
+                <profile id="4051-37d9-f0bd-2734" profileTypeId="ee75-6c23-6aad-aa05" name="The Fog" hidden="false" book="KoW" page="81">
                   <characteristics>
                     <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="Confers the Stealthy special rule."/>
                   </characteristics>
@@ -3350,7 +3358,7 @@
                 </profile>
               </profiles>
               <links>
-                <link id="bcf5-9e4f-98f9-1903" targetId="bdd0-eb1b-bf45-750e" linkType="rule">
+                <link id="328e-215a-5680-59d5" targetId="bdd0-eb1b-bf45-750e" linkType="rule">
                   <modifiers/>
                 </link>
               </links>
@@ -3361,7 +3369,7 @@
               <modifiers/>
               <rules/>
               <profiles>
-                <profile id="6b5a-05e3-e245-da85" profileTypeId="ee75-6c23-6aad-aa05" name="Wine of Elvenkind" hidden="false">
+                <profile id="03fa-1cb3-7e70-1f95" profileTypeId="ee75-6c23-6aad-aa05" name="Wine of Elvenkind" hidden="false" book="KoW" page="81">
                   <characteristics>
                     <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="Confers the Nimble special rule."/>
                   </characteristics>
@@ -3369,7 +3377,7 @@
                 </profile>
               </profiles>
               <links>
-                <link id="1a21-7755-ef83-ed7a" targetId="b79a-f274-5123-df1d" linkType="rule">
+                <link id="d46f-8362-c04c-635c" targetId="b79a-f274-5123-df1d" linkType="rule">
                   <modifiers/>
                 </link>
               </links>
@@ -3380,7 +3388,7 @@
               <modifiers/>
               <rules/>
               <profiles>
-                <profile id="0652-8133-f9e0-af46" profileTypeId="ee75-6c23-6aad-aa05" name="Jar of the Four Winds" hidden="false">
+                <profile id="8c10-95d3-5736-cfc3" profileTypeId="ee75-6c23-6aad-aa05" name="Jar of the Four Winds" hidden="false" book="KoW" page="81">
                   <characteristics>
                     <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="This unit&apos;s normal ranged attacks (no Breath Attack, Spells, or Ogre Heavy Crossbows) gain 12&quot; to their maximum range (NOT already in profile)."/>
                   </characteristics>
@@ -3395,9 +3403,9 @@
               <modifiers/>
               <rules/>
               <profiles>
-                <profile id="64f2-4581-2ad1-87fb" profileTypeId="ee75-6c23-6aad-aa05" name="Crystal Pendant of Retribution" hidden="false">
+                <profile id="c01a-1341-6a72-d754" profileTypeId="ee75-6c23-6aad-aa05" name="Crystal Pendant of Retribution" hidden="false" book="KoW" page="81">
                   <characteristics>
-                    <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="When this unit is Routed, all units in base contact with it suffer 2D6 hits at Piercing (3). These hits are resolved by the player that Routed the unit with the Crystal, which now has to resolve the hits against his own unit(s). After the damage has been resolved, no Nerve test is taken by the damaged units - they proceed to Regroup, but cannot move directly forward D6&quot; for their Regroup action, deterred by the huge explosion."/>
+                    <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="When this unit is Routed, all units in base contact with it suffer 2D6 hits at Piercing (3). These hits are resolved by the player that Routed the unit with the Crystal, which now has to resolve the hits against his own unit(s). After the damage has been resolved, no Nerve test is taken by the damaged unit(s) - they proceed to Regroup, but cannot move directly forward D6&quot; for their Regroup action, deterred by the huge explosion."/>
                   </characteristics>
                   <modifiers/>
                 </profile>
@@ -3410,7 +3418,7 @@
               <modifiers/>
               <rules/>
               <profiles>
-                <profile id="e9b5-2afe-c42c-1bfb" profileTypeId="ee75-6c23-6aad-aa05" name="Brew of Sharpness" hidden="false">
+                <profile id="ae50-9b28-dcc7-fa44" profileTypeId="ee75-6c23-6aad-aa05" name="Brew of Sharpness" hidden="false" book="KoW" page="81">
                   <characteristics>
                     <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="This unit has +1 to hit in melee."/>
                   </characteristics>
@@ -3425,7 +3433,7 @@
               <modifiers/>
               <rules/>
               <profiles>
-                <profile id="6c24-b2c9-bb86-e1c6" profileTypeId="ee75-6c23-6aad-aa05" name="Brew of Keen-eyeness" hidden="false">
+                <profile id="e96c-8b54-ae3a-bab8" profileTypeId="ee75-6c23-6aad-aa05" name="Brew of Keen-eyeness" hidden="false" book="KoW" page="81">
                   <characteristics>
                     <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="This unit has +1 to hit with normal ranged attacks (no Breath Attack, Spells, or Ogre Heavy Crossbows)."/>
                   </characteristics>
@@ -3433,6 +3441,81 @@
                 </profile>
               </profiles>
               <links/>
+            </entry>
+            <entry id="0276-9be8-2007-a53b" name="Boots of the Seven Leagues [H]" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="d5cd-3fe8-7975-56cb" profileTypeId="ee75-6c23-6aad-aa05" name="Boots of the Seven Leagues [H]" hidden="false" book="KoW" page="80">
+                  <characteristics>
+                    <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="Limited to Heroes with the Individual special rule. Confers the Vanguard special rule."/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links>
+                <link id="7c48-7f9a-1f66-c005" targetId="4172-a0d9-878e-5057" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="d1f9-1a04-7bd0-f00c" name="Ensorcelled Armour [H]" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="1c33-ba37-ea19-deb9" profileTypeId="ee75-6c23-6aad-aa05" name="Ensorcelled Armour [H]" hidden="false" book="KoW" page="81">
+                  <characteristics>
+                    <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="Limited to Heroes. This unit&apos;s Defense is improved by 1, to a maximum of 6+ (NOT already in profile)."/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+            <entry id="2382-cce5-ea78-bb92" name="Medallion of Life [H]" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="63fd-6bc1-bac5-8591" profileTypeId="ee75-6c23-6aad-aa05" name="Medallion of Life [H]" hidden="false" book="KoW" page="81">
+                  <characteristics>
+                    <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="Limited to Heroes. Confers the Regeneration (5+) special rule."/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links>
+                <link id="6d50-a955-25c3-b5ab" targetId="5815-9306-b2e7-0436" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="3928-3863-883b-b418" name="Wings of Honeymaze [H]" points="40.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="9ce8-6731-be34-9e49" profileTypeId="ee75-6c23-6aad-aa05" name="Wings of Honeymaze [H]" hidden="false" book="KoW" page="81">
+                  <characteristics>
+                    <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="Limited to Heroes with the Individual special rule. Confers the Fly and Nimble special rules, and thus increases this unit&apos;s Speed to 10 (NOT already in profile)."/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links>
+                <link id="da2b-9e5a-df25-b652" targetId="b79a-f274-5123-df1d" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="d4b6-59ab-1530-c4cb" targetId="dc50-fdaa-d751-9cdf" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
             </entry>
           </entries>
           <entryGroups/>
@@ -3445,143 +3528,163 @@
     </entryGroup>
   </sharedEntryGroups>
   <sharedRules>
-    <rule id="13ee-6280-7201-4911" name="Advanced Deployment" hidden="false">
-      <description>Units with this rule must be deployed immediately after players have chosen sides, but before any other units are deployed. If both players have one or more units with this rule then the player who chose table sides sets their unit(s) up first. This unit may be deployed anywhere on the table, except within 3&quot; of an objective counter or loot counter.</description>
+    <rule id="13ee-6280-7201-4911" name="Advanced Deployment" hidden="false" book="UE" page="5">
+      <description>Units with this rule must be deployed immediately after players have chosen sides, but before any other units are deployed. If both players have one or more units with this rule then the player who chose table sides sets theirs up first. This unit may be deployed anywhere on the table outside your opponent&apos;s deployment zone and not within 3&quot; of an objective counter or loot counter.</description>
       <modifiers/>
     </rule>
-    <rule id="0faf-9276-c8a0-9bcd" name="Bane Chant (n)" hidden="false">
-      <description>Spell with (n) attacks, 12&quot; range, and always hits on 4+ regardless of modifiers. Only usable on friendly units, including units engaged in combat. Hits don&apos;t inflict damage. If at least one hit is scored, for the rest of the turn the unit&apos;s melee and ranged attacks increase their Crushing Strength and Piercing values by 1, or gain Crushing Strength (1) and Piercing (1) if they don&apos;t already have these special rules. Multiple Bane Chants hitting the same unit do not have cumulative effects.</description>
+    <rule id="0faf-9276-c8a0-9bcd" name="Bane Chant (n)" hidden="false" book="KoW" page="83">
+      <description>Spell with (n) attacks, 12&quot; range, and always hits on 4+ regardless of modifiers. Only usable on friendly units, including units engaged in combat. Hits don&apos;t inflict damage. If at least one hit is scored, for the rest of the turn the unit&apos;s melee and ranged attacks increase their Crushing Strength and Piercing values by 1, or gain Crushing Strength (1) and Piercing (1) if they don&apos;t already have it. Multiple Bane Chants hitting the same unit do not have cumulative effects.</description>
       <modifiers/>
     </rule>
-    <rule id="11d0-aa5a-4eb4-83a8" name="Big Shield" hidden="false">
+    <rule id="11d0-aa5a-4eb4-83a8" name="Big Shield" hidden="false" book="KoW" page="72">
       <description>All attacks (ranged and melee) from enemies that are in this unit&apos;s front arc treat this unit&apos;s Defense as 6.</description>
       <modifiers/>
     </rule>
-    <rule id="8c02-8957-63ab-1084" name="Blast (n)" hidden="false">
+    <rule id="8c02-8957-63ab-1084" name="Blast (n)" hidden="false" book="KoW" page="72">
       <description>If this unit&apos;s attack hits the target, that unit suffers a number of hits equal to (n), rather than a single hit. Afterwards, roll for damage as normal for all of the hits caused.</description>
       <modifiers/>
     </rule>
-    <rule id="cf5c-be60-d830-9bdf" name="Breath Attack (n)" hidden="false">
+    <rule id="cf5c-be60-d830-9bdf" name="Breath Attack (n)" hidden="false" book="KoW" page="72">
       <description>Ranged attack with (n) dice rather than Attacks value, unless listed as (Att). 12&quot; range, always hits on 4+ regardless of modifiers.</description>
       <modifiers/>
     </rule>
-    <rule id="51fa-428e-ca3d-8a63" name="Brutal" hidden="false">
-      <description>When testing the Nerve of an enemy unit in melee combat with one or more of your units with this rule, add 1 to the total. This is non-cumulative - you only add 1 if multiple friendly units with Brutal are in combat.</description>
+    <rule id="51fa-428e-ca3d-8a63" name="Brutal" hidden="false" book="KoW" page="72">
+      <description>When testing the Nerve of an enemy unit in melee combat with one or more of your units with this rule, add 1 to the total. Non-cumulative.</description>
       <modifiers/>
     </rule>
-    <rule id="3131-8f0a-0927-8489" name="Crushing Strength (n)" hidden="false">
+    <rule id="334f-bc5a-1b0b-8aa3" name="Casket of the Damned" hidden="false" book="UE" page="44">
+      <description>Mark this unit with a suitable model/counter. One time use. When this unit is targetted by a Surge spell, you may roll an additional 5 dice which count towards the total Surge result. This must be declared BEFORE rolling any dice for the spell.</description>
+      <modifiers/>
+    </rule>
+    <rule id="3131-8f0a-0927-8489" name="Crushing Strength (n)" hidden="false" book="KoW" page="72">
       <description>All melee hits inflicted by this unit have a +(n) modifier when rolling to damage.</description>
       <modifiers/>
     </rule>
-    <rule id="3d0b-7c46-9826-6f87" name="Dwarven Throwing Mastiff" hidden="false">
-      <description>Mark this unit with a suitable model/counter. One time use. Throwing weapon, 12&quot; range. Roll 5 dice, always hits on 4+ regardless of modifiers. For each point of damage caused, repeat to hit and to damage rolls on that enemy unit until you fail to score any damage. Against units with the Shambling special rule, you can re-roll any dice that fail to damage (not to hit rolls).</description>
+    <rule id="3d0b-7c46-9826-6f87" name="Dwarven Throwing Mastiff" hidden="false" book="KoW" page="104">
+      <description>Mark this unit with a suitable model/counter. One time use. Ranged attack, 12&quot; range. Roll 5 dice, always hits on 4+ regardless of modifiers. For each point of damage caused, repeat to hit and to damage rolls on that enemy unit until you fail to score any damage. Against units with the Shambling special rule, you can re-roll any dice that fail to damage (not to hit rolls).</description>
       <modifiers/>
     </rule>
-    <rule id="e0d0-5bf9-11c8-b4f1" name="Elite" hidden="false">
+    <rule id="e0d0-5bf9-11c8-b4f1" name="Elite" hidden="false" book="KoW" page="72">
       <description>Whenever this unit rolls to hit, it can re-roll all dice that score a natural, unmodified 1.</description>
       <modifiers/>
     </rule>
-    <rule id="3b62-ea44-71f8-1c42" name="Ensnare" hidden="false">
+    <rule id="3b62-ea44-71f8-1c42" name="Ensnare" hidden="false" book="KoW" page="73">
       <description>In melee, when attacking this unit&apos;s front, enemies suffer an additional -1 to hit modifier.</description>
       <modifiers/>
     </rule>
-    <rule id="a496-054d-a2d6-47b8" name="Fireball (n)" hidden="false">
+    <rule id="a496-054d-a2d6-47b8" name="Fireball (n)" hidden="false" book="KoW" page="83">
       <description>Spell with (n) attacks, 12&quot; range, and always hits on 4+ regardless of modifiers. Roll to damage as normal.</description>
       <modifiers/>
     </rule>
-    <rule id="dc50-fdaa-d751-9cdf" name="Fly" hidden="false">
-      <description>This unit can move over anything, but cannot land on top of things not normally allowed. Only suffers Hindered charges if landing on difficult terrain or touching an obstacle. Confers the Nimble special rule.</description>
+    <rule id="dc50-fdaa-d751-9cdf" name="Fly" hidden="false" book="KoW" page="73">
+      <description>This unit can move over anything, but cannot land on top of things not normally allowed. Only suffers Hindered charges if ending its move touching or within an obstacle/difficult terrain. Confers the Nimble special rule.</description>
       <modifiers/>
     </rule>
-    <rule id="aabd-ec96-e46d-8dcb" name="Fury" hidden="false">
+    <rule id="aabd-ec96-e46d-8dcb" name="Fury" hidden="false" book="KoW" page="73">
       <description>While Wavered, this unit may declare a Counter-Charge.</description>
       <modifiers/>
     </rule>
-    <rule id="6be6-adad-42c1-637f" name="Headstrong" hidden="false">
+    <rule id="37ed-00bb-c65c-8d58" name="Goblin Stabby Sneak" hidden="false" book="KoW" page="186">
+      <description>Goblin Stabby Sneaks are tiny treacherous assassins of uncommon bravado. This unit has +1 Attack (Already in profile).</description>
+      <modifiers/>
+    </rule>
+    <rule id="2bde-3139-1b6a-8f17" name="Goblin Zappy Sneak" hidden="false" book="KoW" page="186">
+      <description>Goblin Zappy Sneaks are clever little imps gifted with nasty and unpredictable magical powers. Confers the Lightning Bolt (2) spell.</description>
+      <modifiers/>
+    </rule>
+    <rule id="6be6-adad-42c1-637f" name="Headstrong" hidden="false" book="KoW" page="73">
       <description>If this unit is Wavering at the start of a turn, roll a D6. On a 4+ it is Disordered instead.</description>
       <modifiers/>
     </rule>
-    <rule id="a125-9eee-fc99-05f7" name="Heal (n)" hidden="false">
-      <description>Spell with (n) attacks, 12&quot; range, and always hits on 4+ regardless of modifiers. Only usable on friendly units, including units engaged in combat. Hits don&apos;t inflict damage. For every hit caused, the friendly unit removes a point of damage that it has previously suffered.</description>
+    <rule id="a125-9eee-fc99-05f7" name="Heal (n)" hidden="false" book="KoW" page="83">
+      <description>Spell with (n) attacks, 12&quot; range, and always hits on 4+ regardless of modifiers. Only usable on friendly units, including units engaged in combat. Hits don&apos;t inflict damage. For every hit caused, the target unit removes a point of damage that it has previously suffered.</description>
       <modifiers/>
     </rule>
-    <rule id="7783-41ff-e944-445c" name="Hunting Animals" hidden="false">
-      <description>Mark this unit with a suitable model/counter. One time use. Throwing weapon, 12&quot; range. Roll 5 dice, always hits on 4+ regardless of modifiers. For each point of damage caused, repeat to hit and to damage rolls on that enemy unit until you fail to score any damage. Against units with the Fly special rule, you can re-roll any dice that fail to damage (not to hit rolls).</description>
+    <rule id="7783-41ff-e944-445c" name="Hunting Animals" hidden="false" book="UE" page="22">
+      <description>Mark this unit with a suitable model/counter. One time use. Only usable on Heroes, Monsters, War Engines, and Troops. Ranged attack, 12&quot; range, Piercing (1). Roll 5 dice, always hits on 4+ regardless of modifiers. For each point of damage caused, repeat to hit and to damage rolls on that enemy unit until you fail to score any damage.</description>
       <modifiers/>
     </rule>
-    <rule id="140a-2d51-ef73-c9b1" name="Indirect Fire" hidden="false">
+    <rule id="140a-2d51-ef73-c9b1" name="Indirect Fire" hidden="false" book="KoW" page="73">
       <description>This unit does not suffer the -1 to hit modifier for shooting at units in cover. On the other hand, the unit cannot shoot targets that are within 12&quot;. Note that the firing unit does still need to have line of sight to its target to fire at it.</description>
       <modifiers/>
     </rule>
-    <rule id="9657-1079-91be-b2bd" name="Individual" hidden="false">
+    <rule id="9657-1079-91be-b2bd" name="Individual" hidden="false" book="KoW" page="71">
       <description>May pivot to face any direction for free before being given a move order or shooting. This unit never blocks line of sight or offers cover against ranged attacks. Confers the Nimble special rule. Enemies shooting at Individuals suffer an additional -1 to hit modifier. This unit aligns flush with enemy chargers. Enemies NEVER double/triple attacks against this unit. This unit does not double/triple attacks except against non-Individual War Engines. If an Individual is Routed and charger Regroups D6&quot; forward, it can contact an enemy unit, and may attack again immediately. Hindered applies to this Regroup if the original charge was as well.</description>
       <modifiers/>
     </rule>
-    <rule id="7c18-e2b7-bc3b-fe10" name="Inspiring" hidden="false">
+    <rule id="7c18-e2b7-bc3b-fe10" name="Inspiring" hidden="false" book="KoW" page="73">
       <description>If this unit, or any friendly but non-allied unit within 6&quot; is Routed, the opponent must re-roll that Nerve test, and the second result stands. For Inspiring (Specific Unit) the unit will only inspire itself and that unit.</description>
       <modifiers/>
     </rule>
-    <rule id="6182-5a87-de7a-4f56" name="Iron Resolve" hidden="false">
+    <rule id="6182-5a87-de7a-4f56" name="Iron Resolve" hidden="false" book="KoW" page="73">
       <description>If this unit is Steady as a result of a Nerve test, it regains 1 point of damage previously suffered.</description>
       <modifiers/>
     </rule>
-    <rule id="2fcc-d747-ea72-2828" name="Lifeleech (n)" hidden="false">
+    <rule id="2fcc-d747-ea72-2828" name="Lifeleech (n)" hidden="false" book="KoW" page="74">
       <description>In melee, this unit regains one point of damage it has previously suffered for every point of damage it deals, up to a maximum of (n).</description>
       <modifiers/>
     </rule>
-    <rule id="643b-d49d-8d14-c765" name="Lightning Bolt (n)" hidden="false">
+    <rule id="643b-d49d-8d14-c765" name="Lightning Bolt (n)" hidden="false" book="KoW" page="83">
       <description>Spell with (n) attacks, 24&quot; range, Piercing (1), and always hits on 4+ regardless of modifiers. Roll to damage as normal.</description>
       <modifiers/>
     </rule>
-    <rule id="b79a-f274-5123-df1d" name="Nimble" hidden="false">
-      <description>This unit is allowed one extra pivot of up to 90 degrees for every type of order except a Halt (important for the Reload! special rule). This unit does not suffer the -1 to hit modifier for moving and shooting.</description>
+    <rule id="8e46-1839-2527-43ed" name="Mutated Throwing Mastiff" hidden="false" book="KoW" page="166">
+      <description>Mark this unit with a suitable model/counter. One time use. Ranged attack, 12&quot; range. Roll 5 dice, always hits on 4+ regardless of modifiers. For each point of damage caused, repeat to hit and to damage rolls on that enemy unit until you fail to score any damage. You can re-roll any dice that fail to damage (not to hit rolls).</description>
+      <modifiers/>
+    </rule>
+    <rule id="b79a-f274-5123-df1d" name="Nimble" hidden="false" book="KoW" page="74">
+      <description>This unit is allowed one extra pivot of up to 90 degrees for every type of move order except a Halt (important for the Reload! special rule). This unit does not suffer the -1 to hit modifier for moving and shooting.</description>
       <modifiers/>
     </rule>
     <rule id="de5d-b48a-02cc-6f8f" name="Omniscient" hidden="false">
       <description>This unit may shoot a spell from any arc (not just from the front).</description>
       <modifiers/>
     </rule>
-    <rule id="0bf5-2b12-5cc7-a963" name="Pathfinder" hidden="false">
-      <description>This unit treats difficult terrain as open terrain, and thusly is not Hindered for charging through difficult terrain.</description>
+    <rule id="0bf5-2b12-5cc7-a963" name="Pathfinder" hidden="false" book="KoW" page="74">
+      <description>This unit suffers no movement penalties for difficult terrain, and is not Hindered for charging through difficult terrain.</description>
       <modifiers/>
     </rule>
-    <rule id="fbfb-4339-b268-fbae" name="Phalanx" hidden="false">
+    <rule id="fbfb-4339-b268-fbae" name="Phalanx" hidden="false" book="KoW" page="74">
       <description>Units that charge this unit&apos;s front cannot use the Thunderous Charge special rule.</description>
       <modifiers/>
     </rule>
-    <rule id="cc29-8e7d-2a0e-c995" name="Piercing (n)" hidden="false">
+    <rule id="cc29-8e7d-2a0e-c995" name="Piercing (n)" hidden="false" book="KoW" page="74">
       <description>All ranged hits inflicted by this unit have a +(n) modifier when rolling to damage.</description>
       <modifiers/>
     </rule>
-    <rule id="a621-0f14-db61-f580" name="Rallying! (n)" hidden="false">
-      <description>Friendly non-allied units within 6&quot; have +(n) to their Waver and Rout Nerve values. This is non-cumulative - use the highest (n) value if multiple units with Rallying! are in range.</description>
+    <rule id="a621-0f14-db61-f580" name="Rallying! (n)" hidden="false" book="UE" page="5">
+      <description>Friendly, non-allied units within 6&quot; of this unit have +(n) to their Waver and Rout Nerve values. This is cumulative, with a maximum of +2. Only the Rout Nerve value of Fearless units (cannot Waver) is affected by Rallying!</description>
       <modifiers/>
     </rule>
-    <rule id="5815-9306-b2e7-0436" name="Regeneration (n+)" hidden="false">
+    <rule id="5815-9306-b2e7-0436" name="Regeneration (n+)" hidden="false" book="KoW" page="74">
       <description>At the start of this unit&apos;s turn, roll dice equal to this unit&apos;s current damage. For every result of (n) or higher, this unit recovers 1 damage.</description>
       <modifiers/>
     </rule>
-    <rule id="c0b3-3b50-e88f-5461" name="Reload!" hidden="false">
-      <description>This unit can only shoot if it received a Halt order that turn.</description>
+    <rule id="c0b3-3b50-e88f-5461" name="Reload!" hidden="false" book="KoW" page="74">
+      <description>This unit can only shoot if it received a Halt order on the same turn.</description>
       <modifiers/>
     </rule>
-    <rule id="36fd-c324-ddc8-ef9a" name="Shambling" hidden="false">
+    <rule id="0ea6-5cab-abc5-16a0" name="Sabre-Toothed Pussycat" hidden="false" book="KoW" page="118">
+      <description>Mark this unit with a suitable model/counter. One time use. Only usable on Heroes, Monsters, War Engines, and Troops. Ranged attack, 12&quot; range, Piercing (1). Roll 5 dice, always hits on 4+ regardless of modifiers. For each point of damage caused, repeat to hit and to damage rolls on that enemy unit until you fail to score any damage.</description>
+      <modifiers/>
+    </rule>
+    <rule id="36fd-c324-ddc8-ef9a" name="Shambling" hidden="false" book="KoW" page="74">
       <description>This unit cannot move At the Double, except when carrying out a Vanguard move.</description>
       <modifiers/>
     </rule>
-    <rule id="bdd0-eb1b-bf45-750e" name="Stealthy" hidden="false">
+    <rule id="bdd0-eb1b-bf45-750e" name="Stealthy" hidden="false" book="KoW" page="74">
       <description>Enemies shooting at this unit suffer an additional -1 to hit modifier.</description>
       <modifiers/>
     </rule>
-    <rule id="e70c-1148-97d1-9348" name="Strider" hidden="false">
+    <rule id="e70c-1148-97d1-9348" name="Strider" hidden="false" book="KoW" page="75">
       <description>This unit never suffers the penalty for Hindered charges.</description>
       <modifiers/>
     </rule>
-    <rule id="8447-b7bc-2737-f07c" name="Surge (n)" hidden="false">
+    <rule id="8447-b7bc-2737-f07c" name="Surge (n)" hidden="false" book="KoW" page="83">
       <description>Spell with (n) attacks, 12&quot; range, and always hits on 4+ regardless of modifiers. Only usable on friendly units with the Shamble special rule. Hits don&apos;t inflict damage. For every hit caused, the target unit moves straight forward 1&quot;, stopping just out of contact of friendly units and blocking terrain. Treat as a charge against appropriate facing if target unit contacts an enemy unit. Enemy unit won&apos;t take Nerve tests for damage suffered previously in that Shooting phase. Target unit might still be Hindered in the ensuing combat. No effect on units with Speed 0.</description>
       <modifiers/>
     </rule>
-    <rule id="a8ce-2f96-b0be-47d6" name="Thunderous Charge (n)" hidden="false">
+    <rule id="a8ce-2f96-b0be-47d6" name="Thunderous Charge (n)" hidden="false" book="KoW" page="75">
       <description>All melee hits inflicted by this unit have a +(n) modifier when rolling to damage. This is in addition to the unit&apos;s Crushing Strength (if any), but is lost if Disordered or during Hindered charges.</description>
       <modifiers/>
     </rule>
@@ -3589,24 +3692,28 @@
       <description>This unit cannot be Disordered.</description>
       <modifiers/>
     </rule>
-    <rule id="4172-a0d9-878e-5057" name="Vanguard" hidden="false">
-      <description>After deployment, this unit can make an At the Double or Advance move order. If both players have Vanguard units, each rolls a dice. The winner chooses who goes first and then both players alternate moving any Vanguard units.</description>
+    <rule id="4172-a0d9-878e-5057" name="Vanguard" hidden="false" book="KoW" page="75">
+      <description>After deployment, this unit can make an At the Double or Advance move order. If both players have Vanguard units, each rolls a dice. The highest scorer chooses who moves Vanguard units first and then both players alternate moving their Vanguard units.</description>
       <modifiers/>
     </rule>
-    <rule id="10ed-04da-d879-ce2e" name="Very Inspiring" hidden="false">
+    <rule id="10ed-04da-d879-ce2e" name="Very Inspiring" hidden="false" book="KoW" page="75">
       <description>If this unit, or any friendly but non-allied unit within 9&quot; is Routed, the opponent must re-roll that Nerve test, and the second result stands. For Inspiring (Specific Unit) the unit will only inspire itself and that unit. Any rule which affects Inspiring also affects this rule.</description>
       <modifiers/>
     </rule>
-    <rule id="47c7-1334-d1bf-24d9" name="Vicious" hidden="false">
+    <rule id="47c7-1334-d1bf-24d9" name="Vicious" hidden="false" book="KoW" page="75">
       <description>Whenever this unit rolls to damage, it can re-roll all dice that score a natural, unmodified 1.</description>
       <modifiers/>
     </rule>
-    <rule id="2700-2be9-00b3-3e03" name="Wild Companion" hidden="false">
-      <description>Mark this unit with a suitable model/counter. One time use. Throwing weapon, 12&quot; range. Only usable on Heroes, Monsters, War Engines, and units of Infantry and Cavalry of Unit Size 10 or smaller. Roll 5 dice, always hits on 4+ regardless of modifiers, Piercing (1). For each point of damage caused, repeat to hit and to damage rolls on that enemy unit until you fail to score any damage.</description>
+    <rule id="2700-2be9-00b3-3e03" name="Wild Companion" hidden="false" book="KoW" page="138">
+      <description>Mark this unit with a suitable model/counter. One time use. Ranged attack, 12&quot; range. Roll 5 dice, always hits on 4+ regardless of modifiers, Piercing (1).</description>
       <modifiers/>
     </rule>
-    <rule id="da65-6a10-c6a3-9022" name="Wind Blast (n)" hidden="false">
-      <description>Spell with (n) attacks, 18&quot; range, and always hits on 4+ regardless of modifiers. Hits don&apos;t inflict damage. For every hit caused, the target enemy unit moves straight backward 1&quot; if the caster is in target unit&apos;s front arc, 1&quot; directly sideways and away from the caster if the caster is in target&apos;s flank arcs, or directly forwards if the caster is in target unit&apos;s rear arc, stopping 1&quot; away from friendly-to-caster units and just out of contact of friendly-to-target units and blocking terrain. No effect on units with Speed 0.</description>
+    <rule id="da65-6a10-c6a3-9022" name="Wind Blast (n)" hidden="false" book="KoW" page="83">
+      <description>Spell with (n) attacks, 18&quot; range, and always hits on 4+ regardless of modifiers. Hits don&apos;t inflict damage. For every hit caused, the target enemy unit moves straight backward 1&quot; if the caster is in target&apos;s front arc, 1&quot; directly sideways and away from the caster if the caster is in target&apos;s flank arcs, or directly forwards if the caster is in target&apos;s rear arc, stopping 1&quot; away from enemy units and just out of contact of friendly units and blocking terrain, as normal. No effect on units with Speed 0.</description>
+      <modifiers/>
+    </rule>
+    <rule id="5f9b-2fdf-ddf6-b612" name="Yellow Bellied" hidden="false" book="KoW" page="75">
+      <description>When this unit wishes to charge an enemy unit&apos;s front facing, roll a die. If the result is a 1 then this unit &quot;misunderstands&quot; the order and carries out a Halt order instead. This does not apply if the unit wishes to charge the flank or rear of an enemy unit, an Individual or War Engine, or if it is carrying out a Counter-Charge.</description>
       <modifiers/>
     </rule>
   </sharedRules>
