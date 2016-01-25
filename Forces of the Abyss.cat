@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b832-350b-d8dd-055e" revision="1" gameSystemId="697b-dd1f-a597-82e2" gameSystemRevision="1" battleScribeVersion="1.15" name="Forces of the Abyss 2E" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b832-350b-d8dd-055e" revision="2" gameSystemId="697b-dd1f-a597-82e2" gameSystemRevision="1" battleScribeVersion="1.15" name="Forces of the Abyss 2E" books="" authorName="Johnathan Conz" authorContact="YouTube, reddit: Ekaznae" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="6b5a-9cce-6355-d1de" name="Abyssal Champion" points="135.0" categoryId="4e85-806b-4c44-2cb8" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
@@ -63,13 +63,13 @@
               <profiles/>
               <links/>
             </entry>
-            <entry id="5a7b-7196-c920-be31" name="On Horse" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entry id="5a7b-7196-c920-be31" name="On Abyssal Mount" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
               <rules/>
               <profiles>
-                <profile id="0592-f780-73ed-a819" profileTypeId="ee75-6c23-6aad-aa05" name="Horse" hidden="false">
+                <profile id="0592-f780-73ed-a819" profileTypeId="ee75-6c23-6aad-aa05" name="Abyssal Mount" hidden="false">
                   <characteristics>
                     <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="This unit has Speed 8, and becomes Hero (Cav) (All changes already in profile)."/>
                   </characteristics>
@@ -106,7 +106,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="b1fe-881e-0e68-3dc3" profileTypeId="97cc-56ab-eb5b-85a6" name="Abyssal Champion" hidden="false">
+        <profile id="b1fe-881e-0e68-3dc3" profileTypeId="97cc-56ab-eb5b-85a6" name="Abyssal Champion" hidden="false" book="KoW" page="164">
           <characteristics>
             <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="1"/>
             <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="1"/>
@@ -153,90 +153,79 @@
         </link>
       </links>
     </entry>
-    <entry id="29b2-d4f2-3868-c214" name="Abyssal Fiend" points="250.0" categoryId="4e85-806b-4c44-2cb8" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="ba56-927b-ac58-1737" name="Abyssal Guard (10)" points="110.0" categoryId="d5a9-edbf-71e8-399f" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="5303-9fcb-9bf2-56f6" name="Magic Artefact" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="751d-1592-8b90-eed7" name="Magic Artefact" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules/>
           <profiles/>
           <links>
-            <link id="ad26-2c82-c7f5-2f52" targetId="886a-898c-6ebe-904a" linkType="entry group">
+            <link id="7b79-e0e0-12f2-9f39" targetId="886a-898c-6ebe-904a" linkType="entry group">
               <modifiers/>
             </link>
           </links>
         </entry>
-        <entry id="6a69-5bad-40e6-7851" name="Crushing Strength (2)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="6914-afd6-f672-a642" name="Regeneration (5+)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules/>
           <profiles/>
           <links>
-            <link id="7987-4443-8cec-d987" targetId="3131-8f0a-0927-8489" linkType="rule">
+            <link id="63c3-6371-791e-c174" targetId="5815-9306-b2e7-0436" linkType="rule">
               <modifiers/>
             </link>
           </links>
         </entry>
-        <entry id="63c9-ba12-a53d-19e5" name="Thunderous Charge (2)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
+        <entry id="c059-0468-ce01-5487" name="Two-Handed Weapons" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="e582-3ff6-878e-bdc0" name="Crushing Strength (1)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="7a0e-f734-0706-095d" targetId="3131-8f0a-0927-8489" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
           <entryGroups/>
           <modifiers/>
           <rules/>
-          <profiles/>
-          <links>
-            <link id="0c6f-2af6-b8c5-f618" targetId="a8ce-2f96-b0be-47d6" linkType="rule">
+          <profiles>
+            <profile id="3e7d-4848-2f93-9f4b" profileTypeId="ee75-6c23-6aad-aa05" name="Two-Handed Weapons" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="This unit has Crushing Strength (1), but at the cost of -1 Defense (All changes already in profile)."/>
+              </characteristics>
               <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="4f4d-9659-55e4-1349" name="Lightning Bolt (5)" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="5bf1-7bde-7000-92a6" targetId="643b-d49d-8d14-c765" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="daa3-a5b6-4336-dc06" name="Winged" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="e161-50dd-a16f-bb84" targetId="dc50-fdaa-d751-9cdf" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="a537-d7cc-17a7-e761" targetId="b79a-f274-5123-df1d" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
+            </profile>
+          </profiles>
+          <links/>
         </entry>
       </entries>
       <entryGroups/>
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="3137-61ca-82d4-de35" profileTypeId="9988-daf2-67fa-f17e" name="Abyssal Fiend" hidden="false">
+        <profile id="df2b-2093-fd1c-68ad" profileTypeId="1766-7f43-a8c0-711d" name="Abyssal Guard" hidden="false" book="KoW" page="160">
           <characteristics>
-            <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="1"/>
-            <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="4"/>
-            <characteristic characteristicId="7b4d-35b9-dd84-e672" name="Unit Type" value="Hero (Mon)"/>
-            <characteristic characteristicId="6a0b-5ca3-681f-6b2e" name="Speed" value="7"/>
+            <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="Troop (10)"/>
+            <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="1"/>
+            <characteristic characteristicId="7b4d-35b9-dd84-e672" name="Unit Type" value="Infantry"/>
+            <characteristic characteristicId="6a0b-5ca3-681f-6b2e" name="Speed" value="5"/>
             <characteristic characteristicId="ae92-a124-75e4-e22d" name="Melee" value="3"/>
             <characteristic characteristicId="fa16-f2da-63d9-71c2" name="Ranged" value="-"/>
             <characteristic characteristicId="a65b-2083-ea38-304f" name="Defense" value="5"/>
-            <characteristic characteristicId="058e-7a4a-4a9c-1be0" name="Attacks" value="9"/>
-            <characteristic characteristicId="03d5-4167-faba-63a6" name="Nerve" value="16/18"/>
+            <characteristic characteristicId="058e-7a4a-4a9c-1be0" name="Attacks" value="10"/>
+            <characteristic characteristicId="03d5-4167-faba-63a6" name="Nerve" value="11/13"/>
           </characteristics>
           <modifiers>
-            <modifier type="set" field="6a0b-5ca3-681f-6b2e" value="10" repeat="true" numRepeats="1" incrementParentId="29b2-d4f2-3868-c214" incrementChildId="daa3-a5b6-4336-dc06" incrementField="selections" incrementValue="1.0">
+            <modifier type="decrement" field="a65b-2083-ea38-304f" value="1" repeat="true" numRepeats="1" incrementParentId="ba56-927b-ac58-1737" incrementChildId="c059-0468-ce01-5487" incrementField="selections" incrementValue="1.0">
               <conditions/>
               <conditionGroups/>
             </modifier>
@@ -244,13 +233,92 @@
         </profile>
       </profiles>
       <links>
-        <link id="f717-1957-493d-33ca" targetId="51fa-428e-ca3d-8a63" linkType="rule">
+        <link id="86e3-832d-3d6c-8420" targetId="aabd-ec96-e46d-8dcb" linkType="rule">
           <modifiers/>
         </link>
-        <link id="412f-e261-3570-c6d9" targetId="7c18-e2b7-bc3b-fe10" linkType="rule">
+      </links>
+    </entry>
+    <entry id="7bb5-cc2a-3936-a345" name="Abyssal Guard (20)" points="160.0" categoryId="e254-2b91-de9e-2381" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="1811-4958-9bf4-9c14" name="Magic Artefact" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
           <modifiers/>
-        </link>
-        <link id="dfae-a470-8201-8d58" targetId="aabd-ec96-e46d-8dcb" linkType="rule">
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="e807-756e-15df-8aaf" targetId="886a-898c-6ebe-904a" linkType="entry group">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="9104-624f-15ec-647f" name="Regeneration (5+)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="dcbd-119b-17bb-88a8" targetId="5815-9306-b2e7-0436" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="1e2e-529c-2401-0bd0" name="Two-Handed Weapons" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="bf99-d14f-a807-cb96" name="Crushing Strength (1)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="1ca3-9bca-13e6-19ae" targetId="3131-8f0a-0927-8489" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="45e0-c95a-2b71-7668" profileTypeId="ee75-6c23-6aad-aa05" name="Two-Handed Weapons" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="This unit has Crushing Strength (1), but at the cost of -1 Defense (All changes already in profile)."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="7e27-1b48-c466-b180" profileTypeId="1766-7f43-a8c0-711d" name="Abyssal Guard" hidden="false" book="KoW" page="160">
+          <characteristics>
+            <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="Regiment (20)"/>
+            <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="1"/>
+            <characteristic characteristicId="7b4d-35b9-dd84-e672" name="Unit Type" value="Infantry"/>
+            <characteristic characteristicId="6a0b-5ca3-681f-6b2e" name="Speed" value="5"/>
+            <characteristic characteristicId="ae92-a124-75e4-e22d" name="Melee" value="3"/>
+            <characteristic characteristicId="fa16-f2da-63d9-71c2" name="Ranged" value="-"/>
+            <characteristic characteristicId="a65b-2083-ea38-304f" name="Defense" value="5"/>
+            <characteristic characteristicId="058e-7a4a-4a9c-1be0" name="Attacks" value="12"/>
+            <characteristic characteristicId="03d5-4167-faba-63a6" name="Nerve" value="15/17"/>
+          </characteristics>
+          <modifiers>
+            <modifier type="decrement" field="a65b-2083-ea38-304f" value="1" repeat="true" numRepeats="1" incrementParentId="7bb5-cc2a-3936-a345" incrementChildId="1e2e-529c-2401-0bd0" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </profile>
+      </profiles>
+      <links>
+        <link id="21b6-8dfa-f419-35f7" targetId="aabd-ec96-e46d-8dcb" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -263,7 +331,7 @@
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="40a2-aca6-40d4-bd65" profileTypeId="ee75-6c23-6aad-aa05" name="Horse" hidden="false">
+            <profile id="40a2-aca6-40d4-bd65" profileTypeId="ee75-6c23-6aad-aa05" name="Abyssal Mount" hidden="false">
               <characteristics>
                 <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="This unit has Speed 8, and becomes Hero (Cav) (All changes already in profile)."/>
               </characteristics>
@@ -328,7 +396,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="687c-ddc2-9f3c-2f72" profileTypeId="97cc-56ab-eb5b-85a6" name="Abyssal Harbinger" hidden="false">
+        <profile id="687c-ddc2-9f3c-2f72" profileTypeId="97cc-56ab-eb5b-85a6" name="Abyssal Harbinger" hidden="false" book="KoW" page="164">
           <characteristics>
             <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="1"/>
             <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="1"/>
@@ -414,7 +482,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="441e-95e2-1738-3fb1" profileTypeId="2d97-40c5-cd44-108f" name="Abyssal Horsemen" hidden="false">
+        <profile id="441e-95e2-1738-3fb1" profileTypeId="2d97-40c5-cd44-108f" name="Abyssal Horsemen" hidden="false" book="KoW" page="162">
           <characteristics>
             <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="Regiment (10)"/>
             <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="2"/>
@@ -478,7 +546,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="7a67-86f1-cd35-8eea" profileTypeId="2d97-40c5-cd44-108f" name="Abyssal Horsemen" hidden="false">
+        <profile id="7a67-86f1-cd35-8eea" profileTypeId="2d97-40c5-cd44-108f" name="Abyssal Horsemen" hidden="false" book="KoW" page="162">
           <characteristics>
             <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="Troop (5)"/>
             <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="2"/>
@@ -499,42 +567,68 @@
         </link>
       </links>
     </entry>
-    <entry id="ba56-927b-ac58-1737" name="Armoured Lower Abyssals (10)" points="110.0" categoryId="d5a9-edbf-71e8-399f" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="1930-1de3-c7fb-a5c6" name="Abyssal Temptress" points="90.0" categoryId="4e85-806b-4c44-2cb8" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="751d-1592-8b90-eed7" name="Magic Artefact" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="c65c-b2c7-6c16-c5cc" name="Magic Artefact" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules/>
           <profiles/>
           <links>
-            <link id="7b79-e0e0-12f2-9f39" targetId="886a-898c-6ebe-904a" linkType="entry group">
+            <link id="74e5-b032-9e1b-a901" targetId="886a-898c-6ebe-904a" linkType="entry group">
               <modifiers/>
             </link>
           </links>
         </entry>
-        <entry id="6914-afd6-f672-a642" name="Regeneration (5+)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="ca49-fdd7-2d8e-ef91" name="Inspiring (Succubi only)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules/>
           <profiles/>
           <links>
-            <link id="63c3-6371-791e-c174" targetId="5815-9306-b2e7-0436" linkType="rule">
+            <link id="8001-ce0a-de15-f0c2" targetId="7c18-e2b7-bc3b-fe10" linkType="rule">
               <modifiers/>
             </link>
           </links>
         </entry>
-        <entry id="c059-0468-ce01-5487" name="Two-Handed Weapons" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="e43f-6fc1-b6f2-f242" name="Winged" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="557f-aa7e-4e0e-63e2" targetId="dc50-fdaa-d751-9cdf" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups>
+        <entryGroup id="90c5-077d-f870-97e0" name="Spells" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
-            <entry id="e582-3ff6-878e-bdc0" name="Crushing Strength (1)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entry id="7366-2a59-9b18-7987" name="Wind Blast (6)" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
               <rules/>
               <profiles/>
               <links>
-                <link id="7a0e-f734-0706-095d" targetId="3131-8f0a-0927-8489" linkType="rule">
+                <link id="d3d1-e947-ffad-590c" targetId="da65-6a10-c6a3-9022" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="ea6d-87c2-48a3-4526" name="Bane Chant (2)" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="ee1e-9d40-9070-bac4" targetId="0faf-9276-c8a0-9bcd" linkType="rule">
                   <modifiers/>
                 </link>
               </links>
@@ -542,36 +636,26 @@
           </entries>
           <entryGroups/>
           <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="3e7d-4848-2f93-9f4b" profileTypeId="ee75-6c23-6aad-aa05" name="Two-Handed Weapons" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="This unit has Crushing Strength (1), but at the cost of -1 Defense (All changes already in profile)."/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
           <links/>
-        </entry>
-      </entries>
-      <entryGroups/>
+        </entryGroup>
+      </entryGroups>
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="df2b-2093-fd1c-68ad" profileTypeId="1766-7f43-a8c0-711d" name="Armoured Lower Abyssals" hidden="false">
+        <profile id="25ee-067d-76b6-45cf" profileTypeId="97cc-56ab-eb5b-85a6" name="Abyssal Temptress" hidden="false" book="KoW" page="164">
           <characteristics>
-            <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="Troop (10)"/>
+            <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="1"/>
             <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="1"/>
-            <characteristic characteristicId="7b4d-35b9-dd84-e672" name="Unit Type" value="Infantry"/>
-            <characteristic characteristicId="6a0b-5ca3-681f-6b2e" name="Speed" value="5"/>
+            <characteristic characteristicId="7b4d-35b9-dd84-e672" name="Unit Type" value="Hero (Inf)"/>
+            <characteristic characteristicId="6a0b-5ca3-681f-6b2e" name="Speed" value="6"/>
             <characteristic characteristicId="ae92-a124-75e4-e22d" name="Melee" value="3"/>
             <characteristic characteristicId="fa16-f2da-63d9-71c2" name="Ranged" value="-"/>
-            <characteristic characteristicId="a65b-2083-ea38-304f" name="Defense" value="5"/>
-            <characteristic characteristicId="058e-7a4a-4a9c-1be0" name="Attacks" value="10"/>
+            <characteristic characteristicId="a65b-2083-ea38-304f" name="Defense" value="4"/>
+            <characteristic characteristicId="058e-7a4a-4a9c-1be0" name="Attacks" value="5"/>
             <characteristic characteristicId="03d5-4167-faba-63a6" name="Nerve" value="11/13"/>
           </characteristics>
           <modifiers>
-            <modifier type="decrement" field="a65b-2083-ea38-304f" value="1" repeat="true" numRepeats="1" incrementParentId="ba56-927b-ac58-1737" incrementChildId="c059-0468-ce01-5487" incrementField="selections" incrementValue="1.0">
+            <modifier type="set" field="6a0b-5ca3-681f-6b2e" value="10" repeat="true" numRepeats="1" incrementParentId="1930-1de3-c7fb-a5c6" incrementChildId="e43f-6fc1-b6f2-f242" incrementField="selections" incrementValue="1.0">
               <conditions/>
               <conditionGroups/>
             </modifier>
@@ -579,84 +663,107 @@
         </profile>
       </profiles>
       <links>
-        <link id="86e3-832d-3d6c-8420" targetId="aabd-ec96-e46d-8dcb" linkType="rule">
+        <link id="98c3-555e-ae8f-fb92" targetId="9657-1079-91be-b2bd" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="a523-885e-36ff-b704" targetId="aabd-ec96-e46d-8dcb" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="a9c8-1bf3-f231-2a55" targetId="b79a-f274-5123-df1d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="7e11-1950-56b4-5f30" targetId="3b62-ea44-71f8-1c42" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="dedf-cc1f-1781-f171" targetId="bdd0-eb1b-bf45-750e" linkType="rule">
           <modifiers/>
         </link>
       </links>
     </entry>
-    <entry id="7bb5-cc2a-3936-a345" name="Armoured Lower Abyssals (20)" points="160.0" categoryId="e254-2b91-de9e-2381" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="29b2-d4f2-3868-c214" name="Archfiend of the Abyss" points="250.0" categoryId="4e85-806b-4c44-2cb8" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="1811-4958-9bf4-9c14" name="Magic Artefact" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="5303-9fcb-9bf2-56f6" name="Magic Artefact" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules/>
           <profiles/>
           <links>
-            <link id="e807-756e-15df-8aaf" targetId="886a-898c-6ebe-904a" linkType="entry group">
+            <link id="ad26-2c82-c7f5-2f52" targetId="886a-898c-6ebe-904a" linkType="entry group">
               <modifiers/>
             </link>
           </links>
         </entry>
-        <entry id="9104-624f-15ec-647f" name="Regeneration (5+)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="6a69-5bad-40e6-7851" name="Crushing Strength (2)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules/>
           <profiles/>
           <links>
-            <link id="dcbd-119b-17bb-88a8" targetId="5815-9306-b2e7-0436" linkType="rule">
+            <link id="7987-4443-8cec-d987" targetId="3131-8f0a-0927-8489" linkType="rule">
               <modifiers/>
             </link>
           </links>
         </entry>
-        <entry id="1e2e-529c-2401-0bd0" name="Two-Handed Weapons" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="bf99-d14f-a807-cb96" name="Crushing Strength (1)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="1ca3-9bca-13e6-19ae" targetId="3131-8f0a-0927-8489" linkType="rule">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-          </entries>
+        <entry id="63c9-ba12-a53d-19e5" name="Thunderous Charge (2)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
           <entryGroups/>
           <modifiers/>
           <rules/>
-          <profiles>
-            <profile id="45e0-c95a-2b71-7668" profileTypeId="ee75-6c23-6aad-aa05" name="Two-Handed Weapons" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="This unit has Crushing Strength (1), but at the cost of -1 Defense (All changes already in profile)."/>
-              </characteristics>
+          <profiles/>
+          <links>
+            <link id="0c6f-2af6-b8c5-f618" targetId="a8ce-2f96-b0be-47d6" linkType="rule">
               <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
+            </link>
+          </links>
+        </entry>
+        <entry id="4f4d-9659-55e4-1349" name="Lightning Bolt (5)" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="5bf1-7bde-7000-92a6" targetId="643b-d49d-8d14-c765" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="daa3-a5b6-4336-dc06" name="Winged" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="e161-50dd-a16f-bb84" targetId="dc50-fdaa-d751-9cdf" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="a537-d7cc-17a7-e761" targetId="b79a-f274-5123-df1d" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
         </entry>
       </entries>
       <entryGroups/>
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="7e27-1b48-c466-b180" profileTypeId="1766-7f43-a8c0-711d" name="Armoured Lower Abyssals" hidden="false">
+        <profile id="3137-61ca-82d4-de35" profileTypeId="9988-daf2-67fa-f17e" name="Archfiend of the Abyss" hidden="false" book="KoW" page="164">
           <characteristics>
-            <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="Regiment (20)"/>
-            <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="1"/>
-            <characteristic characteristicId="7b4d-35b9-dd84-e672" name="Unit Type" value="Infantry"/>
-            <characteristic characteristicId="6a0b-5ca3-681f-6b2e" name="Speed" value="5"/>
+            <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="1"/>
+            <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="4"/>
+            <characteristic characteristicId="7b4d-35b9-dd84-e672" name="Unit Type" value="Hero (Mon)"/>
+            <characteristic characteristicId="6a0b-5ca3-681f-6b2e" name="Speed" value="7"/>
             <characteristic characteristicId="ae92-a124-75e4-e22d" name="Melee" value="3"/>
             <characteristic characteristicId="fa16-f2da-63d9-71c2" name="Ranged" value="-"/>
             <characteristic characteristicId="a65b-2083-ea38-304f" name="Defense" value="5"/>
-            <characteristic characteristicId="058e-7a4a-4a9c-1be0" name="Attacks" value="12"/>
-            <characteristic characteristicId="03d5-4167-faba-63a6" name="Nerve" value="15/17"/>
+            <characteristic characteristicId="058e-7a4a-4a9c-1be0" name="Attacks" value="9"/>
+            <characteristic characteristicId="03d5-4167-faba-63a6" name="Nerve" value="16/18"/>
           </characteristics>
           <modifiers>
-            <modifier type="decrement" field="a65b-2083-ea38-304f" value="1" repeat="true" numRepeats="1" incrementParentId="7bb5-cc2a-3936-a345" incrementChildId="1e2e-529c-2401-0bd0" incrementField="selections" incrementValue="1.0">
+            <modifier type="set" field="6a0b-5ca3-681f-6b2e" value="10" repeat="true" numRepeats="1" incrementParentId="29b2-d4f2-3868-c214" incrementChildId="daa3-a5b6-4336-dc06" incrementField="selections" incrementValue="1.0">
               <conditions/>
               <conditionGroups/>
             </modifier>
@@ -664,7 +771,16 @@
         </profile>
       </profiles>
       <links>
-        <link id="21b6-8dfa-f419-35f7" targetId="aabd-ec96-e46d-8dcb" linkType="rule">
+        <link id="f717-1957-493d-33ca" targetId="51fa-428e-ca3d-8a63" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="412f-e261-3570-c6d9" targetId="7c18-e2b7-bc3b-fe10" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="dfae-a470-8201-8d58" targetId="aabd-ec96-e46d-8dcb" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="94bd-1901-764b-0b91" targetId="47c7-1334-d1bf-24d9" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -720,20 +836,12 @@
             </link>
           </links>
         </entry>
-        <entry id="deab-4f2c-5aea-9f6c" name="Does not have Fury" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links/>
-        </entry>
       </entries>
       <entryGroups/>
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="c0ca-be84-ac3f-0a4c" profileTypeId="97cc-56ab-eb5b-85a6" name="Ba&apos;su&apos;su the Vile [1]" hidden="false">
+        <profile id="c0ca-be84-ac3f-0a4c" profileTypeId="97cc-56ab-eb5b-85a6" name="Ba&apos;su&apos;su the Vile [1]" hidden="false" book="KoW" page="165">
           <characteristics>
             <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="1 (25x25mm)"/>
             <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="1"/>
@@ -761,17 +869,20 @@
         <link id="b897-5d9f-ef9a-3b04" targetId="dc50-fdaa-d751-9cdf" linkType="rule">
           <modifiers/>
         </link>
+        <link id="d8de-c386-e5e6-97f0" targetId="aabd-ec96-e46d-8dcb" linkType="rule">
+          <modifiers/>
+        </link>
       </links>
     </entry>
-    <entry id="5ca5-ea02-80a8-476e" name="Chroneas" points="210.0" categoryId="9565-04ac-b74f-a11c" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="5ca5-ea02-80a8-476e" name="Chroneas [1]" points="210.0" categoryId="9565-04ac-b74f-a11c" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="0c73-0fe3-c763-a464" name="*Breath Attack (20)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="0c73-0fe3-c763-a464" name="Breath Attack (20)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="a229-729d-5c32-be19" profileTypeId="ee75-6c23-6aad-aa05" name="*Breath Attack (20)" hidden="false">
+            <profile id="a229-729d-5c32-be19" profileTypeId="ee75-6c23-6aad-aa05" name="Breath Attack (20)" hidden="false" book="KoW" page="72">
               <characteristics>
                 <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="Ranged attack with (n) dice rather than Attacks value, unless listed as (Att). 12&quot; range, Piercing (1), and always hits on 4+ regardless of modifiers."/>
               </characteristics>
@@ -792,12 +903,27 @@
             </link>
           </links>
         </entry>
+        <entry id="1bad-83de-20d5-c737" name="Tempus" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="2325-5ab1-f829-a7b8" profileTypeId="ee75-6c23-6aad-aa05" name="Tempus" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="This unit cannot be Disordered."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
       </entries>
       <entryGroups/>
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="72f8-dd20-851c-be71" profileTypeId="9988-daf2-67fa-f17e" name="Chroneas" hidden="false">
+        <profile id="72f8-dd20-851c-be71" profileTypeId="9988-daf2-67fa-f17e" name="Chroneas [1]" hidden="false" book="KoW" page="163">
           <characteristics>
             <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="1"/>
             <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="4"/>
@@ -806,7 +932,7 @@
             <characteristic characteristicId="ae92-a124-75e4-e22d" name="Melee" value="-"/>
             <characteristic characteristicId="fa16-f2da-63d9-71c2" name="Ranged" value="-"/>
             <characteristic characteristicId="a65b-2083-ea38-304f" name="Defense" value="5"/>
-            <characteristic characteristicId="058e-7a4a-4a9c-1be0" name="Attacks" value="*"/>
+            <characteristic characteristicId="058e-7a4a-4a9c-1be0" name="Attacks" value="-"/>
             <characteristic characteristicId="03d5-4167-faba-63a6" name="Nerve" value="16/18"/>
           </characteristics>
           <modifiers/>
@@ -816,10 +942,68 @@
         <link id="952f-7f0e-9ab0-ba29" targetId="aabd-ec96-e46d-8dcb" linkType="rule">
           <modifiers/>
         </link>
-        <link id="afcc-c3cd-2579-5ad1" targetId="b5c4-5e2a-be89-18eb" linkType="rule">
+        <link id="1ce7-a77a-c4d8-47bf" targetId="0bf5-2b12-5cc7-a963" linkType="rule">
           <modifiers/>
         </link>
-        <link id="1ce7-a77a-c4d8-47bf" targetId="0bf5-2b12-5cc7-a963" linkType="rule">
+      </links>
+    </entry>
+    <entry id="8f6e-47c1-065d-63f7" name="Efreet" points="135.0" categoryId="4e85-806b-4c44-2cb8" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="7872-5400-cfd8-3bf4" name="Magic Artefact" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="04d2-9322-a23f-4575" targetId="886a-898c-6ebe-904a" linkType="entry group">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="3453-fc28-99ce-4ba1" name="Fireball (20)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="868c-686a-3978-8c99" targetId="a496-054d-a2d6-47b8" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="46c8-4923-90ff-27fc" profileTypeId="97cc-56ab-eb5b-85a6" name="Efreet" hidden="false" book="KoW" page="164">
+          <characteristics>
+            <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="1"/>
+            <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="1"/>
+            <characteristic characteristicId="7b4d-35b9-dd84-e672" name="Unit Type" value="Hero (Inf)"/>
+            <characteristic characteristicId="6a0b-5ca3-681f-6b2e" name="Speed" value="7"/>
+            <characteristic characteristicId="ae92-a124-75e4-e22d" name="Melee" value="4"/>
+            <characteristic characteristicId="fa16-f2da-63d9-71c2" name="Ranged" value="-"/>
+            <characteristic characteristicId="a65b-2083-ea38-304f" name="Defense" value="4"/>
+            <characteristic characteristicId="058e-7a4a-4a9c-1be0" name="Attacks" value="1"/>
+            <characteristic characteristicId="03d5-4167-faba-63a6" name="Nerve" value="11/13"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="8d2a-c6a1-a5e7-378b" targetId="9657-1079-91be-b2bd" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="d2e7-31ef-ea37-d2bb" targetId="b79a-f274-5123-df1d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="1fb6-f2a9-2432-6efa" targetId="aabd-ec96-e46d-8dcb" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="d91f-2266-3a7f-c49e" targetId="0bf5-2b12-5cc7-a963" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -882,7 +1066,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="aa8f-d378-b986-5a95" profileTypeId="1766-7f43-a8c0-711d" name="Flamebearers" hidden="false">
+        <profile id="aa8f-d378-b986-5a95" profileTypeId="1766-7f43-a8c0-711d" name="Flamebearers" hidden="false" book="KoW" page="160">
           <characteristics>
             <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="Troop (10)"/>
             <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="1"/>
@@ -961,7 +1145,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="a828-1d63-c338-5eb4" profileTypeId="1766-7f43-a8c0-711d" name="Flamebearers" hidden="false">
+        <profile id="a828-1d63-c338-5eb4" profileTypeId="1766-7f43-a8c0-711d" name="Flamebearers" hidden="false" book="KoW" page="160">
           <characteristics>
             <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="Regiment (20)"/>
             <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="1"/>
@@ -1029,7 +1213,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="5de9-b2af-92b3-2065" profileTypeId="1766-7f43-a8c0-711d" name="Fleshlings" hidden="false">
+        <profile id="5de9-b2af-92b3-2065" profileTypeId="1766-7f43-a8c0-711d" name="Fleshlings" hidden="false" book="KoW" page="161">
           <characteristics>
             <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="Troop (10)"/>
             <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="1"/>
@@ -1102,7 +1286,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="1b6b-241f-d47b-74a4" profileTypeId="1766-7f43-a8c0-711d" name="Fleshlings" hidden="false">
+        <profile id="1b6b-241f-d47b-74a4" profileTypeId="1766-7f43-a8c0-711d" name="Fleshlings" hidden="false" book="KoW" page="161">
           <characteristics>
             <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="Regiment (20)"/>
             <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="1"/>
@@ -1175,7 +1359,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="0318-990d-94cd-ae53" profileTypeId="1766-7f43-a8c0-711d" name="Fleshlings" hidden="false">
+        <profile id="0318-990d-94cd-ae53" profileTypeId="1766-7f43-a8c0-711d" name="Fleshlings" hidden="false" book="KoW" page="161">
           <characteristics>
             <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="Horde (40)"/>
             <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="1"/>
@@ -1273,7 +1457,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="a087-adb3-25b8-ea41" profileTypeId="1766-7f43-a8c0-711d" name="Gargoyles*" hidden="false">
+        <profile id="a087-adb3-25b8-ea41" profileTypeId="1766-7f43-a8c0-711d" name="Gargoyles*" hidden="false" book="KoW" page="161">
           <characteristics>
             <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="Troop (10) 25x25mm"/>
             <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="1"/>
@@ -1336,7 +1520,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="666b-457b-f687-1ac8" profileTypeId="2d97-40c5-cd44-108f" name="Hellhounds" hidden="false">
+        <profile id="666b-457b-f687-1ac8" profileTypeId="2d97-40c5-cd44-108f" name="Hellhounds" hidden="false" book="KoW" page="162">
           <characteristics>
             <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="Troop (5)"/>
             <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="1"/>
@@ -1360,70 +1544,6 @@
         </link>
       </links>
     </entry>
-    <entry id="8f6e-47c1-065d-63f7" name="Ifriit" points="135.0" categoryId="4e85-806b-4c44-2cb8" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="7872-5400-cfd8-3bf4" name="Magic Artefact" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="04d2-9322-a23f-4575" targetId="886a-898c-6ebe-904a" linkType="entry group">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="3d5a-37e6-982b-557c" name="Breath Attack (20)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="af5f-3997-31fd-8ae8" profileTypeId="ee75-6c23-6aad-aa05" name="Breath Attack (20)" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="Ranged attack with (n) dice rather than Attacks value, unless listed as (Att). 12&quot; range, always hits on 4+ regardless of modifiers."/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
-        </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="46c8-4923-90ff-27fc" profileTypeId="97cc-56ab-eb5b-85a6" name="Ifriit" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="1"/>
-            <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="1"/>
-            <characteristic characteristicId="7b4d-35b9-dd84-e672" name="Unit Type" value="Hero (Inf)"/>
-            <characteristic characteristicId="6a0b-5ca3-681f-6b2e" name="Speed" value="7"/>
-            <characteristic characteristicId="ae92-a124-75e4-e22d" name="Melee" value="4"/>
-            <characteristic characteristicId="fa16-f2da-63d9-71c2" name="Ranged" value="-"/>
-            <characteristic characteristicId="a65b-2083-ea38-304f" name="Defense" value="4"/>
-            <characteristic characteristicId="058e-7a4a-4a9c-1be0" name="Attacks" value="1"/>
-            <characteristic characteristicId="03d5-4167-faba-63a6" name="Nerve" value="11/13"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="8d2a-c6a1-a5e7-378b" targetId="9657-1079-91be-b2bd" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="d2e7-31ef-ea37-d2bb" targetId="b79a-f274-5123-df1d" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="1fb6-f2a9-2432-6efa" targetId="aabd-ec96-e46d-8dcb" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="d91f-2266-3a7f-c49e" targetId="0bf5-2b12-5cc7-a963" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
     <entry id="2ffd-b337-43f1-2313" name="Imps* (3)" points="70.0" categoryId="d5a9-edbf-71e8-399f" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
         <entry id="d421-7590-dc09-5c77" name="Magic Artefact" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -1443,7 +1563,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="a549-01aa-ce8d-90f9" profileTypeId="cdbe-57f0-c402-11d8" name="Imps*" hidden="false">
+        <profile id="a549-01aa-ce8d-90f9" profileTypeId="cdbe-57f0-c402-11d8" name="Imps*" hidden="false" book="KoW" page="162">
           <characteristics>
             <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="Regiment (3)"/>
             <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="0"/>
@@ -1486,7 +1606,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="38b4-f881-4d6a-e880" profileTypeId="cdbe-57f0-c402-11d8" name="Imps*" hidden="false">
+        <profile id="38b4-f881-4d6a-e880" profileTypeId="cdbe-57f0-c402-11d8" name="Imps*" hidden="false" book="KoW" page="162">
           <characteristics>
             <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="Horde (6)"/>
             <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="0"/>
@@ -1529,7 +1649,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="89fc-4db9-77fd-4bf4" profileTypeId="1766-7f43-a8c0-711d" name="Larvae*" hidden="false">
+        <profile id="89fc-4db9-77fd-4bf4" profileTypeId="1766-7f43-a8c0-711d" name="Larvae*" hidden="false" book="KoW" page="160">
           <characteristics>
             <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="Horde (40)"/>
             <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="1"/>
@@ -1575,7 +1695,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="d12a-2061-ecd2-0b70" profileTypeId="1766-7f43-a8c0-711d" name="Larvae*" hidden="false">
+        <profile id="d12a-2061-ecd2-0b70" profileTypeId="1766-7f43-a8c0-711d" name="Larvae*" hidden="false" book="KoW" page="160">
           <characteristics>
             <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="Legion (60)"/>
             <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="1"/>
@@ -1661,7 +1781,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="1675-6a8f-13a4-21a6" profileTypeId="1766-7f43-a8c0-711d" name="Lower Abyssals" hidden="false">
+        <profile id="1675-6a8f-13a4-21a6" profileTypeId="1766-7f43-a8c0-711d" name="Lower Abyssals" hidden="false" book="KoW" page="161">
           <characteristics>
             <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="Troop (10)"/>
             <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="1"/>
@@ -1746,7 +1866,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="32e3-bae7-1a87-edfd" profileTypeId="1766-7f43-a8c0-711d" name="Lower Abyssals" hidden="false">
+        <profile id="32e3-bae7-1a87-edfd" profileTypeId="1766-7f43-a8c0-711d" name="Lower Abyssals" hidden="false" book="KoW" page="161">
           <characteristics>
             <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="Regiment (20)"/>
             <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="1"/>
@@ -1831,7 +1951,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="3c7c-1ad3-baef-af18" profileTypeId="1766-7f43-a8c0-711d" name="Lower Abyssals" hidden="false">
+        <profile id="3c7c-1ad3-baef-af18" profileTypeId="1766-7f43-a8c0-711d" name="Lower Abyssals" hidden="false" book="KoW" page="161">
           <characteristics>
             <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="Horde (40)"/>
             <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="1"/>
@@ -1888,7 +2008,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="14d3-d92d-2057-9bee" profileTypeId="cdbe-57f0-c402-11d8" name="Molochs" hidden="false">
+        <profile id="14d3-d92d-2057-9bee" profileTypeId="cdbe-57f0-c402-11d8" name="Molochs" hidden="false" book="KoW" page="163">
           <characteristics>
             <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="Regiment (3) 50x50mm"/>
             <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="2"/>
@@ -1943,7 +2063,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="6452-d145-a939-d7c0" profileTypeId="cdbe-57f0-c402-11d8" name="Molochs" hidden="false">
+        <profile id="6452-d145-a939-d7c0" profileTypeId="cdbe-57f0-c402-11d8" name="Molochs" hidden="false" book="KoW" page="163">
           <characteristics>
             <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="Horde (6) 50x50mm"/>
             <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="2"/>
@@ -1986,7 +2106,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="2c95-7c75-74a8-809a" profileTypeId="1766-7f43-a8c0-711d" name="Succubi" hidden="false">
+        <profile id="2c95-7c75-74a8-809a" profileTypeId="1766-7f43-a8c0-711d" name="Succubi" hidden="false" book="KoW" page="161">
           <characteristics>
             <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="Troop (10)"/>
             <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="1"/>
@@ -2032,7 +2152,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="62cf-db5d-c8f4-c657" profileTypeId="1766-7f43-a8c0-711d" name="Succubi" hidden="false">
+        <profile id="62cf-db5d-c8f4-c657" profileTypeId="1766-7f43-a8c0-711d" name="Succubi" hidden="false" book="KoW" page="161">
           <characteristics>
             <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="Regiment (20)"/>
             <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="1"/>
@@ -2055,119 +2175,6 @@
           <modifiers/>
         </link>
         <link id="a8e3-10ee-1b4e-2eac" targetId="bdd0-eb1b-bf45-750e" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="1930-1de3-c7fb-a5c6" name="Temptress" points="90.0" categoryId="4e85-806b-4c44-2cb8" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="c65c-b2c7-6c16-c5cc" name="Magic Artefact" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="74e5-b032-9e1b-a901" targetId="886a-898c-6ebe-904a" linkType="entry group">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="ca49-fdd7-2d8e-ef91" name="Inspiring (Succubi only)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="8001-ce0a-de15-f0c2" targetId="7c18-e2b7-bc3b-fe10" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="e43f-6fc1-b6f2-f242" name="Winged" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="557f-aa7e-4e0e-63e2" targetId="dc50-fdaa-d751-9cdf" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
-      <entryGroups>
-        <entryGroup id="90c5-077d-f870-97e0" name="Spells" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="7366-2a59-9b18-7987" name="Wind Blast (6)" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="d3d1-e947-ffad-590c" targetId="da65-6a10-c6a3-9022" linkType="rule">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-            <entry id="ea6d-87c2-48a3-4526" name="Bane Chant (2)" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="ee1e-9d40-9070-bac4" targetId="0faf-9276-c8a0-9bcd" linkType="rule">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
-          <links/>
-        </entryGroup>
-      </entryGroups>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="25ee-067d-76b6-45cf" profileTypeId="97cc-56ab-eb5b-85a6" name="Temptress" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="1"/>
-            <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="1"/>
-            <characteristic characteristicId="7b4d-35b9-dd84-e672" name="Unit Type" value="Hero (Inf)"/>
-            <characteristic characteristicId="6a0b-5ca3-681f-6b2e" name="Speed" value="6"/>
-            <characteristic characteristicId="ae92-a124-75e4-e22d" name="Melee" value="3"/>
-            <characteristic characteristicId="fa16-f2da-63d9-71c2" name="Ranged" value="-"/>
-            <characteristic characteristicId="a65b-2083-ea38-304f" name="Defense" value="4"/>
-            <characteristic characteristicId="058e-7a4a-4a9c-1be0" name="Attacks" value="5"/>
-            <characteristic characteristicId="03d5-4167-faba-63a6" name="Nerve" value="11/13"/>
-          </characteristics>
-          <modifiers>
-            <modifier type="set" field="6a0b-5ca3-681f-6b2e" value="10" repeat="true" numRepeats="1" incrementParentId="1930-1de3-c7fb-a5c6" incrementChildId="e43f-6fc1-b6f2-f242" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-        </profile>
-      </profiles>
-      <links>
-        <link id="98c3-555e-ae8f-fb92" targetId="9657-1079-91be-b2bd" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="a523-885e-36ff-b704" targetId="aabd-ec96-e46d-8dcb" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="a9c8-1bf3-f231-2a55" targetId="b79a-f274-5123-df1d" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="7e11-1950-56b4-5f30" targetId="3b62-ea44-71f8-1c42" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="dedf-cc1f-1781-f171" targetId="bdd0-eb1b-bf45-750e" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -2215,7 +2222,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="2a1e-b7e3-d3b8-07e3" profileTypeId="97cc-56ab-eb5b-85a6" name="The Lord of Lies [1]" hidden="false">
+        <profile id="2a1e-b7e3-d3b8-07e3" profileTypeId="97cc-56ab-eb5b-85a6" name="The Lord of Lies [1]" hidden="false" book="KoW" page="165">
           <characteristics>
             <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="1"/>
             <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="3"/>
@@ -2277,12 +2284,12 @@
             </link>
           </links>
         </entry>
-        <entry id="4da0-e61d-a879-abff" name="Soul Harvest" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="4da0-e61d-a879-abff" name="Soul Drain" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules>
-            <rule id="57e9-84f6-a608-3a17" name="Soul Harvest" hidden="false">
+            <rule id="57e9-84f6-a608-3a17" name="Soul Drain" hidden="false">
               <description>The Well of Souls pulls the life force from the enemy and feeds the Abyssal army.
 
 When the Well of Souls is given an order (at the start of its turn), it may put up to 20 points of damage on itself. However, this cannot take it to more than 20 damage in total. For each point of damage taken in this way, it may remove 1 point of damage from a friendly, non-allied unit within 9&quot;. The Well of Souls will not take a Nerve test for damage taken in this way.</description>
@@ -2297,7 +2304,7 @@ When the Well of Souls is given an order (at the start of its turn), it may put 
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="620e-0e3a-5b46-fba2" profileTypeId="97cc-56ab-eb5b-85a6" name="The Well of Souls [1]" hidden="false">
+        <profile id="620e-0e3a-5b46-fba2" profileTypeId="97cc-56ab-eb5b-85a6" name="The Well of Souls [1]" hidden="false" book="KoW" page="165">
           <characteristics>
             <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="1"/>
             <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="4"/>
@@ -2373,7 +2380,7 @@ When the Well of Souls is given an order (at the start of its turn), it may put 
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="a856-433a-98c9-5fd0" profileTypeId="cdbe-57f0-c402-11d8" name="Tortured Souls" hidden="false">
+        <profile id="a856-433a-98c9-5fd0" profileTypeId="cdbe-57f0-c402-11d8" name="Tortured Souls" hidden="false" book="KoW" page="162">
           <characteristics>
             <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="Regiment (3)"/>
             <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="2"/>
@@ -2446,7 +2453,7 @@ When the Well of Souls is given an order (at the start of its turn), it may put 
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="3077-7e38-3190-a2fe" profileTypeId="cdbe-57f0-c402-11d8" name="Tortured Souls" hidden="false">
+        <profile id="3077-7e38-3190-a2fe" profileTypeId="cdbe-57f0-c402-11d8" name="Tortured Souls" hidden="false" book="KoW" page="162">
           <characteristics>
             <characteristic characteristicId="1e88-2d83-1480-82f1" name="Unit Size" value="Horde (6)"/>
             <characteristic characteristicId="786c-09f7-bc4a-bc1a" name="Height" value="2"/>
@@ -2481,8 +2488,8 @@ When the Well of Souls is given an order (at the start of its turn), it may put 
     <rule id="362e-fa0e-0365-17ba" name="Alignment (Forces of the Abyss): Evil" hidden="false">
       <modifiers/>
     </rule>
-    <rule id="5272-7524-6076-6155" name="Abyssal Vengeance" hidden="false">
-      <description>Amongst the Forces of the Abyss, all units have the Fury special rule, unless specified otherwise.</description>
+    <rule id="5272-7524-6076-6155" name="Abyssal Vengeance" hidden="false" book="KoW" page="156">
+      <description>Amongst the Forces of the Abyss, all units have Fury, unless specified otherwise.</description>
       <modifiers/>
     </rule>
   </rules>
@@ -2492,190 +2499,6 @@ When the Well of Souls is given an order (at the start of its turn), it may put 
     <entryGroup id="886a-898c-6ebe-904a" name="Magic Artefacts (Choose ONE)" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
-        <entryGroup id="2f30-0fcd-6fdc-c5da" name="Heroes Only" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="e595-c73b-b114-ae61" name="Talisman of Inspiration" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles>
-                <profile id="0d83-38e0-191a-d298" profileTypeId="ee75-6c23-6aad-aa05" name="Talisman of Inspiration" hidden="false">
-                  <characteristics>
-                    <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="This Hero has the Inspiring special rule."/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-              </profiles>
-              <links>
-                <link id="42bc-78e7-a8d6-69fa" targetId="7c18-e2b7-bc3b-fe10" linkType="rule">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-            <entry id="5143-f74d-f52e-d80d" name="Blade of the Beast Slayer" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles>
-                <profile id="6baa-f51d-986f-5e39" profileTypeId="ee75-6c23-6aad-aa05" name="Blade of the Beast Slayer" hidden="false">
-                  <characteristics>
-                    <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="This Hero has Crushing Strength (2) when attacking Large Infantry, Large Cavalry, Monsters or Heroes who do not have the Individual special rule. If this Hero already has Crushing Strength, it is increased by 2 when attacking those same targets (NOT already in profile)."/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-              </profiles>
-              <links/>
-            </entry>
-            <entry id="0043-3598-f94b-25e1" name="Darklord&apos;s Onyx Ring" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles>
-                <profile id="81c7-2e9c-5e44-e589" profileTypeId="ee75-6c23-6aad-aa05" name="Darklord&apos;s Onyx Ring" hidden="false">
-                  <characteristics>
-                    <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="Only usable by Heroes with the Regeneration special rule. This Hero&apos;s Regeneration value is improved by 1 (NOT already in profile)."/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-              </profiles>
-              <links/>
-            </entry>
-            <entry id="0ce7-f28f-74b5-c1d6" name="Boots of Levitation" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles>
-                <profile id="468b-b998-b216-3569" profileTypeId="ee75-6c23-6aad-aa05" name="Boots of Levitation" hidden="false">
-                  <characteristics>
-                    <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="This Hero can Advance and then shoot as if it had Halted that turn. It can also move At the Double and shoot as if it had Advanced that turn."/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-              </profiles>
-              <links/>
-            </entry>
-            <entry id="1f47-5892-4890-a3a1" name="Healing Charm" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles>
-                <profile id="2d31-65f1-c426-880a" profileTypeId="ee75-6c23-6aad-aa05" name="Healing Charm" hidden="false">
-                  <characteristics>
-                    <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="This Hero has the Heal (3) spell."/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-              </profiles>
-              <links>
-                <link id="ef0f-183f-f74b-e159" targetId="a125-9eee-fc99-05f7" linkType="rule">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-            <entry id="c7c9-a304-438f-d119" name="The Boomstick" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles>
-                <profile id="a8b9-95f1-d8cd-633e" profileTypeId="ee75-6c23-6aad-aa05" name="The Boomstick" hidden="false">
-                  <characteristics>
-                    <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="This Hero has the Lightning Bolt (3) spell."/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-              </profiles>
-              <links>
-                <link id="d9f0-63bf-81c1-e0b4" targetId="643b-d49d-8d14-c765" linkType="rule">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-            <entry id="d1f9-1a04-7bd0-f00c" name="Ensorcelled Armour" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles>
-                <profile id="a89b-9df7-9800-75d3" profileTypeId="ee75-6c23-6aad-aa05" name="Ensorcelled Armour" hidden="false">
-                  <characteristics>
-                    <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="This Hero&apos;s Defense is improved by 1, to a maximum of 6 (NOT already in profile)."/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-              </profiles>
-              <links/>
-            </entry>
-            <entry id="0276-9be8-2007-a53b" name="Boots of the Seven Leagues" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles>
-                <profile id="d3b2-2c1e-4b59-e7a3" profileTypeId="ee75-6c23-6aad-aa05" name="Boots of the Seven Leagues" hidden="false">
-                  <characteristics>
-                    <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="Only usable by Heroes with the Individual special rule. Confers the Vanguard special rule."/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-              </profiles>
-              <links>
-                <link id="8f30-f043-4017-38c2" targetId="4172-a0d9-878e-5057" linkType="rule">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-            <entry id="2382-cce5-ea78-bb92" name="Medallion of Life" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles>
-                <profile id="f81b-1acc-5564-b455" profileTypeId="ee75-6c23-6aad-aa05" name="Medallion of Life" hidden="false">
-                  <characteristics>
-                    <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="This Hero has the Regeneration (5+) special rule."/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-              </profiles>
-              <links>
-                <link id="a1be-536f-fdf9-cbf3" targetId="5815-9306-b2e7-0436" linkType="rule">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-            <entry id="3928-3863-883b-b418" name="Wings of Honeymaze" points="40.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles>
-                <profile id="80e6-44a8-5b44-b423" profileTypeId="ee75-6c23-6aad-aa05" name="Wings of Honeymaze" hidden="false">
-                  <characteristics>
-                    <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="Only usable by Heroes with the Individual special rule. Confers the Fly and Nimble special rules, and thusly increases this unit&apos;s Speed to 10 (NOT already in profile)."/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-              </profiles>
-              <links>
-                <link id="fe85-c6c3-c4fd-a276" targetId="b79a-f274-5123-df1d" linkType="rule">
-                  <modifiers/>
-                </link>
-                <link id="deea-6055-1a26-9592" targetId="dc50-fdaa-d751-9cdf" linkType="rule">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
-          <links/>
-        </entryGroup>
         <entryGroup id="2070-320f-0036-5b53" name="05 Points" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
             <entry id="b6ad-fc27-a6b8-6233" name="War-bow of Kaba" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -2684,7 +2507,7 @@ When the Well of Souls is given an order (at the start of its turn), it may put 
               <modifiers/>
               <rules/>
               <profiles>
-                <profile id="cc03-9590-9217-9b9f" profileTypeId="ee75-6c23-6aad-aa05" name="War-bow of Kaba" hidden="false">
+                <profile id="63da-746f-3b45-f149" profileTypeId="ee75-6c23-6aad-aa05" name="War-bow of Kaba" hidden="false" book="KoW" page="78">
                   <characteristics>
                     <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="A single additional ranged attack, 24&quot; range, Piercing (1), and calculated with a base Ranged 4 value."/>
                   </characteristics>
@@ -2693,13 +2516,13 @@ When the Well of Souls is given an order (at the start of its turn), it may put 
               </profiles>
               <links/>
             </entry>
-            <entry id="1ec8-a9da-0221-cd38" name="Fire-oil" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entry id="1ec8-a9da-0221-cd38" name="Fire-Oil" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
               <rules/>
               <profiles>
-                <profile id="ede6-edcb-105b-09f7" profileTypeId="ee75-6c23-6aad-aa05" name="Fire-oil" hidden="false">
+                <profile id="61ef-f1a1-d471-4af8" profileTypeId="ee75-6c23-6aad-aa05" name="Fire-Oil" hidden="false" book="KoW" page="78">
                   <characteristics>
                     <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="Against units with the Regeneration rule this unit gains an additional Piercing (1) on normal ranged attacks (no Breath Attack, Spells, or Ogre Heavy Crossbows) and an additional Crushing Strength (1)."/>
                   </characteristics>
@@ -2714,7 +2537,7 @@ When the Well of Souls is given an order (at the start of its turn), it may put 
               <modifiers/>
               <rules/>
               <profiles>
-                <profile id="66b2-ca14-02bc-402b" profileTypeId="ee75-6c23-6aad-aa05" name="Mace of Crushing" hidden="false">
+                <profile id="b784-ab68-4edd-fe35" profileTypeId="ee75-6c23-6aad-aa05" name="Mace of Crushing" hidden="false" book="KoW" page="78">
                   <characteristics>
                     <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="Whenever this unit rolls to damage in melee, it can re-roll one of the dice that failed to damage."/>
                   </characteristics>
@@ -2729,7 +2552,7 @@ When the Well of Souls is given an order (at the start of its turn), it may put 
               <modifiers/>
               <rules/>
               <profiles>
-                <profile id="119b-824d-ffd9-ceb2" profileTypeId="ee75-6c23-6aad-aa05" name="Kevinar&apos;s Flying Hammer" hidden="false">
+                <profile id="f106-e84e-c558-a365" profileTypeId="ee75-6c23-6aad-aa05" name="Kevinar&apos;s Flying Hammer" hidden="false" book="KoW" page="78">
                   <characteristics>
                     <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="A single additional ranged attack, 12&quot; range, Piercing (2), and always hits on a 4+, regardless of modifiers."/>
                   </characteristics>
@@ -2738,30 +2561,15 @@ When the Well of Souls is given an order (at the start of its turn), it may put 
               </profiles>
               <links/>
             </entry>
-            <entry id="0b1f-7f49-aa54-860d" name="Blade of Slashing" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entry id="0b1f-7f49-aa54-860d" name="Blade of Slashing" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="">
               <entries/>
               <entryGroups/>
               <modifiers/>
               <rules/>
               <profiles>
-                <profile id="cc83-74c1-0dfd-fadd" profileTypeId="ee75-6c23-6aad-aa05" name="Blade of Slashing" hidden="false">
+                <profile id="2cc6-2eef-f655-7b0b" profileTypeId="ee75-6c23-6aad-aa05" name="Blade of Slashing" hidden="false" book="KoW" page="78">
                   <characteristics>
                     <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="Whenever this unit rolls to hit in melee, it can re-roll one of the dice that failed to hit."/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-              </profiles>
-              <links/>
-            </entry>
-            <entry id="7e0b-6ec9-9722-296c" name="Piercing Arrow" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles>
-                <profile id="f466-18e7-8288-a25c" profileTypeId="ee75-6c23-6aad-aa05" name="Piercing Arrow" hidden="false">
-                  <characteristics>
-                    <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="Whenever this unit rolls to damage with a ranged attack, it can re-roll one of the dice that failed to damage."/>
                   </characteristics>
                   <modifiers/>
                 </profile>
@@ -2781,9 +2589,9 @@ When the Well of Souls is given an order (at the start of its turn), it may put 
               <modifiers/>
               <rules/>
               <profiles>
-                <profile id="f24d-b64a-50cd-aa8b" profileTypeId="ee75-6c23-6aad-aa05" name="Quicksilver Rapier" hidden="false">
+                <profile id="307a-581c-709b-e64c" profileTypeId="ee75-6c23-6aad-aa05" name="Quicksilver Rapier" hidden="false" book="KoW" page="79">
                   <characteristics>
-                    <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="This unit has +1 to hit when attacking Individuals in melee."/>
+                    <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="This unit has +1 to hit when attacking units with the Individual special rule in melee."/>
                   </characteristics>
                   <modifiers/>
                 </profile>
@@ -2796,9 +2604,9 @@ When the Well of Souls is given an order (at the start of its turn), it may put 
               <modifiers/>
               <rules/>
               <profiles>
-                <profile id="7ff3-a2ce-da04-feed" profileTypeId="ee75-6c23-6aad-aa05" name="Myrddin&apos;s Amulet of the Fire-heart" hidden="false">
+                <profile id="b07f-074d-e38a-6c57" profileTypeId="ee75-6c23-6aad-aa05" name="Myrddin&apos;s Amulet of the Fire-heart" hidden="false" book="KoW" page="79">
                   <characteristics>
-                    <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="Once per game, after using a ranged attack or spell, this unit may immediately use another different ranged attack or spell, against the same or a different target."/>
+                    <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="Once per game, after using a ranged attack or spell, this unit may immediately use another different ranged attack or spell it possesses, against the same or a different target."/>
                   </characteristics>
                   <modifiers/>
                 </profile>
@@ -2811,7 +2619,7 @@ When the Well of Souls is given an order (at the start of its turn), it may put 
               <modifiers/>
               <rules/>
               <profiles>
-                <profile id="9ebf-84dd-c0fc-5204" profileTypeId="ee75-6c23-6aad-aa05" name="Dwarven Ale" hidden="false">
+                <profile id="0888-4436-79cf-7b8c" profileTypeId="ee75-6c23-6aad-aa05" name="Dwarven Ale" hidden="false" book="KoW" page="79">
                   <characteristics>
                     <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="Confers the Headstrong special rule."/>
                   </characteristics>
@@ -2819,7 +2627,7 @@ When the Well of Souls is given an order (at the start of its turn), it may put 
                 </profile>
               </profiles>
               <links>
-                <link id="2614-ab81-4495-addd" targetId="6be6-adad-42c1-637f" linkType="rule">
+                <link id="d169-15d4-4d3c-8849" targetId="6be6-adad-42c1-637f" linkType="rule">
                   <modifiers/>
                 </link>
               </links>
@@ -2830,7 +2638,7 @@ When the Well of Souls is given an order (at the start of its turn), it may put 
               <modifiers/>
               <rules/>
               <profiles>
-                <profile id="9158-57cb-f7f2-e24a" profileTypeId="ee75-6c23-6aad-aa05" name="Brew of Haste" hidden="false">
+                <profile id="5c3d-66c2-fc6d-4fec" profileTypeId="ee75-6c23-6aad-aa05" name="Brew of Haste" hidden="false" book="KoW" page="79">
                   <characteristics>
                     <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="This unit has +1 Speed (NOT already in profile)."/>
                   </characteristics>
@@ -2845,7 +2653,7 @@ When the Well of Souls is given an order (at the start of its turn), it may put 
               <modifiers/>
               <rules/>
               <profiles>
-                <profile id="8679-b21d-57f0-ec2d" profileTypeId="ee75-6c23-6aad-aa05" name="Pipes of Terror" hidden="false">
+                <profile id="de29-7a0e-be53-b79f" profileTypeId="ee75-6c23-6aad-aa05" name="Pipes of Terror" hidden="false" book="KoW" page="79">
                   <characteristics>
                     <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="Confers the Brutal special rule."/>
                   </characteristics>
@@ -2853,7 +2661,7 @@ When the Well of Souls is given an order (at the start of its turn), it may put 
                 </profile>
               </profiles>
               <links>
-                <link id="5af1-3186-8e05-47bc" targetId="51fa-428e-ca3d-8a63" linkType="rule">
+                <link id="d12e-65b4-64e4-fa8c" targetId="51fa-428e-ca3d-8a63" linkType="rule">
                   <modifiers/>
                 </link>
               </links>
@@ -2864,9 +2672,24 @@ When the Well of Souls is given an order (at the start of its turn), it may put 
               <modifiers/>
               <rules/>
               <profiles>
-                <profile id="fa6d-a4ff-8375-ba72" profileTypeId="ee75-6c23-6aad-aa05" name="Brew of Courage" hidden="false">
+                <profile id="01a9-885d-3d70-4647" profileTypeId="ee75-6c23-6aad-aa05" name="Brew of Courage" hidden="false" book="KoW" page="79">
                   <characteristics>
                     <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="When testing Nerve against this unit, enemies suffer an additional -1 to their total."/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+            <entry id="bc00-e6da-10ea-15a4" name="Piercing Arrow" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="4a07-379c-3e2a-b096" profileTypeId="ee75-6c23-6aad-aa05" name="Piercing Arrow" hidden="false" book="KoW" page="79">
+                  <characteristics>
+                    <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="Whenever this unit rolls to damage with a normal ranged attack (no Breath Attack, Spells, or Ogre Heavy Crossbows), it can re-roll one of the dice that failed to damage."/>
                   </characteristics>
                   <modifiers/>
                 </profile>
@@ -2886,7 +2709,7 @@ When the Well of Souls is given an order (at the start of its turn), it may put 
               <modifiers/>
               <rules/>
               <profiles>
-                <profile id="8c69-d1d5-d985-4835" profileTypeId="ee75-6c23-6aad-aa05" name="Maccwar&apos;s Potion of the Caterpillar" hidden="false">
+                <profile id="3edb-fe10-8357-e9bb" profileTypeId="ee75-6c23-6aad-aa05" name="Maccwar&apos;s Potion of the Caterpillar" hidden="false" book="KoW" page="80">
                   <characteristics>
                     <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="Confers the Pathfinder special rule."/>
                   </characteristics>
@@ -2894,7 +2717,7 @@ When the Well of Souls is given an order (at the start of its turn), it may put 
                 </profile>
               </profiles>
               <links>
-                <link id="9030-1d64-6ed2-4e78" targetId="0bf5-2b12-5cc7-a963" linkType="rule">
+                <link id="6596-6e37-74e2-8bc6" targetId="0bf5-2b12-5cc7-a963" linkType="rule">
                   <modifiers/>
                 </link>
               </links>
@@ -2905,7 +2728,7 @@ When the Well of Souls is given an order (at the start of its turn), it may put 
               <modifiers/>
               <rules/>
               <profiles>
-                <profile id="6d81-1e99-293a-4d3d" profileTypeId="ee75-6c23-6aad-aa05" name="Helm of Confidence" hidden="false">
+                <profile id="77c8-ac4a-bacc-deda" profileTypeId="ee75-6c23-6aad-aa05" name="Helm of Confidence" hidden="false" book="KoW" page="80">
                   <characteristics>
                     <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="When testing Nerve against this unit, a Routed result must always be re-rolled."/>
                   </characteristics>
@@ -2920,7 +2743,7 @@ When the Well of Souls is given an order (at the start of its turn), it may put 
               <modifiers/>
               <rules/>
               <profiles>
-                <profile id="2a3e-5aca-9155-c4f2" profileTypeId="ee75-6c23-6aad-aa05" name="Blessing of the Gods" hidden="false">
+                <profile id="1e35-5afc-2a77-b2c9" profileTypeId="ee75-6c23-6aad-aa05" name="Blessing of the Gods" hidden="false" book="KoW" page="80">
                   <characteristics>
                     <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="Confers the Elite special rule."/>
                   </characteristics>
@@ -2928,7 +2751,7 @@ When the Well of Souls is given an order (at the start of its turn), it may put 
                 </profile>
               </profiles>
               <links>
-                <link id="0604-b96a-b6c9-0815" targetId="e0d0-5bf9-11c8-b4f1" linkType="rule">
+                <link id="0857-0d54-9eed-e374" targetId="e0d0-5bf9-11c8-b4f1" linkType="rule">
                   <modifiers/>
                 </link>
               </links>
@@ -2939,7 +2762,7 @@ When the Well of Souls is given an order (at the start of its turn), it may put 
               <modifiers/>
               <rules/>
               <profiles>
-                <profile id="2033-6af1-e35e-9733" profileTypeId="ee75-6c23-6aad-aa05" name="Chant of Hate" hidden="false">
+                <profile id="0a2e-9cfa-a1c1-4b26" profileTypeId="ee75-6c23-6aad-aa05" name="Chant of Hate" hidden="false" book="KoW" page="80">
                   <characteristics>
                     <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="Confers the Vicious special rule."/>
                   </characteristics>
@@ -2947,7 +2770,7 @@ When the Well of Souls is given an order (at the start of its turn), it may put 
                 </profile>
               </profiles>
               <links>
-                <link id="8d7b-847c-2bf1-a15c" targetId="47c7-1334-d1bf-24d9" linkType="rule">
+                <link id="1821-c3f3-ba3a-cee9" targetId="47c7-1334-d1bf-24d9" linkType="rule">
                   <modifiers/>
                 </link>
               </links>
@@ -2958,9 +2781,9 @@ When the Well of Souls is given an order (at the start of its turn), it may put 
               <modifiers/>
               <rules/>
               <profiles>
-                <profile id="7484-3158-ed95-1b2e" profileTypeId="ee75-6c23-6aad-aa05" name="Scarletmaw&apos;s Fenulian Amulet" hidden="false">
+                <profile id="fbaa-0c45-e8eb-9ff3" profileTypeId="ee75-6c23-6aad-aa05" name="Scarletmaw&apos;s Fenulian Amulet" hidden="false" book="KoW" page="80">
                   <characteristics>
-                    <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="Units with the Lightning Bolt spell only. This unit&apos;s Lightning Bolt (n) value is increased by 2 (NOT already in profile)."/>
+                    <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="Limited to units with the Lightning Bolt spell. This unit&apos;s Lightning Bolt (n) value is increased by 2 (NOT already in profile)."/>
                   </characteristics>
                   <modifiers/>
                 </profile>
@@ -2973,7 +2796,7 @@ When the Well of Souls is given an order (at the start of its turn), it may put 
               <modifiers/>
               <rules/>
               <profiles>
-                <profile id="a810-989f-8418-31eb" profileTypeId="ee75-6c23-6aad-aa05" name="Kaba&apos;s Holy Hand Grenades" hidden="false">
+                <profile id="9c13-0eae-d015-302a" profileTypeId="ee75-6c23-6aad-aa05" name="Kaba&apos;s Holy Hand Grenades" hidden="false" book="KoW" page="80">
                   <characteristics>
                     <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="A single additional ranged attack, 12&quot; range, Blast (D6), Piercing (2), and always hits on a 4+, regardless of modifiers."/>
                   </characteristics>
@@ -2981,6 +2804,55 @@ When the Well of Souls is given an order (at the start of its turn), it may put 
                 </profile>
               </profiles>
               <links/>
+            </entry>
+            <entry id="5143-f74d-f52e-d80d" name="Blade of the Beast Slayer [H]" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="f26f-2384-122c-7a9f" profileTypeId="ee75-6c23-6aad-aa05" name="Blade of the Beast Slayer [H]" hidden="false" book="KoW" page="79">
+                  <characteristics>
+                    <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="Limited to Heroes. This unit has Crushing Strength (2) when attacking Large Infantry, Large Cavalry, Monsters or Heroes who do not have the Individual special rule. If this unit already has Crushing Strength, it is increased by 2 when attacking those same targets (NOT already in profile)."/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+            <entry id="0043-3598-f94b-25e1" name="Darklord&apos;s Onyx Ring [H]" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="bc4c-4fca-ca3e-7a1f" profileTypeId="ee75-6c23-6aad-aa05" name="Darklord&apos;s Onyx Ring [H]" hidden="false" book="KoW" page="79">
+                  <characteristics>
+                    <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="Limited to Heroes with the Regeneration special rule. This unit&apos;s Regeneration value is improved by 1 (NOT already in profile)."/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+            <entry id="e595-c73b-b114-ae61" name="Inspiring Talisman [H]" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="0465-d1d8-d1e3-1c1c" profileTypeId="ee75-6c23-6aad-aa05" name="Inspiring Talisman [H]" hidden="false" book="KoW" page="80">
+                  <characteristics>
+                    <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="Limited to Heroes. Confers the Inspiring special rule."/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links>
+                <link id="5de5-e722-b78c-3fdd" targetId="7c18-e2b7-bc3b-fe10" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
             </entry>
           </entries>
           <entryGroups/>
@@ -2995,7 +2867,7 @@ When the Well of Souls is given an order (at the start of its turn), it may put 
               <modifiers/>
               <rules/>
               <profiles>
-                <profile id="fb80-ebc9-b104-6799" profileTypeId="ee75-6c23-6aad-aa05" name="Crepognon&apos;s Scrying Gem of Zellak" hidden="false">
+                <profile id="feac-4bd5-0364-91d9" profileTypeId="ee75-6c23-6aad-aa05" name="Crepognon&apos;s Scrying Gem of Zellak" hidden="false" book="KoW" page="80">
                   <characteristics>
                     <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="When starting to deploy their units, your opponent must deploy D3+1 units instead of a single one."/>
                   </characteristics>
@@ -3010,7 +2882,7 @@ When the Well of Souls is given an order (at the start of its turn), it may put 
               <modifiers/>
               <rules/>
               <profiles>
-                <profile id="a4a2-da50-bc02-051d" profileTypeId="ee75-6c23-6aad-aa05" name="Brew of Strength" hidden="false">
+                <profile id="5904-b826-3f10-aa1e" profileTypeId="ee75-6c23-6aad-aa05" name="Brew of Strength" hidden="false" book="KoW" page="80">
                   <characteristics>
                     <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="This unit has Crushing Strength (1), or if this unit already has Crushing Strength, it is increased by 1 (NOT already in profile)."/>
                   </characteristics>
@@ -3025,9 +2897,9 @@ When the Well of Souls is given an order (at the start of its turn), it may put 
               <modifiers/>
               <rules/>
               <profiles>
-                <profile id="562f-2166-8a92-ebfa" profileTypeId="ee75-6c23-6aad-aa05" name="Mreb&apos;s Grimoire of Unspeakable Darkness" hidden="false">
+                <profile id="23fd-e8c8-7d51-5c4a" profileTypeId="ee75-6c23-6aad-aa05" name="Mreb&apos;s Grimoire of Unspeakable Darkness" hidden="false" book="KoW" page="80">
                   <characteristics>
-                    <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="Units with the Surge (n) spell only. This item increases this unit&apos;s Surge (n) value by 4 (NOT already in profile)."/>
+                    <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="Limited to units with the Surge spell. This item increases this unit&apos;s Surge (n) value by 4 (NOT already in profile)."/>
                   </characteristics>
                   <modifiers/>
                 </profile>
@@ -3040,13 +2912,13 @@ When the Well of Souls is given an order (at the start of its turn), it may put 
               <modifiers/>
               <rules/>
               <profiles>
-                <profile id="f105-0739-586e-4797" profileTypeId="ee75-6c23-6aad-aa05" name="Diadem of Dragon-kind" hidden="false">
+                <profile id="dc41-43c7-ef23-6a67" profileTypeId="ee75-6c23-6aad-aa05" name="Diadem of Dragon-kind" hidden="false" book="KoW" page="80">
                   <characteristics>
-                    <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="This unit has the Breath Attack (10) special rule."/>
+                    <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="Confers the Breath Attack (10) special rule."/>
                   </characteristics>
                   <modifiers/>
                 </profile>
-                <profile id="9894-30ab-dc98-8038" profileTypeId="ee75-6c23-6aad-aa05" name="Breath Attack (10)" hidden="false">
+                <profile id="3a92-277d-5720-c88f" profileTypeId="ee75-6c23-6aad-aa05" name="Breath Attack (10)" hidden="false" book="KoW" page="72">
                   <characteristics>
                     <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="Ranged attack with (n) dice rather than Attacks value, unless listed as (Att). 12&quot; range, always hits on 4+ regardless of modifiers."/>
                   </characteristics>
@@ -3061,7 +2933,7 @@ When the Well of Souls is given an order (at the start of its turn), it may put 
               <modifiers/>
               <rules/>
               <profiles>
-                <profile id="e673-c958-5e6a-0e39" profileTypeId="ee75-6c23-6aad-aa05" name="Heart-seeking Chant" hidden="false">
+                <profile id="20b6-5c04-3f6d-ac44" profileTypeId="ee75-6c23-6aad-aa05" name="Heart-seeking Chant" hidden="false" book="KoW" page="80">
                   <characteristics>
                     <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="This unit&apos;s ranged attacks and spells have the Piercing (1) special rule, or if the unit already has Piercing, it is increased by 1 (NOT already in profile)."/>
                   </characteristics>
@@ -3069,6 +2941,59 @@ When the Well of Souls is given an order (at the start of its turn), it may put 
                 </profile>
               </profiles>
               <links/>
+            </entry>
+            <entry id="0ce7-f28f-74b5-c1d6" name="Boots of Levitation [H]" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="a2dd-e046-66f2-0cb1" profileTypeId="ee75-6c23-6aad-aa05" name="Boots of Levitation [H]" hidden="false" book="KoW" page="80">
+                  <characteristics>
+                    <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="Limited to Heroes. This unit can Advance and then shoot as if it had Halted that turn. It can also move At the Double and shoot as if it had Advanced that turn."/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+            <entry id="1f47-5892-4890-a3a1" name="Healing Charm [H]" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="32d9-4c75-29e8-e892" profileTypeId="ee75-6c23-6aad-aa05" name="Healing Charm [H]" hidden="false" book="KoW" page="80">
+                  <characteristics>
+                    <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="Limited to Heroes. Confers the Heal (3) spell."/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links>
+                <link id="672a-5ceb-a8e6-4ab4" targetId="a125-9eee-fc99-05f7" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="c7c9-a304-438f-d119" name="The Boomstick [H]" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="a904-da5b-acda-3b11" profileTypeId="ee75-6c23-6aad-aa05" name="The Boomstick [H]" hidden="false" book="KoW" page="80">
+                  <characteristics>
+                    <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="Limited to Heroes. Confers the Lightning Bolt (3) spell."/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links>
+                <link id="8160-7e15-8046-2a20" targetId="643b-d49d-8d14-c765" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
             </entry>
           </entries>
           <entryGroups/>
@@ -3083,15 +3008,15 @@ When the Well of Souls is given an order (at the start of its turn), it may put 
               <modifiers/>
               <rules/>
               <profiles>
-                <profile id="53fb-bc31-db6e-46f6" profileTypeId="ee75-6c23-6aad-aa05" name="Orcsbain&apos;s Amulet of Thorns" hidden="false">
+                <profile id="0168-e5d2-1341-eecf" profileTypeId="ee75-6c23-6aad-aa05" name="Orcsbain&apos;s Amulet of Thorns" hidden="false" book="KoW" page="81">
                   <characteristics>
-                    <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="Confers the Ensnare special rule."/>
+                    <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="Confers the Phalanx special rule."/>
                   </characteristics>
                   <modifiers/>
                 </profile>
               </profiles>
               <links>
-                <link id="f276-8734-98aa-9709" targetId="3b62-ea44-71f8-1c42" linkType="rule">
+                <link id="9664-9718-2e67-e46f" targetId="fbfb-4339-b268-fbae" linkType="rule">
                   <modifiers/>
                 </link>
               </links>
@@ -3102,7 +3027,7 @@ When the Well of Souls is given an order (at the start of its turn), it may put 
               <modifiers/>
               <rules/>
               <profiles>
-                <profile id="1f27-6cd4-c805-0f2c" profileTypeId="ee75-6c23-6aad-aa05" name="The Fog" hidden="false">
+                <profile id="6160-549a-4016-2699" profileTypeId="ee75-6c23-6aad-aa05" name="The Fog" hidden="false" book="KoW" page="81">
                   <characteristics>
                     <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="Confers the Stealthy special rule."/>
                   </characteristics>
@@ -3110,7 +3035,7 @@ When the Well of Souls is given an order (at the start of its turn), it may put 
                 </profile>
               </profiles>
               <links>
-                <link id="bcf5-9e4f-98f9-1903" targetId="bdd0-eb1b-bf45-750e" linkType="rule">
+                <link id="40a7-4de0-d26a-a739" targetId="bdd0-eb1b-bf45-750e" linkType="rule">
                   <modifiers/>
                 </link>
               </links>
@@ -3121,7 +3046,7 @@ When the Well of Souls is given an order (at the start of its turn), it may put 
               <modifiers/>
               <rules/>
               <profiles>
-                <profile id="6b5a-05e3-e245-da85" profileTypeId="ee75-6c23-6aad-aa05" name="Wine of Elvenkind" hidden="false">
+                <profile id="e162-956a-35fe-3565" profileTypeId="ee75-6c23-6aad-aa05" name="Wine of Elvenkind" hidden="false" book="KoW" page="81">
                   <characteristics>
                     <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="Confers the Nimble special rule."/>
                   </characteristics>
@@ -3129,7 +3054,7 @@ When the Well of Souls is given an order (at the start of its turn), it may put 
                 </profile>
               </profiles>
               <links>
-                <link id="1a21-7755-ef83-ed7a" targetId="b79a-f274-5123-df1d" linkType="rule">
+                <link id="570d-5de2-1c59-e50c" targetId="b79a-f274-5123-df1d" linkType="rule">
                   <modifiers/>
                 </link>
               </links>
@@ -3140,7 +3065,7 @@ When the Well of Souls is given an order (at the start of its turn), it may put 
               <modifiers/>
               <rules/>
               <profiles>
-                <profile id="0652-8133-f9e0-af46" profileTypeId="ee75-6c23-6aad-aa05" name="Jar of the Four Winds" hidden="false">
+                <profile id="747d-387b-ec96-009e" profileTypeId="ee75-6c23-6aad-aa05" name="Jar of the Four Winds" hidden="false" book="KoW" page="81">
                   <characteristics>
                     <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="This unit&apos;s normal ranged attacks (no Breath Attack, Spells, or Ogre Heavy Crossbows) gain 12&quot; to their maximum range (NOT already in profile)."/>
                   </characteristics>
@@ -3155,9 +3080,9 @@ When the Well of Souls is given an order (at the start of its turn), it may put 
               <modifiers/>
               <rules/>
               <profiles>
-                <profile id="64f2-4581-2ad1-87fb" profileTypeId="ee75-6c23-6aad-aa05" name="Crystal Pendant of Retribution" hidden="false">
+                <profile id="e849-9531-7253-537d" profileTypeId="ee75-6c23-6aad-aa05" name="Crystal Pendant of Retribution" hidden="false" book="KoW" page="81">
                   <characteristics>
-                    <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="When this unit is Routed, all units in base contact with it suffer 2D6 hits at Piercing (3). These hits are resolved by the player that Routed the unit with the Crystal, which now has to resolve the hits against his own unit(s). After the damage has been resolved, no Nerve test is taken by the damaged units - they proceed to Regroup, but cannot move directly forward D6&quot; for their Regroup action, deterred by the huge explosion."/>
+                    <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="When this unit is Routed, all units in base contact with it suffer 2D6 hits at Piercing (3). These hits are resolved by the player that Routed the unit with the Crystal, which now has to resolve the hits against his own unit(s). After the damage has been resolved, no Nerve test is taken by the damaged unit(s) - they proceed to Regroup, but cannot move directly forward D6&quot; for their Regroup action, deterred by the huge explosion."/>
                   </characteristics>
                   <modifiers/>
                 </profile>
@@ -3170,7 +3095,7 @@ When the Well of Souls is given an order (at the start of its turn), it may put 
               <modifiers/>
               <rules/>
               <profiles>
-                <profile id="e9b5-2afe-c42c-1bfb" profileTypeId="ee75-6c23-6aad-aa05" name="Brew of Sharpness" hidden="false">
+                <profile id="0062-0cd7-4bc7-27ff" profileTypeId="ee75-6c23-6aad-aa05" name="Brew of Sharpness" hidden="false" book="KoW" page="81">
                   <characteristics>
                     <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="This unit has +1 to hit in melee."/>
                   </characteristics>
@@ -3185,7 +3110,7 @@ When the Well of Souls is given an order (at the start of its turn), it may put 
               <modifiers/>
               <rules/>
               <profiles>
-                <profile id="6c24-b2c9-bb86-e1c6" profileTypeId="ee75-6c23-6aad-aa05" name="Brew of Keen-eyeness" hidden="false">
+                <profile id="b57d-dd90-e137-8d45" profileTypeId="ee75-6c23-6aad-aa05" name="Brew of Keen-eyeness" hidden="false" book="KoW" page="81">
                   <characteristics>
                     <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="This unit has +1 to hit with normal ranged attacks (no Breath Attack, Spells, or Ogre Heavy Crossbows)."/>
                   </characteristics>
@@ -3193,6 +3118,81 @@ When the Well of Souls is given an order (at the start of its turn), it may put 
                 </profile>
               </profiles>
               <links/>
+            </entry>
+            <entry id="0276-9be8-2007-a53b" name="Boots of the Seven Leagues [H]" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="0c02-1ec7-e54b-9908" profileTypeId="ee75-6c23-6aad-aa05" name="Boots of the Seven Leagues [H]" hidden="false" book="KoW" page="80">
+                  <characteristics>
+                    <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="Limited to Heroes with the Individual special rule. Confers the Vanguard special rule."/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links>
+                <link id="87fc-a4fd-ae4d-92bc" targetId="4172-a0d9-878e-5057" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="d1f9-1a04-7bd0-f00c" name="Ensorcelled Armour [H]" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="69be-a4a8-2d35-0088" profileTypeId="ee75-6c23-6aad-aa05" name="Ensorcelled Armour [H]" hidden="false" book="KoW" page="81">
+                  <characteristics>
+                    <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="Limited to Heroes. This unit&apos;s Defense is improved by 1, to a maximum of 6+ (NOT already in profile)."/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+            <entry id="2382-cce5-ea78-bb92" name="Medallion of Life [H]" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="1a65-07b3-9168-aa4d" profileTypeId="ee75-6c23-6aad-aa05" name="Medallion of Life [H]" hidden="false" book="KoW" page="81">
+                  <characteristics>
+                    <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="Limited to Heroes. Confers the Regeneration (5+) special rule."/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links>
+                <link id="ace8-bba8-1793-68bd" targetId="5815-9306-b2e7-0436" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="3928-3863-883b-b418" name="Wings of Honeymaze [H]" points="40.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="5881-92ba-713c-8dea" profileTypeId="ee75-6c23-6aad-aa05" name="Wings of Honeymaze [H]" hidden="false" book="KoW" page="81">
+                  <characteristics>
+                    <characteristic characteristicId="7faf-5d95-d741-0a54" name="Notes" value="Limited to Heroes with the Individual special rule. Confers the Fly and Nimble special rules, and thus increases this unit&apos;s Speed to 10 (NOT already in profile)."/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links>
+                <link id="af8e-897f-04b8-55db" targetId="b79a-f274-5123-df1d" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="bcee-e6b7-6863-3646" targetId="dc50-fdaa-d751-9cdf" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
             </entry>
           </entries>
           <entryGroups/>
@@ -3205,143 +3205,163 @@ When the Well of Souls is given an order (at the start of its turn), it may put 
     </entryGroup>
   </sharedEntryGroups>
   <sharedRules>
-    <rule id="13ee-6280-7201-4911" name="Advanced Deployment" hidden="false">
-      <description>Units with this rule must be deployed immediately after players have chosen sides, but before any other units are deployed. If both players have one or more units with this rule then the player who chose table sides sets their unit(s) up first. This unit may be deployed anywhere on the table, except within 3&quot; of an objective counter or loot counter.</description>
+    <rule id="13ee-6280-7201-4911" name="Advanced Deployment" hidden="false" book="UE" page="5">
+      <description>Units with this rule must be deployed immediately after players have chosen sides, but before any other units are deployed. If both players have one or more units with this rule then the player who chose table sides sets theirs up first. This unit may be deployed anywhere on the table outside your opponent&apos;s deployment zone and not within 3&quot; of an objective counter or loot counter.</description>
       <modifiers/>
     </rule>
-    <rule id="0faf-9276-c8a0-9bcd" name="Bane Chant (n)" hidden="false">
-      <description>Spell with (n) attacks, 12&quot; range, and always hits on 4+ regardless of modifiers. Only usable on friendly units, including units engaged in combat. Hits don&apos;t inflict damage. If at least one hit is scored, for the rest of the turn the unit&apos;s melee and ranged attacks increase their Crushing Strength and Piercing values by 1, or gain Crushing Strength (1) and Piercing (1) if they don&apos;t already have these special rules. Multiple Bane Chants hitting the same unit do not have cumulative effects.</description>
+    <rule id="0faf-9276-c8a0-9bcd" name="Bane Chant (n)" hidden="false" book="KoW" page="83">
+      <description>Spell with (n) attacks, 12&quot; range, and always hits on 4+ regardless of modifiers. Only usable on friendly units, including units engaged in combat. Hits don&apos;t inflict damage. If at least one hit is scored, for the rest of the turn the unit&apos;s melee and ranged attacks increase their Crushing Strength and Piercing values by 1, or gain Crushing Strength (1) and Piercing (1) if they don&apos;t already have it. Multiple Bane Chants hitting the same unit do not have cumulative effects.</description>
       <modifiers/>
     </rule>
-    <rule id="11d0-aa5a-4eb4-83a8" name="Big Shield" hidden="false">
+    <rule id="11d0-aa5a-4eb4-83a8" name="Big Shield" hidden="false" book="KoW" page="72">
       <description>All attacks (ranged and melee) from enemies that are in this unit&apos;s front arc treat this unit&apos;s Defense as 6.</description>
       <modifiers/>
     </rule>
-    <rule id="8c02-8957-63ab-1084" name="Blast (n)" hidden="false">
+    <rule id="8c02-8957-63ab-1084" name="Blast (n)" hidden="false" book="KoW" page="72">
       <description>If this unit&apos;s attack hits the target, that unit suffers a number of hits equal to (n), rather than a single hit. Afterwards, roll for damage as normal for all of the hits caused.</description>
       <modifiers/>
     </rule>
-    <rule id="cf5c-be60-d830-9bdf" name="Breath Attack (n)" hidden="false">
+    <rule id="cf5c-be60-d830-9bdf" name="Breath Attack (n)" hidden="false" book="KoW" page="72">
       <description>Ranged attack with (n) dice rather than Attacks value, unless listed as (Att). 12&quot; range, always hits on 4+ regardless of modifiers.</description>
       <modifiers/>
     </rule>
-    <rule id="51fa-428e-ca3d-8a63" name="Brutal" hidden="false">
-      <description>When testing the Nerve of an enemy unit in melee combat with one or more of your units with this rule, add 1 to the total. This is non-cumulative - you only add 1 if multiple friendly units with Brutal are in combat.</description>
+    <rule id="51fa-428e-ca3d-8a63" name="Brutal" hidden="false" book="KoW" page="72">
+      <description>When testing the Nerve of an enemy unit in melee combat with one or more of your units with this rule, add 1 to the total. Non-cumulative.</description>
       <modifiers/>
     </rule>
-    <rule id="3131-8f0a-0927-8489" name="Crushing Strength (n)" hidden="false">
+    <rule id="334f-bc5a-1b0b-8aa3" name="Casket of the Damned" hidden="false" book="UE" page="44">
+      <description>Mark this unit with a suitable model/counter. One time use. When this unit is targetted by a Surge spell, you may roll an additional 5 dice which count towards the total Surge result. This must be declared BEFORE rolling any dice for the spell.</description>
+      <modifiers/>
+    </rule>
+    <rule id="3131-8f0a-0927-8489" name="Crushing Strength (n)" hidden="false" book="KoW" page="72">
       <description>All melee hits inflicted by this unit have a +(n) modifier when rolling to damage.</description>
       <modifiers/>
     </rule>
-    <rule id="3d0b-7c46-9826-6f87" name="Dwarven Throwing Mastiff" hidden="false">
-      <description>Mark this unit with a suitable model/counter. One time use. Throwing weapon, 12&quot; range. Roll 5 dice, always hits on 4+ regardless of modifiers. For each point of damage caused, repeat to hit and to damage rolls on that enemy unit until you fail to score any damage. Against units with the Shambling special rule, you can re-roll any dice that fail to damage (not to hit rolls).</description>
+    <rule id="3d0b-7c46-9826-6f87" name="Dwarven Throwing Mastiff" hidden="false" book="KoW" page="104">
+      <description>Mark this unit with a suitable model/counter. One time use. Ranged attack, 12&quot; range. Roll 5 dice, always hits on 4+ regardless of modifiers. For each point of damage caused, repeat to hit and to damage rolls on that enemy unit until you fail to score any damage. Against units with the Shambling special rule, you can re-roll any dice that fail to damage (not to hit rolls).</description>
       <modifiers/>
     </rule>
-    <rule id="e0d0-5bf9-11c8-b4f1" name="Elite" hidden="false">
+    <rule id="e0d0-5bf9-11c8-b4f1" name="Elite" hidden="false" book="KoW" page="72">
       <description>Whenever this unit rolls to hit, it can re-roll all dice that score a natural, unmodified 1.</description>
       <modifiers/>
     </rule>
-    <rule id="3b62-ea44-71f8-1c42" name="Ensnare" hidden="false">
+    <rule id="3b62-ea44-71f8-1c42" name="Ensnare" hidden="false" book="KoW" page="73">
       <description>In melee, when attacking this unit&apos;s front, enemies suffer an additional -1 to hit modifier.</description>
       <modifiers/>
     </rule>
-    <rule id="a496-054d-a2d6-47b8" name="Fireball (n)" hidden="false">
+    <rule id="a496-054d-a2d6-47b8" name="Fireball (n)" hidden="false" book="KoW" page="83">
       <description>Spell with (n) attacks, 12&quot; range, and always hits on 4+ regardless of modifiers. Roll to damage as normal.</description>
       <modifiers/>
     </rule>
-    <rule id="dc50-fdaa-d751-9cdf" name="Fly" hidden="false">
-      <description>This unit can move over anything, but cannot land on top of things not normally allowed. Only suffers Hindered charges if landing on difficult terrain or touching an obstacle. Confers the Nimble special rule.</description>
+    <rule id="dc50-fdaa-d751-9cdf" name="Fly" hidden="false" book="KoW" page="73">
+      <description>This unit can move over anything, but cannot land on top of things not normally allowed. Only suffers Hindered charges if ending its move touching or within an obstacle/difficult terrain. Confers the Nimble special rule.</description>
       <modifiers/>
     </rule>
-    <rule id="aabd-ec96-e46d-8dcb" name="Fury" hidden="false">
+    <rule id="aabd-ec96-e46d-8dcb" name="Fury" hidden="false" book="KoW" page="73">
       <description>While Wavered, this unit may declare a Counter-Charge.</description>
       <modifiers/>
     </rule>
-    <rule id="6be6-adad-42c1-637f" name="Headstrong" hidden="false">
+    <rule id="37ed-00bb-c65c-8d58" name="Goblin Stabby Sneak" hidden="false" book="KoW" page="186">
+      <description>Goblin Stabby Sneaks are tiny treacherous assassins of uncommon bravado. This unit has +1 Attack (Already in profile).</description>
+      <modifiers/>
+    </rule>
+    <rule id="2bde-3139-1b6a-8f17" name="Goblin Zappy Sneak" hidden="false" book="KoW" page="186">
+      <description>Goblin Zappy Sneaks are clever little imps gifted with nasty and unpredictable magical powers. Confers the Lightning Bolt (2) spell.</description>
+      <modifiers/>
+    </rule>
+    <rule id="6be6-adad-42c1-637f" name="Headstrong" hidden="false" book="KoW" page="73">
       <description>If this unit is Wavering at the start of a turn, roll a D6. On a 4+ it is Disordered instead.</description>
       <modifiers/>
     </rule>
-    <rule id="a125-9eee-fc99-05f7" name="Heal (n)" hidden="false">
-      <description>Spell with (n) attacks, 12&quot; range, and always hits on 4+ regardless of modifiers. Only usable on friendly units, including units engaged in combat. Hits don&apos;t inflict damage. For every hit caused, the friendly unit removes a point of damage that it has previously suffered.</description>
+    <rule id="a125-9eee-fc99-05f7" name="Heal (n)" hidden="false" book="KoW" page="83">
+      <description>Spell with (n) attacks, 12&quot; range, and always hits on 4+ regardless of modifiers. Only usable on friendly units, including units engaged in combat. Hits don&apos;t inflict damage. For every hit caused, the target unit removes a point of damage that it has previously suffered.</description>
       <modifiers/>
     </rule>
-    <rule id="7783-41ff-e944-445c" name="Hunting Animals" hidden="false">
-      <description>Mark this unit with a suitable model/counter. One time use. Throwing weapon, 12&quot; range. Roll 5 dice, always hits on 4+ regardless of modifiers. For each point of damage caused, repeat to hit and to damage rolls on that enemy unit until you fail to score any damage. Against units with the Fly special rule, you can re-roll any dice that fail to damage (not to hit rolls).</description>
+    <rule id="7783-41ff-e944-445c" name="Hunting Animals" hidden="false" book="UE" page="22">
+      <description>Mark this unit with a suitable model/counter. One time use. Only usable on Heroes, Monsters, War Engines, and Troops. Ranged attack, 12&quot; range, Piercing (1). Roll 5 dice, always hits on 4+ regardless of modifiers. For each point of damage caused, repeat to hit and to damage rolls on that enemy unit until you fail to score any damage.</description>
       <modifiers/>
     </rule>
-    <rule id="140a-2d51-ef73-c9b1" name="Indirect Fire" hidden="false">
+    <rule id="140a-2d51-ef73-c9b1" name="Indirect Fire" hidden="false" book="KoW" page="73">
       <description>This unit does not suffer the -1 to hit modifier for shooting at units in cover. On the other hand, the unit cannot shoot targets that are within 12&quot;. Note that the firing unit does still need to have line of sight to its target to fire at it.</description>
       <modifiers/>
     </rule>
-    <rule id="9657-1079-91be-b2bd" name="Individual" hidden="false">
+    <rule id="9657-1079-91be-b2bd" name="Individual" hidden="false" book="KoW" page="71">
       <description>May pivot to face any direction for free before being given a move order or shooting. This unit never blocks line of sight or offers cover against ranged attacks. Confers the Nimble special rule. Enemies shooting at Individuals suffer an additional -1 to hit modifier. This unit aligns flush with enemy chargers. Enemies NEVER double/triple attacks against this unit. This unit does not double/triple attacks except against non-Individual War Engines. If an Individual is Routed and charger Regroups D6&quot; forward, it can contact an enemy unit, and may attack again immediately. Hindered applies to this Regroup if the original charge was as well.</description>
       <modifiers/>
     </rule>
-    <rule id="7c18-e2b7-bc3b-fe10" name="Inspiring" hidden="false">
+    <rule id="7c18-e2b7-bc3b-fe10" name="Inspiring" hidden="false" book="KoW" page="73">
       <description>If this unit, or any friendly but non-allied unit within 6&quot; is Routed, the opponent must re-roll that Nerve test, and the second result stands. For Inspiring (Specific Unit) the unit will only inspire itself and that unit.</description>
       <modifiers/>
     </rule>
-    <rule id="6182-5a87-de7a-4f56" name="Iron Resolve" hidden="false">
+    <rule id="6182-5a87-de7a-4f56" name="Iron Resolve" hidden="false" book="KoW" page="73">
       <description>If this unit is Steady as a result of a Nerve test, it regains 1 point of damage previously suffered.</description>
       <modifiers/>
     </rule>
-    <rule id="2fcc-d747-ea72-2828" name="Lifeleech (n)" hidden="false">
+    <rule id="2fcc-d747-ea72-2828" name="Lifeleech (n)" hidden="false" book="KoW" page="74">
       <description>In melee, this unit regains one point of damage it has previously suffered for every point of damage it deals, up to a maximum of (n).</description>
       <modifiers/>
     </rule>
-    <rule id="643b-d49d-8d14-c765" name="Lightning Bolt (n)" hidden="false">
+    <rule id="643b-d49d-8d14-c765" name="Lightning Bolt (n)" hidden="false" book="KoW" page="83">
       <description>Spell with (n) attacks, 24&quot; range, Piercing (1), and always hits on 4+ regardless of modifiers. Roll to damage as normal.</description>
       <modifiers/>
     </rule>
-    <rule id="b79a-f274-5123-df1d" name="Nimble" hidden="false">
-      <description>This unit is allowed one extra pivot of up to 90 degrees for every type of order except a Halt (important for the Reload! special rule). This unit does not suffer the -1 to hit modifier for moving and shooting.</description>
+    <rule id="8e46-1839-2527-43ed" name="Mutated Throwing Mastiff" hidden="false" book="KoW" page="166">
+      <description>Mark this unit with a suitable model/counter. One time use. Ranged attack, 12&quot; range. Roll 5 dice, always hits on 4+ regardless of modifiers. For each point of damage caused, repeat to hit and to damage rolls on that enemy unit until you fail to score any damage. You can re-roll any dice that fail to damage (not to hit rolls).</description>
+      <modifiers/>
+    </rule>
+    <rule id="b79a-f274-5123-df1d" name="Nimble" hidden="false" book="KoW" page="74">
+      <description>This unit is allowed one extra pivot of up to 90 degrees for every type of move order except a Halt (important for the Reload! special rule). This unit does not suffer the -1 to hit modifier for moving and shooting.</description>
       <modifiers/>
     </rule>
     <rule id="de5d-b48a-02cc-6f8f" name="Omniscient" hidden="false">
       <description>This unit may shoot a spell from any arc (not just from the front).</description>
       <modifiers/>
     </rule>
-    <rule id="0bf5-2b12-5cc7-a963" name="Pathfinder" hidden="false">
-      <description>This unit treats difficult terrain as open terrain, and thusly is not Hindered for charging through difficult terrain.</description>
+    <rule id="0bf5-2b12-5cc7-a963" name="Pathfinder" hidden="false" book="KoW" page="74">
+      <description>This unit suffers no movement penalties for difficult terrain, and is not Hindered for charging through difficult terrain.</description>
       <modifiers/>
     </rule>
-    <rule id="fbfb-4339-b268-fbae" name="Phalanx" hidden="false">
+    <rule id="fbfb-4339-b268-fbae" name="Phalanx" hidden="false" book="KoW" page="74">
       <description>Units that charge this unit&apos;s front cannot use the Thunderous Charge special rule.</description>
       <modifiers/>
     </rule>
-    <rule id="cc29-8e7d-2a0e-c995" name="Piercing (n)" hidden="false">
+    <rule id="cc29-8e7d-2a0e-c995" name="Piercing (n)" hidden="false" book="KoW" page="74">
       <description>All ranged hits inflicted by this unit have a +(n) modifier when rolling to damage.</description>
       <modifiers/>
     </rule>
-    <rule id="a621-0f14-db61-f580" name="Rallying! (n)" hidden="false">
-      <description>Friendly non-allied units within 6&quot; have +(n) to their Waver and Rout Nerve values. This is non-cumulative - use the highest (n) value if multiple units with Rallying! are in range.</description>
+    <rule id="a621-0f14-db61-f580" name="Rallying! (n)" hidden="false" book="UE" page="5">
+      <description>Friendly, non-allied units within 6&quot; of this unit have +(n) to their Waver and Rout Nerve values. This is cumulative, with a maximum of +2. Only the Rout Nerve value of Fearless units (cannot Waver) is affected by Rallying!</description>
       <modifiers/>
     </rule>
-    <rule id="5815-9306-b2e7-0436" name="Regeneration (n+)" hidden="false">
+    <rule id="5815-9306-b2e7-0436" name="Regeneration (n+)" hidden="false" book="KoW" page="74">
       <description>At the start of this unit&apos;s turn, roll dice equal to this unit&apos;s current damage. For every result of (n) or higher, this unit recovers 1 damage.</description>
       <modifiers/>
     </rule>
-    <rule id="c0b3-3b50-e88f-5461" name="Reload!" hidden="false">
-      <description>This unit can only shoot if it received a Halt order that turn.</description>
+    <rule id="c0b3-3b50-e88f-5461" name="Reload!" hidden="false" book="KoW" page="74">
+      <description>This unit can only shoot if it received a Halt order on the same turn.</description>
       <modifiers/>
     </rule>
-    <rule id="36fd-c324-ddc8-ef9a" name="Shambling" hidden="false">
+    <rule id="0ea6-5cab-abc5-16a0" name="Sabre-Toothed Pussycat" hidden="false" book="KoW" page="118">
+      <description>Mark this unit with a suitable model/counter. One time use. Only usable on Heroes, Monsters, War Engines, and Troops. Ranged attack, 12&quot; range, Piercing (1). Roll 5 dice, always hits on 4+ regardless of modifiers. For each point of damage caused, repeat to hit and to damage rolls on that enemy unit until you fail to score any damage.</description>
+      <modifiers/>
+    </rule>
+    <rule id="36fd-c324-ddc8-ef9a" name="Shambling" hidden="false" book="KoW" page="74">
       <description>This unit cannot move At the Double, except when carrying out a Vanguard move.</description>
       <modifiers/>
     </rule>
-    <rule id="bdd0-eb1b-bf45-750e" name="Stealthy" hidden="false">
+    <rule id="bdd0-eb1b-bf45-750e" name="Stealthy" hidden="false" book="KoW" page="74">
       <description>Enemies shooting at this unit suffer an additional -1 to hit modifier.</description>
       <modifiers/>
     </rule>
-    <rule id="e70c-1148-97d1-9348" name="Strider" hidden="false">
+    <rule id="e70c-1148-97d1-9348" name="Strider" hidden="false" book="KoW" page="75">
       <description>This unit never suffers the penalty for Hindered charges.</description>
       <modifiers/>
     </rule>
-    <rule id="8447-b7bc-2737-f07c" name="Surge (n)" hidden="false">
+    <rule id="8447-b7bc-2737-f07c" name="Surge (n)" hidden="false" book="KoW" page="83">
       <description>Spell with (n) attacks, 12&quot; range, and always hits on 4+ regardless of modifiers. Only usable on friendly units with the Shamble special rule. Hits don&apos;t inflict damage. For every hit caused, the target unit moves straight forward 1&quot;, stopping just out of contact of friendly units and blocking terrain. Treat as a charge against appropriate facing if target unit contacts an enemy unit. Enemy unit won&apos;t take Nerve tests for damage suffered previously in that Shooting phase. Target unit might still be Hindered in the ensuing combat. No effect on units with Speed 0.</description>
       <modifiers/>
     </rule>
-    <rule id="a8ce-2f96-b0be-47d6" name="Thunderous Charge (n)" hidden="false">
+    <rule id="a8ce-2f96-b0be-47d6" name="Thunderous Charge (n)" hidden="false" book="KoW" page="75">
       <description>All melee hits inflicted by this unit have a +(n) modifier when rolling to damage. This is in addition to the unit&apos;s Crushing Strength (if any), but is lost if Disordered or during Hindered charges.</description>
       <modifiers/>
     </rule>
@@ -3349,24 +3369,28 @@ When the Well of Souls is given an order (at the start of its turn), it may put 
       <description>This unit cannot be Disordered.</description>
       <modifiers/>
     </rule>
-    <rule id="4172-a0d9-878e-5057" name="Vanguard" hidden="false">
-      <description>After deployment, this unit can make an At the Double or Advance move order. If both players have Vanguard units, each rolls a dice. The winner chooses who goes first and then both players alternate moving any Vanguard units.</description>
+    <rule id="4172-a0d9-878e-5057" name="Vanguard" hidden="false" book="KoW" page="75">
+      <description>After deployment, this unit can make an At the Double or Advance move order. If both players have Vanguard units, each rolls a dice. The highest scorer chooses who moves Vanguard units first and then both players alternate moving their Vanguard units.</description>
       <modifiers/>
     </rule>
-    <rule id="10ed-04da-d879-ce2e" name="Very Inspiring" hidden="false">
+    <rule id="10ed-04da-d879-ce2e" name="Very Inspiring" hidden="false" book="KoW" page="75">
       <description>If this unit, or any friendly but non-allied unit within 9&quot; is Routed, the opponent must re-roll that Nerve test, and the second result stands. For Inspiring (Specific Unit) the unit will only inspire itself and that unit. Any rule which affects Inspiring also affects this rule.</description>
       <modifiers/>
     </rule>
-    <rule id="47c7-1334-d1bf-24d9" name="Vicious" hidden="false">
+    <rule id="47c7-1334-d1bf-24d9" name="Vicious" hidden="false" book="KoW" page="75">
       <description>Whenever this unit rolls to damage, it can re-roll all dice that score a natural, unmodified 1.</description>
       <modifiers/>
     </rule>
-    <rule id="2700-2be9-00b3-3e03" name="Wild Companion" hidden="false">
-      <description>Mark this unit with a suitable model/counter. One time use. Throwing weapon, 12&quot; range. Only usable on Heroes, Monsters, War Engines, and units of Infantry and Cavalry of Unit Size 10 or smaller. Roll 5 dice, always hits on 4+ regardless of modifiers, Piercing (1). For each point of damage caused, repeat to hit and to damage rolls on that enemy unit until you fail to score any damage.</description>
+    <rule id="2700-2be9-00b3-3e03" name="Wild Companion" hidden="false" book="KoW" page="138">
+      <description>Mark this unit with a suitable model/counter. One time use. Ranged attack, 12&quot; range. Roll 5 dice, always hits on 4+ regardless of modifiers, Piercing (1).</description>
       <modifiers/>
     </rule>
-    <rule id="da65-6a10-c6a3-9022" name="Wind Blast (n)" hidden="false">
-      <description>Spell with (n) attacks, 18&quot; range, and always hits on 4+ regardless of modifiers. Hits don&apos;t inflict damage. For every hit caused, the target enemy unit moves straight backward 1&quot; if the caster is in target unit&apos;s front arc, 1&quot; directly sideways and away from the caster if the caster is in target&apos;s flank arcs, or directly forwards if the caster is in target unit&apos;s rear arc, stopping 1&quot; away from friendly-to-caster units and just out of contact of friendly-to-target units and blocking terrain. No effect on units with Speed 0.</description>
+    <rule id="da65-6a10-c6a3-9022" name="Wind Blast (n)" hidden="false" book="KoW" page="83">
+      <description>Spell with (n) attacks, 18&quot; range, and always hits on 4+ regardless of modifiers. Hits don&apos;t inflict damage. For every hit caused, the target enemy unit moves straight backward 1&quot; if the caster is in target&apos;s front arc, 1&quot; directly sideways and away from the caster if the caster is in target&apos;s flank arcs, or directly forwards if the caster is in target&apos;s rear arc, stopping 1&quot; away from enemy units and just out of contact of friendly units and blocking terrain, as normal. No effect on units with Speed 0.</description>
+      <modifiers/>
+    </rule>
+    <rule id="5f9b-2fdf-ddf6-b612" name="Yellow Bellied" hidden="false" book="KoW" page="75">
+      <description>When this unit wishes to charge an enemy unit&apos;s front facing, roll a die. If the result is a 1 then this unit &quot;misunderstands&quot; the order and carries out a Halt order instead. This does not apply if the unit wishes to charge the flank or rear of an enemy unit, an Individual or War Engine, or if it is carrying out a Counter-Charge.</description>
       <modifiers/>
     </rule>
   </sharedRules>
