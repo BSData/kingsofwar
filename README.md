@@ -32,3 +32,8 @@ Yeah! We have it hosted on AppSpot. Take a look: [BattleScribe Data on Appspot][
 [BattleScribe homepage]: http://www.battlescribe.net/
 [BattleScribe Data on Appspot]: http://battlescribedata.appspot.com/#/repos
 [Getting Started wiki]: https://github.com/BSData/bsdata/wiki/Home#getting-started
+
+##Archive##
+
+For those who want the catalogues and game system file from BS 1.15:
+https://github.com/BSData/kingsofwar/files/795341/KoW_2E_BattleScribe_1.15.zip
