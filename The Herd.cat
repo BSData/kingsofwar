@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="6aa4-7def-be92-b83b" name="The Herd 2E" revision="3" battleScribeVersion="2.00" authorName="Johnathan Conz" authorContact="YouTube, reddit: Ekaznae" gameSystemId="697b-dd1f-a597-82e2" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="6aa4-7def-be92-b83b" name="The Herd 2E" revision="4" battleScribeVersion="2.00" authorName="John" authorContact="bsdata.kow@gmail.com" gameSystemId="697b-dd1f-a597-82e2" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="fdec-7c68-754c-719f" name="Alignment (The Herd): Neutral" hidden="false">
@@ -2530,6 +2530,72 @@
           <entryLinks/>
           <costs>
             <cost name="pts" costTypeId="points" value="30.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="cf01-d33d-91ba-36df" name="Blood Boil" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="a8e5-098d-49b7-42b4" name="" hidden="false" targetId="b3fd-dca3-bedc-58e2" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9db8-49f4-fd67-901d" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="25.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="dd28-ae0f-3949-3469" name="Soul Drain" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="5a32-527a-38ab-8617" name="" hidden="false" targetId="686b-3af5-d18a-d207" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="96e4-aa67-899a-c970" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="30.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="86fc-b103-843d-36c8" name="Weakness" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="bbba-784f-a490-8071" name="" hidden="false" targetId="3d84-9118-f48e-7415" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b64f-3837-c501-65c4" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="20.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -5361,7 +5427,7 @@
   <entryLinks/>
   <sharedSelectionEntries/>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup id="886a-898c-6ebe-904a" name="Magic Artefacts (Choose ONE)" hidden="false" collective="false">
+    <selectionEntryGroup id="886a-898c-6ebe-904a" name="Magic Artefacts (Choose ONE) [T] = Tournament Pack" hidden="false" collective="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -5421,7 +5487,7 @@
                   <infoLinks/>
                   <modifiers/>
                   <characteristics>
-                    <characteristic name="Notes" characteristicTypeId="7faf-5d95-d741-0a54" value="Against units with the Regeneration rule this unit gains an additional Piercing (1) on normal ranged attacks (no Breath Attack, Spells, or Ogre Heavy Crossbows) and an additional Crushing Strength (1)."/>
+                    <characteristic name="Notes" characteristicTypeId="7faf-5d95-d741-0a54" value="Against units with the Regeneration rule this unit gains an additional Piercing (1) on &apos;normal&apos; ranged attacks and an additional Crushing Strength (1)."/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -5509,6 +5575,32 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="de05-685d-91c7-0c8f" name="Healing Brew [T]" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="f2c5-1a64-7e2a-5caa" name="Healing Brew [T]" hidden="false" profileTypeId="ee75-6c23-6aad-aa05" profileTypeName="Z Profile Notes">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Notes" characteristicTypeId="7faf-5d95-d741-0a54" value="Once per game, when given a Move order, this unit may remove D3 damage previously suffered."/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="63cf-7d0f-d541-c195" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b919-d3c7-804d-4bb6" type="max"/>
               </constraints>
               <selectionEntries/>
               <selectionEntryGroups/>
@@ -5708,7 +5800,7 @@
                   <infoLinks/>
                   <modifiers/>
                   <characteristics>
-                    <characteristic name="Notes" characteristicTypeId="7faf-5d95-d741-0a54" value="Whenever this unit rolls to damage with a normal ranged attack (no Breath Attack, Spells, or Ogre Heavy Crossbows), it can re-roll one of the dice that failed to damage."/>
+                    <characteristic name="Notes" characteristicTypeId="7faf-5d95-d741-0a54" value="Whenever this unit rolls to damage with a &apos;normal&apos; ranged attack, it can re-roll one of the dice that failed to damage."/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -5718,6 +5810,84 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="40c4-ae92-858c-e3e7" name="Blood of the Old King [T]" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="f64b-7911-65b5-dc8a" name="Blood of the Old King [T]" hidden="false" profileTypeId="ee75-6c23-6aad-aa05" profileTypeName="Z Profile Notes">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Notes" characteristicTypeId="7faf-5d95-d741-0a54" value="Once per game, this unit gains Elite and Vicious for one turn. This must be declared before the unit rolls any attacks."/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="86c2-960b-67bc-29dc" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4811-7388-90d0-5941" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="15.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="a7df-5ae5-f22a-0d85" name="Helm of the Ram [T]" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="6c5b-0dfe-daf5-b7e6" name="Helm of the Ram [T]" hidden="false" profileTypeId="ee75-6c23-6aad-aa05" profileTypeName="Z Profile Notes">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Notes" characteristicTypeId="7faf-5d95-d741-0a54" value="This unit has Thunderous Charge (1), or if this unit already has Thunderous Charge, it is increased by 1 (NOT already in profile)."/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3fe3-982e-e493-a82d" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ad4-38a7-36aa-172b" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="15.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="f4c4-ad72-d1ea-3de8" name="Sparkstone [T]" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="95f9-1d97-2e66-9226" name="Sparkstone [T]" hidden="false" profileTypeId="ee75-6c23-6aad-aa05" profileTypeName="Z Profile Notes">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Notes" characteristicTypeId="7faf-5d95-d741-0a54" value="This unit has a ranged attack with a range of 18” that may only target enemy Heroes, Monsters and War Engines. Roll a single dice to hit, needing 4+ to hit regardless of modifiers. If a hit is scored, the target unit is Disordered during its next turn."/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9431-bc4b-95eb-33a6" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="337f-00b9-03c1-abdf" type="max"/>
               </constraints>
               <selectionEntries/>
               <selectionEntryGroups/>
@@ -6001,6 +6171,183 @@
                 <cost name="pts" costTypeId="points" value="20.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="eb0b-5607-10e6-becc" name="Banner of the Griffin [T]" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="2002-b544-f160-14de" name="Banner of the Griffin [T]" hidden="false" profileTypeId="ee75-6c23-6aad-aa05" profileTypeName="Z Profile Notes">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Notes" characteristicTypeId="7faf-5d95-d741-0a54" value="Confers the Rallying! (1) special rule."/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks>
+                <infoLink id="dbda-d509-d4ce-837e" name="" hidden="false" targetId="a621-0f14-db61-f580" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ce24-6a03-581c-f602" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f031-0325-eedf-0aee" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="20.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="d9b6-fd56-9885-3eb3" name="Dragonshard Shield [T]" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="098d-cd96-6ed3-c939" name="Dragonshard Shield [T]" hidden="false" profileTypeId="ee75-6c23-6aad-aa05" profileTypeName="Z Profile Notes">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Notes" characteristicTypeId="7faf-5d95-d741-0a54" value="Once per game, when this unit carries out a Halt! or Change Facing! order, it may choose to increase its Defense by 2 to a maximum of 6 until the start of its next turn."/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="229e-4db0-5d2a-a236" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e4c2-a385-2462-d8e9" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="20.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="006c-af5d-8f3c-ab3b" name="Hammer of Measured Force [T]" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="a70b-6e49-0caf-a3f6" name="Hammer of Measured Force [T]" hidden="false" profileTypeId="ee75-6c23-6aad-aa05" profileTypeName="Z Profile Notes">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Notes" characteristicTypeId="7faf-5d95-d741-0a54" value="This unit will always damage the enemy on a 4+ in melee, regardless of modifiers."/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dbda-6b38-ac3a-7734" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f23d-1682-80fc-7374" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="20.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="628a-1f79-de38-a6c6" name="Lute of Insatiable Darkness [H][T]" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="6003-cc30-9aa9-b9cc" name="Lute of Insatiable Darkness [H][T]" hidden="false" profileTypeId="ee75-6c23-6aad-aa05" profileTypeName="Z Profile Notes">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Notes" characteristicTypeId="7faf-5d95-d741-0a54" value="Limited to Heroes. Confers the Bane Chant (2) spell."/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks>
+                <infoLink id="dda6-f9f4-b107-1533" name="" hidden="false" targetId="0faf-9276-c8a0-9bcd" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fee4-a92a-8086-5618" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5727-c174-0832-a11b" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="20.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="1da2-96d6-9df7-c1a4" name="Shroud of the Saint [T]" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="f20c-15f3-1974-a5a8" name="Shroud of the Saint [T]" hidden="false" profileTypeId="ee75-6c23-6aad-aa05" profileTypeName="Z Profile Notes">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Notes" characteristicTypeId="7faf-5d95-d741-0a54" value="Limited to units with the Heal spell. This unit&apos;s Heal (n) value is increased by 2 (NOT already in profile)."/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f61b-d9a4-1e4f-2ab7" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dfe6-2f72-6127-06c8" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="25.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="b8e6-9421-2499-2a9c" name="Zephyr Crown [T]" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="b728-3cfb-e368-385a" name="Zephyr Crown [T]" hidden="false" profileTypeId="ee75-6c23-6aad-aa05" profileTypeName="Z Profile Notes">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Notes" characteristicTypeId="7faf-5d95-d741-0a54" value="Confers the Wind Blast (4) spell, or this unit&apos;s Wind Blast (n) value is increased by 4 (NOT already in profile)."/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks>
+                <infoLink id="1048-4003-2aae-b2fb" name="" hidden="false" targetId="da65-6a10-c6a3-9022" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e4ae-e238-69ca-2e21" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="98b9-f4b9-3fee-960e" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="20.0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -6103,18 +6450,16 @@
                     <characteristic name="Notes" characteristicTypeId="7faf-5d95-d741-0a54" value="Confers the Breath Attack (10) special rule."/>
                   </characteristics>
                 </profile>
-                <profile id="239b-481c-bdd9-f1cf" name="Breath Attack (10)" book="KoW" page="72" hidden="false" profileTypeId="ee75-6c23-6aad-aa05">
+              </profiles>
+              <rules/>
+              <infoLinks>
+                <infoLink id="f684-50bc-d9cf-cac6" name="" hidden="false" targetId="cf5c-be60-d830-9bdf" type="rule">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
-                  <characteristics>
-                    <characteristic name="Notes" characteristicTypeId="7faf-5d95-d741-0a54" value="Ranged attack with (n) dice rather than Attacks value, unless listed as (Att). 12&quot; range, always hits on 4+ regardless of modifiers."/>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <rules/>
-              <infoLinks/>
+                </infoLink>
+              </infoLinks>
               <modifiers/>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -6365,7 +6710,7 @@
                   <infoLinks/>
                   <modifiers/>
                   <characteristics>
-                    <characteristic name="Notes" characteristicTypeId="7faf-5d95-d741-0a54" value="This unit&apos;s normal ranged attacks (no Breath Attack, Spells, or Ogre Heavy Crossbows) gain 12&quot; to their maximum range (NOT already in profile)."/>
+                    <characteristic name="Notes" characteristicTypeId="7faf-5d95-d741-0a54" value="This unit&apos;s &apos;normal&apos; ranged attacks gain 12&quot; to their maximum range (NOT already in profile)."/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -6435,15 +6780,15 @@
                 <cost name="pts" costTypeId="points" value="45.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="b52a-12fd-482e-3f51" name="Brew of Keen-eyeness" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+            <selectionEntry id="b52a-12fd-482e-3f51" name="Brew of Keen-eyeness [-T]" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
               <profiles>
-                <profile id="0a66-baf2-93b2-8f8b" name="Brew of Keen-eyeness" book="KoW" page="81" hidden="false" profileTypeId="ee75-6c23-6aad-aa05">
+                <profile id="0a66-baf2-93b2-8f8b" name="Brew of Keen-eyeness [-T]" book="KoW" page="81" hidden="false" profileTypeId="ee75-6c23-6aad-aa05">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
                   <characteristics>
-                    <characteristic name="Notes" characteristicTypeId="7faf-5d95-d741-0a54" value="This unit has +1 to hit with normal ranged attacks (no Breath Attack, Spells, or Ogre Heavy Crossbows)."/>
+                    <characteristic name="Notes" characteristicTypeId="7faf-5d95-d741-0a54" value="This unit has +1 to hit with &apos;normal&apos; ranged attacks."/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -6494,9 +6839,9 @@
                 <cost name="pts" costTypeId="points" value="35.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="d1f9-1a04-7bd0-f00c" name="Ensorcelled Armour [H]" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+            <selectionEntry id="d1f9-1a04-7bd0-f00c" name="Ensorcelled Armour [H][-T]" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
               <profiles>
-                <profile id="edc7-f75b-f24d-0803" name="Ensorcelled Armour [H]" book="KoW" page="81" hidden="false" profileTypeId="ee75-6c23-6aad-aa05">
+                <profile id="edc7-f75b-f24d-0803" name="Ensorcelled Armour [H][-T]" book="KoW" page="81" hidden="false" profileTypeId="ee75-6c23-6aad-aa05">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -6520,9 +6865,9 @@
                 <cost name="pts" costTypeId="points" value="35.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="2382-cce5-ea78-bb92" name="Medallion of Life [H]" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+            <selectionEntry id="2382-cce5-ea78-bb92" name="Medallion of Life [H][-T]" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
               <profiles>
-                <profile id="9887-760e-d7d4-b90d" name="Medallion of Life [H]" book="KoW" page="81" hidden="false" profileTypeId="ee75-6c23-6aad-aa05">
+                <profile id="9887-760e-d7d4-b90d" name="Medallion of Life [H][-T]" book="KoW" page="81" hidden="false" profileTypeId="ee75-6c23-6aad-aa05">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -6613,7 +6958,7 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Spell with (n) attacks, 12&quot; range, and always hits on 4+ regardless of modifiers. Only usable on friendly units, including units engaged in combat. Hits don&apos;t inflict damage. If at least one hit is scored, for the rest of the turn the unit&apos;s melee and ranged attacks increase their Crushing Strength and Piercing values by 1, or gain Crushing Strength (1) and Piercing (1) if they don&apos;t already have it. Multiple Bane Chants hitting the same unit do not have cumulative effects.</description>
+      <description>Spell with (n) attacks, 12&quot; range, and always hits on 4+ regardless of modifiers. Only usable on friendly units, including units engaged in combat. Hits don&apos;t inflict damage. If at least one hit is scored, for the rest of the turn the unit&apos;s melee and ranged attacks increase their Crushing Strength and Piercing values by 1, or gain Crushing Strength (1) and Piercing (1) if they don&apos;t already have it. Multiple Bane Chants hitting the same unit do not have cumulative effects. [T]: This will only grant or improve Piercing if two or more hits are scored from the same casting.</description>
     </rule>
     <rule id="11d0-aa5a-4eb4-83a8" name="Big Shield" book="KoW" page="72" hidden="false">
       <profiles/>
@@ -6634,7 +6979,7 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Ranged attack with (n) dice rather than Attacks value, unless listed as (Att). 12&quot; range, always hits on 4+ regardless of modifiers.</description>
+      <description>Ranged attack with (n) dice rather than Attacks value, unless listed as (Att). 12&quot; range, always hits on 4+ regardless of modifiers. [T]: Affected by cover.</description>
     </rule>
     <rule id="51fa-428e-ca3d-8a63" name="Brutal" book="KoW" page="72" hidden="false">
       <profiles/>
@@ -6683,14 +7028,14 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Spell with (n) attacks, 12&quot; range, and always hits on 4+ regardless of modifiers. Roll to damage as normal.</description>
+      <description>Spell with (n) attacks, 12&quot; range, and always hits on 4+ regardless of modifiers. Roll to damage as normal. [T]: Affected by cover.</description>
     </rule>
     <rule id="dc50-fdaa-d751-9cdf" name="Fly" book="KoW" page="73" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>This unit can move over anything, but cannot land on top of things not normally allowed. Only suffers Hindered charges if ending its move touching or within an obstacle/difficult terrain. Confers the Nimble special rule.</description>
+      <description>This unit can move over anything, but cannot land on top of things not normally allowed. Only suffers Hindered charges if ending its move touching or within an obstacle/difficult terrain. Confers the Nimble special rule. [T]: While Disordered, units lose the Fly special rule including the Nimble that it grants. If the unit has Nimble for a different reason (e.g. Individual) then they will remain Nimble while Disordered.</description>
     </rule>
     <rule id="aabd-ec96-e46d-8dcb" name="Fury" book="KoW" page="73" hidden="false">
       <profiles/>
@@ -6774,7 +7119,7 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Spell with (n) attacks, 24&quot; range, Piercing (1), and always hits on 4+ regardless of modifiers. Roll to damage as normal.</description>
+      <description>Spell with (n) attacks, 24&quot; range, Piercing (1), and always hits on 4+ regardless of modifiers. Roll to damage as normal. [T]: Affected by cover.</description>
     </rule>
     <rule id="8e46-1839-2527-43ed" name="Mutated Throwing Mastiff" book="KoW" page="166" hidden="false">
       <profiles/>
@@ -6936,6 +7281,27 @@
       <infoLinks/>
       <modifiers/>
       <description>No army-wide rules are inherited.</description>
+    </rule>
+    <rule id="b3fd-dca3-bedc-58e2" name="Blood Boil" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Spell with 12&quot; range, Piercing (1), and always hits on 4+ regardless of modifiers. When rolling to hit, roll a number of dice equal to the amount of damage on the target unit.</description>
+    </rule>
+    <rule id="686b-3af5-d18a-d207" name="Soul Drain" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Spell with 6 attacks, 6&quot; range, Piercing (1), always hits on 4+ regardless of modifiers, and may target enemy units that are in melee. If one or more points of damage are scored, choose either the caster or a single friendly non-allied unit within 6”. Remove one point of damage from the chosen unit for each point of damage dealt to the target. If this is cast into melee, the target will not take a Nerve test at the end of the Shoot phase.</description>
+    </rule>
+    <rule id="3d84-9118-f48e-7415" name="Weakness" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Spell with 2 attacks, 18&quot; range, and always hits on 4+ regardless of modifiers. If one or more hits are scored, the target unit has a -1 modifier when rolling to damage enemy units during the next turn. A natural 6 will still damage. This effect only applies once – multiple castings on the same target have no effect.</description>
     </rule>
   </sharedRules>
   <sharedProfiles/>
