@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="697b-dd1f-a597-82e2" name="Kings of War 2nd Edition" revision="4" battleScribeVersion="2.00" authorName="Johnathan Conz" authorContact="YouTube, reddit: Ekaznae" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="697b-dd1f-a597-82e2" name="Kings of War 2nd Edition" revision="5" battleScribeVersion="2.00" authorName="John" authorContact="bsdata.kow@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
