@@ -1,6 +1,8 @@
 Kings of War
 ============
 
+@@@ If you need to access old rosters (BS 2.0 but before Clash of Kings 2018) open this file with BattleScribe https://www.dropbox.com/s/x4hcripvtcdlxh2/BattleScribe%202.0%20Kings%20of%20War%202E.bsr?dl=1
+
 ####Contents####
 
 * [Overview][]
@@ -37,3 +39,8 @@ Yeah! We have it hosted on AppSpot. Take a look: [BattleScribe Data on Appspot][
 
 For those who want the catalogues and game system file from BS 1.15:
 https://github.com/BSData/kingsofwar/files/795341/KoW_2E_BattleScribe_1.15.zip
+
+@@@ If you need to access old rosters (BS 2.0 but before Clash of Kings 2018) open this file with BattleScribe https://www.dropbox.com/s/x4hcripvtcdlxh2/BattleScribe%202.0%20Kings%20of%20War%202E.bsr?dl=1
+
+
+
