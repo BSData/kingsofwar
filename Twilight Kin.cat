@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="754f-54c8-57c2-b3dd" name="Twilight Kin" revision="6" battleScribeVersion="2.01" authorName="John (Ekaznae)" authorContact="bsdata.kow@gmail.com" authorUrl="https://github.com/BSData/kingsofwar" gameSystemId="0929-4596-8744-bbda" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="754f-54c8-57c2-b3dd" name="Twilight Kin" revision="7" battleScribeVersion="2.01" authorName="John (Ekaznae)" authorContact="bsdata.kow@gmail.com" authorUrl="https://github.com/BSData/kingsofwar" gameSystemId="0929-4596-8744-bbda" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="8758-ce20-7f88-e0cf" name="Alignment (Twilight Kin): Evil" hidden="false">
@@ -2995,6 +2995,76 @@
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="110.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e5fb-98cf-0eb5-fb73" name="Cult of the Assassin [1]" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules>
+        <rule id="49cb-2ed5-40cf-47da" name="Formation: Cult of the Assassin [1]" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Formation must contain:
+2x Shadows Troops
+1x Assassin
+The Shadows Troops in this formation gain Nimble and Stealthy, and the Assassin gains Inspiring (Shadows only).</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c4f1-ef91-3c24-69e9" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="d526-3cea-2aa1-e56d" name="New CategoryLink" hidden="false" targetId="8268-0874-ff47-7871" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="30.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="75e2-108b-55b2-c419" name="Night Dancers [1]" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules>
+        <rule id="dd37-1dad-34fa-091a" name="Formation: Night Dancers [1]" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Formation must contain:
+2x Blade Dancer Troops
+2x Blade Dancer Regiments
+Each unit in this formation gains the Stealthy and Mindthirst special rules.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b7d-7a0b-9c34-1a01" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="21c6-4b47-60e9-986c" name="New CategoryLink" hidden="false" targetId="8268-0874-ff47-7871" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="30.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
