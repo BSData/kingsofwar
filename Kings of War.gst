@@ -3965,14 +3965,14 @@ The Hero now has the Blood Boil spell as follows:
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Spell with 12&quot; range, Piercing (1), hitting on 4+. [CoK]: When targeting enemy units in cover or with the Stealthy special rule, these attacks hit on a 5+ instead of 4+. When rolling to hit, roll a number of dice equal to the amount of damage on the target unit.</description>
+      <description>Spell with 12&quot; range, Piercing (1), hits on 4+. When rolling to hit, roll a number of dice equal to the amount of damage on the target unit. [CoK]: When targeting enemy units in cover OR with the Stealthy special rule (this includes units in cover WITH the Stealthy special rule), these attacks hit on 5+ instead of 4+.</description>
     </rule>
     <rule id="cf5c-be60-d830-9bdf" name="Breath Attack (n)" book="KoW" page="72" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Ranged attack with (n) dice rather than Attacks value, unless listed as (Att). 12&quot; range, hits on 4+. [CoK]: When targeting enemy units in cover or with the Stealthy special rule, these attacks hit on a 5+ instead of 4+.</description>
+      <description>Ranged attack with (n) dice rather than Attacks value, unless listed as (Att). 12&quot; range, hits on 4+. [CoK]: When targeting enemy units in cover OR with the Stealthy special rule (this includes units in cover WITH the Stealthy special rule), these attacks hit on 5+ instead of 4+.</description>
     </rule>
     <rule id="51fa-428e-ca3d-8a63" name="Brutal" book="KoW" page="72" hidden="false">
       <profiles/>
@@ -4028,7 +4028,7 @@ The Hero now has the Blood Boil spell as follows:
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Spell with (n) attacks, 12&quot; range, hitting on 4+. [CoK]: When targeting enemy units in cover or with the Stealthy special rule, these attacks hit on a 5+ instead of 4+.</description>
+      <description>Spell with (n) attacks, 12&quot; range, hits on 4+. [CoK]: When targeting enemy units in cover OR with the Stealthy special rule (this includes units in cover WITH the Stealthy special rule), these attacks hit on 5+ instead of 4+.</description>
     </rule>
     <rule id="dc50-fdaa-d751-9cdf" name="Fly" book="KoW" page="73" hidden="false">
       <profiles/>
@@ -4119,7 +4119,7 @@ The Hero now has the Blood Boil spell as follows:
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Spell with (n) attacks, 24&quot; range, Piercing (1), hits on 4+. [CoK]: When targeting enemy units in cover or with the Stealthy special rule, these attacks hit on a 5+ instead of 4+.</description>
+      <description>Spell with (n) attacks, 24&quot; range, Piercing (1), hits on 4+. [CoK]: When targeting enemy units in cover OR with the Stealthy special rule (this includes units in cover WITH the Stealthy special rule), these attacks hit on 5+ instead of 4+.</description>
     </rule>
     <rule id="8e46-1839-2527-43ed" name="Mutated Throwing Mastiff" book="KoW" page="166" hidden="false">
       <profiles/>
@@ -4294,7 +4294,7 @@ The Hero now has the Blood Boil spell as follows:
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>[CoK]: 12&quot; range. Instead of rolling to damage as normal, each roll under the target&apos;s Defence, including rolls of 1, causes a point of damage. This roll cannot be re-rolled or modified in any way. [FAQ]: When targeting enemy units in cover or with the Stealthy special rule, these attacks assume the target has 1 lower Defence.</description>
+      <description>[CoK]: 12&quot; range, hits on 4+. Instead of rolling to damage as normal, each roll under the target&apos;s Defence, including rolls of 1, causes a point of damage. This roll cannot be re-rolled or modified in any way. [FAQ]: When targeting enemy units in cover OR with the Stealthy special rule (this includes units in cover WITH the Stealthy special rule), these attacks hit on 5+ instead of 4+.</description>
     </rule>
     <rule id="5cc2-ea0c-f46d-3e58" name="Drain Life (n)" book="63" page="CoK" hidden="false">
       <profiles/>
