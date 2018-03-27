@@ -1497,7 +1497,7 @@
             <characteristic name="De" characteristicTypeId="2899-5298-2e4b-8d03" value="5+"/>
             <characteristic name="Att" characteristicTypeId="275b-366f-0e83-ac2f" value="9"/>
             <characteristic name="Nerve" characteristicTypeId="8132-2383-7692-1446" value="-/19"/>
-            <characteristic name="Special" characteristicTypeId="b5e6-b66d-3eb8-0493" value="Breath Attack (12), CS (4), Piercing (4), Vicious"/>
+            <characteristic name="Special" characteristicTypeId="b5e6-b66d-3eb8-0493" value="Breath Attack (12), CS (4), Piercing (4), Pathfinder, Vicious"/>
             <characteristic name="Ht" characteristicTypeId="41cb-4d1b-0a59-875a" value="4"/>
           </characteristics>
         </profile>
@@ -1523,6 +1523,12 @@
           <modifiers/>
         </infoLink>
         <infoLink id="9e66-9aef-e9fb-09bb" name="Vicious" hidden="false" targetId="47c7-1334-d1bf-24d9" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="1fb7-ed26-ab13-f558" name="Pathfinder" hidden="false" targetId="0bf5-2b12-5cc7-a963" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2111,7 +2117,7 @@
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
-                  <description>[CoK]: The unit has +1 to its Waver/Nerve value.</description>
+                  <description>[CoK]: The unit has +1 to its Waver value (the first number in Nerve values). [FaQ-ed]</description>
                 </rule>
               </rules>
               <infoLinks/>
@@ -4218,7 +4224,7 @@ The Hero now has the Blood Boil spell as follows:
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Spell with (n) attacks, 12&quot; range, and always hits on 4+ regardless of modifiers. Only usable on friendly units with the Shambling special rule. Hits don&apos;t inflict damage. For every hit caused, the target unit moves straight forward 1&quot;, stopping just out of contact of friendly units and blocking terrain. Treat as a charge against appropriate facing if target unit contacts an enemy unit. Enemy unit won&apos;t take Nerve tests for damage suffered previously in that Shooting phase. If the Surge move took the unit over an obstacle or through difficult terrain then it will be hindered in the ensuing combat as normal. No effect on units with Speed 0.</description>
+      <description>Spell with (n) attacks, 12&quot; range, and always hits on 4+ regardless of modifiers. Only usable on friendly units with the Shambling special rule. Hits don&apos;t inflict damage. For every hit caused, the target unit moves straight forward 1&quot;, stopping just out of contact of friendly units and blocking terrain. Treat as a charge against appropriate facing if target unit contacts an enemy unit. Charged enemy unit won&apos;t take Nerve tests for damage suffered previously in that Shooting phase. If the Surge move took the unit over an obstacle or through difficult terrain then it will be hindered in the ensuing combat as normal. No effect on units with Speed 0. [FAQ]: This movement may take the unit to within 1&quot; of the enemy. However if it is not in melee at the end of the Shooting phase, move it directly away from any enemy units to create a 1&quot; gap (if possible).</description>
     </rule>
     <rule id="a8ce-2f96-b0be-47d6" name="Thunderous Charge (n)" book="KoW" page="75" hidden="false">
       <profiles/>
@@ -4288,7 +4294,7 @@ The Hero now has the Blood Boil spell as follows:
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>[CoK]: 12&quot; range. Instead of rolling to damage as normal, each roll under the target&apos;s Defence, including rolls of 1, causes a point of damage. This roll cannot be re-rolled or modified in any way.</description>
+      <description>[CoK]: 12&quot; range. Instead of rolling to damage as normal, each roll under the target&apos;s Defence, including rolls of 1, causes a point of damage. This roll cannot be re-rolled or modified in any way. [FAQ]: When targeting enemy units in cover or with the Stealthy special rule, these attacks assume the target has 1 lower Defence.</description>
     </rule>
     <rule id="5cc2-ea0c-f46d-3e58" name="Drain Life (n)" book="63" page="CoK" hidden="false">
       <profiles/>

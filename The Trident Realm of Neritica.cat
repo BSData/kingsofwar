@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5910-39f4-66c7-8617" name="Trident Realm" revision="6" battleScribeVersion="2.01" authorName="John (Ekaznae)" authorContact="bsdata.kow@gmail.com" authorUrl="https://github.com/BSData/kingsofwar" gameSystemId="0929-4596-8744-bbda" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="5910-39f4-66c7-8617" name="Trident Realm" revision="7" battleScribeVersion="2.01" authorName="John (Ekaznae)" authorContact="bsdata.kow@gmail.com" authorUrl="https://github.com/BSData/kingsofwar" gameSystemId="0929-4596-8744-bbda" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="bed8-33f6-03e8-0ecc" name="Alignment (Trident Realm): Neutral" hidden="false">
@@ -720,7 +720,7 @@
             <characteristic name="De" characteristicTypeId="f740-753e-918b-0e01" value="3+"/>
             <characteristic name="Att" characteristicTypeId="08b5-9e79-e206-3776" value="15"/>
             <characteristic name="Nerve" characteristicTypeId="5c74-5f95-be17-7fcf" value="10/12"/>
-            <characteristic name="Special" characteristicTypeId="cf8b-64f1-fa58-e6ff" value="Ensnare"/>
+            <characteristic name="Special" characteristicTypeId="cf8b-64f1-fa58-e6ff" value="Ensnare, Stealthy"/>
             <characteristic name="Ht" characteristicTypeId="e5ff-5afe-a1c6-c83a" value="1"/>
           </characteristics>
         </profile>
@@ -728,6 +728,12 @@
       <rules/>
       <infoLinks>
         <infoLink id="033b-ea82-8b20-0813" hidden="false" targetId="3b62-ea44-71f8-1c42" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="ec22-8d74-b39d-3c1f" name="Stealthy" hidden="false" targetId="bdd0-eb1b-bf45-750e" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -775,7 +781,7 @@
             <characteristic name="De" characteristicTypeId="f740-753e-918b-0e01" value="3+"/>
             <characteristic name="Att" characteristicTypeId="08b5-9e79-e206-3776" value="20"/>
             <characteristic name="Nerve" characteristicTypeId="5c74-5f95-be17-7fcf" value="14/16"/>
-            <characteristic name="Special" characteristicTypeId="cf8b-64f1-fa58-e6ff" value="Ensnare"/>
+            <characteristic name="Special" characteristicTypeId="cf8b-64f1-fa58-e6ff" value="Ensnare, Stealthy"/>
             <characteristic name="Ht" characteristicTypeId="e5ff-5afe-a1c6-c83a" value="1"/>
           </characteristics>
         </profile>
@@ -783,6 +789,12 @@
       <rules/>
       <infoLinks>
         <infoLink id="8fd6-4005-75f9-9be5" hidden="false" targetId="3b62-ea44-71f8-1c42" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="1e10-6352-de3a-ac98" name="Stealthy" hidden="false" targetId="bdd0-eb1b-bf45-750e" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2381,7 +2393,7 @@
             <characteristic name="De" characteristicTypeId="85ae-39a9-e23c-37c6" value="4+"/>
             <characteristic name="Att" characteristicTypeId="504e-02d3-f907-9808" value="5"/>
             <characteristic name="Nerve" characteristicTypeId="0ae3-1d1d-8fca-f9ba" value="10/12"/>
-            <characteristic name="Special" characteristicTypeId="d2b1-c5bd-84b0-af9c" value="CS (1), Ensnare, Individual, Inspiring (Thuul only)"/>
+            <characteristic name="Special" characteristicTypeId="d2b1-c5bd-84b0-af9c" value="CS (1), Ensnare, Individual, Inspiring (Thuul only), Stealthy"/>
             <characteristic name="Ht" characteristicTypeId="48e3-d799-d33a-cf8a" value="1"/>
           </characteristics>
         </profile>
@@ -2407,6 +2419,12 @@
           <modifiers/>
         </infoLink>
         <infoLink id="5ace-e1c4-f474-38f2" name="Inspiring" hidden="false" targetId="7c18-e2b7-bc3b-fe10" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="9ba2-3b25-f6eb-f19a" name="Stealthy" hidden="false" targetId="bdd0-eb1b-bf45-750e" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3133,7 +3151,7 @@
 1x Thuul Regiment
 2x Thuul Troops
 1x Thuul Mythican
-Each unit in this formation gains +1 Speed. The Mythican gains Inspiring (Thuul only).</description>
+Each unit in this formation gains +1 Speed.</description>
         </rule>
       </rules>
       <infoLinks/>
