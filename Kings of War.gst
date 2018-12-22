@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="0929-4596-8744-bbda" name="Kings of War 2nd Ed, Clash of Kings 2019" revision="7" battleScribeVersion="2.01" authorName="John (Ekaznae)" authorContact="bsdata.kow@gmail.com" authorUrl="https://github.com/BSData/kingsofwar" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="0929-4596-8744-bbda" name="Kings of War 2nd Ed, Clash of Kings 2019" revision="8" battleScribeVersion="2.01" authorName="John (Ekaznae)" authorContact="bsdata.kow@gmail.com" authorUrl="https://github.com/BSData/kingsofwar" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
