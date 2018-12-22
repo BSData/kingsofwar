@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="63da-aa9d-0746-f9c5" name="Dwarfs" revision="7" battleScribeVersion="2.01" authorName="John (Ekaznae)" authorContact="bsdata.kow@gmail.com" authorUrl="https://github.com/BSData/kingsofwar" gameSystemId="0929-4596-8744-bbda" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="63da-aa9d-0746-f9c5" name="Dwarfs" revision="8" battleScribeVersion="2.01" authorName="John (Ekaznae)" authorContact="bsdata.kow@gmail.com" authorUrl="https://github.com/BSData/kingsofwar" gameSystemId="0929-4596-8744-bbda" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="754a-0057-bc7d-4cb8" name="Alignment (Dwarfs): Good" hidden="false">
@@ -47,6 +47,13 @@
       <constraints/>
       <categoryLinks>
         <categoryLink id="68ba-69ab-f714-e3fa" name="New CategoryLink" hidden="false" targetId="66ef-4d37-b355-388e" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="63a0-1eca-f0ac-0034" name="Troops" hidden="false" targetId="54e7-8b51-37d0-c6da" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -102,6 +109,13 @@
       <constraints/>
       <categoryLinks>
         <categoryLink id="6332-d8bd-67f7-1b62" name="New CategoryLink" hidden="false" targetId="66ef-4d37-b355-388e" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="5754-bd25-d9cb-d681" name="Regiments" hidden="false" targetId="6419-e3ec-770e-899c" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -169,6 +183,13 @@
       <constraints/>
       <categoryLinks>
         <categoryLink id="e805-7af6-bddd-0077" name="New CategoryLink" hidden="false" targetId="66ef-4d37-b355-388e" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="cd0f-91c6-f54e-d997" name="Troops" hidden="false" targetId="54e7-8b51-37d0-c6da" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -266,6 +287,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="f6ef-ad8a-94ce-e62c" name="Regiments" hidden="false" targetId="6419-e3ec-770e-899c" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="d86e-d6bb-3ae2-48e6" name="Dwarven Throwing Mastiff" hidden="false" collective="false" type="upgrade">
@@ -313,7 +341,15 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="cf8b-64f1-fa58-e6ff" value="Big Shield, Headstrong, Phalanx, Iron Resolve">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cca6-1054-6ac0-2bd6" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Sp" characteristicTypeId="4f37-fbb6-fe56-7164" value="4"/>
             <characteristic name="Me" characteristicTypeId="bcc1-ca7e-117a-2d9b" value="4+"/>
@@ -351,6 +387,13 @@
       <constraints/>
       <categoryLinks>
         <categoryLink id="21d7-6f4e-10f8-bbdc" name="New CategoryLink" hidden="false" targetId="66ef-4d37-b355-388e" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="1ff6-c4a1-846b-cb67" name="Hordes/Legions" hidden="false" targetId="d4b6-e8c2-3b9e-61f8" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -436,6 +479,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="ebfa-7ee3-1c52-6d60" name="Troops" hidden="false" targetId="54e7-8b51-37d0-c6da" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="4bbf-0a9c-5f3a-a64b" name="Dwarven Throwing Mastiff" hidden="false" collective="false" type="upgrade">
@@ -483,7 +533,15 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="cf8b-64f1-fa58-e6ff" value="Headstrong, Iron Resolve">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cca6-1054-6ac0-2bd6" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Sp" characteristicTypeId="4f37-fbb6-fe56-7164" value="4"/>
             <characteristic name="Me" characteristicTypeId="bcc1-ca7e-117a-2d9b" value="4+"/>
@@ -509,6 +567,13 @@
       <constraints/>
       <categoryLinks>
         <categoryLink id="e51b-d4a0-2c1b-9eea" name="New CategoryLink" hidden="false" targetId="66ef-4d37-b355-388e" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="900d-962a-717b-d843" name="Regiments" hidden="false" targetId="6419-e3ec-770e-899c" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -588,6 +653,13 @@
       <constraints/>
       <categoryLinks>
         <categoryLink id="daa7-af46-d254-c091" name="New CategoryLink" hidden="false" targetId="66ef-4d37-b355-388e" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="ef8e-5e7d-6cc7-e3ad" name="Hordes/Legions" hidden="false" targetId="d4b6-e8c2-3b9e-61f8" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -675,6 +747,13 @@
       <constraints/>
       <categoryLinks>
         <categoryLink id="0973-27d6-c701-db94" name="New CategoryLink" hidden="false" targetId="66ef-4d37-b355-388e" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="053a-f6a9-8f90-9312" name="Troops" hidden="false" targetId="54e7-8b51-37d0-c6da" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -802,6 +881,13 @@
       <constraints/>
       <categoryLinks>
         <categoryLink id="9f8e-9807-1bb1-6531" name="New CategoryLink" hidden="false" targetId="66ef-4d37-b355-388e" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="cb74-7c76-aaca-980c" name="Regiments" hidden="false" targetId="6419-e3ec-770e-899c" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -939,6 +1025,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="e0d0-550d-52fd-c6cc" name="Troops" hidden="false" targetId="54e7-8b51-37d0-c6da" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -1000,6 +1093,13 @@
       <constraints/>
       <categoryLinks>
         <categoryLink id="fef7-3eb8-42d3-c6c4" name="New CategoryLink" hidden="false" targetId="66ef-4d37-b355-388e" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="7957-f782-75b6-75ab" name="Regiments" hidden="false" targetId="6419-e3ec-770e-899c" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1073,6 +1173,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="560a-95b5-c30a-0bef" name="Hordes/Legions" hidden="false" targetId="d4b6-e8c2-3b9e-61f8" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -1134,6 +1241,13 @@
       <constraints/>
       <categoryLinks>
         <categoryLink id="083a-8ef6-5e56-8906" name="New CategoryLink" hidden="false" targetId="66ef-4d37-b355-388e" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="a4e8-eaf3-c60b-3e11" name="Troops" hidden="false" targetId="54e7-8b51-37d0-c6da" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1207,6 +1321,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="8985-719c-07cb-3ed3" name="Regiments" hidden="false" targetId="6419-e3ec-770e-899c" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -1268,6 +1389,13 @@
       <constraints/>
       <categoryLinks>
         <categoryLink id="8036-0385-13ec-d168" name="New CategoryLink" hidden="false" targetId="66ef-4d37-b355-388e" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="1707-fe8c-3385-94b1" name="Hordes/Legions" hidden="false" targetId="d4b6-e8c2-3b9e-61f8" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1347,6 +1475,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="4f28-e32c-8762-427b" name="Troops" hidden="false" targetId="54e7-8b51-37d0-c6da" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="0f8b-2f76-3b9e-751e" name="Dwarven Throwing Mastiff" hidden="false" collective="false" type="upgrade">
@@ -1394,7 +1529,15 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="cf8b-64f1-fa58-e6ff" value="CS (1), Headstrong, Light Crossbows (Range 24&quot;), Pathfinder, Vanguard, Elite, Stealthy">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9e47-4a0c-a153-0551" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Sp" characteristicTypeId="4f37-fbb6-fe56-7164" value="5"/>
             <characteristic name="Me" characteristicTypeId="bcc1-ca7e-117a-2d9b" value="4+"/>
@@ -1438,6 +1581,13 @@
       <constraints/>
       <categoryLinks>
         <categoryLink id="0562-35fc-d287-ce47" name="New CategoryLink" hidden="false" targetId="66ef-4d37-b355-388e" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="51b6-abcd-bf87-1bbf" name="Regiments" hidden="false" targetId="6419-e3ec-770e-899c" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1535,6 +1685,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="7b86-7306-7465-c81b" name="Troops" hidden="false" targetId="54e7-8b51-37d0-c6da" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -1590,6 +1747,13 @@
       <constraints/>
       <categoryLinks>
         <categoryLink id="3cad-963b-7de9-a199" name="New CategoryLink" hidden="false" targetId="66ef-4d37-b355-388e" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="6171-c822-a95d-cd4a" name="Troops" hidden="false" targetId="54e7-8b51-37d0-c6da" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1681,6 +1845,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="1666-2df6-1f79-2c1f" name="Regiments" hidden="false" targetId="6419-e3ec-770e-899c" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="7d00-9147-8ad3-feb1" name="Dwarven Throwing Mastiff" hidden="false" collective="false" type="upgrade">
@@ -1760,6 +1931,13 @@
       <constraints/>
       <categoryLinks>
         <categoryLink id="42a5-df29-bc9d-d017" name="New CategoryLink" hidden="false" targetId="66ef-4d37-b355-388e" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="b7d5-1c31-84e3-5e03" name="Hordes/Legions" hidden="false" targetId="d4b6-e8c2-3b9e-61f8" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1863,6 +2041,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="8aa4-fb1f-b974-4057" name="Regiments" hidden="false" targetId="6419-e3ec-770e-899c" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -1936,6 +2121,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="dfc5-eca3-c1ef-8ccf" name="Hordes/Legions" hidden="false" targetId="d4b6-e8c2-3b9e-61f8" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -1997,6 +2189,13 @@
       <constraints/>
       <categoryLinks>
         <categoryLink id="f04b-2cb0-fbc3-21e7" name="New CategoryLink" hidden="false" targetId="5604-ed5f-2918-7d18" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="3400-ffae-aea6-262a" name="Troops" hidden="false" targetId="54e7-8b51-37d0-c6da" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2070,6 +2269,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="164c-0e09-f02b-224a" name="Regiments" hidden="false" targetId="6419-e3ec-770e-899c" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -2122,9 +2328,19 @@
         </infoLink>
       </infoLinks>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="fd4f-31f2-ef74-e75e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0572-45df-4f78-298b" type="max"/>
+        <constraint field="selections" scope="832e-ae14-a8a1-04ef" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="08b6-8249-9f3c-67a7" type="max"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="843b-8f8e-1afd-2961" name="New CategoryLink" hidden="false" targetId="a4d6-b3dd-fed5-b916" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="ce45-0127-802d-39be" name="Hero/Mon/WarEng" hidden="false" targetId="1f15-ed91-6655-1da4" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2186,9 +2402,19 @@
         </infoLink>
       </infoLinks>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="fd4f-31f2-ef74-e75e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5db0-e1c0-9bb7-d909" type="max"/>
+        <constraint field="selections" scope="832e-ae14-a8a1-04ef" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b0f9-3514-d655-7e6b" type="max"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="8ef2-1d58-6ab2-0217" name="New CategoryLink" hidden="false" targetId="a4d6-b3dd-fed5-b916" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="ae09-0617-bf16-05de" name="Hero/Mon/WarEng" hidden="false" targetId="1f15-ed91-6655-1da4" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2244,9 +2470,19 @@
         </infoLink>
       </infoLinks>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="fd4f-31f2-ef74-e75e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a85f-7c70-1fec-39f0" type="max"/>
+        <constraint field="selections" scope="832e-ae14-a8a1-04ef" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="349f-4e90-cb4e-584d" type="max"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="a32c-73df-7c07-5b35" name="New CategoryLink" hidden="false" targetId="a4d6-b3dd-fed5-b916" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="4a10-e3e2-bc96-cc16" name="Hero/Mon/WarEng" hidden="false" targetId="1f15-ed91-6655-1da4" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2316,9 +2552,19 @@
         </infoLink>
       </infoLinks>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="fd4f-31f2-ef74-e75e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e1e0-a930-486f-e0dc" type="max"/>
+        <constraint field="selections" scope="832e-ae14-a8a1-04ef" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c89-ea59-269d-719e" type="max"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="04a1-0519-8148-9c61" name="New CategoryLink" hidden="false" targetId="a4d6-b3dd-fed5-b916" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="eb8a-8dbc-d450-e172" name="Hero/Mon/WarEng" hidden="false" targetId="1f15-ed91-6655-1da4" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2374,7 +2620,10 @@
         </infoLink>
       </infoLinks>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="fd4f-31f2-ef74-e75e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="412f-2e06-a047-e8c6" type="max"/>
+        <constraint field="selections" scope="832e-ae14-a8a1-04ef" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed18-3045-29af-c906" type="max"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="d869-e92f-0b47-43d0" name="New CategoryLink" hidden="false" targetId="2236-ee12-e75d-9050" primary="true">
           <profiles/>
@@ -2384,6 +2633,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="c4a9-0929-aeaa-3ded" name="New CategoryLink" hidden="false" targetId="3bb6-ef33-6b6b-e7f2" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="670e-7967-6328-a0e2" name="Hero/Mon/WarEng" hidden="false" targetId="1f15-ed91-6655-1da4" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2462,7 +2718,10 @@
         </infoLink>
       </infoLinks>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="fd4f-31f2-ef74-e75e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a1ca-1994-595a-8838" type="max"/>
+        <constraint field="selections" scope="832e-ae14-a8a1-04ef" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2dd0-b6f5-26a8-7996" type="max"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="cb4c-4a3f-cca8-4640" name="New CategoryLink" hidden="false" targetId="2236-ee12-e75d-9050" primary="true">
           <profiles/>
@@ -2472,6 +2731,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="e0db-2c86-f3cc-1d56" name="New CategoryLink" hidden="false" targetId="3bb6-ef33-6b6b-e7f2" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="a554-0cd9-2689-f943" name="Hero/Mon/WarEng" hidden="false" targetId="1f15-ed91-6655-1da4" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2600,6 +2866,20 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="7d38-53c5-ddd9-b3a3" name="Living Legends" hidden="false" targetId="d69e-ab9d-fe8b-b5eb" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="3160-7afa-3267-4a21" name="Hero/Mon/WarEng" hidden="false" targetId="1f15-ed91-6655-1da4" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -2614,7 +2894,15 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="d2b1-c5bd-84b0-af9c" value="CS (1), Headstrong, Individual, Inspiring, Iron Resolve">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cca6-1054-6ac0-2bd6" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Sp" characteristicTypeId="c716-0f15-9a4f-d7ed" value="4"/>
             <characteristic name="Me" characteristicTypeId="03c9-62d7-bfc7-f9c9" value="3+"/>
@@ -2655,7 +2943,10 @@
         </infoLink>
       </infoLinks>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="fd4f-31f2-ef74-e75e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3bf5-9853-df63-2dd1" type="max"/>
+        <constraint field="selections" scope="832e-ae14-a8a1-04ef" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="31d7-3700-8872-5a91" type="max"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="1d08-a256-8a1e-b4a1" name="New CategoryLink" hidden="false" targetId="2236-ee12-e75d-9050" primary="true">
           <profiles/>
@@ -2665,6 +2956,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="077a-bf20-a9b3-badd" name="New CategoryLink" hidden="false" targetId="3bb6-ef33-6b6b-e7f2" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="982e-c7d2-b3f6-8e4f" name="Hero/Mon/WarEng" hidden="false" targetId="1f15-ed91-6655-1da4" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2741,7 +3039,10 @@
         </infoLink>
       </infoLinks>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="fd4f-31f2-ef74-e75e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0d3d-38b6-bbc4-0d3f" type="max"/>
+        <constraint field="selections" scope="832e-ae14-a8a1-04ef" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e07f-d326-82ec-4c86" type="max"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="8402-91f3-8e1d-3263" name="New CategoryLink" hidden="false" targetId="2236-ee12-e75d-9050" primary="true">
           <profiles/>
@@ -2751,6 +3052,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="b6de-8d86-de8a-cc23" name="New CategoryLink" hidden="false" targetId="3bb6-ef33-6b6b-e7f2" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="2e05-0ddd-4a8e-feb6" name="Hero/Mon/WarEng" hidden="false" targetId="1f15-ed91-6655-1da4" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2821,7 +3129,10 @@
         </infoLink>
       </infoLinks>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="fd4f-31f2-ef74-e75e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb37-424f-8489-1b87" type="max"/>
+        <constraint field="selections" scope="832e-ae14-a8a1-04ef" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="44ce-b915-612f-4fbc" type="max"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="4cb7-2c2b-8ad2-3226" name="New CategoryLink" hidden="false" targetId="2236-ee12-e75d-9050" primary="true">
           <profiles/>
@@ -2831,6 +3142,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="c8d1-0569-a155-c46d" name="New CategoryLink" hidden="false" targetId="3bb6-ef33-6b6b-e7f2" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="3e82-9630-04f9-53f7" name="Hero/Mon/WarEng" hidden="false" targetId="1f15-ed91-6655-1da4" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2939,7 +3257,10 @@
         </infoLink>
       </infoLinks>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="fd4f-31f2-ef74-e75e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c09-e324-6f54-1785" type="max"/>
+        <constraint field="selections" scope="832e-ae14-a8a1-04ef" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8806-8016-5f62-67d2" type="max"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="87e4-6c6d-2aa6-323f" name="New CategoryLink" hidden="false" targetId="2236-ee12-e75d-9050" primary="true">
           <profiles/>
@@ -2949,6 +3270,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="dcf0-2f18-0cbd-f093" name="New CategoryLink" hidden="false" targetId="3bb6-ef33-6b6b-e7f2" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="375b-e29a-4a24-9744" name="Hero/Mon/WarEng" hidden="false" targetId="1f15-ed91-6655-1da4" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3042,6 +3370,20 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="7e37-c6c3-8ecb-d248" name="Living Legends" hidden="false" targetId="d69e-ab9d-fe8b-b5eb" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="2971-00a8-5e89-85a3" name="Hero/Mon/WarEng" hidden="false" targetId="1f15-ed91-6655-1da4" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -3097,9 +3439,19 @@
         </infoLink>
       </infoLinks>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="fd4f-31f2-ef74-e75e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a71-a829-caae-3d04" type="max"/>
+        <constraint field="selections" scope="832e-ae14-a8a1-04ef" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4a03-21da-189e-b71c" type="max"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="b8e6-2fe3-7c24-0481" name="New CategoryLink" hidden="false" targetId="2236-ee12-e75d-9050" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="05c6-0a5f-142f-c560" name="Hero/Mon/WarEng" hidden="false" targetId="1f15-ed91-6655-1da4" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3129,7 +3481,15 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="d2b1-c5bd-84b0-af9c" value="CS (2), Headstrong, Individual, Inspiring (Rangers only), Pathfinder, Piercing (3), Stealthy, The Skewerer (Range 24&quot;), Vanguard, Elite">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9e47-4a0c-a153-0551" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Sp" characteristicTypeId="c716-0f15-9a4f-d7ed" value="5"/>
             <characteristic name="Me" characteristicTypeId="03c9-62d7-bfc7-f9c9" value="3+"/>
@@ -3199,6 +3559,20 @@
       </constraints>
       <categoryLinks>
         <categoryLink id="6f16-7846-a1f3-3f32" name="New CategoryLink" hidden="false" targetId="2236-ee12-e75d-9050" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="aebd-dced-9818-406e" name="Living Legends" hidden="false" targetId="d69e-ab9d-fe8b-b5eb" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="d7a3-0847-46f0-8cf3" name="Hero/Mon/WarEng" hidden="false" targetId="1f15-ed91-6655-1da4" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3275,6 +3649,13 @@
       <constraints/>
       <categoryLinks>
         <categoryLink id="2598-566e-671d-6807" name="New CategoryLink" hidden="false" targetId="66ef-4d37-b355-388e" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="f161-a254-f126-faad" name="Troops" hidden="false" targetId="54e7-8b51-37d0-c6da" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3390,6 +3771,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="7e1a-15c5-3427-fc24" name="Regiments" hidden="false" targetId="6419-e3ec-770e-899c" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="f5fd-cc7f-c37d-2c7d" name="Dwarven Throwing Mastiff" hidden="false" collective="false" type="upgrade">
@@ -3478,9 +3866,19 @@
         </infoLink>
       </infoLinks>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="fd4f-31f2-ef74-e75e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c6a3-1332-eedc-96a2" type="max"/>
+        <constraint field="selections" scope="832e-ae14-a8a1-04ef" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ad8-b5be-f37c-7733" type="max"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="b42e-d929-060e-ea3e" name="New CategoryLink" hidden="false" targetId="6743-3992-17bf-ffd4" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="0e00-0607-42ab-d176" name="Hero/Mon/WarEng" hidden="false" targetId="1f15-ed91-6655-1da4" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3542,9 +3940,19 @@
         </infoLink>
       </infoLinks>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="fd4f-31f2-ef74-e75e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ada9-0975-ddaf-fcb2" type="max"/>
+        <constraint field="selections" scope="832e-ae14-a8a1-04ef" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c9e0-a5eb-6b6e-c551" type="max"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="1a58-6b31-88f7-8075" name="New CategoryLink" hidden="false" targetId="6743-3992-17bf-ffd4" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="b316-beeb-68ef-2177" name="Hero/Mon/WarEng" hidden="false" targetId="1f15-ed91-6655-1da4" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3565,7 +3973,15 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="increment" field="2ccf-bc26-1a66-909a" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b98d-6911-467b-e241" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Sp" characteristicTypeId="2ccf-bc26-1a66-909a" value="4"/>
             <characteristic name="Me" characteristicTypeId="3075-e63d-f393-2605" value="5+"/>
@@ -3573,7 +3989,7 @@
             <characteristic name="De" characteristicTypeId="2899-5298-2e4b-8d03" value="6+"/>
             <characteristic name="Att" characteristicTypeId="275b-366f-0e83-ac2f" value="(D6+20)"/>
             <characteristic name="Nerve" characteristicTypeId="8132-2383-7692-1446" value="18/20"/>
-            <characteristic name="Special" characteristicTypeId="b5e6-b66d-3eb8-0493" value="Base: (50x100mm), Breath Attack (15), CS (3), Headstrong, Piercing (1), Strider"/>
+            <characteristic name="Special" characteristicTypeId="b5e6-b66d-3eb8-0493" value="Base: (50x100mm), Breath Attack (10), CS (3), Headstrong, Piercing (1), Strider"/>
             <characteristic name="Ht" characteristicTypeId="41cb-4d1b-0a59-875a" value="4"/>
           </characteristics>
         </profile>
@@ -3612,9 +4028,19 @@
         </infoLink>
       </infoLinks>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="fd4f-31f2-ef74-e75e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d3af-6b04-082b-0260" type="max"/>
+        <constraint field="selections" scope="832e-ae14-a8a1-04ef" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="21c2-ce74-50a9-0977" type="max"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="4d4a-f685-6b29-50b0" name="New CategoryLink" hidden="false" targetId="6743-3992-17bf-ffd4" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="8bbe-ae45-9057-8fa0" name="Hero/Mon/WarEng" hidden="false" targetId="1f15-ed91-6655-1da4" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3631,20 +4057,20 @@
     </selectionEntry>
     <selectionEntry id="414b-9589-b78a-4c43" name="Banick Kholearm [1]" hidden="false" collective="false" type="unit">
       <profiles>
-        <profile id="46f1-a7ac-7c29-fc82" name="Banick Kholearm [1]" hidden="false" profileTypeId="f71e-c719-35b8-f19f" profileTypeName="Hero (Inf)">
+        <profile id="46f1-a7ac-7c29-fc82" name="Banick Kholearm [1]" book="CoK19" page="37" hidden="false" profileTypeId="67c3-0b57-2f53-f8af" profileTypeName="Hero (Cav)">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Sp" characteristicTypeId="c716-0f15-9a4f-d7ed" value="5"/>
-            <characteristic name="Me" characteristicTypeId="03c9-62d7-bfc7-f9c9" value="3+"/>
-            <characteristic name="Ra" characteristicTypeId="73c5-2040-629d-def0" value="-"/>
-            <characteristic name="De" characteristicTypeId="85ae-39a9-e23c-37c6" value="5+"/>
-            <characteristic name="Att" characteristicTypeId="504e-02d3-f907-9808" value="(D6+6)"/>
-            <characteristic name="Nerve" characteristicTypeId="0ae3-1d1d-8fca-f9ba" value="12/14"/>
-            <characteristic name="Special" characteristicTypeId="d2b1-c5bd-84b0-af9c" value="Base: (25x50mm), Brutal, CS (2), Headstrong, Individual, Vanguard"/>
-            <characteristic name="Ht" characteristicTypeId="48e3-d799-d33a-cf8a" value="1"/>
+            <characteristic name="Sp" characteristicTypeId="8bd7-8d27-2637-0aa1" value="5"/>
+            <characteristic name="Me" characteristicTypeId="7638-0aa9-63c4-f8a2" value="3+"/>
+            <characteristic name="Ra" characteristicTypeId="31c1-a923-3b27-d90f" value="-"/>
+            <characteristic name="De" characteristicTypeId="7c7c-149d-0302-70ae" value="5+"/>
+            <characteristic name="Att" characteristicTypeId="04a8-952e-5b33-b8aa" value="(D6+6)"/>
+            <characteristic name="Nerve" characteristicTypeId="a4c4-6b4d-ae1d-4ea8" value="12/14"/>
+            <characteristic name="Special" characteristicTypeId="7d69-5a27-3df5-ebf5" value="Brutal, CS (2), Headstrong, Individual, Inspiring (Craggoth only), Vanguard"/>
+            <characteristic name="Ht" characteristicTypeId="ee3f-f2ed-6672-98ea" value="1"/>
           </characteristics>
         </profile>
       </profiles>
@@ -3680,6 +4106,12 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
+        <infoLink id="6905-4276-0e30-9706" name="Inspiring" hidden="false" targetId="7c18-e2b7-bc3b-fe10" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
       </infoLinks>
       <modifiers/>
       <constraints>
@@ -3687,6 +4119,20 @@
       </constraints>
       <categoryLinks>
         <categoryLink id="4da0-fdf3-726e-b48b" name="New CategoryLink" hidden="false" targetId="2236-ee12-e75d-9050" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="25e0-c8a6-4edc-017b" name="Living Legends" hidden="false" targetId="d69e-ab9d-fe8b-b5eb" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="9002-0579-05ce-9e7b" name="Hero/Mon/WarEng" hidden="false" targetId="1f15-ed91-6655-1da4" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3701,9 +4147,9 @@
         <cost name="pts" costTypeId="points" value="130.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="fd98-f427-3c55-ff34" name="Craggoth [1]" hidden="false" collective="false" type="unit">
+    <selectionEntry id="fd98-f427-3c55-ff34" name="Craggoth: Greater Earth Elemental [1]" hidden="false" collective="false" type="unit">
       <profiles>
-        <profile id="91a7-1f40-f7b9-c37d" name="Craggoth [1]" hidden="false" profileTypeId="9c15-4092-fcbd-188e" profileTypeName="Mon">
+        <profile id="91a7-1f40-f7b9-c37d" name="Craggoth: Greater Earth Elemental [1]" book="CoK19" page="37" hidden="false" profileTypeId="9c15-4092-fcbd-188e" profileTypeName="Mon">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3759,6 +4205,20 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="a06d-705d-aa08-b022" name="Living Legends" hidden="false" targetId="d69e-ab9d-fe8b-b5eb" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="c9cf-84df-ec57-9773" name="Hero/Mon/WarEng" hidden="false" targetId="1f15-ed91-6655-1da4" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -3767,17 +4227,17 @@
         <cost name="pts" costTypeId="points" value="200.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="cca6-1054-6ac0-2bd6" name="Wall of Iron [1]" hidden="false" collective="false" type="unit">
+    <selectionEntry id="cca6-1054-6ac0-2bd6" name="Wall of Iron" hidden="false" collective="false" type="unit">
       <profiles/>
       <rules>
-        <rule id="4705-3a8d-72cd-b14c" name="Formation: Wall of Iron [1]" hidden="false">
+        <rule id="4705-3a8d-72cd-b14c" name="Formation: Wall of Iron" book="CoK19" page="38" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <description>Formation must contain:
-2x Ironclad Regiments
-1x Bulwarker Horde
+2x Ironclad - Regiments
+1x Bulwarkers - Horde
 1x King
 Each unit in this formation is granted the Iron Resolve special rule.</description>
         </rule>
@@ -3798,21 +4258,55 @@ Each unit in this formation is granted the Iron Resolve special rule.</descripti
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="2920-992a-f271-5dd0" name="Ironclad - Regiment" hidden="false" targetId="c089-237f-2107-e2bb" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ffb6-7b44-fd34-0384" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ff20-c948-6ac0-804b" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="a448-0ff5-77be-966f" name="Bulwarkers - Horde" hidden="false" targetId="73f2-b418-dcc2-6742" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="de2f-16f4-41c4-023a" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8a14-0455-14e5-31ee" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="37e7-4e74-2563-0273" name="King" hidden="false" targetId="37d9-62c7-5298-5a44" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2d9d-0027-4fd7-73e9" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="186d-749e-76d1-b93b" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="20.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9e47-4a0c-a153-0551" name="Herneas&apos; Hunting Party [1]" hidden="false" collective="false" type="unit">
+    <selectionEntry id="9e47-4a0c-a153-0551" name="Herneas&apos; Hunting Party" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules>
-        <rule id="f379-873b-b8ff-8771" name="Formation: Herneas&apos; Hunting Party [1]" hidden="false">
+        <rule id="f379-873b-b8ff-8771" name="Formation: Herneas&apos; Hunting Party" book="CoK19" page="38" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <description>Formation must contain:
-2x Rangers Regiments
+2x Rangers - Regiments
 1x Herneas the Hunter [1]
 Each unit of Rangers in this formation is granted the Elite and Stealthy special rules.</description>
         </rule>
@@ -3833,22 +4327,45 @@ Each unit of Rangers in this formation is granted the Elite and Stealthy special
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="5d9d-9431-fb96-e5c5" name="Rangers - Regiment" hidden="false" targetId="f5c5-258a-e5dc-e59f" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="963c-e62d-901d-2ab2" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="13c5-a548-dd1e-149f" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="cbc6-d97d-c81c-702c" name="Herneas the Hunter [1]" hidden="false" targetId="7e74-7995-d416-ec88" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="401b-3a7a-555a-731b" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c4df-fe25-7041-ee41" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="40.0"/>
+        <cost name="pts" costTypeId="points" value="30.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b98d-6911-467b-e241" name="Golloch&apos;s Thunder [1]" hidden="false" collective="false" type="unit">
+    <selectionEntry id="b98d-6911-467b-e241" name="Golloch&apos;s Thunder" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules>
-        <rule id="503a-ded4-402a-f00b" name="Formation: Golloch&apos;s Thunder [1]" hidden="false">
+        <rule id="503a-ded4-402a-f00b" name="Formation: Golloch&apos;s Thunder" book="CoK19" page="38" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <description>Formation must contain:
 2x Steel Behemoths
-1x Golloch&apos;s Fury: Legendary Steel Behemoth [1]
+1x Golloch&apos;s Fury: Steel Behemoth [1]
 All units in this formation are granted +1 Speed.</description>
         </rule>
       </rules>
@@ -3868,14 +4385,37 @@ All units in this formation are granted +1 Speed.</description>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="569d-6ee9-44f8-b491" name="Golloch&apos;s Fury: Steel Behemoth [1]" hidden="false" targetId="0d85-d318-b1a1-51dd" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4f2d-3226-2f32-0392" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0802-0820-af96-abd9" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="8a17-c892-ea12-7a84" name="Steel Behemoth" hidden="false" targetId="4e58-0618-7145-f501" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0fa9-ba04-26e9-1a01" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="67f8-a9f3-e5e6-4e7f" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="30.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7ae6-d477-96a0-dc3a" name="Mastiff Hunting Pack* - Regiment" hidden="false" collective="false" type="unit">
       <profiles>
-        <profile id="ff28-f3ef-9950-911d" name="Mastiff Hunting Pack* - Regiment" book="CoK" page="51" hidden="false" profileTypeId="5be6-68da-9bad-a10b" profileTypeName="LrgInf">
+        <profile id="ff28-f3ef-9950-911d" name="Mastiff Hunting Pack* - Regiment" book="CoK19" page="37" hidden="false" profileTypeId="5be6-68da-9bad-a10b" profileTypeName="LrgInf">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3898,6 +4438,20 @@ All units in this formation are granted +1 Speed.</description>
       <constraints/>
       <categoryLinks>
         <categoryLink id="8d8d-a5a3-7705-d83f" name="New CategoryLink" hidden="false" targetId="bd55-8ab8-ff86-2463" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="ff86-7f9a-2da7-860e" name="Irregulars" hidden="false" targetId="6731-d255-50a0-0474" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="e3fb-d173-e5f5-4d43" name="Troops" hidden="false" targetId="54e7-8b51-37d0-c6da" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3945,27 +4499,35 @@ All units in this formation are granted +1 Speed.</description>
         <cost name="pts" costTypeId="points" value="65.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0d85-d318-b1a1-51dd" name="Golloch&apos;s Fury: Legendary Steel Behemoth [1]" hidden="false" collective="false" type="unit">
+    <selectionEntry id="0d85-d318-b1a1-51dd" name="Golloch&apos;s Fury: Steel Behemoth [1]" hidden="false" collective="false" type="unit">
       <profiles>
-        <profile id="4c3d-646c-4d62-56de" name="Golloch&apos;s Fury: Legendary Steel Behemoth [1]" book="CoK" page="51" hidden="false" profileTypeId="4079-6c0c-6ae0-8f67" profileTypeName="Hero (Mon)">
+        <profile id="4c3d-646c-4d62-56de" name="Golloch&apos;s Fury: Steel Behemoth [1]" book="CoK19" page="37" hidden="false" profileTypeId="4079-6c0c-6ae0-8f67" profileTypeName="Hero (Mon)">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="increment" field="e561-1ecc-d20e-6713" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b98d-6911-467b-e241" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Sp" characteristicTypeId="e561-1ecc-d20e-6713" value="4"/>
             <characteristic name="Me" characteristicTypeId="f7e8-9d6b-80b7-ff3f" value="5+"/>
             <characteristic name="Ra" characteristicTypeId="7303-c997-b3c7-a340" value="4+*"/>
             <characteristic name="De" characteristicTypeId="65cd-8e6d-82dd-95d3" value="6+"/>
             <characteristic name="Att" characteristicTypeId="2a83-276b-55bb-750c" value="(D6+25)*"/>
-            <characteristic name="Nerve" characteristicTypeId="08c6-8d99-a161-afdf" value="-/20"/>
-            <characteristic name="Special" characteristicTypeId="baeb-f12d-932a-0bae" value="Base: (50x100mm), CS (3), *Golloch&apos;s Gun, Iron Resolve, Piercing (2), Strider, Very Inspiring"/>
+            <characteristic name="Nerve" characteristicTypeId="08c6-8d99-a161-afdf" value="18/20"/>
+            <characteristic name="Special" characteristicTypeId="baeb-f12d-932a-0bae" value="Base: (50x100mm), CS (3), *Golloch&apos;s Gun, Headstrong, Iron Resolve, Piercing (2), Strider, Very Inspiring"/>
             <characteristic name="Ht" characteristicTypeId="f585-d4b5-5d27-214a" value="4"/>
           </characteristics>
         </profile>
       </profiles>
       <rules>
-        <rule id="faea-6998-d914-6438" name="Golloch&apos;s Gun" book="CoK" page="51" hidden="false">
+        <rule id="faea-6998-d914-6438" name="Golloch&apos;s Gun" book="CoK19" page="37" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4004,6 +4566,12 @@ All units in this formation are granted +1 Speed.</description>
           <infoLinks/>
           <modifiers/>
         </infoLink>
+        <infoLink id="3d3d-c0a4-bd6f-39e1" name="Headstrong" hidden="false" targetId="6be6-adad-42c1-637f" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
       </infoLinks>
       <modifiers/>
       <constraints>
@@ -4011,6 +4579,20 @@ All units in this formation are granted +1 Speed.</description>
       </constraints>
       <categoryLinks>
         <categoryLink id="bb4c-4b90-adec-687c" name="New CategoryLink" hidden="false" targetId="2236-ee12-e75d-9050" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="57ef-586f-8fb6-cf97" name="Living Legends" hidden="false" targetId="d69e-ab9d-fe8b-b5eb" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="0631-5088-f80e-05a6" name="Hero/Mon/WarEng" hidden="false" targetId="1f15-ed91-6655-1da4" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4025,32 +4607,229 @@ All units in this formation are granted +1 Speed.</description>
         <cost name="pts" costTypeId="points" value="340.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="ea3b-0893-fec9-7edf" name="Steel Juggernaut" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="db12-dc14-51ee-6268" name="Steel Juggernaut" book="CoK19" page="38" hidden="false" profileTypeId="b808-a790-b9e2-2381" profileTypeName="Hero (LrgInf)">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Sp" characteristicTypeId="9cbe-a90a-d30f-d5c6" value="4"/>
+            <characteristic name="Me" characteristicTypeId="fb39-60eb-480a-439c" value="3+"/>
+            <characteristic name="Ra" characteristicTypeId="194a-32cf-f523-9dff" value="5+"/>
+            <characteristic name="De" characteristicTypeId="fb05-a303-c056-9959" value="6+"/>
+            <characteristic name="Att" characteristicTypeId="d639-a799-5ae4-b39a" value="2"/>
+            <characteristic name="Nerve" characteristicTypeId="7e7a-b36a-ecc7-6857" value="-/13"/>
+            <characteristic name="Special" characteristicTypeId="c97d-7f17-861e-b7db" value="Blast (D3), CS (2), Hand Cannon (Range 24&quot;), Headstrong, Piercing (2), Nimble"/>
+            <characteristic name="Ht" characteristicTypeId="c00c-e91c-357f-f69b" value="1"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="3f39-2406-8c0b-d776" name="Blast (n)" hidden="false" targetId="8c02-8957-63ab-1084" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="968f-31f4-abb6-e2a7" name="Crushing Strength (n)" hidden="false" targetId="3131-8f0a-0927-8489" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="04e6-d3e5-abf2-ec94" name="Piercing (n)" hidden="false" targetId="cc29-8e7d-2a0e-c995" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="a5fe-c82f-46d0-947a" name="Nimble" hidden="false" targetId="b79a-f274-5123-df1d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="eb4c-5b5d-6fb3-f83d" name="Headstrong" hidden="false" targetId="6be6-adad-42c1-637f" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="fd4f-31f2-ef74-e75e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="592e-4137-f11a-a9d4" type="max"/>
+        <constraint field="selections" scope="832e-ae14-a8a1-04ef" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e4fd-538e-19ca-6a70" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="6c71-eaa0-cb71-6fd0" name="New CategoryLink" hidden="false" targetId="2236-ee12-e75d-9050" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="98d4-f61d-e5d0-04e9" name="Hero/Mon/WarEng" hidden="false" targetId="1f15-ed91-6655-1da4" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="4c00-3e40-fec1-f460" name="Magic Artefacts" hidden="false" targetId="6816-61a6-c6f9-a79e" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="120.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ebc8-8328-c452-3ab9" name="Flame Priest" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="c4ca-1929-323f-fd71" name="Flame Priest" book="CoK19" page="38" hidden="false" profileTypeId="f71e-c719-35b8-f19f" profileTypeName="Hero (Inf)">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Sp" characteristicTypeId="c716-0f15-9a4f-d7ed" value="4"/>
+            <characteristic name="Me" characteristicTypeId="03c9-62d7-bfc7-f9c9" value="4+"/>
+            <characteristic name="Ra" characteristicTypeId="73c5-2040-629d-def0" value="-"/>
+            <characteristic name="De" characteristicTypeId="85ae-39a9-e23c-37c6" value="5+"/>
+            <characteristic name="Att" characteristicTypeId="504e-02d3-f907-9808" value="1"/>
+            <characteristic name="Nerve" characteristicTypeId="0ae3-1d1d-8fca-f9ba" value="11/13"/>
+            <characteristic name="Special" characteristicTypeId="d2b1-c5bd-84b0-af9c" value="Fireball (6), Headstrong, Individual"/>
+            <characteristic name="Ht" characteristicTypeId="48e3-d799-d33a-cf8a" value="1"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="a535-0f83-9c3a-1d2a" name="Headstrong" hidden="false" targetId="6be6-adad-42c1-637f" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="bc8e-3bcc-dca7-df7a" name="Individual" hidden="false" targetId="9657-1079-91be-b2bd" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="8ed0-f83a-1e11-e7c7" name="Fireball (n)" hidden="false" targetId="a496-054d-a2d6-47b8" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="fd4f-31f2-ef74-e75e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c08f-cc27-7759-b2c6" type="max"/>
+        <constraint field="selections" scope="832e-ae14-a8a1-04ef" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3cd3-2f72-f755-c1fb" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="ee4e-cb49-8bdd-6ab1" name="New CategoryLink" hidden="false" targetId="2236-ee12-e75d-9050" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="c59e-7962-d085-b635" name="Hero/Mon/WarEng" hidden="false" targetId="1f15-ed91-6655-1da4" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="3f21-a27e-fdac-2e51" name="Individuals" hidden="false" targetId="3bb6-ef33-6b6b-e7f2" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="59e5-5625-769f-2e12" name="Bane-chant (2)" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="722b-a66f-678b-1485" name="Bane Chant (n)" hidden="false" targetId="0faf-9276-c8a0-9bcd" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="641a-e8cc-48d1-f691" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="15.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="3d4d-e125-cade-ced1" name="Fireball (10)" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7858-6dc9-936b-de44" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="15.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="548b-41b6-979a-458a" name="Magic Artefacts" hidden="false" targetId="6816-61a6-c6f9-a79e" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="db97-4348-9f92-205e" name="Clash of Kings Spells - Good" hidden="false" targetId="1b75-4ece-6e5c-c5dc" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="65.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <entryLinks>
-    <entryLink id="8908-7b33-9781-1bc6" name="Danor the Wizard [1]" hidden="false" targetId="2e9a-1297-9274-c4d9" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="3633-7219-b353-2b6e" name="Madriga the Elf [1]" hidden="false" targetId="89f8-b30c-8fd3-e514" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="4012-4e45-1354-7bd8" name="Orlaf the Barbarian [1]" hidden="false" targetId="e11b-8e61-9c46-9c7d" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
     <entryLink id="0905-22d6-d12f-f260" name="Rordin the Dwarf [1]" hidden="false" targetId="2509-b2e2-0beb-2252" type="selectionEntry">
       <profiles/>
       <rules/>
