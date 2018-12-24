@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="0929-4596-8744-bbda" name="KoW - [List MAY be illegal. Count your unlocked units!]" revision="6" battleScribeVersion="2.01" authorName="John (Ekaznae)" authorContact="bsdata.kow@gmail.com" authorUrl="https://github.com/BSData/kingsofwar" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="0929-4596-8744-bbda" name="Kings of War 2nd Ed, Clash of Kings 2019" revision="8" battleScribeVersion="2.01" authorName="John (Ekaznae)" authorContact="bsdata.kow@gmail.com" authorUrl="https://github.com/BSData/kingsofwar" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -197,33 +197,148 @@
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
-      <constraints/>
+      <modifiers>
+        <modifier type="increment" field="f084-e2d4-1704-9447" value="1">
+          <repeats>
+            <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d4b6-e8c2-3b9e-61f8" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6419-e3ec-770e-899c" repeats="1" roundUp="false"/>
+          </repeats>
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f084-e2d4-1704-9447" type="max"/>
+      </constraints>
     </categoryEntry>
     <categoryEntry id="6743-3992-17bf-ffd4" name="Monsters" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
-      <constraints/>
+      <modifiers>
+        <modifier type="increment" field="6d3c-f1fd-0891-8f4a" value="1">
+          <repeats>
+            <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6419-e3ec-770e-899c" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d4b6-e8c2-3b9e-61f8" repeats="1" roundUp="false"/>
+          </repeats>
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6d3c-f1fd-0891-8f4a" type="max"/>
+      </constraints>
     </categoryEntry>
     <categoryEntry id="a4d6-b3dd-fed5-b916" name="War Engines" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
-      <constraints/>
+      <modifiers>
+        <modifier type="increment" field="de6e-3ab8-3743-1ca4" value="1">
+          <repeats>
+            <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6419-e3ec-770e-899c" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d4b6-e8c2-3b9e-61f8" repeats="1" roundUp="false"/>
+          </repeats>
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="de6e-3ab8-3743-1ca4" type="max"/>
+      </constraints>
     </categoryEntry>
     <categoryEntry id="8268-0874-ff47-7871" name="Formations" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="fd4f-31f2-ef74-e75e" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ccc0-3f2d-503c-d373" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="6731-d255-50a0-0474" name="Irregulars" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="fd4f-31f2-ef74-e75e" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2c2d-caae-6648-b413" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="d69e-ab9d-fe8b-b5eb" name="Living Legends" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="fd4f-31f2-ef74-e75e" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="88ba-5763-9efc-be9c" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="54e7-8b51-37d0-c6da" name="Troops" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="increment" field="fad7-f640-cf24-c107" value="2">
+          <repeats>
+            <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6419-e3ec-770e-899c" repeats="1" roundUp="false"/>
+          </repeats>
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="increment" field="fad7-f640-cf24-c107" value="4">
+          <repeats>
+            <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d4b6-e8c2-3b9e-61f8" repeats="1" roundUp="false"/>
+          </repeats>
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="fad7-f640-cf24-c107" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="6419-e3ec-770e-899c" name="Regiments" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
       <constraints/>
+    </categoryEntry>
+    <categoryEntry id="d4b6-e8c2-3b9e-61f8" name="Hordes/Legions" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="1f15-ed91-6655-1da4" name="Hero/Mon/WarEng" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="increment" field="5ecb-cff7-1719-217c" value="3">
+          <repeats>
+            <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d4b6-e8c2-3b9e-61f8" repeats="1" roundUp="false"/>
+          </repeats>
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="increment" field="5ecb-cff7-1719-217c" value="1">
+          <repeats>
+            <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6419-e3ec-770e-899c" repeats="1" roundUp="false"/>
+          </repeats>
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5ecb-cff7-1719-217c" type="max"/>
+      </constraints>
     </categoryEntry>
   </categoryEntries>
   <forceEntries>
-    <forceEntry id="832e-ae14-a8a1-04ef" name="[Main Force]" hidden="false">
+    <forceEntry id="832e-ae14-a8a1-04ef" name="[Main Force] - Max 3 duplicate Hero/Mon/WarEng" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -294,7 +409,9 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="points" scope="roster" value="25.0" percentValue="true" shared="true" includeChildSelections="false" includeChildForces="false" id="460f-8e34-7271-ff97" type="max"/>
+      </constraints>
       <forceEntries/>
       <categoryLinks>
         <categoryLink id="ba40-3c7a-a8e9-d907" name="Cavalry" hidden="false" targetId="5604-ed5f-2918-7d18" primary="false">
@@ -370,7 +487,7 @@
   <sharedSelectionEntries>
     <selectionEntry id="2e9a-1297-9274-c4d9" name="Danor the Wizard [1]" hidden="false" collective="false" type="unit">
       <profiles>
-        <profile id="447e-4682-534a-2f4b" name="Danor the Wizard [1]" hidden="false" profileTypeId="f71e-c719-35b8-f19f" profileTypeName="Hero (Inf)">
+        <profile id="447e-4682-534a-2f4b" name="Danor the Wizard [1]" book="CoK19" page="34, 36, 46, 47" hidden="false" profileTypeId="f71e-c719-35b8-f19f" profileTypeName="Hero (Inf)">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -381,8 +498,8 @@
             <characteristic name="Ra" characteristicTypeId="73c5-2040-629d-def0" value="-"/>
             <characteristic name="De" characteristicTypeId="85ae-39a9-e23c-37c6" value="4+"/>
             <characteristic name="Att" characteristicTypeId="504e-02d3-f907-9808" value="1"/>
-            <characteristic name="Nerve" characteristicTypeId="0ae3-1d1d-8fca-f9ba" value="11/13"/>
-            <characteristic name="Special" characteristicTypeId="d2b1-c5bd-84b0-af9c" value="Bane Chant (1), Destiny of Kings, Energy Focus, Fireball (4), Heal (1), Individual, Lightning Bolt (2), Staff of Silibar, Wind Blast (3)"/>
+            <characteristic name="Nerve" characteristicTypeId="0ae3-1d1d-8fca-f9ba" value="10/12"/>
+            <characteristic name="Special" characteristicTypeId="d2b1-c5bd-84b0-af9c" value="Bane Chant (2), Fireball (4), Heal (2), Individual, Iron Resolve, Lightning Bolt (2), Staff of Silibar, Wind Blast (3)"/>
             <characteristic name="Ht" characteristicTypeId="48e3-d799-d33a-cf8a" value="1"/>
           </characteristics>
         </profile>
@@ -395,22 +512,9 @@
           <modifiers/>
           <description>After using a spell, Danor may immediately use another DIFFERENT spell he possesses, against the same, or a different target. He may continue to do this until he has used each of his spells once in any of his Shoot phases.</description>
         </rule>
-        <rule id="5336-dee6-d391-2434" name="Energy Focus" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>Once per game, Danor can extend the range of one of his spells by 12&quot;.</description>
-        </rule>
       </rules>
       <infoLinks>
-        <infoLink id="7c52-a6a1-a7af-0a46" name="" hidden="false" targetId="f81d-7927-cebd-5ada" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="e8b8-8800-533d-7418" name="" hidden="false" targetId="9657-1079-91be-b2bd" type="rule">
+        <infoLink id="e8b8-8800-533d-7418" name="Individual" hidden="false" targetId="9657-1079-91be-b2bd" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -446,6 +550,12 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
+        <infoLink id="76e0-278e-2dcc-01af" name="Iron Resolve" hidden="false" targetId="6182-5a87-de7a-4f56" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
       </infoLinks>
       <modifiers/>
       <constraints>
@@ -453,6 +563,20 @@
       </constraints>
       <categoryLinks>
         <categoryLink id="3fa8-6b04-a4bb-c215" name="New CategoryLink" hidden="false" targetId="2236-ee12-e75d-9050" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="6030-87ec-06f1-c15b" name="Living Legends" hidden="false" targetId="d69e-ab9d-fe8b-b5eb" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="d1dc-69b6-1834-d328" name="Hero/Mon/WarEng" hidden="false" targetId="1f15-ed91-6655-1da4" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -469,7 +593,7 @@
     </selectionEntry>
     <selectionEntry id="89f8-b30c-8fd3-e514" name="Madriga the Elf [1]" hidden="false" collective="false" type="unit">
       <profiles>
-        <profile id="26f0-b4f1-ef89-0187" name="Madriga the Elf [1]" hidden="false" profileTypeId="f71e-c719-35b8-f19f" profileTypeName="Hero (Inf)">
+        <profile id="26f0-b4f1-ef89-0187" name="Madriga the Elf [1]" book="CoK19" page="40" hidden="false" profileTypeId="f71e-c719-35b8-f19f" profileTypeName="Hero (Inf)">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -481,7 +605,7 @@
             <characteristic name="De" characteristicTypeId="85ae-39a9-e23c-37c6" value="4+"/>
             <characteristic name="Att" characteristicTypeId="504e-02d3-f907-9808" value="3"/>
             <characteristic name="Nerve" characteristicTypeId="0ae3-1d1d-8fca-f9ba" value="11/13"/>
-            <characteristic name="Special" characteristicTypeId="d2b1-c5bd-84b0-af9c" value="Bow (Range 24&quot;), Destiny of Kings, Elite, Individual, Pathfinder, Piercing (1), Stealthy, Trick Shot, Vanguard, Vicious"/>
+            <characteristic name="Special" characteristicTypeId="d2b1-c5bd-84b0-af9c" value="Bow (Range 24&quot;), Elite, Individual, Pathfinder, Piercing (2), Stealthy, Trick Shot, Vanguard, Vicious"/>
             <characteristic name="Ht" characteristicTypeId="48e3-d799-d33a-cf8a" value="1"/>
           </characteristics>
         </profile>
@@ -496,13 +620,7 @@
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="631b-1f5a-8e89-3a4f" name="" hidden="false" targetId="f81d-7927-cebd-5ada" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="78a1-f9d8-a160-3305" name="" hidden="false" targetId="e0d0-5bf9-11c8-b4f1" type="rule">
+        <infoLink id="78a1-f9d8-a160-3305" name="Elite" hidden="false" targetId="e0d0-5bf9-11c8-b4f1" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -557,6 +675,20 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="6f16-2fde-b3dd-bfec" name="Living Legends" hidden="false" targetId="d69e-ab9d-fe8b-b5eb" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="50e2-48ae-4f4d-2a0c" name="Hero/Mon/WarEng" hidden="false" targetId="1f15-ed91-6655-1da4" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -567,7 +699,7 @@
     </selectionEntry>
     <selectionEntry id="e11b-8e61-9c46-9c7d" name="Orlaf the Barbarian [1]" hidden="false" collective="false" type="unit">
       <profiles>
-        <profile id="b204-955e-4bff-89f4" name="Orlaf the Barbarian [1]" hidden="false" profileTypeId="f71e-c719-35b8-f19f" profileTypeName="Hero (Inf)">
+        <profile id="b204-955e-4bff-89f4" name="Orlaf the Barbarian [1]" book="CoK19" page="46, 47, 69" hidden="false" profileTypeId="f71e-c719-35b8-f19f" profileTypeName="Hero (Inf)">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -578,8 +710,8 @@
             <characteristic name="Ra" characteristicTypeId="73c5-2040-629d-def0" value="-"/>
             <characteristic name="De" characteristicTypeId="85ae-39a9-e23c-37c6" value="4+"/>
             <characteristic name="Att" characteristicTypeId="504e-02d3-f907-9808" value="6"/>
-            <characteristic name="Nerve" characteristicTypeId="0ae3-1d1d-8fca-f9ba" value="-/15"/>
-            <characteristic name="Special" characteristicTypeId="d2b1-c5bd-84b0-af9c" value="CS (2), Destiny of Kings, Individual, Unstoppable Whirlwind, Vicious"/>
+            <characteristic name="Nerve" characteristicTypeId="0ae3-1d1d-8fca-f9ba" value="-/16"/>
+            <characteristic name="Special" characteristicTypeId="d2b1-c5bd-84b0-af9c" value="CS (2), Individual, Unstoppable Whirlwind, Vicious"/>
             <characteristic name="Ht" characteristicTypeId="48e3-d799-d33a-cf8a" value="1"/>
           </characteristics>
         </profile>
@@ -590,17 +722,11 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Once per game, declare you are using this ability just before you attack in a melee. For the rest of this Melee phase, Orlaf has 12 Attacks instead of 6.</description>
+          <description>Once per game, declare you are using this ability just before your attack in a melee. For the rest of this Melee phase, Orlaf has 12 Attacks instead of 6.</description>
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="2b87-22bd-4336-e847" name="" hidden="false" targetId="f81d-7927-cebd-5ada" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="b997-7971-4ea3-d5be" name="" hidden="false" targetId="9657-1079-91be-b2bd" type="rule">
+        <infoLink id="b997-7971-4ea3-d5be" name="Individual" hidden="false" targetId="9657-1079-91be-b2bd" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -631,6 +757,20 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="1326-031a-5d29-01ce" name="Living Legends" hidden="false" targetId="d69e-ab9d-fe8b-b5eb" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="b647-7dfb-326a-19e5" name="Hero/Mon/WarEng" hidden="false" targetId="1f15-ed91-6655-1da4" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -641,7 +781,7 @@
     </selectionEntry>
     <selectionEntry id="2509-b2e2-0beb-2252" name="Rordin the Dwarf [1]" hidden="false" collective="false" type="unit">
       <profiles>
-        <profile id="e352-8523-aab3-ab37" name="Rordin the Dwarf [1]" hidden="false" profileTypeId="f71e-c719-35b8-f19f" profileTypeName="Hero (Inf)">
+        <profile id="e352-8523-aab3-ab37" name="Rordin the Dwarf [1]" book="CoK19" page="37" hidden="false" profileTypeId="f71e-c719-35b8-f19f" profileTypeName="Hero (Inf)">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -651,9 +791,9 @@
             <characteristic name="Me" characteristicTypeId="03c9-62d7-bfc7-f9c9" value="3+"/>
             <characteristic name="Ra" characteristicTypeId="73c5-2040-629d-def0" value="-"/>
             <characteristic name="De" characteristicTypeId="85ae-39a9-e23c-37c6" value="6+"/>
-            <characteristic name="Att" characteristicTypeId="504e-02d3-f907-9808" value="4"/>
+            <characteristic name="Att" characteristicTypeId="504e-02d3-f907-9808" value="5"/>
             <characteristic name="Nerve" characteristicTypeId="0ae3-1d1d-8fca-f9ba" value="12/14"/>
-            <characteristic name="Special" characteristicTypeId="d2b1-c5bd-84b0-af9c" value="CS (3), Destiny of Kings, Headstrong, Individual, Inspiring (Dwarfs Army List only), Now I&apos;m Angry"/>
+            <characteristic name="Special" characteristicTypeId="d2b1-c5bd-84b0-af9c" value="CS (3), Headstrong, Individual, Inspiring, Now I&apos;m Angry"/>
             <characteristic name="Ht" characteristicTypeId="48e3-d799-d33a-cf8a" value="1"/>
           </characteristics>
         </profile>
@@ -668,13 +808,7 @@
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="b3d0-f4fa-8327-fb05" name="" hidden="false" targetId="f81d-7927-cebd-5ada" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="46a1-c2e5-6b13-184f" name="" hidden="false" targetId="6be6-adad-42c1-637f" type="rule">
+        <infoLink id="46a1-c2e5-6b13-184f" name="Headstrong" hidden="false" targetId="6be6-adad-42c1-637f" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -711,6 +845,20 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="fbe1-b202-f5a0-28f1" name="Living Legends" hidden="false" targetId="d69e-ab9d-fe8b-b5eb" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="2253-4df5-148c-306e" name="Hero/Mon/WarEng" hidden="false" targetId="1f15-ed91-6655-1da4" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -721,7 +869,7 @@
     </selectionEntry>
     <selectionEntry id="e83f-5167-82b7-9a17" name="The Spirit of Valandor [1]" hidden="false" collective="false" type="unit">
       <profiles>
-        <profile id="e1d6-4bf2-de4f-f01f" name="The Spirit of Valandor [1]" hidden="false" profileTypeId="b808-a790-b9e2-2381" profileTypeName="Hero (LrgInf)">
+        <profile id="e1d6-4bf2-de4f-f01f" name="The Spirit of Valandor [1]" book="CoK19" page="34, 36" hidden="false" profileTypeId="b808-a790-b9e2-2381" profileTypeName="Hero (LrgInf)">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -730,43 +878,37 @@
             <characteristic name="Sp" characteristicTypeId="9cbe-a90a-d30f-d5c6" value="10"/>
             <characteristic name="Me" characteristicTypeId="fb39-60eb-480a-439c" value="3+"/>
             <characteristic name="Ra" characteristicTypeId="194a-32cf-f523-9dff" value="-"/>
-            <characteristic name="De" characteristicTypeId="fb05-a303-c056-9959" value="5+"/>
-            <characteristic name="Att" characteristicTypeId="d639-a799-5ae4-b39a" value="6"/>
+            <characteristic name="De" characteristicTypeId="fb05-a303-c056-9959" value="6+"/>
+            <characteristic name="Att" characteristicTypeId="d639-a799-5ae4-b39a" value="9"/>
             <characteristic name="Nerve" characteristicTypeId="7e7a-b36a-ecc7-6857" value="-/17"/>
-            <characteristic name="Special" characteristicTypeId="c97d-7f17-861e-b7db" value="CS (2), Destiny of Kings, Fly, Heal (6), Healing Aura, Iron Resolve, Rallying! (1), TC (1), Very Inspiring"/>
+            <characteristic name="Special" characteristicTypeId="c97d-7f17-861e-b7db" value="CS (3), Elite, Fly, Aura of Illumination, Iron Resolve, Very Inspiring"/>
             <characteristic name="Ht" characteristicTypeId="c00c-e91c-357f-f69b" value="2"/>
           </characteristics>
         </profile>
       </profiles>
       <rules>
-        <rule id="364a-4368-f6f8-3463" name="Healing Aura" hidden="false">
+        <rule id="364a-4368-f6f8-3463" name="Aura of Illumination" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Instead of casting his Heal (6) spell, Valandor may instead cast Heal (3) on all friendly, non-allied units within 6&quot; of him. Roll for each unit separately.</description>
+          <description>When this unit is given an order, all friendly non-allied units within 6&quot; of this unit may immediately remove a point of damage previously suffered.</description>
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="868e-9232-372c-1ac7" name="" hidden="false" targetId="f81d-7927-cebd-5ada" type="rule">
+        <infoLink id="fa40-802d-9153-faae" name="Fly" hidden="false" targetId="dc50-fdaa-d751-9cdf" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="fa40-802d-9153-faae" name="" hidden="false" targetId="dc50-fdaa-d751-9cdf" type="rule">
+        <infoLink id="7c80-a5d5-fb41-b2af" name="Iron Resolve" hidden="false" targetId="6182-5a87-de7a-4f56" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="7c80-a5d5-fb41-b2af" name="" hidden="false" targetId="6182-5a87-de7a-4f56" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="243d-3b90-ee08-af0b" name="" hidden="false" targetId="10ed-04da-d879-ce2e" type="rule">
+        <infoLink id="243d-3b90-ee08-af0b" name="Very Inspiring" hidden="false" targetId="10ed-04da-d879-ce2e" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -778,19 +920,7 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="d559-1929-ecbb-dc4e" name="Heal (n)" hidden="false" targetId="a125-9eee-fc99-05f7" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="a729-e535-3059-1a91" name="Rallying! (n)" hidden="false" targetId="a621-0f14-db61-f580" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="015a-ce25-5dcb-c06e" name="Thunderous Charge (n)" hidden="false" targetId="a8ce-2f96-b0be-47d6" type="rule">
+        <infoLink id="b289-bace-2b7c-7603" name="Elite" hidden="false" targetId="e0d0-5bf9-11c8-b4f1" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -809,37 +939,26 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="7016-8a52-159f-61d7" name="Hero of Renown" hidden="false" collective="false" type="upgrade">
+        <categoryLink id="770b-f5b0-c438-28ad" name="Living Legends" hidden="false" targetId="d69e-ab9d-fe8b-b5eb" primary="false">
           <profiles/>
-          <rules>
-            <rule id="2da5-3810-212e-dcd1" name="Hero of Renown" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <description>This unit’s Inspiring special rule also affects allied units in the same army.</description>
-            </rule>
-          </rules>
+          <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4572-9275-60ab-1374" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="50.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="c54c-92cc-09d5-fb89" name="Hero/Mon/WarEng" hidden="false" targetId="1f15-ed91-6655-1da4" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="375.0"/>
+        <cost name="pts" costTypeId="points" value="340.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1b2c-989e-137b-1386" name="Ba&apos;su&apos;su the Vile [1]" hidden="false" collective="false" type="unit">
@@ -912,6 +1031,20 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="394c-f69c-5f6c-9a70" name="Living Legends" hidden="false" targetId="d69e-ab9d-fe8b-b5eb" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="13bb-72e8-1014-b6b9" name="Hero/Mon/WarEng" hidden="false" targetId="1f15-ed91-6655-1da4" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -967,9 +1100,32 @@
         </infoLink>
       </infoLinks>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9982-7b55-bb58-4001" type="max"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="0a11-439b-96d3-ac93" name="New CategoryLink" hidden="false" targetId="66ef-4d37-b355-388e" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="b922-d9fb-9fe4-9486" name="Irregular Allied Constraint" hidden="false" targetId="6731-d255-50a0-0474" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="1311-a950-dc2a-f401" name="Living Legends" hidden="false" targetId="d69e-ab9d-fe8b-b5eb" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="4b2b-07a7-0de2-63ee" name="Troops" hidden="false" targetId="54e7-8b51-37d0-c6da" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -980,7 +1136,7 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="bb19-a3fb-5a22-6731" name="Artefacts" hidden="false" targetId="6816-61a6-c6f9-a79e" type="selectionEntryGroup">
+        <entryLink id="bb19-a3fb-5a22-6731" name="Magic Artefacts" hidden="false" targetId="6816-61a6-c6f9-a79e" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -995,7 +1151,7 @@
     </selectionEntry>
     <selectionEntry id="ea07-ed45-8a82-5b9b" name="Mortibris the Necromancer [1]" hidden="false" collective="false" type="unit">
       <profiles>
-        <profile id="d008-807b-cb0b-2a2d" name="Mortibris the Necromancer [1]" hidden="false" profileTypeId="f71e-c719-35b8-f19f" profileTypeName="Hero (Inf)">
+        <profile id="d008-807b-cb0b-2a2d" name="Mortibris the Necromancer [1]" book="CoK19" page="54, 67" hidden="false" profileTypeId="f71e-c719-35b8-f19f" profileTypeName="Hero (Inf)">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1007,7 +1163,7 @@
             <characteristic name="De" characteristicTypeId="85ae-39a9-e23c-37c6" value="4+"/>
             <characteristic name="Att" characteristicTypeId="504e-02d3-f907-9808" value="1"/>
             <characteristic name="Nerve" characteristicTypeId="0ae3-1d1d-8fca-f9ba" value="15/17"/>
-            <characteristic name="Special" characteristicTypeId="d2b1-c5bd-84b0-af9c" value="Bane Chant (2), Chill Mist, Destiny of Kings, Heal (5), Individual, Inspiring, Lifeleech (1), Lightning Bolt (4), Regen (5+), Stealthy, Surge (10)"/>
+            <characteristic name="Special" characteristicTypeId="d2b1-c5bd-84b0-af9c" value="Bane Chant (2), Chill Mist, Heal (5), Individual, Inspiring, Lifeleech (1), Lightning Bolt (4), Regen (5+), Stealthy, Surge (10)"/>
             <characteristic name="Ht" characteristicTypeId="48e3-d799-d33a-cf8a" value="1"/>
           </characteristics>
         </profile>
@@ -1022,12 +1178,6 @@
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="367a-55c9-5bd7-5003" name="Destiny of Kings" hidden="false" targetId="f81d-7927-cebd-5ada" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
         <infoLink id="2383-790d-6331-8bd2" name="Individual" hidden="false" targetId="9657-1079-91be-b2bd" type="rule">
           <profiles/>
           <rules/>
@@ -1095,33 +1245,22 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="7e43-1297-4d3a-6d79" name="Hero of Renown" hidden="false" collective="false" type="upgrade">
+        <categoryLink id="1fdb-6171-2195-cefa" name="Living Legends" hidden="false" targetId="d69e-ab9d-fe8b-b5eb" primary="false">
           <profiles/>
-          <rules>
-            <rule id="940c-cfd9-8491-428a" name="Hero of Renown" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <description>This unit’s Inspiring special rule also affects allied units in the same army.</description>
-            </rule>
-          </rules>
+          <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="35b9-ee4f-cea7-3f9b" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="50.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="61b2-3997-56c5-0e2b" name="Hero/Mon/WarEng" hidden="false" targetId="1f15-ed91-6655-1da4" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
@@ -1198,6 +1337,20 @@
       </constraints>
       <categoryLinks>
         <categoryLink id="09a0-6d8d-99f6-7609" name="New CategoryLink" hidden="false" targetId="2236-ee12-e75d-9050" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="881f-3ce4-1a2b-e160" name="Living Legends" hidden="false" targetId="d69e-ab9d-fe8b-b5eb" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="a8e9-5d5b-5fb1-700a" name="Hero/Mon/WarEng" hidden="false" targetId="1f15-ed91-6655-1da4" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1322,9 +1475,25 @@
         </infoLink>
       </infoLinks>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c16d-5772-86ab-5771" type="max"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="5b64-baa3-d112-c098" name="New CategoryLink" hidden="false" targetId="66ef-4d37-b355-388e" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="15e5-aa4e-b0d6-1e76" name="Living Legends" hidden="false" targetId="d69e-ab9d-fe8b-b5eb" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="4628-c115-89b1-b6e0" name="Regiments" hidden="false" targetId="6419-e3ec-770e-899c" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1335,7 +1504,7 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="250a-1e3a-763c-34dd" name="Artefacts" hidden="false" targetId="6816-61a6-c6f9-a79e" type="selectionEntryGroup">
+        <entryLink id="250a-1e3a-763c-34dd" name="Magic Artefacts" hidden="false" targetId="6816-61a6-c6f9-a79e" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1350,7 +1519,7 @@
     </selectionEntry>
     <selectionEntry id="eee8-6df9-e0ea-d962" name="Demon Lord Ba&apos;el, Bane of the Mortal Kingdoms [1]" hidden="false" collective="false" type="unit">
       <profiles>
-        <profile id="0500-fc97-7583-b2a2" name="Demon Lord Ba&apos;el, Bane of the Mortal Kingdoms [1]" hidden="false" profileTypeId="b808-a790-b9e2-2381" profileTypeName="Hero (LrgInf)">
+        <profile id="0500-fc97-7583-b2a2" name="Demon Lord Ba&apos;el, Bane of the Mortal Kingdoms [1]" book="CoK19" page="58" hidden="false" profileTypeId="b808-a790-b9e2-2381" profileTypeName="Hero (LrgInf)">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1361,8 +1530,8 @@
             <characteristic name="Ra" characteristicTypeId="194a-32cf-f523-9dff" value="-"/>
             <characteristic name="De" characteristicTypeId="fb05-a303-c056-9959" value="5+"/>
             <characteristic name="Att" characteristicTypeId="d639-a799-5ae4-b39a" value="9"/>
-            <characteristic name="Nerve" characteristicTypeId="7e7a-b36a-ecc7-6857" value="16/19"/>
-            <characteristic name="Special" characteristicTypeId="c97d-7f17-861e-b7db" value="Brutal, CS (2), Destiny of Kings, Fly, From the Pit I Curse Thee!, Fury, Inspiring, Lightning Bolt (5), Regen (5+), TC (2), Vicious"/>
+            <characteristic name="Nerve" characteristicTypeId="7e7a-b36a-ecc7-6857" value="17/19"/>
+            <characteristic name="Special" characteristicTypeId="c97d-7f17-861e-b7db" value="Brutal, CS (2), Fly, From the Pit I Curse Thee!, Fury, Inspiring, Lightning Bolt (5), Regen (5+), TC (2), Vicious"/>
             <characteristic name="Ht" characteristicTypeId="c00c-e91c-357f-f69b" value="2"/>
           </characteristics>
         </profile>
@@ -1384,12 +1553,6 @@
           <modifiers/>
         </infoLink>
         <infoLink id="9e2b-bd81-0ee9-9e02" name="Crushing Strength (n)" hidden="false" targetId="3131-8f0a-0927-8489" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="de7c-9016-5b7f-5117" name="Destiny of Kings" hidden="false" targetId="f81d-7927-cebd-5ada" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1450,33 +1613,22 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="b74e-0eda-6977-d2e7" name="Hero of Renown" hidden="false" collective="false" type="upgrade">
+        <categoryLink id="abca-bfa2-5877-9ac2" name="Living Legends" hidden="false" targetId="d69e-ab9d-fe8b-b5eb" primary="false">
           <profiles/>
-          <rules>
-            <rule id="e4bd-3799-e387-148d" name="Hero of Renown" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <description>This unit’s Inspiring special rule also affects allied units in the same army.</description>
-            </rule>
-          </rules>
+          <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9cec-c9fa-b3bb-5588" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="50.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="6579-fbab-3c34-179e" name="Hero/Mon/WarEng" hidden="false" targetId="1f15-ed91-6655-1da4" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
@@ -1485,7 +1637,7 @@
     </selectionEntry>
     <selectionEntry id="c633-33c7-fc32-5e7b" name="Agnih-Bhanu, Greater Fire Elemental [1]" hidden="false" collective="false" type="unit">
       <profiles>
-        <profile id="4e71-7a38-6228-080a" name="Agnih-Bhanu, Greater Fire Elemental [1]" book="CoK" page="54" hidden="false" profileTypeId="9c15-4092-fcbd-188e" profileTypeName="Mon">
+        <profile id="4e71-7a38-6228-080a" name="Agnih-Bhanu, Greater Fire Elemental [1]" book="CoK19" page="41, 44" hidden="false" profileTypeId="9c15-4092-fcbd-188e" profileTypeName="Mon">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1497,7 +1649,7 @@
             <characteristic name="De" characteristicTypeId="2899-5298-2e4b-8d03" value="5+"/>
             <characteristic name="Att" characteristicTypeId="275b-366f-0e83-ac2f" value="9"/>
             <characteristic name="Nerve" characteristicTypeId="8132-2383-7692-1446" value="-/19"/>
-            <characteristic name="Special" characteristicTypeId="b5e6-b66d-3eb8-0493" value="Breath Attack (12), CS (4), Piercing (4), Pathfinder, Vicious"/>
+            <characteristic name="Special" characteristicTypeId="b5e6-b66d-3eb8-0493" value="Breath Attack (12), CS (4), Pathfinder, Piercing (4), Strider, Vicious"/>
             <characteristic name="Ht" characteristicTypeId="41cb-4d1b-0a59-875a" value="4"/>
           </characteristics>
         </profile>
@@ -1534,6 +1686,12 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
+        <infoLink id="0334-d353-55b9-b6e7" name="Strider" hidden="false" targetId="e70c-1148-97d1-9348" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
       </infoLinks>
       <modifiers/>
       <constraints>
@@ -1541,6 +1699,20 @@
       </constraints>
       <categoryLinks>
         <categoryLink id="3ae5-4f01-3c78-b093" name="New CategoryLink" hidden="false" targetId="6743-3992-17bf-ffd4" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="b933-6a07-c792-7f44" name="Living Legends" hidden="false" targetId="d69e-ab9d-fe8b-b5eb" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="7203-b20a-aed1-bdc7" name="Hero/Mon/WarEng" hidden="false" targetId="1f15-ed91-6655-1da4" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1557,7 +1729,7 @@
     </selectionEntry>
     <selectionEntry id="de82-b570-f488-3069" name="Apaphys, Champion of Death [1]" hidden="false" collective="false" type="unit">
       <profiles>
-        <profile id="e4a6-94d0-1833-c21b" name="Apaphys, Champion of Death [1]" book="CoK" page="57" hidden="false" profileTypeId="4079-6c0c-6ae0-8f67" profileTypeName="Hero (Mon)">
+        <profile id="e4a6-94d0-1833-c21b" name="Apaphys, Champion of Death [1]" book="CoK19" page="55, 67" hidden="false" profileTypeId="4079-6c0c-6ae0-8f67" profileTypeName="Hero (Mon)">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1575,9 +1747,9 @@
             <characteristic name="Me" characteristicTypeId="f7e8-9d6b-80b7-ff3f" value="4+"/>
             <characteristic name="Ra" characteristicTypeId="7303-c997-b3c7-a340" value="-"/>
             <characteristic name="De" characteristicTypeId="65cd-8e6d-82dd-95d3" value="5+"/>
-            <characteristic name="Att" characteristicTypeId="2a83-276b-55bb-750c" value="10"/>
-            <characteristic name="Nerve" characteristicTypeId="08c6-8d99-a161-afdf" value="18/20"/>
-            <characteristic name="Special" characteristicTypeId="baeb-f12d-932a-0bae" value="Base: (75x75mm), CS (3), Drain Life (6), Elite, Lifeleech (1), Surge (6), Very Inspiring"/>
+            <characteristic name="Att" characteristicTypeId="2a83-276b-55bb-750c" value="12"/>
+            <characteristic name="Nerve" characteristicTypeId="08c6-8d99-a161-afdf" value="-/21"/>
+            <characteristic name="Special" characteristicTypeId="baeb-f12d-932a-0bae" value="Base: (75x75mm), CS (3), Drain Life (6), Dread, Elite, Lifeleech (1), Surge (8), Very Inspiring"/>
             <characteristic name="Ht" characteristicTypeId="f585-d4b5-5d27-214a" value="4"/>
           </characteristics>
         </profile>
@@ -1620,6 +1792,12 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
+        <infoLink id="2b69-2572-55f3-55e6" name="Dread" hidden="false" targetId="aeda-9ce3-1c58-5e26" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
       </infoLinks>
       <modifiers/>
       <constraints>
@@ -1633,30 +1811,44 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="677f-01ce-e3e9-92a3" name="Living Legends" hidden="false" targetId="d69e-ab9d-fe8b-b5eb" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="c548-be81-4e30-dd3f" name="Hero/Mon/WarEng" hidden="false" targetId="1f15-ed91-6655-1da4" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="8a99-4294-6f6d-4bd0" name="Winged Wyrm" hidden="false" collective="false" type="upgrade">
           <profiles>
-            <profile id="dd92-f5f8-0287-39c3" name="Apaphys, Champion of Death on Winged Wyrm [1]" book="CoK" page="57" hidden="false" profileTypeId="4079-6c0c-6ae0-8f67" profileTypeName="Hero (Mon)">
+            <profile id="dd92-f5f8-0287-39c3" name="Apaphys, Champion of Death on Winged Wyrm [1]" book="CoK19" page="55, 67" hidden="false" profileTypeId="4079-6c0c-6ae0-8f67" profileTypeName="Hero (Mon)">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Sp" characteristicTypeId="e561-1ecc-d20e-6713" value="7"/>
+                <characteristic name="Sp" characteristicTypeId="e561-1ecc-d20e-6713" value="10"/>
                 <characteristic name="Me" characteristicTypeId="f7e8-9d6b-80b7-ff3f" value="4+"/>
                 <characteristic name="Ra" characteristicTypeId="7303-c997-b3c7-a340" value="-"/>
                 <characteristic name="De" characteristicTypeId="65cd-8e6d-82dd-95d3" value="5+"/>
-                <characteristic name="Att" characteristicTypeId="2a83-276b-55bb-750c" value="10"/>
-                <characteristic name="Nerve" characteristicTypeId="08c6-8d99-a161-afdf" value="18/20"/>
-                <characteristic name="Special" characteristicTypeId="baeb-f12d-932a-0bae" value="Base: (75x75mm), CS (3), Drain Life (6), Elite, Heavy Flier, Lifeleech (1), Surge (6), Very Inspiring"/>
+                <characteristic name="Att" characteristicTypeId="2a83-276b-55bb-750c" value="12"/>
+                <characteristic name="Nerve" characteristicTypeId="08c6-8d99-a161-afdf" value="-/21"/>
+                <characteristic name="Special" characteristicTypeId="baeb-f12d-932a-0bae" value="Base: (75x75mm), CS (3), Drain Life (6), Dread, Elite, Fly, Lifeleech (1), Surge (8), Very Inspiring"/>
                 <characteristic name="Ht" characteristicTypeId="f585-d4b5-5d27-214a" value="4"/>
               </characteristics>
             </profile>
           </profiles>
           <rules/>
           <infoLinks>
-            <infoLink id="9a07-667b-05dd-e309" name="Heavy Flier" hidden="false" targetId="e015-7183-a222-1fa4" type="rule">
+            <infoLink id="ec8c-6b5a-5b53-40fb" name="Fly" hidden="false" targetId="dc50-fdaa-d751-9cdf" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -1672,14 +1864,14 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="points" value="30.0"/>
+            <cost name="pts" costTypeId="points" value="50.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="275.0"/>
+        <cost name="pts" costTypeId="points" value="265.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c9fa-3e6d-323a-1491" name="Blaine [1]" hidden="false" collective="false" type="unit">
@@ -1748,6 +1940,20 @@
       </constraints>
       <categoryLinks>
         <categoryLink id="7e5f-4bd4-8c38-0e6d" name="New CategoryLink" hidden="false" targetId="2236-ee12-e75d-9050" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="acf5-cb16-5617-19fa" name="Living Legends" hidden="false" targetId="d69e-ab9d-fe8b-b5eb" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="f2c0-a5c6-4728-7d46" name="Hero/Mon/WarEng" hidden="false" targetId="1f15-ed91-6655-1da4" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1867,6 +2073,20 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="2898-c5a2-a24e-0e69" name="Living Legends" hidden="false" targetId="d69e-ab9d-fe8b-b5eb" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="d355-41a4-eaf1-4488" name="Hero/Mon/WarEng" hidden="false" targetId="1f15-ed91-6655-1da4" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -1921,6 +2141,20 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="31e4-998d-6045-baeb" name="Living Legends" hidden="false" targetId="d69e-ab9d-fe8b-b5eb" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="37c1-d08b-b9cd-f13d" name="Hero/Mon/WarEng" hidden="false" targetId="1f15-ed91-6655-1da4" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -1935,7 +2169,22 @@
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="c437-6b03-9e17-78e2" value="0.0">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fd4f-31f2-ef74-e75e" type="instanceOf"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fd4f-31f2-ef74-e75e" type="instanceOf"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7ea9-baf0-89b2-e1bb" type="min"/>
         <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c437-6b03-9e17-78e2" type="max"/>
@@ -2087,7 +2336,7 @@
             <selectionEntry id="cd73-e3bb-f35d-ae02" name="Healing Brew" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules>
-                <rule id="9571-b892-1ea3-2919" name="Healing Brew" book="CoK" page="61" hidden="false">
+                <rule id="9571-b892-1ea3-2919" name="Healing Brew" book="CoK19" page="27" hidden="false">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -2112,7 +2361,7 @@
             <selectionEntry id="ddc8-58b8-2748-c439" name="Staying Stone" book="" page="" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules>
-                <rule id="6cb0-9a9c-07eb-69ed" name="Staying Stone" book="CoK" page="61" hidden="false">
+                <rule id="6cb0-9a9c-07eb-69ed" name="Staying Stone" book="CoK19" page="27" hidden="false">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -2125,6 +2374,31 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="616b-0912-fc38-c0d0" type="max"/>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7aef-d780-69c4-722a" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="5e56-772d-d1c5-1d36" name="Orcish Skullpole" book="" page="" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules>
+                <rule id="4bec-84b3-ed23-4304" name="Orcish Skullpole" book="CoK19" page="27" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>[CoK]: The unit gains the Brutal special rule. If the unit causes damage in melee, at the end of the Melee phase it must roll a single die. On 3 or less, the Skullpole is destroyed.</description>
+                </rule>
+              </rules>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6023-8896-13bb-2bc4" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa53-82d0-5a41-7839" type="max"/>
               </constraints>
               <categoryLinks/>
               <selectionEntries/>
@@ -2340,7 +2614,7 @@
             <selectionEntry id="62e9-260e-6b9c-9f00" name="Chalice of Wrath" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules>
-                <rule id="6a79-b02f-0f29-2f53" name="Chalice of Wrath" book="CoK" page="61" hidden="false">
+                <rule id="6a79-b02f-0f29-2f53" name="Chalice of Wrath" book="CoK19" page="27" hidden="false">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -2360,6 +2634,63 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7aca-b28e-ed55-cc73" type="max"/>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3d72-3263-caba-f2db" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="15.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="660f-e105-b6fd-9500" name="Whip of Celerity" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules>
+                <rule id="7828-23d7-7fed-7060" name="Whip of Celerity" book="CoK19" page="27" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>[CoK]: While declaring and measuring a charge, the unit has an additional 1&quot; added onto their maximum charge distance. For example, a unit with Speed 5 has a maximum charge distance of 11&quot;.</description>
+                </rule>
+              </rules>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d526-0e21-c337-71b4" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d04-193d-a75f-2d4d" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="e6f4-621f-fb34-35b8" name="Hann&apos;s Sanguinary Scripture" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules>
+                <rule id="e00d-fb45-8da5-7cf6" name="Hann&apos;s Sanguinary Scripture" book="CoK19" page="27" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>[CoK]: The unit gains the Lifeleech (1) special rule, or if the unit already has Lifeleech, it is increased by 1 up to a maximum of (2).</description>
+                </rule>
+              </rules>
+              <infoLinks>
+                <infoLink id="df9a-8a66-20b3-ee3b" name="Lifeleech (n)" hidden="false" targetId="2fcc-d747-ea72-2828" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="efdd-7620-268b-7571" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="406e-3ecd-a6f8-0913" type="max"/>
               </constraints>
               <categoryLinks/>
               <selectionEntries/>
@@ -2663,12 +2994,12 @@
             <selectionEntry id="429f-b42c-fe01-b511" name="Banner of the Griffin" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules>
-                <rule id="e2f0-1a6e-8f81-ca3c" name="Banner of the Griffin" book="CoK" page="61" hidden="false">
+                <rule id="e2f0-1a6e-8f81-ca3c" name="Banner of the Griffin" book="CoK19" page="28" hidden="false">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
-                  <description>[CoK]: This unit gains the Rallying! (1) special rule, or increases the value of its Rallying! by 1, to a maximum of 2.</description>
+                  <description>[CoK]: This unit gains the Rallying! (1) special rule, or increases the value of its Rallying! by 1, to a maximum of (2).</description>
                 </rule>
               </rules>
               <infoLinks>
@@ -2695,7 +3026,7 @@
             <selectionEntry id="d208-33c3-bea0-6125" name="Dragonshard Shield" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules>
-                <rule id="6631-504f-39a7-f53b" name="Dragonshard Shield" book="CoK" page="61" hidden="false">
+                <rule id="6631-504f-39a7-f53b" name="Dragonshard Shield" book="CoK19" page="27" hidden="false">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -2720,7 +3051,7 @@
             <selectionEntry id="78f1-ea5a-409e-4207" name="Hammer of Measured Force" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules>
-                <rule id="ce8f-40c1-a33f-9648" name="Hammer of Measured Force" book="CoK" page="61" hidden="false">
+                <rule id="ce8f-40c1-a33f-9648" name="Hammer of Measured Force" book="CoK19" page="28" hidden="false">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -2745,7 +3076,7 @@
             <selectionEntry id="e0a4-ccad-fe48-3652" name="Lute of Insatiable Darkness [H]" hidden="true" collective="false" type="upgrade">
               <profiles/>
               <rules>
-                <rule id="e21c-ceec-a44d-75d7" name="Lute of Insatiable Darkness [H]" book="CoK" page="61" hidden="false">
+                <rule id="e21c-ceec-a44d-75d7" name="Lute of Insatiable Darkness [H]" book="CoK19" page="28" hidden="false">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -2785,7 +3116,7 @@
             <selectionEntry id="4914-a2f4-8749-0d2c" name="Shroud of the Saint" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules>
-                <rule id="5c0e-7f48-872d-ae01" name="Shroud of the Saint" book="CoK" page="61" hidden="false">
+                <rule id="5c0e-7f48-872d-ae01" name="Shroud of the Saint" book="CoK19" page="28" hidden="false">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -2810,7 +3141,7 @@
             <selectionEntry id="7135-7af8-8cce-9d8c" name="Encorcelled Armour [H]" hidden="true" collective="false" type="upgrade">
               <profiles/>
               <rules>
-                <rule id="40a3-568e-48a2-fcb2" name="Encorcelled Armour [H]" book="CoK" page="61" hidden="false">
+                <rule id="40a3-568e-48a2-fcb2" name="Encorcelled Armour [H]" book="CoK19" page="28" hidden="false">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -2840,7 +3171,7 @@
                 <cost name="pts" costTypeId="points" value="20.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="bb72-c726-4780-e28f" name="Black Iron Crown" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="bb72-c726-4780-e28f" name="Black Iron Crown" hidden="true" collective="false" type="upgrade">
               <profiles/>
               <rules>
                 <rule id="11cb-0135-770a-14fc" name="Black Iron Crown" book="CoK" page="61" hidden="false">
@@ -2868,7 +3199,7 @@
             <selectionEntry id="fa80-5b2d-b2d3-54bb" name="Aegis of the Elohi" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules>
-                <rule id="d8b2-bae4-adae-95f4" name="Aegis of the Elohi" book="CoK" page="61" hidden="false">
+                <rule id="d8b2-bae4-adae-95f4" name="Aegis of the Elohi" book="CoK19" page="27" hidden="false">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -2894,7 +3225,80 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="25.0"/>
+                <cost name="pts" costTypeId="points" value="20.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="1b66-a2c6-72e1-84a5" name="Mournful Blade [H]" hidden="true" collective="false" type="upgrade">
+              <profiles/>
+              <rules>
+                <rule id="9b48-4574-30a5-1872" name="Mournful Blade [H]" book="CoK19" page="28" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>[CoK]: This artefact can only be used by a Hero with the Individual special rule. While attacking Individuals in melee, this unit doubles its number of attacks.</description>
+                </rule>
+              </rules>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2236-ee12-e75d-9050" type="instanceOf"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3bb6-ef33-6b6b-e7f2" type="instanceOf"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3990-d2ca-6e42-ea41" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="086a-c072-b047-3516" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="20.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="3e9d-362c-e70a-20dd" name="Zephyr Crown [H]" hidden="true" collective="false" type="upgrade">
+              <profiles/>
+              <rules>
+                <rule id="e683-a58a-5063-044a" name="Zephyr Crown [H]" book="CoK19" page="28" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>[CoK]: Heroes with the Windblast spell only. While casting Windblast, in addition to moving the target, roll to damage for each hit scored.</description>
+                </rule>
+              </rules>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2236-ee12-e75d-9050" type="instanceOf"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2575-e44a-022d-2702" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ebf3-e648-0751-794f" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="20.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -3166,7 +3570,7 @@
             <selectionEntry id="11d4-b062-03fa-e4dd" name="Brew of Keen-eyeness" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules>
-                <rule id="76f8-61ce-8399-a0a3" name="Brew of Keen-eyeness" book="CoK" page="62" hidden="false">
+                <rule id="76f8-61ce-8399-a0a3" name="Brew of Keen-eyeness" book="CoK19" page="28" hidden="false">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -3202,18 +3606,50 @@ The Hero now has the Blood Boil spell as follows:
                 </rule>
               </rules>
               <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="51a3-5b03-2ab7-415e" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a0ed-7abe-c820-87a7" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="30.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="466b-9d7b-0ce0-1073" name="Medallion of Life [H]" hidden="true" collective="false" type="upgrade">
+              <profiles/>
+              <rules>
+                <rule id="ca56-a4f6-b4ca-bd93" name="Medallion of Life [H]" book="CoK19" page="28" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>[CoK]: This artefact can only be used by a Hero with the Individual rule. The unit has the Regeneration (5+) special rule.</description>
+                </rule>
+              </rules>
+              <infoLinks/>
               <modifiers>
                 <modifier type="set" field="hidden" value="false">
                   <repeats/>
                   <conditions>
                     <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2236-ee12-e75d-9050" type="instanceOf"/>
                   </conditions>
-                  <conditionGroups/>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3bb6-ef33-6b6b-e7f2" type="instanceOf"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </conditionGroup>
+                  </conditionGroups>
                 </modifier>
               </modifiers>
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="51a3-5b03-2ab7-415e" type="max"/>
-                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a0ed-7abe-c820-87a7" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="92ed-7658-aacd-9a4b" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e606-0e5d-5242-f845" type="max"/>
               </constraints>
               <categoryLinks/>
               <selectionEntries/>
@@ -3455,46 +3891,6 @@ The Hero now has the Blood Boil spell as follows:
                 <cost name="pts" costTypeId="points" value="35.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="466b-9d7b-0ce0-1073" name="Medallion of Life [H]" hidden="true" collective="false" type="upgrade">
-              <profiles/>
-              <rules>
-                <rule id="55d3-279e-1019-b085" name="Medallion of Life [H]" book="CoK" page="62" hidden="false">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <description>[CoK]: This artefact can only be used by a Hero with the Individual rule. The unit has the Regeneration (5+) special rule.</description>
-                </rule>
-              </rules>
-              <infoLinks/>
-              <modifiers>
-                <modifier type="set" field="hidden" value="false">
-                  <repeats/>
-                  <conditions>
-                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2236-ee12-e75d-9050" type="instanceOf"/>
-                  </conditions>
-                  <conditionGroups>
-                    <conditionGroup type="and">
-                      <conditions>
-                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3bb6-ef33-6b6b-e7f2" type="instanceOf"/>
-                      </conditions>
-                      <conditionGroups/>
-                    </conditionGroup>
-                  </conditionGroups>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8966-aa0d-9122-e094" type="max"/>
-                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4fb1-40f9-d21d-f270" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="pts" costTypeId="points" value="35.0"/>
-              </costs>
-            </selectionEntry>
             <selectionEntry id="bcdd-7a52-67cc-a15a" name="Wings of Honeymaze [H]" hidden="true" collective="false" type="upgrade">
               <profiles/>
               <rules>
@@ -3557,29 +3953,6 @@ The Hero now has the Blood Boil spell as follows:
       <constraints/>
       <categoryLinks/>
       <selectionEntries>
-        <selectionEntry id="72f4-8306-eff3-4a28" name="Alchemist&apos;s Curse (6)" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks>
-            <infoLink id="bb14-0831-c7c5-afc3" name="Alchemist&apos;s Curse (n)" hidden="false" targetId="e26e-3060-b6c4-c6dc" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="43a4-dcd6-6333-2f0a" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="20.0"/>
-          </costs>
-        </selectionEntry>
         <selectionEntry id="1a12-81c7-47ef-3c87" name="Drain Life (6)" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
@@ -3594,29 +3967,6 @@ The Hero now has the Blood Boil spell as follows:
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6981-6803-9b54-cc14" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="25.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="dab3-ed62-387c-9b26" name="Martyr&apos;s Prayer (7)" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks>
-            <infoLink id="5549-f16a-a615-00bd" name="Martyr&apos;s Prayer (n)" hidden="false" targetId="0da2-f214-4262-70f4" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb5b-e82e-d01b-3fd7" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -3672,8 +4022,299 @@ The Hero now has the Blood Boil spell as follows:
             <cost name="pts" costTypeId="points" value="20.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="6e7a-ffbb-0a55-1b02" name="Hex (2)" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="d355-25ee-8ec9-f9aa" name="Hex (n)" hidden="false" targetId="19ab-c007-6f5e-d92b" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d74-190b-9f40-f6f2" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="10.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
-      <selectionEntryGroups/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="2bcf-7899-f5be-fc69" name="Legendary Spells" hidden="true" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2236-ee12-e75d-9050" type="instanceOf"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fd4f-31f2-ef74-e75e" type="notInstanceOf"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="6e29-eb4c-c45e-4b4f" name="Alchemist&apos;s Curse (10)" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="b94e-7b7f-b81d-bcbb" name="Alchemist&apos;s Curse (n)" hidden="false" targetId="e26e-3060-b6c4-c6dc" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6aaf-ca8f-89ac-682e" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2779-8239-09ac-9ee2" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="30.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="4c56-8ad2-b744-edfc" name="Blinding Light (1)" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="3c68-a6c0-f3bd-0206" name="Blinding Light (n)" hidden="false" targetId="d3b5-905b-2920-e712" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6b37-0a7e-703c-4445" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8914-fef8-5f5c-937e" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="e265-7b14-caf1-a733" name="Barkskin (1)" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="28e2-e0d4-a5e2-5f35" name="Barkskin (1)" hidden="false" targetId="ba66-ec98-f49c-8803" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="03e8-99c3-b820-64c0" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5dc3-0a7c-65b9-a20f" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="b12c-2399-0d3b-f2e2" name="Guiding Light (2)" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="967d-5ffa-78a5-32d6" name="Guiding Light (n)" hidden="false" targetId="e57d-0ae7-d134-e603" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1866-53d2-6f51-c2ad" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5131-d742-778b-e520" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="15.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="89c5-672e-b187-9928" name="Teleport (3)" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="fafe-e998-7ae5-e04d" name="Teleport (n)" hidden="false" targetId="9c9b-326d-58cc-9b22" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f5fd-cf27-358f-8910" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="fc05-15b9-c95a-256f" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="15.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="27a4-f2c3-dff2-2785" name="Critter&apos;s Call (8)" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="6ecc-3a4c-c831-1efe" name="Critter&apos;s Call (n)" hidden="false" targetId="ea6b-265d-31fe-8fc6" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="13cc-4beb-763e-5f1d" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ceae-f954-cbe2-2e15" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="20.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="5311-6396-0781-0bfc" name="Martyr&apos;s Prayer (7)" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="f882-0774-b068-180f" name="Martyr&apos;s Prayer (n)" hidden="false" targetId="0da2-f214-4262-70f4" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="eeaa-e6e1-fe6a-8821" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="63ac-370e-9932-9c37" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="25.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="452c-b1f8-58ae-357d" name="Spell Siphon (2)" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="9db7-458f-4569-582e" name="Spell Siphon (n)" hidden="false" targetId="e173-4f38-c051-5c54" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a32b-c41b-6811-0721" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="70c5-d1f7-f85b-f181" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="25.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="a14a-5bde-18bd-826d" name="Blizzard (2)" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="0b48-7634-84b3-a0f1" name="Blizzard (n)" hidden="false" targetId="d525-9a93-3870-34bb" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0215-85c0-3814-d24c" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="60e0-7969-3879-5afd" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="30.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="8521-154e-dc16-7bda" name="Blood Boil" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="e658-a339-f299-3767" name="Blood Boil" hidden="false" targetId="b3fd-dca3-bedc-58e2" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9302-cdd6-1749-0b4b" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ac90-3481-15e9-37ad" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="30.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks/>
     </selectionEntryGroup>
     <selectionEntryGroup id="fc98-f529-2d52-7b8e" name="Clash of Kings Spells - Evil" hidden="false" collective="false">
@@ -3684,29 +4325,6 @@ The Hero now has the Blood Boil spell as follows:
       <constraints/>
       <categoryLinks/>
       <selectionEntries>
-        <selectionEntry id="3292-1e7a-fd21-64b7" name="Alchemist&apos;s Curse (6)" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks>
-            <infoLink id="94d2-7d97-a690-6466" name="Alchemist&apos;s Curse (n)" hidden="false" targetId="e26e-3060-b6c4-c6dc" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="012a-6dcd-7d3c-57fd" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="20.0"/>
-          </costs>
-        </selectionEntry>
         <selectionEntry id="ef52-c1ea-cf1e-ebea" name="Drain Life (6)" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
@@ -3776,11 +4394,11 @@ The Hero now has the Blood Boil spell as follows:
             <cost name="pts" costTypeId="points" value="20.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="a741-88f5-eb22-717c" name="Veil of Shadows (2)" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="acb8-d2ab-f9d3-306f" name="Hex (2)" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
-            <infoLink id="46b7-ced4-93bd-d1e9" name="Veil of Shadows (n)" hidden="false" targetId="ca1f-9ee1-258c-a3ef" type="rule">
+            <infoLink id="c57f-b233-a9c4-ed15" name="Hex (n)" hidden="false" targetId="19ab-c007-6f5e-d92b" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -3789,18 +4407,286 @@ The Hero now has the Blood Boil spell as follows:
           </infoLinks>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f86e-d98c-5a3a-0924" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="50cd-083f-d4d5-7168" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="points" value="15.0"/>
+            <cost name="pts" costTypeId="points" value="10.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
-      <selectionEntryGroups/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="9ac8-adc7-faeb-5078" name="Legendary Spells" hidden="true" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2236-ee12-e75d-9050" type="instanceOf"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fd4f-31f2-ef74-e75e" type="notInstanceOf"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="1d91-6d5a-1ab4-83c5" name="Alchemist&apos;s Curse (10)" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="e613-9b99-be5d-606d" name="Alchemist&apos;s Curse (n)" hidden="false" targetId="e26e-3060-b6c4-c6dc" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b3c9-2e28-2258-9592" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="93bd-4ffb-7093-68d9" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="30.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="1bee-4a89-0569-8b02" name="Blinding Light (1)" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="0ad9-46a5-2417-09be" name="Blinding Light (n)" hidden="false" targetId="d3b5-905b-2920-e712" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0919-31e7-d461-e9eb" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9666-55f4-efdf-b1f1" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="d93f-327f-c699-a5a3" name="Barkskin (1)" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="ad58-cb30-f244-a978" name="Barkskin (1)" hidden="false" targetId="ba66-ec98-f49c-8803" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6eca-1537-9865-e74a" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a0b8-a997-ee0c-1b09" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="c7fe-4333-ff31-0631" name="Guiding Light (2)" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="8361-4e01-68f1-4876" name="Guiding Light (n)" hidden="false" targetId="e57d-0ae7-d134-e603" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3a65-a7cf-796e-8532" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="bfdb-b53f-3d1b-0fd8" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="15.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="effd-b5c3-a8e6-a099" name="Teleport (3)" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="0cb4-b1c7-3fcc-e323" name="Teleport (n)" hidden="false" targetId="9c9b-326d-58cc-9b22" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6fab-2795-0407-419b" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="214f-050f-a7cb-f2bf" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="15.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="b1ac-52bb-9c48-e261" name="Veil of Shadows (3)" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="509a-c808-c0f1-12aa" name="Veil of Shadows (n)" hidden="false" targetId="ca1f-9ee1-258c-a3ef" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5dba-66f1-5fd9-fb81" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9701-548d-79c5-ef16" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="15.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="44a8-2331-f2c9-7395" name="Critter&apos;s Call (8)" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="d9f7-6b3f-a0a2-71f5" name="Critter&apos;s Call (n)" hidden="false" targetId="ea6b-265d-31fe-8fc6" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1ba1-8cc3-171c-a635" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="42bd-ec54-77b5-7f88" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="20.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="3039-e860-586e-4298" name="Spell Siphon (2)" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="ae43-3dbb-d330-b214" name="Spell Siphon (n)" hidden="false" targetId="e173-4f38-c051-5c54" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="200d-d7f1-2842-efa9" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0051-23fa-dda3-6ff6" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="25.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="4b87-3467-c019-2ad3" name="Blizzard (2)" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="981f-cee3-83fc-958a" name="Blizzard (n)" hidden="false" targetId="d525-9a93-3870-34bb" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6d4a-00f1-756f-b924" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0eaa-cc6c-ffdd-97af" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="30.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="ef96-d424-8ae1-59da" name="Blood Boil" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="a7f2-814a-0208-7f4a" name="Blood Boil" hidden="false" targetId="b3fd-dca3-bedc-58e2" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="11a1-45c4-dee5-93e5" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4f53-8c4d-c5c8-7c53" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="30.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks/>
     </selectionEntryGroup>
     <selectionEntryGroup id="7cad-e889-148d-239c" name="Clash of Kings Spells - Neutral" hidden="false" collective="false">
@@ -3903,11 +4789,11 @@ The Hero now has the Blood Boil spell as follows:
             <cost name="pts" costTypeId="points" value="20.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="1840-b89c-0ed6-596c" name="Aura of Heroism (3)" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="cc62-44a1-400b-c2a8" name="Hex (2)" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
-            <infoLink id="7fb9-9b82-cd2f-adda" name="Aura of Heroism (n)" hidden="false" targetId="ec73-0cb5-9389-33a7" type="rule">
+            <infoLink id="c5bd-2be8-96ee-ab8b" name="Hex (n)" hidden="false" targetId="19ab-c007-6f5e-d92b" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -3916,18 +4802,286 @@ The Hero now has the Blood Boil spell as follows:
           </infoLinks>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="675c-8b9d-3eea-51a4" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3150-d743-8e3a-3305" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="points" value="15.0"/>
+            <cost name="pts" costTypeId="points" value="10.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
-      <selectionEntryGroups/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="98fa-c8c7-6687-0422" name="Legendary Spells" hidden="true" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2236-ee12-e75d-9050" type="instanceOf"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fd4f-31f2-ef74-e75e" type="notInstanceOf"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="2afa-a81e-4780-29fc" name="Alchemist&apos;s Curse (10)" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="7b31-af9d-406e-8b51" name="Alchemist&apos;s Curse (n)" hidden="false" targetId="e26e-3060-b6c4-c6dc" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="48d8-740a-b065-de9b" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e2e2-5f84-bb61-b78d" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="30.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="dca7-124f-3216-2933" name="Blinding Light (1)" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="ea64-27e1-6110-94ff" name="Blinding Light (n)" hidden="false" targetId="d3b5-905b-2920-e712" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a3be-8443-0b11-406e" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9b8e-fed3-b942-2a6e" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="0794-3add-a6fd-7c1c" name="Barkskin (1)" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="7fd1-6a92-49f1-c75b" name="Barkskin (1)" hidden="false" targetId="ba66-ec98-f49c-8803" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6e12-64c4-0140-288f" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="944a-c4dc-9eb1-c5dc" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="3798-665e-75d3-57a1" name="Aura of Heroism (2)" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="e1d7-e675-bec6-d193" name="Aura of Heroism (n)" hidden="false" targetId="ec73-0cb5-9389-33a7" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="771e-71fd-80b6-3ed6" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9e72-253e-3551-14c0" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="15.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="c1fe-0602-d82e-c2c2" name="Guiding Light (2)" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="195d-729f-58b9-2424" name="Guiding Light (n)" hidden="false" targetId="e57d-0ae7-d134-e603" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6205-c98e-8969-da7f" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="67db-5ac4-ccfe-aa13" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="15.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="172c-1df4-fdda-d95a" name="Teleport (3)" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="6d1d-bd14-5d78-f133" name="Teleport (n)" hidden="false" targetId="9c9b-326d-58cc-9b22" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b6c5-6ad6-d614-f6b1" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3a6e-0b7e-b6cf-d223" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="15.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="28aa-82fc-9407-b296" name="Critter&apos;s Call (8)" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="e882-753d-f400-2a8a" name="Critter&apos;s Call (n)" hidden="false" targetId="ea6b-265d-31fe-8fc6" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6aca-c6b2-c452-ee19" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="aee2-3dbd-1bd6-bc1e" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="20.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="9b25-4b4c-08be-fa9e" name="Spell Siphon (2)" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="7967-5378-5cc0-d1f6" name="Spell Siphon (n)" hidden="false" targetId="e173-4f38-c051-5c54" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ad43-8fb3-5982-5521" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f071-1493-eca3-e473" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="25.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="afd4-2892-a6d0-2155" name="Blizzard (2)" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="01ca-ea67-1067-833d" name="Blizzard (n)" hidden="false" targetId="d525-9a93-3870-34bb" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c118-d923-0db5-8468" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5350-ba3a-16cf-d138" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="30.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="bc65-d568-d7e4-a49b" name="Blood Boil" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="005c-fb73-27ac-8ea6" name="Blood Boil" hidden="false" targetId="b3fd-dca3-bedc-58e2" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9763-0ccd-0888-82b0" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8d1d-4bf8-e2eb-858a" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="30.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks/>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
@@ -3960,12 +5114,12 @@ The Hero now has the Blood Boil spell as follows:
       <modifiers/>
       <description>If this unit&apos;s attack hits the target, the target suffers a number of hits equal to (n), rather than a single hit.</description>
     </rule>
-    <rule id="b3fd-dca3-bedc-58e2" name="Blood Boil" hidden="false">
+    <rule id="b3fd-dca3-bedc-58e2" name="Blood Boil" book="CoK19" page="31" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Spell with 12&quot; range, Piercing (1), hits on 4+. When rolling to hit, roll a number of dice equal to the amount of damage on the target unit. [CoK]: When targeting enemy units in cover OR with the Stealthy special rule (this includes units in cover WITH the Stealthy special rule), these attacks hit on 5+ instead of 4+.</description>
+      <description>[CoK]: 12&quot; range, Piercing (1). When rolling to hit, roll a number of dice equal to the amount of damage on the target unit. [FAQ]: When targeting enemy units in cover OR with the Stealthy special rule (this includes units in cover WITH the Stealthy special rule), these attacks hit on 5+ instead of 4+.</description>
     </rule>
     <rule id="cf5c-be60-d830-9bdf" name="Breath Attack (n)" book="KoW" page="72" hidden="false">
       <profiles/>
@@ -4133,7 +5287,7 @@ The Hero now has the Blood Boil spell as follows:
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>This unit is allowed one extra pivot of up to 90 degrees for every type of move order except a Halt (important for the Reload! special rule). This unit does not suffer the -1 to hit modifier for moving and shooting.</description>
+      <description>This unit is allowed one extra pivot of up to 90 degrees for every type of move order except a Halt (important for the Reload! special rule). This unit does not suffer the -1 to hit modifier for moving and shooting. [CoK]: When Disordered in melee by a unit with Phalanx or Ensnare, this unit loses Nimble until the end of its following turn. </description>
     </rule>
     <rule id="de5d-b48a-02cc-6f8f" name="Omniscient @" hidden="false">
       <profiles/>
@@ -4261,12 +5415,12 @@ The Hero now has the Blood Boil spell as follows:
       <modifiers/>
       <description>Whenever this unit rolls to damage, it can re-roll all dice that score a natural, unmodified 1.</description>
     </rule>
-    <rule id="3d84-9118-f48e-7415" name="Weakness (n)" book="CoK" page="62" hidden="false">
+    <rule id="3d84-9118-f48e-7415" name="Weakness (n)" book="CoK19" page="29" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>[CoK]: 18&quot; range. May target enemy units that are in melee. Instead of causing damage, if one or more hits are scored, the target unit has a -1 modifier when rolling to damage enemy units during the next turn. A natural 6 will still cause damage. This effect only applies once - multiple castings on the same target have no effect.</description>
+      <description>[CoK]: 24&quot; range. May target enemy units that are in combat. Instead of causing damage, if one or more hits are scored, the target unit has a -1 modifier when rolling to damage enemy units during their next turn. A natural 6 will still cause damage. This effect only applies once - multiple castings on the same target have no effect.</description>
     </rule>
     <rule id="2700-2be9-00b3-3e03" name="Wild Companion" book="KoW" page="138" hidden="false">
       <profiles/>
@@ -4289,48 +5443,48 @@ The Hero now has the Blood Boil spell as follows:
       <modifiers/>
       <description>When this unit wishes to charge an enemy unit&apos;s front facing, roll a die. If the result is a 1 then this unit &quot;misunderstands&quot; the order and carries out a Halt order instead. This does not apply if the unit wishes to charge the flank or rear of an enemy unit, an Individual or War Engine, or if it is carrying out a Counter-Charge.</description>
     </rule>
-    <rule id="e26e-3060-b6c4-c6dc" name="Alchemist&apos;s Curse (n)" book="CoK" page="63" hidden="false">
+    <rule id="e26e-3060-b6c4-c6dc" name="Alchemist&apos;s Curse (n)" book="CoK19" page="31" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <description>[CoK]: 12&quot; range, hits on 4+. Instead of rolling to damage as normal, each roll under the target&apos;s Defence, including rolls of 1, causes a point of damage. This roll cannot be re-rolled or modified in any way. [FAQ]: When targeting enemy units in cover OR with the Stealthy special rule (this includes units in cover WITH the Stealthy special rule), these attacks hit on 5+ instead of 4+.</description>
     </rule>
-    <rule id="5cc2-ea0c-f46d-3e58" name="Drain Life (n)" book="63" page="CoK" hidden="false">
+    <rule id="5cc2-ea0c-f46d-3e58" name="Drain Life (n)" book="CoK19" page="29" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>[CoK]: 6&quot; range. May target enemy units that are in melee. Roll to damage as normal with Piercing (1). If one or more points of damage are scored, choose either the caster or a single friendly, non-allied unit within 6&quot;.
+      <description>[CoK]: 6&quot; range. May target enemy units that are in combat. Roll to damage as normal with Piercing (1). If one or more points of damage are scored, choose either the caster or a single friendly, non-allied unit within 6&quot;.
 Remove one point of damage from the chosen unit for each point of damage dealt to the target. If this is cast into melee, the target will not take a Nerve test at the end of the Shoot Phase.</description>
     </rule>
-    <rule id="1653-0b95-2ac5-e2d3" name="Mind Fog (n)" book="CoK" page="62" hidden="false">
+    <rule id="1653-0b95-2ac5-e2d3" name="Mind Fog (n)" book="CoK19" page="29" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>[CoK]: 30&quot; range. Instead of causing damage, if one or more hits are scored, the target must take a Nerve test at the end of the Shoot Phase.</description>
+      <description>[CoK]: 36&quot; range. Instead of causing damage, if one or more hits are scored, the target must take a Nerve test at the end of the Shoot phase. The Nerve test should be treated as if the target had taken damage in the Shoot phase.</description>
     </rule>
-    <rule id="ca1f-9ee1-258c-a3ef" name="Veil of Shadows (n)" book="63" page="CoK" hidden="false">
+    <rule id="ca1f-9ee1-258c-a3ef" name="Veil of Shadows (n)" book="CoK19" page="31" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>[CoK]: 12&quot; range. Target friendly units only. If one or more hits are scored, instead of causing damage, the unit gains the Stealthy special rule until the start of the player&apos;s next turn.</description>
+      <description>[CoK]: 12&quot; range. Friendly units only, including units engaged in combat. If one or more hits are scored, instead of causing damage, the target unit gains the Stealthy special rule until the start of the player&apos;s next turn.</description>
     </rule>
-    <rule id="0da2-f214-4262-70f4" name="Martyr&apos;s Prayer (n)" book="CoK" page="63" hidden="false">
+    <rule id="0da2-f214-4262-70f4" name="Martyr&apos;s Prayer (n)" book="CoK19" page="31" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>[CoK]: 12&quot; range. Target friendly units only, including units engaged in combat. Instead of causing damage, for each hit scored remove one point of damage which has been previously taken by the target and transfer it to the caster. The caster will not take a Nerve test for damage taken in this way.</description>
+      <description>[CoK]: 12&quot; range. Friendly units only, including units engaged in combat. Instead of causing damage, for each hit scored remove one point of damage which has been previously taken by the target and transfer it to the caster. The caster will not take a Nerve test for damage taken in this way.</description>
     </rule>
-    <rule id="ec73-0cb5-9389-33a7" name="Aura of Heroism (n)" book="CoK" page="63" hidden="false">
+    <rule id="ec73-0cb5-9389-33a7" name="Aura of Heroism (n)" book="CoK19" page="30" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>[CoK]: 12&quot; range. Friendly units only. Hits don&apos;t inflict damage. Instead, for each hit scored, the target gains the Rallying! (n) special rule, where (n) is each successful hit, until the start of your next turn. Rallying! has a maximum total of (2).</description>
+      <description>[CoK]: 12&quot; range. Friendly units and self only, including units engaged in combat. Hits don&apos;t inflict damage. Instead, if one or more hits are scored, the target increases its Waver and Rout Nerve values by 1. The target also gains the Rallying! (1) special rule, or increases the value of its Rallying! by 1 to a maximum of (2), until the start of its next turn.</description>
     </rule>
     <rule id="e015-7183-a222-1fa4" name="Heavy Flier" book="CoK" page="30" hidden="false">
       <profiles/>
@@ -4339,12 +5493,75 @@ Remove one point of damage from the chosen unit for each point of damage dealt t
       <modifiers/>
       <description>[CoK]: The unit can move over anything (blocking terrain, enemy units, friendly units when charging, etc.) but still cannot land on top of them. The unit does not suffer Hindered charges for moving over difficult terrain or obstacles, unless it ends the move within or touching them. Note that unlike the Fly special rule, this rule does not also give Nimble to the unit. While Disordered, units lose the Heavy Flier special rule.</description>
     </rule>
-    <rule id="aeda-9ce3-1c58-5e26" name="Dread" book="CoK" page="30" hidden="false">
+    <rule id="aeda-9ce3-1c58-5e26" name="Dread" book="CoK19" page="25" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <description>[CoK]: While within 6&quot; of this unit, enemy units have -1 to their Waver and Rout Nerve values in addition to any other modifiers that may apply. This effect is non-cumulative.</description>
+    </rule>
+    <rule id="55fc-ab6a-a232-e11d" name="Steady Aim" book="CoK19" page="25" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>[CoK]: This unit does not suffer from the -1 to hit modifier for moving and shooting.</description>
+    </rule>
+    <rule id="19ab-c007-6f5e-d92b" name="Hex (n)" book="CoK19" page="29" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>[CoK]: 30&quot; range. Instead of causing damage, if one or more hits are scored, the target enemy unit receives a point of damage each time it rolls a hit with a spell during its next turn. A Nerve Test is not required for damage caused by this spell.</description>
+    </rule>
+    <rule id="d3b5-905b-2920-e712" name="Blinding Light (n)" book="CoK19" page="30" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>[CoK]: 18&quot; range. Enemy Heroes, Monsters and War Engines only. If a hit is scored, the target unit is Disordered during its next turn.</description>
+    </rule>
+    <rule id="ba66-ec98-f49c-8803" name="Barkskin (n)" book="CoK19" page="30" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>[CoK]: 12&quot; range. Friendly units only, including units engaged in combat. If a hit is scored, the target unit increases its Defense by 1 to a maximum of 5+ until the start of its next turn.</description>
+    </rule>
+    <rule id="e57d-0ae7-d134-e603" name="Guiding Light (n)" book="CoK19" page="30" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>[CoK]: 12&quot; range. Hits don&apos;t inflict damage. Instead, if one or more hits are scored, for the remainder of the Shoot phase any War Engines with the Indirect Fire or Reload! special rules gain +1 to hit when targeting the unit this spell has been cast on. Once a hit is scored by this spell it may not be used again by this caster for the remainder of the game.</description>
+    </rule>
+    <rule id="9c9b-326d-58cc-9b22" name="Teleport (n)" book="CoK19" page="30" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>[CoK]: 12&quot; Range. Targets are only friendly Infantry Heroes with the Individual special rule that do not have the Fly special rule. If one or more hits are scored, the target may immediately move up to 20&quot; in any direction as if it had the Fly special rule. This move may not be used to charge an enemy unit, and the Individual counts as moving for all other purposes. Once a hit is scored by this spell it may not be used again by this caster for the remainder of the game.</description>
+    </rule>
+    <rule id="ea6b-265d-31fe-8fc6" name="Critter&apos;s Call (n)" book="CoK19" page="31" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>[CoK]: 24&quot; range. Roll to damage as normal. If one or more points of damage are scored, the target unit is Disordered. Once a hit is scored by this spell it may not be used again by this caster for the remainder of the game.</description>
+    </rule>
+    <rule id="e173-4f38-c051-5c54" name="Spell Siphon (n)" book="CoK19" page="31" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>[CoK]: 18&quot; range. Target enemy units that have the ability to cast a spell, including those who can cast due to a magic artefact. Hits do not cause damage. Instead, if one or more hits are scored, the unit which cast this spell may immediately cast one of the target&apos;s spells, except Surge. Casting the opponent&apos;s spell uses the same number of dice available to the enemy unit, but not any of their special rules. Additionally, in their next turn, the enemy player may not cast the stolen spell.</description>
+    </rule>
+    <rule id="d525-9a93-3870-34bb" name="Blizzard (n)" book="CoK19" page="31" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>[CoK]: 36&quot; range. Blast (D3). Indirect.</description>
     </rule>
   </sharedRules>
   <sharedProfiles/>
