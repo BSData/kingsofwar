@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="0929-4596-8744-bbda" name="Kings of War 2nd Ed, Clash of Kings 2019" revision="8" battleScribeVersion="2.01" authorName="John (Ekaznae)" authorContact="bsdata.kow@gmail.com" authorUrl="https://github.com/BSData/kingsofwar" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="0929-4596-8744-bbda" name="Kings of War 2E, Clash of Kings 2019" revision="8" battleScribeVersion="2.01" authorName="John (Ekaznae)" authorContact="bsdata.kow@gmail.com" authorUrl="https://github.com/BSData/kingsofwar" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -262,7 +262,7 @@
       <infoLinks/>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="fd4f-31f2-ef74-e75e" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2c2d-caae-6648-b413" type="max"/>
+        <constraint field="selections" scope="fd4f-31f2-ef74-e75e" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2c2d-caae-6648-b413" type="max"/>
       </constraints>
     </categoryEntry>
     <categoryEntry id="d69e-ab9d-fe8b-b5eb" name="Living Legends" hidden="false">
@@ -338,7 +338,7 @@
     </categoryEntry>
   </categoryEntries>
   <forceEntries>
-    <forceEntry id="832e-ae14-a8a1-04ef" name="[Main Force] - Max 3 duplicate Hero/Mon/WarEng" hidden="false">
+    <forceEntry id="832e-ae14-a8a1-04ef" name="[Main Force] - Max 3 dupe H/M/WE" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -471,15 +471,6 @@
           <constraints/>
         </categoryLink>
       </categoryLinks>
-    </forceEntry>
-    <forceEntry id="e731-6a5d-f560-385d" name="{{To access old rosters, go to Report a Bug, my Contact Info site link, bottom of webpage." hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <forceEntries/>
-      <categoryLinks/>
     </forceEntry>
   </forceEntries>
   <selectionEntries/>
