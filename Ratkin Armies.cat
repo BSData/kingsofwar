@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4002-b72a-d084-0a55" name="Ratkin" revision="7" battleScribeVersion="2.01" authorName="John (Ekaznae)" authorContact="bsdata.kow@gmail.com" authorUrl="https://github.com/BSData/kingsofwar" gameSystemId="0929-4596-8744-bbda" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4002-b72a-d084-0a55" name="Ratkin" revision="8" battleScribeVersion="2.01" authorName="John (Ekaznae)" authorContact="bsdata.kow@gmail.com" authorUrl="https://github.com/BSData/kingsofwar" gameSystemId="0929-4596-8744-bbda" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="98bb-7451-d1fb-8ad1" name="Alignment (Ratkin): Evil" hidden="false">
@@ -228,7 +228,15 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="cf8b-64f1-fa58-e6ff" value="Regen (5+)">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f52f-8854-95d8-292c" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Sp" characteristicTypeId="4f37-fbb6-fe56-7164" value="6"/>
             <characteristic name="Me" characteristicTypeId="bcc1-ca7e-117a-2d9b" value="5+"/>
@@ -283,7 +291,15 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="cf8b-64f1-fa58-e6ff" value="Rallying! (1), Regen (5+)">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f52f-8854-95d8-292c" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Sp" characteristicTypeId="4f37-fbb6-fe56-7164" value="6"/>
             <characteristic name="Me" characteristicTypeId="bcc1-ca7e-117a-2d9b" value="5+"/>
@@ -921,6 +937,13 @@
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="set" field="cf8b-64f1-fa58-e6ff" value="Nimble, Throwing Weapons (Range 12&quot;), Vicious, Vanguard, Stealthy">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6a84-fb47-aa90-3c8e" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Sp" characteristicTypeId="4f37-fbb6-fe56-7164" value="6"/>
@@ -974,7 +997,15 @@
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers/>
+              <modifiers>
+                <modifier type="set" field="cf8b-64f1-fa58-e6ff" value="Light Crossbows (Range 24&quot;), Nimble, Vicious, Vanguard, Stealthy">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6a84-fb47-aa90-3c8e" type="instanceOf"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
               <characteristics>
                 <characteristic name="Sp" characteristicTypeId="4f37-fbb6-fe56-7164" value="6"/>
                 <characteristic name="Me" characteristicTypeId="bcc1-ca7e-117a-2d9b" value="5+"/>
@@ -2125,6 +2156,13 @@
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="set" field="d2b1-c5bd-84b0-af9c" value="CS (1), Individual, Rallying! (1), Regen (5+)">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f52f-8854-95d8-292c" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Sp" characteristicTypeId="c716-0f15-9a4f-d7ed" value="6"/>
@@ -2194,7 +2232,15 @@
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers/>
+              <modifiers>
+                <modifier type="set" field="7d69-5a27-3df5-ebf5" value="CS (1), Individual, Rallying! (1), Regen (5+)">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f52f-8854-95d8-292c" type="instanceOf"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
               <characteristics>
                 <characteristic name="Sp" characteristicTypeId="8bd7-8d27-2637-0aa1" value="9"/>
                 <characteristic name="Me" characteristicTypeId="7638-0aa9-63c4-f8a2" value="4+"/>
@@ -2629,7 +2675,15 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="d2b1-c5bd-84b0-af9c" value="CS (1), Individual, Piercing (1), Stealthy, Throwing Weapons (Range 12&quot;), Vanguard, Vicious, Inspiring (Scurriers only), Ensnare">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6a84-fb47-aa90-3c8e" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Sp" characteristicTypeId="c716-0f15-9a4f-d7ed" value="6"/>
             <characteristic name="Me" characteristicTypeId="03c9-62d7-bfc7-f9c9" value="3+"/>
@@ -2983,14 +3037,14 @@
     <selectionEntry id="f52f-8854-95d8-292c" name="Lab Rats" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules>
-        <rule id="54c0-8ef9-a462-7cc1" name="Formation: Lab Rats" hidden="false">
+        <rule id="54c0-8ef9-a462-7cc1" name="Formation: Lab Rats" book="CoK19" page="65" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <description>Formation must contain:
-1x Warriors Horde
-2x Warriors Regiments
+1x Warriors - Horde
+2x Warriors - Regiments
 1x Enforcer
 Each unit in this formation is granted the Regeneration (5+) special rule.</description>
         </rule>
@@ -3011,23 +3065,57 @@ Each unit in this formation is granted the Regeneration (5+) special rule.</desc
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="e394-3cf7-a10b-64fd" name="Warriors - Horde" hidden="false" targetId="a8b3-eff3-5def-8409" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3479-7ad1-0f8e-4d18" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a5a4-4fff-1813-b481" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="157f-13e5-4e8f-4f8b" name="Warriors - Regiment" hidden="false" targetId="9cda-62a8-b4a2-a61b" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9793-a28d-e1c7-24e0" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="eef8-d170-8d62-49d3" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="cb71-d299-1dce-a6b0" name="Enforcer" hidden="false" targetId="8925-cc7e-a4d4-d9b9" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8315-e4b4-3459-ffe3" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3577-d28b-3b00-668b" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="30.0"/>
+        <cost name="pts" costTypeId="points" value="25.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6a84-fb47-aa90-3c8e" name="Dusk Crawlers" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules>
-        <rule id="552b-3c36-5ce9-1790" name="Formation: Dusk Crawlers" hidden="false">
+        <rule id="552b-3c36-5ce9-1790" name="Formation: Dusk Crawlers" book="CoK19" page="65" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <description>Formation must contain:
-3x Scurrier Troops
+3x Scurriers - Troops
 1x Assassin
-Each unit of Scurriers in this formation is granted both the Vanguard and Stealthy special rules. The Assassin in this formation is granted the Inspiring (Scurriers only) special rule.</description>
+Each unit of Scurriers in this formation is granted both the Vanguard and Stealthy special rules. The Assassin in this formation is granted both the Inspiring (Scurriers only) and Ensnare special rules.</description>
         </rule>
       </rules>
       <infoLinks/>
@@ -3046,9 +3134,473 @@ Each unit of Scurriers in this formation is granted both the Vanguard and Stealt
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="b87f-5d5c-bbf8-990f" name="Scurriers - Troop" hidden="false" targetId="9f02-a842-7802-5cce" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a302-96c2-741b-2f84" type="min"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="41b8-b765-b680-b176" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="48c2-2b0c-f5a1-b852" name="Assassin" hidden="false" targetId="4fc6-8582-33d6-8e76" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f2d8-4ffd-4925-f47f" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c789-f1ee-7979-8811" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="20.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8522-aa2f-6df3-a162" name="Tunnel Runners - Regiment" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="bfce-5080-57cc-4c04" name="Tunnel Runners - Regiment" book="CoK19" page="65" hidden="false" profileTypeId="ee75-275a-116e-b9ff" profileTypeName="LrgCav">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Sp" characteristicTypeId="d78f-16e0-c67b-e548" value="8"/>
+            <characteristic name="Me" characteristicTypeId="394f-5f3d-387c-9577" value="4+"/>
+            <characteristic name="Ra" characteristicTypeId="353a-e528-9161-8cf7" value="-"/>
+            <characteristic name="De" characteristicTypeId="5aa5-0f36-8d3c-d047" value="5+"/>
+            <characteristic name="Att" characteristicTypeId="9cf8-8be2-6897-8dbe" value="12"/>
+            <characteristic name="Nerve" characteristicTypeId="657d-8cee-81ca-4a48" value="11/13"/>
+            <characteristic name="Special" characteristicTypeId="a101-39b1-1fc2-c241" value="CS (1), TC (1)"/>
+            <characteristic name="Ht" characteristicTypeId="742e-a972-a565-0caa" value="3"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="eb28-9b88-41b0-8bdc" name="Crushing Strength (n)" hidden="false" targetId="3131-8f0a-0927-8489" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="a599-8a6b-5376-d120" name="Thunderous Charge (n)" hidden="false" targetId="a8ce-2f96-b0be-47d6" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="c33d-79f7-dcad-9157" name="New CategoryLink" hidden="false" targetId="dd5b-9a97-e3a1-83c5" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="e5a7-e7ce-600e-e094" name="Regiments" hidden="false" targetId="6419-e3ec-770e-899c" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="9189-6d41-aaef-1c86" name="Magic Artefacts" hidden="false" targetId="6816-61a6-c6f9-a79e" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="135.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9663-6b25-fa3a-afdd" name="Tunnel Runners - Horde" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="bbf5-0a04-c85c-4cce" name="Tunnel Runners - Horde" book="CoK19" page="65" hidden="false" profileTypeId="ee75-275a-116e-b9ff" profileTypeName="LrgCav">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="a101-39b1-1fc2-c241" value="CS (1), Rallying! (1), TC (1), Fury">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="082d-77e7-c9b1-82dc" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Sp" characteristicTypeId="d78f-16e0-c67b-e548" value="8"/>
+            <characteristic name="Me" characteristicTypeId="394f-5f3d-387c-9577" value="4+"/>
+            <characteristic name="Ra" characteristicTypeId="353a-e528-9161-8cf7" value="-"/>
+            <characteristic name="De" characteristicTypeId="5aa5-0f36-8d3c-d047" value="5+"/>
+            <characteristic name="Att" characteristicTypeId="9cf8-8be2-6897-8dbe" value="24"/>
+            <characteristic name="Nerve" characteristicTypeId="657d-8cee-81ca-4a48" value="14/16"/>
+            <characteristic name="Special" characteristicTypeId="a101-39b1-1fc2-c241" value="CS (1), Rallying! (1), TC (1)"/>
+            <characteristic name="Ht" characteristicTypeId="742e-a972-a565-0caa" value="3"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="e6ff-8dfc-e183-b2ff" name="Crushing Strength (n)" hidden="false" targetId="3131-8f0a-0927-8489" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="374c-d811-9e0e-d0f6" name="Rallying! (n)" hidden="false" targetId="a621-0f14-db61-f580" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="af5c-5a7a-5671-6cec" name="Thunderous Charge (n)" hidden="false" targetId="a8ce-2f96-b0be-47d6" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="0ce3-7481-1e68-f3cb" name="New CategoryLink" hidden="false" targetId="dd5b-9a97-e3a1-83c5" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="6a25-e083-6126-4c2f" name="Hordes/Legions" hidden="false" targetId="d4b6-e8c2-3b9e-61f8" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="bea3-209c-6fe7-3e11" name="Magic Artefacts" hidden="false" targetId="6816-61a6-c6f9-a79e" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="215.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2894-722f-f84b-1f9b" name="Nightmares - Regiment" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="c406-e312-3900-1414" name="Nightmares - Regiment" book="CoK19" page="65" hidden="false" profileTypeId="5be6-68da-9bad-a10b" profileTypeName="LrgInf">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Sp" characteristicTypeId="2565-cf3b-247c-4500" value="6"/>
+            <characteristic name="Me" characteristicTypeId="36e7-b7d0-7fa2-5ae5" value="4+"/>
+            <characteristic name="Ra" characteristicTypeId="b9be-64dd-5fa3-115b" value="-"/>
+            <characteristic name="De" characteristicTypeId="cbe1-5353-b095-61cb" value="5+"/>
+            <characteristic name="Att" characteristicTypeId="dc3a-2d06-3679-8a40" value="9"/>
+            <characteristic name="Nerve" characteristicTypeId="b698-bffb-07b3-afd4" value="11/13"/>
+            <characteristic name="Special" characteristicTypeId="3fc0-bd1e-4dc0-6526" value="Breath Attack (Att), CS (1), Vicious (Melee only)"/>
+            <characteristic name="Ht" characteristicTypeId="8095-2365-8a1b-f23a" value="2"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="c1e5-c58a-989b-7fb4" name="Breath Attack (n)" hidden="false" targetId="cf5c-be60-d830-9bdf" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="1f7a-ab6e-c10f-0aaf" name="Crushing Strength (n)" hidden="false" targetId="3131-8f0a-0927-8489" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="5a54-cc5d-8b23-68f2" name="Vicious" hidden="false" targetId="47c7-1334-d1bf-24d9" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="7fd6-5ff8-5bb0-80d8" name="New CategoryLink" hidden="false" targetId="bd55-8ab8-ff86-2463" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="7e70-8d60-5710-5ebf" name="Regiments" hidden="false" targetId="6419-e3ec-770e-899c" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="81dd-9ada-7ef5-19b5" name="Magic Artefacts" hidden="false" targetId="6816-61a6-c6f9-a79e" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="150.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="efdb-e8d4-55e3-36b5" name="Nightmares - Horde" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="5497-8176-b397-d451" name="Nightmares - Horde" book="CoK19" page="65" hidden="false" profileTypeId="5be6-68da-9bad-a10b" profileTypeName="LrgInf">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Sp" characteristicTypeId="2565-cf3b-247c-4500" value="6"/>
+            <characteristic name="Me" characteristicTypeId="36e7-b7d0-7fa2-5ae5" value="4+"/>
+            <characteristic name="Ra" characteristicTypeId="b9be-64dd-5fa3-115b" value="-"/>
+            <characteristic name="De" characteristicTypeId="cbe1-5353-b095-61cb" value="5+"/>
+            <characteristic name="Att" characteristicTypeId="dc3a-2d06-3679-8a40" value="18"/>
+            <characteristic name="Nerve" characteristicTypeId="b698-bffb-07b3-afd4" value="14/16"/>
+            <characteristic name="Special" characteristicTypeId="3fc0-bd1e-4dc0-6526" value="Breath Attack (Att), CS (1), Rallying! (1), Vicious (Melee only)"/>
+            <characteristic name="Ht" characteristicTypeId="8095-2365-8a1b-f23a" value="2"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="26f1-a1ef-a514-23b0" name="Breath Attack (n)" hidden="false" targetId="cf5c-be60-d830-9bdf" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="ba60-4b20-168a-c25b" name="Crushing Strength (n)" hidden="false" targetId="3131-8f0a-0927-8489" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="246e-2918-ec08-6198" name="Vicious" hidden="false" targetId="47c7-1334-d1bf-24d9" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="7c96-f658-da2b-255b" name="Rallying! (n)" hidden="false" targetId="a621-0f14-db61-f580" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="662e-9c5c-08fa-821f" name="Hordes/Legions" hidden="false" targetId="d4b6-e8c2-3b9e-61f8" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="fe0c-65c1-d5a7-954e" name="New CategoryLink" hidden="false" targetId="bd55-8ab8-ff86-2463" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="1621-d6b5-8794-96f9" name="Magic Artefacts" hidden="false" targetId="6816-61a6-c6f9-a79e" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="235.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5869-5886-0ef8-12b8" name="Night Terror" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="fc8c-c3a3-e743-056f" name="Night Terror" book="CoK19" page="65" hidden="false" profileTypeId="b808-a790-b9e2-2381" profileTypeName="Hero (LrgInf)">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="c97d-7f17-861e-b7db" value="CS (2), Nimble, Rallying! (1)">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="082d-77e7-c9b1-82dc" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Sp" characteristicTypeId="9cbe-a90a-d30f-d5c6" value="9"/>
+            <characteristic name="Me" characteristicTypeId="fb39-60eb-480a-439c" value="3+"/>
+            <characteristic name="Ra" characteristicTypeId="194a-32cf-f523-9dff" value="-"/>
+            <characteristic name="De" characteristicTypeId="fb05-a303-c056-9959" value="5+"/>
+            <characteristic name="Att" characteristicTypeId="d639-a799-5ae4-b39a" value="5"/>
+            <characteristic name="Nerve" characteristicTypeId="7e7a-b36a-ecc7-6857" value="12/14"/>
+            <characteristic name="Special" characteristicTypeId="c97d-7f17-861e-b7db" value="CS (2), Nimble"/>
+            <characteristic name="Ht" characteristicTypeId="c00c-e91c-357f-f69b" value="2"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="f2be-83ab-3633-da39" name="Crushing Strength (n)" hidden="false" targetId="3131-8f0a-0927-8489" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="4700-352f-b7da-2816" name="Nimble" hidden="false" targetId="b79a-f274-5123-df1d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="fd4f-31f2-ef74-e75e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7097-48cd-e54f-67cb" type="max"/>
+        <constraint field="selections" scope="832e-ae14-a8a1-04ef" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a83-5815-7ae7-4583" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="ac77-6730-26c5-9abd" name="New CategoryLink" hidden="false" targetId="2236-ee12-e75d-9050" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="0157-0eec-6bcc-6913" name="Hero/Mon/WarEng" hidden="false" targetId="1f15-ed91-6655-1da4" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="35b4-6f38-2db1-91ba" name="Magic Artefacts" hidden="false" targetId="6816-61a6-c6f9-a79e" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="115.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="082d-77e7-c9b1-82dc" name="Turbo Runners" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules>
+        <rule id="a7cd-586e-421b-8c14" name="Formation: Turbo Runners" book="CoK19" page="65" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Formation must contain:
+2x Tunnel Runners - Hordes
+1x Night Terror
+Each unit of Tunnel Runners in this formation is granted the Fury special rule. The Night Terror in this formation is granted the Rallying! (1) special rule.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc57-612e-4b97-600f" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="5f40-62f4-5734-04eb" name="New CategoryLink" hidden="false" targetId="8268-0874-ff47-7871" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="f0e6-5532-85b1-0472" name="Tunnel Runners - Horde" hidden="false" targetId="9663-6b25-fa3a-afdd" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="900e-e03d-3066-27de" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="589d-7754-a037-fa2c" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="932e-8ea2-313a-95d5" name="Night Terror" hidden="false" targetId="5869-5886-0ef8-12b8" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="86dc-d7d3-28a8-1ca6" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0ce3-853c-4962-d41f" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="30.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
