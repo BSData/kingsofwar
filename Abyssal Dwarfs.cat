@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f652-4df3-5e45-e3eb" name="Abyssal Dwarfs" revision="7" battleScribeVersion="2.01" authorName="John (Ekaznae)" authorContact="bsdata.kow@gmail.com" authorUrl="https://github.com/BSData/kingsofwar" gameSystemId="0929-4596-8744-bbda" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f652-4df3-5e45-e3eb" name="Abyssal Dwarfs" revision="8" battleScribeVersion="2.01" authorName="John (Ekaznae)" authorContact="bsdata.kow@gmail.com" authorUrl="https://github.com/BSData/kingsofwar" gameSystemId="0929-4596-8744-bbda" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="7e9e-3cd1-547c-4c03" name="Alignment (Abyssal Dwarfs): Evil" hidden="false">
@@ -901,7 +901,22 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="bcc1-ca7e-117a-2d9b" value="4+">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ed6a-6596-4fc4-dc84" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="cf8b-64f1-fa58-e6ff" value="Breath Attack (12), Piercing (1), Vicious, CS (1)">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ed6a-6596-4fc4-dc84" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Sp" characteristicTypeId="4f37-fbb6-fe56-7164" value="4"/>
             <characteristic name="Me" characteristicTypeId="bcc1-ca7e-117a-2d9b" value="5+"/>
@@ -1211,7 +1226,15 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="cf8b-64f1-fa58-e6ff" value="Base: (25x25mm), CS (1), Vicious, Yellow Bellied, Fury">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="002a-9eab-9d32-236b" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Sp" characteristicTypeId="4f37-fbb6-fe56-7164" value="5"/>
             <characteristic name="Me" characteristicTypeId="bcc1-ca7e-117a-2d9b" value="5+"/>
@@ -1602,7 +1625,15 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="9c0f-4a8c-8d96-9fef" value="CS (1), TC (1), Yellow Bellied, Fury">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="002a-9eab-9d32-236b" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Sp" characteristicTypeId="e597-5d69-0793-f6ae" value="8"/>
             <characteristic name="Me" characteristicTypeId="68c5-0400-2e54-089d" value="4+"/>
@@ -1763,7 +1794,15 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="9c0f-4a8c-8d96-9fef" value="CS (1), Regen (5+), TC (1), Vicious, Fury">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="17bf-a812-17b6-6b91" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Sp" characteristicTypeId="e597-5d69-0793-f6ae" value="8"/>
             <characteristic name="Me" characteristicTypeId="68c5-0400-2e54-089d" value="3+"/>
@@ -2323,7 +2362,15 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="d2b1-c5bd-84b0-af9c" value="Individual, Inspiring, Vicious, CS (2)">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ed6a-6596-4fc4-dc84" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Sp" characteristicTypeId="c716-0f15-9a4f-d7ed" value="4"/>
             <characteristic name="Me" characteristicTypeId="03c9-62d7-bfc7-f9c9" value="3+"/>
@@ -2502,7 +2549,15 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="d2b1-c5bd-84b0-af9c" value="Individual, Inspiring, Vicious, Fury, Rallying! (2 - Slave Orcs only)">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="002a-9eab-9d32-236b" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Sp" characteristicTypeId="c716-0f15-9a4f-d7ed" value="4"/>
             <characteristic name="Me" characteristicTypeId="03c9-62d7-bfc7-f9c9" value="5+"/>
@@ -2785,7 +2840,7 @@
             <characteristic name="De" characteristicTypeId="85ae-39a9-e23c-37c6" value="5+"/>
             <characteristic name="Att" characteristicTypeId="504e-02d3-f907-9808" value="2"/>
             <characteristic name="Nerve" characteristicTypeId="0ae3-1d1d-8fca-f9ba" value="11/13"/>
-            <characteristic name="Special" characteristicTypeId="d2b1-c5bd-84b0-af9c" value="CS (1), Fireball (6), Heal (3 - War Engines, Golems, Immortal Guard only), Individual, Inspiring (War Engines only), Vicious"/>
+            <characteristic name="Special" characteristicTypeId="d2b1-c5bd-84b0-af9c" value="CS (1), Fireball (6), Heal (3 - War Engines, Golems, Immortal Guard only), Individual, Inspiring, Vicious"/>
             <characteristic name="Ht" characteristicTypeId="48e3-d799-d33a-cf8a" value="1"/>
           </characteristics>
         </profile>
@@ -2907,7 +2962,7 @@
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="9f36-112d-cbc7-3273" name="Artefacts" hidden="false" targetId="6816-61a6-c6f9-a79e" type="selectionEntryGroup">
+        <entryLink id="9f36-112d-cbc7-3273" name="Magic Artefacts" hidden="false" targetId="6816-61a6-c6f9-a79e" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2915,7 +2970,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="2840-0be9-1595-4a9e" name="CoK 2018 Spells - Evil" hidden="false" targetId="fc98-f529-2d52-7b8e" type="selectionEntryGroup">
+        <entryLink id="2840-0be9-1595-4a9e" name="Clash of Kings Spells - Evil" hidden="false" targetId="fc98-f529-2d52-7b8e" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3084,7 +3139,15 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="7d69-5a27-3df5-ebf5" value="Bhardoom!, CS (3), Individual, Regen (5+), Vicious, Fury, Dread">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="17bf-a812-17b6-6b91" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Sp" characteristicTypeId="8bd7-8d27-2637-0aa1" value="8"/>
             <characteristic name="Me" characteristicTypeId="7638-0aa9-63c4-f8a2" value="3+"/>
@@ -3236,7 +3299,7 @@
     </selectionEntry>
     <selectionEntry id="b5a1-389f-5a41-f1c3" name="Dravak Dalken [1]" hidden="false" collective="false" type="unit">
       <profiles>
-        <profile id="3ae0-773e-9998-564c" name="Dravak Dalken [1]" hidden="false" profileTypeId="f71e-c719-35b8-f19f" profileTypeName="Hero (Inf)">
+        <profile id="3ae0-773e-9998-564c" name="Dravak Dalken [1]" book="CoK19" page="52" hidden="false" profileTypeId="f71e-c719-35b8-f19f" profileTypeName="Hero (Inf)">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3248,13 +3311,13 @@
             <characteristic name="De" characteristicTypeId="85ae-39a9-e23c-37c6" value="5+"/>
             <characteristic name="Att" characteristicTypeId="504e-02d3-f907-9808" value="2"/>
             <characteristic name="Nerve" characteristicTypeId="0ae3-1d1d-8fca-f9ba" value="12/14"/>
-            <characteristic name="Special" characteristicTypeId="d2b1-c5bd-84b0-af9c" value="Blound Soul, CS (1), Elite, Fireball (10), Heal (5 - Golems only), Individual, Inspiring, Surge (10), Vicious"/>
+            <characteristic name="Special" characteristicTypeId="d2b1-c5bd-84b0-af9c" value="Bound Soul, CS (1), Elite, Fireball (8), Heal (5 - Golems only), Individual, Inspiring, Piercing (1), Surge (10), Vicious"/>
             <characteristic name="Ht" characteristicTypeId="48e3-d799-d33a-cf8a" value="1"/>
           </characteristics>
         </profile>
       </profiles>
       <rules>
-        <rule id="c8fe-98a8-46dc-60a0" name="Blound Soul" hidden="false">
+        <rule id="c8fe-98a8-46dc-60a0" name="Bound Soul" book="CoK19" page="52" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3311,6 +3374,12 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
+        <infoLink id="226a-7ca9-9e0d-416b" name="Piercing (n)" hidden="false" targetId="cc29-8e7d-2a0e-c995" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
       </infoLinks>
       <modifiers/>
       <constraints>
@@ -3348,7 +3417,7 @@
     </selectionEntry>
     <selectionEntry id="34d8-da25-6011-9b75" name="Infernok [1]" hidden="false" collective="false" type="unit">
       <profiles>
-        <profile id="8ebf-8055-1d38-46fc" name="Infernok [1]" hidden="false" profileTypeId="9c15-4092-fcbd-188e" profileTypeName="Mon">
+        <profile id="8ebf-8055-1d38-46fc" name="Infernok [1]" book="CoK19" page="52" hidden="false" profileTypeId="9c15-4092-fcbd-188e" profileTypeName="Mon">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3423,16 +3492,16 @@
     <selectionEntry id="002a-9eab-9d32-236b" name="Broken Slaves" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules>
-        <rule id="cd86-2b22-8b11-0bea" name="Formation: Broken Slaves" hidden="false">
+        <rule id="cd86-2b22-8b11-0bea" name="Formation: Broken Slaves" book="CoK19" page="53" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <description>Formation must contain:
-   1x Slave Orc Gore Riders* Regiment
-   2x Slave Orcs* Hordes
-   1x Slave Driver
-While within 6&quot; of the Slave Driver from this formation, each unit of Slave Orcs in this formation has +2 to their Rout Nerve value and have the Fury special rule.</description>
+1x Slave Orc Gore Riders* - Regiment
+2x Slave Orcs* - Hordes
+1x Slave Driver
+Each unit in this formation is granted the Fury special rule. The Slave Driver in this formation is granted the Rallying! (2 - Slave Orcs only) special rule.</description>
         </rule>
       </rules>
       <infoLinks/>
@@ -3451,23 +3520,57 @@ While within 6&quot; of the Slave Driver from this formation, each unit of Slave
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="9ddb-c4c8-e1a9-2d27" name="Slave Orc Gore Riders* - Regiment" hidden="false" targetId="f68f-92d3-62c2-1548" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6b2d-28ca-32ca-5916" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3b61-0326-ef6c-ff9e" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="a5d0-53a9-5dc2-f72f" name="Slave Orcs* - Horde" hidden="false" targetId="a262-a661-b1bf-ebba" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="362a-97a1-6c6c-20f0" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6d21-00dc-6156-bf8c" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="fdbc-ed27-4b6e-79b9" name="Slave Driver" hidden="false" targetId="65f0-3a06-50e7-55ea" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="05c1-4d9a-9487-60d7" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7e4f-91ba-e35d-c8bf" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="35.0"/>
+        <cost name="pts" costTypeId="points" value="30.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ed6a-6596-4fc4-dc84" name="Heralds of the Black Flame" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules>
-        <rule id="dd32-3a0a-df22-08e8" name="Formation: Heralds of the Black Flame" hidden="false">
+        <rule id="dd32-3a0a-df22-08e8" name="Formation: Heralds of the Black Flame" book="CoK19" page="53" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <description>Formation must contain:
-   2x Decimators Regiments
-   1x Overmaster
-Each unit of Decimators in this formation increases their Melee value to 4+ and is granted the Crushing Strength (1) special rule.</description>
+2x Decimators - Regiments
+1x Overmaster
+Each unit of Decimators in this formation improves their Melee value to 4+ and is granted the Crushing Strength (1) special rule. The Overmaster in this formation increases its Crushing Strength to (2).</description>
         </rule>
       </rules>
       <infoLinks/>
@@ -3486,14 +3589,37 @@ Each unit of Decimators in this formation increases their Melee value to 4+ and 
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="dce7-5044-b044-de89" name="Decimators - Regiment" hidden="false" targetId="3d15-9809-21b5-f5d5" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d4ab-e93c-1ba5-e5e6" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1fe0-ca6a-ba86-9971" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="fb39-9b56-cd0e-ee8a" name="Overmaster" hidden="false" targetId="c34c-bfe7-478f-4bc5" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="92e6-17f7-337f-1af5" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9d9f-b472-21de-2e25" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="35.0"/>
+        <cost name="pts" costTypeId="points" value="30.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1d46-aac4-abae-7c30" name="Mutated Mastiff Hunting Pack* - Regiment" hidden="false" collective="false" type="unit">
       <profiles>
-        <profile id="e2b2-2239-b69f-122a" name="Mutated Mastiff Hunting Pack* - Regiment" book="CoK" page="55" hidden="false" profileTypeId="5be6-68da-9bad-a10b" profileTypeName="LrgInf">
+        <profile id="e2b2-2239-b69f-122a" name="Mutated Mastiff Hunting Pack* - Regiment" book="CoK19" page="52" hidden="false" profileTypeId="5be6-68da-9bad-a10b" profileTypeName="LrgInf">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3505,7 +3631,7 @@ Each unit of Decimators in this formation increases their Melee value to 4+ and 
             <characteristic name="De" characteristicTypeId="cbe1-5353-b095-61cb" value="2+"/>
             <characteristic name="Att" characteristicTypeId="dc3a-2d06-3679-8a40" value="9"/>
             <characteristic name="Nerve" characteristicTypeId="b698-bffb-07b3-afd4" value="10/12"/>
-            <characteristic name="Special" characteristicTypeId="3fc0-bd1e-4dc0-6526" value="CS (1 - against Cavalry only), Vicious"/>
+            <characteristic name="Special" characteristicTypeId="3fc0-bd1e-4dc0-6526" value="CS (1 - vs Cavalry only), Vicious"/>
             <characteristic name="Ht" characteristicTypeId="8095-2365-8a1b-f23a" value="0"/>
           </characteristics>
         </profile>
@@ -3592,7 +3718,7 @@ Each unit of Decimators in this formation increases their Melee value to 4+ and 
     </selectionEntry>
     <selectionEntry id="d403-fa27-1485-4a3f" name="Taskmaster: Slave Driver on Chariot" hidden="false" collective="false" type="unit">
       <profiles>
-        <profile id="8656-293e-494e-1ce2" name="Taskmaster: Slave Driver on Chariot" book="CoK" page="55" hidden="false" profileTypeId="81a6-b833-29e1-0fc0" profileTypeName="Hero (LrgCav)">
+        <profile id="8656-293e-494e-1ce2" name="Taskmaster: Slave Driver on Chariot" book="CoK19" page="52" hidden="false" profileTypeId="81a6-b833-29e1-0fc0" profileTypeName="Hero (LrgCav)">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3671,6 +3797,303 @@ Each unit of Decimators in this formation increases their Melee value to 4+ and 
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="90.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7a5d-6528-c1fa-65b7" name="Overmaster on Ancient Winged Halfbreed" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="cdbe-7a83-31ba-39f8" name="Overmaster on Ancient Winged Halfbreed" book="CoK19" page="53" hidden="false" profileTypeId="4079-6c0c-6ae0-8f67" profileTypeName="Hero (Mon)">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Sp" characteristicTypeId="e561-1ecc-d20e-6713" value="10"/>
+            <characteristic name="Me" characteristicTypeId="f7e8-9d6b-80b7-ff3f" value="3+"/>
+            <characteristic name="Ra" characteristicTypeId="7303-c997-b3c7-a340" value="-"/>
+            <characteristic name="De" characteristicTypeId="65cd-8e6d-82dd-95d3" value="5+"/>
+            <characteristic name="Att" characteristicTypeId="2a83-276b-55bb-750c" value="10"/>
+            <characteristic name="Nerve" characteristicTypeId="08c6-8d99-a161-afdf" value="18/20"/>
+            <characteristic name="Special" characteristicTypeId="baeb-f12d-932a-0bae" value="Base: (75x75mm), Breath Attack (12), CS (3), Fly, Inspiring, Vicious"/>
+            <characteristic name="Ht" characteristicTypeId="f585-d4b5-5d27-214a" value="4"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="a7a5-5054-ef7c-b9ce" name="Breath Attack (n)" hidden="false" targetId="cf5c-be60-d830-9bdf" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="4e6c-090a-d9c2-baa9" name="Crushing Strength (n)" hidden="false" targetId="3131-8f0a-0927-8489" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="1e87-8fd1-0666-c61f" name="Fly" hidden="false" targetId="dc50-fdaa-d751-9cdf" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="bc45-3187-e02d-1b4d" name="Inspiring" hidden="false" targetId="7c18-e2b7-bc3b-fe10" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="f883-ee62-0ceb-c5ea" name="Vicious" hidden="false" targetId="47c7-1334-d1bf-24d9" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="fd4f-31f2-ef74-e75e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d3b-7901-b6bf-90b6" type="max"/>
+        <constraint field="selections" scope="832e-ae14-a8a1-04ef" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="60eb-387a-dbe7-5893" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="40db-3b66-5263-0434" name="New CategoryLink" hidden="false" targetId="2236-ee12-e75d-9050" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="515a-9a61-3114-f117" name="Hero/Mon/WarEng" hidden="false" targetId="1f15-ed91-6655-1da4" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="b6f0-bde5-342f-550e" name="Magic Artefacts" hidden="false" targetId="6816-61a6-c6f9-a79e" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="310.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8627-f2ff-aaa4-4b3d" name="Supreme Iron-caster on Ancient Winged Halfbreed" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="5e4b-cb9f-67eb-c94f" name="Supreme Iron-caster on Ancient Winged Halfbreed" book="CoK19" page="53" hidden="false" profileTypeId="4079-6c0c-6ae0-8f67" profileTypeName="Hero (Mon)">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Sp" characteristicTypeId="e561-1ecc-d20e-6713" value="10"/>
+            <characteristic name="Me" characteristicTypeId="f7e8-9d6b-80b7-ff3f" value="3+"/>
+            <characteristic name="Ra" characteristicTypeId="7303-c997-b3c7-a340" value="-"/>
+            <characteristic name="De" characteristicTypeId="65cd-8e6d-82dd-95d3" value="5+"/>
+            <characteristic name="Att" characteristicTypeId="2a83-276b-55bb-750c" value="7"/>
+            <characteristic name="Nerve" characteristicTypeId="08c6-8d99-a161-afdf" value="16/18"/>
+            <characteristic name="Special" characteristicTypeId="baeb-f12d-932a-0bae" value="Base: (75x75mm), CS (3), Fireball (10), Fly, Heal (4 - War Engines, Golems, Immortal Guard only), Inspiring, Vicious"/>
+            <characteristic name="Ht" characteristicTypeId="f585-d4b5-5d27-214a" value="4"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="d401-e903-3250-156d" name="Crushing Strength (n)" hidden="false" targetId="3131-8f0a-0927-8489" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="a88b-ecfd-dbf8-bbd4" name="Fireball (n)" hidden="false" targetId="a496-054d-a2d6-47b8" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="e4cf-d901-82e1-f81e" name="Fly" hidden="false" targetId="dc50-fdaa-d751-9cdf" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="ed49-d01f-e28b-d6e8" name="Heal (n)" hidden="false" targetId="a125-9eee-fc99-05f7" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="5304-d054-dc69-a7b9" name="Inspiring" hidden="false" targetId="7c18-e2b7-bc3b-fe10" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="6ccd-3a16-fdd5-4e28" name="Vicious" hidden="false" targetId="47c7-1334-d1bf-24d9" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="fd4f-31f2-ef74-e75e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="638e-c629-8577-e53e" type="max"/>
+        <constraint field="selections" scope="832e-ae14-a8a1-04ef" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="89ef-bee7-e35c-1e3e" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="7e99-e047-4706-f3b7" name="New CategoryLink" hidden="false" targetId="2236-ee12-e75d-9050" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="dd7d-d933-54c4-9ef7" name="Hero/Mon/WarEng" hidden="false" targetId="1f15-ed91-6655-1da4" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="5bd3-a795-894e-2ca8" name="Lightning Bolt (5)" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="1e77-bc3a-8014-fdfe" name="Lightning Bolt (n)" hidden="false" targetId="643b-d49d-8d14-c765" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0670-d949-80a9-f527" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="25.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="70a7-8bf6-b0a5-2daa" name="Surge (10)" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="322d-2a8e-434c-7a9a" name="Surge (n)" hidden="false" targetId="8447-b7bc-2737-f07c" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="90e9-f511-929a-3abc" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="20.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="329c-a8c7-fe8e-9eed" name="Clash of Kings Spells - Evil" hidden="false" targetId="fc98-f529-2d52-7b8e" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="10e8-98af-f603-bfd2" name="Magic Artefacts" hidden="false" targetId="6816-61a6-c6f9-a79e" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="260.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="17bf-a812-17b6-6b91" name="Bhardoom!" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules>
+        <rule id="0a9e-c469-125d-d020" name="Formation: Bhardoom!" book="CoK19" page="53" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Formation must contain:
+2x Abyssal Halfbreeds - Regiments
+1x Brakki Barka [1]
+Each unit in this formation is granted the Fury special rule, and Brakki Barka is granted the Dread special rule.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="30cf-937f-1fee-7684" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="d868-c4d6-b1fd-3b8a" name="New CategoryLink" hidden="false" targetId="8268-0874-ff47-7871" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="f197-d38b-0640-9db4" name="Abyssal Halfbreeds - Regiment" hidden="false" targetId="479c-b274-9497-d6c4" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="075d-24b9-90fd-53e8" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="39cf-33c5-7dc8-2a2b" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="e5b3-462c-e11c-f639" name="Brakki Barka [1]" hidden="false" targetId="93cf-0239-68b9-fa9f" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="cc8f-5815-f8c2-b6c7" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="655a-7895-8d94-7077" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="30.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
