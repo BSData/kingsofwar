@@ -346,6 +346,41 @@
       <constraints/>
       <forceEntries/>
       <categoryLinks>
+        <categoryLink id="ab6f-ebae-febf-f8a9" name="Formations" hidden="false" targetId="8268-0874-ff47-7871" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="ee82-1b7f-4eba-37be" name="Infantry" hidden="false" targetId="66ef-4d37-b355-388e" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="4074-64d0-5cce-2fa4" name="Large Infantry" hidden="false" targetId="bd55-8ab8-ff86-2463" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="cc62-d854-5f53-f24e" name="Cavalry" hidden="false" targetId="5604-ed5f-2918-7d18" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="912f-90e0-345e-02d8" name="Large Cavalry" hidden="false" targetId="dd5b-9a97-e3a1-83c5" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
         <categoryLink id="4a53-0e1e-5e27-2d44" name="Heroes" hidden="false" targetId="2236-ee12-e75d-9050" primary="false">
           <profiles/>
           <rules/>
@@ -367,41 +402,6 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
-        <categoryLink id="cc62-d854-5f53-f24e" name="Cavalry" hidden="false" targetId="5604-ed5f-2918-7d18" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="912f-90e0-345e-02d8" name="Large Cavalry" hidden="false" targetId="dd5b-9a97-e3a1-83c5" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="ee82-1b7f-4eba-37be" name="Infantry" hidden="false" targetId="66ef-4d37-b355-388e" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="4074-64d0-5cce-2fa4" name="Large Infantry" hidden="false" targetId="bd55-8ab8-ff86-2463" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="ab6f-ebae-febf-f8a9" name="Formations" hidden="false" targetId="8268-0874-ff47-7871" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
       </categoryLinks>
     </forceEntry>
     <forceEntry id="fd4f-31f2-ef74-e75e" name="{Allied Force}" hidden="false">
@@ -414,13 +414,6 @@
       </constraints>
       <forceEntries/>
       <categoryLinks>
-        <categoryLink id="ba40-3c7a-a8e9-d907" name="Cavalry" hidden="false" targetId="5604-ed5f-2918-7d18" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
         <categoryLink id="29dd-4021-b754-cc53" name="Formations" hidden="false" targetId="8268-0874-ff47-7871" primary="false">
           <profiles/>
           <rules/>
@@ -428,14 +421,21 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
-        <categoryLink id="235b-51e6-9617-caa1" name="Heroes" hidden="false" targetId="2236-ee12-e75d-9050" primary="false">
+		<categoryLink id="c723-53cd-83aa-84c8" name="Infantry" hidden="false" targetId="66ef-4d37-b355-388e" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
         </categoryLink>
-        <categoryLink id="c723-53cd-83aa-84c8" name="Infantry" hidden="false" targetId="66ef-4d37-b355-388e" primary="false">
+        <categoryLink id="ec4d-1c84-1391-4f2c" name="Large Infantry" hidden="false" targetId="bd55-8ab8-ff86-2463" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="ba40-3c7a-a8e9-d907" name="Cavalry" hidden="false" targetId="5604-ed5f-2918-7d18" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -449,7 +449,7 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
-        <categoryLink id="ec4d-1c84-1391-4f2c" name="Large Infantry" hidden="false" targetId="bd55-8ab8-ff86-2463" primary="false">
+        <categoryLink id="235b-51e6-9617-caa1" name="Heroes" hidden="false" targetId="2236-ee12-e75d-9050" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
