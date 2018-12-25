@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="754f-54c8-57c2-b3dd" name="Twilight Kin" revision="7" battleScribeVersion="2.01" authorName="John (Ekaznae)" authorContact="bsdata.kow@gmail.com" authorUrl="https://github.com/BSData/kingsofwar" gameSystemId="0929-4596-8744-bbda" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="754f-54c8-57c2-b3dd" name="Twilight Kin" revision="8" battleScribeVersion="2.01" authorName="John (Ekaznae)" authorContact="bsdata.kow@gmail.com" authorUrl="https://github.com/BSData/kingsofwar" gameSystemId="0929-4596-8744-bbda" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="8758-ce20-7f88-e0cf" name="Alignment (Twilight Kin): Evil" hidden="false">
@@ -535,7 +535,15 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="cf8b-64f1-fa58-e6ff" value="Bows (Range 24&quot;), Pathfinder, Vanguard, Vicious, Nimble, Stealthy">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e5fb-98cf-0eb5-fb73" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Sp" characteristicTypeId="4f37-fbb6-fe56-7164" value="6"/>
             <characteristic name="Me" characteristicTypeId="bcc1-ca7e-117a-2d9b" value="4+"/>
@@ -819,7 +827,15 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="cf8b-64f1-fa58-e6ff" value="Brutal, Headstrong, Vicious, Stealthy, Mindthirst">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="75e2-108b-55b2-c419" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Sp" characteristicTypeId="4f37-fbb6-fe56-7164" value="7"/>
             <characteristic name="Me" characteristicTypeId="bcc1-ca7e-117a-2d9b" value="3+"/>
@@ -832,7 +848,23 @@
           </characteristics>
         </profile>
       </profiles>
-      <rules/>
+      <rules>
+        <rule id="b8bc-0e14-8143-d702" name="Mindthirst" hidden="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="75e2-108b-55b2-c419" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <description>If this unit is within 12” of an enemy unit with the Inspiring or Very Inspiring special rule and is Routed, the opponent must re-roll that Nerve test. The second result stands.</description>
+        </rule>
+      </rules>
       <infoLinks>
         <infoLink id="ad07-69c8-75fd-162f" hidden="false" targetId="47c7-1334-d1bf-24d9" type="rule">
           <profiles/>
@@ -893,7 +925,15 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="cf8b-64f1-fa58-e6ff" value="Brutal, Headstrong, Vicious, Stealthy, Mindthirst">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="75e2-108b-55b2-c419" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Sp" characteristicTypeId="4f37-fbb6-fe56-7164" value="7"/>
             <characteristic name="Me" characteristicTypeId="bcc1-ca7e-117a-2d9b" value="3+"/>
@@ -906,9 +946,25 @@
           </characteristics>
         </profile>
       </profiles>
-      <rules/>
+      <rules>
+        <rule id="8feb-be2f-3f33-d56f" name="Mindthirst" hidden="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="75e2-108b-55b2-c419" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <description>If this unit is within 12” of an enemy unit with the Inspiring or Very Inspiring special rule and is Routed, the opponent must re-roll that Nerve test. The second result stands.</description>
+        </rule>
+      </rules>
       <infoLinks>
-        <infoLink id="8722-b49f-b91b-cde0" hidden="false" targetId="47c7-1334-d1bf-24d9" type="rule">
+        <infoLink id="8722-b49f-b91b-cde0" name="Vicious" hidden="false" targetId="47c7-1334-d1bf-24d9" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -920,7 +976,7 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="d920-8f59-6aa2-10b4" hidden="false" targetId="6be6-adad-42c1-637f" type="rule">
+        <infoLink id="d920-8f59-6aa2-10b4" name="Headstrong" hidden="false" targetId="6be6-adad-42c1-637f" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1770,7 +1826,7 @@
             <characteristic name="Ra" characteristicTypeId="353a-e528-9161-8cf7" value="4+"/>
             <characteristic name="De" characteristicTypeId="5aa5-0f36-8d3c-d047" value="4+"/>
             <characteristic name="Att" characteristicTypeId="9cf8-8be2-6897-8dbe" value="9"/>
-            <characteristic name="Nerve" characteristicTypeId="657d-8cee-81ca-4a48" value="13/15"/>
+            <characteristic name="Nerve" characteristicTypeId="657d-8cee-81ca-4a48" value="14/16"/>
             <characteristic name="Special" characteristicTypeId="a101-39b1-1fc2-c241" value="Base: (50x100mm), Light Crossbows (Range 24&quot;), TC (2), Vicious"/>
             <characteristic name="Ht" characteristicTypeId="742e-a972-a565-0caa" value="3"/>
           </characteristics>
@@ -2035,7 +2091,15 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="b5e6-b66d-3eb8-0493" value="CS (2), Multiple Heads, Pathfinder, Regen (5+), Gemini">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9f4c-fca6-1033-4602" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Sp" characteristicTypeId="2ccf-bc26-1a66-909a" value="6"/>
             <characteristic name="Me" characteristicTypeId="3075-e63d-f393-2605" value="4+"/>
@@ -3213,7 +3277,15 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="d2b1-c5bd-84b0-af9c" value="CS (1), Individual, Piercing (1), Stealthy, Throwing Weapons (Range 12&quot;), Vanguard, Vicious, Inspiring (Shadows only), Ensnare">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e5fb-98cf-0eb5-fb73" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Sp" characteristicTypeId="c716-0f15-9a4f-d7ed" value="7"/>
             <characteristic name="Me" characteristicTypeId="03c9-62d7-bfc7-f9c9" value="3+"/>
@@ -3312,15 +3384,15 @@
     <selectionEntry id="e5fb-98cf-0eb5-fb73" name="Cult of the Assassin" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules>
-        <rule id="49cb-2ed5-40cf-47da" name="Formation: Cult of the Assassin" hidden="false">
+        <rule id="49cb-2ed5-40cf-47da" name="Formation: Cult of the Assassin" book="CoK19" page="66" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <description>Formation must contain:
-2x Shadows Troops
+2x Shadows - Troops
 1x Assassin
-The Shadows Troops in this formation gain Nimble and Stealthy, and the Assassin gains Inspiring (Shadows only).</description>
+The Shadows in this formation gain both the Nimble and Stealthy special rules. The Assassin in this formation gains both the Inspiring (Shadows only) and Ensnare special rules.</description>
         </rule>
       </rules>
       <infoLinks/>
@@ -3339,7 +3411,30 @@ The Shadows Troops in this formation gain Nimble and Stealthy, and the Assassin 
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="04b6-4407-64ec-7031" name="Shadows - Troop" hidden="false" targetId="14ac-de56-a3ae-fe8a" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8fb2-a55e-e7ad-dc29" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="fa1a-ab0c-5f4c-3887" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="1690-1e2d-a4d8-46d6" name="Assassin" hidden="false" targetId="b4e7-4a29-17a7-d54f" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="749a-09fc-8eb5-c9cd" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f954-e692-aeff-b43d" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="30.0"/>
       </costs>
@@ -3347,15 +3442,15 @@ The Shadows Troops in this formation gain Nimble and Stealthy, and the Assassin 
     <selectionEntry id="75e2-108b-55b2-c419" name="Night Dancers" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules>
-        <rule id="dd37-1dad-34fa-091a" name="Formation: Night Dancers" hidden="false">
+        <rule id="dd37-1dad-34fa-091a" name="Formation: Night Dancers" book="CoK19" page="66" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <description>Formation must contain:
-2x Blade Dancer Troops
-2x Blade Dancer Regiments
-Each unit in this formation gains the Stealthy and Mindthirst special rules.</description>
+2x Blade Dancers - Troops
+2x Blade Dancers - Regiments
+Each unit in this formation is granted both the Stealthy and Mindthirst special rules.</description>
         </rule>
       </rules>
       <infoLinks/>
@@ -3374,9 +3469,657 @@ Each unit in this formation gains the Stealthy and Mindthirst special rules.</de
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="e5b7-f9ab-4b65-5e5a" name="Blade Dancers - Regiment" hidden="false" targetId="d283-2c9c-1e5b-13f7" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="915a-7443-e4ad-fe09" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="74b3-c126-023e-364e" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="185a-fab7-ef97-a47b" name="Blade Dancers - Troop" hidden="false" targetId="89b8-d04a-380a-9bbe" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c8b2-9a30-103c-832d" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="10ae-2b3e-73c4-55f8" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="30.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="de2f-063c-72db-3f27" name="Reapers* - Troop" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="799c-5b9d-6d32-f0fd" name="Reapers* - Troop" book="CoK19" page="66" hidden="false" profileTypeId="8328-7740-9179-97a3" profileTypeName="Inf">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Sp" characteristicTypeId="4f37-fbb6-fe56-7164" value="5"/>
+            <characteristic name="Me" characteristicTypeId="bcc1-ca7e-117a-2d9b" value="3+"/>
+            <characteristic name="Ra" characteristicTypeId="55a9-caea-9f49-540f" value="-"/>
+            <characteristic name="De" characteristicTypeId="f740-753e-918b-0e01" value="4+"/>
+            <characteristic name="Att" characteristicTypeId="08b5-9e79-e206-3776" value="20"/>
+            <characteristic name="Nerve" characteristicTypeId="5c74-5f95-be17-7fcf" value="11/14"/>
+            <characteristic name="Special" characteristicTypeId="cf8b-64f1-fa58-e6ff" value="CS (1), Mindthirst, Stealthy, does not have Vicious"/>
+            <characteristic name="Ht" characteristicTypeId="e5ff-5afe-a1c6-c83a" value="1"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="9f22-8ccb-2a4f-f68e" name="Crushing Strength (n)" hidden="false" targetId="3131-8f0a-0927-8489" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="02d4-eb1a-c68f-1a95" name="Mindthirst" hidden="false" targetId="a276-4e03-81b0-f5e3" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="4d8a-7afc-285b-3f6f" name="Stealthy" hidden="false" targetId="bdd0-eb1b-bf45-750e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="2c1e-9531-ecc3-39e1" name="New CategoryLink" hidden="false" targetId="66ef-4d37-b355-388e" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="f2c2-2960-c843-3c80" name="Troops" hidden="false" targetId="54e7-8b51-37d0-c6da" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="196a-bd77-f610-2c9b" name="Irregulars" hidden="false" targetId="6731-d255-50a0-0474" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="40de-6518-c945-d077" name="Magic Artefacts" hidden="false" targetId="6816-61a6-c6f9-a79e" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="155.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3055-c9b1-554d-43c4" name="Reapers* - Regiment" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="a84b-384c-aadf-264b" name="Reapers* - Regiment" book="CoK19" page="66" hidden="false" profileTypeId="8328-7740-9179-97a3" profileTypeName="Inf">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Sp" characteristicTypeId="4f37-fbb6-fe56-7164" value="5"/>
+            <characteristic name="Me" characteristicTypeId="bcc1-ca7e-117a-2d9b" value="3+"/>
+            <characteristic name="Ra" characteristicTypeId="55a9-caea-9f49-540f" value="-"/>
+            <characteristic name="De" characteristicTypeId="f740-753e-918b-0e01" value="4+"/>
+            <characteristic name="Att" characteristicTypeId="08b5-9e79-e206-3776" value="25"/>
+            <characteristic name="Nerve" characteristicTypeId="5c74-5f95-be17-7fcf" value="15/18"/>
+            <characteristic name="Special" characteristicTypeId="cf8b-64f1-fa58-e6ff" value="CS (1), Mindthirst, Stealthy, does not have Vicious"/>
+            <characteristic name="Ht" characteristicTypeId="e5ff-5afe-a1c6-c83a" value="1"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="456e-c548-9eac-086c" name="Crushing Strength (n)" hidden="false" targetId="3131-8f0a-0927-8489" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="8541-6534-ec08-dec1" name="Mindthirst" hidden="false" targetId="a276-4e03-81b0-f5e3" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="ab76-e7e0-4c5c-bcc4" name="Stealthy" hidden="false" targetId="bdd0-eb1b-bf45-750e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="9485-bfeb-cabc-e889" name="New CategoryLink" hidden="false" targetId="66ef-4d37-b355-388e" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="39eb-33ae-ec1a-880f" name="Irregulars" hidden="false" targetId="6731-d255-50a0-0474" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="a652-a089-ecba-bf63" name="Troops" hidden="false" targetId="54e7-8b51-37d0-c6da" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="0758-a7f7-857a-2814" name="Magic Artefacts" hidden="false" targetId="6816-61a6-c6f9-a79e" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="220.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a83a-cca5-f019-875e" name="Scarecrows* - Legion" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="b300-b489-d6e8-3340" name="Scarecrows* - Legion" book="CoK19" page="66" hidden="false" profileTypeId="8328-7740-9179-97a3" profileTypeName="Inf">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Sp" characteristicTypeId="4f37-fbb6-fe56-7164" value="5"/>
+            <characteristic name="Me" characteristicTypeId="bcc1-ca7e-117a-2d9b" value="5+"/>
+            <characteristic name="Ra" characteristicTypeId="55a9-caea-9f49-540f" value="-"/>
+            <characteristic name="De" characteristicTypeId="f740-753e-918b-0e01" value="3+"/>
+            <characteristic name="Att" characteristicTypeId="08b5-9e79-e206-3776" value="40"/>
+            <characteristic name="Nerve" characteristicTypeId="5c74-5f95-be17-7fcf" value="-/27"/>
+            <characteristic name="Special" characteristicTypeId="cf8b-64f1-fa58-e6ff" value="Mindthirst, Shambling, Stealthy, does not have Vicious"/>
+            <characteristic name="Ht" characteristicTypeId="e5ff-5afe-a1c6-c83a" value="1"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="e9bd-64ca-5738-9ce4" name="Mindthirst" hidden="false" targetId="a276-4e03-81b0-f5e3" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="b60a-19bf-4a3f-d1e9" name="Shambling" hidden="false" targetId="36fd-c324-ddc8-ef9a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="a0fd-955f-3bb8-ca26" name="Stealthy" hidden="false" targetId="bdd0-eb1b-bf45-750e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="b5d3-01c7-e73f-2583" name="New CategoryLink" hidden="false" targetId="66ef-4d37-b355-388e" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="0656-6c82-4475-479b" name="Irregulars" hidden="false" targetId="6731-d255-50a0-0474" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="97d7-add0-50d9-0819" name="Troops" hidden="false" targetId="54e7-8b51-37d0-c6da" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="2703-6f41-a08d-3953" name="Magic Artefacts" hidden="false" targetId="6816-61a6-c6f9-a79e" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="190.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a285-5046-f410-888e" name="Scarecrows* - Horde" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="4875-c28f-1690-fc85" name="Scarecrows* - Horde" book="CoK19" page="66" hidden="false" profileTypeId="8328-7740-9179-97a3" profileTypeName="Inf">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Sp" characteristicTypeId="4f37-fbb6-fe56-7164" value="5"/>
+            <characteristic name="Me" characteristicTypeId="bcc1-ca7e-117a-2d9b" value="5+"/>
+            <characteristic name="Ra" characteristicTypeId="55a9-caea-9f49-540f" value="-"/>
+            <characteristic name="De" characteristicTypeId="f740-753e-918b-0e01" value="3+"/>
+            <characteristic name="Att" characteristicTypeId="08b5-9e79-e206-3776" value="30"/>
+            <characteristic name="Nerve" characteristicTypeId="5c74-5f95-be17-7fcf" value="-/21"/>
+            <characteristic name="Special" characteristicTypeId="cf8b-64f1-fa58-e6ff" value="Mindthirst, Shambling, Stealthy, does not have Vicious"/>
+            <characteristic name="Ht" characteristicTypeId="e5ff-5afe-a1c6-c83a" value="1"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="b76e-584d-c28f-e7e7" name="Mindthirst" hidden="false" targetId="a276-4e03-81b0-f5e3" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="5683-5eac-6ddc-d14a" name="Shambling" hidden="false" targetId="36fd-c324-ddc8-ef9a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="3c0b-e723-ed8d-b7ac" name="Stealthy" hidden="false" targetId="bdd0-eb1b-bf45-750e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="ba16-def0-1375-1dc7" name="New CategoryLink" hidden="false" targetId="66ef-4d37-b355-388e" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="5be8-611a-b2e6-da18" name="Irregulars" hidden="false" targetId="6731-d255-50a0-0474" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="922a-7080-eff4-d7b2" name="Troops" hidden="false" targetId="54e7-8b51-37d0-c6da" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="0f54-aa2b-aed4-1aa8" name="Magic Artefacts" hidden="false" targetId="6816-61a6-c6f9-a79e" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="130.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7734-639a-c2e4-75f1" name="Scarecrows* - Regiment" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="917f-f24b-0431-c7f5" name="Scarecrows* - Regiment" book="CoK19" page="66" hidden="false" profileTypeId="8328-7740-9179-97a3" profileTypeName="Inf">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Sp" characteristicTypeId="4f37-fbb6-fe56-7164" value="5"/>
+            <characteristic name="Me" characteristicTypeId="bcc1-ca7e-117a-2d9b" value="5+"/>
+            <characteristic name="Ra" characteristicTypeId="55a9-caea-9f49-540f" value="-"/>
+            <characteristic name="De" characteristicTypeId="f740-753e-918b-0e01" value="3+"/>
+            <characteristic name="Att" characteristicTypeId="08b5-9e79-e206-3776" value="15"/>
+            <characteristic name="Nerve" characteristicTypeId="5c74-5f95-be17-7fcf" value="-/14"/>
+            <characteristic name="Special" characteristicTypeId="cf8b-64f1-fa58-e6ff" value="Mindthirst, Shambling, Stealthy, does not have Vicious"/>
+            <characteristic name="Ht" characteristicTypeId="e5ff-5afe-a1c6-c83a" value="1"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="f9ef-5547-a1da-0cec" name="Mindthirst" hidden="false" targetId="a276-4e03-81b0-f5e3" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="1506-03da-9b6b-6a5f" name="Shambling" hidden="false" targetId="36fd-c324-ddc8-ef9a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="859a-9f53-066c-d9c5" name="Stealthy" hidden="false" targetId="bdd0-eb1b-bf45-750e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="31a3-c10c-e14f-8f1b" name="New CategoryLink" hidden="false" targetId="66ef-4d37-b355-388e" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="ed81-36b1-9a8e-784e" name="Irregulars" hidden="false" targetId="6731-d255-50a0-0474" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="08b1-9056-0272-5d90" name="Troops" hidden="false" targetId="54e7-8b51-37d0-c6da" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="8c7c-7e6c-addc-f679" name="Magic Artefacts" hidden="false" targetId="6816-61a6-c6f9-a79e" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="80.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e7d9-aee8-a46e-b6ff" name="Fiends* - Horde" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="db9e-747c-a532-e264" name="Fiends* - Horde" book="CoK19" page="66" hidden="false" profileTypeId="ee75-275a-116e-b9ff" profileTypeName="LrgCav">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Sp" characteristicTypeId="d78f-16e0-c67b-e548" value="8"/>
+            <characteristic name="Me" characteristicTypeId="394f-5f3d-387c-9577" value="4+"/>
+            <characteristic name="Ra" characteristicTypeId="353a-e528-9161-8cf7" value="-"/>
+            <characteristic name="De" characteristicTypeId="5aa5-0f36-8d3c-d047" value="4+"/>
+            <characteristic name="Att" characteristicTypeId="9cf8-8be2-6897-8dbe" value="24"/>
+            <characteristic name="Nerve" characteristicTypeId="657d-8cee-81ca-4a48" value="15/18"/>
+            <characteristic name="Special" characteristicTypeId="a101-39b1-1fc2-c241" value="CS (1), Mindthirst, Stealthy, Vicious"/>
+            <characteristic name="Ht" characteristicTypeId="742e-a972-a565-0caa" value="3"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="27a0-fc6d-1954-4c45" name="Crushing Strength (n)" hidden="false" targetId="3131-8f0a-0927-8489" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="ad8f-f9a5-3596-4344" name="Mindthirst" hidden="false" targetId="a276-4e03-81b0-f5e3" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="bb4a-2843-a4c8-4ccb" name="Stealthy" hidden="false" targetId="bdd0-eb1b-bf45-750e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="251b-742b-104f-5d00" name="Vicious" hidden="false" targetId="47c7-1334-d1bf-24d9" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="96fe-903a-2950-53e3" name="New CategoryLink" hidden="false" targetId="dd5b-9a97-e3a1-83c5" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="484d-b699-7cfa-a2d5" name="Irregulars" hidden="false" targetId="6731-d255-50a0-0474" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="2417-ba89-d4f9-91ee" name="Troops" hidden="false" targetId="54e7-8b51-37d0-c6da" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="8d51-400d-4253-41ab" name="Magic Artefacts" hidden="false" targetId="6816-61a6-c6f9-a79e" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="200.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a3c2-4b6e-5497-d6dc" name="Fiends* - Regiment" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="96bf-4376-fe2b-1c89" name="Fiends* - Regiment" book="CoK19" page="66" hidden="false" profileTypeId="ee75-275a-116e-b9ff" profileTypeName="LrgCav">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Sp" characteristicTypeId="d78f-16e0-c67b-e548" value="8"/>
+            <characteristic name="Me" characteristicTypeId="394f-5f3d-387c-9577" value="4+"/>
+            <characteristic name="Ra" characteristicTypeId="353a-e528-9161-8cf7" value="-"/>
+            <characteristic name="De" characteristicTypeId="5aa5-0f36-8d3c-d047" value="4+"/>
+            <characteristic name="Att" characteristicTypeId="9cf8-8be2-6897-8dbe" value="12"/>
+            <characteristic name="Nerve" characteristicTypeId="657d-8cee-81ca-4a48" value="12/15"/>
+            <characteristic name="Special" characteristicTypeId="a101-39b1-1fc2-c241" value="CS (1), Mindthirst, Stealthy, Vicious"/>
+            <characteristic name="Ht" characteristicTypeId="742e-a972-a565-0caa" value="3"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="54d7-6e51-a195-b80b" name="Crushing Strength (n)" hidden="false" targetId="3131-8f0a-0927-8489" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="d62c-1423-8b62-bcfd" name="Mindthirst" hidden="false" targetId="a276-4e03-81b0-f5e3" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="ef7e-62cd-0f2e-3e31" name="Stealthy" hidden="false" targetId="bdd0-eb1b-bf45-750e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="cf80-f565-12ac-a64b" name="Vicious" hidden="false" targetId="47c7-1334-d1bf-24d9" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="974f-037a-edb4-21ab" name="New CategoryLink" hidden="false" targetId="dd5b-9a97-e3a1-83c5" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="88dd-043d-4675-c1d7" name="Irregulars" hidden="false" targetId="6731-d255-50a0-0474" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="81fd-e995-87b7-96b4" name="Troops" hidden="false" targetId="54e7-8b51-37d0-c6da" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="477e-2f74-0727-d532" name="Magic Artefacts" hidden="false" targetId="6816-61a6-c6f9-a79e" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="130.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9f4c-fca6-1033-4602" name="Gemini" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules>
+        <rule id="ee3c-76ae-5f85-05da" name="Formation: Gemini" book="CoK19" page="66" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Formation must contain:
+2x Hydras
+Each Hydra in this formation has an additional number of attacks equal to the damage on the other Hydra in this formation. This is IN ADDITION to bonus attacks from the Multiple Heads rule.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3797-d29d-fa07-8215" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="bac5-c9ec-ba87-0b65" name="New CategoryLink" hidden="false" targetId="8268-0874-ff47-7871" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="a660-eb78-2624-0361" name="Hydra" hidden="false" targetId="5bf5-521d-d185-29eb" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="aadd-b415-43b9-4a40" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="fdb9-df31-d51d-8612" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="10.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
@@ -3416,6 +4159,14 @@ Each unit in this formation gains the Stealthy and Mindthirst special rules.</de
   </entryLinks>
   <sharedSelectionEntries/>
   <sharedSelectionEntryGroups/>
-  <sharedRules/>
+  <sharedRules>
+    <rule id="a276-4e03-81b0-f5e3" name="Mindthirst" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>If this unit is within 12” of an enemy unit with the Inspiring or Very Inspiring special rule and is Routed, the opponent must re-roll that Nerve test. The second result stands.</description>
+    </rule>
+  </sharedRules>
   <sharedProfiles/>
 </catalogue>
