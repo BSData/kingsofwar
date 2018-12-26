@@ -262,7 +262,7 @@
       <infoLinks/>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="fd4f-31f2-ef74-e75e" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2c2d-caae-6648-b413" type="max"/>
+        <constraint field="selections" scope="fd4f-31f2-ef74-e75e" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2c2d-caae-6648-b413" type="max"/>
       </constraints>
     </categoryEntry>
     <categoryEntry id="d69e-ab9d-fe8b-b5eb" name="Living Legends" hidden="false">
@@ -421,7 +421,7 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
-		<categoryLink id="c723-53cd-83aa-84c8" name="Infantry" hidden="false" targetId="66ef-4d37-b355-388e" primary="false">
+        <categoryLink id="c723-53cd-83aa-84c8" name="Infantry" hidden="false" targetId="66ef-4d37-b355-388e" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
