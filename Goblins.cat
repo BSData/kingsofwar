@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="2282-2a7f-07b2-cff0" name="Goblins" revision="7" battleScribeVersion="2.01" authorName="John (Ekaznae)" authorContact="bsdata.kow@gmail.com" authorUrl="https://github.com/BSData/kingsofwar" gameSystemId="0929-4596-8744-bbda" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="2282-2a7f-07b2-cff0" name="Goblins" revision="8" battleScribeVersion="2.01" authorName="John (Ekaznae)" authorContact="bsdata.kow@gmail.com" authorUrl="https://github.com/BSData/kingsofwar" gameSystemId="0929-4596-8744-bbda" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="2089-9f51-08c5-0784" name="Alignment (Goblins): Evil" hidden="false">
@@ -225,7 +225,15 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="cf8b-64f1-fa58-e6ff" value="Yellow Bellied, Vicious">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1720-89d6-4b9b-984e" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Sp" characteristicTypeId="4f37-fbb6-fe56-7164" value="5"/>
             <characteristic name="Me" characteristicTypeId="bcc1-ca7e-117a-2d9b" value="5+"/>
@@ -287,7 +295,15 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="cf8b-64f1-fa58-e6ff" value="Yellow Bellied, Vicious">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1720-89d6-4b9b-984e" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Sp" characteristicTypeId="4f37-fbb6-fe56-7164" value="5"/>
             <characteristic name="Me" characteristicTypeId="bcc1-ca7e-117a-2d9b" value="5+"/>
@@ -405,9 +421,9 @@
         <cost name="pts" costTypeId="points" value="180.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0e72-ad24-d4bb-d2f6" name="Spitters - Regiment" hidden="false" collective="false" type="unit">
+    <selectionEntry id="0e72-ad24-d4bb-d2f6" name="Spitters* - Regiment" hidden="false" collective="false" type="unit">
       <profiles>
-        <profile id="440e-250e-e16a-97ab" name="Spitters - Regiment" book="KoW" page="180" hidden="false" profileTypeId="8328-7740-9179-97a3" profileTypeName="Inf">
+        <profile id="440e-250e-e16a-97ab" name="Spitters* - Regiment" book="KoW" page="180" hidden="false" profileTypeId="8328-7740-9179-97a3" profileTypeName="Inf">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -443,7 +459,14 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
-        <categoryLink id="1f33-c684-d891-61af" name="Regiments" hidden="false" targetId="6419-e3ec-770e-899c" primary="false">
+        <categoryLink id="b079-ec8a-6d8e-88aa" name="Troops" hidden="false" targetId="54e7-8b51-37d0-c6da" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="ee03-b5d3-1491-1726" name="Irregulars" hidden="false" targetId="6731-d255-50a0-0474" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -467,9 +490,9 @@
         <cost name="pts" costTypeId="points" value="85.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d299-7da0-ee03-ed39" name="Spitters - Horde" hidden="false" collective="false" type="unit">
+    <selectionEntry id="d299-7da0-ee03-ed39" name="Spitters* - Horde" hidden="false" collective="false" type="unit">
       <profiles>
-        <profile id="e119-ad0d-ff3a-c8c0" name="Spitters - Horde" book="KoW" page="180" hidden="false" profileTypeId="8328-7740-9179-97a3" profileTypeName="Inf">
+        <profile id="e119-ad0d-ff3a-c8c0" name="Spitters* - Horde" book="KoW" page="180" hidden="false" profileTypeId="8328-7740-9179-97a3" profileTypeName="Inf">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -505,7 +528,14 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
-        <categoryLink id="4796-3de1-5c75-2963" name="Hordes/Legions" hidden="false" targetId="d4b6-e8c2-3b9e-61f8" primary="false">
+        <categoryLink id="5976-399c-7cf8-3229" name="Irregulars" hidden="false" targetId="6731-d255-50a0-0474" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="9a64-a205-1085-14da" name="Troops" hidden="false" targetId="54e7-8b51-37d0-c6da" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -919,7 +949,15 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="9c0f-4a8c-8d96-9fef" value="Nimble, TC (1), Vicious, not Yellow Bellied">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f1be-4e58-bb7e-aec1" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Sp" characteristicTypeId="e597-5d69-0793-f6ae" value="10"/>
             <characteristic name="Me" characteristicTypeId="68c5-0400-2e54-089d" value="4+"/>
@@ -940,11 +978,19 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="aaff-4f51-6d50-e27d" hidden="false" targetId="5f9b-2fdf-ddf6-b612" type="rule">
+        <infoLink id="aaff-4f51-6d50-e27d" name="Yellow Bellied" hidden="false" targetId="5f9b-2fdf-ddf6-b612" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f1be-4e58-bb7e-aec1" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
         </infoLink>
         <infoLink id="0479-b7c0-bf45-bb0b" name="Thunderous Charge (n)" hidden="false" targetId="a8ce-2f96-b0be-47d6" type="rule">
           <profiles/>
@@ -993,14 +1039,22 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="9c0f-4a8c-8d96-9fef" value="Nimble, TC (1), Vicious, not Yellow Bellied">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f1be-4e58-bb7e-aec1" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Sp" characteristicTypeId="e597-5d69-0793-f6ae" value="10"/>
             <characteristic name="Me" characteristicTypeId="68c5-0400-2e54-089d" value="4+"/>
             <characteristic name="Ra" characteristicTypeId="2167-68af-2a0e-ce4b" value="-"/>
             <characteristic name="De" characteristicTypeId="0d0b-cdcc-b24f-231f" value="4+"/>
             <characteristic name="Att" characteristicTypeId="6ab8-66b3-f602-1f35" value="28"/>
-            <characteristic name="Nerve" characteristicTypeId="f9b8-508f-32cc-8f65" value="17/19"/>
+            <characteristic name="Nerve" characteristicTypeId="f9b8-508f-32cc-8f65" value="19/21"/>
             <characteristic name="Special" characteristicTypeId="9c0f-4a8c-8d96-9fef" value="Nimble, TC (1), Yellow Bellied"/>
             <characteristic name="Ht" characteristicTypeId="47b1-60c5-7f80-f44a" value="2"/>
           </characteristics>
@@ -1014,11 +1068,19 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="0e45-cc25-df4c-4222" hidden="false" targetId="5f9b-2fdf-ddf6-b612" type="rule">
+        <infoLink id="0e45-cc25-df4c-4222" name="Yellow Bellied" hidden="false" targetId="5f9b-2fdf-ddf6-b612" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f1be-4e58-bb7e-aec1" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
         </infoLink>
         <infoLink id="4793-abe5-fe67-1128" name="Thunderous Charge (n)" hidden="false" targetId="a8ce-2f96-b0be-47d6" type="rule">
           <profiles/>
@@ -1904,6 +1966,13 @@
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="set" field="d2b1-c5bd-84b0-af9c" value="Bow (Range 24&quot;), Individual, Inspiring, Yellow Bellied, Vicious">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1720-89d6-4b9b-984e" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Sp" characteristicTypeId="c716-0f15-9a4f-d7ed" value="5"/>
@@ -1973,7 +2042,15 @@
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers/>
+              <modifiers>
+                <modifier type="set" field="7d69-5a27-3df5-ebf5" value="Bow (Range 24&quot;), Individual, Inspiring, Yellow Bellied, Vicious">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1720-89d6-4b9b-984e" type="instanceOf"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
               <characteristics>
                 <characteristic name="Sp" characteristicTypeId="8bd7-8d27-2637-0aa1" value="10"/>
                 <characteristic name="Me" characteristicTypeId="7638-0aa9-63c4-f8a2" value="4+"/>
@@ -2560,7 +2637,15 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="increment" field="2ccf-bc26-1a66-909a" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2648-0dd3-8b57-6ab1" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Sp" characteristicTypeId="2ccf-bc26-1a66-909a" value="5"/>
             <characteristic name="Me" characteristicTypeId="3075-e63d-f393-2605" value="4+"/>
@@ -2568,7 +2653,7 @@
             <characteristic name="De" characteristicTypeId="2899-5298-2e4b-8d03" value="4+"/>
             <characteristic name="Att" characteristicTypeId="275b-366f-0e83-ac2f" value="(D6+6)"/>
             <characteristic name="Nerve" characteristicTypeId="8132-2383-7692-1446" value="9/11"/>
-            <characteristic name="Special" characteristicTypeId="b5e6-b66d-3eb8-0493" value="Base: (50x100mm), Big Shield, Brutal, TC (3), Yellow Bellied"/>
+            <characteristic name="Special" characteristicTypeId="b5e6-b66d-3eb8-0493" value="Base: (50x100mm), CS (1), Big Shield, Brutal, TC (1)"/>
             <characteristic name="Ht" characteristicTypeId="41cb-4d1b-0a59-875a" value="3"/>
           </characteristics>
         </profile>
@@ -2587,13 +2672,13 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="03dd-9f6d-a074-f66f" hidden="false" targetId="5f9b-2fdf-ddf6-b612" type="rule">
+        <infoLink id="42d5-bf3d-b30f-4435" name="Thunderous Charge (n)" hidden="false" targetId="a8ce-2f96-b0be-47d6" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="42d5-bf3d-b30f-4435" name="Thunderous Charge (n)" hidden="false" targetId="a8ce-2f96-b0be-47d6" type="rule">
+        <infoLink id="d69a-99de-ed22-79a5" name="Crushing Strength (n)" hidden="false" targetId="3131-8f0a-0927-8489" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2704,19 +2789,19 @@
     </selectionEntry>
     <selectionEntry id="99fd-35e0-b137-4962" name="Slasher" hidden="false" collective="false" type="unit">
       <profiles>
-        <profile id="00e1-d432-67ef-f73f" name="Slasher" book="KoW" page="184" hidden="false" profileTypeId="9c15-4092-fcbd-188e" profileTypeName="Mon">
+        <profile id="00e1-d432-67ef-f73f" name="Slasher" book="CoK19" page="60" hidden="false" profileTypeId="9c15-4092-fcbd-188e" profileTypeName="Mon">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
             <characteristic name="Sp" characteristicTypeId="2ccf-bc26-1a66-909a" value="7"/>
-            <characteristic name="Me" characteristicTypeId="3075-e63d-f393-2605" value="4+"/>
-            <characteristic name="Ra" characteristicTypeId="f85e-0356-babe-26b8" value="-"/>
+            <characteristic name="Me" characteristicTypeId="3075-e63d-f393-2605" value="3+"/>
+            <characteristic name="Ra" characteristicTypeId="f85e-0356-babe-26b8" value="5+"/>
             <characteristic name="De" characteristicTypeId="2899-5298-2e4b-8d03" value="5+"/>
-            <characteristic name="Att" characteristicTypeId="275b-366f-0e83-ac2f" value="8"/>
-            <characteristic name="Nerve" characteristicTypeId="8132-2383-7692-1446" value="14/16"/>
-            <characteristic name="Special" characteristicTypeId="b5e6-b66d-3eb8-0493" value="CS (2), TC (1)"/>
+            <characteristic name="Att" characteristicTypeId="275b-366f-0e83-ac2f" value="9"/>
+            <characteristic name="Nerve" characteristicTypeId="8132-2383-7692-1446" value="17/19"/>
+            <characteristic name="Special" characteristicTypeId="b5e6-b66d-3eb8-0493" value="Base: (75x75mm), CS (3), Piercing (2), Sharpstick Thrower (36&quot; range, Att 2, Blast (D3)), Steady Aim, Strider, not Yellow Bellied"/>
             <characteristic name="Ht" characteristicTypeId="41cb-4d1b-0a59-875a" value="4"/>
           </characteristics>
         </profile>
@@ -2729,7 +2814,25 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="2935-4aa7-462b-f629" name="Thunderous Charge (n)" hidden="false" targetId="a8ce-2f96-b0be-47d6" type="rule">
+        <infoLink id="7ac3-383e-9c8c-aed1" name="Blast (n)" hidden="false" targetId="8c02-8957-63ab-1084" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="3dd6-618c-4c65-bf81" name="Piercing (n)" hidden="false" targetId="cc29-8e7d-2a0e-c995" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="57a3-4fd7-4efb-329f" name="Steady Aim" hidden="false" targetId="55fc-ab6a-a232-e11d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="7948-83ff-843d-52a7" name="Strider" hidden="false" targetId="e70c-1148-97d1-9348" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2757,54 +2860,16 @@
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="dca8-38a0-8a7e-53c5" name="Small Sharpstick Thrower" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules>
-            <rule id="72ea-36b4-fe57-bc86" name="Small Sharpstick Thrower" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <description>Range 36&quot;, Ranged 5+, 2 attacks, Blast (D3), Piercing (2).</description>
-            </rule>
-          </rules>
-          <infoLinks>
-            <infoLink id="1403-3757-9520-42f5" name="Blast (n)" hidden="false" targetId="8c02-8957-63ab-1084" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-            <infoLink id="d587-26b6-0472-4ed8" name="Piercing (n)" hidden="false" targetId="cc29-8e7d-2a0e-c995" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="014b-2ed2-45d7-01cf" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="10.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
+      <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="165.0"/>
+        <cost name="pts" costTypeId="points" value="220.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e28b-6ec1-a582-2019" name="Grogger Split-Tooth [1]" hidden="false" collective="false" type="unit">
       <profiles>
-        <profile id="6701-4c86-06d4-5166" name="Grogger Split-Tooth [1]" book="" page="" hidden="false" profileTypeId="f71e-c719-35b8-f19f" profileTypeName="Hero (Inf)">
+        <profile id="6701-4c86-06d4-5166" name="Grogger Split-Tooth [1]" book="CoK19" page="59" hidden="false" profileTypeId="f71e-c719-35b8-f19f" profileTypeName="Hero (Inf)">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2812,22 +2877,22 @@
           <characteristics>
             <characteristic name="Sp" characteristicTypeId="c716-0f15-9a4f-d7ed" value="5"/>
             <characteristic name="Me" characteristicTypeId="03c9-62d7-bfc7-f9c9" value="4+"/>
-            <characteristic name="Ra" characteristicTypeId="73c5-2040-629d-def0" value="6+"/>
+            <characteristic name="Ra" characteristicTypeId="73c5-2040-629d-def0" value="4+"/>
             <characteristic name="De" characteristicTypeId="85ae-39a9-e23c-37c6" value="4+"/>
             <characteristic name="Att" characteristicTypeId="504e-02d3-f907-9808" value="5"/>
             <characteristic name="Nerve" characteristicTypeId="0ae3-1d1d-8fca-f9ba" value="-/12"/>
-            <characteristic name="Special" characteristicTypeId="d2b1-c5bd-84b0-af9c" value="Bow (Range 24&quot;), Destiny, Individual, Inspiring, Regen (3+)"/>
+            <characteristic name="Special" characteristicTypeId="d2b1-c5bd-84b0-af9c" value="Bow (Range 24&quot;), Destiny, Individual, Inspiring, Regen (3+), not Yellow Bellied"/>
             <characteristic name="Ht" characteristicTypeId="48e3-d799-d33a-cf8a" value="1"/>
           </characteristics>
         </profile>
       </profiles>
       <rules>
-        <rule id="51c7-a51f-ded8-1c6f" name="Destiny" hidden="false">
+        <rule id="51c7-a51f-ded8-1c6f" name="Destiny" book="CoK19" page="59" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Once per turn, and as long as this unit is alive, you may re-roll a single failed Yellow Bellied roll on a friendly, non-allied unit.</description>
+          <description>Once per turn, and as long as this unit is present and in play on the table, you may re-roll a single failed Yellow Bellied roll on a friendly, non-allied unit.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -2881,12 +2946,12 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="115.0"/>
+        <cost name="pts" costTypeId="points" value="95.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b5f8-9123-b050-f37e" name="Grogger&apos;s Goons - Horde [1]" hidden="false" collective="false" type="unit">
       <profiles>
-        <profile id="1c6c-4b19-abbb-3a11" name="Grogger&apos;s Goons - Horde [1]" book="KoW" page="180" hidden="false" profileTypeId="8328-7740-9179-97a3" profileTypeName="Inf">
+        <profile id="1c6c-4b19-abbb-3a11" name="Grogger&apos;s Goons - Horde [1]" book="CoK19" page="59" hidden="false" profileTypeId="8328-7740-9179-97a3" profileTypeName="Inf">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2898,7 +2963,7 @@
             <characteristic name="De" characteristicTypeId="f740-753e-918b-0e01" value="4+"/>
             <characteristic name="Att" characteristicTypeId="08b5-9e79-e206-3776" value="25"/>
             <characteristic name="Nerve" characteristicTypeId="5c74-5f95-be17-7fcf" value="-/21"/>
-            <characteristic name="Special" characteristicTypeId="cf8b-64f1-fa58-e6ff" value="Regen (5+)"/>
+            <characteristic name="Special" characteristicTypeId="cf8b-64f1-fa58-e6ff" value="Regen (5+), not Yellow Bellied"/>
             <characteristic name="Ht" characteristicTypeId="e5ff-5afe-a1c6-c83a" value="1"/>
           </characteristics>
         </profile>
@@ -2949,15 +3014,15 @@
     <selectionEntry id="1720-89d6-4b9b-984e" name="Sneaky Stabbers" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules>
-        <rule id="373f-c9e2-ed10-20a2" name="Formation: Sneaky Stabbers" hidden="false">
+        <rule id="373f-c9e2-ed10-20a2" name="Formation: Sneaky Stabbers" book="CoK19" page="60" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <description>Formation must contain:
-2x Rabble Regiments
-1x Rabble Horde
-1x Biggit (Cannot be mounted)
+2x Rabble - Regiments
+1x Rabble - Horde
+1x Biggit
 Each unit in this formation is granted the Vicious special rule.</description>
         </rule>
       </rules>
@@ -2977,23 +3042,57 @@ Each unit in this formation is granted the Vicious special rule.</description>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="4a5f-686a-a1a3-b7be" name="Rabble - Horde" hidden="false" targetId="19b7-c6f7-c328-c0cf" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="22bf-17eb-fcd9-8932" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4050-24ed-648b-f00a" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="0103-b1fc-3eae-abb0" name="Rabble - Regiment" hidden="false" targetId="8cd7-442e-4200-90a8" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a268-8d2d-4cd9-03b0" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8d40-0869-f754-66cb" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="49c8-c8e6-0789-035e" name="Biggit" hidden="false" targetId="85c6-c447-e77e-815c" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6d6a-429d-2db1-b3b7" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d98f-3009-3580-885b" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="25.0"/>
+        <cost name="pts" costTypeId="points" value="20.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f1be-4e58-bb7e-aec1" name="The Voracious Mawpack" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules>
-        <rule id="565c-7b6a-d4a4-2b66" name="Formation: The Voracious Mawpack" hidden="false">
+        <rule id="565c-7b6a-d4a4-2b66" name="Formation: The Voracious Mawpack" book="CoK19" page="60" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <description>Formation must contain:
-1x Fleabag Riders Horde
-2x Fleabag Riders Regiment
-Each unit in this formation gains +1 to both their Waver and Rout Nerve values. The Horde of Fleabag Riders in this formation is granted the Strider special rule.</description>
+1x Fleabag Riders - Horde
+2x Fleabag Riders - Regiments
+Each unit in this formation is granted the Vicious special rule and no longer has the Yellow Bellied special rule.</description>
         </rule>
       </rules>
       <infoLinks/>
@@ -3012,14 +3111,37 @@ Each unit in this formation gains +1 to both their Waver and Rout Nerve values. 
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="2324-755b-8656-9c65" name="Fleabag Riders - Horde" hidden="false" targetId="936f-ea51-4846-ec1b" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3b3a-c3e2-9693-ca07" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ff50-35d6-5dc2-701b" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="435f-67a6-b89b-431f" name="Fleabag Riders - Regiment" hidden="false" targetId="0267-3864-9d23-e874" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0541-28d7-aa62-2cc3" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a061-4f94-a383-6ae4" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="35.0"/>
+        <cost name="pts" costTypeId="points" value="30.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4b20-795a-2999-5e75" name="Goblin Mega Blaster [1]" hidden="false" collective="false" type="unit">
+    <selectionEntry id="4b20-795a-2999-5e75" name="Goblin Blaster" hidden="false" collective="false" type="unit">
       <profiles>
-        <profile id="c372-cd03-7999-5870" name="Goblin Mega Blaster [1]" book="CoK" page="56" hidden="false" profileTypeId="9c15-4092-fcbd-188e" profileTypeName="Mon">
+        <profile id="c372-cd03-7999-5870" name="Goblin Blaster" book="CoK19" page="59" hidden="false" profileTypeId="9c15-4092-fcbd-188e" profileTypeName="Mon">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3030,28 +3152,26 @@ Each unit in this formation gains +1 to both their Waver and Rout Nerve values. 
             <characteristic name="Ra" characteristicTypeId="f85e-0356-babe-26b8" value="-"/>
             <characteristic name="De" characteristicTypeId="2899-5298-2e4b-8d03" value="5+"/>
             <characteristic name="Att" characteristicTypeId="275b-366f-0e83-ac2f" value="*"/>
-            <characteristic name="Nerve" characteristicTypeId="8132-2383-7692-1446" value="10/12"/>
-            <characteristic name="Special" characteristicTypeId="b5e6-b66d-3eb8-0493" value="Base: (50x100mm), Big Shield, *Mega Blaster, Yellow Bellied"/>
+            <characteristic name="Nerve" characteristicTypeId="8132-2383-7692-1446" value="8/10"/>
+            <characteristic name="Special" characteristicTypeId="b5e6-b66d-3eb8-0493" value="Base: (50x100mm), *Blaster, is not Yellow Bellied"/>
             <characteristic name="Ht" characteristicTypeId="41cb-4d1b-0a59-875a" value="3"/>
           </characteristics>
         </profile>
       </profiles>
       <rules>
-        <rule id="0a87-9ee4-8dce-4821" name="Mega Blaster" book="CoK" page="55" hidden="false">
+        <rule id="0a87-9ee4-8dce-4821" name="*Blaster" book="CoK19" page="59" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>The Goblin operator (whole model, by the way, is always ignored) triggers the Mega Blaster explosion during its Shoot phase, following a successful Charge against an enemy unit, instead of rolling to hit normally. All units (friend and foe) within D6+2&quot; suffer 2D6 hits with Piercing (4) and then the Mega Blaster is immediately Routed. Roll the number of hits once, but then roll to damage individually for each unit hit. Friendly units taking damage as a result do not have to take Nerve tests, but enemy units will do so as normal. If the Mega Blaster Routs as a result of a Nerve test, it explodes as above. If the Mega Blaster fails a Yellow Bellied test when declaring to Charge an enemy, it explodes as above.</description>
+          <description>The Goblin operator (whole model, by the way, is always ignored) can trigger the Blaster explosion at any point during any of its Shoot phases, even if it has moved At The Double or is Disordered that turn = all units (friend and foe) within D6&quot; of the Blaster unit suffer 2D6 hits with Piercing (4), and then the Blaster is immediately Routed. Roll the number of hits once, but then roll to damage individually for each unit hit. Friendly units taking damage as a result do not have to take Nerve tests, but enemy units will do so as normal.
+
+If a Blaster is Routed as a result of a Nerve test, it explodes as above.
+
+*If a Blaster charges an enemy unit, it will simply detonate in the Shoot phase as above.</description>
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="660f-9ea7-b595-7b1b" name="Big Shield" hidden="false" targetId="11d0-aa5a-4eb4-83a8" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
         <infoLink id="bd71-5454-750f-0660" name="Yellow Bellied" hidden="false" targetId="5f9b-2fdf-ddf6-b612" type="rule">
           <profiles/>
           <rules/>
@@ -3061,17 +3181,11 @@ Each unit in this formation gains +1 to both their Waver and Rout Nerve values. 
       </infoLinks>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e81c-c137-d613-67a2" type="max"/>
+        <constraint field="selections" scope="fd4f-31f2-ef74-e75e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="859a-a4a9-01c6-6b07" type="max"/>
+        <constraint field="selections" scope="832e-ae14-a8a1-04ef" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b93-8cbf-2a0d-cd59" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="12b7-7495-2ab9-33b8" name="New CategoryLink" hidden="false" targetId="6743-3992-17bf-ffd4" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="af46-5976-1cd5-8d61" name="Living Legends" hidden="false" targetId="d69e-ab9d-fe8b-b5eb" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3090,12 +3204,12 @@ Each unit in this formation gains +1 to both their Waver and Rout Nerve values. 
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="75.0"/>
+        <cost name="pts" costTypeId="points" value="65.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4c4c-5e7b-7238-2ada" name="Grogger&apos;s Great Lobber [1]" hidden="false" collective="false" type="unit">
       <profiles>
-        <profile id="ebd5-5dc1-5a9b-4cc7" name="Grogger&apos;s Great Lobber [1]" book="CoK" page="55" hidden="false" profileTypeId="bc9e-6db2-58d4-ea1e" profileTypeName="WarEng">
+        <profile id="ebd5-5dc1-5a9b-4cc7" name="Grogger&apos;s Great Lobber [1]" book="CoK19" page="60" hidden="false" profileTypeId="bc9e-6db2-58d4-ea1e" profileTypeName="WarEng">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3106,8 +3220,8 @@ Each unit in this formation gains +1 to both their Waver and Rout Nerve values. 
             <characteristic name="Ra" characteristicTypeId="5960-15a2-1879-404a" value="5+"/>
             <characteristic name="De" characteristicTypeId="72ad-1489-b0cb-e64d" value="4+"/>
             <characteristic name="Att" characteristicTypeId="1c52-84ba-69b8-b421" value="1"/>
-            <characteristic name="Nerve" characteristicTypeId="933c-4462-dd19-edab" value="8/10"/>
-            <characteristic name="Special" characteristicTypeId="4935-3788-bc8a-2896" value="Blast (D6+3), Elite, Indirect Fire, Piercing (3), Reload!"/>
+            <characteristic name="Nerve" characteristicTypeId="933c-4462-dd19-edab" value="9/11"/>
+            <characteristic name="Special" characteristicTypeId="4935-3788-bc8a-2896" value="Big Shield, Blast (D6+2), Indirect Fire, Piercing (3), Reload!"/>
             <characteristic name="Ht" characteristicTypeId="3575-f5a0-ae45-e66a" value="1"/>
           </characteristics>
         </profile>
@@ -3115,12 +3229,6 @@ Each unit in this formation gains +1 to both their Waver and Rout Nerve values. 
       <rules/>
       <infoLinks>
         <infoLink id="798f-0544-a54e-4a7d" name="Blast (n)" hidden="false" targetId="8c02-8957-63ab-1084" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="1958-a467-57b7-1838" name="Elite" hidden="false" targetId="e0d0-5bf9-11c8-b4f1" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3139,6 +3247,12 @@ Each unit in this formation gains +1 to both their Waver and Rout Nerve values. 
           <modifiers/>
         </infoLink>
         <infoLink id="2617-572b-1663-0f01" name="Reload!" hidden="false" targetId="c0b3-3b50-e88f-5461" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="e4d2-3571-8c67-416f" name="Big Shield" hidden="false" targetId="11d0-aa5a-4eb4-83a8" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3177,6 +3291,357 @@ Each unit in this formation gains +1 to both their Waver and Rout Nerve values. 
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="100.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b79c-c0cc-de5f-4873" name="Mincer Mob* - Regiment" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="8ea1-7ce5-431b-af99" name="Mincer Mob* - Regiment" book="CoK19" page="59" hidden="false" profileTypeId="ee75-275a-116e-b9ff" profileTypeName="LrgCav">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="d78f-16e0-c67b-e548" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2648-0dd3-8b57-6ab1" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Sp" characteristicTypeId="d78f-16e0-c67b-e548" value="5"/>
+            <characteristic name="Me" characteristicTypeId="394f-5f3d-387c-9577" value="4+"/>
+            <characteristic name="Ra" characteristicTypeId="353a-e528-9161-8cf7" value="-"/>
+            <characteristic name="De" characteristicTypeId="5aa5-0f36-8d3c-d047" value="4+"/>
+            <characteristic name="Att" characteristicTypeId="9cf8-8be2-6897-8dbe" value="D6+24"/>
+            <characteristic name="Nerve" characteristicTypeId="657d-8cee-81ca-4a48" value="14/16"/>
+            <characteristic name="Special" characteristicTypeId="a101-39b1-1fc2-c241" value="Base: (50x100mm), Big Shield, Brutal, CS (1), TC (1), not Yellow Bellied"/>
+            <characteristic name="Ht" characteristicTypeId="742e-a972-a565-0caa" value="3"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="43ce-f0ec-493e-13f3" name="Big Shield" hidden="false" targetId="11d0-aa5a-4eb4-83a8" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="9bbf-dcfe-e237-056f" name="Brutal" hidden="false" targetId="51fa-428e-ca3d-8a63" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="9624-ea92-fa1f-ac3a" name="Crushing Strength (n)" hidden="false" targetId="3131-8f0a-0927-8489" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="95f0-419c-15f2-1aad" name="Thunderous Charge (n)" hidden="false" targetId="a8ce-2f96-b0be-47d6" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="91fb-8507-358a-8886" name="New CategoryLink" hidden="false" targetId="dd5b-9a97-e3a1-83c5" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="f8db-1a95-68ab-be22" name="Irregulars" hidden="false" targetId="6731-d255-50a0-0474" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="99fb-d0af-f2a1-24de" name="Troops" hidden="false" targetId="54e7-8b51-37d0-c6da" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="47c3-4fa2-813c-def5" name="Magic Artefacts" hidden="false" targetId="6816-61a6-c6f9-a79e" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="220.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6ade-dcb4-c4b3-8baa" name="Colossal Giant" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="ea4e-d71b-5306-0398" name="Colossal Giant" book="CoK19" page="60" hidden="false" profileTypeId="9c15-4092-fcbd-188e" profileTypeName="Mon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Sp" characteristicTypeId="2ccf-bc26-1a66-909a" value="7"/>
+            <characteristic name="Me" characteristicTypeId="3075-e63d-f393-2605" value="4+"/>
+            <characteristic name="Ra" characteristicTypeId="f85e-0356-babe-26b8" value="-"/>
+            <characteristic name="De" characteristicTypeId="2899-5298-2e4b-8d03" value="5+"/>
+            <characteristic name="Att" characteristicTypeId="275b-366f-0e83-ac2f" value="D6+10"/>
+            <characteristic name="Nerve" characteristicTypeId="8132-2383-7692-1446" value="-/20"/>
+            <characteristic name="Special" characteristicTypeId="b5e6-b66d-3eb8-0493" value="Base: (75x75mm), Brutal, CS (4), Strider, Vicious (vs Infantry only), not Yellow Bellied"/>
+            <characteristic name="Ht" characteristicTypeId="41cb-4d1b-0a59-875a" value="4"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="4aa8-1982-2341-6bf8" name="Brutal" hidden="false" targetId="51fa-428e-ca3d-8a63" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="dc8e-8e99-db13-2ee8" name="Crushing Strength (n)" hidden="false" targetId="3131-8f0a-0927-8489" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="d052-309e-3ad1-900c" name="Strider" hidden="false" targetId="e70c-1148-97d1-9348" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="095a-1d00-ff17-cc01" name="Vicious" hidden="false" targetId="47c7-1334-d1bf-24d9" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="fd4f-31f2-ef74-e75e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eae9-9f58-138c-6a94" type="max"/>
+        <constraint field="selections" scope="832e-ae14-a8a1-04ef" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f7c-4ca7-66f4-2238" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="86d9-8ba4-b9e8-c5c3" name="New CategoryLink" hidden="false" targetId="6743-3992-17bf-ffd4" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="5ee3-f428-0fcc-18dd" name="Hero/Mon/WarEng" hidden="false" targetId="1f15-ed91-6655-1da4" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="235.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="893c-d82d-5733-ede4" name="Kuzlo &amp; Madfall [1]" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="9a3a-ad12-3cc5-7787" name="Kuzlo &amp; Madfall [1]" book="CoK19" page="60" hidden="false" profileTypeId="81a6-b833-29e1-0fc0" profileTypeName="Hero (LrgCav)">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Sp" characteristicTypeId="4492-a671-cc60-cb89" value="8"/>
+            <characteristic name="Me" characteristicTypeId="6edd-da7c-9010-d966" value="3+"/>
+            <characteristic name="Ra" characteristicTypeId="a9cc-7801-7d7e-f735" value="-"/>
+            <characteristic name="De" characteristicTypeId="bd16-123f-8623-4930" value="4+"/>
+            <characteristic name="Att" characteristicTypeId="b9bd-9a7b-b2c1-da3f" value="5"/>
+            <characteristic name="Nerve" characteristicTypeId="5aad-66c6-f6bc-0021" value="12/14"/>
+            <characteristic name="Special" characteristicTypeId="be1b-a046-f9a9-d200" value="CS (2), Inspiring (Kuzlo &amp; Madfall only), Nimble, Pathfinder, Ravenous Lizard, Regen (4+), Vicious, not Yellow Bellied"/>
+            <characteristic name="Ht" characteristicTypeId="89f9-b905-d7cd-7fda" value="2"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="a151-4062-2a57-e15b" name="Ravenous Lizard" book="CoK19" page="60" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>While within 6&quot; of this unit, all units, both friend and foe, have -1 to their Waver and Rout Nerve values in addition to any other modifiers that may apply.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="9585-87d0-e525-c163" name="Crushing Strength (n)" hidden="false" targetId="3131-8f0a-0927-8489" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="4957-ef30-698b-d6a2" name="Inspiring" hidden="false" targetId="7c18-e2b7-bc3b-fe10" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="8c32-6344-28ca-32ca" name="Nimble" hidden="false" targetId="b79a-f274-5123-df1d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="0d25-69ae-7336-0681" name="Pathfinder" hidden="false" targetId="0bf5-2b12-5cc7-a963" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="a02b-2e2c-7120-931a" name="Regeneration (n+)" hidden="false" targetId="5815-9306-b2e7-0436" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="4ea1-ab12-10b5-e755" name="Vicious" hidden="false" targetId="47c7-1334-d1bf-24d9" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd08-6098-6f2c-1b93" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="3eea-4ed9-72b2-648b" name="New CategoryLink" hidden="false" targetId="2236-ee12-e75d-9050" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="e978-10c8-4e36-7355" name="Hero/Mon/WarEng" hidden="false" targetId="1f15-ed91-6655-1da4" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="66e6-35a9-6b5d-7390" name="Living Legends" hidden="false" targetId="d69e-ab9d-fe8b-b5eb" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="abb8-eac4-071a-5e35" name="Spell Siphon (2)" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="5435-0279-9d81-ede4" name="Spell Siphon (n)" hidden="false" targetId="e173-4f38-c051-5c54" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="17da-b090-e74f-0246" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="15.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="145.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2648-0dd3-8b57-6ab1" name="Carriages of Carnage" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules>
+        <rule id="a869-214a-644a-f599" name="Formation: Carriages of Carnage" book="CoK19" page="60" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Formation must contain:
+1x Mincer Mob* - Regiment
+2x Mincers
+Each unit in this formation gains +1 Speed (already in profiles).</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e288-34d5-472f-3a10" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="14f2-1909-756c-93ab" name="New CategoryLink" hidden="false" targetId="8268-0874-ff47-7871" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="4849-65af-e42d-6a3e" name="Mincer" hidden="false" targetId="e70c-7402-38ea-e42a" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e74b-fbcc-249b-496d" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7f34-fdd4-71cd-a4c2" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="868d-5c43-4720-1cac" name="Mincer Mob* - Regiment" hidden="false" targetId="b79c-c0cc-de5f-4873" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8939-71cb-9195-9ea4" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="bc6e-63cd-b9b4-3599" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="20.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
