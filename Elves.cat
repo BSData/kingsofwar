@@ -1833,7 +1833,7 @@
       </infoLinks>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="4837-112f-b14c-8f24" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c9f4-9257-08c5-0376" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="a8df-b3c0-72ca-cb69" name="New CategoryLink" hidden="false" targetId="2236-ee12-e75d-9050" primary="true">
@@ -2371,7 +2371,15 @@
           <modifiers/>
         </infoLink>
       </infoLinks>
-      <modifiers/>
+      <modifiers>
+        <modifier type="decrement" field="6e54-c3d3-0655-e5d0" value="1">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b59f-75e7-db50-0457" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="fd4f-31f2-ef74-e75e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="feb1-0936-990b-9eb6" type="max"/>
         <constraint field="selections" scope="832e-ae14-a8a1-04ef" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e54-c3d3-0655-e5d0" type="max"/>
@@ -2551,7 +2559,15 @@
           <modifiers/>
         </infoLink>
       </infoLinks>
-      <modifiers/>
+      <modifiers>
+        <modifier type="decrement" field="39c5-4368-a567-df51" value="1">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="90c1-6574-84d9-4f28" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="fd4f-31f2-ef74-e75e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a797-ee7d-1b92-0434" type="max"/>
         <constraint field="selections" scope="832e-ae14-a8a1-04ef" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="39c5-4368-a567-df51" type="max"/>
@@ -2609,7 +2625,15 @@
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers/>
+              <modifiers>
+                <modifier type="set" field="7d69-5a27-3df5-ebf5" value="CS (1), Elite, Individual, Vanguard">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="90c1-6574-84d9-4f28" type="instanceOf"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
               <characteristics>
                 <characteristic name="Sp" characteristicTypeId="8bd7-8d27-2637-0aa1" value="9"/>
                 <characteristic name="Me" characteristicTypeId="7638-0aa9-63c4-f8a2" value="3+"/>
@@ -2624,15 +2648,7 @@
           </profiles>
           <rules/>
           <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="90c1-6574-84d9-4f28" type="instanceOf"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
+          <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0124-99e1-65c5-0ef2" type="max"/>
           </constraints>
@@ -3220,7 +3236,7 @@
       </infoLinks>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="dbc0-b8a4-15a1-f5ac" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c60-57da-4384-4be3" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="b992-6041-bead-7c22" name="New CategoryLink" hidden="false" targetId="2236-ee12-e75d-9050" primary="true">
@@ -3408,6 +3424,7 @@ Each unit in this formation, except for The Green Lady, is granted the Regenerat
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="751e-6972-2575-6fa3" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="693f-0f85-a58d-df58" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="bb11-54b3-90af-f34b" type="max"/>
           </constraints>
           <categoryLinks/>
         </entryLink>
@@ -3427,7 +3444,7 @@ Each unit in this formation, except for The Green Lady, is granted the Regenerat
           <description>Formation must contain:
 2x Kindred Tallspears - Regiments
 2x Kindred Gladestalkers - Troops
-1x Elven Prince (Cannot be mounted)
+1x Elven Prince
 Each unit in this formation is granted the Vanguard special rule.</description>
         </rule>
       </rules>
