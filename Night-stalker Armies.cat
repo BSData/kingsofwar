@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5c40-b489-da73-ae25" name="Night-Stalkers" revision="7" battleScribeVersion="2.01" authorName="John (Ekaznae)" authorContact="bsdata.kow@gmail.com" authorUrl="https://github.com/BSData/kingsofwar" gameSystemId="0929-4596-8744-bbda" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="5c40-b489-da73-ae25" name="Night-stalkers" revision="8" battleScribeVersion="2.01" authorName="John (Ekaznae)" authorContact="bsdata.kow@gmail.com" authorUrl="https://github.com/BSData/kingsofwar" gameSystemId="0929-4596-8744-bbda" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="8596-23c6-4d43-88ee" name="Alignment (Night-Stalkers): Evil" hidden="false">
@@ -477,7 +477,15 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="cf8b-64f1-fa58-e6ff" value="CS (1), Mindthirst, Stealthy, Lifeleech (2)">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7989-82e1-1f63-1741" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Sp" characteristicTypeId="4f37-fbb6-fe56-7164" value="5"/>
             <characteristic name="Me" characteristicTypeId="bcc1-ca7e-117a-2d9b" value="3+"/>
@@ -775,7 +783,15 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="cf8b-64f1-fa58-e6ff" value="Mindthirst, Shambling, Stealthy, Lifeleech (2)">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7989-82e1-1f63-1741" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Sp" characteristicTypeId="4f37-fbb6-fe56-7164" value="5"/>
             <characteristic name="Me" characteristicTypeId="bcc1-ca7e-117a-2d9b" value="5+"/>
@@ -855,9 +871,9 @@
             <characteristic name="Me" characteristicTypeId="bcc1-ca7e-117a-2d9b" value="4+"/>
             <characteristic name="Ra" characteristicTypeId="55a9-caea-9f49-540f" value="-"/>
             <characteristic name="De" characteristicTypeId="f740-753e-918b-0e01" value="5+"/>
-            <characteristic name="Att" characteristicTypeId="08b5-9e79-e206-3776" value="10"/>
+            <characteristic name="Att" characteristicTypeId="08b5-9e79-e206-3776" value="12"/>
             <characteristic name="Nerve" characteristicTypeId="5c74-5f95-be17-7fcf" value="-/12"/>
-            <characteristic name="Special" characteristicTypeId="cf8b-64f1-fa58-e6ff" value="CS (1), Fly, Mindthirst, Shambling, Stealthy"/>
+            <characteristic name="Special" characteristicTypeId="cf8b-64f1-fa58-e6ff" value="Base: (25x25mm), CS (1), Fly, Mindthirst, Shambling, Stealthy"/>
             <characteristic name="Ht" characteristicTypeId="e5ff-5afe-a1c6-c83a" value="1"/>
           </characteristics>
         </profile>
@@ -941,9 +957,9 @@
             <characteristic name="Me" characteristicTypeId="bcc1-ca7e-117a-2d9b" value="4+"/>
             <characteristic name="Ra" characteristicTypeId="55a9-caea-9f49-540f" value="-"/>
             <characteristic name="De" characteristicTypeId="f740-753e-918b-0e01" value="5+"/>
-            <characteristic name="Att" characteristicTypeId="08b5-9e79-e206-3776" value="12"/>
+            <characteristic name="Att" characteristicTypeId="08b5-9e79-e206-3776" value="15"/>
             <characteristic name="Nerve" characteristicTypeId="5c74-5f95-be17-7fcf" value="-/16"/>
-            <characteristic name="Special" characteristicTypeId="cf8b-64f1-fa58-e6ff" value="CS (1), Fly, Mindthirst, Shambling, Stealthy"/>
+            <characteristic name="Special" characteristicTypeId="cf8b-64f1-fa58-e6ff" value="Base: (25x25mm), CS (1), Fly, Mindthirst, Shambling, Stealthy"/>
             <characteristic name="Ht" characteristicTypeId="e5ff-5afe-a1c6-c83a" value="1"/>
           </characteristics>
         </profile>
@@ -1021,7 +1037,22 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="2565-cf3b-247c-4500" value="10">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="520e-f8a2-a004-d639" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="3fc0-bd1e-4dc0-6526" value="Mindthirst, Pathfinder, Stealthy, Vanguard, Fly">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="520e-f8a2-a004-d639" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Sp" characteristicTypeId="2565-cf3b-247c-4500" value="5"/>
             <characteristic name="Me" characteristicTypeId="36e7-b7d0-7fa2-5ae5" value="5+"/>
@@ -1036,7 +1067,7 @@
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="f40c-1f48-cf56-0428" hidden="false" targetId="64f6-574a-c4bb-373d" type="rule">
+        <infoLink id="f40c-1f48-cf56-0428" name="Mindthirst" hidden="false" targetId="64f6-574a-c4bb-373d" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1275,7 +1306,15 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="3fc0-bd1e-4dc0-6526" value="CS (2), Mindthirst, Shambling, Stealthy, Brutal">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="aad8-b3fb-1797-5a36" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Sp" characteristicTypeId="2565-cf3b-247c-4500" value="6"/>
             <characteristic name="Me" characteristicTypeId="36e7-b7d0-7fa2-5ae5" value="4+"/>
@@ -1448,7 +1487,15 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="9c0f-4a8c-8d96-9fef" value="Mindthirst, Nimble, Regen (5+), Stealthy, TC (1), Lifeleech (1)">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="520e-f8a2-a004-d639" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Sp" characteristicTypeId="e597-5d69-0793-f6ae" value="9"/>
             <characteristic name="Me" characteristicTypeId="68c5-0400-2e54-089d" value="4+"/>
@@ -1876,15 +1923,30 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="b5e6-b66d-3eb8-0493" value="Base: (75x75mm), CS (3), Mindthirst, Strider, Brutal">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="aad8-b3fb-1797-5a36" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="2ccf-bc26-1a66-909a" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="aad8-b3fb-1797-5a36" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <characteristics>
-            <characteristic name="Sp" characteristicTypeId="2ccf-bc26-1a66-909a" value="5"/>
+            <characteristic name="Sp" characteristicTypeId="2ccf-bc26-1a66-909a" value="6"/>
             <characteristic name="Me" characteristicTypeId="3075-e63d-f393-2605" value="3+"/>
             <characteristic name="Ra" characteristicTypeId="f85e-0356-babe-26b8" value="-"/>
             <characteristic name="De" characteristicTypeId="2899-5298-2e4b-8d03" value="4+"/>
             <characteristic name="Att" characteristicTypeId="275b-366f-0e83-ac2f" value="9"/>
             <characteristic name="Nerve" characteristicTypeId="8132-2383-7692-1446" value="-/20"/>
-            <characteristic name="Special" characteristicTypeId="b5e6-b66d-3eb8-0493" value="CS (3), Mindthirst, Strider"/>
+            <characteristic name="Special" characteristicTypeId="b5e6-b66d-3eb8-0493" value="Base: (75x75mm), CS (3), Mindthirst, Strider"/>
             <characteristic name="Ht" characteristicTypeId="41cb-4d1b-0a59-875a" value="4"/>
           </characteristics>
         </profile>
@@ -2053,14 +2115,14 @@
             <characteristic name="De" characteristicTypeId="2899-5298-2e4b-8d03" value="3+"/>
             <characteristic name="Att" characteristicTypeId="275b-366f-0e83-ac2f" value="15"/>
             <characteristic name="Nerve" characteristicTypeId="8132-2383-7692-1446" value="-/20"/>
-            <characteristic name="Special" characteristicTypeId="b5e6-b66d-3eb8-0493" value="CS (1), Ensnare, Mindthirst, Regen (4+), Shambling, Stealthy"/>
+            <characteristic name="Special" characteristicTypeId="b5e6-b66d-3eb8-0493" value="Base: (75x75mm), CS (1), Ensnare, Mindthirst, Regen (4+), Shambling, Stealthy"/>
             <characteristic name="Ht" characteristicTypeId="41cb-4d1b-0a59-875a" value="4"/>
           </characteristics>
         </profile>
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="eb48-ddc2-ff1f-4cd4" hidden="false" targetId="64f6-574a-c4bb-373d" type="rule">
+        <infoLink id="eb48-ddc2-ff1f-4cd4" name="Mindthirst" hidden="false" targetId="64f6-574a-c4bb-373d" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2298,7 +2360,7 @@
             <characteristic name="De" characteristicTypeId="85ae-39a9-e23c-37c6" value="3+"/>
             <characteristic name="Att" characteristicTypeId="504e-02d3-f907-9808" value="1"/>
             <characteristic name="Nerve" characteristicTypeId="0ae3-1d1d-8fca-f9ba" value="10/13"/>
-            <characteristic name="Special" characteristicTypeId="d2b1-c5bd-84b0-af9c" value="Individual, Mindthirst, Stealthy, Surge (6)"/>
+            <characteristic name="Special" characteristicTypeId="d2b1-c5bd-84b0-af9c" value="Individual, Mindthirst, Stealthy, Surge (8)"/>
             <characteristic name="Ht" characteristicTypeId="48e3-d799-d33a-cf8a" value="1"/>
           </characteristics>
         </profile>
@@ -2905,14 +2967,14 @@
     <selectionEntry id="7989-82e1-1f63-1741" name="Grim Harvest" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules>
-        <rule id="10a7-0d48-bdb3-2eea" name="Formation: Grim Harvest" hidden="false">
+        <rule id="10a7-0d48-bdb3-2eea" name="Formation: Grim Harvest" book="CoK19" page="61" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <description>Formation must contain:
-1x Scarecrow Legion
-2x Reapers Regiments
+1x Scarecrows - Legion
+2x Reapers - Regiments
 Each unit in this formation is granted the Lifeleech (2) special rule.</description>
         </rule>
       </rules>
@@ -2932,7 +2994,30 @@ Each unit in this formation is granted the Lifeleech (2) special rule.</descript
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="936a-8f19-a3a1-3e9d" name="Reapers - Regiment" hidden="false" targetId="7b32-bb1d-11cc-fdec" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d86d-25d3-7a49-57fa" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1796-1cd1-7264-3b1f" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="e746-67f3-9277-66c6" name="Scarecrows - Legion" hidden="false" targetId="a3a7-3568-c611-23ba" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f635-5732-216f-c165" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8f50-ba1f-854e-6525" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="20.0"/>
       </costs>
@@ -2940,15 +3025,15 @@ Each unit in this formation is granted the Lifeleech (2) special rule.</descript
     <selectionEntry id="aad8-b3fb-1797-5a36" name="Butcher&apos;s Block" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules>
-        <rule id="2257-0ef0-68a0-daa8" name="Formation: Butcher&apos;s Block" hidden="false">
+        <rule id="2257-0ef0-68a0-daa8" name="Formation: Butcher&apos;s Block" book="CoK19" page="61" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <description>Formation must contain:
-2x Butchers Hordes
+2x Butchers - Hordes
 1x Shadow-Hulk
-Each unit in this formation is granted the Brutal special rule. The Shadow-Hulk in this formation has their Speed value increased to 6.</description>
+Each unit in this formation is granted the Brutal special rule. The Shadow-Hulk in this formation has +1 Speed (already in profile).</description>
         </rule>
       </rules>
       <infoLinks/>
@@ -2967,9 +3052,359 @@ Each unit in this formation is granted the Brutal special rule. The Shadow-Hulk 
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="07f0-c4ae-e872-fa97" name="Shadow-Hulk" hidden="false" targetId="52a1-cda0-a0c7-b083" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3905-5a37-783e-6e67" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8f8f-2fd9-a6f4-b95b" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="708f-47e2-33aa-5e8a" name="Butchers - Horde" hidden="false" targetId="96c5-67cb-749e-296c" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e5b5-2bae-54d6-72b8" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="11a7-4407-5e42-86a8" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="20.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="69ef-03f2-399f-f2b6" name="Reaper Souldrinker" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="3e29-a8a3-a437-b332" name="Reaper Souldrinker" book="CoK19" page="61" hidden="false" profileTypeId="f71e-c719-35b8-f19f" profileTypeName="Hero (Inf)">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Sp" characteristicTypeId="c716-0f15-9a4f-d7ed" value="5"/>
+            <characteristic name="Me" characteristicTypeId="03c9-62d7-bfc7-f9c9" value="3+"/>
+            <characteristic name="Ra" characteristicTypeId="73c5-2040-629d-def0" value="-"/>
+            <characteristic name="De" characteristicTypeId="85ae-39a9-e23c-37c6" value="4+"/>
+            <characteristic name="Att" characteristicTypeId="504e-02d3-f907-9808" value="4"/>
+            <characteristic name="Nerve" characteristicTypeId="0ae3-1d1d-8fca-f9ba" value="10/12"/>
+            <characteristic name="Special" characteristicTypeId="d2b1-c5bd-84b0-af9c" value="CS (1), Lifeleech (1), Mindthirst, Souldrinker, Stealthy"/>
+            <characteristic name="Ht" characteristicTypeId="48e3-d799-d33a-cf8a" value="1"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="7208-9fd5-f75a-5910" name="Souldrinker" book="CoK19" page="61" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>While within 6&quot; of this unit, all friendly Reaper Troops and Regiments have the Lifeleech (1) special rule, or if the unit already has Lifeleech, it is increased by 1 (not already in profiles).</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="0e7a-c453-8e0a-83db" name="Crushing Strength (n)" hidden="false" targetId="3131-8f0a-0927-8489" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="e288-9dc4-5792-0331" name="Lifeleech (n)" hidden="false" targetId="2fcc-d747-ea72-2828" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="4752-7fd3-c110-d0e6" name="Mindthirst" hidden="false" targetId="64f6-574a-c4bb-373d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="8479-4210-9a64-1652" name="Stealthy" hidden="false" targetId="bdd0-eb1b-bf45-750e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="fd4f-31f2-ef74-e75e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5349-e70c-59b9-b6b7" type="max"/>
+        <constraint field="selections" scope="832e-ae14-a8a1-04ef" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="65ba-d342-23b6-97ab" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="da09-8b62-bfef-6d5b" name="New CategoryLink" hidden="false" targetId="2236-ee12-e75d-9050" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="c040-1553-3015-8ecb" name="Hero/Mon/WarEng" hidden="false" targetId="1f15-ed91-6655-1da4" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="384c-fc44-b446-9b49" name="Magic Artefacts" hidden="false" targetId="6816-61a6-c6f9-a79e" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="75.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="abce-2e29-2b10-b5b9" name="Butcher Fleshripper" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="d35b-0a33-9bd4-f4c2" name="Butcher Fleshripper" book="CoK19" page="61" hidden="false" profileTypeId="b808-a790-b9e2-2381" profileTypeName="Hero (LrgInf)">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Sp" characteristicTypeId="9cbe-a90a-d30f-d5c6" value="6"/>
+            <characteristic name="Me" characteristicTypeId="fb39-60eb-480a-439c" value="4+"/>
+            <characteristic name="Ra" characteristicTypeId="194a-32cf-f523-9dff" value="-"/>
+            <characteristic name="De" characteristicTypeId="fb05-a303-c056-9959" value="5+"/>
+            <characteristic name="Att" characteristicTypeId="d639-a799-5ae4-b39a" value="4"/>
+            <characteristic name="Nerve" characteristicTypeId="7e7a-b36a-ecc7-6857" value="-/14"/>
+            <characteristic name="Special" characteristicTypeId="c97d-7f17-861e-b7db" value="CS (2), Mindthirst, Nimble, Stealthy, Surge (3)"/>
+            <characteristic name="Ht" characteristicTypeId="c00c-e91c-357f-f69b" value="2"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="0e3d-8d9e-9ba3-1689" name="Crushing Strength (n)" hidden="false" targetId="3131-8f0a-0927-8489" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="3181-1c6e-708d-d4ac" name="Nimble" hidden="false" targetId="b79a-f274-5123-df1d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="6275-a1cc-7ba1-71a6" name="Stealthy" hidden="false" targetId="bdd0-eb1b-bf45-750e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="8a19-9cbc-857b-6faa" name="Mindthirst" hidden="false" targetId="64f6-574a-c4bb-373d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="2c5f-35e6-2943-9ec0" name="Surge (n)" hidden="false" targetId="8447-b7bc-2737-f07c" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="fd4f-31f2-ef74-e75e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1deb-62b8-91d8-74b1" type="max"/>
+        <constraint field="selections" scope="832e-ae14-a8a1-04ef" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d2fa-c678-4f62-2024" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="ae94-a375-93c8-6761" name="New CategoryLink" hidden="false" targetId="2236-ee12-e75d-9050" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="3627-01cc-0099-6653" name="Hero/Mon/WarEng" hidden="false" targetId="1f15-ed91-6655-1da4" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="8ee3-dc2a-52ea-3d30" name="Magic Artefacts" hidden="false" targetId="6816-61a6-c6f9-a79e" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="8b17-19a2-7706-98b8" name="Clash of Kings Spells - Evil" hidden="false" targetId="fc98-f529-2d52-7b8e" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="110.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b0b7-713e-21ed-aeee" name="Horror Riftweavers" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="a85f-c69a-9832-8c65" name="Horror Riftweavers" book="CoK19" page="61" hidden="false" profileTypeId="9c15-4092-fcbd-188e" profileTypeName="Mon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Sp" characteristicTypeId="2ccf-bc26-1a66-909a" value="6"/>
+            <characteristic name="Me" characteristicTypeId="3075-e63d-f393-2605" value="4+"/>
+            <characteristic name="Ra" characteristicTypeId="f85e-0356-babe-26b8" value="-"/>
+            <characteristic name="De" characteristicTypeId="2899-5298-2e4b-8d03" value="4+"/>
+            <characteristic name="Att" characteristicTypeId="275b-366f-0e83-ac2f" value="D6+6"/>
+            <characteristic name="Nerve" characteristicTypeId="8132-2383-7692-1446" value="11/14"/>
+            <characteristic name="Special" characteristicTypeId="b5e6-b66d-3eb8-0493" value="CS (1), Individual, Mindthirst, Stealthy"/>
+            <characteristic name="Ht" characteristicTypeId="41cb-4d1b-0a59-875a" value="1"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="4cdc-ad55-ab5e-2268" name="Crushing Strength (n)" hidden="false" targetId="3131-8f0a-0927-8489" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="3406-068c-6a7b-fea0" name="Individual" hidden="false" targetId="9657-1079-91be-b2bd" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="7cae-46f4-d98f-875a" name="Mindthirst" hidden="false" targetId="64f6-574a-c4bb-373d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="377b-5cdf-2ca9-65a3" name="Stealthy" hidden="false" targetId="bdd0-eb1b-bf45-750e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="fd4f-31f2-ef74-e75e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f936-8508-0cfa-98e2" type="max"/>
+        <constraint field="selections" scope="832e-ae14-a8a1-04ef" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5432-6da8-5165-1be8" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="608c-8e26-db79-ecc8" name="Hero/Mon/WarEng" hidden="false" targetId="1f15-ed91-6655-1da4" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="edde-6719-71bd-caae" name="New CategoryLink" hidden="false" targetId="6743-3992-17bf-ffd4" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="c1b1-3c9e-c87c-cb5b" name="Individuals" hidden="false" targetId="3bb6-ef33-6b6b-e7f2" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="115.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="520e-f8a2-a004-d639" name="Mist Leapers" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules>
+        <rule id="1c5e-a26e-fe5e-4864" name="Formation: Mist Leapers" book="CoK19" page="61" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Formation must contain:
+2x Needle-fangs* - Regiments
+2x Shadowhounds* - Regiments
+Each unit of Needle-fangs in this formation is granted the Fly special rule. The Shadowhounds in this formation are granted the Lifeleech (1) special rule.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2665-eb0e-8e29-c201" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="4a12-40fa-34ab-245f" name="New CategoryLink" hidden="false" targetId="8268-0874-ff47-7871" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="8c53-3aaf-4f63-88a1" name="Needle-fangs* - Regiment" hidden="false" targetId="1d1b-0b5e-aa4b-6136" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ec9b-a7b1-fad8-65c2" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1a74-9258-4d36-9fc9" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="493b-7dc2-0492-b877" name="Shadowhounds* - Regiment" hidden="false" targetId="38ba-d802-6fea-38dd" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="325b-ce12-e73d-d833" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="925a-c23e-b145-0f6f" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="30.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
