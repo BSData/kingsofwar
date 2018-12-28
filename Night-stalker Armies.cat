@@ -1959,7 +1959,7 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="dd35-2d9d-2051-43e9" hidden="false" targetId="e70c-1148-97d1-9348" type="rule">
+        <infoLink id="dd35-2d9d-2051-43e9" name="Strider" hidden="false" targetId="e70c-1148-97d1-9348" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1972,7 +1972,15 @@
           <modifiers/>
         </infoLink>
       </infoLinks>
-      <modifiers/>
+      <modifiers>
+        <modifier type="decrement" field="b4f7-beaa-a212-3919" value="1">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="aad8-b3fb-1797-5a36" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="fd4f-31f2-ef74-e75e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b37-3bfd-9691-1b83" type="max"/>
         <constraint field="selections" scope="832e-ae14-a8a1-04ef" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b4f7-beaa-a212-3919" type="max"/>
@@ -2314,7 +2322,7 @@
       </infoLinks>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="23e3-1bf2-b2c6-2b1e" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be5f-b331-0fc9-d885" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="2a8a-e59d-eccb-a1cc" name="New CategoryLink" hidden="false" targetId="a4d6-b3dd-fed5-b916" primary="true">
@@ -2932,7 +2940,7 @@
       </infoLinks>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="91bf-a23a-2c4b-16f9" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3223-dea5-d150-9e09" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="91c1-315a-9b20-d042" name="New CategoryLink" hidden="false" targetId="2236-ee12-e75d-9050" primary="true">
