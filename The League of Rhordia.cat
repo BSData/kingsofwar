@@ -2217,7 +2217,7 @@
       </infoLinks>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="b5fc-e226-a646-0969" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb6c-6937-5389-9843" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="7869-548f-72b4-8eb5" name="New CategoryLink" hidden="false" targetId="2236-ee12-e75d-9050" primary="true">
@@ -3329,7 +3329,22 @@
           <modifiers/>
         </infoLink>
       </infoLinks>
-      <modifiers/>
+      <modifiers>
+        <modifier type="decrement" field="ae1e-134b-4224-1a1e" value="1">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d986-bfec-2ec1-8738" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="decrement" field="ae1e-134b-4224-1a1e" value="1">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a046-7608-e2f4-754d" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="fd4f-31f2-ef74-e75e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3132-9a1d-e915-c570" type="max"/>
         <constraint field="selections" scope="832e-ae14-a8a1-04ef" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ae1e-134b-4224-1a1e" type="max"/>
