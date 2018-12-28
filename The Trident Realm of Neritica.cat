@@ -2417,7 +2417,15 @@
           <modifiers/>
         </infoLink>
       </infoLinks>
-      <modifiers/>
+      <modifiers>
+        <modifier type="decrement" field="6756-727f-b189-c3aa" value="1">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1355-97f0-30b9-7698" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="fd4f-31f2-ef74-e75e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="893d-d13c-c67a-a0a8" type="max"/>
         <constraint field="selections" scope="832e-ae14-a8a1-04ef" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6756-727f-b189-c3aa" type="max"/>
@@ -2829,7 +2837,15 @@
           <modifiers/>
         </infoLink>
       </infoLinks>
-      <modifiers/>
+      <modifiers>
+        <modifier type="decrement" field="a836-85fd-80ff-dc37" value="1">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ea1e-86f6-ea48-37d4" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="fd4f-31f2-ef74-e75e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe52-c908-b2e7-6148" type="max"/>
         <constraint field="selections" scope="832e-ae14-a8a1-04ef" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a836-85fd-80ff-dc37" type="max"/>
@@ -3341,7 +3357,7 @@
       </infoLinks>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="05fa-6a16-694f-badf" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e593-ce99-6145-5a3b" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="dc58-4aca-7a92-ddbf" name="New CategoryLink" hidden="false" targetId="2236-ee12-e75d-9050" primary="true">
@@ -3445,7 +3461,7 @@
       </infoLinks>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="04b9-b960-1b76-acf4" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e7a9-aa35-9ccd-3bd5" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="c898-25f6-105f-1283" name="New CategoryLink" hidden="false" targetId="2236-ee12-e75d-9050" primary="true">
@@ -3899,7 +3915,7 @@ Each unit in this formation is granted the Fury special rule. The Naiad Heartpie
           <modifiers/>
           <description>Formation must contain:
 2x Gigas - Horde
-Each unit in this formation gains +1 Speed and is granted the Elite special rule.</description>
+Each unit in this formation gains +1 Speed and is granted the Elite special rule (already in profiles).</description>
         </rule>
       </rules>
       <infoLinks/>
