@@ -2715,7 +2715,15 @@
           <modifiers/>
         </infoLink>
       </infoLinks>
-      <modifiers/>
+      <modifiers>
+        <modifier type="decrement" field="3633-427d-65e0-55e3" value="1">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3ac5-1bf7-d389-5819" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="fd4f-31f2-ef74-e75e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="949b-4bcf-0eb0-3677" type="max"/>
         <constraint field="selections" scope="832e-ae14-a8a1-04ef" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3633-427d-65e0-55e3" type="max"/>
@@ -3766,7 +3774,7 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="d0d9-3def-df2b-1d34" hidden="false" targetId="4172-a0d9-878e-5057" type="rule">
+        <infoLink id="d0d9-3def-df2b-1d34" name="Vanguard" hidden="false" targetId="4172-a0d9-878e-5057" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3791,9 +3799,17 @@
           <modifiers/>
         </infoLink>
       </infoLinks>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="afab-daf9-d7e9-02e2" value="0.0">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fdb8-a3b4-4eb5-6547" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="5e9d-ad39-b8c0-c252" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="afab-daf9-d7e9-02e2" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="9432-20c2-c6a6-2038" name="New CategoryLink" hidden="false" targetId="2236-ee12-e75d-9050" primary="true">
@@ -4016,7 +4032,7 @@
           <description>Formation must contain:
 3x Corsairs - Troops
 1x Firebrand [1]
-Each unit in this formation is granted the Elite special rule as well as +1 to hit with ranged attacks (improved Ra value already in profiles). In addition they also increase their Rout Nerve value by 1.</description>
+Each unit in this formation is granted the Elite special rule as well as +1 to hit with ranged attacks. In addition they also increase their Rout Nerve value by 1 (all changes already in profiles).</description>
         </rule>
       </rules>
       <infoLinks/>
