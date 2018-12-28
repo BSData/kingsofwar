@@ -3467,9 +3467,17 @@
           <modifiers/>
         </infoLink>
       </infoLinks>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="a8dd-7cc2-3290-749f" value="0.0">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e2b0-f0fe-0d0c-dc9b" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="8ac8-cb1a-0ae8-7b24" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a8dd-7cc2-3290-749f" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="f4c5-9b3c-d221-dfb0" name="New CategoryLink" hidden="false" targetId="2236-ee12-e75d-9050" primary="true">
@@ -3759,7 +3767,15 @@ Each unit in this formation is granted the Elite special rule. In addition, whil
           <modifiers/>
         </infoLink>
       </infoLinks>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="fadc-0b6f-1a31-bbb1" value="0.0">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cb03-263d-59b4-d13c" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fadc-0b6f-1a31-bbb1" type="max"/>
       </constraints>
@@ -3821,7 +3837,34 @@ Each unit in this formation is granted the Elite special rule. In addition, whil
         </profile>
       </profiles>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="6af1-de3c-2a74-5554" name="Ensnare" hidden="false" targetId="3b62-ea44-71f8-1c42" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="7756-b4bd-1764-3bc9" name="Individual" hidden="false" targetId="9657-1079-91be-b2bd" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="d564-e73b-0bde-8e22" name="Wind Blast (n)" hidden="false" targetId="da65-6a10-c6a3-9022" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="c686-e6ca-1929-fb34" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="eda3-d991-f7d6-7a53" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="fd4f-31f2-ef74-e75e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff1c-9cad-d04a-5f0a" type="max"/>
@@ -3916,7 +3959,9 @@ Each unit in this formation is granted the Elite special rule. In addition, whil
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
