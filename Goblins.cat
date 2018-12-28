@@ -2007,7 +2007,15 @@
           <modifiers/>
         </infoLink>
       </infoLinks>
-      <modifiers/>
+      <modifiers>
+        <modifier type="decrement" field="86c3-7b0d-fab0-b814" value="1">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1720-89d6-4b9b-984e" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="fd4f-31f2-ef74-e75e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a475-2a1d-28b7-5a25" type="max"/>
         <constraint field="selections" scope="832e-ae14-a8a1-04ef" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="86c3-7b0d-fab0-b814" type="max"/>
@@ -2439,7 +2447,7 @@
       </infoLinks>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="8ed1-fbd3-8424-acde" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="34a9-a957-6f44-7175" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="276e-d902-a4c7-7659" name="New CategoryLink" hidden="false" targetId="2236-ee12-e75d-9050" primary="true">
@@ -2504,7 +2512,7 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="8107-3ec0-ba06-bd1d" hidden="false" targetId="5f9b-2fdf-ddf6-b612" type="rule">
+        <infoLink id="8107-3ec0-ba06-bd1d" name="Yellow Bellied" hidden="false" targetId="5f9b-2fdf-ddf6-b612" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2517,8 +2525,25 @@
           <modifiers/>
         </infoLink>
       </infoLinks>
-      <modifiers/>
-      <constraints/>
+      <modifiers>
+        <modifier type="set" field="6516-8b8f-109c-ca51" value="0.0">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d1c3-311d-83fa-f3a7" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="6516-8b8f-109c-ca51" value="0.0">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="832e-e24d-a4cb-eb9d" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6516-8b8f-109c-ca51" type="max"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="6a1c-8d28-af5e-7545" name="New CategoryLink" hidden="false" targetId="5604-ed5f-2918-7d18" primary="true">
           <profiles/>
@@ -2528,6 +2553,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="dedd-d366-d664-e50a" name="Troops" hidden="false" targetId="54e7-8b51-37d0-c6da" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="485b-36af-3727-645e" name="Living Legends" hidden="false" targetId="d69e-ab9d-fe8b-b5eb" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2584,7 +2616,7 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="d78a-0039-b7eb-cf21" hidden="false" targetId="5f9b-2fdf-ddf6-b612" type="rule">
+        <infoLink id="d78a-0039-b7eb-cf21" name="Yellow Bellied" hidden="false" targetId="5f9b-2fdf-ddf6-b612" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2597,8 +2629,25 @@
           <modifiers/>
         </infoLink>
       </infoLinks>
-      <modifiers/>
-      <constraints/>
+      <modifiers>
+        <modifier type="set" field="8c25-9d73-30ff-b5df" value="0.0">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d1c3-311d-83fa-f3a7" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="8c25-9d73-30ff-b5df" value="0.0">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="98d2-9658-bb2b-bf14" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8c25-9d73-30ff-b5df" type="max"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="5457-a976-a9f4-d2b4" name="New CategoryLink" hidden="false" targetId="5604-ed5f-2918-7d18" primary="true">
           <profiles/>
@@ -2614,11 +2663,18 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="fba5-ecb6-cb2f-16c2" name="Living Legends" hidden="false" targetId="d69e-ab9d-fe8b-b5eb" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="471d-7d0e-1fd6-7c3f" name="Artefacts" hidden="false" targetId="6816-61a6-c6f9-a79e" type="selectionEntryGroup">
+        <entryLink id="471d-7d0e-1fd6-7c3f" name="Magic Artefacts" hidden="false" targetId="6816-61a6-c6f9-a79e" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2685,7 +2741,15 @@
           <modifiers/>
         </infoLink>
       </infoLinks>
-      <modifiers/>
+      <modifiers>
+        <modifier type="decrement" field="ce02-1684-2daa-e3fa" value="2">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2648-0dd3-8b57-6ab1" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="fd4f-31f2-ef74-e75e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e5a1-7dad-b6c1-4ea9" type="max"/>
         <constraint field="selections" scope="832e-ae14-a8a1-04ef" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ce02-1684-2daa-e3fa" type="max"/>
@@ -2917,7 +2981,7 @@
       </infoLinks>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="35c7-5cb5-eb39-65d7" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd27-d91c-155d-29ac" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="9064-6e8b-e5a2-4ba1" name="New CategoryLink" hidden="false" targetId="2236-ee12-e75d-9050" primary="true">
