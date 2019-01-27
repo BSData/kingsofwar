@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="0929-4596-8744-bbda" name="Kings of War 2E, Clash of Kings 2019" revision="8" battleScribeVersion="2.01" authorName="John (Ekaznae)" authorContact="bsdata.kow@gmail.com" authorUrl="https://github.com/BSData/kingsofwar" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="0929-4596-8744-bbda" name="Kings of War 2E, Clash of Kings 2019" revision="9" battleScribeVersion="2.01" authorName="John (Ekaznae)" authorContact="bsdata.kow@gmail.com" authorUrl="https://github.com/BSData/kingsofwar" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -338,12 +338,22 @@
     </categoryEntry>
   </categoryEntries>
   <forceEntries>
-    <forceEntry id="832e-ae14-a8a1-04ef" name="[Main Force] - Max 3 dupe H/M/WE" hidden="false">
+    <forceEntry id="832e-ae14-a8a1-04ef" name="[Main Army, 1500+ Roster pts]" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
-      <constraints/>
+      <modifiers>
+        <modifier type="decrement" field="25cf-de5f-226d-e751" value="5">
+          <repeats>
+            <repeat field="points" scope="roster" value="5.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="fd4f-31f2-ef74-e75e" repeats="1" roundUp="false"/>
+          </repeats>
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="points" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="25cf-de5f-226d-e751" type="min"/>
+      </constraints>
       <forceEntries/>
       <categoryLinks>
         <categoryLink id="ab6f-ebae-febf-f8a9" name="Formations" hidden="false" targetId="8268-0874-ff47-7871" primary="false">
@@ -404,13 +414,14 @@
         </categoryLink>
       </categoryLinks>
     </forceEntry>
-    <forceEntry id="fd4f-31f2-ef74-e75e" name="{Allied Force}" hidden="false">
+    <forceEntry id="fd4f-31f2-ef74-e75e" name="{Allied Units}" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints>
         <constraint field="points" scope="roster" value="25.0" percentValue="true" shared="true" includeChildSelections="false" includeChildForces="false" id="460f-8e34-7271-ff97" type="max"/>
+        <constraint field="points" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c272-317d-b03c-96c5" type="min"/>
       </constraints>
       <forceEntries/>
       <categoryLinks>
@@ -464,6 +475,75 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="8285-eee6-1a9e-e1d7" name="War Engines" hidden="false" targetId="a4d6-b3dd-fed5-b916" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+    </forceEntry>
+    <forceEntry id="f946-bbf6-50fe-0078" name="[Main Army, 0-1495 Roster pts]" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="points" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d14-4d4a-5601-f41d" type="min"/>
+        <constraint field="points" scope="roster" value="1495.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3cc1-6a79-c18d-5d25" type="max"/>
+      </constraints>
+      <forceEntries/>
+      <categoryLinks>
+        <categoryLink id="5e56-0f05-22e6-0ad0" name="Formations" hidden="false" targetId="8268-0874-ff47-7871" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="debc-f3f8-4264-c834" name="Infantry" hidden="false" targetId="66ef-4d37-b355-388e" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="3935-bf3e-0928-2e7a" name="Large Infantry" hidden="false" targetId="bd55-8ab8-ff86-2463" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="ae98-1f66-b0d4-1d15" name="Cavalry" hidden="false" targetId="5604-ed5f-2918-7d18" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="a78e-0d07-5fa4-cea0" name="Large Cavalry" hidden="false" targetId="dd5b-9a97-e3a1-83c5" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="0393-cfce-22a5-f85e" name="Heroes" hidden="false" targetId="2236-ee12-e75d-9050" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="6c80-2e47-381d-4a2c" name="Monsters" hidden="false" targetId="6743-3992-17bf-ffd4" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="eb17-84d7-c411-b7bd" name="War Engines" hidden="false" targetId="a4d6-b3dd-fed5-b916" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
