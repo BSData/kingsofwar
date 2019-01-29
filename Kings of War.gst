@@ -5627,7 +5627,7 @@ Remove one point of damage from the chosen unit for each point of damage dealt t
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>[CoK]: 12&quot; Range. Targets are only friendly Infantry Heroes with the Individual special rule that do not have the Fly special rule. If one or more hits are scored, the target may immediately move up to 20&quot; in any direction as if it had the Fly special rule. This move may not be used to charge an enemy unit, and the Individual counts as moving for all other purposes. Once a hit is scored by this spell it may not be used again by this caster for the remainder of the game.</description>
+      <description>[CoK]: 12&quot; Range. Friendly Infantry Heroes that do not possess the Fly special rule only. If one or more hits are scored, you may immediately pick up the target unit and place it entirely within 20&quot; of its original position, facing any direction. Once a hit is scored by this spell it may not be used again by this caster for the remainder of the game.</description>
     </rule>
     <rule id="ea6b-265d-31fe-8fc6" name="Critter&apos;s Call (n)" book="CoK19" page="31" hidden="false">
       <profiles/>
@@ -5641,14 +5641,14 @@ Remove one point of damage from the chosen unit for each point of damage dealt t
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>[CoK]: 18&quot; range. Target enemy units that have the ability to cast a spell, including those who can cast due to a magic artefact. Hits do not cause damage. Instead, if one or more hits are scored, the unit which cast this spell may immediately cast one of the target&apos;s spells, except Surge. Casting the opponent&apos;s spell uses the same number of dice available to the enemy unit, but not any of their special rules. Additionally, in their next turn, the enemy player may not cast the stolen spell.</description>
+      <description>[CoK]: 18” Range. Enemy units that have the ability to cast a spell only, including those who can cast due to a magic artefact. Hits do not cause damage. Instead, if one or more hits are scored, choose one of the target unit’s spells (excluding Surge), this spell is stolen and cannot be cast by the target unit in its next turn. Your unit may then immediately cast the stolen spell, using the same number of spell dice available to the target, including additional dice from artefacts, but excluding any special rules which grant the target additional spell dice.</description>
     </rule>
     <rule id="d525-9a93-3870-34bb" name="Blizzard (n)" book="CoK19" page="31" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>[CoK]: 36&quot; range. Blast (D3). Indirect.</description>
+      <description>[CoK]: 36&quot; range. Blast (D6). Indirect.</description>
     </rule>
   </sharedRules>
   <sharedProfiles/>

@@ -3823,7 +3823,7 @@ Each unit in this formation is granted the Vicious special rule. The Abyssal Tem
           <rules/>
           <infoLinks/>
           <modifiers>
-            <modifier type="set" field="7d69-5a27-3df5-ebf5" value="CS (1), Fury, Lifeleech (1), TC (2), Vicious">
+            <modifier type="set" field="7d69-5a27-3df5-ebf5" value="CS (1), Fury, Individual, Lifeleech (1), TC (2), Vicious">
               <repeats/>
               <conditions>
                 <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6ff0-994c-3535-f349" type="instanceOf"/>
@@ -3838,7 +3838,7 @@ Each unit in this formation is granted the Vicious special rule. The Abyssal Tem
             <characteristic name="De" characteristicTypeId="7c7c-149d-0302-70ae" value="5+"/>
             <characteristic name="Att" characteristicTypeId="04a8-952e-5b33-b8aa" value="3"/>
             <characteristic name="Nerve" characteristicTypeId="a4c4-6b4d-ae1d-4ea8" value="11/13"/>
-            <characteristic name="Special" characteristicTypeId="7d69-5a27-3df5-ebf5" value="CS (1), Fury, Lifeleech (1), TC (2)"/>
+            <characteristic name="Special" characteristicTypeId="7d69-5a27-3df5-ebf5" value="CS (1), Fury, Individual, Lifeleech (1), TC (2)"/>
             <characteristic name="Ht" characteristicTypeId="ee3f-f2ed-6672-98ea" value="2"/>
           </characteristics>
         </profile>
@@ -3864,6 +3864,12 @@ Each unit in this formation is granted the Vicious special rule. The Abyssal Tem
           <modifiers/>
         </infoLink>
         <infoLink id="8b01-83f2-4176-96f5" name="Lifeleech (n)" hidden="false" targetId="2fcc-d747-ea72-2828" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="280c-ed1c-ffeb-d916" name="Individual" hidden="false" targetId="9657-1079-91be-b2bd" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
