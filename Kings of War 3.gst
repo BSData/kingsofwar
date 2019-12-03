@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="0929-4596-8744-bbdb" name="Kings of War: 3rd Edition" revision="1" battleScribeVersion="2.03" authorName="John (Ekaznae)" authorContact="bsdata.kow@gmail.com" authorUrl="https://github.com/BSData/kingsofwar" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="0929-4596-8744-bbdb" name="Kings of War: 3rd Edition" revision="2" battleScribeVersion="2.03" authorName="John (Ekaznae)" authorContact="bsdata.kow@gmail.com" authorUrl="https://github.com/BSData/kingsofwar" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="eab5-a7fe-b282-0b56" name="KoW3"/>
   </publications>
@@ -1255,6 +1255,7 @@
         <categoryLink id="c5c0-8ae6-b8cf-1989" name="New CategoryLink" hidden="false" targetId="b057-19ac-bee2-ac91" primary="true"/>
         <categoryLink id="d57b-9433-31ed-5951" name="@Hero" hidden="false" targetId="4ea0-3a9b-13be-2767" primary="false"/>
         <categoryLink id="b7e3-3182-5736-4051" name="@Hero/Mon/Ttn/War Eng" hidden="false" targetId="3f26-cf3d-d182-e055" primary="false"/>
+        <categoryLink id="8597-e068-4f48-6be1" name="@[H]" hidden="false" targetId="ae0b-44e7-704c-e312" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="bb06-a163-623b-2613" name="Magical Artefacts" hidden="false" collective="false" import="true" targetId="6816-61a6-c6f9-a79e" type="selectionEntryGroup"/>
@@ -1308,6 +1309,7 @@
         <categoryLink id="dd77-d120-d731-f70a" name="New CategoryLink" hidden="false" targetId="b057-19ac-bee2-ac91" primary="true"/>
         <categoryLink id="18b6-6b81-2f60-eea6" name="@Hero" hidden="false" targetId="4ea0-3a9b-13be-2767" primary="false"/>
         <categoryLink id="9da9-fdbd-8935-5a5b" name="@Hero/Mon/Ttn/War Eng" hidden="false" targetId="3f26-cf3d-d182-e055" primary="false"/>
+        <categoryLink id="4273-2400-7199-a406" name="@[H]" hidden="false" targetId="ae0b-44e7-704c-e312" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="1332-b3b5-d398-0555" name="Magical Artefacts" hidden="false" collective="false" import="true" targetId="6816-61a6-c6f9-a79e" type="selectionEntryGroup"/>
@@ -1334,6 +1336,7 @@
         <categoryLink id="087c-64d8-05c1-e22a" name="New CategoryLink" hidden="false" targetId="b057-19ac-bee2-ac91" primary="true"/>
         <categoryLink id="1577-b594-31e7-a23c" name="@Hero" hidden="false" targetId="4ea0-3a9b-13be-2767" primary="false"/>
         <categoryLink id="8313-3f71-ef85-487f" name="@Hero/Mon/Ttn/War Eng" hidden="false" targetId="3f26-cf3d-d182-e055" primary="false"/>
+        <categoryLink id="7021-84a3-6ef7-7b41" name="@[H]" hidden="false" targetId="ae0b-44e7-704c-e312" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="6d08-03e1-52f4-6feb" name="Magical Artefacts" hidden="false" collective="false" import="true" targetId="6816-61a6-c6f9-a79e" type="selectionEntryGroup"/>
@@ -1360,6 +1363,7 @@
         <categoryLink id="f73e-4ab9-dea7-8f20" name="New CategoryLink" hidden="false" targetId="b057-19ac-bee2-ac91" primary="true"/>
         <categoryLink id="a6e7-f420-be7e-0683" name="@Hero" hidden="false" targetId="4ea0-3a9b-13be-2767" primary="false"/>
         <categoryLink id="452c-118e-f602-d167" name="@Hero/Mon/Ttn/War Eng" hidden="false" targetId="3f26-cf3d-d182-e055" primary="false"/>
+        <categoryLink id="1645-504a-d98e-74b7" name="@[H]" hidden="false" targetId="ae0b-44e7-704c-e312" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="1216-f5ce-d7c5-dcb7" name="Magical Artefacts" hidden="false" collective="false" import="true" targetId="6816-61a6-c6f9-a79e" type="selectionEntryGroup"/>
@@ -1386,6 +1390,7 @@
         <categoryLink id="cf3e-616b-9ce2-9ba6" name="New CategoryLink" hidden="false" targetId="b057-19ac-bee2-ac91" primary="true"/>
         <categoryLink id="c658-0be6-b59b-1021" name="@Hero" hidden="false" targetId="4ea0-3a9b-13be-2767" primary="false"/>
         <categoryLink id="50a4-93d5-afc7-79d1" name="@Hero/Mon/Ttn/War Eng" hidden="false" targetId="3f26-cf3d-d182-e055" primary="false"/>
+        <categoryLink id="ef17-eb03-d6f7-0df6" name="@[H]" hidden="false" targetId="ae0b-44e7-704c-e312" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="388b-fcd6-2cc0-a27c" name="Magical Artefacts" hidden="false" collective="false" import="true" targetId="6816-61a6-c6f9-a79e" type="selectionEntryGroup"/>
@@ -1412,6 +1417,7 @@
         <categoryLink id="eccf-3896-a0c4-2764" name="New CategoryLink" hidden="false" targetId="b057-19ac-bee2-ac91" primary="true"/>
         <categoryLink id="7a11-ab07-d4ef-b05d" name="@Hero" hidden="false" targetId="4ea0-3a9b-13be-2767" primary="false"/>
         <categoryLink id="ce16-0f4c-c430-c2b7" name="@Hero/Mon/Ttn/War Eng" hidden="false" targetId="3f26-cf3d-d182-e055" primary="false"/>
+        <categoryLink id="7463-95f7-5ff2-3e88" name="@[H]" hidden="false" targetId="ae0b-44e7-704c-e312" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="04d4-a4ab-8c0f-ac44" name="Magical Artefacts" hidden="false" collective="false" import="true" targetId="6816-61a6-c6f9-a79e" type="selectionEntryGroup"/>
@@ -1465,6 +1471,7 @@
         <categoryLink id="6e43-808a-7e6a-e2eb" name="New CategoryLink" hidden="false" targetId="b057-19ac-bee2-ac91" primary="true"/>
         <categoryLink id="b370-d8b3-b421-1c87" name="@Hero" hidden="false" targetId="4ea0-3a9b-13be-2767" primary="false"/>
         <categoryLink id="2d73-7b6d-451a-27a6" name="@Hero/Mon/Ttn/War Eng" hidden="false" targetId="3f26-cf3d-d182-e055" primary="false"/>
+        <categoryLink id="8798-1194-e5b2-9930" name="@[H]" hidden="false" targetId="ae0b-44e7-704c-e312" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="6ffe-7545-064a-b52d" name="Magical Artefacts" hidden="false" collective="false" import="true" targetId="6816-61a6-c6f9-a79e" type="selectionEntryGroup"/>
@@ -1952,7 +1959,7 @@
                 <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="872e-7630-427b-2b56" name="10 - Darklord&apos;s Onyx Ring" page="" hidden="true" collective="false" import="true" type="upgrade">
+            <selectionEntry id="872e-7630-427b-2b56" name="10 - Darklord&apos;s Onyx Ring (Individuals)" page="" hidden="true" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="false">
                   <conditions>
@@ -1969,7 +1976,7 @@
                 <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="67bd-7813-30f1-cce8" name="15 - Mournful Blade" page="" hidden="true" collective="false" import="true" type="upgrade">
+            <selectionEntry id="67bd-7813-30f1-cce8" name="15 - Mournful Blade (Individuals)" page="" hidden="true" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="false">
                   <conditions>
@@ -2056,7 +2063,7 @@
                 <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="c8fa-c2b5-b316-77d9" name="30 - Boots of the Seven Leagues" page="" hidden="true" collective="false" import="true" type="upgrade">
+            <selectionEntry id="c8fa-c2b5-b316-77d9" name="30 - Boots of the Seven Leagues (Individuals)" page="" hidden="true" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="false">
                   <conditions>
@@ -2093,7 +2100,7 @@
                 <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="dfb7-f57a-3570-1aa5" name="40 - Wings of Honeymaze" page="" hidden="true" collective="false" import="true" type="upgrade">
+            <selectionEntry id="dfb7-f57a-3570-1aa5" name="40 - Wings of Honeymaze (Individuals)" page="" hidden="true" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="false">
                   <conditions>

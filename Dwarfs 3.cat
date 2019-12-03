@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="e422-52d9-964d-7d02" name="(Good) Dwarfs" revision="1" battleScribeVersion="2.03" authorName="John (Ekaznae)" authorContact="bsdata.kow@gmail.com" authorUrl="https://github.com/BSData/kingsofwar" library="false" gameSystemId="0929-4596-8744-bbdb" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="e422-52d9-964d-7d02" name="(Good) Dwarfs" revision="2" battleScribeVersion="2.03" authorName="John (Ekaznae)" authorContact="bsdata.kow@gmail.com" authorUrl="https://github.com/BSData/kingsofwar" library="false" gameSystemId="0929-4596-8744-bbdb" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="b38d-7f3f-d002-1d26" name="Ironclad (10) Troop" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
@@ -783,7 +783,7 @@
         <cost name=" pts" typeId="points" value="95.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3d02-d0af-c022-e68b" name="Dwarf Army Standard Bearer" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="3d02-d0af-c022-e68b" name="Army Standard Bearer" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="increment" field="da1a-cfca-5485-7619" value="1.0">
           <repeats>
@@ -867,6 +867,7 @@
         <categoryLink id="3c51-9faa-6ef9-9bae" name="New CategoryLink" hidden="false" targetId="b057-19ac-bee2-ac91" primary="true"/>
         <categoryLink id="2c38-9daa-381f-7000" name="@Hero" hidden="false" targetId="4ea0-3a9b-13be-2767" primary="false"/>
         <categoryLink id="9d4e-a3c7-a2b8-bf7b" name="@Hero/Mon/Ttn/War Eng" hidden="false" targetId="3f26-cf3d-d182-e055" primary="false"/>
+        <categoryLink id="0cda-e191-17bd-36db" name="@[H]" hidden="false" targetId="ae0b-44e7-704c-e312" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="4e51-6f57-0875-7444" name="Magical Artefacts" hidden="false" collective="false" import="true" targetId="6816-61a6-c6f9-a79e" type="selectionEntryGroup"/>
@@ -893,6 +894,7 @@
         <categoryLink id="662f-6c32-5c18-2cbf" name="New CategoryLink" hidden="false" targetId="b057-19ac-bee2-ac91" primary="true"/>
         <categoryLink id="7a14-889c-d4dc-48f9" name="@Hero" hidden="false" targetId="4ea0-3a9b-13be-2767" primary="false"/>
         <categoryLink id="c63d-67a6-616f-0883" name="@Hero/Mon/Ttn/War Eng" hidden="false" targetId="3f26-cf3d-d182-e055" primary="false"/>
+        <categoryLink id="63dd-12d4-2bfd-1462" name="@[H]" hidden="false" targetId="ae0b-44e7-704c-e312" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="a50c-a57a-7668-fc4c" name="Magical Artefacts" hidden="false" collective="false" import="true" targetId="6816-61a6-c6f9-a79e" type="selectionEntryGroup"/>
@@ -988,8 +990,8 @@
     </selectionEntry>
     <selectionEntry id="764d-ec8c-0109-dd82" name="Sharpshooters (10) Troop" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink id="2d1b-31ba-6ef3-d28f" name="New CategoryLink" hidden="false" targetId="616e-c1cf-de59-ed6e" primary="true"/>
-        <categoryLink id="9b11-0d4f-643f-83ab" name="@Troop" hidden="false" targetId="9a33-dbd7-2f61-bf74" primary="false"/>
+        <categoryLink id="7806-8cbb-a4fa-f1e1" name="New CategoryLink" hidden="false" targetId="2327-ac7a-c35e-4f4f" primary="true"/>
+        <categoryLink id="dae9-fbf5-a271-b32b" name="@Troop" hidden="false" targetId="9a33-dbd7-2f61-bf74" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="f90b-97d8-8042-f19e" name="Magical Artefacts" hidden="false" collective="false" import="true" targetId="6816-61a6-c6f9-a79e" type="selectionEntryGroup"/>
@@ -1013,14 +1015,11 @@
         <constraint field="selections" scope="0245-63ef-fb4c-50ca" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f822-0a12-8f7b-677b" type="max"/>
       </constraints>
       <categoryLinks>
-        <categoryLink id="b776-1622-4083-3da4" name="New CategoryLink" hidden="false" targetId="b057-19ac-bee2-ac91" primary="true"/>
-        <categoryLink id="97c3-c957-462f-32c2" name="@Hero" hidden="false" targetId="4ea0-3a9b-13be-2767" primary="false"/>
-        <categoryLink id="60a7-b561-fb20-a24c" name="@Hero/Mon/Ttn/War Eng" hidden="false" targetId="3f26-cf3d-d182-e055" primary="false"/>
-        <categoryLink id="0273-1131-52f6-de43" name="@[H]" hidden="false" targetId="ae0b-44e7-704c-e312" primary="false"/>
+        <categoryLink id="9ae3-ff1c-753f-5c1f" name="New CategoryLink" hidden="false" targetId="1147-f7f8-1825-be09" primary="true"/>
+        <categoryLink id="96d3-1c8a-5ed7-d904" name="@Hero/Mon/Ttn/War Eng" hidden="false" targetId="3f26-cf3d-d182-e055" primary="false"/>
+        <categoryLink id="74d2-17c2-b48c-5dfa" name="@Mon/Ttn" hidden="false" targetId="9c1a-fc55-7971-b5f4" primary="false"/>
+        <categoryLink id="2c6a-487b-d506-fc56" name="@Ttn" hidden="false" targetId="abc9-4634-4277-cce9" primary="false"/>
       </categoryLinks>
-      <entryLinks>
-        <entryLink id="a620-4293-12ec-5e44" name="Magical Artefacts" hidden="false" collective="false" import="true" targetId="6816-61a6-c6f9-a79e" type="selectionEntryGroup"/>
-      </entryLinks>
       <costs>
         <cost name="  US" typeId="8bd1-3402-32b0-82da" value="1.0"/>
         <cost name=" pts" typeId="points" value="230.0"/>

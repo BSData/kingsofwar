@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ac3d-948d-dc8a-da3d" name="[Neutral] The Trident Realm of Neritica" revision="1" battleScribeVersion="2.03" authorName="John (Ekaznae)" authorContact="bsdata.kow@gmail.com" authorUrl="https://github.com/BSData/kingsofwar" library="false" gameSystemId="0929-4596-8744-bbdb" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ac3d-948d-dc8a-da3d" name="[Neutral] The Trident Realm of Neritica" revision="2" battleScribeVersion="2.03" authorName="John (Ekaznae)" authorContact="bsdata.kow@gmail.com" authorUrl="https://github.com/BSData/kingsofwar" library="false" gameSystemId="0929-4596-8744-bbdb" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="12a5-92cc-fdfc-91d1" name="Naiad Ensnarers (10) Troop" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
@@ -79,6 +79,7 @@
           </constraints>
           <costs>
             <cost name=" pts" typeId="points" value="5.0"/>
+            <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -102,6 +103,7 @@
           </constraints>
           <costs>
             <cost name=" pts" typeId="points" value="5.0"/>
+            <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -180,6 +182,7 @@
           </constraints>
           <costs>
             <cost name=" pts" typeId="points" value="5.0"/>
+            <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -204,6 +207,7 @@
           </constraints>
           <costs>
             <cost name=" pts" typeId="points" value="5.0"/>
+            <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -388,6 +392,7 @@
           </constraints>
           <costs>
             <cost name=" pts" typeId="points" value="5.0"/>
+            <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -412,6 +417,7 @@
           </constraints>
           <costs>
             <cost name=" pts" typeId="points" value="5.0"/>
+            <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -625,6 +631,7 @@
           </constraints>
           <costs>
             <cost name=" pts" typeId="points" value="15.0"/>
+            <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="140f-c47a-ab62-ba4d" name="Rising Tides [1]" hidden="false" collective="false" import="true" type="upgrade">
@@ -634,6 +641,7 @@
           </constraints>
           <costs>
             <cost name=" pts" typeId="points" value="15.0"/>
+            <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -648,11 +656,19 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="842c-e23b-f6d5-a458" type="max"/>
               </constraints>
+              <costs>
+                <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
+                <cost name=" pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="5d4e-ba23-e29f-928d" name="Surge (8), sub" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="200a-b299-f097-09ca" type="max"/>
               </constraints>
+              <costs>
+                <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
+                <cost name=" pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="a49b-3709-28ec-d01c" name="Icy Breath (10) &amp; Surge (8)" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -660,6 +676,7 @@
               </constraints>
               <costs>
                 <cost name=" pts" typeId="points" value="30.0"/>
+                <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -690,6 +707,7 @@
         <categoryLink id="edb1-6342-f2e5-670c" name="New CategoryLink" hidden="false" targetId="b057-19ac-bee2-ac91" primary="true"/>
         <categoryLink id="75b9-d6bf-b410-afb0" name="@Hero" hidden="false" targetId="4ea0-3a9b-13be-2767" primary="false"/>
         <categoryLink id="e2df-df6d-d483-2169" name="@Hero/Mon/Ttn/War Eng" hidden="false" targetId="3f26-cf3d-d182-e055" primary="false"/>
+        <categoryLink id="93b3-6764-0b3d-bc17" name="@[H]" hidden="false" targetId="ae0b-44e7-704c-e312" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="84ba-0cef-c039-320d" name="Magical Artefacts" hidden="false" collective="false" import="true" targetId="6816-61a6-c6f9-a79e" type="selectionEntryGroup"/>
@@ -716,6 +734,7 @@
         <categoryLink id="9001-3251-080f-0a1f" name="New CategoryLink" hidden="false" targetId="b057-19ac-bee2-ac91" primary="true"/>
         <categoryLink id="a705-6de0-4f1e-39e9" name="@Hero" hidden="false" targetId="4ea0-3a9b-13be-2767" primary="false"/>
         <categoryLink id="448c-78a1-9fe4-38f3" name="@Hero/Mon/Ttn/War Eng" hidden="false" targetId="3f26-cf3d-d182-e055" primary="false"/>
+        <categoryLink id="fef3-9b7e-3dda-67fe" name="@[H]" hidden="false" targetId="ae0b-44e7-704c-e312" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="c340-e5bc-50ec-5d4e" name="Magical Artefacts" hidden="false" collective="false" import="true" targetId="6816-61a6-c6f9-a79e" type="selectionEntryGroup"/>
@@ -752,6 +771,7 @@
           </constraints>
           <costs>
             <cost name=" pts" typeId="points" value="20.0"/>
+            <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="3723-c5d4-bf58-1933" name="Lightning Bolt (3)" hidden="false" collective="false" import="true" type="upgrade">
@@ -760,6 +780,7 @@
           </constraints>
           <costs>
             <cost name=" pts" typeId="points" value="20.0"/>
+            <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="ce02-cd56-45e1-5ddb" name="Surge (6)" hidden="false" collective="false" import="true" type="upgrade">
@@ -768,6 +789,7 @@
           </constraints>
           <costs>
             <cost name=" pts" typeId="points" value="20.0"/>
+            <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="b030-29c2-2530-2a56" name="Wind Blast (5)" hidden="false" collective="false" import="true" type="upgrade">
@@ -776,6 +798,7 @@
           </constraints>
           <costs>
             <cost name=" pts" typeId="points" value="20.0"/>
+            <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -820,6 +843,7 @@
           </constraints>
           <costs>
             <cost name=" pts" typeId="points" value="20.0"/>
+            <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="091d-c229-d889-20d5" name="Horn of Ocean&apos;s Fury [1]" hidden="false" collective="false" import="true" type="upgrade">
@@ -840,6 +864,7 @@
           </constraints>
           <costs>
             <cost name=" pts" typeId="points" value="15.0"/>
+            <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -890,6 +915,7 @@
           </constraints>
           <costs>
             <cost name=" pts" typeId="points" value="5.0"/>
+            <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -928,6 +954,7 @@
           </constraints>
           <costs>
             <cost name=" pts" typeId="points" value="30.0"/>
+            <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="9dbf-1821-6f31-b963" name="Hex (2)" hidden="false" collective="false" import="true" type="upgrade">
@@ -936,6 +963,7 @@
           </constraints>
           <costs>
             <cost name=" pts" typeId="points" value="10.0"/>
+            <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="1dd7-9300-df18-ecca" name="Heal (3)" hidden="false" collective="false" import="true" type="upgrade">
@@ -944,6 +972,7 @@
           </constraints>
           <costs>
             <cost name=" pts" typeId="points" value="20.0"/>
+            <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="c897-6d81-940f-d5e2" name="Mind Fog (1)" hidden="false" collective="false" import="true" type="upgrade">
@@ -952,6 +981,7 @@
           </constraints>
           <costs>
             <cost name=" pts" typeId="points" value="10.0"/>
+            <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="ae54-123e-9c0e-7cea" name="Weakness (2)" hidden="false" collective="false" import="true" type="upgrade">
@@ -960,6 +990,7 @@
           </constraints>
           <costs>
             <cost name=" pts" typeId="points" value="15.0"/>
+            <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -997,6 +1028,7 @@
           </constraints>
           <costs>
             <cost name=" pts" typeId="points" value="5.0"/>
+            <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
