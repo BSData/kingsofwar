@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="0929-4596-8744-bbdb" name="Kings of War: 3rd Edition" revision="2" battleScribeVersion="2.03" authorName="John (Ekaznae)" authorContact="bsdata.kow@gmail.com" authorUrl="https://github.com/BSData/kingsofwar" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="0929-4596-8744-bbdb" name="Kings of War: 3rd Edition" revision="3" battleScribeVersion="2.03" authorName="John (Ekaznae)" authorContact="bsdata.kow@gmail.com" authorUrl="https://github.com/BSData/kingsofwar" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="eab5-a7fe-b282-0b56" name="KoW3"/>
   </publications>
@@ -425,7 +425,7 @@
     </profileType>
   </profileTypes>
   <categoryEntries>
-    <categoryEntry id="3bb6-ef33-6b6b-e7f2" name="%Individual" hidden="true"/>
+    <categoryEntry id="3bb6-ef33-6b6b-e7f2" name="%Individual" hidden="false"/>
     <categoryEntry id="8268-0874-ff47-7871" name="FORMATION" hidden="false">
       <constraints>
         <constraint field="selections" scope="a311-bd61-5379-cfcf" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ccc0-3f2d-503c-d373" type="max"/>
@@ -455,7 +455,7 @@
     <categoryEntry id="e01f-b962-560b-6912" name="WAR ENG" page="" hidden="false"/>
     <categoryEntry id="3bc2-7070-6db9-5437" name="MON" hidden="false"/>
     <categoryEntry id="9f55-3ef2-5914-9436" name="$$Inf/Hvy Inf/Cav/Cht REGIMENT" hidden="false"/>
-    <categoryEntry id="9453-4e62-79da-bc74" name="$$Inf/Hvy Inf/Cav/Cht HORDE/LEGION" hidden="true"/>
+    <categoryEntry id="9453-4e62-79da-bc74" name="$$Inf/Hvy Inf/Cav/Cht HORDE/LEGION" hidden="false"/>
     <categoryEntry id="ad92-e9d5-07d8-3484" name="$$Swa/Lrg Inf/Mon Inf/Lrg Cav HORDE" hidden="false"/>
     <categoryEntry id="9837-a7db-5d2a-b412" name="$$Swa/Lrg Inf/Mon Inf/Lrg Cav LEGION" hidden="false"/>
     <categoryEntry id="9a33-dbd7-2f61-bf74" name="@Troop" hidden="false">
@@ -553,7 +553,7 @@
         <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="fef1-2dee-a1d5-d144" type="max"/>
       </constraints>
     </categoryEntry>
-    <categoryEntry id="4ea0-3a9b-13be-2767" name="@Hero" hidden="true">
+    <categoryEntry id="4ea0-3a9b-13be-2767" name="@Hero" hidden="false">
       <modifiers>
         <modifier type="increment" field="6afa-d3e2-96b6-eda9" value="1.0">
           <repeats>
