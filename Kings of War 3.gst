@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="0929-4596-8744-bbdb" name="Kings of War: 3rd Edition" revision="4" battleScribeVersion="2.03" authorName="John (Ekaznae)" authorContact="bsdata.kow@gmail.com" authorUrl="https://github.com/BSData/kingsofwar" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="0929-4596-8744-bbdb" name="Kings of War: 3rd Edition" revision="5" battleScribeVersion="2.03" authorName="John (Ekaznae)" authorContact="bsdata.kow@gmail.com" authorUrl="https://github.com/BSData/kingsofwar" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="eab5-a7fe-b282-0b56" name="KoW3"/>
   </publications>
@@ -449,11 +449,11 @@
     <categoryEntry id="9bc2-cbc4-30f3-4ba2" name="MON INF" hidden="false"/>
     <categoryEntry id="2d7f-1dae-9a2c-ca2f" name="LRG CAV" hidden="false"/>
     <categoryEntry id="57b7-813d-25cc-55dc" name="CHT" hidden="false"/>
-    <categoryEntry id="1147-f7f8-1825-be09" name="TTN: Manually Validate Unlocks" hidden="false"/>
-    <categoryEntry id="b057-19ac-bee2-ac91" name="HERO: Manually Validate Unlocks" hidden="false"/>
-    <categoryEntry id="f2c4-7b36-9dac-4ea2" name="UNIQUE: Manually Validate Unlocks" hidden="false"/>
-    <categoryEntry id="e01f-b962-560b-6912" name="WAR ENG: Manually Validate Unlocks" page="" hidden="false"/>
-    <categoryEntry id="3bc2-7070-6db9-5437" name="MON: Manually Validate Unlocks" hidden="false"/>
+    <categoryEntry id="1147-f7f8-1825-be09" name="TTN: You MUST Manually Validate Unlocks" hidden="false"/>
+    <categoryEntry id="b057-19ac-bee2-ac91" name="HERO: You MUST Manually Validate Unlocks" hidden="false"/>
+    <categoryEntry id="f2c4-7b36-9dac-4ea2" name="UNIQUE: You MUST Manually Validate Unlocks" hidden="false"/>
+    <categoryEntry id="e01f-b962-560b-6912" name="WAR ENG: You MUST Manually Validate Unlocks" page="" hidden="false"/>
+    <categoryEntry id="3bc2-7070-6db9-5437" name="MON: You MUST Manually Validate Unlocks" hidden="false"/>
     <categoryEntry id="9f55-3ef2-5914-9436" name="$$Inf/Hvy Inf/Cav/Cht REGIMENT" hidden="false"/>
     <categoryEntry id="9453-4e62-79da-bc74" name="$$Inf/Hvy Inf/Cav/Cht HORDE/LEGION" hidden="false"/>
     <categoryEntry id="ad92-e9d5-07d8-3484" name="$$Swa/Lrg Inf/Mon Inf/Lrg Cav HORDE" hidden="false"/>
@@ -485,7 +485,7 @@
         <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9d30-f5ad-f3cd-4b16" type="max"/>
       </constraints>
     </categoryEntry>
-    <categoryEntry id="3f26-cf3d-d182-e055" name="(Reminder: Manually Validate)" hidden="false">
+    <categoryEntry id="3f26-cf3d-d182-e055" name="(Reminder: Manually Validate)" hidden="true">
       <modifiers>
         <modifier type="increment" field="21b4-fedc-8a79-9ddf" value="0.0">
           <repeats>
@@ -505,7 +505,7 @@
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="21b4-fedc-8a79-9ddf" type="max"/>
+        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="21b4-fedc-8a79-9ddf" type="max"/>
       </constraints>
     </categoryEntry>
     <categoryEntry id="ae43-3862-266c-b0d7" name="@War Eng" hidden="false">
