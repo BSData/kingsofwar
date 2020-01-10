@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="dc40-ed28-dbcb-11c8" name="(Good) Elves" revision="2" battleScribeVersion="2.03" authorName="John (Ekaznae)" authorContact="bsdata.kow@gmail.com" authorUrl="https://github.com/BSData/kingsofwar" library="false" gameSystemId="0929-4596-8744-bbdb" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="dc40-ed28-dbcb-11c8" name="(Good) Elves" revision="4" battleScribeVersion="2.03" authorName="John (Ekaznae)" authorContact="bsdata.kow@gmail.com" authorUrl="https://github.com/BSData/kingsofwar" library="false" gameSystemId="0929-4596-8744-bbdb" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="cd4a-ed3a-4832-4f18" name="Kindred Tallspears (10) Troop" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="b73c-cf19-b5b4-ac75" name="A: Kindred Tallspears (10) Troop" publicationId="eab5-a7fe-b282-0b56" page="261" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Inf</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Elf, Kindred</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Elite:(Melee), Phalanx</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">6</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">4+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">4+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">12</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">10/12</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">1</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="6024-6e99-c964-5dcc" name="Elite" hidden="false" targetId="e0d0-5bf9-11c8-b4f1" type="rule"/>
+        <infoLink id="d246-3a65-76a3-fc34" name="Phalanx" hidden="false" targetId="fbfb-4339-b268-fbae" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="ecb8-df23-77ba-ffc5" name="New CategoryLink" hidden="false" targetId="616e-c1cf-de59-ed6e" primary="true"/>
         <categoryLink id="7657-a8d6-3dad-58c8" name="@Troop" hidden="false" targetId="9a33-dbd7-2f61-bf74" primary="false"/>
@@ -15,12 +36,35 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="17e7-ddd8-637b-bae1" name="Kindred Tallspears (20) Regiment" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="a47a-8884-c777-c28d" name="A: Kindred Tallspears (20) Regiment" publicationId="eab5-a7fe-b282-0b56" page="261" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Inf</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Elf, Kindred</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Elite:(Melee), Phalanx</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">6</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">4+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">4+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">15</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">14/16</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">3</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="6f80-361b-b3c9-56ea" name="Elite" hidden="false" targetId="e0d0-5bf9-11c8-b4f1" type="rule"/>
+        <infoLink id="b5d3-222f-d9e6-37dd" name="Phalanx" hidden="false" targetId="fbfb-4339-b268-fbae" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="b1da-e0f7-5268-3a1e" name="New CategoryLink" hidden="false" targetId="616e-c1cf-de59-ed6e" primary="true"/>
         <categoryLink id="ea7f-ca81-c4ae-6c5e" name="$$Inf/Hvy Inf/Cav/Cht REGIMENT" hidden="false" targetId="9f55-3ef2-5914-9436" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="8964-b670-5964-803f" name="Magical Artefacts" hidden="false" collective="false" import="true" targetId="6816-61a6-c6f9-a79e" type="selectionEntryGroup"/>
+        <entryLink id="8a81-b9d5-43e6-7dec" name=" Unlocked Unit (Pick 1) [Visual Indicator/Reminder]" hidden="false" collective="false" import="true" targetId="cdc9-7db6-77ed-e134" type="selectionEntryGroup"/>
+        <entryLink id="30e6-9d5f-7ef1-07bf" name=" Unlocked Troops (2) [Visual Indicator/Reminder]" hidden="false" collective="false" import="true" targetId="161d-e8c0-0ed4-d2aa" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="  US" typeId="8bd1-3402-32b0-82da" value="3.0"/>
@@ -28,6 +72,27 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="19c5-c7d3-5a9d-7c42" name="Kindred Tallspears (40) Horde" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="f8ab-af74-afda-1fba" name="A: Kindred Tallspears (40) Horde" publicationId="eab5-a7fe-b282-0b56" page="261" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Inf</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Elf, Kindred</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Elite:(Melee), Phalanx</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">6</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">4+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">4+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">30</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">21/23</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">4</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="a815-cd63-7078-b0d7" name="Elite" hidden="false" targetId="e0d0-5bf9-11c8-b4f1" type="rule"/>
+        <infoLink id="d9f1-29bb-4763-6773" name="Phalanx" hidden="false" targetId="fbfb-4339-b268-fbae" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="2b6a-016b-660b-b93d" name="New CategoryLink" hidden="false" targetId="616e-c1cf-de59-ed6e" primary="true"/>
         <categoryLink id="f1d7-ec8a-e5b4-d58a" name="$$Inf/Hvy Inf/Cav/Cht HORDE/LEGION" hidden="false" targetId="9453-4e62-79da-bc74" primary="false"/>
@@ -35,6 +100,8 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="934f-10ce-72a3-3610" name="Magical Artefacts" hidden="false" collective="false" import="true" targetId="6816-61a6-c6f9-a79e" type="selectionEntryGroup"/>
+        <entryLink id="a705-0941-550d-2bb3" name=" Unlocked Units (Pick 3) [Visual Indicator/Reminder]" hidden="false" collective="false" import="true" targetId="cc00-4905-3626-245b" type="selectionEntryGroup"/>
+        <entryLink id="1878-f39b-d1f9-a220" name=" Unlocked Troops (4) [Visual Indicator/Reminder]" hidden="false" collective="false" import="true" targetId="6218-0350-198b-26f8" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="  US" typeId="8bd1-3402-32b0-82da" value="4.0"/>
@@ -42,6 +109,27 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="869c-e2f4-dfa7-892d" name="Shield Watch (10) Troop" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="615d-d34c-37de-c7c3" name="A: Shield Watch (10) Troop" publicationId="eab5-a7fe-b282-0b56" page="261" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Inf</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Elf</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Crushing Strength (1), Elite:(Melee)</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">6</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">4+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">5+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">10</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">10/12</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">1</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="ea3b-8e7d-cf77-407c" name="Elite" hidden="false" targetId="e0d0-5bf9-11c8-b4f1" type="rule"/>
+        <infoLink id="dbf3-e3be-e611-0cde" name="Crushing Strength" hidden="false" targetId="3131-8f0a-0927-8489" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="d776-91a1-ccb5-04a5" name="New CategoryLink" hidden="false" targetId="616e-c1cf-de59-ed6e" primary="true"/>
         <categoryLink id="d508-5d14-bd70-1ce8" name="@Troop" hidden="false" targetId="9a33-dbd7-2f61-bf74" primary="false"/>
@@ -55,12 +143,35 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="1e56-da11-3f33-d095" name="Shield Watch (20) Regiment" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="1c01-b39b-b78c-c0d1" name="A: Shield Watch (20) Regiment" publicationId="eab5-a7fe-b282-0b56" page="261" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Inf</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Elf</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Crushing Strength (1), Elite:(Melee)</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">6</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">4+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">5+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">12</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">14/16</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">3</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="6f66-4974-57ce-9950" name="Elite" hidden="false" targetId="e0d0-5bf9-11c8-b4f1" type="rule"/>
+        <infoLink id="9fde-3a82-db21-d0ca" name="Crushing Strength" hidden="false" targetId="3131-8f0a-0927-8489" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="ea0f-7f85-548c-b3c9" name="New CategoryLink" hidden="false" targetId="616e-c1cf-de59-ed6e" primary="true"/>
         <categoryLink id="4637-9a49-3def-ec80" name="$$Inf/Hvy Inf/Cav/Cht REGIMENT" hidden="false" targetId="9f55-3ef2-5914-9436" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="d5a7-cabb-06a9-0443" name="Magical Artefacts" hidden="false" collective="false" import="true" targetId="6816-61a6-c6f9-a79e" type="selectionEntryGroup"/>
+        <entryLink id="e061-de69-6731-8167" name=" Unlocked Unit (Pick 1) [Visual Indicator/Reminder]" hidden="false" collective="false" import="true" targetId="cdc9-7db6-77ed-e134" type="selectionEntryGroup"/>
+        <entryLink id="bc57-8176-1531-8247" name=" Unlocked Troops (2) [Visual Indicator/Reminder]" hidden="false" collective="false" import="true" targetId="161d-e8c0-0ed4-d2aa" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="  US" typeId="8bd1-3402-32b0-82da" value="3.0"/>
@@ -68,6 +179,28 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="1aa0-cb2b-1801-94d2" name="Forest Guard (10) Troop" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="657f-3f2d-0da2-b610" name="A: Forest Guard (10) Troop" publicationId="eab5-a7fe-b282-0b56" page="261" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Inf</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Elf, Tracker</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Elite:(Melee), Pathfinder, Thunderous Charge (1)</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">6</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">3+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">4+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">10</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">11/13</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">1</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="e5a1-5be6-d88a-5222" name="Elite" hidden="false" targetId="e0d0-5bf9-11c8-b4f1" type="rule"/>
+        <infoLink id="6484-c05b-3e49-0d01" name="Pathfinder" hidden="false" targetId="0bf5-2b12-5cc7-a963" type="rule"/>
+        <infoLink id="3da7-724e-f4a9-ae60" name="Thunderous Charge" hidden="false" targetId="a8ce-2f96-b0be-47d6" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="38ca-7899-f16e-da2f" name="New CategoryLink" hidden="false" targetId="616e-c1cf-de59-ed6e" primary="true"/>
         <categoryLink id="194e-8d9a-7466-497e" name="@Troop" hidden="false" targetId="9a33-dbd7-2f61-bf74" primary="false"/>
@@ -81,12 +214,36 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="0b18-8127-edc2-07eb" name="Forest Guard (20) Regiment" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="9c11-ede1-4dd5-8daa" name="A: Forest Guard (20) Regiment" publicationId="eab5-a7fe-b282-0b56" page="261" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Inf</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Elf, Tracker</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Elite:(Melee), Pathfinder, Thunderous Charge (1)</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">6</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">3+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">4+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">12</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">15/17</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">3</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="9c0b-1b55-d2ba-6387" name="Elite" hidden="false" targetId="e0d0-5bf9-11c8-b4f1" type="rule"/>
+        <infoLink id="2e42-88ee-c2cd-3803" name="Pathfinder" hidden="false" targetId="0bf5-2b12-5cc7-a963" type="rule"/>
+        <infoLink id="edbf-0cc6-0f8e-88fb" name="Thunderous Charge" hidden="false" targetId="a8ce-2f96-b0be-47d6" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="7762-c56e-5e41-72a2" name="New CategoryLink" hidden="false" targetId="616e-c1cf-de59-ed6e" primary="true"/>
         <categoryLink id="f749-2f5c-ffb2-63be" name="$$Inf/Hvy Inf/Cav/Cht REGIMENT" hidden="false" targetId="9f55-3ef2-5914-9436" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="7537-d643-e16a-9f09" name="Magical Artefacts" hidden="false" collective="false" import="true" targetId="6816-61a6-c6f9-a79e" type="selectionEntryGroup"/>
+        <entryLink id="1cd8-9cd3-8156-c6c3" name=" Unlocked Unit (Pick 1) [Visual Indicator/Reminder]" hidden="false" collective="false" import="true" targetId="cdc9-7db6-77ed-e134" type="selectionEntryGroup"/>
+        <entryLink id="505b-ee51-5e42-cf91" name=" Unlocked Troops (2) [Visual Indicator/Reminder]" hidden="false" collective="false" import="true" targetId="161d-e8c0-0ed4-d2aa" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="  US" typeId="8bd1-3402-32b0-82da" value="3.0"/>
@@ -94,6 +251,27 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="456b-11b4-9f30-7d5f" name="Palace Guard (10) Troop" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="63f5-8243-2487-f398" name="A: Palace Guard (10) Troop" publicationId="eab5-a7fe-b282-0b56" page="261" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Inf</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Elf</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Crushing Strength (1), Elite:(Melee)</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">6</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">3+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">4+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">10</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">11/13</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">1</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="8bdc-45ae-1f20-f0f5" name="Crushing Strength" hidden="false" targetId="3131-8f0a-0927-8489" type="rule"/>
+        <infoLink id="fca4-6d47-a5f9-b8cc" name="Elite" hidden="false" targetId="e0d0-5bf9-11c8-b4f1" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="6282-733d-8dd4-0201" name="New CategoryLink" hidden="false" targetId="616e-c1cf-de59-ed6e" primary="true"/>
         <categoryLink id="8040-f3ff-7cfa-3612" name="@Troop" hidden="false" targetId="9a33-dbd7-2f61-bf74" primary="false"/>
@@ -107,12 +285,35 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="10ce-2440-0f5a-62bd" name="Palace Guard (20) Regiment" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="b613-2108-bb71-ceee" name="A: Palace Guard (20) Regiment" publicationId="eab5-a7fe-b282-0b56" page="261" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Inf</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Elf</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Crushing Strength (1), Elite:(Melee)</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">6</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">3+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">4+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">12</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">15/17</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">3</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="ab18-0da1-ae53-0f13" name="Crushing Strength" hidden="false" targetId="3131-8f0a-0927-8489" type="rule"/>
+        <infoLink id="c9c4-9439-af8e-308f" name="Elite" hidden="false" targetId="e0d0-5bf9-11c8-b4f1" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="3d6d-6c5e-a101-0ade" name="New CategoryLink" hidden="false" targetId="616e-c1cf-de59-ed6e" primary="true"/>
         <categoryLink id="74c0-384a-26b1-07b1" name="$$Inf/Hvy Inf/Cav/Cht REGIMENT" hidden="false" targetId="9f55-3ef2-5914-9436" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="58fe-3980-6bf3-eca1" name="Magical Artefacts" hidden="false" collective="false" import="true" targetId="6816-61a6-c6f9-a79e" type="selectionEntryGroup"/>
+        <entryLink id="22ed-c98f-35ba-ad02" name=" Unlocked Unit (Pick 1) [Visual Indicator/Reminder]" hidden="false" collective="false" import="true" targetId="cdc9-7db6-77ed-e134" type="selectionEntryGroup"/>
+        <entryLink id="9109-e3cf-fcb4-5d85" name=" Unlocked Troops (2) [Visual Indicator/Reminder]" hidden="false" collective="false" import="true" targetId="161d-e8c0-0ed4-d2aa" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="  US" typeId="8bd1-3402-32b0-82da" value="3.0"/>
@@ -120,6 +321,27 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="e77e-30ad-fe9c-d919" name="Palace Guard (40) Horde" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="9185-8079-ca36-11b2" name="A: Palace Guard (40) Horde" publicationId="eab5-a7fe-b282-0b56" page="261" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Inf</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Elf</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Crushing Strength (1), Elite:(Melee)</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">6</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">3+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">4+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">25</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">22/24</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">4</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="28ad-7407-234a-0a16" name="Crushing Strength" hidden="false" targetId="3131-8f0a-0927-8489" type="rule"/>
+        <infoLink id="6594-89f8-29e8-816b" name="Elite" hidden="false" targetId="e0d0-5bf9-11c8-b4f1" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="41e5-cfa8-e2b0-db26" name="New CategoryLink" hidden="false" targetId="616e-c1cf-de59-ed6e" primary="true"/>
         <categoryLink id="31b5-67bf-73b8-54e7" name="$$Inf/Hvy Inf/Cav/Cht HORDE/LEGION" hidden="false" targetId="9453-4e62-79da-bc74" primary="false"/>
@@ -127,6 +349,8 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="5745-0ab6-442e-cc4d" name="Magical Artefacts" hidden="false" collective="false" import="true" targetId="6816-61a6-c6f9-a79e" type="selectionEntryGroup"/>
+        <entryLink id="6a20-aff7-6fe5-422c" name=" Unlocked Units (Pick 3) [Visual Indicator/Reminder]" hidden="false" collective="false" import="true" targetId="cc00-4905-3626-245b" type="selectionEntryGroup"/>
+        <entryLink id="fb8e-71ac-f846-d915" name=" Unlocked Troops (4) [Visual Indicator/Reminder]" hidden="false" collective="false" import="true" targetId="6218-0350-198b-26f8" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="  US" typeId="8bd1-3402-32b0-82da" value="4.0"/>
@@ -134,6 +358,27 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="1b56-2bcb-0abd-60ea" name="Hunters of the Wild* (10) Troop" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="b409-b3ee-b030-9421" name="B: Hunters of the Wild* (10) Troop" publicationId="eab5-a7fe-b282-0b56" page="261" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Hvy Inf</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Verdant</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Pathfinder, Scout</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">5</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">3+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">5+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">12</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">10/12</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">1</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="9eb1-082f-293d-8467" name="Pathfinder" hidden="false" targetId="0bf5-2b12-5cc7-a963" type="rule"/>
+        <infoLink id="5cbd-536a-d3d2-821a" name="Scout" hidden="false" targetId="4172-a0d9-878e-5057" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="27c5-d23f-07aa-9c2e" name="New CategoryLink" hidden="false" targetId="2327-ac7a-c35e-4f4f" primary="true"/>
         <categoryLink id="613d-2827-8e66-3738" name="@Troop" hidden="false" targetId="9a33-dbd7-2f61-bf74" primary="false"/>
@@ -148,6 +393,27 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="3744-65dc-8545-cc89" name="Hunters of the Wild* (20) Regiment" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="8d8d-1a05-a59a-2fab" name="B: Hunters of the Wild* (20) Regiment" publicationId="eab5-a7fe-b282-0b56" page="261" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Hvy Inf</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Verdant</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Pathfinder, Scout</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">5</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">3+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">5+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">15</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">14/16</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">3</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="1e9a-1695-3156-6fe5" name="Pathfinder" hidden="false" targetId="0bf5-2b12-5cc7-a963" type="rule"/>
+        <infoLink id="d698-9a14-6d5c-faee" name="Scout" hidden="false" targetId="4172-a0d9-878e-5057" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="8c61-8ea9-0e36-ea43" name="New CategoryLink" hidden="false" targetId="2327-ac7a-c35e-4f4f" primary="true"/>
         <categoryLink id="bf31-86f5-6783-f2f4" name="@Troop" hidden="false" targetId="9a33-dbd7-2f61-bf74" primary="false"/>
@@ -162,6 +428,26 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="c110-52b9-20da-491e" name="Kindred Archers (10) Troop" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="02eb-a3c2-cd84-2bb0" name="A: Kindred Archers (10) Troop" publicationId="eab5-a7fe-b282-0b56" page="262" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Inf</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Elf, Kindred</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Elite:(Ranged), &lt;Bows: 24&quot;&gt;</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">6</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">5+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">5+</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">4+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">8</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">10/12</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">1</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="3d21-16c1-99f9-28ae" name="Elite" page="" hidden="false" targetId="e0d0-5bf9-11c8-b4f1" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="3f7f-1831-4953-ab06" name="New CategoryLink" hidden="false" targetId="616e-c1cf-de59-ed6e" primary="true"/>
         <categoryLink id="1af5-7716-1be4-af9d" name="@Troop" hidden="false" targetId="9a33-dbd7-2f61-bf74" primary="false"/>
@@ -175,12 +461,34 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="75fb-7146-9715-57ee" name="Kindred Archers (20) Regiment" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="5dc6-2bde-0bdc-5411" name="A: Kindred Archers (20) Regiment" publicationId="eab5-a7fe-b282-0b56" page="262" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Inf</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Elf, Kindred</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Elite:(Ranged), &lt;Bows: 24&quot;&gt;</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">6</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">5+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">5+</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">4+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">10</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">14/16</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">2</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="f3ad-4ebd-94d3-863c" name="Elite" page="" hidden="false" targetId="e0d0-5bf9-11c8-b4f1" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="9359-54c7-3134-d880" name="New CategoryLink" hidden="false" targetId="616e-c1cf-de59-ed6e" primary="true"/>
         <categoryLink id="5df8-253a-8a8e-413c" name="$$Inf/Hvy Inf/Cav/Cht REGIMENT" hidden="false" targetId="9f55-3ef2-5914-9436" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="d906-90a7-6960-49c9" name="Magical Artefacts" hidden="false" collective="false" import="true" targetId="6816-61a6-c6f9-a79e" type="selectionEntryGroup"/>
+        <entryLink id="00f4-d354-fa2a-0548" name=" Unlocked Unit (Pick 1) [Visual Indicator/Reminder]" hidden="false" collective="false" import="true" targetId="cdc9-7db6-77ed-e134" type="selectionEntryGroup"/>
+        <entryLink id="5736-dba3-7558-943d" name=" Unlocked Troops (2) [Visual Indicator/Reminder]" hidden="false" collective="false" import="true" targetId="161d-e8c0-0ed4-d2aa" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="  US" typeId="8bd1-3402-32b0-82da" value="2.0"/>
@@ -188,6 +496,26 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="88ff-12a6-7540-2e04" name="Kindred Archers (40) Horde" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="f866-7040-668a-84b9" name="A: Kindred Archers (40) Horde" publicationId="eab5-a7fe-b282-0b56" page="262" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Inf</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Elf, Kindred</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Elite:(Ranged), &lt;Bows: 24&quot;&gt;</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">6</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">5+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">5+</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">4+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">20</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">21/23</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">3</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="3b01-898b-ed72-6b8d" name="Elite" page="" hidden="false" targetId="e0d0-5bf9-11c8-b4f1" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="8589-4121-e4f3-dc29" name="New CategoryLink" hidden="false" targetId="616e-c1cf-de59-ed6e" primary="true"/>
         <categoryLink id="31d8-4b6a-df22-3c77" name="$$Inf/Hvy Inf/Cav/Cht HORDE/LEGION" hidden="false" targetId="9453-4e62-79da-bc74" primary="false"/>
@@ -195,6 +523,8 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="232e-ad0e-91fc-c1f5" name="Magical Artefacts" hidden="false" collective="false" import="true" targetId="6816-61a6-c6f9-a79e" type="selectionEntryGroup"/>
+        <entryLink id="c1be-a7e1-281a-83ac" name=" Unlocked Units (Pick 3) [Visual Indicator/Reminder]" hidden="false" collective="false" import="true" targetId="cc00-4905-3626-245b" type="selectionEntryGroup"/>
+        <entryLink id="6177-1ff2-cb43-82ce" name=" Unlocked Troops (4) [Visual Indicator/Reminder]" hidden="false" collective="false" import="true" targetId="6218-0350-198b-26f8" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="  US" typeId="8bd1-3402-32b0-82da" value="3.0"/>
@@ -202,6 +532,28 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="bace-e49c-c034-978c" name="Kindred Gladestalkers* (10) Troop" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="6207-40ca-cdc7-9fae" name="A: Kindred Gladestalkers* (10) Troop" publicationId="eab5-a7fe-b282-0b56" page="262" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Inf</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Elf, Kindred, Tracker</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Elite, Pathfinder, Scout, &lt;Bows: 24&quot;, Steady Aim&gt;</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">6</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">4+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">4+</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">3+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">8</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">10/12</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">1</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="a9f0-94ca-6d96-0746" name="Elite" page="" hidden="false" targetId="e0d0-5bf9-11c8-b4f1" type="rule"/>
+        <infoLink id="f14f-9847-b787-915f" name="Pathfinder" hidden="false" targetId="0bf5-2b12-5cc7-a963" type="rule"/>
+        <infoLink id="9f51-faa8-cffa-4e56" name="Scout" hidden="false" targetId="4172-a0d9-878e-5057" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="cb91-092a-5c0b-7660" name="New CategoryLink" hidden="false" targetId="616e-c1cf-de59-ed6e" primary="true"/>
         <categoryLink id="00d5-37be-6ab3-e810" name="@Troop" hidden="false" targetId="9a33-dbd7-2f61-bf74" primary="false"/>
@@ -216,6 +568,28 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="1f72-1ff8-19e7-3fa8" name="Kindred Gladestalkers* (20) Regiment" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="24e6-0930-9f45-6082" name="A: Kindred Gladestalkers* (20) Regiment" publicationId="eab5-a7fe-b282-0b56" page="262" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Inf</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Elf, Kindred, Tracker</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Elite, Pathfinder, Scout, &lt;Bows: 24&quot;, Steady Aim&gt;</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">6</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">4+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">4+</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">3+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">10</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">14/16</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">2</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="e5b5-70a8-413e-6517" name="Elite" page="" hidden="false" targetId="e0d0-5bf9-11c8-b4f1" type="rule"/>
+        <infoLink id="11c9-5e61-5eb2-fa7b" name="Pathfinder" hidden="false" targetId="0bf5-2b12-5cc7-a963" type="rule"/>
+        <infoLink id="44e5-28e5-ef6c-eef4" name="Scout" hidden="false" targetId="4172-a0d9-878e-5057" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="297e-a24e-664f-024b" name="New CategoryLink" hidden="false" targetId="616e-c1cf-de59-ed6e" primary="true"/>
         <categoryLink id="42a2-961b-bbd5-e853" name="@Troop" hidden="false" targetId="9a33-dbd7-2f61-bf74" primary="false"/>
@@ -230,12 +604,35 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="df3b-d73b-e1af-8367" name="Therennian Sea Guard (20) Regiment" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="8518-ed41-0ef3-3738" name="A: Therennian Sea Guard (20) Regiment" publicationId="eab5-a7fe-b282-0b56" page="262" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Inf</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Elf</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Elite:(Melee), Phalanx, &lt;Bows: 24&quot;&gt;</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">6</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">4+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">5+</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">4+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">12</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">14/16</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">3</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="2cd7-f1c5-8977-645c" name="Elite" hidden="false" targetId="e0d0-5bf9-11c8-b4f1" type="rule"/>
+        <infoLink id="3d78-6fac-fba6-4fd2" name="Phalanx" hidden="false" targetId="fbfb-4339-b268-fbae" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="7cc8-1910-f723-f0c9" name="New CategoryLink" hidden="false" targetId="616e-c1cf-de59-ed6e" primary="true"/>
         <categoryLink id="a216-8c6f-2bfc-1e85" name="$$Inf/Hvy Inf/Cav/Cht REGIMENT" hidden="false" targetId="9f55-3ef2-5914-9436" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="c79e-d373-6e1a-d18b" name="Magical Artefacts" hidden="false" collective="false" import="true" targetId="6816-61a6-c6f9-a79e" type="selectionEntryGroup"/>
+        <entryLink id="9e69-f165-7d31-a7c1" name=" Unlocked Unit (Pick 1) [Visual Indicator/Reminder]" hidden="false" collective="false" import="true" targetId="cdc9-7db6-77ed-e134" type="selectionEntryGroup"/>
+        <entryLink id="9bff-f6b5-1f9f-d4ea" name=" Unlocked Troops (2) [Visual Indicator/Reminder]" hidden="false" collective="false" import="true" targetId="161d-e8c0-0ed4-d2aa" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="  US" typeId="8bd1-3402-32b0-82da" value="3.0"/>
@@ -243,6 +640,27 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="e45f-2200-fac0-a611" name="Therennian Sea Guard (40) Horde" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="07a1-848d-954d-6b9f" name="A: Therennian Sea Guard (40) Horde" publicationId="eab5-a7fe-b282-0b56" page="262" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Inf</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Elf</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Elite:(Melee), Phalanx, &lt;Bows: 24&quot;&gt;</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">6</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">4+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">5+</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">4+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">25</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">21/23</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">4</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="54e5-3ff0-4a09-a07c" name="Elite" hidden="false" targetId="e0d0-5bf9-11c8-b4f1" type="rule"/>
+        <infoLink id="b06a-2b37-8c8c-83da" name="Phalanx" hidden="false" targetId="fbfb-4339-b268-fbae" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="5938-46c4-597a-a955" name="New CategoryLink" hidden="false" targetId="616e-c1cf-de59-ed6e" primary="true"/>
         <categoryLink id="616d-d20b-4b6b-9baf" name="$$Inf/Hvy Inf/Cav/Cht HORDE/LEGION" hidden="false" targetId="9453-4e62-79da-bc74" primary="false"/>
@@ -250,6 +668,8 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="be4f-fad1-29b6-e3be" name="Magical Artefacts" hidden="false" collective="false" import="true" targetId="6816-61a6-c6f9-a79e" type="selectionEntryGroup"/>
+        <entryLink id="34cd-06c3-b2d9-960f" name=" Unlocked Units (Pick 3) [Visual Indicator/Reminder]" hidden="false" collective="false" import="true" targetId="cc00-4905-3626-245b" type="selectionEntryGroup"/>
+        <entryLink id="fd7d-a2cc-8980-58ba" name=" Unlocked Troops (4) [Visual Indicator/Reminder]" hidden="false" collective="false" import="true" targetId="6218-0350-198b-26f8" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="  US" typeId="8bd1-3402-32b0-82da" value="4.0"/>
@@ -257,6 +677,27 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="a9e6-02a3-60ac-fdef" name="Stormwind Cavalry (05) Troop" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="e9a0-7cff-d2d3-5edf" name="C: Stormwind Cavalry (05) Troop" publicationId="eab5-a7fe-b282-0b56" page="262" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Cav</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Elf</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Elite:(Melee), Thunderous Charge (2)</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">9</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">3+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">5+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">8</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">11/13</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">1</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="78b3-2e9e-2f47-6e45" name="Elite" hidden="false" targetId="e0d0-5bf9-11c8-b4f1" type="rule"/>
+        <infoLink id="3752-04a5-2eea-12e7" name="Thunderous Charge" hidden="false" targetId="a8ce-2f96-b0be-47d6" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="884f-6895-e813-6f5c" name="New CategoryLink" hidden="false" targetId="f4f2-57cc-03dc-1dcc" primary="true"/>
         <categoryLink id="5b62-424f-673f-3a5c" name="@Troop" hidden="false" targetId="9a33-dbd7-2f61-bf74" primary="false"/>
@@ -270,12 +711,35 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="6819-8145-0914-3452" name="Stormwind Cavalry (10) Regiment" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="a8d4-3dcb-c253-a228" name="C: Stormwind Cavalry (10) Regiment" publicationId="eab5-a7fe-b282-0b56" page="262" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Cav</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Elf</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Elite:(Melee), Thunderous Charge (2)</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">9</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">3+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">5+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">16</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">14/16</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">3</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="d50d-b32d-ab3a-574e" name="Elite" hidden="false" targetId="e0d0-5bf9-11c8-b4f1" type="rule"/>
+        <infoLink id="53d3-9f7d-efe1-5c79" name="Thunderous Charge" hidden="false" targetId="a8ce-2f96-b0be-47d6" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="8de0-335d-258e-682a" name="New CategoryLink" hidden="false" targetId="f4f2-57cc-03dc-1dcc" primary="true"/>
         <categoryLink id="a0f6-6bc8-f06c-226b" name="$$Inf/Hvy Inf/Cav/Cht REGIMENT" hidden="false" targetId="9f55-3ef2-5914-9436" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="4d79-eb52-e38e-1840" name="Magical Artefacts" hidden="false" collective="false" import="true" targetId="6816-61a6-c6f9-a79e" type="selectionEntryGroup"/>
+        <entryLink id="7ef7-a398-61ce-eb48" name=" Unlocked Unit (Pick 1) [Visual Indicator/Reminder]" hidden="false" collective="false" import="true" targetId="cdc9-7db6-77ed-e134" type="selectionEntryGroup"/>
+        <entryLink id="18c7-cfaa-f699-517b" name=" Unlocked Troops (2) [Visual Indicator/Reminder]" hidden="false" collective="false" import="true" targetId="161d-e8c0-0ed4-d2aa" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="  US" typeId="8bd1-3402-32b0-82da" value="3.0"/>
@@ -283,6 +747,28 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="adca-2b16-c6ff-4217" name="Silverbreeze Cavalry* (05) Troop" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="409f-4d0a-00c5-5e1f" name="C: Silverbreeze Cavalry* (05) Troop" publicationId="eab5-a7fe-b282-0b56" page="262" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Cav</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Elf</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Nimble, &lt;Shortbows: 18&quot;, Elite:(Ranged), Steady Aim&gt;</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">10</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">4+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">4+</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">4+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">7</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">11/13</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">1</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="ed9a-3cf3-801a-386c" name="Elite" hidden="false" targetId="e0d0-5bf9-11c8-b4f1" type="rule"/>
+        <infoLink id="382f-5458-dbfe-a25d" name="Nimble" hidden="false" targetId="b79a-f274-5123-df1d" type="rule"/>
+        <infoLink id="acd6-06ad-f414-c736" name="Steady Aim" hidden="false" targetId="55fc-ab6a-a232-e11d" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="68e9-dc9f-9c3d-d357" name="New CategoryLink" hidden="false" targetId="f4f2-57cc-03dc-1dcc" primary="true"/>
         <categoryLink id="27c4-022e-829c-f4b5" name="@Troop" hidden="false" targetId="9a33-dbd7-2f61-bf74" primary="false"/>
@@ -297,6 +783,28 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="5395-6fbb-f4dc-1aa1" name="Silverbreeze Cavalry* (10) Regiment" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="6b8c-acfb-65c9-80d6" name="C: Silverbreeze Cavalry* (10) Regiment" publicationId="eab5-a7fe-b282-0b56" page="262" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Cav</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Elf</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Nimble, &lt;Shortbows: 18&quot;, Elite:(Ranged), Steady Aim&gt;</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">10</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">4+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">4+</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">4+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">14</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">14/16</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">2</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="5f50-344a-dda5-e510" name="Elite" hidden="false" targetId="e0d0-5bf9-11c8-b4f1" type="rule"/>
+        <infoLink id="58d5-a087-c73c-2084" name="Nimble" hidden="false" targetId="b79a-f274-5123-df1d" type="rule"/>
+        <infoLink id="c029-1f6a-3e9b-cbf7" name="Steady Aim" hidden="false" targetId="55fc-ab6a-a232-e11d" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="68a6-ab84-9a8d-7c47" name="New CategoryLink" hidden="false" targetId="f4f2-57cc-03dc-1dcc" primary="true"/>
         <categoryLink id="abe5-8d39-b226-21ec" name="@Troop" hidden="false" targetId="9a33-dbd7-2f61-bf74" primary="false"/>
@@ -311,6 +819,28 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="359c-1a46-f05a-7508" name="Battlecats* (03) Regiment" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="9d8e-3a40-bd24-9690" name="D: Battlecats* (03) Regiment" publicationId="eab5-a7fe-b282-0b56" page="262" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Swa</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Beast</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Elite:(Melee - vs. Swa only), Nimble, Vicious:(Melee)</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">7</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">4+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">2+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">9</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">10/12</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">1</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="49d8-878c-d59c-7799" name="Elite" hidden="false" targetId="e0d0-5bf9-11c8-b4f1" type="rule"/>
+        <infoLink id="0fe1-952f-bd76-db64" name="Nimble" hidden="false" targetId="b79a-f274-5123-df1d" type="rule"/>
+        <infoLink id="3e44-76f1-62bb-9ce8" name="Vicious" hidden="false" targetId="47c7-1334-d1bf-24d9" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="6016-738c-7ac6-0b3a" name="New CategoryLink" hidden="false" targetId="51dd-aacc-196c-7085" primary="true"/>
         <categoryLink id="3aef-4f28-d45a-18f8" name="*Irregular" hidden="false" targetId="6731-d255-50a0-0474" primary="false"/>
@@ -325,6 +855,29 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="313c-2ffe-b0a8-b9bc" name="Forest Shamblers* (03) Regiment" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="1762-3024-6f42-0967" name="E: Forest Shamblers* (03) Regiment" publicationId="eab5-a7fe-b282-0b56" page="262" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Lrg Inf</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Verdant</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Crushing Strength (1), Pathfinder, Scout, Shambling</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">6</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">4+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">5+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">9</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">-/14</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">2</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="21d6-31d4-1af9-4fee" name="Crushing Strength" hidden="false" targetId="3131-8f0a-0927-8489" type="rule"/>
+        <infoLink id="754e-b79a-bf55-6eba" name="Pathfinder" hidden="false" targetId="0bf5-2b12-5cc7-a963" type="rule"/>
+        <infoLink id="6d3d-0530-3978-2f80" name="Scout" hidden="false" targetId="4172-a0d9-878e-5057" type="rule"/>
+        <infoLink id="af29-8ba4-693f-6975" name="Shambling" hidden="false" targetId="36fd-c324-ddc8-ef9a" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="93f7-4c33-8055-f32f" name="New CategoryLink" hidden="false" targetId="0074-fa7f-9e80-cd99" primary="true"/>
         <categoryLink id="68af-2dfb-575e-5858" name="*Irregular" hidden="false" targetId="6731-d255-50a0-0474" primary="false"/>
@@ -339,6 +892,29 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="3a62-38d1-8da7-361a" name="Forest Shamblers* (06) Horde" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="29fb-6580-1017-5f1c" name="E: Forest Shamblers* (06) Horde" publicationId="eab5-a7fe-b282-0b56" page="262" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Lrg Inf</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Verdant</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Crushing Strength (1), Pathfinder, Scout, Shambling</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">6</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">4+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">5+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">18</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">-/17</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">3</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="20aa-b432-b0bd-c272" name="Crushing Strength" hidden="false" targetId="3131-8f0a-0927-8489" type="rule"/>
+        <infoLink id="d341-456f-f581-bc50" name="Pathfinder" hidden="false" targetId="0bf5-2b12-5cc7-a963" type="rule"/>
+        <infoLink id="0c92-5774-0494-31df" name="Scout" hidden="false" targetId="4172-a0d9-878e-5057" type="rule"/>
+        <infoLink id="fb4d-de49-1613-da10" name="Shambling" hidden="false" targetId="36fd-c324-ddc8-ef9a" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="27ba-93ab-cf9f-447d" name="New CategoryLink" hidden="false" targetId="0074-fa7f-9e80-cd99" primary="true"/>
         <categoryLink id="6073-f7ce-e24f-3cf9" name="@Troop" hidden="false" targetId="9a33-dbd7-2f61-bf74" primary="false"/>
@@ -354,6 +930,28 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="219d-6c84-e92f-22c7" name="War Chariots* (02) Troop" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="887c-2743-b6ab-e142" name="H: War Chariots* (02) Troop" publicationId="eab5-a7fe-b282-0b56" page="263" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Cht</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Elf</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Elite, Thunderous Charge (2), &lt;Shortbows: 18&quot;, Att: 4, Steady Aim&gt;</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">8</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">4+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">5+</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">4+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">8</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">12/14</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">1</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="6c69-1fc0-79df-6a78" name="Elite" hidden="false" targetId="e0d0-5bf9-11c8-b4f1" type="rule"/>
+        <infoLink id="0e13-c834-abd4-d845" name="Thunderous Charge" hidden="false" targetId="a8ce-2f96-b0be-47d6" type="rule"/>
+        <infoLink id="0d5e-1960-9ed1-fdcb" name="Steady Aim" hidden="false" targetId="55fc-ab6a-a232-e11d" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="3484-4fed-0116-0e85" name="New CategoryLink" hidden="false" targetId="57b7-813d-25cc-55dc" primary="true"/>
         <categoryLink id="de53-5453-8ff7-bdef" name="@Troop" hidden="false" targetId="9a33-dbd7-2f61-bf74" primary="false"/>
@@ -368,6 +966,28 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="39c0-30a2-9881-b300" name="War Chariots* (03) Regiment" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="7587-1e57-8639-df7d" name="H: War Chariots* (03) Regiment" publicationId="eab5-a7fe-b282-0b56" page="263" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Cht</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Elf</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Elite, Thunderous Charge (2), &lt;Shortbows: 18&quot;, Att: 6, Steady Aim&gt;</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">8</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">4+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">5+</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">4+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">12</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">14/16</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">2</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="3553-cdb7-a4c1-54ab" name="Elite" hidden="false" targetId="e0d0-5bf9-11c8-b4f1" type="rule"/>
+        <infoLink id="8cfe-015a-89e0-9787" name="Steady Aim" hidden="false" targetId="55fc-ab6a-a232-e11d" type="rule"/>
+        <infoLink id="885b-42e6-e4cb-a46e" name="Thunderous Charge" hidden="false" targetId="a8ce-2f96-b0be-47d6" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="46a1-99de-0f05-9c3b" name="New CategoryLink" hidden="false" targetId="57b7-813d-25cc-55dc" primary="true"/>
         <categoryLink id="d260-0bf4-9fbc-342a" name="@Troop" hidden="false" targetId="9a33-dbd7-2f61-bf74" primary="false"/>
@@ -382,6 +1002,28 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="1274-16ad-007d-f5d6" name="War Chariots* (04) Horde" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="16b1-fc53-a572-9be3" name="H: War Chariots* (04) Horde" publicationId="eab5-a7fe-b282-0b56" page="263" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Cht</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Elf</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Elite, Thunderous Charge (2), &lt;Shortbows: 18&quot;, Att: 8, Steady Aim&gt;</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">8</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">4+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">5+</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">4+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">16</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">16/18</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">3</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="5577-9da0-1fc8-a290" name="Elite" hidden="false" targetId="e0d0-5bf9-11c8-b4f1" type="rule"/>
+        <infoLink id="55a7-a871-ebd9-e756" name="Steady Aim" hidden="false" targetId="55fc-ab6a-a232-e11d" type="rule"/>
+        <infoLink id="872e-0fac-dd11-de3e" name="Thunderous Charge" hidden="false" targetId="a8ce-2f96-b0be-47d6" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="93ba-5b94-defd-b28f" name="New CategoryLink" hidden="false" targetId="57b7-813d-25cc-55dc" primary="true"/>
         <categoryLink id="f8d0-b2ac-5c13-3e51" name="@Troop" hidden="false" targetId="9a33-dbd7-2f61-bf74" primary="false"/>
@@ -397,6 +1039,28 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="f29f-f385-c522-0452" name="War Chariots* (06) Legion" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="2e06-1866-8ff2-ad18" name="H: War Chariots* (06) Legion" publicationId="eab5-a7fe-b282-0b56" page="263" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Cht</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Elf</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Elite, Thunderous Charge (2), &lt;Shortbows: 18&quot;, Att: 10, Steady Aim&gt;</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">8</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">4+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">5+</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">4+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">20</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">20/22</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">4</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="5901-0747-1f85-59be" name="Elite" hidden="false" targetId="e0d0-5bf9-11c8-b4f1" type="rule"/>
+        <infoLink id="74c6-ac5b-d736-a7d1" name="Steady Aim" hidden="false" targetId="55fc-ab6a-a232-e11d" type="rule"/>
+        <infoLink id="205f-969b-7e00-e794" name="Thunderous Charge" hidden="false" targetId="a8ce-2f96-b0be-47d6" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="d7f2-cc94-3601-f1e0" name="New CategoryLink" hidden="false" targetId="57b7-813d-25cc-55dc" primary="true"/>
         <categoryLink id="b1cd-1a97-1947-c45c" name="@Troop" hidden="false" targetId="9a33-dbd7-2f61-bf74" primary="false"/>
@@ -412,6 +1076,29 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="1615-98fc-fddc-af38" name="Drakon Riders* (03) Regiment" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="7d1c-a33b-c3ca-094b" name="G: Drakon Riders* (03) Regiment" publicationId="eab5-a7fe-b282-0b56" page="263" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Lrg Cav</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Draconic, Elf</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Crushing Strength (1), Elite:(Melee), Fly, Thunderous Charge (1)</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">10</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">3+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">5+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">9</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">12/14</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">2</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">4</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="52cc-15cf-a503-738f" name="Crushing Strength" hidden="false" targetId="3131-8f0a-0927-8489" type="rule"/>
+        <infoLink id="6008-e48b-1c0d-f55f" name="Elite" hidden="false" targetId="e0d0-5bf9-11c8-b4f1" type="rule"/>
+        <infoLink id="abcc-09f0-819c-8fb6" name="Fly" hidden="false" targetId="dc50-fdaa-d751-9cdf" type="rule"/>
+        <infoLink id="a996-533d-19b7-365f" name="Thunderous Charge" hidden="false" targetId="a8ce-2f96-b0be-47d6" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="de8f-90d5-0feb-333a" name="New CategoryLink" hidden="false" targetId="2d7f-1dae-9a2c-ca2f" primary="true"/>
         <categoryLink id="83e9-66ae-cbcf-19a9" name="@Troop" hidden="false" targetId="9a33-dbd7-2f61-bf74" primary="false"/>
@@ -426,6 +1113,29 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="7986-93c3-8419-21d7" name="Drakon Riders* (06) Horde" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="134a-26da-994e-e551" name="G: Drakon Riders* (06) Horde" publicationId="eab5-a7fe-b282-0b56" page="263" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Lrg Cav</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Draconic, Elf</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Crushing Strength (1), Elite:(Melee), Fly, Thunderous Charge (1)</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">10</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">3+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">5+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">18</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">15/17</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">3</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">4</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="4ca9-188f-f29f-4330" name="Crushing Strength" hidden="false" targetId="3131-8f0a-0927-8489" type="rule"/>
+        <infoLink id="2d22-36d2-79cf-56aa" name="Elite" hidden="false" targetId="e0d0-5bf9-11c8-b4f1" type="rule"/>
+        <infoLink id="5bf2-73b1-d801-14c7" name="Fly" hidden="false" targetId="dc50-fdaa-d751-9cdf" type="rule"/>
+        <infoLink id="2522-dbfc-4755-9b01" name="Thunderous Charge" hidden="false" targetId="a8ce-2f96-b0be-47d6" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="81a9-cc57-a953-b1f9" name="New CategoryLink" hidden="false" targetId="2d7f-1dae-9a2c-ca2f" primary="true"/>
         <categoryLink id="c7e1-8260-d4a2-07db" name="@Troop" hidden="false" targetId="9a33-dbd7-2f61-bf74" primary="false"/>
@@ -453,6 +1163,29 @@
         <constraint field="selections" scope="402d-7263-42d3-2871" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb9a-18d4-e846-083b" type="max"/>
         <constraint field="selections" scope="0245-63ef-fb4c-50ca" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8514-bf25-1a3a-4ffb" type="max"/>
       </constraints>
+      <profiles>
+        <profile id="4522-1024-a828-c2ef" name="I: Bolt Thrower" publicationId="eab5-a7fe-b282-0b56" page="263" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">War Eng</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Elf, Kindred</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">&lt;Bolt Thrower: 48&quot;, Blast (D3), Elite:(Ranged), Piercing (2), Reload&gt;</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">6</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">-</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">4+</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">4+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">2</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">10/12</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">0</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="b56c-e4f2-7967-e7e4" name="Blast" hidden="false" targetId="8c02-8957-63ab-1084" type="rule"/>
+        <infoLink id="16a0-68dc-6d93-6787" name="Elite" hidden="false" targetId="e0d0-5bf9-11c8-b4f1" type="rule"/>
+        <infoLink id="164d-9969-ac94-6226" name="Piercing" hidden="false" targetId="cc29-8e7d-2a0e-c995" type="rule"/>
+        <infoLink id="a32d-d373-80e2-3db5" name="Reload" hidden="false" targetId="c0b3-3b50-e88f-5461" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="8047-f095-c5b5-d16e" name="New CategoryLink" hidden="false" targetId="e01f-b962-560b-6912" primary="true"/>
         <categoryLink id="42f4-b9b8-cdfa-c460" name="@Hero/Mon/Ttn/War Eng" hidden="false" targetId="3f26-cf3d-d182-e055" primary="false"/>
@@ -476,6 +1209,27 @@
         <constraint field="selections" scope="402d-7263-42d3-2871" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f946-ef01-8510-2c73" type="max"/>
         <constraint field="selections" scope="0245-63ef-fb4c-50ca" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f6f6-76c2-5415-108a" type="max"/>
       </constraints>
+      <profiles>
+        <profile id="fdb5-233b-08b2-8dc1" name="I: Dragon Breath" publicationId="eab5-a7fe-b282-0b56" page="263" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">War Eng</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Draconic, Elf</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">&lt;Dragon Breath: 12&quot;, Elite:(Ranged), Steady Aim&gt;</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">6</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">-</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">4+</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">4+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">12</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">10/12</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">0</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="bbff-a6d3-9243-82f3" name="Elite" hidden="false" targetId="e0d0-5bf9-11c8-b4f1" type="rule"/>
+        <infoLink id="6452-1f7e-7314-cdaa" name="Steady Aim" hidden="false" targetId="55fc-ab6a-a232-e11d" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="c744-85e7-da0a-a93c" name="New CategoryLink" hidden="false" targetId="e01f-b962-560b-6912" primary="true"/>
         <categoryLink id="7eaf-7da5-b43c-9a17" name="@Hero/Mon/Ttn/War Eng" hidden="false" targetId="3f26-cf3d-d182-e055" primary="false"/>
@@ -499,6 +1253,33 @@
         <constraint field="selections" scope="402d-7263-42d3-2871" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="44bc-ef6e-d755-0d03" type="max"/>
         <constraint field="selections" scope="0245-63ef-fb4c-50ca" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ed2-f2cb-d016-f1d9" type="max"/>
       </constraints>
+      <profiles>
+        <profile id="115e-e3e7-edae-3510" name="U: Tree Herder" publicationId="eab5-a7fe-b282-0b56" page="263" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Hero (Mon)</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">~Spellcaster: 0, Verdant</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Crushing Strength (3), Inspiring, Pathfinder, Radiance of Life, Scout, Strider
+~Surge (8)</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">6</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">3+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">6+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">9</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">-/18</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">1</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">5</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="0af3-fb1c-ad23-fc6a" name="Crushing Strength" hidden="false" targetId="3131-8f0a-0927-8489" type="rule"/>
+        <infoLink id="0deb-f551-2ca3-188b" name="Inspiring" hidden="false" targetId="7c18-e2b7-bc3b-fe10" type="rule"/>
+        <infoLink id="7306-3dd1-4548-f74e" name="Pathfinder" hidden="false" targetId="0bf5-2b12-5cc7-a963" type="rule"/>
+        <infoLink id="60ff-4965-4286-cb1e" name="Radiance of Life" hidden="false" targetId="690a-2397-0616-63c1" type="rule"/>
+        <infoLink id="9172-f046-4df7-3114" name="Scout" hidden="false" targetId="4172-a0d9-878e-5057" type="rule"/>
+        <infoLink id="f4dc-9544-1100-dd40" name="Strider" hidden="false" targetId="e70c-1148-97d1-9348" type="rule"/>
+        <infoLink id="b68c-a20d-350c-5998" name="~Surge" hidden="false" targetId="8447-b7bc-2737-f07c" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="cdd8-d174-00fc-0a76" name="New CategoryLink" hidden="false" targetId="b057-19ac-bee2-ac91" primary="true"/>
         <categoryLink id="22a2-3fb0-7816-0b6a" name="@Hero" hidden="false" targetId="4ea0-3a9b-13be-2767" primary="false"/>
@@ -526,6 +1307,47 @@
         <constraint field="selections" scope="402d-7263-42d3-2871" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3381-13aa-5d74-0e46" type="max"/>
         <constraint field="selections" scope="0245-63ef-fb4c-50ca" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9672-243e-6e83-b175" type="max"/>
       </constraints>
+      <profiles>
+        <profile id="faea-22f9-1a6e-1752" name="L: Elven King" publicationId="eab5-a7fe-b282-0b56" page="263" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <modifiers>
+            <modifier type="set" field="4e82-4c97-c6b5-da6d" value="2+">
+              <conditions>
+                <condition field="selections" scope="60b1-e61f-aa68-522f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0583-3e04-7c2e-bdfd" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="60b1-e61f-aa68-522f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="bf1a-1a4e-1181-e00c" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="0e93-1f12-f5f3-c8df" value="Crushing Strength (1), Duelist, Elite:(Melee), Individual, Inspiring, Mighty">
+              <conditions>
+                <condition field="selections" scope="60b1-e61f-aa68-522f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6803-4ec6-11f2-9905" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Hero (Inf)</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Elf</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Crushing Strength (1), Elite:(Melee), Individual, Inspiring, Mighty</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">6</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">3+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">5+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">5</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">13/15</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">0</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="f6aa-b52a-69bc-2562" name="Crushing Strength" hidden="false" targetId="3131-8f0a-0927-8489" type="rule"/>
+        <infoLink id="5d9f-0fab-9b93-f348" name="Elite" hidden="false" targetId="e0d0-5bf9-11c8-b4f1" type="rule"/>
+        <infoLink id="2fad-70fb-bbb6-b427" name="Individual" hidden="false" targetId="9657-1079-91be-b2bd" type="rule"/>
+        <infoLink id="5d7d-275a-df80-019d" name="Inspiring" hidden="false" targetId="7c18-e2b7-bc3b-fe10" type="rule"/>
+        <infoLink id="7332-2c93-ac43-b159" name="Mighty" hidden="false" targetId="f92c-c1b5-e7bf-0593" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="8e0e-f4c8-9284-1675" name="New CategoryLink" hidden="false" targetId="b057-19ac-bee2-ac91" primary="true"/>
         <categoryLink id="eeee-f9ab-2f45-5a34" name="@Hero/Mon/Ttn/War Eng" hidden="false" targetId="3f26-cf3d-d182-e055" primary="false"/>
@@ -538,12 +1360,16 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d354-4bf0-1fd2-5889" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="09e9-84ba-360c-384d" name="Sabre-Toothed Hunting Cat" hidden="false" targetId="a0fa-2973-128b-6389" type="rule"/>
+            <infoLink id="c57f-259f-2825-0562" name="Duelist" hidden="false" targetId="98e4-44a1-f80f-8faa" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="10.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="0583-3e04-7c2e-bdfd" name="The Shardblade [1]" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="0583-3e04-7c2e-bdfd" name="The Shardblade [1] - (Melee 2+)" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e9d-eb7a-6c51-6770" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7eda-8487-bbc2-63eb" type="max"/>
@@ -557,6 +1383,35 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9556-0080-6e7a-93ac" type="max"/>
           </constraints>
+          <profiles>
+            <profile id="9dc5-ed62-d72d-4fbd" name="N: Elven King (on Horse)" publicationId="eab5-a7fe-b282-0b56" page="263" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+              <modifiers>
+                <modifier type="set" field="4e82-4c97-c6b5-da6d" value="2+">
+                  <conditions>
+                    <condition field="selections" scope="60b1-e61f-aa68-522f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0583-3e04-7c2e-bdfd" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="0e93-1f12-f5f3-c8df" value="Crushing Strength (1), Duelist, Elite:(Melee), Individual, Inspiring, Mighty">
+                  <conditions>
+                    <condition field="selections" scope="60b1-e61f-aa68-522f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6803-4ec6-11f2-9905" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Hero (Cav)</characteristic>
+                <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Elf</characteristic>
+                <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Crushing Strength (1), Elite:(Melee), Individual, Inspiring, Mighty</characteristic>
+                <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">9</characteristic>
+                <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">3+</characteristic>
+                <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+                <characteristic name="De" typeId="0430-25ef-96a4-6510">5+</characteristic>
+                <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">5</characteristic>
+                <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">13/15</characteristic>
+                <characteristic name="US" typeId="fcfd-0d73-228b-9814">0</characteristic>
+                <characteristic name="Ht" typeId="3656-74c6-668b-5919">3</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
           <costs>
             <cost name=" pts" typeId="points" value="35.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -584,6 +1439,31 @@
         <constraint field="selections" scope="402d-7263-42d3-2871" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1566-960f-a31a-7e7d" type="max"/>
         <constraint field="selections" scope="0245-63ef-fb4c-50ca" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a9e7-1a68-1c58-1bbb" type="max"/>
       </constraints>
+      <profiles>
+        <profile id="308f-9fa9-6fd6-a475" name="R: Lord on Drakon" publicationId="eab5-a7fe-b282-0b56" page="264" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Hero (Lrg Cav)</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Draconic, Elf</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Crushing Strength (1), Elite:(Melee), Fly, Inspiring, Nimble, Thunderous Charge (1)</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">10</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">3+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">5+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">5</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">13/15</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">1</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">4</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="067a-8bf5-2b89-1e69" name="Crushing Strength" hidden="false" targetId="3131-8f0a-0927-8489" type="rule"/>
+        <infoLink id="dd35-ce8e-b27f-fff3" name="Elite" hidden="false" targetId="e0d0-5bf9-11c8-b4f1" type="rule"/>
+        <infoLink id="cef4-be9a-a9f8-2165" name="Fly" hidden="false" targetId="dc50-fdaa-d751-9cdf" type="rule"/>
+        <infoLink id="0555-b4fe-6116-c675" name="Inspiring" hidden="false" targetId="7c18-e2b7-bc3b-fe10" type="rule"/>
+        <infoLink id="22a9-81eb-3794-cc74" name="Nimble" hidden="false" targetId="b79a-f274-5123-df1d" type="rule"/>
+        <infoLink id="3ba5-fc22-098a-2992" name="Thunderous Charge" hidden="false" targetId="a8ce-2f96-b0be-47d6" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="6a40-29dc-ac51-b867" name="New CategoryLink" hidden="false" targetId="b057-19ac-bee2-ac91" primary="true"/>
         <categoryLink id="9796-91df-66eb-d332" name="@Hero" hidden="false" targetId="4ea0-3a9b-13be-2767" primary="false"/>
@@ -611,6 +1491,69 @@
         <constraint field="selections" scope="402d-7263-42d3-2871" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6927-17ef-201b-c4d4" type="max"/>
         <constraint field="selections" scope="0245-63ef-fb4c-50ca" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b7d-a49a-c536-f53c" type="max"/>
       </constraints>
+      <profiles>
+        <profile id="c94d-64aa-75d7-b911" name="L: Elven Archmage" publicationId="eab5-a7fe-b282-0b56" page="264" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="13ca-d7a1-55f8-7a90" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="31f1-0483-4dd6-02c2" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" field="0e93-1f12-f5f3-c8df" value="~Bane Chant (2)">
+              <conditions>
+                <condition field="selections" scope="13ca-d7a1-55f8-7a90" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fa31-233a-782e-7171" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" field="0e93-1f12-f5f3-c8df" value="~Heal (4)">
+              <conditions>
+                <condition field="selections" scope="13ca-d7a1-55f8-7a90" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6ce4-9e7c-56b8-0b48" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" field="0e93-1f12-f5f3-c8df" value="~Hex (3)">
+              <conditions>
+                <condition field="selections" scope="13ca-d7a1-55f8-7a90" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0068-809f-5ece-7b59" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" field="0e93-1f12-f5f3-c8df" value="~Lightning Bolt (5)">
+              <conditions>
+                <condition field="selections" scope="13ca-d7a1-55f8-7a90" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9f99-83e3-27d9-adb4" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" field="0e93-1f12-f5f3-c8df" value="~Mind Fog (2)">
+              <conditions>
+                <condition field="selections" scope="13ca-d7a1-55f8-7a90" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d422-18a5-f9ba-fcc2" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" field="0e93-1f12-f5f3-c8df" value="~Wind Blast (6)">
+              <conditions>
+                <condition field="selections" scope="13ca-d7a1-55f8-7a90" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a839-cafd-960a-d712" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Hero (Inf)</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">~Spellcaster: 2, Elf</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Master of Magic, Individual
+</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">6</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">5+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">4+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">1</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">11/13</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">0</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="94f0-8162-532a-48c9" name="Master of Magic" publicationId="eab5-a7fe-b282-0b56" page="264" hidden="false">
+          <description>Elven Archmage: This unit can re-roll all to hit rolls of a natural, unmodified 1 with Bane Chant, Heal, Hex, Lightning Bolt, Mind Fog and Wind Blast.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="3be6-f1b1-456a-f962" name="Individual" hidden="false" targetId="9657-1079-91be-b2bd" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="123c-2641-ec81-d7d0" name="New CategoryLink" hidden="false" targetId="b057-19ac-bee2-ac91" primary="true"/>
         <categoryLink id="3896-22c7-9a17-5ff6" name="@Hero/Mon/Ttn/War Eng" hidden="false" targetId="3f26-cf3d-d182-e055" primary="false"/>
@@ -623,6 +1566,56 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad0e-8b31-9c2b-c215" type="max"/>
           </constraints>
+          <profiles>
+            <profile id="f250-0e2e-dfd0-07df" name="N: Elven Archmage (on Horse)" publicationId="eab5-a7fe-b282-0b56" page="264" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+              <modifiers>
+                <modifier type="append" field="0e93-1f12-f5f3-c8df" value="~Bane Chant (2)">
+                  <conditions>
+                    <condition field="selections" scope="13ca-d7a1-55f8-7a90" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fa31-233a-782e-7171" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="append" field="0e93-1f12-f5f3-c8df" value="~Heal (4)">
+                  <conditions>
+                    <condition field="selections" scope="13ca-d7a1-55f8-7a90" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6ce4-9e7c-56b8-0b48" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="append" field="0e93-1f12-f5f3-c8df" value="~Hex (3)">
+                  <conditions>
+                    <condition field="selections" scope="13ca-d7a1-55f8-7a90" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0068-809f-5ece-7b59" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="append" field="0e93-1f12-f5f3-c8df" value="~Lightning Bolt (5)">
+                  <conditions>
+                    <condition field="selections" scope="13ca-d7a1-55f8-7a90" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9f99-83e3-27d9-adb4" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="append" field="0e93-1f12-f5f3-c8df" value="~Mind Fog (2)">
+                  <conditions>
+                    <condition field="selections" scope="13ca-d7a1-55f8-7a90" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d422-18a5-f9ba-fcc2" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="append" field="0e93-1f12-f5f3-c8df" value="~Wind Blast (6)">
+                  <conditions>
+                    <condition field="selections" scope="13ca-d7a1-55f8-7a90" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a839-cafd-960a-d712" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Hero (Cav)</characteristic>
+                <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">~Spellcaster: 2, Elf</characteristic>
+                <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Master of Magic, Individual
+</characteristic>
+                <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">9</characteristic>
+                <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">5+</characteristic>
+                <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+                <characteristic name="De" typeId="0430-25ef-96a4-6510">4+</characteristic>
+                <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">1</characteristic>
+                <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">11/13</characteristic>
+                <characteristic name="US" typeId="fcfd-0d73-228b-9814">0</characteristic>
+                <characteristic name="Ht" typeId="3656-74c6-668b-5919">3</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
           <costs>
             <cost name=" pts" typeId="points" value="25.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -632,6 +1625,9 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c237-2f00-66c1-d036" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="9409-8c89-3d06-d408" name="~Bane Chant" hidden="false" targetId="0faf-9276-c8a0-9bcd" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="20.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -641,6 +1637,9 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6bfd-ffae-c0d3-2036" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="79a5-b842-f1eb-b3ee" name="~Heal" hidden="false" targetId="a125-9eee-fc99-05f7" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="30.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -650,6 +1649,9 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b260-6df7-79c6-e936" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="ae5e-7ccb-7942-4227" name="~Hex" hidden="false" targetId="19ab-c007-6f5e-d92b" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="15.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -659,6 +1661,9 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="64d8-aa09-47c1-265f" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="f7f6-7f2f-1182-c50f" name="~Lightning Bolt" hidden="false" targetId="643b-d49d-8d14-c765" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="35.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -668,6 +1673,9 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e7a5-f191-2e75-2a0e" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="950f-5691-9ed6-aa45" name="~Mind Fog" hidden="false" targetId="1653-0b95-2ac5-e2d3" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="15.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -677,6 +1685,9 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4518-f668-5352-4004" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="6d7b-8214-cef8-9242" name="~Wind Blast" hidden="false" targetId="da65-6a10-c6a3-9022" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="25.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -704,6 +1715,40 @@
         <constraint field="selections" scope="402d-7263-42d3-2871" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4976-05e8-c3fa-1005" type="max"/>
         <constraint field="selections" scope="0245-63ef-fb4c-50ca" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af53-13f4-1ae4-62c5" type="max"/>
       </constraints>
+      <profiles>
+        <profile id="5b82-e412-a5fd-2daf" name="L: Elven Prince" publicationId="eab5-a7fe-b282-0b56" page="264" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="dd93-dc29-d2ad-0c66" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f9af-3562-35b7-14a2" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="0e93-1f12-f5f3-c8df" value="Crushing Strength (1), Duelist, Elite:(Melee), Individual">
+              <conditions>
+                <condition field="selections" scope="dd93-dc29-d2ad-0c66" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4109-89f3-b7de-ed8c" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Hero (Inf)</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Elf</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Crushing Strength (1), Elite:(Melee), Individual</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">6</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">3+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">5+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">3</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">11/13</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">0</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="ed12-ea03-19d5-9f01" name="Crushing Strength" hidden="false" targetId="3131-8f0a-0927-8489" type="rule"/>
+        <infoLink id="5385-f3b0-b52c-6d9b" name="Elite" hidden="false" targetId="e0d0-5bf9-11c8-b4f1" type="rule"/>
+        <infoLink id="3d17-2814-edb8-8d93" name="Individual" hidden="false" targetId="9657-1079-91be-b2bd" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="721b-54f1-fb00-67d1" name="New CategoryLink" hidden="false" targetId="b057-19ac-bee2-ac91" primary="true"/>
         <categoryLink id="8f4f-9ea9-aa24-f7d2" name="@Hero/Mon/Ttn/War Eng" hidden="false" targetId="3f26-cf3d-d182-e055" primary="false"/>
@@ -716,6 +1761,10 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da38-df1c-3e2e-59e4" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="c206-9f52-5293-5b43" name="Sabre-Toothed Hunting Cat" hidden="false" targetId="a0fa-2973-128b-6389" type="rule"/>
+            <infoLink id="deff-3752-0804-e07a" name="Duelist" hidden="false" targetId="98e4-44a1-f80f-8faa" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="10.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -725,6 +1774,30 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3db2-a331-49c3-cbcb" type="max"/>
           </constraints>
+          <profiles>
+            <profile id="e9f7-4c5c-0b9c-eef5" name="N: Elven Prince (on Horse)" publicationId="eab5-a7fe-b282-0b56" page="264" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+              <modifiers>
+                <modifier type="set" field="0e93-1f12-f5f3-c8df" value="Crushing Strength (1), Duelist, Elite:(Melee), Individual">
+                  <conditions>
+                    <condition field="selections" scope="dd93-dc29-d2ad-0c66" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4109-89f3-b7de-ed8c" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Hero (Cav)</characteristic>
+                <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Elf</characteristic>
+                <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Crushing Strength (1), Elite:(Melee), Individual</characteristic>
+                <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">9</characteristic>
+                <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">3+</characteristic>
+                <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+                <characteristic name="De" typeId="0430-25ef-96a4-6510">5+</characteristic>
+                <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">3</characteristic>
+                <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">11/13</characteristic>
+                <characteristic name="US" typeId="fcfd-0d73-228b-9814">0</characteristic>
+                <characteristic name="Ht" typeId="3656-74c6-668b-5919">3</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
           <costs>
             <cost name=" pts" typeId="points" value="25.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -752,6 +1825,35 @@
         <constraint field="selections" scope="402d-7263-42d3-2871" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b204-126c-5fd3-1415" type="max"/>
         <constraint field="selections" scope="0245-63ef-fb4c-50ca" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="52e0-ea38-fc94-798b" type="max"/>
       </constraints>
+      <profiles>
+        <profile id="e7d2-2660-01ff-d4c9" name="L: Army Standard Bearer" publicationId="eab5-a7fe-b282-0b56" page="264" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="3424-746e-185c-5f0b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="230a-3887-6bf2-7822" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Hero (Inf)</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Elf</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Elite:(Melee), Individual, Inspiring</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">6</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">4+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">4+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">1</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">10/12</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">0</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="da87-0653-e8f9-8015" name="Elite" hidden="false" targetId="e0d0-5bf9-11c8-b4f1" type="rule"/>
+        <infoLink id="fe23-7384-e236-501b" name="Individual" hidden="false" targetId="9657-1079-91be-b2bd" type="rule"/>
+        <infoLink id="54cd-3833-8691-62c5" name="Inspiring" hidden="false" targetId="7c18-e2b7-bc3b-fe10" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="0672-433b-9088-510f" name="New CategoryLink" hidden="false" targetId="b057-19ac-bee2-ac91" primary="true"/>
         <categoryLink id="a731-b072-f11b-87f4" name="@Hero/Mon/Ttn/War Eng" hidden="false" targetId="3f26-cf3d-d182-e055" primary="false"/>
@@ -764,6 +1866,23 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="abcd-377e-9f3e-bec2" type="max"/>
           </constraints>
+          <profiles>
+            <profile id="4538-851b-e5b3-fe91" name="N: Army Standard Bearer (on Horse)" publicationId="eab5-a7fe-b282-0b56" page="264" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+              <characteristics>
+                <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Hero (Cav)</characteristic>
+                <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Elf</characteristic>
+                <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Elite:(Melee), Individual, Inspiring</characteristic>
+                <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">9</characteristic>
+                <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">4+</characteristic>
+                <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+                <characteristic name="De" typeId="0430-25ef-96a4-6510">4+</characteristic>
+                <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">1</characteristic>
+                <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">10/12</characteristic>
+                <characteristic name="US" typeId="fcfd-0d73-228b-9814">0</characteristic>
+                <characteristic name="Ht" typeId="3656-74c6-668b-5919">3</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
           <costs>
             <cost name=" pts" typeId="points" value="25.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -791,6 +1910,31 @@
         <constraint field="selections" scope="402d-7263-42d3-2871" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b826-4731-b805-1b88" type="max"/>
         <constraint field="selections" scope="0245-63ef-fb4c-50ca" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2410-43c3-8f39-5e75" type="max"/>
       </constraints>
+      <profiles>
+        <profile id="52af-0421-4a16-6108" name="V: Dragon Kindred Lord" publicationId="eab5-a7fe-b282-0b56" page="264" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Hero (Ttn)</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Draconic, Elf</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Crushing Strength (3), Elite:(Melee), Fly, Inspiring, Nimble, &lt;Dragon&apos;s Breath: 12&quot;, Steady Aim&gt;</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">10</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">3+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">4+</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">5+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">10</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">17/19</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">1</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">6</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="21b4-5538-8e6e-0902" name="Crushing Strength" hidden="false" targetId="3131-8f0a-0927-8489" type="rule"/>
+        <infoLink id="0dfc-c965-7bde-4821" name="Elite" hidden="false" targetId="e0d0-5bf9-11c8-b4f1" type="rule"/>
+        <infoLink id="73ef-5463-3bfa-a7be" name="Fly" hidden="false" targetId="dc50-fdaa-d751-9cdf" type="rule"/>
+        <infoLink id="84bd-0e54-40a7-0342" name="Inspiring" hidden="false" targetId="7c18-e2b7-bc3b-fe10" type="rule"/>
+        <infoLink id="84c8-7358-0363-523a" name="Nimble" hidden="false" targetId="b79a-f274-5123-df1d" type="rule"/>
+        <infoLink id="f6fc-4e36-3a9e-6650" name="Steady Aim" hidden="false" targetId="55fc-ab6a-a232-e11d" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="9790-2ae5-beb9-8eb6" name="New CategoryLink" hidden="false" targetId="b057-19ac-bee2-ac91" primary="true"/>
         <categoryLink id="2fe1-8a6f-a3af-f885" name="@Hero" hidden="false" targetId="4ea0-3a9b-13be-2767" primary="false"/>
@@ -818,6 +1962,29 @@
         <constraint field="selections" scope="402d-7263-42d3-2871" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d38-73be-7320-88c8" type="max"/>
         <constraint field="selections" scope="0245-63ef-fb4c-50ca" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da07-ebe3-045f-bb77" type="max"/>
       </constraints>
+      <profiles>
+        <profile id="48bf-c5b8-bc4d-0c12" name="S: Noble War Chariot" publicationId="eab5-a7fe-b282-0b56" page="264" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Hero (Cht)</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Elf</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Elite, Nimble, Thunderous Charge (2), &lt;Shortbow: 18&quot;, Steady Aim&gt;</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">8</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">3+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">4+</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">4+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">3</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">11/13</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">1</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="e9d6-cb7b-4377-c5bb" name="Elite" hidden="false" targetId="e0d0-5bf9-11c8-b4f1" type="rule"/>
+        <infoLink id="9a85-7a31-14d1-11dc" name="Nimble" hidden="false" targetId="b79a-f274-5123-df1d" type="rule"/>
+        <infoLink id="816b-0871-0592-bb07" name="Thunderous Charge" hidden="false" targetId="a8ce-2f96-b0be-47d6" type="rule"/>
+        <infoLink id="7c9f-6596-4666-f00a" name="Steady Aim" hidden="false" targetId="55fc-ab6a-a232-e11d" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="6e18-db53-29e1-6620" name="New CategoryLink" hidden="false" targetId="b057-19ac-bee2-ac91" primary="true"/>
         <categoryLink id="f546-3948-f65c-4600" name="@Hero" hidden="false" targetId="4ea0-3a9b-13be-2767" primary="false"/>
@@ -836,13 +2003,45 @@
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="72a1-f53d-ed8d-a258" type="max"/>
       </constraints>
+      <profiles>
+        <profile id="9432-668a-1efd-8297" name="L: Madriga the Elf [1]" publicationId="eab5-a7fe-b282-0b56" page="265" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Hero (Inf)</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Elf, Tracker</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Elite, Individual, Inspiring:(Self only), Pathfinder, Stealthy, Scout, Trick Shot, &lt;Bow: 24&quot;, Piercing (2)&gt;</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">7</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">3+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">3+</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">4+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">3</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">11/13</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">0</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="fb04-dae1-af25-0cc8" name="Trick Shot" publicationId="eab5-a7fe-b282-0b56" page="265" hidden="false">
+          <description>Madriga the Elf [1]: Once per game, Madriga can use the following ranged weapon - &lt;Trick Shot: 48&quot;, Att: 1, Blast (D6), Piercing (2), Ignores Cover&gt;</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="c2bf-fe09-ae8d-52fb" name="Elite" hidden="false" targetId="e0d0-5bf9-11c8-b4f1" type="rule"/>
+        <infoLink id="b2c1-2305-3967-37ed" name="Blast" hidden="false" targetId="8c02-8957-63ab-1084" type="rule"/>
+        <infoLink id="a3d1-0005-0934-06b6" name="Ignore Cover" hidden="false" targetId="6629-aa59-2196-07a1" type="rule"/>
+        <infoLink id="950f-4a79-bba6-d44d" name="Individual" hidden="false" targetId="9657-1079-91be-b2bd" type="rule"/>
+        <infoLink id="8d61-a451-43eb-01db" name="Inspiring" hidden="false" targetId="7c18-e2b7-bc3b-fe10" type="rule"/>
+        <infoLink id="ae66-ee5b-9eec-d657" name="Pathfinder" hidden="false" targetId="0bf5-2b12-5cc7-a963" type="rule"/>
+        <infoLink id="939a-7d80-56ab-68cf" name="Stealthy" hidden="false" targetId="bdd0-eb1b-bf45-750e" type="rule"/>
+        <infoLink id="0234-3a5c-db72-67d5" name="Scout" hidden="false" targetId="4172-a0d9-878e-5057" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="9f92-3719-b58b-e67c" name="@Hero/Mon/Ttn/War Eng" hidden="false" targetId="3f26-cf3d-d182-e055" primary="false"/>
         <categoryLink id="1b18-fbf2-27ea-8658" name="@Hero" hidden="false" targetId="4ea0-3a9b-13be-2767" primary="false"/>
         <categoryLink id="7424-aa37-01f7-e8a8" name="@[H]" hidden="false" targetId="ae0b-44e7-704c-e312" primary="false"/>
         <categoryLink id="ad9e-f76f-8656-6453" name="%Individual" hidden="false" targetId="3bb6-ef33-6b6b-e7f2" primary="false"/>
-        <categoryLink id="a81b-b798-3c2c-941a" name="New CategoryLink" hidden="false" targetId="f2c4-7b36-9dac-4ea2" primary="true"/>
         <categoryLink id="aac0-42a5-91b7-5049" name="%Limited/Unique" hidden="false" targetId="d69e-ab9d-fe8b-b5eb" primary="false"/>
+        <categoryLink id="35bd-9b2d-2064-0141" name="New CategoryLink" hidden="false" targetId="b057-19ac-bee2-ac91" primary="true"/>
       </categoryLinks>
       <costs>
         <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -853,13 +2052,38 @@
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f33d-4013-464f-d547" type="max"/>
       </constraints>
+      <profiles>
+        <profile id="7422-6cd6-6e01-fa6a" name="U: Argus Rodinar [1]" publicationId="eab5-a7fe-b282-0b56" page="265" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Hero (Mon)</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Elf, Shrine</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Altar of the Elements, Individual, Inspiring</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">6</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">-</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">5+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">-</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">-/13</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">0</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="b701-2734-c0ee-d4cf" name="Altar of the Elements" publicationId="eab5-a7fe-b282-0b56" page="265" hidden="false">
+          <description>Argus Rodinar [1]: As long as this unit is present and in play on the table, at the start of each of your Ranged Phases you may select 1 Friendly Core unit on the battlefield regardless of range or LoS. That unit is granted Inspiring until the start of your next Turn.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="f31e-48c5-b266-3329" name="Individual" hidden="false" targetId="9657-1079-91be-b2bd" type="rule"/>
+        <infoLink id="c924-e790-2edc-3b0e" name="Inspiring" hidden="false" targetId="7c18-e2b7-bc3b-fe10" type="rule"/>
+      </infoLinks>
       <categoryLinks>
-        <categoryLink id="fff0-3508-5228-659d" name="New CategoryLink" hidden="false" targetId="b057-19ac-bee2-ac91" primary="false"/>
+        <categoryLink id="fff0-3508-5228-659d" name="New CategoryLink" hidden="false" targetId="b057-19ac-bee2-ac91" primary="true"/>
         <categoryLink id="544a-10bf-e9f0-3f95" name="@Hero/Mon/Ttn/War Eng" hidden="false" targetId="3f26-cf3d-d182-e055" primary="false"/>
         <categoryLink id="8ce9-0441-91cc-ccc2" name="@Hero" hidden="false" targetId="4ea0-3a9b-13be-2767" primary="false"/>
         <categoryLink id="7f2c-e9e4-c2aa-1d3e" name="@[H]" hidden="false" targetId="ae0b-44e7-704c-e312" primary="false"/>
         <categoryLink id="097b-08b7-b558-e0ed" name="%Individual" hidden="false" targetId="3bb6-ef33-6b6b-e7f2" primary="false"/>
-        <categoryLink id="4123-1151-fad3-a472" name="New CategoryLink" hidden="false" targetId="f2c4-7b36-9dac-4ea2" primary="true"/>
         <categoryLink id="268b-8ead-70cb-be50" name="%Limited/Unique" hidden="false" targetId="d69e-ab9d-fe8b-b5eb" primary="false"/>
       </categoryLinks>
       <costs>
@@ -871,12 +2095,38 @@
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b2a9-124b-a6cc-ebd8" type="max"/>
       </constraints>
+      <profiles>
+        <profile id="5e96-1e6a-d786-1707" name="V: Tydarion Dragonlord [1]" publicationId="eab5-a7fe-b282-0b56" page="265" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Hero (Ttn)</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Draconic, Elf</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Brutal, Crushing Strength (4), Elite, Fly, Nimble, Very Inspiring, &lt;Dragon&apos;s Breath: 12&quot;, Att: 12, Steady Aim&gt;</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">10</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">3+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">4+</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">5+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">10</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">18/20</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">1</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">6</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="ef98-9963-d977-1041" name="Nimble" hidden="false" targetId="b79a-f274-5123-df1d" type="rule"/>
+        <infoLink id="6210-7a98-d68c-e7c5" name="Brutal" hidden="false" targetId="51fa-428e-ca3d-8a63" type="rule"/>
+        <infoLink id="6129-4196-6f1c-3ce8" name="Crushing Strength" hidden="false" targetId="3131-8f0a-0927-8489" type="rule"/>
+        <infoLink id="071c-7320-728d-6723" name="Elite" hidden="false" targetId="e0d0-5bf9-11c8-b4f1" type="rule"/>
+        <infoLink id="a43d-5631-4790-e8ba" name="Fly" hidden="false" targetId="dc50-fdaa-d751-9cdf" type="rule"/>
+        <infoLink id="cc78-4fa1-63e7-e455" name="Very Inspiring" hidden="false" targetId="10ed-04da-d879-ce2e" type="rule"/>
+        <infoLink id="e815-9e2a-3e94-0d09" name="Steady Aim" hidden="false" targetId="55fc-ab6a-a232-e11d" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="7c9b-5417-840b-7c1f" name="@Hero/Mon/Ttn/War Eng" hidden="false" targetId="3f26-cf3d-d182-e055" primary="false"/>
         <categoryLink id="ec52-c6c5-47a9-804a" name="@Hero" hidden="false" targetId="4ea0-3a9b-13be-2767" primary="false"/>
         <categoryLink id="dc0c-5128-281e-e22a" name="@[H]" hidden="false" targetId="ae0b-44e7-704c-e312" primary="false"/>
-        <categoryLink id="5ad7-ada2-887c-5477" name="New CategoryLink" hidden="false" targetId="f2c4-7b36-9dac-4ea2" primary="true"/>
         <categoryLink id="512c-9efe-c57c-ecd2" name="%Limited/Unique" hidden="false" targetId="d69e-ab9d-fe8b-b5eb" primary="false"/>
+        <categoryLink id="de09-0e51-765e-ec22" name="New CategoryLink" hidden="false" targetId="b057-19ac-bee2-ac91" primary="true"/>
       </categoryLinks>
       <costs>
         <cost name="  US" typeId="8bd1-3402-32b0-82da" value="1.0"/>
@@ -884,4 +2134,9 @@
       </costs>
     </selectionEntry>
   </selectionEntries>
+  <sharedRules>
+    <rule id="a0fa-2973-128b-6389" name="Sabre-Toothed Hunting Cat" publicationId="eab5-a7fe-b282-0b56" page="261" hidden="false">
+      <description>This unit gains Duelist.</description>
+    </rule>
+  </sharedRules>
 </catalogue>

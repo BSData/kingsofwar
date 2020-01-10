@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="257e-9e72-b080-cfdd" name="{Evil} Empire of Dust" revision="2" battleScribeVersion="2.03" authorName="John (Ekaznae)" authorContact="bsdata.kow@gmail.com" authorUrl="https://github.com/BSData/kingsofwar" library="false" gameSystemId="0929-4596-8744-bbdb" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="257e-9e72-b080-cfdd" name="{Evil} Empire of Dust" revision="4" battleScribeVersion="2.03" authorName="John (Ekaznae)" authorContact="bsdata.kow@gmail.com" authorUrl="https://github.com/BSData/kingsofwar" library="false" gameSystemId="0929-4596-8744-bbdb" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="5c21-eff0-9e50-2510" name="Skeleton Warriors (10) Troop" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="c5f3-5993-6a55-5e11" name="A: Skeleton Warriors (10) Troop" publicationId="eab5-a7fe-b282-0b56" page="333" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Inf</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Expendable, Skeleton</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Lifeleech (1), Shambling</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">5</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">5+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">4+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">10</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">-/11</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">1</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="9c9b-920f-9a21-fe2b" name="Lifeleech" hidden="false" targetId="2fcc-d747-ea72-2828" type="rule"/>
+        <infoLink id="f2a5-50f0-85e8-b93f" name="Shambling" hidden="false" targetId="36fd-c324-ddc8-ef9a" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="5e47-cf5d-d61d-4566" name="New CategoryLink" hidden="false" targetId="616e-c1cf-de59-ed6e" primary="true"/>
         <categoryLink id="31c8-31fe-fbbf-2ca7" name="@Troop" hidden="false" targetId="9a33-dbd7-2f61-bf74" primary="false"/>
@@ -11,6 +32,9 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c0ef-43da-c499-4fda" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="b5a6-0dff-0c0d-7c82" name="Casket of the Damned" hidden="false" targetId="8f46-d28c-952e-54a8" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="10.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -26,6 +50,27 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="8ff4-392b-f5ac-20a6" name="Skeleton Warriors (20) Regiment" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="b344-7206-6df4-ad95" name="A: Skeleton Warriors (20) Regiment" publicationId="eab5-a7fe-b282-0b56" page="333" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Inf</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Expendable, Skeleton</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Lifeleech (1), Shambling</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">5</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">5+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">4+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">12</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">-/15</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">2</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="83e9-52e1-8ff2-3bca" name="Lifeleech" hidden="false" targetId="2fcc-d747-ea72-2828" type="rule"/>
+        <infoLink id="5148-d33f-69fb-68c4" name="Shambling" hidden="false" targetId="36fd-c324-ddc8-ef9a" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="23eb-579d-dacf-6d16" name="New CategoryLink" hidden="false" targetId="616e-c1cf-de59-ed6e" primary="true"/>
         <categoryLink id="908a-2b6b-c7cb-5220" name="$$Inf/Hvy Inf/Cav/Cht REGIMENT" hidden="false" targetId="9f55-3ef2-5914-9436" primary="false"/>
@@ -35,6 +80,9 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="41b2-85c5-3d8a-dc02" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="0edd-b1cd-c04d-1e47" name="Casket of the Damned" hidden="false" targetId="8f46-d28c-952e-54a8" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="10.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -43,6 +91,8 @@
       </selectionEntries>
       <entryLinks>
         <entryLink id="1fe1-8242-9a6b-6da1" name="Magical Artefacts" hidden="false" collective="false" import="true" targetId="6816-61a6-c6f9-a79e" type="selectionEntryGroup"/>
+        <entryLink id="a129-b581-9aea-530b" name=" Unlocked Unit (Pick 1) [Visual Indicator/Reminder]" hidden="false" collective="false" import="true" targetId="cdc9-7db6-77ed-e134" type="selectionEntryGroup"/>
+        <entryLink id="65d3-4efa-a328-08ec" name=" Unlocked Troops (2) [Visual Indicator/Reminder]" hidden="false" collective="false" import="true" targetId="161d-e8c0-0ed4-d2aa" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="  US" typeId="8bd1-3402-32b0-82da" value="2.0"/>
@@ -50,6 +100,27 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="0b7d-883f-6015-2e2e" name="Skeleton Warriors (40) Horde" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="4af8-408b-4fcd-7531" name="A: Skeleton Warriors (40) Horde" publicationId="eab5-a7fe-b282-0b56" page="333" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Inf</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Expendable, Skeleton</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Lifeleech (1), Shambling</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">5</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">5+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">4+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">25</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">-/22</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">3</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="e85d-b29e-f98d-ce56" name="Lifeleech" hidden="false" targetId="2fcc-d747-ea72-2828" type="rule"/>
+        <infoLink id="5db8-9a77-6adb-b961" name="Shambling" hidden="false" targetId="36fd-c324-ddc8-ef9a" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="4218-ffe2-f163-7b5c" name="New CategoryLink" hidden="false" targetId="616e-c1cf-de59-ed6e" primary="true"/>
         <categoryLink id="e0ac-0f05-61e1-113a" name="$$Inf/Hvy Inf/Cav/Cht HORDE/LEGION" hidden="false" targetId="9453-4e62-79da-bc74" primary="false"/>
@@ -60,6 +131,9 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d1b-905a-7aeb-3154" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="0c46-d59e-075c-58fe" name="Casket of the Damned" hidden="false" targetId="8f46-d28c-952e-54a8" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="10.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -68,6 +142,8 @@
       </selectionEntries>
       <entryLinks>
         <entryLink id="9301-5f68-0c3b-f8d8" name="Magical Artefacts" hidden="false" collective="false" import="true" targetId="6816-61a6-c6f9-a79e" type="selectionEntryGroup"/>
+        <entryLink id="1146-e4f9-a030-b80f" name=" Unlocked Units (Pick 3) [Visual Indicator/Reminder]" hidden="false" collective="false" import="true" targetId="cc00-4905-3626-245b" type="selectionEntryGroup"/>
+        <entryLink id="208b-e553-ec1d-b53a" name=" Unlocked Troops (4) [Visual Indicator/Reminder]" hidden="false" collective="false" import="true" targetId="6218-0350-198b-26f8" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="  US" typeId="8bd1-3402-32b0-82da" value="3.0"/>
@@ -75,6 +151,28 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="a1ec-46b5-7f0d-2bd3" name="Skeleton Spearmen (10) Troop" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="d971-7279-ec38-49d2" name="A: Skeleton Spearmen (10) Troop" publicationId="eab5-a7fe-b282-0b56" page="333" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Inf</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Skeleton</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Lifeleech (1), Phalanx, Shambling</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">5</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">5+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">4+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">12</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">-/11</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">1</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="1c67-ebff-a064-cf4a" name="Lifeleech" hidden="false" targetId="2fcc-d747-ea72-2828" type="rule"/>
+        <infoLink id="7935-be9c-95f6-aad0" name="Shambling" hidden="false" targetId="36fd-c324-ddc8-ef9a" type="rule"/>
+        <infoLink id="14eb-9f32-85ca-55b3" name="Phalanx" hidden="false" targetId="fbfb-4339-b268-fbae" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="6f40-6360-9cae-3e30" name="New CategoryLink" hidden="false" targetId="616e-c1cf-de59-ed6e" primary="true"/>
         <categoryLink id="6915-6eff-0ed6-3fdf" name="@Troop" hidden="false" targetId="9a33-dbd7-2f61-bf74" primary="false"/>
@@ -84,6 +182,9 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad55-ed90-1bb7-71ca" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="9111-0fe8-0bf8-f7a8" name="Casket of the Damned" hidden="false" targetId="8f46-d28c-952e-54a8" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="10.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -99,6 +200,28 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="fa29-0dfc-a569-9765" name="Skeleton Spearmen (20) Regiment" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="9f57-b5da-6672-9ee0" name="A: Skeleton Spearmen (20) Regiment" publicationId="eab5-a7fe-b282-0b56" page="333" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Inf</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Skeleton</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Lifeleech (1), Phalanx, Shambling</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">5</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">5+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">4+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">15</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">-/15</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">3</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="c459-0052-b53b-b2a1" name="Lifeleech" hidden="false" targetId="2fcc-d747-ea72-2828" type="rule"/>
+        <infoLink id="4e00-15a9-5674-4999" name="Shambling" hidden="false" targetId="36fd-c324-ddc8-ef9a" type="rule"/>
+        <infoLink id="6d02-9caf-71c1-e74b" name="Phalanx" hidden="false" targetId="fbfb-4339-b268-fbae" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="02a8-fb45-42df-92f8" name="New CategoryLink" hidden="false" targetId="616e-c1cf-de59-ed6e" primary="true"/>
         <categoryLink id="bba1-f1b8-015c-27bc" name="$$Inf/Hvy Inf/Cav/Cht REGIMENT" hidden="false" targetId="9f55-3ef2-5914-9436" primary="false"/>
@@ -108,6 +231,9 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="911f-ec7b-bd0b-db71" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="b231-7217-28e4-c339" name="Casket of the Damned" hidden="false" targetId="8f46-d28c-952e-54a8" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="10.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -116,6 +242,8 @@
       </selectionEntries>
       <entryLinks>
         <entryLink id="1ba8-f638-9b53-65f5" name="Magical Artefacts" hidden="false" collective="false" import="true" targetId="6816-61a6-c6f9-a79e" type="selectionEntryGroup"/>
+        <entryLink id="bc54-c337-6913-d4c0" name=" Unlocked Troops (2) [Visual Indicator/Reminder]" hidden="false" collective="false" import="true" targetId="161d-e8c0-0ed4-d2aa" type="selectionEntryGroup"/>
+        <entryLink id="0dc0-0d1a-0f36-dcc6" name=" Unlocked Unit (Pick 1) [Visual Indicator/Reminder]" hidden="false" collective="false" import="true" targetId="cdc9-7db6-77ed-e134" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="  US" typeId="8bd1-3402-32b0-82da" value="3.0"/>
@@ -123,6 +251,28 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="6087-ab7f-bca9-f04b" name="Skeleton Spearmen (40) Horde" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="fdaa-ac7b-83e6-2069" name="A: Skeleton Spearmen (40) Horde" publicationId="eab5-a7fe-b282-0b56" page="333" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Inf</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Skeleton</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Lifeleech (1), Phalanx, Shambling</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">5</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">5+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">4+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">30</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">-/22</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">4</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="8b5d-77d0-5803-dce4" name="Lifeleech" hidden="false" targetId="2fcc-d747-ea72-2828" type="rule"/>
+        <infoLink id="2d4a-cf34-b6b0-1dfc" name="Shambling" hidden="false" targetId="36fd-c324-ddc8-ef9a" type="rule"/>
+        <infoLink id="ad87-f228-e101-9580" name="Phalanx" hidden="false" targetId="fbfb-4339-b268-fbae" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="ad22-a07c-3aae-61f9" name="New CategoryLink" hidden="false" targetId="616e-c1cf-de59-ed6e" primary="true"/>
         <categoryLink id="4b55-048f-153a-2350" name="$$Inf/Hvy Inf/Cav/Cht HORDE/LEGION" hidden="false" targetId="9453-4e62-79da-bc74" primary="false"/>
@@ -133,6 +283,9 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f919-fb3e-82eb-cb26" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="ef36-c34d-80d8-4070" name="Casket of the Damned" hidden="false" targetId="8f46-d28c-952e-54a8" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="10.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -141,6 +294,8 @@
       </selectionEntries>
       <entryLinks>
         <entryLink id="21fa-9540-c758-e861" name="Magical Artefacts" hidden="false" collective="false" import="true" targetId="6816-61a6-c6f9-a79e" type="selectionEntryGroup"/>
+        <entryLink id="7438-9bcc-f41b-b785" name=" Unlocked Troops (4) [Visual Indicator/Reminder]" hidden="false" collective="false" import="true" targetId="6218-0350-198b-26f8" type="selectionEntryGroup"/>
+        <entryLink id="6483-5abe-d458-3410" name=" Unlocked Units (Pick 3) [Visual Indicator/Reminder]" hidden="false" collective="false" import="true" targetId="cc00-4905-3626-245b" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="  US" typeId="8bd1-3402-32b0-82da" value="4.0"/>
@@ -148,6 +303,28 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="9ea2-ced0-89bd-cc15" name="Revenants (10) Troop" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="cc51-1511-853e-8431" name="A: Revenants (10) Troop" publicationId="eab5-a7fe-b282-0b56" page="333" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Inf</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Revenant, Skeleton</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Crushing Strength (1), Lifeleech (1), Shambling</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">5</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">4+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">4+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">10</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">-/13</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">1</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="5879-ad0b-a634-abb9" name="Shambling" hidden="false" targetId="36fd-c324-ddc8-ef9a" type="rule"/>
+        <infoLink id="2593-23b4-5ff9-29b2" name="Lifeleech" hidden="false" targetId="2fcc-d747-ea72-2828" type="rule"/>
+        <infoLink id="d57b-4413-9646-735d" name="Crushing Strength" hidden="false" targetId="3131-8f0a-0927-8489" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="2e8b-2540-ca21-c048" name="New CategoryLink" hidden="false" targetId="616e-c1cf-de59-ed6e" primary="true"/>
         <categoryLink id="35ea-93b9-e20a-9fb1" name="@Troop" hidden="false" targetId="9a33-dbd7-2f61-bf74" primary="false"/>
@@ -157,6 +334,9 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="39ef-7813-f849-7926" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="feee-eb33-1ee2-c2fd" name="Casket of the Damned" hidden="false" targetId="8f46-d28c-952e-54a8" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="10.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -172,6 +352,28 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="3da2-f1af-c4f7-14d1" name="Revenants (20) Regiment" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="0e12-4909-562e-85b0" name="A: Revenants (20) Regiment" publicationId="eab5-a7fe-b282-0b56" page="333" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Inf</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Revenant, Skeleton</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Crushing Strength (1), Lifeleech (1), Shambling</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">5</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">4+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">4+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">12</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">-/17</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">3</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="c66a-6057-af90-7b48" name="Lifeleech" hidden="false" targetId="2fcc-d747-ea72-2828" type="rule"/>
+        <infoLink id="82dd-3a73-220e-bbba" name="Shambling" hidden="false" targetId="36fd-c324-ddc8-ef9a" type="rule"/>
+        <infoLink id="3fab-c879-a520-ccd5" name="Crushing Strength" hidden="false" targetId="3131-8f0a-0927-8489" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="a534-6d95-1d1d-c738" name="New CategoryLink" hidden="false" targetId="616e-c1cf-de59-ed6e" primary="true"/>
         <categoryLink id="ebda-cf83-2d93-ad5c" name="$$Inf/Hvy Inf/Cav/Cht REGIMENT" hidden="false" targetId="9f55-3ef2-5914-9436" primary="false"/>
@@ -181,6 +383,9 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a2f-88ea-7f60-c974" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="b3ac-9f72-4e48-b052" name="Casket of the Damned" hidden="false" targetId="8f46-d28c-952e-54a8" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="10.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -189,6 +394,8 @@
       </selectionEntries>
       <entryLinks>
         <entryLink id="62ee-6f6c-2d05-eac2" name="Magical Artefacts" hidden="false" collective="false" import="true" targetId="6816-61a6-c6f9-a79e" type="selectionEntryGroup"/>
+        <entryLink id="61e9-933f-7b88-8195" name=" Unlocked Troops (2) [Visual Indicator/Reminder]" hidden="false" collective="false" import="true" targetId="161d-e8c0-0ed4-d2aa" type="selectionEntryGroup"/>
+        <entryLink id="b8d8-3b1a-edfc-9dd8" name=" Unlocked Unit (Pick 1) [Visual Indicator/Reminder]" hidden="false" collective="false" import="true" targetId="cdc9-7db6-77ed-e134" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="  US" typeId="8bd1-3402-32b0-82da" value="3.0"/>
@@ -196,6 +403,28 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="f7b5-a6d3-e3a3-d993" name="Revenants (40) Horde" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="0518-5878-d3a4-ed9e" name="A: Revenants (40) Horde" publicationId="eab5-a7fe-b282-0b56" page="333" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Inf</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Revenant, Skeleton</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Crushing Strength (1), Lifeleech (1), Shambling</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">5</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">4+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">4+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">25</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">-/24</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">4</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="76fc-f0b8-5de6-294e" name="Lifeleech" hidden="false" targetId="2fcc-d747-ea72-2828" type="rule"/>
+        <infoLink id="a38d-7359-31bc-288b" name="Shambling" hidden="false" targetId="36fd-c324-ddc8-ef9a" type="rule"/>
+        <infoLink id="0a3c-f377-cc3d-08d0" name="Crushing Strength" hidden="false" targetId="3131-8f0a-0927-8489" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="dfd4-f5d8-4fb3-3032" name="New CategoryLink" hidden="false" targetId="616e-c1cf-de59-ed6e" primary="true"/>
         <categoryLink id="2a03-d32b-383d-676f" name="$$Inf/Hvy Inf/Cav/Cht HORDE/LEGION" hidden="false" targetId="9453-4e62-79da-bc74" primary="false"/>
@@ -206,6 +435,9 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ab5-b63e-edd1-26bf" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="6b69-d64f-4a1b-0e33" name="Casket of the Damned" hidden="false" targetId="8f46-d28c-952e-54a8" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="10.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -214,6 +446,8 @@
       </selectionEntries>
       <entryLinks>
         <entryLink id="1c0f-f0ce-4fd6-3315" name="Magical Artefacts" hidden="false" collective="false" import="true" targetId="6816-61a6-c6f9-a79e" type="selectionEntryGroup"/>
+        <entryLink id="5cb6-9152-d363-ca1d" name=" Unlocked Troops (4) [Visual Indicator/Reminder]" hidden="false" collective="false" import="true" targetId="6218-0350-198b-26f8" type="selectionEntryGroup"/>
+        <entryLink id="00e7-5cf0-1323-0637" name=" Unlocked Units (Pick 3) [Visual Indicator/Reminder]" hidden="false" collective="false" import="true" targetId="cc00-4905-3626-245b" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="  US" typeId="8bd1-3402-32b0-82da" value="4.0"/>
@@ -221,6 +455,29 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="5247-003b-d219-06e1" name="Mummies (10) Troop" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="4c5b-8bac-d9fd-5391" name="A: Mummies (10) Troop" publicationId="eab5-a7fe-b282-0b56" page="333" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Inf</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Mummy</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Crushing Strength (2), Lifeleech (1), Regeneration (5+), Shambling</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">5</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">4+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">5+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">10</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">-/14</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">1</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="ec86-8cbb-96ba-5f8d" name="Crushing Strength" hidden="false" targetId="3131-8f0a-0927-8489" type="rule"/>
+        <infoLink id="ba02-d3da-8b84-1983" name="Lifeleech" hidden="false" targetId="2fcc-d747-ea72-2828" type="rule"/>
+        <infoLink id="781f-a19e-55b6-fcec" name="Shambling" hidden="false" targetId="36fd-c324-ddc8-ef9a" type="rule"/>
+        <infoLink id="0925-9e64-0693-48ba" name="Regeneration" hidden="false" targetId="5815-9306-b2e7-0436" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="e576-622d-f259-3244" name="New CategoryLink" hidden="false" targetId="616e-c1cf-de59-ed6e" primary="true"/>
         <categoryLink id="5899-fead-bc15-852a" name="@Troop" hidden="false" targetId="9a33-dbd7-2f61-bf74" primary="false"/>
@@ -230,6 +487,9 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5435-ebd5-ac7a-7710" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="0dde-80f7-59a3-0df6" name="Casket of the Damned" hidden="false" targetId="8f46-d28c-952e-54a8" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="10.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -245,6 +505,29 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="1588-829c-90ed-8109" name="Mummies (20) Regiment" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="975f-3995-8f5c-a09d" name="A: Mummies (20) Regiment" publicationId="eab5-a7fe-b282-0b56" page="333" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Inf</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Mummy</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Crushing Strength (2), Lifeleech (1), Regeneration (5+), Shambling</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">5</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">4+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">5+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">12</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">-/18</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">3</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="7c2d-68f5-530e-ac4d" name="Crushing Strength" hidden="false" targetId="3131-8f0a-0927-8489" type="rule"/>
+        <infoLink id="a082-2938-1889-4ee1" name="Lifeleech" hidden="false" targetId="2fcc-d747-ea72-2828" type="rule"/>
+        <infoLink id="0b2d-0d79-5d99-8e73" name="Shambling" hidden="false" targetId="36fd-c324-ddc8-ef9a" type="rule"/>
+        <infoLink id="2a84-8a44-3b47-18cb" name="Regeneration" hidden="false" targetId="5815-9306-b2e7-0436" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="2844-e427-58f7-935c" name="New CategoryLink" hidden="false" targetId="616e-c1cf-de59-ed6e" primary="true"/>
         <categoryLink id="cf50-56c5-8df9-3fb8" name="$$Inf/Hvy Inf/Cav/Cht REGIMENT" hidden="false" targetId="9f55-3ef2-5914-9436" primary="false"/>
@@ -254,6 +537,9 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd43-334a-d95a-0b3f" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="28e2-23fc-f545-da6c" name="Casket of the Damned" hidden="false" targetId="8f46-d28c-952e-54a8" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="10.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -262,6 +548,8 @@
       </selectionEntries>
       <entryLinks>
         <entryLink id="5937-7465-87db-1ecb" name="Magical Artefacts" hidden="false" collective="false" import="true" targetId="6816-61a6-c6f9-a79e" type="selectionEntryGroup"/>
+        <entryLink id="1def-c506-a108-d567" name=" Unlocked Troops (2) [Visual Indicator/Reminder]" hidden="false" collective="false" import="true" targetId="161d-e8c0-0ed4-d2aa" type="selectionEntryGroup"/>
+        <entryLink id="50f9-29a1-4375-72b2" name=" Unlocked Unit (Pick 1) [Visual Indicator/Reminder]" hidden="false" collective="false" import="true" targetId="cdc9-7db6-77ed-e134" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="  US" typeId="8bd1-3402-32b0-82da" value="3.0"/>
@@ -269,6 +557,27 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="0104-003d-ae1b-e071" name="Skeleton Archers* (10) Troop" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="a9df-aba1-2cef-eb82" name="A: Skeleton Archers* (10) Troop" publicationId="eab5-a7fe-b282-0b56" page="333" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Inf</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Skeleton</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Lifeleech (1), Shambling, &lt;Bows: 24&quot;&gt;</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">5</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">6+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">5+</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">3+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">8</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">-/11</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">1</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="676b-bdcb-93c3-d3fb" name="Lifeleech" hidden="false" targetId="2fcc-d747-ea72-2828" type="rule"/>
+        <infoLink id="67e0-4b6f-4d6c-5aba" name="Shambling" hidden="false" targetId="36fd-c324-ddc8-ef9a" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="c65a-e079-8a59-21b5" name="New CategoryLink" hidden="false" targetId="616e-c1cf-de59-ed6e" primary="true"/>
         <categoryLink id="427a-adef-cb6a-f1f0" name="@Troop" hidden="false" targetId="9a33-dbd7-2f61-bf74" primary="false"/>
@@ -283,6 +592,27 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="0615-ee51-c428-1d59" name="Skeleton Archers* (20) Regiment" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="d198-4eb0-50ab-af5c" name="A: Skeleton Archers* (20) Regiment" publicationId="eab5-a7fe-b282-0b56" page="333" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Inf</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Skeleton</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Lifeleech (1), Shambling, &lt;Bows: 24&quot;&gt;</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">5</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">6+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">5+</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">3+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">10</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">-/15</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">2</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="9f08-a1f4-5fd5-8969" name="Shambling" hidden="false" targetId="36fd-c324-ddc8-ef9a" type="rule"/>
+        <infoLink id="6db3-3009-d8b8-0548" name="Lifeleech" hidden="false" targetId="2fcc-d747-ea72-2828" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="8122-d973-6be7-a798" name="New CategoryLink" hidden="false" targetId="616e-c1cf-de59-ed6e" primary="true"/>
         <categoryLink id="cfec-3e8c-2e0d-f363" name="@Troop" hidden="false" targetId="9a33-dbd7-2f61-bf74" primary="false"/>
@@ -297,6 +627,27 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="18db-9ca5-9c36-404c" name="Skeleton Archers* (40) Horde" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="cdd3-e1fd-9036-8e91" name="A: Skeleton Archers* (40) Horde" publicationId="eab5-a7fe-b282-0b56" page="333" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Inf</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Skeleton</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Lifeleech (1), Shambling, &lt;Bows: 24&quot;&gt;</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">5</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">6+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">5+</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">3+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">20</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">-/22</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">3</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="7042-12c2-d4f1-a770" name="Shambling" hidden="false" targetId="36fd-c324-ddc8-ef9a" type="rule"/>
+        <infoLink id="5f0f-6832-b4bd-bf6d" name="Lifeleech" hidden="false" targetId="2fcc-d747-ea72-2828" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="b72f-85a2-b452-1b15" name="New CategoryLink" hidden="false" targetId="616e-c1cf-de59-ed6e" primary="true"/>
         <categoryLink id="c61a-4351-c839-2ecb" name="@Troop" hidden="false" targetId="9a33-dbd7-2f61-bf74" primary="false"/>
@@ -312,6 +663,30 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="401f-272c-2821-a519" name="Skeleton Deadeye Crossbows* (10) Troop" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="9229-5528-1c1f-dc7a" name="A: Skeleton Deadeye Crossbows* (10) Troop" publicationId="eab5-a7fe-b282-0b56" page="333" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Inf</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Skeleton</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Lifeleech (1), Shambling, &lt;Crossbows: 24&quot;, Elite:(Ranged), Piercing (1), Pot Shot&gt;</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">5</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">6+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">5+</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">3+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">8</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">-/11</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">1</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="aa73-55d8-5078-7b36" name="Lifeleech" hidden="false" targetId="2fcc-d747-ea72-2828" type="rule"/>
+        <infoLink id="deb0-ed48-ba09-354c" name="Shambling" hidden="false" targetId="36fd-c324-ddc8-ef9a" type="rule"/>
+        <infoLink id="af49-30cb-d0cd-4b80" name="Elite" hidden="false" targetId="e0d0-5bf9-11c8-b4f1" type="rule"/>
+        <infoLink id="bd93-ac31-7543-a4b7" name="Piercing" hidden="false" targetId="cc29-8e7d-2a0e-c995" type="rule"/>
+        <infoLink id="ab98-2b42-ad06-4d9d" name="Pot Shot" hidden="false" targetId="1f7d-bacf-948b-f70f" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="8e55-a7a7-58b3-db80" name="New CategoryLink" hidden="false" targetId="616e-c1cf-de59-ed6e" primary="true"/>
         <categoryLink id="b33c-fdce-f5b0-c566" name="@Troop" hidden="false" targetId="9a33-dbd7-2f61-bf74" primary="false"/>
@@ -326,6 +701,30 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="00e1-6d1c-58cf-cae5" name="Skeleton Deadeye Crossbows* (20) Regiment" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="aebd-899e-440b-fbf7" name="A: Skeleton Deadeye Crossbows* (20) Regiment" publicationId="eab5-a7fe-b282-0b56" page="333" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Inf</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Skeleton</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Lifeleech (1), Shambling, &lt;Crossbows: 24&quot;, Elite:(Ranged), Piercing (1), Pot Shot&gt;</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">5</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">6+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">5+</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">3+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">10</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">-/15</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">2</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="2bc0-ad0b-0267-958c" name="Lifeleech" hidden="false" targetId="2fcc-d747-ea72-2828" type="rule"/>
+        <infoLink id="1ed3-2af4-7ff6-c9a2" name="Shambling" hidden="false" targetId="36fd-c324-ddc8-ef9a" type="rule"/>
+        <infoLink id="2cd6-f43f-7b42-ff11" name="Elite" hidden="false" targetId="e0d0-5bf9-11c8-b4f1" type="rule"/>
+        <infoLink id="e8df-8c93-3f12-37cb" name="Piercing" hidden="false" targetId="cc29-8e7d-2a0e-c995" type="rule"/>
+        <infoLink id="760c-0b4e-f923-464a" name="Pot Shot" hidden="false" targetId="1f7d-bacf-948b-f70f" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="4a21-1c2c-0489-f2f0" name="New CategoryLink" hidden="false" targetId="616e-c1cf-de59-ed6e" primary="true"/>
         <categoryLink id="725d-4d75-4c05-6d58" name="@Troop" hidden="false" targetId="9a33-dbd7-2f61-bf74" primary="false"/>
@@ -340,6 +739,28 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="afe8-fb13-93bc-8b3d" name="Revenant Cavalry (05) Troop" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="6313-dc6c-c58e-091f" name="C: Revenant Cavalry (05) Troop" publicationId="eab5-a7fe-b282-0b56" page="334" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Cav</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Revenant, Skeleton</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Lifeleech (1), Shambling, Thunderous Charge (2)</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">8</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">4+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">5+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">8</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">-/14</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">1</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="274e-8868-7fa2-e2fd" name="Lifeleech" hidden="false" targetId="2fcc-d747-ea72-2828" type="rule"/>
+        <infoLink id="c7aa-ee60-7a86-3be5" name="Shambling" hidden="false" targetId="36fd-c324-ddc8-ef9a" type="rule"/>
+        <infoLink id="4572-339b-bf58-9a1a" name="Thunderous Charge" hidden="false" targetId="a8ce-2f96-b0be-47d6" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="abb0-9b01-71be-ef98" name="New CategoryLink" hidden="false" targetId="f4f2-57cc-03dc-1dcc" primary="true"/>
         <categoryLink id="d7b6-9b43-5b4d-7709" name="@Troop" hidden="false" targetId="9a33-dbd7-2f61-bf74" primary="false"/>
@@ -353,12 +774,36 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="1b34-be49-c124-2db8" name="Revenant Cavalry (10) Regiment" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="2bb0-89ad-c4ce-d837" name="C: Revenant Cavalry (10) Regiment" publicationId="eab5-a7fe-b282-0b56" page="334" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Cav</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Revenant, Skeleton</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Lifeleech (1), Shambling, Thunderous Charge (2)</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">8</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">4+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">5+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">16</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">-/17</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">3</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="eb3f-960d-2a9f-c4ac" name="Lifeleech" hidden="false" targetId="2fcc-d747-ea72-2828" type="rule"/>
+        <infoLink id="892d-ab54-f91d-3a4e" name="Shambling" hidden="false" targetId="36fd-c324-ddc8-ef9a" type="rule"/>
+        <infoLink id="1275-2df3-38e8-ad85" name="Thunderous Charge" hidden="false" targetId="a8ce-2f96-b0be-47d6" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="3531-6aa1-5fab-0bf1" name="New CategoryLink" hidden="false" targetId="f4f2-57cc-03dc-1dcc" primary="true"/>
         <categoryLink id="7065-5a1c-3a73-6cf3" name="$$Inf/Hvy Inf/Cav/Cht REGIMENT" hidden="false" targetId="9f55-3ef2-5914-9436" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="c7ad-eae0-5a21-5a43" name="Magical Artefacts" hidden="false" collective="false" import="true" targetId="6816-61a6-c6f9-a79e" type="selectionEntryGroup"/>
+        <entryLink id="5317-07ba-02cb-6151" name=" Unlocked Troops (2) [Visual Indicator/Reminder]" hidden="false" collective="false" import="true" targetId="161d-e8c0-0ed4-d2aa" type="selectionEntryGroup"/>
+        <entryLink id="526b-f757-3b03-d6bb" name=" Unlocked Unit (Pick 1) [Visual Indicator/Reminder]" hidden="false" collective="false" import="true" targetId="cdc9-7db6-77ed-e134" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="  US" typeId="8bd1-3402-32b0-82da" value="3.0"/>
@@ -366,6 +811,29 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="d65c-49a7-9ec5-b3bf" name="Skeleton Archer Cavalry* (05) Troop" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="5264-2972-9d5f-5c7f" name="C: Skeleton Archer Cavalry* (05) Troop" publicationId="eab5-a7fe-b282-0b56" page="334" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Cav</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Skeleton</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Lifeleech (1), Nimble, Skeleton, &lt;Shortbows: 18&quot;, Steady Aim&gt;</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">9</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">4+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">5+</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">3+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">7</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">-/12</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">1</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="e135-66e7-137a-5445" name="Lifeleech" hidden="false" targetId="2fcc-d747-ea72-2828" type="rule"/>
+        <infoLink id="4635-9060-9b6d-aec8" name="Shambling" hidden="false" targetId="36fd-c324-ddc8-ef9a" type="rule"/>
+        <infoLink id="9d42-4585-5a06-5ee4" name="Nimble" hidden="false" targetId="b79a-f274-5123-df1d" type="rule"/>
+        <infoLink id="e0ac-43c0-10f9-a783" name="Steady Aim" hidden="false" targetId="55fc-ab6a-a232-e11d" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="16ab-ebc2-935f-ef31" name="New CategoryLink" hidden="false" targetId="f4f2-57cc-03dc-1dcc" primary="true"/>
         <categoryLink id="3f5e-26cc-1dde-ad59" name="@Troop" hidden="false" targetId="9a33-dbd7-2f61-bf74" primary="false"/>
@@ -380,6 +848,29 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="09fd-93c6-00ed-0fbf" name="Skeleton Archer Cavalry* (10) Regiment" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="9f00-64c5-7a24-d83a" name="C: Skeleton Archer Cavalry* (10) Regiment" publicationId="eab5-a7fe-b282-0b56" page="334" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Cav</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Skeleton</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Lifeleech (1), Nimble, Skeleton, &lt;Shortbows: 18&quot;, Steady Aim&gt;</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">9</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">4+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">5+</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">3+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">14</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">-/15</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">2</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="50d5-07b8-f646-6297" name="Lifeleech" hidden="false" targetId="2fcc-d747-ea72-2828" type="rule"/>
+        <infoLink id="bbcf-4c47-5b9f-e13c" name="Shambling" hidden="false" targetId="36fd-c324-ddc8-ef9a" type="rule"/>
+        <infoLink id="49b5-5fd5-4e49-418b" name="Nimble" hidden="false" targetId="b79a-f274-5123-df1d" type="rule"/>
+        <infoLink id="9a6d-cc95-8455-cae4" name="Steady Aim" hidden="false" targetId="55fc-ab6a-a232-e11d" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="8889-688c-664d-da6f" name="New CategoryLink" hidden="false" targetId="f4f2-57cc-03dc-1dcc" primary="true"/>
         <categoryLink id="504c-ff18-090a-53b7" name="@Troop" hidden="false" targetId="9a33-dbd7-2f61-bf74" primary="false"/>
@@ -394,6 +885,28 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="5691-188a-8f65-8a38" name="Desert Swarm* (03) Regiment" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="df8f-f7e6-cb1a-d704" name="D: Desert Swarm* (03) Regiment" publicationId="eab5-a7fe-b282-0b56" page="334" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Swa</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Carrion</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Lifeleech (1), Scout, Shambling</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">6</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">5+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">2+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">9</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">-/12</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">1</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="7802-fe98-550c-dce8" name="Lifeleech" hidden="false" targetId="2fcc-d747-ea72-2828" type="rule"/>
+        <infoLink id="00cd-4a37-c943-d0b7" name="Shambling" hidden="false" targetId="36fd-c324-ddc8-ef9a" type="rule"/>
+        <infoLink id="631b-896c-fa68-a16c" name="Scout" hidden="false" targetId="4172-a0d9-878e-5057" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="6b37-bb9a-bbef-6148" name="New CategoryLink" hidden="false" targetId="51dd-aacc-196c-7085" primary="true"/>
         <categoryLink id="7ff3-6bc7-fadb-fc29" name="@Troop" hidden="false" targetId="9a33-dbd7-2f61-bf74" primary="false"/>
@@ -408,6 +921,28 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="53ea-6835-2414-8ace" name="Desert Swarm* (06) Horde" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="c675-b950-bcdc-3a63" name="D: Desert Swarm* (06) Horde" publicationId="eab5-a7fe-b282-0b56" page="334" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Swa</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Carrion</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Lifeleech (1), Scout, Shambling</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">6</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">5+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">2+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">18</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">-/15</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">1</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="73f5-2486-9d21-281e" name="Lifeleech" hidden="false" targetId="2fcc-d747-ea72-2828" type="rule"/>
+        <infoLink id="e8ed-599b-c15f-73d5" name="Shambling" hidden="false" targetId="36fd-c324-ddc8-ef9a" type="rule"/>
+        <infoLink id="0fd5-2956-47d6-487b" name="Scout" hidden="false" targetId="4172-a0d9-878e-5057" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="d076-f5de-296b-96e4" name="New CategoryLink" hidden="false" targetId="51dd-aacc-196c-7085" primary="true"/>
         <categoryLink id="25a0-9592-6d32-cb47" name="@Troop" hidden="false" targetId="9a33-dbd7-2f61-bf74" primary="false"/>
@@ -423,6 +958,28 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="5a04-d371-3e42-3949" name="Scavengers* (03) Regiment" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="351a-eb90-e782-7a92" name="D: Scavengers* (03) Regiment" publicationId="eab5-a7fe-b282-0b56" page="334" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Swa</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Carrion</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Fly, Lifeleech (2), Nimble</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">10</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">5+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">4+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">9</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">11/13</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">1</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="aafe-0571-0daa-f232" name="Lifeleech" hidden="false" targetId="2fcc-d747-ea72-2828" type="rule"/>
+        <infoLink id="7f4d-bb2c-9a8d-3d2d" name="Nimble" hidden="false" targetId="b79a-f274-5123-df1d" type="rule"/>
+        <infoLink id="49d6-c52d-b265-4a9f" name="Fly" hidden="false" targetId="dc50-fdaa-d751-9cdf" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="44cd-7911-ef44-54fc" name="New CategoryLink" hidden="false" targetId="51dd-aacc-196c-7085" primary="true"/>
         <categoryLink id="7dfc-67c0-12a7-e628" name="@Troop" hidden="false" targetId="9a33-dbd7-2f61-bf74" primary="false"/>
@@ -437,6 +994,28 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="fe5c-7f11-8e98-cd13" name="Scavengers* (06) Horde" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="39e4-706f-3b7b-cd76" name="D: Scavengers* (06) Horde" publicationId="eab5-a7fe-b282-0b56" page="334" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Swa</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Carrion</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Fly, Lifeleech (2), Nimble</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">10</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">5+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">4+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">18</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">14/16</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">1</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="27e1-8148-e144-46da" name="Lifeleech" hidden="false" targetId="2fcc-d747-ea72-2828" type="rule"/>
+        <infoLink id="a7c4-92be-cb29-a6c0" name="Nimble" hidden="false" targetId="b79a-f274-5123-df1d" type="rule"/>
+        <infoLink id="2cb3-d53f-b095-70a9" name="Fly" hidden="false" targetId="dc50-fdaa-d751-9cdf" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="acbf-b507-da60-c341" name="New CategoryLink" hidden="false" targetId="51dd-aacc-196c-7085" primary="true"/>
         <categoryLink id="d9f3-f2a9-14db-e849" name="@Troop" hidden="false" targetId="9a33-dbd7-2f61-bf74" primary="false"/>
@@ -452,6 +1031,29 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="20a6-75a8-fa41-a84d" name="Revenant Chariots* (02) Troop" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="d2d1-737f-f8e4-9191" name="H: Revenant Chariots* (02) Troop" publicationId="eab5-a7fe-b282-0b56" page="334" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Cht</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Revenant, Skeleton</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Lifeleech (1), Shambling, Thunderous Charge (2), &lt;Shortbows: 18&quot;, Att: 4, Steady Aim&gt;</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">8</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">4+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">5+</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">4+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">8</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">-/14</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">1</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="7ad0-643c-abed-4568" name="Lifeleech" hidden="false" targetId="2fcc-d747-ea72-2828" type="rule"/>
+        <infoLink id="50b2-4a9f-c1a7-addb" name="Shambling" hidden="false" targetId="36fd-c324-ddc8-ef9a" type="rule"/>
+        <infoLink id="511b-e8b4-1930-b46b" name="Thunderous Charge" hidden="false" targetId="a8ce-2f96-b0be-47d6" type="rule"/>
+        <infoLink id="a980-1cd1-a357-9f81" name="Steady Aim" hidden="false" targetId="55fc-ab6a-a232-e11d" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="eb7c-b55f-f8e8-ac16" name="New CategoryLink" hidden="false" targetId="57b7-813d-25cc-55dc" primary="true"/>
         <categoryLink id="0165-040b-8330-b60a" name="@Troop" hidden="false" targetId="9a33-dbd7-2f61-bf74" primary="false"/>
@@ -466,6 +1068,29 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="0989-34d1-3960-5bea" name="Revenant Chariots* (03) Regiment" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="7bc7-61ba-4ca6-ba38" name="H: Revenant Chariots* (03) Regiment" publicationId="eab5-a7fe-b282-0b56" page="334" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Cht</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Revenant, Skeleton</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Lifeleech (1), Shambling, Thunderous Charge (2), &lt;Shortbows: 18&quot;, Att: 6, Steady Aim&gt;</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">8</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">4+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">5+</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">4+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">12</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">-/16</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">2</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="1bfe-df3f-fbcc-2e9f" name="Lifeleech" hidden="false" targetId="2fcc-d747-ea72-2828" type="rule"/>
+        <infoLink id="cdcf-56cc-6e53-d800" name="Shambling" hidden="false" targetId="36fd-c324-ddc8-ef9a" type="rule"/>
+        <infoLink id="5dcc-fc37-7e9b-195f" name="Thunderous Charge" hidden="false" targetId="a8ce-2f96-b0be-47d6" type="rule"/>
+        <infoLink id="955a-43c3-bfcf-d7ea" name="Steady Aim" hidden="false" targetId="55fc-ab6a-a232-e11d" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="39f2-260f-1291-58b0" name="New CategoryLink" hidden="false" targetId="57b7-813d-25cc-55dc" primary="true"/>
         <categoryLink id="c110-e1ad-369f-17de" name="@Troop" hidden="false" targetId="9a33-dbd7-2f61-bf74" primary="false"/>
@@ -480,6 +1105,29 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="db4e-9300-be27-178a" name="Revenant Chariots* (04) Horde" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="4d9d-4e25-ccf2-804e" name="H: Revenant Chariots* (04) Horde" publicationId="eab5-a7fe-b282-0b56" page="334" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Cht</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Revenant, Skeleton</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Lifeleech (1), Shambling, Thunderous Charge (2), &lt;Shortbows: 18&quot;, Att: 8, Steady Aim&gt;</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">8</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">4+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">5+</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">4+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">16</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">-/18</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">3</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="4290-8cd3-6a5c-3d2d" name="Lifeleech" hidden="false" targetId="2fcc-d747-ea72-2828" type="rule"/>
+        <infoLink id="701c-8470-1398-855e" name="Shambling" hidden="false" targetId="36fd-c324-ddc8-ef9a" type="rule"/>
+        <infoLink id="0e7c-784a-97be-897c" name="Thunderous Charge" hidden="false" targetId="a8ce-2f96-b0be-47d6" type="rule"/>
+        <infoLink id="946f-e775-149f-da22" name="Steady Aim" hidden="false" targetId="55fc-ab6a-a232-e11d" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="ba64-5546-6a1e-1ff5" name="New CategoryLink" hidden="false" targetId="57b7-813d-25cc-55dc" primary="true"/>
         <categoryLink id="1dee-0b95-a3c5-2e8e" name="@Troop" hidden="false" targetId="9a33-dbd7-2f61-bf74" primary="false"/>
@@ -495,6 +1143,29 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="7fc3-d950-8909-5940" name="Revenant Chariots* (06) Legion" page="" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="dfe1-fba3-4c53-34da" name="H: Revenant Chariots* (06) Legion" publicationId="eab5-a7fe-b282-0b56" page="334" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Cht</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Revenant, Skeleton</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Lifeleech (1), Shambling, Thunderous Charge (2), &lt;Shortbows: 18&quot;, Att: 10, Steady Aim&gt;</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">8</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">4+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">5+</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">4+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">20</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">-/22</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">4</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="17eb-71f2-a992-e997" name="Lifeleech" hidden="false" targetId="2fcc-d747-ea72-2828" type="rule"/>
+        <infoLink id="5d9a-9b91-5a35-20a4" name="Shambling" hidden="false" targetId="36fd-c324-ddc8-ef9a" type="rule"/>
+        <infoLink id="606f-bd69-e537-4671" name="Thunderous Charge" hidden="false" targetId="a8ce-2f96-b0be-47d6" type="rule"/>
+        <infoLink id="1430-92e5-ba1f-aa17" name="Steady Aim" hidden="false" targetId="55fc-ab6a-a232-e11d" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="fde2-184d-b03d-6b8c" name="New CategoryLink" hidden="false" targetId="57b7-813d-25cc-55dc" primary="true"/>
         <categoryLink id="28a5-6565-3687-4e1d" name="@Troop" hidden="false" targetId="9a33-dbd7-2f61-bf74" primary="false"/>
@@ -510,6 +1181,36 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="00d4-6bf4-60e2-9a91" name="Enslaved Guardians (03) Regiment" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="9f6a-f74a-fec6-accb" name="E: Enslaved Guardians (03) Regiment" publicationId="eab5-a7fe-b282-0b56" page="335" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <modifiers>
+            <modifier type="append" field="0e93-1f12-f5f3-c8df" value="~Wind Blast (5)">
+              <conditions>
+                <condition field="selections" scope="00d4-6bf4-60e2-9a91" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ad73-ef3c-8221-d323" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Lrg Inf</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">~Spellcaster: 0, Airbound, Construct, Djinn</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Crushing Strength (2), Lifeleech (1), Shambling
+</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">6</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">3+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">5+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">9</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">-/14</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">2</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="2aae-d22d-dd01-dbdd" name="Crushing Strength" hidden="false" targetId="3131-8f0a-0927-8489" type="rule"/>
+        <infoLink id="1478-0953-cff6-e785" name="Lifeleech" hidden="false" targetId="2fcc-d747-ea72-2828" type="rule"/>
+        <infoLink id="170f-4c76-399e-25d5" name="Shambling" hidden="false" targetId="36fd-c324-ddc8-ef9a" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="3712-6d51-9d45-d58c" name="New CategoryLink" hidden="false" targetId="0074-fa7f-9e80-cd99" primary="true"/>
       </categoryLinks>
@@ -518,6 +1219,9 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7166-4efb-57b6-7507" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="7158-b85b-b839-bf99" name="Casket of the Damned" hidden="false" targetId="8f46-d28c-952e-54a8" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="10.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -527,6 +1231,9 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6820-4056-f295-18e0" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="cfb3-65c5-3738-0e33" name="~Wind Blast" hidden="false" targetId="da65-6a10-c6a3-9022" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="20.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -542,6 +1249,36 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="fe8e-7728-760f-0dc9" name="Enslaved Guardians (06) Horde" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="85ac-b60c-00a3-d253" name="E: Enslaved Guardians (06) Horde" publicationId="eab5-a7fe-b282-0b56" page="335" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <modifiers>
+            <modifier type="append" field="0e93-1f12-f5f3-c8df" value="~Wind Blast (5)">
+              <conditions>
+                <condition field="selections" scope="fe8e-7728-760f-0dc9" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="577a-f721-86db-7e99" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Lrg Inf</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">~Spellcaster: 0, Airbound, Construct, Djinn</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Crushing Strength (2), Lifeleech (1), Shambling
+</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">6</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">3+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">5+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">18</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">-/17</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">3</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="9f08-0759-c9b0-65fb" name="Crushing Strength" hidden="false" targetId="3131-8f0a-0927-8489" type="rule"/>
+        <infoLink id="0960-ccfd-c77a-e891" name="Lifeleech" hidden="false" targetId="2fcc-d747-ea72-2828" type="rule"/>
+        <infoLink id="52da-d9d6-3791-eb8f" name="Shambling" hidden="false" targetId="36fd-c324-ddc8-ef9a" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="4037-8b87-db5f-08dd" name="New CategoryLink" hidden="false" targetId="0074-fa7f-9e80-cd99" primary="true"/>
         <categoryLink id="9649-a1ed-d337-f447" name="$$Swa/Lrg Inf/Mon Inf/Lrg Cav HORDE" hidden="false" targetId="ad92-e9d5-07d8-3484" primary="false"/>
@@ -552,6 +1289,9 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="922f-ef46-62e9-b441" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="b8e1-335f-443e-3d70" name="Casket of the Damned" hidden="false" targetId="8f46-d28c-952e-54a8" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="10.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -561,6 +1301,9 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a59-cba6-1165-fe09" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="e836-6eb7-f3e7-6428" name="~Wind Blast" hidden="false" targetId="da65-6a10-c6a3-9022" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="20.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -569,13 +1312,39 @@
       </selectionEntries>
       <entryLinks>
         <entryLink id="d605-efd6-0ffe-7e4b" name="Magical Artefacts" hidden="false" collective="false" import="true" targetId="6816-61a6-c6f9-a79e" type="selectionEntryGroup"/>
+        <entryLink id="ba75-65b0-14e0-a1f5" name=" Unlocked Troops (2) [Visual Indicator/Reminder]" hidden="false" collective="false" import="true" targetId="161d-e8c0-0ed4-d2aa" type="selectionEntryGroup"/>
+        <entryLink id="7a55-e8b3-31f8-8eec" name=" Unlocked Units (Pick 1) [Visual Indicator/Reminder]" hidden="false" collective="false" import="true" targetId="a4ea-60c0-092b-1ec8" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="  US" typeId="8bd1-3402-32b0-82da" value="3.0"/>
         <cost name=" pts" typeId="points" value="225.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d986-505c-143c-4d48" name="Enslaved Guardians Archers* (03) Regiment" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="d986-505c-143c-4d48" name="Enslaved Guardian Archers* (03) Regiment" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="eccc-4301-9297-3d4f" name="E: Enslaved Guardian Archers* (03) Regiment" publicationId="eab5-a7fe-b282-0b56" page="335" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Lrg Inf</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Airbound, Construct, Djinn</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Crushing Strength (1), Lifeleech (1), Shambling, &lt;Heavy Crossbows: 30&quot;, Piercing (2), Pot Shot&gt;</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">6</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">4+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">5+</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">4+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">9</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">-/14</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">1</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="3723-a022-7658-19f5" name="Crushing Strength" hidden="false" targetId="3131-8f0a-0927-8489" type="rule"/>
+        <infoLink id="9f93-bcf1-512e-9e98" name="Lifeleech" hidden="false" targetId="2fcc-d747-ea72-2828" type="rule"/>
+        <infoLink id="e0be-3055-b2c0-8fc8" name="Shambling" hidden="false" targetId="36fd-c324-ddc8-ef9a" type="rule"/>
+        <infoLink id="b04e-e712-51ab-a554" name="Piercing" hidden="false" targetId="cc29-8e7d-2a0e-c995" type="rule"/>
+        <infoLink id="e277-eab7-bd46-502e" name="Pot Shot" hidden="false" targetId="1f7d-bacf-948b-f70f" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="dad2-12cd-0e79-15ae" name="New CategoryLink" hidden="false" targetId="0074-fa7f-9e80-cd99" primary="true"/>
         <categoryLink id="7025-5c74-ac66-b398" name="@Troop" hidden="false" targetId="9a33-dbd7-2f61-bf74" primary="false"/>
@@ -586,6 +1355,9 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f85-b4c9-35ba-6348" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="3fc9-0073-9e0f-d1f9" name="Casket of the Damned" hidden="false" targetId="8f46-d28c-952e-54a8" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="10.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -600,7 +1372,31 @@
         <cost name=" pts" typeId="points" value="140.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7d72-6755-8cc1-0b2c" name="Enslaved Guardians Archers* (06) Horde" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="7d72-6755-8cc1-0b2c" name="Enslaved Guardian Archers* (06) Horde" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="35e5-717c-a4c1-2c01" name="E: Enslaved Guardian Archers* (06) Horde" publicationId="eab5-a7fe-b282-0b56" page="335" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Lrg Inf</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Airbound, Construct, Djinn</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Crushing Strength (1), Lifeleech (1), Shambling, &lt;Heavy Crossbows: 30&quot;, Piercing (2), Pot Shot&gt;</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">6</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">4+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">5+</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">4+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">18</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">-/17</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">2</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="bda8-e7ce-6d0b-7efe" name="Crushing Strength" hidden="false" targetId="3131-8f0a-0927-8489" type="rule"/>
+        <infoLink id="2a3a-f6c1-6653-1bb1" name="Lifeleech" hidden="false" targetId="2fcc-d747-ea72-2828" type="rule"/>
+        <infoLink id="1eb3-9980-2a62-1488" name="Shambling" hidden="false" targetId="36fd-c324-ddc8-ef9a" type="rule"/>
+        <infoLink id="f02f-4042-fcbe-03e4" name="Piercing" hidden="false" targetId="cc29-8e7d-2a0e-c995" type="rule"/>
+        <infoLink id="322a-5b77-4249-b5f9" name="Pot Shot" hidden="false" targetId="1f7d-bacf-948b-f70f" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="6a58-b44c-4688-4765" name="New CategoryLink" hidden="false" targetId="0074-fa7f-9e80-cd99" primary="true"/>
         <categoryLink id="e3ed-840d-fd4d-8fe6" name="@Troop" hidden="false" targetId="9a33-dbd7-2f61-bf74" primary="false"/>
@@ -612,6 +1408,9 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bba6-f59c-466e-80ed" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="ab53-2337-14b9-9cab" name="Casket of the Damned" hidden="false" targetId="8f46-d28c-952e-54a8" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="10.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -639,6 +1438,30 @@
         <constraint field="selections" scope="402d-7263-42d3-2871" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2776-77ec-7cc5-ae4f" type="max"/>
         <constraint field="selections" scope="0245-63ef-fb4c-50ca" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db50-bf8f-2cf3-d97d" type="max"/>
       </constraints>
+      <profiles>
+        <profile id="d7b2-5c96-2143-d4ff" name="J: Bone Giant" publicationId="eab5-a7fe-b282-0b56" page="335" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Mon</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Giant, Skeleton</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Brutal, Crushing Strength (3), Lifeleech (1), Shambling, Strider</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">7</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">4+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">5+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">D6 +6</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">-/18</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">1</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">5</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="9124-6e63-1164-57a0" name="Crushing Strength" hidden="false" targetId="3131-8f0a-0927-8489" type="rule"/>
+        <infoLink id="e7e1-5c3c-4a23-4b44" name="Lifeleech" hidden="false" targetId="2fcc-d747-ea72-2828" type="rule"/>
+        <infoLink id="f1cc-c267-ad1f-06e2" name="Shambling" hidden="false" targetId="36fd-c324-ddc8-ef9a" type="rule"/>
+        <infoLink id="ff3f-6d12-1415-ab6b" name="Brutal" hidden="false" targetId="51fa-428e-ca3d-8a63" type="rule"/>
+        <infoLink id="0f10-2fbf-8182-bf71" name="Strider" hidden="false" targetId="e70c-1148-97d1-9348" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="4ec1-db6c-1062-046c" name="New CategoryLink" hidden="false" targetId="3bc2-7070-6db9-5437" primary="true"/>
         <categoryLink id="272f-3380-9959-dd4e" name="@Hero/Mon/Ttn/War Eng" hidden="false" targetId="3f26-cf3d-d182-e055" primary="false"/>
@@ -663,6 +1486,29 @@
         <constraint field="selections" scope="402d-7263-42d3-2871" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e1b0-25e0-6add-5f25" type="max"/>
         <constraint field="selections" scope="0245-63ef-fb4c-50ca" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8c25-4169-05ae-3848" type="max"/>
       </constraints>
+      <profiles>
+        <profile id="8683-2f58-7120-2851" name="J: Reanimated Behemoth" publicationId="eab5-a7fe-b282-0b56" page="335" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Mon [Cht]</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">~Spellcaster: 0, Construct, Skeleton</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Crushing Strength (2), Lifeleech (1), Shambling, Strider</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">6</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">4+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">6+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">9</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">-/16</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">1</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">5</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="c98c-b6a1-222a-8ab9" name="Crushing Strength" hidden="false" targetId="3131-8f0a-0927-8489" type="rule"/>
+        <infoLink id="5e24-c559-fd1b-3122" name="Lifeleech" hidden="false" targetId="2fcc-d747-ea72-2828" type="rule"/>
+        <infoLink id="4804-9ef2-60a1-149a" name="Shambling" hidden="false" targetId="36fd-c324-ddc8-ef9a" type="rule"/>
+        <infoLink id="4189-428c-17cf-5e1c" name="Strider" hidden="false" targetId="e70c-1148-97d1-9348" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="07f4-e02d-71d1-bb04" name="New CategoryLink" hidden="false" targetId="3bc2-7070-6db9-5437" primary="true"/>
         <categoryLink id="5b67-908c-5d66-4745" name="@Hero/Mon/Ttn/War Eng" hidden="false" targetId="3f26-cf3d-d182-e055" primary="false"/>
@@ -674,6 +1520,9 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="976e-dbad-120f-0df0" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="7844-5e7f-1d53-3be6" name="~Drain Life" hidden="false" targetId="5cc2-ea0c-f46d-3e58" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="30.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -689,6 +1538,32 @@
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="60ea-76fa-fd72-85bf" type="max"/>
       </constraints>
+      <profiles>
+        <profile id="7ab6-9b2b-119d-67dd" name="K: Monolith [1]" publicationId="eab5-a7fe-b282-0b56" page="335" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Ttn</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">~Spellcaster: 0, Construct, Shrine</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Inspiring, Monolith</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">5</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">-</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">5+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">-</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">-/17</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">1</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">6</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="f022-b878-2e7e-6f01" name="Monolith" publicationId="eab5-a7fe-b282-0b56" page="335" hidden="false">
+          <description>Monolith [1]: As long as this unit is alive and in play on the table, at the start of each of your Ranged Phases you may immediately cast Surge (8) on 1 Friendly Core unit anywhere within 24&quot; of this unit regardless of LoS. Note: The Monolith cannot be Disordered and its base size cannot be increased beyond 75x75mm.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="e84b-f40b-dda0-8ca2" name="Inspiring" hidden="false" targetId="7c18-e2b7-bc3b-fe10" type="rule"/>
+        <infoLink id="238a-19dd-59f3-076d" name="~Surge" hidden="false" targetId="8447-b7bc-2737-f07c" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="d604-9e41-b961-1b40" name="New CategoryLink" hidden="false" targetId="1147-f7f8-1825-be09" primary="true"/>
         <categoryLink id="8463-0c4a-9ea6-8cb6" name="@Hero/Mon/Ttn/War Eng" hidden="false" targetId="3f26-cf3d-d182-e055" primary="false"/>
@@ -714,6 +1589,30 @@
         <constraint field="selections" scope="402d-7263-42d3-2871" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1103-35bd-5156-414e" type="max"/>
         <constraint field="selections" scope="0245-63ef-fb4c-50ca" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0396-d989-7f17-971d" type="max"/>
       </constraints>
+      <profiles>
+        <profile id="95e3-fe19-9e4a-f1ab" name="K: Undead Wyrm" publicationId="eab5-a7fe-b282-0b56" page="335" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Ttn</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Draconic, Skeleton</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Crushing Strength (3), Fly, Lifeleech (1), Nimble, Shambling</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">10</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">4+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">4+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">10</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">-/18</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">1</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">6</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="07ff-e949-9078-8252" name="Crushing Strength" hidden="false" targetId="3131-8f0a-0927-8489" type="rule"/>
+        <infoLink id="5d66-6ba4-cd67-38e6" name="Lifeleech" hidden="false" targetId="2fcc-d747-ea72-2828" type="rule"/>
+        <infoLink id="31b6-7a39-c6f4-8f43" name="Shambling" hidden="false" targetId="36fd-c324-ddc8-ef9a" type="rule"/>
+        <infoLink id="c553-3998-69ca-2fe9" name="Fly" hidden="false" targetId="dc50-fdaa-d751-9cdf" type="rule"/>
+        <infoLink id="8f89-0dbe-ea00-b93a" name="Nimble" hidden="false" targetId="b79a-f274-5123-df1d" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="c844-ba29-6f8f-61d1" name="New CategoryLink" hidden="false" targetId="1147-f7f8-1825-be09" primary="true"/>
         <categoryLink id="5d95-4b2e-ec2a-aa43" name="@Hero/Mon/Ttn/War Eng" hidden="false" targetId="3f26-cf3d-d182-e055" primary="false"/>
@@ -738,6 +1637,43 @@
         <constraint field="selections" scope="402d-7263-42d3-2871" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="699a-6f9a-5c71-ec26" type="max"/>
         <constraint field="selections" scope="0245-63ef-fb4c-50ca" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aec8-3330-2bac-9b29" type="max"/>
       </constraints>
+      <profiles>
+        <profile id="076d-4ce1-1a55-aace" name="I: Empire of Dust Balefire Catapult" publicationId="eab5-a7fe-b282-0b56" page="336" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <modifiers>
+            <modifier type="set" field="0e93-1f12-f5f3-c8df" value="Shambling, Unholy Flames, &lt;Balefire: 48&quot;, Blast (D3+1), Ignore Cover, Indirect, Piercing (2), Reload, Shattering&gt;">
+              <conditions>
+                <condition field="selections" scope="af86-be52-9c8d-92a4" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8ed2-becd-e7a2-e69a" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">War Eng</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Construct, Skeleton</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Shambling, Unholy Flames, &lt;Balefire: 48&quot;, Blast (D3+1), Ignore Cover, Indirect, Piercing (2), Reload&gt;</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">5</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">-</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">5+</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">4+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">2</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">-/11</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">0</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="19fc-4f19-a94e-a939" name="Unholy Flames" publicationId="eab5-a7fe-b282-0b56" page="336" hidden="false">
+          <description>EoD Balefire Catapult: Whenever this unit rolls to damage with its Balefire attack, it can re-roll D3 of the dice that failed to damage.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="87ae-4a41-0e06-daab" name="Shambling" hidden="false" targetId="36fd-c324-ddc8-ef9a" type="rule"/>
+        <infoLink id="081c-46d8-72d8-c4b1" name="Blast" hidden="false" targetId="8c02-8957-63ab-1084" type="rule"/>
+        <infoLink id="d79e-4d7a-f853-6fe0" name="Ignore Cover" hidden="false" targetId="6629-aa59-2196-07a1" type="rule"/>
+        <infoLink id="bdcd-baf2-a9e0-2e2e" name="Indirect" hidden="false" targetId="140a-2d51-ef73-c9b1" type="rule"/>
+        <infoLink id="7215-237f-9e0a-9974" name="Piercing" hidden="false" targetId="cc29-8e7d-2a0e-c995" type="rule"/>
+        <infoLink id="bd26-01cb-c657-7b65" name="Reload" hidden="false" targetId="c0b3-3b50-e88f-5461" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="b28d-de21-c011-44cd" name="New CategoryLink" hidden="false" targetId="e01f-b962-560b-6912" primary="true"/>
         <categoryLink id="ac03-d6de-0b5c-d59c" name="@Hero/Mon/Ttn/War Eng" hidden="false" targetId="3f26-cf3d-d182-e055" primary="false"/>
@@ -748,6 +1684,9 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a78-fda9-9371-a048" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="9dcf-4e99-8722-1aad" name="Shattering" hidden="false" targetId="bd38-943f-eb1b-d46d" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="10.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -763,6 +1702,33 @@
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2769-4a6a-0def-208f" type="max"/>
       </constraints>
+      <profiles>
+        <profile id="6101-f163-0165-3ce0" name="I: Soul Snare [1]" publicationId="eab5-a7fe-b282-0b56" page="336" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">War Eng</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">~Spellcaster: 0, Construct, Miasma, Shrine</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Soul Snare, Stealthy
+~Drain Life (9)</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">5</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">-</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">4+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">-</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">-/15</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">0</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="2b4e-4f89-a9fa-4d4e" name="Soul Snare" publicationId="eab5-a7fe-b282-0b56" page="336" hidden="false">
+          <description>Soul Snare [1]: This unit&apos;s Drain Life spell has a range of 18&quot;. You may also target Friendly units within 12&quot; instead of 6&quot; for its damage removal component.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="7ab7-24e2-06fa-d70a" name="Stealthy" hidden="false" targetId="bdd0-eb1b-bf45-750e" type="rule"/>
+        <infoLink id="53ac-d5e0-769a-a062" name="~Drain Life" hidden="false" targetId="5cc2-ea0c-f46d-3e58" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="3f60-123e-8eff-e3d5" name="New CategoryLink" hidden="false" targetId="e01f-b962-560b-6912" primary="true"/>
         <categoryLink id="63c4-d8f4-4b48-6aa7" name="@Hero/Mon/Ttn/War Eng" hidden="false" targetId="3f26-cf3d-d182-e055" primary="false"/>
@@ -787,6 +1753,35 @@
         <constraint field="selections" scope="402d-7263-42d3-2871" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea45-ea1b-8a03-e3a0" type="max"/>
         <constraint field="selections" scope="0245-63ef-fb4c-50ca" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="462e-34ea-fd76-f9c1" type="max"/>
       </constraints>
+      <profiles>
+        <profile id="6b1e-965f-d7c0-ce32" name="L: Army Standard Bearer" publicationId="eab5-a7fe-b282-0b56" page="336" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="5318-66b0-52b9-0951" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7835-0501-ef33-0ea3" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Hero (Inf)</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Skeleton</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Individual, Inspiring, Lifeleech (1)</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">5</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">5+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">4+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">1</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">-/11</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">0</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="684c-8553-a244-183f" name="Individual" hidden="false" targetId="9657-1079-91be-b2bd" type="rule"/>
+        <infoLink id="3ca4-98a7-469c-2aa8" name="Inspiring" hidden="false" targetId="7c18-e2b7-bc3b-fe10" type="rule"/>
+        <infoLink id="b12f-fcf3-ca2f-4abe" name="Lifeleech" hidden="false" targetId="2fcc-d747-ea72-2828" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="0f05-6e53-23f9-f611" name="New CategoryLink" hidden="false" targetId="b057-19ac-bee2-ac91" primary="true"/>
         <categoryLink id="8e1e-b365-dbf9-c123" name="@Hero/Mon/Ttn/War Eng" hidden="false" targetId="3f26-cf3d-d182-e055" primary="false"/>
@@ -799,6 +1794,23 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b51-0bcc-2543-c73d" type="max"/>
           </constraints>
+          <profiles>
+            <profile id="8561-2dd7-0e57-73ce" name="N: Army Standard Bearer (on Undead Horse)" publicationId="eab5-a7fe-b282-0b56" page="336" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+              <characteristics>
+                <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Hero (Cav)</characteristic>
+                <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Skeleton</characteristic>
+                <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Individual, Inspiring, Lifeleech (1)</characteristic>
+                <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">8</characteristic>
+                <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">5+</characteristic>
+                <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+                <characteristic name="De" typeId="0430-25ef-96a4-6510">4+</characteristic>
+                <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">1</characteristic>
+                <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">-/11</characteristic>
+                <characteristic name="US" typeId="fcfd-0d73-228b-9814">0</characteristic>
+                <characteristic name="Ht" typeId="3656-74c6-668b-5919">3</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
           <costs>
             <cost name=" pts" typeId="points" value="25.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -826,6 +1838,36 @@
         <constraint field="selections" scope="402d-7263-42d3-2871" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="42fb-c5ab-7000-1cfb" type="max"/>
         <constraint field="selections" scope="0245-63ef-fb4c-50ca" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2194-19bd-a42d-a51d" type="max"/>
       </constraints>
+      <profiles>
+        <profile id="4073-abd8-fbfd-d1f3" name="L: Revenant Champion" publicationId="eab5-a7fe-b282-0b56" page="336" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="2c34-0cae-47c1-92f5" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1629-89e5-813f-dcdd" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Hero (Inf)</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Revenant, Skeleton</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Crushing Strength (1), Individual, Inspiring:(Revenant only), Lifeleech (1)</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">5</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">4+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">5+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">4</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">-/14</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">0</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="0a73-f826-b2f3-13cb" name="Individual" hidden="false" targetId="9657-1079-91be-b2bd" type="rule"/>
+        <infoLink id="3c87-e957-71b5-daf9" name="Inspiring" hidden="false" targetId="7c18-e2b7-bc3b-fe10" type="rule"/>
+        <infoLink id="74ad-277c-68ed-d0c5" name="Lifeleech" hidden="false" targetId="2fcc-d747-ea72-2828" type="rule"/>
+        <infoLink id="fa86-d9fd-e086-b901" name="Crushing Strength" hidden="false" targetId="3131-8f0a-0927-8489" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="469c-56c7-edb1-6b65" name="New CategoryLink" hidden="false" targetId="b057-19ac-bee2-ac91" primary="true"/>
         <categoryLink id="a51f-69d6-5301-d8c8" name="@Hero/Mon/Ttn/War Eng" hidden="false" targetId="3f26-cf3d-d182-e055" primary="false"/>
@@ -838,6 +1880,23 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="155e-e046-07d7-9bba" type="max"/>
           </constraints>
+          <profiles>
+            <profile id="2a08-5d6c-44cb-fd8e" name="N: Revenant Champion (on Undead Horse)" publicationId="eab5-a7fe-b282-0b56" page="336" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+              <characteristics>
+                <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Hero (Cav)</characteristic>
+                <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Revenant, Skeleton</characteristic>
+                <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Crushing Strength (1), Individual, Inspiring:(Revenant only), Lifeleech (1)</characteristic>
+                <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">8</characteristic>
+                <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">4+</characteristic>
+                <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+                <characteristic name="De" typeId="0430-25ef-96a4-6510">5+</characteristic>
+                <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">4</characteristic>
+                <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">-/14</characteristic>
+                <characteristic name="US" typeId="fcfd-0d73-228b-9814">0</characteristic>
+                <characteristic name="Ht" typeId="3656-74c6-668b-5919">3</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
           <costs>
             <cost name=" pts" typeId="points" value="25.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -865,6 +1924,39 @@
         <constraint field="selections" scope="402d-7263-42d3-2871" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e22-0116-79ce-ff3e" type="max"/>
         <constraint field="selections" scope="0245-63ef-fb4c-50ca" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3046-ab48-db60-0081" type="max"/>
       </constraints>
+      <profiles>
+        <profile id="4469-b6e4-7c92-a873" name="S: Ahmunite Pharaoh on Royal Chariot" publicationId="eab5-a7fe-b282-0b56" page="336" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <modifiers>
+            <modifier type="append" field="0e93-1f12-f5f3-c8df" value="~Surge (8)">
+              <conditions>
+                <condition field="selections" scope="ccdc-3952-1dcd-f5fa" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="533b-36ee-db77-5f1f" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Hero (Cht)</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">~Spellcaster: 2, Mummy, Royal Court</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Crushing Strength (2), Inspiring, Lifeleech (1), Nimble, Regeneration (5+), Thunderous Charge (1)
+</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">8</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">3+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">5+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">7</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">-/16</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">1</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="3410-ee90-fd5e-1004" name="Inspiring" hidden="false" targetId="7c18-e2b7-bc3b-fe10" type="rule"/>
+        <infoLink id="d4c4-7788-4978-2c49" name="Lifeleech" hidden="false" targetId="2fcc-d747-ea72-2828" type="rule"/>
+        <infoLink id="1166-11fb-de28-fa79" name="Crushing Strength" hidden="false" targetId="3131-8f0a-0927-8489" type="rule"/>
+        <infoLink id="d812-5663-a585-d9d3" name="Nimble" hidden="false" targetId="b79a-f274-5123-df1d" type="rule"/>
+        <infoLink id="6afa-3a42-0466-011f" name="Regeneration" hidden="false" targetId="5815-9306-b2e7-0436" type="rule"/>
+        <infoLink id="3ef0-b7b1-7832-eb99" name="Thunderous Charge" hidden="false" targetId="a8ce-2f96-b0be-47d6" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="4356-1c7c-0a56-cb80" name="New CategoryLink" hidden="false" targetId="b057-19ac-bee2-ac91" primary="true"/>
         <categoryLink id="5756-cb8a-1a0a-4634" name="@Hero" hidden="false" targetId="4ea0-3a9b-13be-2767" primary="false"/>
@@ -876,6 +1968,9 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0fb5-51ef-ccf1-c43a" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="a73b-250f-6772-d440" name="~Surge" hidden="false" targetId="8447-b7bc-2737-f07c" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="30.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -903,6 +1998,39 @@
         <constraint field="selections" scope="402d-7263-42d3-2871" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2826-4e0b-4e15-22bc" type="max"/>
         <constraint field="selections" scope="0245-63ef-fb4c-50ca" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c893-a3ef-48d5-016d" type="max"/>
       </constraints>
+      <profiles>
+        <profile id="0135-3168-7b79-9d83" name="L: Ahmunite Pharaoh" publicationId="eab5-a7fe-b282-0b56" page="336" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <modifiers>
+            <modifier type="set" field="0e93-1f12-f5f3-c8df" value="Aura (Elite:(Melee):(Mummy only)), Crushing Strength (2), Individual, Inspiring, Lifeleech (1), Mighty, Regeneration (5+)">
+              <conditions>
+                <condition field="selections" scope="4444-9dea-3cc5-f44f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5a9a-77c4-f084-3228" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Hero (Inf)</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">~Spellcaster: 2, Mummy, Royal Court</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Crushing Strength (2), Individual, Inspiring, Lifeleech (1), Mighty, Regeneration (5+)</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">5</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">3+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">6+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">5</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">-/16</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">0</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="a70d-059a-b284-229b" name="Crushing Strength" hidden="false" targetId="3131-8f0a-0927-8489" type="rule"/>
+        <infoLink id="19e9-f672-9a01-d5de" name="Inspiring" hidden="false" targetId="7c18-e2b7-bc3b-fe10" type="rule"/>
+        <infoLink id="48a3-6b5f-80b7-b9c5" name="Lifeleech" hidden="false" targetId="2fcc-d747-ea72-2828" type="rule"/>
+        <infoLink id="1748-3782-a82a-d838" name="Regeneration" hidden="false" targetId="5815-9306-b2e7-0436" type="rule"/>
+        <infoLink id="732e-60be-fda4-6e45" name="~Surge" hidden="false" targetId="8447-b7bc-2737-f07c" type="rule"/>
+        <infoLink id="b63e-8adf-2bb3-e09c" name="Individual" hidden="false" targetId="9657-1079-91be-b2bd" type="rule"/>
+        <infoLink id="09e3-1172-2472-b343" name="Mighty" hidden="false" targetId="f92c-c1b5-e7bf-0593" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="de75-ca24-ad9a-cd97" name="New CategoryLink" hidden="false" targetId="b057-19ac-bee2-ac91" primary="true"/>
         <categoryLink id="f648-e5a1-0d89-4fd7" name="@Hero/Mon/Ttn/War Eng" hidden="false" targetId="3f26-cf3d-d182-e055" primary="false"/>
@@ -927,6 +2055,10 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc02-eafe-ec68-e4c4" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="eeb2-e709-e425-0923" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="fc8e-5a6b-aa57-48e3" name="Aura" hidden="false" targetId="2867-1489-00ac-35c6" type="rule"/>
+            <infoLink id="5c08-6851-ef0e-756f" name="Elite" hidden="false" targetId="e0d0-5bf9-11c8-b4f1" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="20.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -966,6 +2098,75 @@
         <constraint field="selections" scope="402d-7263-42d3-2871" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1dc6-1389-728b-4608" type="max"/>
         <constraint field="selections" scope="0245-63ef-fb4c-50ca" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f31b-cd69-b04f-7bf9" type="max"/>
       </constraints>
+      <profiles>
+        <profile id="3194-e356-61b9-99d5" name="L: Cursed High Priest" publicationId="eab5-a7fe-b282-0b56" page="337" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <modifiers>
+            <modifier type="append" field="0e93-1f12-f5f3-c8df" value="~Drain Life (7)">
+              <conditions>
+                <condition field="selections" scope="edce-99e4-5703-20c2" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="77dd-cb24-aad8-316f" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" field="0e93-1f12-f5f3-c8df" value="~Fireball (12)">
+              <conditions>
+                <condition field="selections" scope="edce-99e4-5703-20c2" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="537b-f19a-1c24-1cfc" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" field="0e93-1f12-f5f3-c8df" value="~Heal (5)">
+              <conditions>
+                <condition field="selections" scope="edce-99e4-5703-20c2" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3883-8cc0-cf1e-0cba" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" field="0e93-1f12-f5f3-c8df" value="~Hex (3)">
+              <conditions>
+                <condition field="selections" scope="edce-99e4-5703-20c2" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1d37-0dd7-7071-9b62" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" field="0e93-1f12-f5f3-c8df" value="~Surge (8)">
+              <conditions>
+                <condition field="selections" scope="edce-99e4-5703-20c2" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="17e9-f28b-0ef5-60ca" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" field="0e93-1f12-f5f3-c8df" value="~Weakness (3)">
+              <conditions>
+                <condition field="selections" scope="edce-99e4-5703-20c2" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ebcb-fc8d-6a54-7fa6" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" field="0e93-1f12-f5f3-c8df" value="~Wind Blast (6)">
+              <conditions>
+                <condition field="selections" scope="edce-99e4-5703-20c2" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3f8e-51c8-c264-7fd3" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="edce-99e4-5703-20c2" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b182-6bde-eede-e36f" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Hero (Inf)</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">~Spellcaster: 3, Skeleton</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Individual, Inspiring, Reanimator
+</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">5</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">5+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">4+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">1</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">-/13</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">0</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="6c02-e639-e01a-4a8c" name="Reanimator" publicationId="eab5-a7fe-b282-0b56" page="337" hidden="false">
+          <description>Cursed High Priest: When targeting Friendly Core Skeleton units, this unit can re-roll up to 2 of the dice that failed to hit with the Heal and Surge spells.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="5cb7-2d34-7a5b-90cf" name="Individual" hidden="false" targetId="9657-1079-91be-b2bd" type="rule"/>
+        <infoLink id="d48b-82fc-a1af-fea9" name="Inspiring" hidden="false" targetId="7c18-e2b7-bc3b-fe10" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="a5ac-9866-c1bd-8d4c" name="New CategoryLink" hidden="false" targetId="b057-19ac-bee2-ac91" primary="true"/>
         <categoryLink id="c9f4-4e27-a85c-a952" name="@Hero/Mon/Ttn/War Eng" hidden="false" targetId="3f26-cf3d-d182-e055" primary="false"/>
@@ -978,6 +2179,61 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d3db-8ff6-479d-1e72" type="max"/>
           </constraints>
+          <profiles>
+            <profile id="1c72-b6d9-7a45-d926" name="N: Cursed High Priest (on Undead Horse)" publicationId="eab5-a7fe-b282-0b56" page="337" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+              <modifiers>
+                <modifier type="append" field="0e93-1f12-f5f3-c8df" value="~Drain Life (7)">
+                  <conditions>
+                    <condition field="selections" scope="edce-99e4-5703-20c2" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="77dd-cb24-aad8-316f" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="append" field="0e93-1f12-f5f3-c8df" value="~Fireball (12)">
+                  <conditions>
+                    <condition field="selections" scope="edce-99e4-5703-20c2" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="537b-f19a-1c24-1cfc" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="append" field="0e93-1f12-f5f3-c8df" value="~Heal (5)">
+                  <conditions>
+                    <condition field="selections" scope="edce-99e4-5703-20c2" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3883-8cc0-cf1e-0cba" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="append" field="0e93-1f12-f5f3-c8df" value="~Hex (3)">
+                  <conditions>
+                    <condition field="selections" scope="edce-99e4-5703-20c2" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1d37-0dd7-7071-9b62" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="append" field="0e93-1f12-f5f3-c8df" value="~Surge (8)">
+                  <conditions>
+                    <condition field="selections" scope="edce-99e4-5703-20c2" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="17e9-f28b-0ef5-60ca" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="append" field="0e93-1f12-f5f3-c8df" value="~Weakness (3)">
+                  <conditions>
+                    <condition field="selections" scope="edce-99e4-5703-20c2" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ebcb-fc8d-6a54-7fa6" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="append" field="0e93-1f12-f5f3-c8df" value="~Wind Blast (6)">
+                  <conditions>
+                    <condition field="selections" scope="edce-99e4-5703-20c2" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3f8e-51c8-c264-7fd3" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Hero (Cav)</characteristic>
+                <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">~Spellcaster: 3, Skeleton</characteristic>
+                <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Individual, Inspiring, Reanimator
+</characteristic>
+                <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">8</characteristic>
+                <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">5+</characteristic>
+                <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+                <characteristic name="De" typeId="0430-25ef-96a4-6510">4+</characteristic>
+                <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">1</characteristic>
+                <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">-/13</characteristic>
+                <characteristic name="US" typeId="fcfd-0d73-228b-9814">0</characteristic>
+                <characteristic name="Ht" typeId="3656-74c6-668b-5919">3</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
           <costs>
             <cost name=" pts" typeId="points" value="25.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -1068,6 +2324,43 @@
         <constraint field="selections" scope="402d-7263-42d3-2871" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8efc-5ed1-a03d-aec5" type="max"/>
         <constraint field="selections" scope="0245-63ef-fb4c-50ca" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c46-080f-3cd6-85ec" type="max"/>
       </constraints>
+      <profiles>
+        <profile id="76a5-c612-2451-2a08" name="V: Revenant King on Undead Great Flying Wyrm" publicationId="eab5-a7fe-b282-0b56" page="337" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <modifiers>
+            <modifier type="append" field="0e93-1f12-f5f3-c8df" value="~Surge (8)">
+              <conditions>
+                <condition field="selections" scope="4f97-bafc-bd98-bc65" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7009-7778-7bb9-ff0e" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="4f97-bafc-bd98-bc65" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6ca3-ce7f-1688-6823" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Hero (Ttn)</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">~Spellcaster: 0, Draconic, Revenant, Skeleton</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Crushing Strength (3), Fly, Inspiring, Lifeleech (1), Nimble
+</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">10</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">4+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">5+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">10</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">-/19</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">1</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">6</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="eff7-a1fa-9822-7010" name="Crushing Strength" hidden="false" targetId="3131-8f0a-0927-8489" type="rule"/>
+        <infoLink id="91fd-a7b5-ad75-987e" name="Fly" hidden="false" targetId="dc50-fdaa-d751-9cdf" type="rule"/>
+        <infoLink id="5d67-fa62-262d-2c2e" name="Inspiring" hidden="false" targetId="7c18-e2b7-bc3b-fe10" type="rule"/>
+        <infoLink id="51cb-35d8-9ded-13d8" name="Lifeleech" hidden="false" targetId="2fcc-d747-ea72-2828" type="rule"/>
+        <infoLink id="0662-b2ed-1a88-ffb5" name="Nimble" hidden="false" targetId="b79a-f274-5123-df1d" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="3395-47c0-d95f-6a93" name="New CategoryLink" hidden="false" targetId="b057-19ac-bee2-ac91" primary="true"/>
         <categoryLink id="11c7-0dbc-554e-1ede" name="@Hero" hidden="false" targetId="4ea0-3a9b-13be-2767" primary="false"/>
@@ -1079,6 +2372,35 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad45-c3b1-551a-e99f" type="max"/>
           </constraints>
+          <profiles>
+            <profile id="7e69-5e54-97fa-2b01" name="V: Revenant King on Undead Great Flying Wyrm (Plagued Breath)" publicationId="eab5-a7fe-b282-0b56" page="337" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+              <modifiers>
+                <modifier type="append" field="0e93-1f12-f5f3-c8df" value="~Surge (8)">
+                  <conditions>
+                    <condition field="selections" scope="4f97-bafc-bd98-bc65" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7009-7778-7bb9-ff0e" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Hero (Ttn)</characteristic>
+                <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">~Spellcaster: 0, Draconic, Revenant, Skeleton</characteristic>
+                <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Crushing Strength (3), Fly, Inspiring, Lifeleech (1), Nimble, &lt;Plagued Breath: 12&quot;, Ra: 4+, Steady Aim&gt;
+
+</characteristic>
+                <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">10</characteristic>
+                <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">4+</characteristic>
+                <characteristic name="Ra" typeId="72b7-f977-94ef-971d">4+</characteristic>
+                <characteristic name="De" typeId="0430-25ef-96a4-6510">5+</characteristic>
+                <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">10</characteristic>
+                <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">-/19</characteristic>
+                <characteristic name="US" typeId="fcfd-0d73-228b-9814">1</characteristic>
+                <characteristic name="Ht" typeId="3656-74c6-668b-5919">6</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="3ec8-fe67-1b1a-2875" name="Steady Aim" hidden="false" targetId="55fc-ab6a-a232-e11d" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="15.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -1088,6 +2410,9 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="773c-d995-42fa-9b06" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="9bc1-a858-ec08-144c" name="~Surge" hidden="false" targetId="8447-b7bc-2737-f07c" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="15.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -1115,6 +2440,40 @@
         <constraint field="selections" scope="402d-7263-42d3-2871" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d25-ca7e-84e1-8d0d" type="max"/>
         <constraint field="selections" scope="0245-63ef-fb4c-50ca" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b2f-cb00-ca4e-3e30" type="max"/>
       </constraints>
+      <profiles>
+        <profile id="65c8-4db6-56d0-ee9a" name="V: Revenant on Undead Great Burrowing Wyrm" publicationId="eab5-a7fe-b282-0b56" page="337" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <modifierGroups>
+            <modifierGroup>
+              <conditions>
+                <condition field="selections" scope="4871-9ac3-34ac-14e2" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="360e-fd43-e768-decc" type="equalTo"/>
+              </conditions>
+              <modifiers>
+                <modifier type="set" field="0e93-1f12-f5f3-c8df" value="Brutal, Crushing Strength (3), Lifeleech (1), Strider, &lt;Plagued Breath: 12&quot;, Ra: 4+, Steady Aim&gt;"/>
+                <modifier type="set" field="72b7-f977-94ef-971d" value="4+"/>
+              </modifiers>
+            </modifierGroup>
+          </modifierGroups>
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Hero (Ttn)</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Revenant, Skeleton</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Brutal, Crushing Strength (3), Lifeleech (1), Strider</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">7</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">4+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">5+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">12</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">-/18</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">1</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">6</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="87ae-d000-9cf3-00e9" name="Crushing Strength" hidden="false" targetId="3131-8f0a-0927-8489" type="rule"/>
+        <infoLink id="4eaa-2cde-395a-2466" name="Lifeleech" hidden="false" targetId="2fcc-d747-ea72-2828" type="rule"/>
+        <infoLink id="c237-af7a-d694-9c30" name="Brutal" hidden="false" targetId="51fa-428e-ca3d-8a63" type="rule"/>
+        <infoLink id="d0a8-1720-e584-c1ac" name="Strider" hidden="false" targetId="e70c-1148-97d1-9348" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="d233-2559-e5ff-86a8" name="New CategoryLink" hidden="false" targetId="b057-19ac-bee2-ac91" primary="true"/>
         <categoryLink id="d752-83b0-2620-3311" name="@Hero" hidden="false" targetId="4ea0-3a9b-13be-2767" primary="false"/>
@@ -1126,6 +2485,9 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6691-ce0e-a87b-a37f" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="5702-1923-bf62-9724" name="Steady Aim" hidden="false" targetId="55fc-ab6a-a232-e11d" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="15.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -1144,28 +2506,89 @@
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e1b7-dbb4-2d3b-835d" type="max"/>
       </constraints>
+      <profiles>
+        <profile id="95eb-561d-c182-d79f" name="V: Apaphys, Champion of Death [1]" publicationId="eab5-a7fe-b282-0b56" page="337" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Hero (Ttn)</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">~Spellcaster: 0, Champion, Draconic, Immortal, Revenant, Skeleton</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Cloak of Death, Crushing Strength (3), Fly, Lifeleech (1), Nimble, Very Inspiring, Winds of Death
+~Drain Life (7) ~Surge (8)</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">10</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">3+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">5+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">10</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">-/19</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">1</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">6</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="fa74-b57f-06c3-c866" name="Winds of Death" publicationId="eab5-a7fe-b282-0b56" page="337" hidden="false">
+          <description>Apaphys, Champion of Death [1]: Whenever this unit rolls to hit with Drain Life or Surge, it can re-roll all dice that score a natural, unmodified 1.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="8f84-7f63-e875-9faf" name="Crushing Strength" hidden="false" targetId="3131-8f0a-0927-8489" type="rule"/>
+        <infoLink id="26c9-919d-1c57-6461" name="Lifeleech" hidden="false" targetId="2fcc-d747-ea72-2828" type="rule"/>
+        <infoLink id="4dca-c35c-6f23-b83f" name="Nimble" hidden="false" targetId="b79a-f274-5123-df1d" type="rule"/>
+        <infoLink id="2546-9970-5366-1afb" name="~Drain Life" hidden="false" targetId="5cc2-ea0c-f46d-3e58" type="rule"/>
+        <infoLink id="fe4b-d374-a3c5-4616" name="~Surge" hidden="false" targetId="8447-b7bc-2737-f07c" type="rule"/>
+        <infoLink id="486f-2218-c636-c648" name="Cloak of Death" hidden="false" targetId="d0e1-9636-ac72-4d0d" type="rule"/>
+        <infoLink id="c534-bc82-c1f4-935e" name="Fly" hidden="false" targetId="dc50-fdaa-d751-9cdf" type="rule"/>
+        <infoLink id="8abd-ead7-9063-57a5" name="Very Inspiring" hidden="false" targetId="10ed-04da-d879-ce2e" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="e0a0-906c-4f90-bac0" name="@Hero" hidden="false" targetId="4ea0-3a9b-13be-2767" primary="false"/>
         <categoryLink id="e08b-ba59-a55b-0b83" name="@Hero/Mon/Ttn/War Eng" hidden="false" targetId="3f26-cf3d-d182-e055" primary="false"/>
         <categoryLink id="d69a-bb93-3686-b9ef" name="@[H]" hidden="false" targetId="ae0b-44e7-704c-e312" primary="false"/>
-        <categoryLink id="09dd-c42b-a844-fcce" name="New CategoryLink" hidden="false" targetId="f2c4-7b36-9dac-4ea2" primary="true"/>
         <categoryLink id="2884-fac2-f3a9-d8f8" name="%Limited/Unique" hidden="false" targetId="d69e-ab9d-fe8b-b5eb" primary="false"/>
+        <categoryLink id="79d4-9c0f-cebf-5ae4" name="New CategoryLink" hidden="false" targetId="b057-19ac-bee2-ac91" primary="true"/>
       </categoryLinks>
       <costs>
         <cost name="  US" typeId="8bd1-3402-32b0-82da" value="1.0"/>
         <cost name=" pts" typeId="points" value="360.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="bcb1-c89d-42cd-579c" name="Idok of Shobik [1]" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="bcb1-c89d-42cd-579c" name="Idol of Shobik [1]" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c3d6-8621-38ea-a9f7" type="max"/>
       </constraints>
+      <profiles>
+        <profile id="84f3-0928-21eb-a408" name="U: Idol of Shobik [1]" publicationId="eab5-a7fe-b282-0b56" page="337" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Hero (Mon)</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">~Spellcaster: 0, Construct, Giant, Old God</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Aura (Iron Resolve), Crushing Strength (3), Lifeleech (1), Shambling, Strider, Very Inspiring
+~Heal (5)</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">7</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">3+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">6+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">10</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">-/18</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">1</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">5</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="153f-de32-7290-4462" name="Aura" hidden="false" targetId="2867-1489-00ac-35c6" type="rule"/>
+        <infoLink id="092f-02c6-285d-8723" name="Iron Resolve" hidden="false" targetId="6182-5a87-de7a-4f56" type="rule"/>
+        <infoLink id="d7bf-ba29-73bc-b247" name="Crushing Strength" hidden="false" targetId="3131-8f0a-0927-8489" type="rule"/>
+        <infoLink id="e74e-9b05-758f-4979" name="Lifeleech" hidden="false" targetId="2fcc-d747-ea72-2828" type="rule"/>
+        <infoLink id="2936-d96b-9a8e-7c14" name="Shambling" hidden="false" targetId="36fd-c324-ddc8-ef9a" type="rule"/>
+        <infoLink id="f58b-a0ae-4187-8c62" name="Strider" hidden="false" targetId="e70c-1148-97d1-9348" type="rule"/>
+        <infoLink id="cc18-0eb2-67f5-7717" name="Very Inspiring" hidden="false" targetId="10ed-04da-d879-ce2e" type="rule"/>
+        <infoLink id="478a-90c1-4710-6018" name="~Heal" hidden="false" targetId="a125-9eee-fc99-05f7" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="c840-be49-4bc4-e057" name="@Hero" hidden="false" targetId="4ea0-3a9b-13be-2767" primary="false"/>
         <categoryLink id="df72-07a8-5893-dd9c" name="@Hero/Mon/Ttn/War Eng" hidden="false" targetId="3f26-cf3d-d182-e055" primary="false"/>
         <categoryLink id="7af7-4fac-379f-368f" name="@[H]" hidden="false" targetId="ae0b-44e7-704c-e312" primary="false"/>
-        <categoryLink id="ccb8-d658-8755-5519" name="New CategoryLink" hidden="false" targetId="f2c4-7b36-9dac-4ea2" primary="true"/>
         <categoryLink id="f57e-25d0-8b95-0806" name="%Limited/Unique" hidden="false" targetId="d69e-ab9d-fe8b-b5eb" primary="false"/>
+        <categoryLink id="713f-c7ff-143a-9a45" name="New CategoryLink" hidden="false" targetId="b057-19ac-bee2-ac91" primary="true"/>
       </categoryLinks>
       <costs>
         <cost name="  US" typeId="8bd1-3402-32b0-82da" value="1.0"/>
@@ -1173,4 +2596,9 @@
       </costs>
     </selectionEntry>
   </selectionEntries>
+  <sharedRules>
+    <rule id="8f46-d28c-952e-54a8" name="Casket of the Damned" publicationId="eab5-a7fe-b282-0b56" page="333" hidden="false">
+      <description>Once per game, when this unit is targeted by a Surge spell, you may roll an additional 6 dice which count toward the total Surge result. This must be declared before rolling any dice for the spell.</description>
+    </rule>
+  </sharedRules>
 </catalogue>

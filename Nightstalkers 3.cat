@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3c66-523b-a57a-f7fe" name="{Evil} Nightstalkers" revision="2" battleScribeVersion="2.03" authorName="John (Ekaznae)" authorContact="bsdata.kow@gmail.com" authorUrl="https://github.com/BSData/kingsofwar" library="false" gameSystemId="0929-4596-8744-bbdb" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="3c66-523b-a57a-f7fe" name="{Evil} Nightstalkers" revision="4" battleScribeVersion="2.03" authorName="John (Ekaznae)" authorContact="bsdata.kow@gmail.com" authorUrl="https://github.com/BSData/kingsofwar" library="false" gameSystemId="0929-4596-8744-bbdb" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="fcda-57a9-71e0-80b5" name="Scarecrows (20) Regiment" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="aea7-f681-a7b0-1072" name="A: Scarecrows (20) Regiment" publicationId="eab5-a7fe-b282-0b56" page="369" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Inf</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Expendable, Nightmare, Zombie</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Mindthirst, Stealthy, Wild Charge (D3)</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">4</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">5+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">3+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">15</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">-/14</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">2</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="93d0-96d8-bb67-7fd3" name="Mindthirst" hidden="false" targetId="84a4-5919-1d93-a1f3" type="rule"/>
+        <infoLink id="ab63-590c-cfe3-e0d9" name="Stealthy" hidden="false" targetId="bdd0-eb1b-bf45-750e" type="rule"/>
+        <infoLink id="c0a9-0ca0-9930-e570" name="Wild Charge" hidden="false" targetId="05b0-7540-048c-16de" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="e3fa-3b43-be79-f02e" name="New CategoryLink" hidden="false" targetId="616e-c1cf-de59-ed6e" primary="true"/>
         <categoryLink id="d478-9dc1-f453-d4a3" name="$$Inf/Hvy Inf/Cav/Cht REGIMENT" hidden="false" targetId="9f55-3ef2-5914-9436" primary="false"/>
@@ -11,6 +33,10 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5581-326e-0b67-188f" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="c0c0-e316-e496-d4ff" name="Lifeleech" hidden="false" targetId="2fcc-d747-ea72-2828" type="rule"/>
+            <infoLink id="1a8d-6420-e75d-3469" name="Screamshard" hidden="false" targetId="7d01-1178-33ca-756d" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="5.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -19,6 +45,8 @@
       </selectionEntries>
       <entryLinks>
         <entryLink id="0de6-9b47-7f5d-6918" name="Magical Artefacts" hidden="false" collective="false" import="true" targetId="6816-61a6-c6f9-a79e" type="selectionEntryGroup"/>
+        <entryLink id="c59c-8dd2-8e94-ae6d" name=" Unlocked Troops (2) [Visual Indicator/Reminder]" hidden="false" collective="false" import="true" targetId="161d-e8c0-0ed4-d2aa" type="selectionEntryGroup"/>
+        <entryLink id="f351-7ca3-ccf6-0e25" name=" Unlocked Unit (Pick 1) [Visual Indicator/Reminder]" hidden="false" collective="false" import="true" targetId="cdc9-7db6-77ed-e134" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="  US" typeId="8bd1-3402-32b0-82da" value="2.0"/>
@@ -26,6 +54,28 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="6be4-1c91-3ae2-f8af" name="Scarecrows (40) Horde" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="d388-3399-3e77-5825" name="A: Scarecrows (40) Horde" publicationId="eab5-a7fe-b282-0b56" page="369" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Inf</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Expendable, Nightmare, Zombie</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Mindthirst, Stealthy, Wild Charge (D3)</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">4</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">5+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">3+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">30</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">-/21</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">3</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="62dd-d9c2-bddd-8718" name="Mindthirst" hidden="false" targetId="84a4-5919-1d93-a1f3" type="rule"/>
+        <infoLink id="6b71-5ed0-034a-4e20" name="Stealthy" hidden="false" targetId="bdd0-eb1b-bf45-750e" type="rule"/>
+        <infoLink id="89cf-740a-5946-6619" name="Wild Charge" hidden="false" targetId="05b0-7540-048c-16de" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="c83d-81d9-c92c-ffd5" name="New CategoryLink" hidden="false" targetId="616e-c1cf-de59-ed6e" primary="true"/>
         <categoryLink id="8287-4073-354c-8096" name="$$Inf/Hvy Inf/Cav/Cht HORDE/LEGION" hidden="false" targetId="9453-4e62-79da-bc74" primary="false"/>
@@ -36,6 +86,10 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b71c-f14e-9340-7128" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="04e8-23a2-3997-d919" name="Lifeleech" hidden="false" targetId="2fcc-d747-ea72-2828" type="rule"/>
+            <infoLink id="f466-1884-8412-502d" name="Screamshard" hidden="false" targetId="7d01-1178-33ca-756d" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="5.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -44,6 +98,8 @@
       </selectionEntries>
       <entryLinks>
         <entryLink id="1c38-bc63-6bf8-729e" name="Magical Artefacts" hidden="false" collective="false" import="true" targetId="6816-61a6-c6f9-a79e" type="selectionEntryGroup"/>
+        <entryLink id="48f9-6060-25ec-7953" name=" Unlocked Troops (4) [Visual Indicator/Reminder]" hidden="false" collective="false" import="true" targetId="6218-0350-198b-26f8" type="selectionEntryGroup"/>
+        <entryLink id="7545-02c3-7d4e-6902" name=" Unlocked Units (Pick 3) [Visual Indicator/Reminder]" hidden="false" collective="false" import="true" targetId="cc00-4905-3626-245b" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="  US" typeId="8bd1-3402-32b0-82da" value="3.0"/>
@@ -51,6 +107,28 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="0e45-fe5b-06a5-f087" name="Scarecrows (60) Legion" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="7909-af7d-8168-57ad" name="A: Scarecrows (60) Legion" publicationId="eab5-a7fe-b282-0b56" page="369" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Inf</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Expendable, Nightmare, Zombie</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Mindthirst, Stealthy, Wild Charge (D3)</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">4</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">5+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">3+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">35</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">-/27</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">4</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="3104-3899-8394-d62f" name="Mindthirst" hidden="false" targetId="84a4-5919-1d93-a1f3" type="rule"/>
+        <infoLink id="f85b-3ce2-0140-a297" name="Stealthy" hidden="false" targetId="bdd0-eb1b-bf45-750e" type="rule"/>
+        <infoLink id="d310-f1c8-3622-8e34" name="Wild Charge" hidden="false" targetId="05b0-7540-048c-16de" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="db2c-4330-c717-bd09" name="New CategoryLink" hidden="false" targetId="616e-c1cf-de59-ed6e" primary="true"/>
         <categoryLink id="ead5-2ca8-2cf8-7029" name="$$Inf/Hvy Inf/Cav/Cht HORDE/LEGION" hidden="false" targetId="9453-4e62-79da-bc74" primary="false"/>
@@ -61,6 +139,10 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4aa6-1978-9fee-0865" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="c603-84cc-c9f3-9582" name="Lifeleech" hidden="false" targetId="2fcc-d747-ea72-2828" type="rule"/>
+            <infoLink id="e74e-a12e-d51b-7c1e" name="Screamshard" hidden="false" targetId="7d01-1178-33ca-756d" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="5.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -69,6 +151,8 @@
       </selectionEntries>
       <entryLinks>
         <entryLink id="e20f-66ee-dfd8-9ffb" name="Magical Artefacts" hidden="false" collective="false" import="true" targetId="6816-61a6-c6f9-a79e" type="selectionEntryGroup"/>
+        <entryLink id="cc6a-ad4c-4c4c-7c47" name=" Unlocked Troops (4) [Visual Indicator/Reminder]" hidden="false" collective="false" import="true" targetId="6218-0350-198b-26f8" type="selectionEntryGroup"/>
+        <entryLink id="ebc6-fb44-1fc3-3c5e" name=" Unlocked Units (Pick 3) [Visual Indicator/Reminder]" hidden="false" collective="false" import="true" targetId="cc00-4905-3626-245b" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="  US" typeId="8bd1-3402-32b0-82da" value="4.0"/>
@@ -76,12 +160,36 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="eed0-e1b5-7478-9465" name="Blood Worms (20) Regiment" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="2ce9-ea65-516c-91f2" name="A: Blood Worms (20) Regiment" publicationId="eab5-a7fe-b282-0b56" page="369" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Inf</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Beast, Nightmare</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Lifeleech (2), Mindthirst, Stealthy</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">5</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">4+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">4+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">15</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">11/14</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">3</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="c1c2-c25f-f12b-c686" name="Mindthirst" hidden="false" targetId="84a4-5919-1d93-a1f3" type="rule"/>
+        <infoLink id="905d-3715-ee84-5d05" name="Stealthy" hidden="false" targetId="bdd0-eb1b-bf45-750e" type="rule"/>
+        <infoLink id="e1db-0c8a-9039-c7a9" name="Lifeleech" hidden="false" targetId="2fcc-d747-ea72-2828" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="a836-5816-15e2-3bb5" name="New CategoryLink" hidden="false" targetId="616e-c1cf-de59-ed6e" primary="true"/>
         <categoryLink id="88a5-d9ab-3df1-a637" name="$$Inf/Hvy Inf/Cav/Cht REGIMENT" hidden="false" targetId="9f55-3ef2-5914-9436" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="229e-9240-8f60-c3c2" name="Magical Artefacts" hidden="false" collective="false" import="true" targetId="6816-61a6-c6f9-a79e" type="selectionEntryGroup"/>
+        <entryLink id="97a9-fd1e-1b47-7c16" name=" Unlocked Troops (2) [Visual Indicator/Reminder]" hidden="false" collective="false" import="true" targetId="161d-e8c0-0ed4-d2aa" type="selectionEntryGroup"/>
+        <entryLink id="e0f5-ae2a-87d3-2481" name=" Unlocked Unit (Pick 1) [Visual Indicator/Reminder]" hidden="false" collective="false" import="true" targetId="cdc9-7db6-77ed-e134" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="  US" typeId="8bd1-3402-32b0-82da" value="3.0"/>
@@ -89,6 +197,28 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="634a-0606-972e-0fc0" name="Blood Worms (40) Horde" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="f68b-c6c5-16cc-ed6f" name="A: Blood Worms (40) Horde" publicationId="eab5-a7fe-b282-0b56" page="369" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Inf</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Beast, Nightmare</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Lifeleech (2), Mindthirst, Stealthy</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">5</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">4+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">4+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">30</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">18/21</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">4</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="61d5-9893-392b-bd62" name="Mindthirst" hidden="false" targetId="84a4-5919-1d93-a1f3" type="rule"/>
+        <infoLink id="5f4c-0b60-19e3-d9d0" name="Stealthy" hidden="false" targetId="bdd0-eb1b-bf45-750e" type="rule"/>
+        <infoLink id="da45-2397-0b9d-c313" name="Lifeleech" hidden="false" targetId="2fcc-d747-ea72-2828" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="a85f-deb4-6fc1-53d4" name="New CategoryLink" hidden="false" targetId="616e-c1cf-de59-ed6e" primary="true"/>
         <categoryLink id="204a-8788-d1bd-1a01" name="$$Inf/Hvy Inf/Cav/Cht HORDE/LEGION" hidden="false" targetId="9453-4e62-79da-bc74" primary="false"/>
@@ -96,6 +226,8 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="6156-55b3-ef4d-f232" name="Magical Artefacts" hidden="false" collective="false" import="true" targetId="6816-61a6-c6f9-a79e" type="selectionEntryGroup"/>
+        <entryLink id="4d41-0ed4-f194-e8f3" name=" Unlocked Troops (4) [Visual Indicator/Reminder]" hidden="false" collective="false" import="true" targetId="6218-0350-198b-26f8" type="selectionEntryGroup"/>
+        <entryLink id="6bf1-699b-ab48-d9d1" name=" Unlocked Units (Pick 3) [Visual Indicator/Reminder]" hidden="false" collective="false" import="true" targetId="cc00-4905-3626-245b" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="  US" typeId="8bd1-3402-32b0-82da" value="4.0"/>
@@ -103,6 +235,28 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="d3d2-b93f-418d-cdeb" name="Blood Worms (60) Legion" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="1bbe-17ad-8344-b544" name="A: Blood Worms (60) Legion" publicationId="eab5-a7fe-b282-0b56" page="369" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Inf</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Beast, Nightmare</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Lifeleech (2), Mindthirst, Stealthy</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">5</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">4+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">4+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">40</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">24/27</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">5</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="9825-48ff-e8ad-2601" name="Mindthirst" hidden="false" targetId="84a4-5919-1d93-a1f3" type="rule"/>
+        <infoLink id="2f3a-b407-8b2d-63a9" name="Stealthy" hidden="false" targetId="bdd0-eb1b-bf45-750e" type="rule"/>
+        <infoLink id="0adb-6568-0307-f523" name="Lifeleech" hidden="false" targetId="2fcc-d747-ea72-2828" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="93c4-876a-1a21-bb7a" name="New CategoryLink" hidden="false" targetId="616e-c1cf-de59-ed6e" primary="true"/>
         <categoryLink id="18d3-6666-3071-ae63" name="$$Inf/Hvy Inf/Cav/Cht HORDE/LEGION" hidden="false" targetId="9453-4e62-79da-bc74" primary="false"/>
@@ -110,6 +264,8 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="2b07-07b9-1e4a-01c8" name="Magical Artefacts" hidden="false" collective="false" import="true" targetId="6816-61a6-c6f9-a79e" type="selectionEntryGroup"/>
+        <entryLink id="047a-4037-e673-048c" name=" Unlocked Troops (4) [Visual Indicator/Reminder]" hidden="false" collective="false" import="true" targetId="6218-0350-198b-26f8" type="selectionEntryGroup"/>
+        <entryLink id="e97b-4f95-9649-4048" name=" Unlocked Units (Pick 3) [Visual Indicator/Reminder]" hidden="false" collective="false" import="true" targetId="cc00-4905-3626-245b" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="  US" typeId="8bd1-3402-32b0-82da" value="5.0"/>
@@ -117,12 +273,40 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="d4f6-a8ca-b18b-4507" name="Doppelgangers (20) Regiment" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="5363-41b1-3c52-d965" name="A: Doppelgangers (20) Regiment" publicationId="eab5-a7fe-b282-0b56" page="369" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Inf</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Nightmare</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Doppelganger, Mindthirst, Stealthy</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">5</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">5+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">4+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">10</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">15/17</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">3</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="e888-cdff-82ef-9e9c" name="Doppelganger" publicationId="eab5-a7fe-b282-0b56" page="369" hidden="false">
+          <description>Doppelgangers: When this unit attacks an Enemy unit in Melee, it may opt to use the Enemy&apos;s profile for its Melee attacks instead of its own. If it does so then it uses the Enemy unit&apos;s Melee stat, Attacks stat and Crushing Strength value for that Turn. Any Magical Artefacts the Enemy unit has are ignored. The Dopplegangers themselves may still use a Magical Artefact as normal if they have one (apply any bonuses granted after the decision on which stats to use).</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="bde4-3cfd-9bd0-7d90" name="Mindthirst" hidden="false" targetId="84a4-5919-1d93-a1f3" type="rule"/>
+        <infoLink id="3314-292a-9c04-da0b" name="Stealthy" hidden="false" targetId="bdd0-eb1b-bf45-750e" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="d2b0-3a2a-e4f0-544a" name="New CategoryLink" hidden="false" targetId="616e-c1cf-de59-ed6e" primary="true"/>
         <categoryLink id="45cc-e47e-06ec-a303" name="$$Inf/Hvy Inf/Cav/Cht REGIMENT" hidden="false" targetId="9f55-3ef2-5914-9436" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="2050-fbd4-bb11-141b" name="Magical Artefacts" hidden="false" collective="false" import="true" targetId="6816-61a6-c6f9-a79e" type="selectionEntryGroup"/>
+        <entryLink id="ad0a-1cd0-c371-5b1a" name=" Unlocked Troops (2) [Visual Indicator/Reminder]" hidden="false" collective="false" import="true" targetId="161d-e8c0-0ed4-d2aa" type="selectionEntryGroup"/>
+        <entryLink id="6803-0256-bed2-5d18" name=" Unlocked Unit (Pick 1) [Visual Indicator/Reminder]" hidden="false" collective="false" import="true" targetId="cdc9-7db6-77ed-e134" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="  US" typeId="8bd1-3402-32b0-82da" value="3.0"/>
@@ -130,6 +314,28 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="dabd-35b1-6e7e-9f27" name="Reapers (10) Troop" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="1b59-dabb-c5bf-d908" name="A: Reapers (10) Troop" publicationId="eab5-a7fe-b282-0b56" page="369" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Inf</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Nightmare, Reaper</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Crushing Strength (1), Mindthirst, Stealthy</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">6</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">3+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">4+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">20</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">10/12</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">1</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="118e-4b2e-e320-1a79" name="Mindthirst" hidden="false" targetId="84a4-5919-1d93-a1f3" type="rule"/>
+        <infoLink id="9cf4-f797-aa7f-108e" name="Stealthy" hidden="false" targetId="bdd0-eb1b-bf45-750e" type="rule"/>
+        <infoLink id="dda2-900b-f1c1-c6f5" name="Crushing Strength" hidden="false" targetId="3131-8f0a-0927-8489" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="0b03-69db-3be7-0709" name="New CategoryLink" hidden="false" targetId="616e-c1cf-de59-ed6e" primary="true"/>
         <categoryLink id="7c46-3cfc-51bd-1f65" name="@Troop" hidden="false" targetId="9a33-dbd7-2f61-bf74" primary="false"/>
@@ -139,6 +345,10 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ef9b-737a-686f-d26a" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="206c-9e3f-6eed-836b" name="Lifeleech" hidden="false" targetId="2fcc-d747-ea72-2828" type="rule"/>
+            <infoLink id="e6fb-fbf1-3228-d75d" name="Screamshard" hidden="false" targetId="7d01-1178-33ca-756d" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="5.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -154,6 +364,28 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="f490-cdc9-e89a-4efa" name="Reapers (20) Regiment" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="22fd-725e-d656-329c" name="A: Reapers (20) Regiment" publicationId="eab5-a7fe-b282-0b56" page="369" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Inf</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Nightmare, Reaper</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Crushing Strength (1), Mindthirst, Stealthy</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">6</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">3+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">4+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">25</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">14/16</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">3</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="7882-bf93-88ea-39ee" name="Mindthirst" hidden="false" targetId="84a4-5919-1d93-a1f3" type="rule"/>
+        <infoLink id="7d23-b439-4175-634e" name="Stealthy" hidden="false" targetId="bdd0-eb1b-bf45-750e" type="rule"/>
+        <infoLink id="bf53-5cc5-db61-ef16" name="Crushing Strength" hidden="false" targetId="3131-8f0a-0927-8489" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="0289-d36a-c3df-17ec" name="New CategoryLink" hidden="false" targetId="616e-c1cf-de59-ed6e" primary="true"/>
         <categoryLink id="e04c-04dd-7e1e-a3a0" name="$$Inf/Hvy Inf/Cav/Cht REGIMENT" hidden="false" targetId="9f55-3ef2-5914-9436" primary="false"/>
@@ -163,6 +395,10 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b1ee-49bc-080c-c633" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="d10a-68e4-bd5e-052b" name="Lifeleech" hidden="false" targetId="2fcc-d747-ea72-2828" type="rule"/>
+            <infoLink id="0273-e85f-67fe-912e" name="Screamshard" hidden="false" targetId="7d01-1178-33ca-756d" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="5.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -171,6 +407,8 @@
       </selectionEntries>
       <entryLinks>
         <entryLink id="7d34-6638-7db8-8e79" name="Magical Artefacts" hidden="false" collective="false" import="true" targetId="6816-61a6-c6f9-a79e" type="selectionEntryGroup"/>
+        <entryLink id="5aa6-1cea-0f2a-55fd" name=" Unlocked Troops (2) [Visual Indicator/Reminder]" hidden="false" collective="false" import="true" targetId="161d-e8c0-0ed4-d2aa" type="selectionEntryGroup"/>
+        <entryLink id="d792-6fdb-6a39-76b1" name=" Unlocked Unit (Pick 1) [Visual Indicator/Reminder]" hidden="false" collective="false" import="true" targetId="cdc9-7db6-77ed-e134" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="  US" typeId="8bd1-3402-32b0-82da" value="3.0"/>
@@ -178,6 +416,29 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="dfdc-f71c-9630-5bd7" name="Phantoms* (10) Troop" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="55b6-9997-ddce-6050" name="B: Phantoms* (10) Troop" publicationId="eab5-a7fe-b282-0b56" page="369" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Hvy Inf</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Phantasm</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Fly, Mindthirst, Nimble, Stealthy</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">10</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">4+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">4+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">12</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">-/12</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">1</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="3c48-a501-0bca-f54d" name="Mindthirst" hidden="false" targetId="84a4-5919-1d93-a1f3" type="rule"/>
+        <infoLink id="46dc-e10f-99f4-8360" name="Stealthy" hidden="false" targetId="bdd0-eb1b-bf45-750e" type="rule"/>
+        <infoLink id="b138-7395-5c60-b80f" name="Fly" hidden="false" targetId="dc50-fdaa-d751-9cdf" type="rule"/>
+        <infoLink id="d30f-db85-e16a-1355" name="Nimble" hidden="false" targetId="b79a-f274-5123-df1d" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="eec5-606d-5e01-4226" name="New CategoryLink" hidden="false" targetId="2327-ac7a-c35e-4f4f" primary="true"/>
         <categoryLink id="454b-636f-b026-d2b8" name="@Troop" hidden="false" targetId="9a33-dbd7-2f61-bf74" primary="false"/>
@@ -188,6 +449,10 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c496-3c30-a24c-54ad" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="f423-8ef5-48f7-d368" name="Lifeleech" hidden="false" targetId="2fcc-d747-ea72-2828" type="rule"/>
+            <infoLink id="f292-d842-aefc-e02e" name="Screamshard" hidden="false" targetId="7d01-1178-33ca-756d" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="5.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -203,6 +468,29 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="8299-445b-dbeb-579a" name="Phantoms* (20) Regiment" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="f253-b752-0be9-15ea" name="B: Phantoms* (20) Regiment" publicationId="eab5-a7fe-b282-0b56" page="369" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Hvy Inf</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Phantasm</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Fly, Mindthirst, Nimble, Stealthy</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">10</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">4+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">4+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">15</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">-/16</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">3</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="c0a2-d1ba-c2d6-8e3b" name="Mindthirst" hidden="false" targetId="84a4-5919-1d93-a1f3" type="rule"/>
+        <infoLink id="4f67-12dc-ba7b-f65f" name="Stealthy" hidden="false" targetId="bdd0-eb1b-bf45-750e" type="rule"/>
+        <infoLink id="293a-3148-faeb-62ee" name="Fly" hidden="false" targetId="dc50-fdaa-d751-9cdf" type="rule"/>
+        <infoLink id="5461-d2c3-4daa-fcad" name="Nimble" hidden="false" targetId="b79a-f274-5123-df1d" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="93f3-b576-ffcd-f4a1" name="New CategoryLink" hidden="false" targetId="2327-ac7a-c35e-4f4f" primary="true"/>
         <categoryLink id="a9a4-4291-2675-0942" name="@Troop" hidden="false" targetId="9a33-dbd7-2f61-bf74" primary="false"/>
@@ -213,6 +501,10 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="63ac-6b76-16f1-1f58" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="598c-fc58-6ffa-c4ea" name="Lifeleech" hidden="false" targetId="2fcc-d747-ea72-2828" type="rule"/>
+            <infoLink id="a727-c631-446c-c77c" name="Screamshard" hidden="false" targetId="7d01-1178-33ca-756d" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="5.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -228,6 +520,29 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="4f35-f14f-6434-a5a7" name="Spectres (10) Troop" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="81ff-cf10-ce0b-0575" name="A: Spectres (10) Troop" publicationId="eab5-a7fe-b282-0b56" page="370" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Inf</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Phantasm</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Mindthirst, Pathfinder, Stealthy, &lt;Shadowbolts: 18&quot;, Piercing (1)&gt;</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">6</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">6+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">5+</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">3+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">8</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">9/11</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">1</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="cd54-32d7-3ff1-2b85" name="Mindthirst" hidden="false" targetId="84a4-5919-1d93-a1f3" type="rule"/>
+        <infoLink id="2afc-7988-7deb-e38f" name="Stealthy" hidden="false" targetId="bdd0-eb1b-bf45-750e" type="rule"/>
+        <infoLink id="ba77-657e-b2f3-ac2e" name="Pathfinder" hidden="false" targetId="0bf5-2b12-5cc7-a963" type="rule"/>
+        <infoLink id="e2fa-624b-81a7-5c40" name="Piercing" hidden="false" targetId="cc29-8e7d-2a0e-c995" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="d90e-b3d2-0741-f1e4" name="New CategoryLink" hidden="false" targetId="616e-c1cf-de59-ed6e" primary="true"/>
         <categoryLink id="b9fd-07fb-b163-0784" name="@Troop" hidden="false" targetId="9a33-dbd7-2f61-bf74" primary="false"/>
@@ -241,12 +556,37 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="0c5b-7081-aeb4-1905" name="Spectres (20) Regiment" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="a23a-48ec-27c4-c998" name="A: Spectres (20) Regiment" publicationId="eab5-a7fe-b282-0b56" page="370" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Inf</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Phantasm</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Mindthirst, Pathfinder, Stealthy, &lt;Shadowbolts: 18&quot;, Piercing (1)&gt;</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">6</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">6+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">5+</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">3+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">10</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">13/15</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">2</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="a00e-ae90-fb45-d2a0" name="Mindthirst" hidden="false" targetId="84a4-5919-1d93-a1f3" type="rule"/>
+        <infoLink id="978b-06f3-78dd-3482" name="Stealthy" hidden="false" targetId="bdd0-eb1b-bf45-750e" type="rule"/>
+        <infoLink id="1b64-5782-245c-e74c" name="Pathfinder" hidden="false" targetId="0bf5-2b12-5cc7-a963" type="rule"/>
+        <infoLink id="790a-36b9-b875-93e3" name="Piercing" hidden="false" targetId="cc29-8e7d-2a0e-c995" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="06f4-8710-c162-5686" name="New CategoryLink" hidden="false" targetId="616e-c1cf-de59-ed6e" primary="true"/>
         <categoryLink id="2138-6da7-e307-266c" name="$$Inf/Hvy Inf/Cav/Cht REGIMENT" hidden="false" targetId="9f55-3ef2-5914-9436" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="f5a8-f5ae-e0ba-efdd" name="Magical Artefacts" hidden="false" collective="false" import="true" targetId="6816-61a6-c6f9-a79e" type="selectionEntryGroup"/>
+        <entryLink id="59a9-91b1-0427-3bab" name=" Unlocked Troops (2) [Visual Indicator/Reminder]" hidden="false" collective="false" import="true" targetId="161d-e8c0-0ed4-d2aa" type="selectionEntryGroup"/>
+        <entryLink id="e57d-719d-a0fd-36f7" name=" Unlocked Unit (Pick 1) [Visual Indicator/Reminder]" hidden="false" collective="false" import="true" targetId="cdc9-7db6-77ed-e134" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="  US" typeId="8bd1-3402-32b0-82da" value="2.0"/>
@@ -254,6 +594,29 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="1b21-b875-bcff-1d22" name="Spectres (40) Horde" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="faf5-6c89-5372-9ad9" name="A: Spectres (40) Horde" publicationId="eab5-a7fe-b282-0b56" page="370" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Inf</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Phantasm</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Mindthirst, Pathfinder, Stealthy, &lt;Shadowbolts: 18&quot;, Piercing (1)&gt;</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">6</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">6+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">5+</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">3+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">20</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">20/22</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">3</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="540b-3492-4ff4-f318" name="Mindthirst" hidden="false" targetId="84a4-5919-1d93-a1f3" type="rule"/>
+        <infoLink id="5d41-6f52-cffd-66e5" name="Stealthy" hidden="false" targetId="bdd0-eb1b-bf45-750e" type="rule"/>
+        <infoLink id="ed40-4b8e-4efa-cb48" name="Pathfinder" hidden="false" targetId="0bf5-2b12-5cc7-a963" type="rule"/>
+        <infoLink id="19d8-b567-e28a-fcf2" name="Piercing" hidden="false" targetId="cc29-8e7d-2a0e-c995" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="69a8-1132-ac0c-4bcb" name="New CategoryLink" hidden="false" targetId="616e-c1cf-de59-ed6e" primary="true"/>
         <categoryLink id="5fd7-f40d-e7f0-9c4f" name="$$Inf/Hvy Inf/Cav/Cht HORDE/LEGION" hidden="false" targetId="9453-4e62-79da-bc74" primary="false"/>
@@ -261,6 +624,8 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="4f9e-e0d2-5742-4805" name="Magical Artefacts" hidden="false" collective="false" import="true" targetId="6816-61a6-c6f9-a79e" type="selectionEntryGroup"/>
+        <entryLink id="2829-835a-9e8c-e6fd" name=" Unlocked Troops (4) [Visual Indicator/Reminder]" hidden="false" collective="false" import="true" targetId="6218-0350-198b-26f8" type="selectionEntryGroup"/>
+        <entryLink id="32b1-076b-2945-6a9e" name=" Unlocked Units (Pick 3) [Visual Indicator/Reminder]" hidden="false" collective="false" import="true" targetId="cc00-4905-3626-245b" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="  US" typeId="8bd1-3402-32b0-82da" value="3.0"/>
@@ -268,6 +633,30 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="ee1e-8003-d4e0-23b1" name="Shadowhounds* (05) Troop" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="063c-dd02-7cfc-14e2" name="C: Shadowhounds* (05) Troop" publicationId="eab5-a7fe-b282-0b56" page="370" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Cav</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Beast, Nightmare</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Mindthirst, Nimble, Regeneration (5+), Stealthy, Thunderous Charge (1)</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">9</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">4+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">4+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">10</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">11/13</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">1</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="3bf9-c14b-f029-058c" name="Mindthirst" hidden="false" targetId="84a4-5919-1d93-a1f3" type="rule"/>
+        <infoLink id="fc62-6a5d-0f5b-9288" name="Stealthy" hidden="false" targetId="bdd0-eb1b-bf45-750e" type="rule"/>
+        <infoLink id="804e-55be-cd52-7871" name="Nimble" hidden="false" targetId="b79a-f274-5123-df1d" type="rule"/>
+        <infoLink id="a769-51d6-abbd-17e2" name="Regeneration" hidden="false" targetId="5815-9306-b2e7-0436" type="rule"/>
+        <infoLink id="c2ef-d4a4-5988-9f59" name="Thunderous Charge" hidden="false" targetId="a8ce-2f96-b0be-47d6" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="e5e6-e1fe-6d27-5f3a" name="New CategoryLink" hidden="false" targetId="f4f2-57cc-03dc-1dcc" primary="true"/>
         <categoryLink id="0475-54ad-4a11-a54d" name="@Troop" hidden="false" targetId="9a33-dbd7-2f61-bf74" primary="false"/>
@@ -282,6 +671,30 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="b7bb-55d0-e25c-0af2" name="Shadowhounds* (10) Regiment" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="1c36-7152-1f98-e1f8" name="C: Shadowhounds* (10) Regiment" publicationId="eab5-a7fe-b282-0b56" page="370" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Cav</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Beast, Nightmare</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Mindthirst, Nimble, Regeneration (5+), Stealthy, Thunderous Charge (1)</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">9</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">4+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">4+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">20</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">14/16</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">3</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="0f66-7532-8cc8-c5c5" name="Mindthirst" hidden="false" targetId="84a4-5919-1d93-a1f3" type="rule"/>
+        <infoLink id="ba40-7cf2-2038-c812" name="Stealthy" hidden="false" targetId="bdd0-eb1b-bf45-750e" type="rule"/>
+        <infoLink id="8507-f8ae-4842-9713" name="Nimble" hidden="false" targetId="b79a-f274-5123-df1d" type="rule"/>
+        <infoLink id="c8cc-91e6-cded-73aa" name="Regeneration" hidden="false" targetId="5815-9306-b2e7-0436" type="rule"/>
+        <infoLink id="d9db-f318-4629-2da3" name="Thunderous Charge" hidden="false" targetId="a8ce-2f96-b0be-47d6" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="5850-aa94-ea9f-80ec" name="New CategoryLink" hidden="false" targetId="f4f2-57cc-03dc-1dcc" primary="true"/>
         <categoryLink id="50d9-b09e-918d-bb25" name="@Troop" hidden="false" targetId="9a33-dbd7-2f61-bf74" primary="false"/>
@@ -296,6 +709,30 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="170f-4d2e-f856-db32" name="Needle-fangs* (03) Regiment" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="8194-1baa-b730-1d3d" name="D: Needle-fangs* (03) Regiment" publicationId="eab5-a7fe-b282-0b56" page="370" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Swa</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Beast, Nightmare, Warp Pixies</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Fly, Mindthirst, Nimble, Stealthy, Strider</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">7</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">5+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">2+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">12</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">9/11</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">1</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="331d-5406-ba3a-ae54" name="Fly" hidden="false" targetId="dc50-fdaa-d751-9cdf" type="rule"/>
+        <infoLink id="f33b-436f-1509-3d32" name="Mindthirst" hidden="false" targetId="84a4-5919-1d93-a1f3" type="rule"/>
+        <infoLink id="0f87-1fa1-08f2-40bf" name="Nimble" hidden="false" targetId="b79a-f274-5123-df1d" type="rule"/>
+        <infoLink id="4275-76c7-2902-a4ed" name="Stealthy" hidden="false" targetId="bdd0-eb1b-bf45-750e" type="rule"/>
+        <infoLink id="77ba-61da-a112-72c9" name="Strider" hidden="false" targetId="e70c-1148-97d1-9348" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="9b71-f757-9d00-fce5" name="New CategoryLink" hidden="false" targetId="51dd-aacc-196c-7085" primary="true"/>
         <categoryLink id="2a90-591b-9914-b774" name="@Troop" hidden="false" targetId="9a33-dbd7-2f61-bf74" primary="false"/>
@@ -310,6 +747,30 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="be2a-fca1-3872-85d8" name="Needle-fangs* (06) Horde" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="9edf-a2fc-5987-d05c" name="D: Needle-fangs* (06) Horde" publicationId="eab5-a7fe-b282-0b56" page="370" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Swa</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Beast, Nightmare, Warp Pixies</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Fly, Mindthirst, Nimble, Stealthy, Strider</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">7</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">5+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">2+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">24</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">12/14</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">1</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="de10-8db8-3803-5727" name="Fly" hidden="false" targetId="dc50-fdaa-d751-9cdf" type="rule"/>
+        <infoLink id="0799-4d16-8652-f5a7" name="Mindthirst" hidden="false" targetId="84a4-5919-1d93-a1f3" type="rule"/>
+        <infoLink id="785b-9680-0232-aa73" name="Nimble" hidden="false" targetId="b79a-f274-5123-df1d" type="rule"/>
+        <infoLink id="45e1-cc0a-529b-3594" name="Stealthy" hidden="false" targetId="bdd0-eb1b-bf45-750e" type="rule"/>
+        <infoLink id="d551-9bf5-2d5d-fc06" name="Strider" hidden="false" targetId="e70c-1148-97d1-9348" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="d411-aafa-5ea4-1c0f" name="New CategoryLink" hidden="false" targetId="51dd-aacc-196c-7085" primary="true"/>
         <categoryLink id="87b8-2c65-b6d7-8eae" name="@Troop" hidden="false" targetId="9a33-dbd7-2f61-bf74" primary="false"/>
@@ -325,6 +786,28 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="fb3d-af5e-eeb0-52f1" name="Butchers (03) Regiment" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="9dfd-4386-ed79-4959" name="E: Butchers (03) Regiment" publicationId="eab5-a7fe-b282-0b56" page="370" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Lrg Inf</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Abomination, Nightmare</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Crushing Strength (2), Mindthirst, Stealthy</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">6</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">4+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">5+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">9</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">-/15</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">2</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="e44d-8681-2365-5d1e" name="Mindthirst" hidden="false" targetId="84a4-5919-1d93-a1f3" type="rule"/>
+        <infoLink id="64ef-8629-94f8-8880" name="Stealthy" hidden="false" targetId="bdd0-eb1b-bf45-750e" type="rule"/>
+        <infoLink id="2887-0340-783d-7345" name="Crushing Strength" hidden="false" targetId="3131-8f0a-0927-8489" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="62dc-56e9-2223-2343" name="New CategoryLink" hidden="false" targetId="0074-fa7f-9e80-cd99" primary="true"/>
       </categoryLinks>
@@ -337,6 +820,28 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="eb54-b567-1aef-5873" name="Butchers (06) Horde" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="2acb-246c-be86-5745" name="E: Butchers (06) Horde" publicationId="eab5-a7fe-b282-0b56" page="370" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Lrg Inf</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Abomination, Nightmare</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Crushing Strength (2), Mindthirst, Stealthy</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">6</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">4+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">5+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">18</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">-/18</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">3</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="ed84-2e45-5479-df6c" name="Mindthirst" hidden="false" targetId="84a4-5919-1d93-a1f3" type="rule"/>
+        <infoLink id="4a25-e45b-dfc3-042e" name="Stealthy" hidden="false" targetId="bdd0-eb1b-bf45-750e" type="rule"/>
+        <infoLink id="e190-61f3-3a43-9161" name="Crushing Strength" hidden="false" targetId="3131-8f0a-0927-8489" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="a5bf-780e-c3fd-df08" name="New CategoryLink" hidden="false" targetId="0074-fa7f-9e80-cd99" primary="true"/>
         <categoryLink id="7608-a40f-c195-8d80" name="$$Swa/Lrg Inf/Mon Inf/Lrg Cav HORDE" hidden="false" targetId="ad92-e9d5-07d8-3484" primary="false"/>
@@ -344,6 +849,8 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="3ceb-e494-48ee-77e5" name="Magical Artefacts" hidden="false" collective="false" import="true" targetId="6816-61a6-c6f9-a79e" type="selectionEntryGroup"/>
+        <entryLink id="acd4-9e62-96a4-2907" name=" Unlocked Troops (2) [Visual Indicator/Reminder]" hidden="false" collective="false" import="true" targetId="161d-e8c0-0ed4-d2aa" type="selectionEntryGroup"/>
+        <entryLink id="f516-0b7f-98d9-0bc1" name=" Unlocked Units (Pick 1) [Visual Indicator/Reminder]" hidden="false" collective="false" import="true" targetId="a4ea-60c0-092b-1ec8" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="  US" typeId="8bd1-3402-32b0-82da" value="3.0"/>
@@ -363,6 +870,34 @@
         <constraint field="selections" scope="402d-7263-42d3-2871" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3482-2474-f48f-147b" type="max"/>
         <constraint field="selections" scope="0245-63ef-fb4c-50ca" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa37-1f4c-2437-5ab9" type="max"/>
       </constraints>
+      <profiles>
+        <profile id="8f20-29e9-688e-bf64" name="J: Mind-screech" publicationId="eab5-a7fe-b282-0b56" page="370" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Mon</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">~Spellcaster: 0, Insidious, Nightmare</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Fly, Mindthirst, Nimble, Pathfinder, Stealthy
+~Lightning Bolt (6) ~Mind Fog (6) ~Wind Blast (6)</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">6</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">4+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">4+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">5</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">13/15</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">1</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">5</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="73c1-522c-0376-138c" name="Mindthirst" hidden="false" targetId="84a4-5919-1d93-a1f3" type="rule"/>
+        <infoLink id="895a-307a-504b-8371" name="Stealthy" hidden="false" targetId="bdd0-eb1b-bf45-750e" type="rule"/>
+        <infoLink id="f91c-7184-374b-a425" name="Fly" hidden="false" targetId="dc50-fdaa-d751-9cdf" type="rule"/>
+        <infoLink id="2880-c2b4-b8b3-dd01" name="Nimble" hidden="false" targetId="b79a-f274-5123-df1d" type="rule"/>
+        <infoLink id="b17d-e4a4-c09b-175e" name="Pathfinder" hidden="false" targetId="0bf5-2b12-5cc7-a963" type="rule"/>
+        <infoLink id="6eb8-e1f5-4377-15ad" name="~Lightning Bolt" hidden="false" targetId="643b-d49d-8d14-c765" type="rule"/>
+        <infoLink id="52e7-be14-ba5f-eb7e" name="~Mind Fog" hidden="false" targetId="1653-0b95-2ac5-e2d3" type="rule"/>
+        <infoLink id="54e7-f850-5c3d-83f7" name="~Wind Blast" hidden="false" targetId="da65-6a10-c6a3-9022" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="d551-a6e4-9da0-4078" name="New CategoryLink" hidden="false" targetId="3bc2-7070-6db9-5437" primary="true"/>
         <categoryLink id="113d-e904-c6b7-65d7" name="@Hero/Mon/Ttn/War Eng" hidden="false" targetId="3f26-cf3d-d182-e055" primary="false"/>
@@ -392,6 +927,47 @@
         <constraint field="selections" scope="402d-7263-42d3-2871" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f7b-b172-092f-aab9" type="max"/>
         <constraint field="selections" scope="0245-63ef-fb4c-50ca" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="522f-71e9-6091-3f29" type="max"/>
       </constraints>
+      <profiles>
+        <profile id="9f0a-c4c2-9d95-179b" name="J: Planar Apparition" publicationId="eab5-a7fe-b282-0b56" page="370" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <modifiers>
+            <modifier type="append" field="0e93-1f12-f5f3-c8df" value="~Icy Breath (8)">
+              <conditions>
+                <condition field="selections" scope="cea5-2504-068a-c580" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f008-6e84-0050-fc77" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" field="0e93-1f12-f5f3-c8df" value="~Bastion (2) [1]">
+              <conditions>
+                <condition field="selections" scope="cea5-2504-068a-c580" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4512-7e82-747a-0ef0" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Mon</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">~Spellcaster: 0, Phantasm</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Crushing Strength (1), Dread, Ensnare, Mindthirst, Nimble, Regeneration (4+), Stealthy
+~Heal (7) ~Mind Fog (2)</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">7</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">3+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">3+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">4</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">13/15</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">1</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">5</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="36cd-b490-df95-1a0d" name="Mindthirst" hidden="false" targetId="84a4-5919-1d93-a1f3" type="rule"/>
+        <infoLink id="b54a-5ada-d337-f9ce" name="Nimble" hidden="false" targetId="b79a-f274-5123-df1d" type="rule"/>
+        <infoLink id="04ad-fb82-0f3f-9420" name="Stealthy" hidden="false" targetId="bdd0-eb1b-bf45-750e" type="rule"/>
+        <infoLink id="6ff7-db38-afd3-f6a4" name="~Mind Fog" hidden="false" targetId="1653-0b95-2ac5-e2d3" type="rule"/>
+        <infoLink id="1840-9d7b-9db9-a837" name="Crushing Strength" hidden="false" targetId="3131-8f0a-0927-8489" type="rule"/>
+        <infoLink id="a1f7-83d4-19f5-db08" name="Dread" hidden="false" targetId="aeda-9ce3-1c58-5e26" type="rule"/>
+        <infoLink id="5156-d9d9-113e-78d6" name="Ensnare" hidden="false" targetId="3b62-ea44-71f8-1c42" type="rule"/>
+        <infoLink id="aa5d-c439-ec99-dc12" name="Regeneration" hidden="false" targetId="5815-9306-b2e7-0436" type="rule"/>
+        <infoLink id="88d6-7779-d2a8-aaf3" name="~Heal" hidden="false" targetId="a125-9eee-fc99-05f7" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="b76d-2b87-6194-40df" name="New CategoryLink" hidden="false" targetId="3bc2-7070-6db9-5437" primary="true"/>
         <categoryLink id="7ed0-3db7-da9a-97b1" name="@Hero/Mon/Ttn/War Eng" hidden="false" targetId="3f26-cf3d-d182-e055" primary="false"/>
@@ -404,6 +980,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e920-d160-c671-3464" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6691-0057-cbfe-c298" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="2683-38d0-a5ab-9752" name="~Bastion [1]" hidden="false" targetId="4276-9c10-70eb-16fb" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="20.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -413,6 +992,9 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5090-a342-72ee-2dfa" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="dae3-5e60-98f2-470a" name="~Icy Breath" hidden="false" targetId="d8d1-1c0b-b26b-5b8a" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="25.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -437,6 +1019,31 @@
         <constraint field="selections" scope="402d-7263-42d3-2871" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1603-805b-e3e3-349d" type="max"/>
         <constraint field="selections" scope="0245-63ef-fb4c-50ca" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e5b-35fe-88f3-510a" type="max"/>
       </constraints>
+      <profiles>
+        <profile id="5666-9b7c-eac1-762b" name="J: Horror Riftweavers" publicationId="eab5-a7fe-b282-0b56" page="370" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Mon</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Horror, Nightmare</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Crushing Strength (1), Dread, Individual, Mighty, Mindthirst, Stealthy</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">6</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">4+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">3+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">D6 +6</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">11/13</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">0</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="c36c-2c00-863f-fc5d" name="Crushing Strength" hidden="false" targetId="3131-8f0a-0927-8489" type="rule"/>
+        <infoLink id="6b1f-86bd-04ee-43aa" name="Dread" hidden="false" targetId="aeda-9ce3-1c58-5e26" type="rule"/>
+        <infoLink id="8a63-30ed-3799-74a6" name="Mindthirst" hidden="false" targetId="84a4-5919-1d93-a1f3" type="rule"/>
+        <infoLink id="7b7f-08ed-8a91-bfa0" name="Stealthy" hidden="false" targetId="bdd0-eb1b-bf45-750e" type="rule"/>
+        <infoLink id="075d-a3e7-3ce8-25c3" name="Individual" hidden="false" targetId="9657-1079-91be-b2bd" type="rule"/>
+        <infoLink id="acff-fdc8-c4b2-bd78" name="Mighty" hidden="false" targetId="f92c-c1b5-e7bf-0593" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="3d1c-d5c1-2812-bf35" name="New CategoryLink" hidden="false" targetId="3bc2-7070-6db9-5437" primary="true"/>
         <categoryLink id="6202-4f8f-29d4-ab4d" name="@Hero/Mon/Ttn/War Eng" hidden="false" targetId="3f26-cf3d-d182-e055" primary="false"/>
@@ -449,6 +1056,29 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="e538-092a-07d5-2782" name="Fiends (03) Regiment" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="7540-9803-1326-ea09" name="G: Fiends (03) Regiment" publicationId="eab5-a7fe-b282-0b56" page="371" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Lrg Cav</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Cunning, Nightmare</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Crushing Strength (1), Mindthirst, Stealthy, Vicious:(Melee)</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">8</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">4+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">4+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">12</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">13/15</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">2</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">4</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="d55e-3154-9e64-b61c" name="Crushing Strength" hidden="false" targetId="3131-8f0a-0927-8489" type="rule"/>
+        <infoLink id="a662-7ec0-a513-92e4" name="Mindthirst" hidden="false" targetId="84a4-5919-1d93-a1f3" type="rule"/>
+        <infoLink id="1e25-5ebf-a648-f365" name="Stealthy" hidden="false" targetId="bdd0-eb1b-bf45-750e" type="rule"/>
+        <infoLink id="95b5-fb5a-91ab-2ecd" name="Vicious" hidden="false" targetId="47c7-1334-d1bf-24d9" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="793a-6414-40bc-1d17" name="New CategoryLink" hidden="false" targetId="2d7f-1dae-9a2c-ca2f" primary="true"/>
       </categoryLinks>
@@ -461,6 +1091,29 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="a435-989e-1ddb-bbed" name="Fiends (06) Horde" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="8819-be3d-5062-b941" name="G: Fiends (06) Horde" publicationId="eab5-a7fe-b282-0b56" page="371" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Lrg Cav</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Cunning, Nightmare</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Crushing Strength (1), Mindthirst, Stealthy, Vicious:(Melee)</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">8</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">4+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">4+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">24</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">16/18</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">3</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">4</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="4a56-a2a3-85a3-377b" name="Crushing Strength" hidden="false" targetId="3131-8f0a-0927-8489" type="rule"/>
+        <infoLink id="951a-3f82-1281-72d8" name="Mindthirst" hidden="false" targetId="84a4-5919-1d93-a1f3" type="rule"/>
+        <infoLink id="51ad-5e15-5afa-a4e1" name="Stealthy" hidden="false" targetId="bdd0-eb1b-bf45-750e" type="rule"/>
+        <infoLink id="25e2-564e-6e1c-2bd3" name="Vicious" hidden="false" targetId="47c7-1334-d1bf-24d9" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="4596-7b66-d24e-61bd" name="New CategoryLink" hidden="false" targetId="2d7f-1dae-9a2c-ca2f" primary="true"/>
         <categoryLink id="2367-f1f7-b529-e34b" name="$$Swa/Lrg Inf/Mon Inf/Lrg Cav HORDE" hidden="false" targetId="ad92-e9d5-07d8-3484" primary="false"/>
@@ -468,6 +1121,8 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="3b43-060e-a436-3674" name="Magical Artefacts" hidden="false" collective="false" import="true" targetId="6816-61a6-c6f9-a79e" type="selectionEntryGroup"/>
+        <entryLink id="b89f-b485-77cb-d3e0" name=" Unlocked Troops (2) [Visual Indicator/Reminder]" hidden="false" collective="false" import="true" targetId="161d-e8c0-0ed4-d2aa" type="selectionEntryGroup"/>
+        <entryLink id="b240-8cb8-3c0a-1836" name=" Unlocked Units (Pick 1) [Visual Indicator/Reminder]" hidden="false" collective="false" import="true" targetId="a4ea-60c0-092b-1ec8" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="  US" typeId="8bd1-3402-32b0-82da" value="3.0"/>
@@ -475,6 +1130,32 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="e23e-169e-f28b-5a9e" name="Soulflayers* (03) Regiment" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="dc67-5f72-8a11-bcf7" name="G: Soulflayers* (03) Regiment" publicationId="eab5-a7fe-b282-0b56" page="371" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Lrg Cav</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">~Spellcaster: 0, Nightmare</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Crushing Strength (1), Fly, Mindthirst, Stealthy, Thunderous Charge (1)
+~Wind Blast (5)</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">10</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">3+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">4+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">9</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">13/15</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">2</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">4</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="7179-8df2-bdf1-a6a7" name="Crushing Strength" hidden="false" targetId="3131-8f0a-0927-8489" type="rule"/>
+        <infoLink id="6e79-bd22-8718-b10f" name="Mindthirst" hidden="false" targetId="84a4-5919-1d93-a1f3" type="rule"/>
+        <infoLink id="8f8a-0f23-7829-1704" name="Stealthy" hidden="false" targetId="bdd0-eb1b-bf45-750e" type="rule"/>
+        <infoLink id="0f7f-2bee-c439-c688" name="Fly" hidden="false" targetId="dc50-fdaa-d751-9cdf" type="rule"/>
+        <infoLink id="d7a6-44cd-63c7-c925" name="Thunderous Charge" hidden="false" targetId="a8ce-2f96-b0be-47d6" type="rule"/>
+        <infoLink id="d9fa-4b99-aaa9-d590" name="~Wind Blast" hidden="false" targetId="da65-6a10-c6a3-9022" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="d0d2-ef72-01c0-44eb" name="New CategoryLink" hidden="false" targetId="2d7f-1dae-9a2c-ca2f" primary="true"/>
         <categoryLink id="f341-3d9f-080d-3ba7" name="@Troop" hidden="false" targetId="9a33-dbd7-2f61-bf74" primary="false"/>
@@ -501,6 +1182,31 @@
         <constraint field="selections" scope="402d-7263-42d3-2871" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="faaa-2dd2-0bc2-48ec" type="max"/>
         <constraint field="selections" scope="0245-63ef-fb4c-50ca" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f2e6-724d-cc45-5abf" type="max"/>
       </constraints>
+      <profiles>
+        <profile id="d915-d559-4f48-535b" name="K: Terror" publicationId="eab5-a7fe-b282-0b56" page="371" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Ttn</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Abomination, Nightmare</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Crushing Strength (2), Ensnare, Mindthirst, Regeneration (4+), Stealthy, Strider</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">7</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">3+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">3+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">10</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">-/19</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">1</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">6</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="acdc-af21-ef05-ed46" name="Crushing Strength" hidden="false" targetId="3131-8f0a-0927-8489" type="rule"/>
+        <infoLink id="0393-17df-5ec4-a5d3" name="Mindthirst" hidden="false" targetId="84a4-5919-1d93-a1f3" type="rule"/>
+        <infoLink id="4178-340d-ad7c-2094" name="Stealthy" hidden="false" targetId="bdd0-eb1b-bf45-750e" type="rule"/>
+        <infoLink id="caf8-f1ae-c8a2-ea71" name="Ensnare" hidden="false" targetId="3b62-ea44-71f8-1c42" type="rule"/>
+        <infoLink id="ad19-89ce-a95b-f884" name="Regeneration" hidden="false" targetId="5815-9306-b2e7-0436" type="rule"/>
+        <infoLink id="1a65-4933-bd22-f1bf" name="Strider" hidden="false" targetId="e70c-1148-97d1-9348" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="6796-2032-2653-db1d" name="New CategoryLink" hidden="false" targetId="1147-f7f8-1825-be09" primary="true"/>
         <categoryLink id="b117-d38f-4018-91e4" name="@Hero/Mon/Ttn/War Eng" hidden="false" targetId="3f26-cf3d-d182-e055" primary="false"/>
@@ -525,6 +1231,29 @@
         <constraint field="selections" scope="402d-7263-42d3-2871" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a16a-23e6-6f37-9e40" type="max"/>
         <constraint field="selections" scope="0245-63ef-fb4c-50ca" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d24-920a-6ca4-8147" type="max"/>
       </constraints>
+      <profiles>
+        <profile id="eb6c-be42-0069-9e63" name="K: Shadow-hulk" publicationId="eab5-a7fe-b282-0b56" page="371" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Ttn</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Abomination, Cyclops, Giant</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Crushing Strength (3), Mindthirst, Stealthy, Strider</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">6</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">3+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">5+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">D6 +6</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">-/20</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">1</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">6</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="1203-d7e6-a55b-ee33" name="Crushing Strength" hidden="false" targetId="3131-8f0a-0927-8489" type="rule"/>
+        <infoLink id="d2b3-73d3-bf52-12c7" name="Mindthirst" hidden="false" targetId="84a4-5919-1d93-a1f3" type="rule"/>
+        <infoLink id="aa9a-e39d-b27c-2496" name="Stealthy" hidden="false" targetId="bdd0-eb1b-bf45-750e" type="rule"/>
+        <infoLink id="de8b-bc2c-d858-3aaa" name="Strider" hidden="false" targetId="e70c-1148-97d1-9348" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="4784-e80a-b995-d6a0" name="New CategoryLink" hidden="false" targetId="1147-f7f8-1825-be09" primary="true"/>
         <categoryLink id="25ef-f7c7-379c-7b2f" name="@Hero/Mon/Ttn/War Eng" hidden="false" targetId="3f26-cf3d-d182-e055" primary="false"/>
@@ -540,6 +1269,32 @@
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4ef9-3cd7-eddb-2aba" type="max"/>
       </constraints>
+      <profiles>
+        <profile id="745e-cd93-14e9-17b8" name="K: Portal of Despair [1]" publicationId="eab5-a7fe-b282-0b56" page="371" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Ttn</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Construct, Shrine</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Dread, Visions from the Void</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">5</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">4+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">5+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">3</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">-/16</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">1</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">6</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="4d50-e4f7-3a6d-094d" name="Visions from the Void" publicationId="eab5-a7fe-b282-0b56" page="371" hidden="false">
+          <description>Portal of Despair [1]: As long as this unit is present and in play on the table, at the start of each of your Ranged Phases you may select 1 Friendly Core unit on the battlefield, regardless of range or LoS. The selected unit is granted Inspiring until the start of your next Turn. Note: Base size cannot be increased beyond 75x75mm.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="6fc2-94c8-e540-532f" name="Inspiring" hidden="false" targetId="7c18-e2b7-bc3b-fe10" type="rule"/>
+        <infoLink id="2a09-e0f0-7a25-20ff" name="Dread" hidden="false" targetId="aeda-9ce3-1c58-5e26" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="17ce-ed12-d8c2-764f" name="New CategoryLink" hidden="false" targetId="1147-f7f8-1825-be09" primary="true"/>
         <categoryLink id="d12f-8b35-8f89-9bd4" name="@Hero/Mon/Ttn/War Eng" hidden="false" targetId="3f26-cf3d-d182-e055" primary="false"/>
@@ -565,6 +1320,31 @@
         <constraint field="selections" scope="402d-7263-42d3-2871" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="19f0-766c-3393-f6a2" type="max"/>
         <constraint field="selections" scope="0245-63ef-fb4c-50ca" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="843b-e66a-bd49-9381" type="max"/>
       </constraints>
+      <profiles>
+        <profile id="d651-a41e-7c37-836b" name="R: Dread-fiend" publicationId="eab5-a7fe-b282-0b56" page="372" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Hero (Lrg Cav)</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Cunning, Nightmare</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Crushing Strength (2), Dread, Mindthirst, Nimble, Stealthy, Vicious:(Melee)</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">8</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">3+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">4+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">5</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">14/16</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">1</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">4</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="fc38-19f3-4b18-1277" name="Dread" hidden="false" targetId="aeda-9ce3-1c58-5e26" type="rule"/>
+        <infoLink id="ab55-5f94-4ff5-0c93" name="Crushing Strength" hidden="false" targetId="3131-8f0a-0927-8489" type="rule"/>
+        <infoLink id="0280-6f49-3be8-7676" name="Mindthirst" hidden="false" targetId="84a4-5919-1d93-a1f3" type="rule"/>
+        <infoLink id="a319-9cc1-2d67-d995" name="Stealthy" hidden="false" targetId="bdd0-eb1b-bf45-750e" type="rule"/>
+        <infoLink id="7cae-c1a1-ba9e-4c73" name="Vicious" hidden="false" targetId="47c7-1334-d1bf-24d9" type="rule"/>
+        <infoLink id="a3ae-e3c6-2f38-be70" name="Nimble" hidden="false" targetId="b79a-f274-5123-df1d" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="bc3a-3a3b-1ddb-985c" name="New CategoryLink" hidden="false" targetId="b057-19ac-bee2-ac91" primary="true"/>
         <categoryLink id="e32a-084e-6f7d-bdf8" name="@Hero" hidden="false" targetId="4ea0-3a9b-13be-2767" primary="false"/>
@@ -592,6 +1372,32 @@
         <constraint field="selections" scope="402d-7263-42d3-2871" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="17bc-f5f3-65a1-ac6f" type="max"/>
         <constraint field="selections" scope="0245-63ef-fb4c-50ca" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0663-664c-de72-950c" type="max"/>
       </constraints>
+      <profiles>
+        <profile id="c978-c5b6-4c6b-8102" name="V: Void Lurker" publicationId="eab5-a7fe-b282-0b56" page="372" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Hero (Ttn)</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Phantasm, Voracious</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Crushing Strength (2), Fly, Mindthirst, Nimble, Regeneration (5+), Stealthy, Thunderous Charge (1)</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">10</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">3+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">4+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">10</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">17/19</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">1</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">6</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="8358-8dff-b9a0-641c" name="Crushing Strength" hidden="false" targetId="3131-8f0a-0927-8489" type="rule"/>
+        <infoLink id="c531-7f30-0ea5-690a" name="Fly" hidden="false" targetId="dc50-fdaa-d751-9cdf" type="rule"/>
+        <infoLink id="1a2d-3816-b586-6608" name="Mindthirst" hidden="false" targetId="84a4-5919-1d93-a1f3" type="rule"/>
+        <infoLink id="b95d-8f45-50a7-3ac6" name="Nimble" hidden="false" targetId="b79a-f274-5123-df1d" type="rule"/>
+        <infoLink id="aa6b-34e7-9e90-bd32" name="Regeneration" hidden="false" targetId="5815-9306-b2e7-0436" type="rule"/>
+        <infoLink id="4e9d-ae75-c734-3bb0" name="Stealthy" hidden="false" targetId="bdd0-eb1b-bf45-750e" type="rule"/>
+        <infoLink id="c979-9381-7dc6-928f" name="Thunderous Charge" hidden="false" targetId="a8ce-2f96-b0be-47d6" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="e765-0092-d937-751a" name="New CategoryLink" hidden="false" targetId="b057-19ac-bee2-ac91" primary="true"/>
         <categoryLink id="94e4-698b-b2ae-45a5" name="@Hero" hidden="false" targetId="4ea0-3a9b-13be-2767" primary="false"/>
@@ -619,6 +1425,31 @@
         <constraint field="selections" scope="402d-7263-42d3-2871" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1317-935f-ef4a-67d2" type="max"/>
         <constraint field="selections" scope="0245-63ef-fb4c-50ca" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5cd7-89a8-7e96-9648" type="max"/>
       </constraints>
+      <profiles>
+        <profile id="6ca3-bec2-e60c-5153" name="L: Shade" publicationId="eab5-a7fe-b282-0b56" page="372" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Hero (Inf)</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Phantasm</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Crushing Strength (1), Dread, Fly, Individual, Mindthirst, Stealthy</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">10</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">3+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">5+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">5</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">11/13</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">0</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="3cea-42fe-f596-fdfb" name="Crushing Strength" hidden="false" targetId="3131-8f0a-0927-8489" type="rule"/>
+        <infoLink id="da46-5158-7702-7ce1" name="Dread" hidden="false" targetId="aeda-9ce3-1c58-5e26" type="rule"/>
+        <infoLink id="d808-b326-d0b4-663c" name="Fly" hidden="false" targetId="dc50-fdaa-d751-9cdf" type="rule"/>
+        <infoLink id="b37e-7d04-ff7c-64eb" name="Mindthirst" hidden="false" targetId="84a4-5919-1d93-a1f3" type="rule"/>
+        <infoLink id="9215-a87e-3860-4152" name="Stealthy" hidden="false" targetId="bdd0-eb1b-bf45-750e" type="rule"/>
+        <infoLink id="0974-6b5f-7bdc-c6de" name="Individual" hidden="false" targetId="9657-1079-91be-b2bd" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="cd39-63e2-ca9b-f29a" name="New CategoryLink" hidden="false" targetId="b057-19ac-bee2-ac91" primary="true"/>
         <categoryLink id="2585-5236-b4e2-b9a0" name="@Hero/Mon/Ttn/War Eng" hidden="false" targetId="3f26-cf3d-d182-e055" primary="false"/>
@@ -631,6 +1462,10 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="369c-64e8-2d44-12d5" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="13e8-a255-d9b8-8178" name="Lifeleech" hidden="false" targetId="2fcc-d747-ea72-2828" type="rule"/>
+            <infoLink id="0c30-1749-6033-1ebe" name="Screamshard" hidden="false" targetId="7d01-1178-33ca-756d" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="5.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -658,6 +1493,61 @@
         <constraint field="selections" scope="402d-7263-42d3-2871" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f53-5384-94e0-d22e" type="max"/>
         <constraint field="selections" scope="0245-63ef-fb4c-50ca" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e0a7-e4b0-d1a7-da2c" type="max"/>
       </constraints>
+      <profiles>
+        <profile id="c6ef-7b56-145a-db5a" name="L: Horror" publicationId="eab5-a7fe-b282-0b56" page="372" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <modifiers>
+            <modifier type="set" field="0e93-1f12-f5f3-c8df" value="Aura (Vicious:(Melee):(Inf only)), Individual, Mindthirst, Stealthy ">
+              <conditions>
+                <condition field="selections" scope="af6e-cd9c-71b0-7aef" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d8dc-27ab-1798-e131" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" field="0e93-1f12-f5f3-c8df" value="~Bane Chant (2) ~Lightning Bolt (3)">
+              <conditions>
+                <condition field="selections" scope="af6e-cd9c-71b0-7aef" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7066-3b6b-5947-b4ec" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" field="0e93-1f12-f5f3-c8df" value="~Bane Chant (2)">
+              <conditions>
+                <condition field="selections" scope="af6e-cd9c-71b0-7aef" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a366-08c4-176e-7074" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" field="0e93-1f12-f5f3-c8df" value="~Lightning Bolt (3)">
+              <conditions>
+                <condition field="selections" scope="af6e-cd9c-71b0-7aef" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0892-377a-b8a4-6ce1" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" field="0e93-1f12-f5f3-c8df" value="~Mind Fog (2)">
+              <conditions>
+                <condition field="selections" scope="af6e-cd9c-71b0-7aef" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="745c-ee9e-bf0d-8bff" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" field="0e93-1f12-f5f3-c8df" value="~Weakness (2)">
+              <conditions>
+                <condition field="selections" scope="af6e-cd9c-71b0-7aef" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e912-8b7d-6f72-8c75" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Hero (Inf)</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">~Spellcaster: 1, Horror, Nightmare</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Individual, Mindthirst, Stealthy
+</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">6</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">5+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">3+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">1</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">11/13</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">0</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="a549-6420-9b93-aa7b" name="Individual" hidden="false" targetId="9657-1079-91be-b2bd" type="rule"/>
+        <infoLink id="b5b2-ef9e-9582-e547" name="Mindthirst" hidden="false" targetId="84a4-5919-1d93-a1f3" type="rule"/>
+        <infoLink id="44a1-9794-9f33-8b91" name="Stealthy" hidden="false" targetId="bdd0-eb1b-bf45-750e" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="e3db-7509-8987-d09f" name="New CategoryLink" hidden="false" targetId="b057-19ac-bee2-ac91" primary="true"/>
         <categoryLink id="ba26-a38f-fe45-0985" name="@Hero/Mon/Ttn/War Eng" hidden="false" targetId="3f26-cf3d-d182-e055" primary="false"/>
@@ -666,10 +1556,14 @@
         <categoryLink id="6d7e-fe8d-1e9a-b916" name="%Individual" hidden="false" targetId="3bb6-ef33-6b6b-e7f2" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="d8dc-27ab-1798-e131" name="Aura (Vicious (Melee) - Infantry only)" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="d8dc-27ab-1798-e131" name="Aura (Vicious:(Melee):(Inf only))" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f551-3a18-d5ed-6535" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="1533-3702-f85e-4be8" name="Aura" hidden="false" targetId="2867-1489-00ac-35c6" type="rule"/>
+            <infoLink id="f57b-4044-142d-6960" name="Vicious" hidden="false" targetId="47c7-1334-d1bf-24d9" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="30.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -679,6 +1573,9 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ed1-3243-9b9f-2d61" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="1c5c-ce44-5c0e-8c4a" name="~Mind Fog" hidden="false" targetId="1653-0b95-2ac5-e2d3" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="15.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -688,6 +1585,9 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd90-7da3-e3fe-3d70" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="61d4-427e-2c4e-6bf8" name="~Weakness" hidden="false" targetId="3d84-9118-f48e-7415" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="15.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -705,6 +1605,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b17-a9ee-c184-9ed0" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="eb5c-e991-3143-70e8" name="~Lightning Bolt" hidden="false" targetId="643b-d49d-8d14-c765" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
                 <cost name=" pts" typeId="points" value="0.0"/>
@@ -714,6 +1617,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5793-c94e-dd2c-7305" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="87d4-3f44-8dbb-2546" name="~Bane Chant" hidden="false" targetId="0faf-9276-c8a0-9bcd" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
                 <cost name=" pts" typeId="points" value="0.0"/>
@@ -723,6 +1629,10 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd56-657b-879b-a2a9" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="c80a-ac48-2b02-fb21" name="~Lightning Bolt" hidden="false" targetId="643b-d49d-8d14-c765" type="rule"/>
+                <infoLink id="cb3c-66cf-506c-d58c" name="~Bane Chant" hidden="false" targetId="0faf-9276-c8a0-9bcd" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name=" pts" typeId="points" value="20.0"/>
                 <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -752,6 +1662,38 @@
         <constraint field="selections" scope="402d-7263-42d3-2871" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1187-1fe6-f1dd-1f8d" type="max"/>
         <constraint field="selections" scope="0245-63ef-fb4c-50ca" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="39bd-ea89-f587-722d" type="max"/>
       </constraints>
+      <profiles>
+        <profile id="f74d-7c7c-68c4-e944" name="L: Banshee" publicationId="eab5-a7fe-b282-0b56" page="372" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Hero (Inf)</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">~Spellcaster: 0, Phantasm</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Banshee&apos;s Wail, Dread, Fly, Individual, Mindthirst, Stealthy
+~Enthral (5) ~Wind Blast (5)</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">10</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">6+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">4+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">1</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">-/12</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">0</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="dc61-8a08-1124-b128" name="Banshee&apos;s Wail" publicationId="eab5-a7fe-b282-0b56" page="372" hidden="false">
+          <description>Banshee: While casting Enthral or Wind Blast, in addition to moving the target, roll to damage for each hit scored.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="684b-8ff5-fc88-3a8c" name="Dread" hidden="false" targetId="aeda-9ce3-1c58-5e26" type="rule"/>
+        <infoLink id="cd2f-e8e5-7fe5-fc38" name="Fly" hidden="false" targetId="dc50-fdaa-d751-9cdf" type="rule"/>
+        <infoLink id="d302-c6ba-f2f2-da43" name="Individual" hidden="false" targetId="9657-1079-91be-b2bd" type="rule"/>
+        <infoLink id="9730-2a64-6484-b491" name="Mindthirst" hidden="false" targetId="84a4-5919-1d93-a1f3" type="rule"/>
+        <infoLink id="7c0b-fb12-bd95-9402" name="Stealthy" hidden="false" targetId="bdd0-eb1b-bf45-750e" type="rule"/>
+        <infoLink id="ecd8-71d3-38e5-1615" name="~Enthral" hidden="false" targetId="d444-041f-fcc3-fa4c" type="rule"/>
+        <infoLink id="e2bb-475a-c622-2f69" name="~Wind Blast" hidden="false" targetId="da65-6a10-c6a3-9022" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="c069-f271-a658-cab5" name="New CategoryLink" hidden="false" targetId="b057-19ac-bee2-ac91" primary="true"/>
         <categoryLink id="cda7-8714-82eb-aee2" name="@Hero/Mon/Ttn/War Eng" hidden="false" targetId="3f26-cf3d-d182-e055" primary="false"/>
@@ -780,6 +1722,32 @@
         <constraint field="selections" scope="402d-7263-42d3-2871" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3427-7fa3-fc6d-fa60" type="max"/>
         <constraint field="selections" scope="0245-63ef-fb4c-50ca" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5564-a9f2-74fb-50d9" type="max"/>
       </constraints>
+      <profiles>
+        <profile id="a745-96bc-1afc-eee3" name="L: Reaper Souldrinker" publicationId="eab5-a7fe-b282-0b56" page="373" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Hero (Inf)</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Nightmare, Reaper</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Aura (Lifeleech (+1):(Reaper only)), Crushing Strength (1), Duelist, Individual, Mindthirst, Stealthy</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">6</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">3+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">4+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">5</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">10/12</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">0</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="6469-41d2-8852-dcc4" name="Aura" hidden="false" targetId="2867-1489-00ac-35c6" type="rule"/>
+        <infoLink id="68fd-f581-2f98-cffa" name="Lifeleech" hidden="false" targetId="2fcc-d747-ea72-2828" type="rule"/>
+        <infoLink id="596a-3697-00ba-9754" name="Crushing Strength" hidden="false" targetId="3131-8f0a-0927-8489" type="rule"/>
+        <infoLink id="6369-b3ca-2251-92d8" name="Duelist" hidden="false" targetId="98e4-44a1-f80f-8faa" type="rule"/>
+        <infoLink id="a8dc-ba51-8a17-c6b1" name="Individual" hidden="false" targetId="9657-1079-91be-b2bd" type="rule"/>
+        <infoLink id="8e3f-0c9d-df7a-7ca7" name="Mindthirst" hidden="false" targetId="84a4-5919-1d93-a1f3" type="rule"/>
+        <infoLink id="4370-6137-4557-8334" name="Stealthy" hidden="false" targetId="bdd0-eb1b-bf45-750e" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="90b8-e30d-7d68-4d5e" name="New CategoryLink" hidden="false" targetId="b057-19ac-bee2-ac91" primary="true"/>
         <categoryLink id="5d33-005a-4745-733a" name="@Hero/Mon/Ttn/War Eng" hidden="false" targetId="3f26-cf3d-d182-e055" primary="false"/>
@@ -792,6 +1760,9 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb55-ccf5-dcb2-47a7" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="ba6e-87a8-1d4f-8d2b" name="Screamshard" hidden="false" targetId="7d01-1178-33ca-756d" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="5.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -810,11 +1781,43 @@
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e05f-7a51-f5b8-4c09" type="max"/>
       </constraints>
+      <profiles>
+        <profile id="9352-a504-946a-5298" name="M: The Dream Hunter [1]" publicationId="eab5-a7fe-b282-0b56" page="373" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Hero (Hvy Inf)</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Nightmare, Visitation</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Crushing Strength (1), Dread, Elite:(Melee), Individual, Lifeleech (2), Mighty, Mindthirst, Stealthy, Unleashed Nightmares</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">7</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">3+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">5+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">7</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">14/16</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">0</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="b98a-18b3-38e5-d7be" name="Unleashed Nightmares" publicationId="eab5-a7fe-b282-0b56" page="373" hidden="false">
+          <description>The Dream Hunter [1]: Friendly Core units that are Engaged with the same Enemy unit as The Dream Hunter have Elite:(Melee).</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="a9b8-9179-f1ff-3df8" name="Elite" hidden="false" targetId="e0d0-5bf9-11c8-b4f1" type="rule"/>
+        <infoLink id="968a-d2be-fed1-e676" name="Crushing Strength" hidden="false" targetId="3131-8f0a-0927-8489" type="rule"/>
+        <infoLink id="c395-7327-2256-5aab" name="Dread" hidden="false" targetId="aeda-9ce3-1c58-5e26" type="rule"/>
+        <infoLink id="f604-e7c4-7205-ccbb" name="Individual" hidden="false" targetId="9657-1079-91be-b2bd" type="rule"/>
+        <infoLink id="da71-2fec-95a8-c7e2" name="Lifeleech" hidden="false" targetId="2fcc-d747-ea72-2828" type="rule"/>
+        <infoLink id="6ab9-637d-81dd-a4e0" name="Mighty" hidden="false" targetId="f92c-c1b5-e7bf-0593" type="rule"/>
+        <infoLink id="8305-7ee2-fdda-d60c" name="Mindthirst" hidden="false" targetId="84a4-5919-1d93-a1f3" type="rule"/>
+        <infoLink id="2046-bdce-1f56-6064" name="Stealthy" hidden="false" targetId="bdd0-eb1b-bf45-750e" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="dfd7-064c-7779-6d88" name="@Hero" hidden="false" targetId="4ea0-3a9b-13be-2767" primary="false"/>
         <categoryLink id="f7bd-1b6d-b211-2fbc" name="@Hero/Mon/Ttn/War Eng" hidden="false" targetId="3f26-cf3d-d182-e055" primary="false"/>
-        <categoryLink id="7434-b39d-0f4d-fdf3" name="New CategoryLink" hidden="false" targetId="f2c4-7b36-9dac-4ea2" primary="true"/>
         <categoryLink id="2557-8499-58c8-ba6e" name="%Limited/Unique" hidden="false" targetId="d69e-ab9d-fe8b-b5eb" primary="false"/>
+        <categoryLink id="218a-d36b-58fc-439c" name="New CategoryLink" hidden="false" targetId="b057-19ac-bee2-ac91" primary="true"/>
       </categoryLinks>
       <costs>
         <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -834,6 +1837,29 @@
         <constraint field="selections" scope="402d-7263-42d3-2871" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a545-d081-4439-ec49" type="max"/>
         <constraint field="selections" scope="0245-63ef-fb4c-50ca" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="956e-6605-ec2d-b218" type="max"/>
       </constraints>
+      <profiles>
+        <profile id="0a3b-5ffa-b59b-55a4" name="P: Butcher Fleshripper" publicationId="eab5-a7fe-b282-0b56" page="373" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Hero (Lrg Inf)</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Abomination, Nightmare</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Crushing Strength (2), Mindthirst, Nimble, Stealthy</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">6</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">3+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">5+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">5</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">-/14</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">1</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="5d86-35cd-b529-af71" name="Crushing Strength" hidden="false" targetId="3131-8f0a-0927-8489" type="rule"/>
+        <infoLink id="42b9-701d-a760-06c2" name="Mindthirst" hidden="false" targetId="84a4-5919-1d93-a1f3" type="rule"/>
+        <infoLink id="ffe2-b4ab-252e-8795" name="Stealthy" hidden="false" targetId="bdd0-eb1b-bf45-750e" type="rule"/>
+        <infoLink id="2442-cab4-be10-b43e" name="Nimble" hidden="false" targetId="b79a-f274-5123-df1d" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="6ac6-c529-f50c-a294" name="New CategoryLink" hidden="false" targetId="b057-19ac-bee2-ac91" primary="true"/>
         <categoryLink id="0d35-0c84-6329-c1a0" name="@Hero" hidden="false" targetId="4ea0-3a9b-13be-2767" primary="false"/>
@@ -849,4 +1875,9 @@
       </costs>
     </selectionEntry>
   </selectionEntries>
+  <sharedRules>
+    <rule id="7d01-1178-33ca-756d" name="Screamshard" publicationId="eab5-a7fe-b282-0b56" page="369" hidden="false">
+      <description>Once per game, before this unit rolls to damage in Melee, you may choose to give it Lifeleech (+2) for the remainder of the Turn.</description>
+    </rule>
+  </sharedRules>
 </catalogue>

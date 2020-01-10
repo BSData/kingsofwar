@@ -1,432 +1,51 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="0929-4596-8744-bbdb" name="Kings of War: 3rd Edition" revision="5" battleScribeVersion="2.03" authorName="John (Ekaznae)" authorContact="bsdata.kow@gmail.com" authorUrl="https://github.com/BSData/kingsofwar" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="0929-4596-8744-bbdb" name="Kings of War: 3rd Edition" revision="7" battleScribeVersion="2.03" authorName="John (Ekaznae)" authorContact="bsdata.kow@gmail.com" authorUrl="https://github.com/BSData/kingsofwar" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="eab5-a7fe-b282-0b56" name="KoW3"/>
+    <publication id="40c7-f3d7-48f3-3cc9" name="UE3"/>
   </publications>
   <costTypes>
     <costType id="points" name=" pts" defaultCostLimit="-1.0"/>
     <costType id="8bd1-3402-32b0-82da" name="  US" defaultCostLimit="-1.0"/>
   </costTypes>
   <profileTypes>
-    <profileType id="eae9-b417-e7a7-a63c" name="A: Inf">
+    <profileType id="7b58-7536-0187-dd6e" name="Misc">
       <characteristicTypes>
-        <characteristicType id="3740-4cf0-3760-e362" name="Sp"/>
-        <characteristicType id="59c7-7e7f-3f31-bfe6" name="Me"/>
-        <characteristicType id="5f3e-96c1-a74e-4ce3" name="Ra"/>
-        <characteristicType id="8d21-eb05-d995-7381" name="De"/>
-        <characteristicType id="09fe-6336-2199-d17a" name="Att"/>
-        <characteristicType id="c646-7fa4-c37d-dfb5" name="Ne"/>
-        <characteristicType id="0dd4-80e2-2185-27f4" name="Special"/>
-        <characteristicType id="08bf-8cca-934f-3d7a" name="Key"/>
-        <characteristicType id="9c7e-5031-06ad-4bc8" name="Ht"/>
-        <characteristicType id="31e0-47f3-8095-4834" name="US"/>
+        <characteristicType id="3bee-e669-3aae-6327" name="Details"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="7b58-7536-0187-dd6e" name="Z: Misc">
+    <profileType id="e8f3-0bb3-a33b-a519" name="Artefacts">
       <characteristicTypes>
-        <characteristicType id="3bee-e669-3aae-6327" name="Miscellaneous Details"/>
+        <characteristicType id="ec79-82a5-5655-16e1" name="Details"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="95ba-c494-c37e-1793" name="B: Hvy Inf">
+    <profileType id="29fe-f6ec-b0b4-dfe4" name="   Profile">
       <characteristicTypes>
-        <characteristicType id="61b7-0bfb-c81a-9150" name="Sp"/>
-        <characteristicType id="de71-6298-9aeb-f9f3" name="Me"/>
-        <characteristicType id="7782-07e8-a67c-6963" name="Ra"/>
-        <characteristicType id="8429-a3f3-c53d-292e" name="De"/>
-        <characteristicType id="ec27-c8a8-7894-e4b5" name="Att"/>
-        <characteristicType id="d374-7bf4-4c1b-3316" name="Ne"/>
-        <characteristicType id="e923-89d3-5b8d-d04c" name="Special"/>
-        <characteristicType id="cc3a-8396-4014-7dfa" name="Key"/>
-        <characteristicType id="4cfa-4e75-e7cf-8c4d" name="Ht"/>
-        <characteristicType id="d8f5-106a-4957-5379" name="US"/>
+        <characteristicType id="c00f-fb16-6ddc-46e5" name="Type"/>
+        <characteristicType id="7c30-69bb-c7b1-c931" name="Key"/>
+        <characteristicType id="0e93-1f12-f5f3-c8df" name="Special"/>
+        <characteristicType id="c044-a8ff-9bf8-5756" name="Sp"/>
+        <characteristicType id="4e82-4c97-c6b5-da6d" name="Me"/>
+        <characteristicType id="72b7-f977-94ef-971d" name="Ra"/>
+        <characteristicType id="0430-25ef-96a4-6510" name="De"/>
+        <characteristicType id="084b-d9a3-febd-fdfc" name="Att"/>
+        <characteristicType id="c66d-c39c-c7ce-21c1" name="Ne"/>
+        <characteristicType id="fcfd-0d73-228b-9814" name="US"/>
+        <characteristicType id="3656-74c6-668b-5919" name="Ht"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="f62c-948a-8887-be1b" name="E: Lrg Inf">
+    <profileType id="7d91-dc6a-19e5-fc82" name="Spells">
       <characteristicTypes>
-        <characteristicType id="93cd-e8ee-0272-6f01" name="Sp"/>
-        <characteristicType id="0801-d4db-204d-011c" name="Me"/>
-        <characteristicType id="982b-bf95-9462-89f2" name="Ra"/>
-        <characteristicType id="4de5-f448-5566-84cd" name="De"/>
-        <characteristicType id="ed6b-af38-e38d-f271" name="Att"/>
-        <characteristicType id="1421-b0a9-fc48-0de5" name="Ne"/>
-        <characteristicType id="adc9-ecaf-3d71-f578" name="Special"/>
-        <characteristicType id="071c-60ca-7b5e-ff8f" name="Key"/>
-        <characteristicType id="2ab5-c2bb-df25-c7ae" name="Ht"/>
-        <characteristicType id="ec90-143b-af31-e905" name="US"/>
-      </characteristicTypes>
-    </profileType>
-    <profileType id="f61f-b699-dcef-a40a" name="F: Mon Inf">
-      <characteristicTypes>
-        <characteristicType id="5437-3ced-ca78-9318" name="Sp"/>
-        <characteristicType id="e676-64d6-eb8f-0a58" name="Me"/>
-        <characteristicType id="affc-91cd-e9ae-b077" name="Ra"/>
-        <characteristicType id="615b-3f37-4c08-6314" name="De"/>
-        <characteristicType id="9da8-c6eb-9634-22a7" name="Att"/>
-        <characteristicType id="f756-d5e6-a300-d144" name="Ne"/>
-        <characteristicType id="8e8f-0cd5-4120-3d17" name="Special"/>
-        <characteristicType id="a0f5-bf1b-d4fb-a63b" name="Key"/>
-        <characteristicType id="63c8-0625-d234-8ebb" name="Ht"/>
-        <characteristicType id="bc3a-81ff-191c-be69" name="US"/>
-      </characteristicTypes>
-    </profileType>
-    <profileType id="07db-0782-c3b0-8211" name="C: Cav">
-      <characteristicTypes>
-        <characteristicType id="3f38-2289-5425-09ab" name="Sp"/>
-        <characteristicType id="8910-0383-e7e6-9285" name="Me"/>
-        <characteristicType id="733d-0d7a-75d0-a4c1" name="Ra"/>
-        <characteristicType id="b9a9-793d-e1d7-ed8c" name="De"/>
-        <characteristicType id="f1f5-2cd1-02e0-34d0" name="Att"/>
-        <characteristicType id="e5c2-1965-8e32-1501" name="Ne"/>
-        <characteristicType id="8c56-de53-2e64-a920" name="Special"/>
-        <characteristicType id="c0ac-9b4d-1677-7f7e" name="Key"/>
-        <characteristicType id="3953-5ef7-e518-2282" name="Ht"/>
-        <characteristicType id="45e5-682f-2c2f-42d0" name="US"/>
-      </characteristicTypes>
-    </profileType>
-    <profileType id="2899-ff60-f5db-82fb" name="G: Lrg Cav">
-      <characteristicTypes>
-        <characteristicType id="ec17-5886-f667-8bbf" name="Sp"/>
-        <characteristicType id="9bcd-1eb0-12ab-13af" name="Me"/>
-        <characteristicType id="32b3-bc64-8fdd-05be" name="Ra"/>
-        <characteristicType id="3726-7a59-bd94-c227" name="De"/>
-        <characteristicType id="451a-4d10-9097-5c4a" name="Att"/>
-        <characteristicType id="1047-daba-558c-b16c" name="Ne"/>
-        <characteristicType id="2867-7353-01da-aeff" name="Special"/>
-        <characteristicType id="e0b4-85b4-5f2d-3e8a" name="Key"/>
-        <characteristicType id="ab43-833f-47a5-28b2" name="Ht"/>
-        <characteristicType id="6754-297e-d5ac-2383" name="US"/>
-      </characteristicTypes>
-    </profileType>
-    <profileType id="d0ee-7246-b5e5-f88a" name="H: Cht">
-      <characteristicTypes>
-        <characteristicType id="533b-27bf-17fd-c69f" name="Sp"/>
-        <characteristicType id="3005-1848-d5a7-1746" name="Me"/>
-        <characteristicType id="5446-7d84-5bfc-336d" name="Ra"/>
-        <characteristicType id="a119-fcc2-4959-6283" name="De"/>
-        <characteristicType id="96f8-0f11-e65d-8fb8" name="Att"/>
-        <characteristicType id="f2b9-db61-ff8a-5109" name="Ne"/>
-        <characteristicType id="3ffd-c484-4dff-bcb8" name="Special"/>
-        <characteristicType id="ad6a-06ef-358d-372a" name="Key"/>
-        <characteristicType id="d5f7-092e-fb1b-ff9f" name="Ht"/>
-        <characteristicType id="f601-77f7-bfb2-c1a4" name="US"/>
-      </characteristicTypes>
-    </profileType>
-    <profileType id="049d-c05d-cf96-ca62" name="D: Swa">
-      <characteristicTypes>
-        <characteristicType id="309e-e154-011f-df53" name="Sp"/>
-        <characteristicType id="36aa-1ed1-891b-b703" name="Me"/>
-        <characteristicType id="3918-ad70-6ac8-0ee8" name="Ra"/>
-        <characteristicType id="2564-9b04-5bc7-9330" name="De"/>
-        <characteristicType id="1bd3-bfe3-f964-c109" name="Att"/>
-        <characteristicType id="b6f9-73d3-a84d-8930" name="Ne"/>
-        <characteristicType id="d84f-b8aa-926c-628d" name="Special"/>
-        <characteristicType id="c6f7-0238-5cc3-4a82" name="Key"/>
-        <characteristicType id="dce2-3f42-5074-adb3" name="Ht"/>
-        <characteristicType id="be99-280c-8391-9f9b" name="US"/>
-      </characteristicTypes>
-    </profileType>
-    <profileType id="9965-8d45-c77a-1481" name="I: War Eng">
-      <characteristicTypes>
-        <characteristicType id="34bf-b315-c02d-e7a1" name="Sp"/>
-        <characteristicType id="bce4-0964-09ef-71bb" name="Me"/>
-        <characteristicType id="27b7-78ce-fd99-e227" name="Ra"/>
-        <characteristicType id="7077-44d0-bf98-b117" name="De"/>
-        <characteristicType id="c534-44b0-5edb-9436" name="Att"/>
-        <characteristicType id="27df-167b-ef8f-ca99" name="Ne"/>
-        <characteristicType id="1f1c-6feb-95d0-3920" name="Special"/>
-        <characteristicType id="6e9e-e0bc-3703-403c" name="Key"/>
-        <characteristicType id="9e09-1ecf-2123-f702" name="Ht"/>
-        <characteristicType id="6e8b-4738-0679-4861" name="US"/>
-      </characteristicTypes>
-    </profileType>
-    <profileType id="7ca2-ad5d-9644-7de3" name="J: Mon">
-      <characteristicTypes>
-        <characteristicType id="cb2b-bc2a-27aa-f295" name="Sp"/>
-        <characteristicType id="1934-c9b6-08a6-cfc6" name="Me"/>
-        <characteristicType id="d346-5562-3e55-dfb9" name="Ra"/>
-        <characteristicType id="751a-1872-d39b-2f41" name="De"/>
-        <characteristicType id="f88a-4a90-2e82-9994" name="Att"/>
-        <characteristicType id="cbec-03ff-88a3-9955" name="Ne"/>
-        <characteristicType id="f329-57c2-5327-314f" name="Special"/>
-        <characteristicType id="c68c-859a-87ff-3e95" name="Key"/>
-        <characteristicType id="f5ca-0025-3821-8f83" name="Ht"/>
-        <characteristicType id="7075-4b8f-d5ce-26ec" name="US"/>
-      </characteristicTypes>
-    </profileType>
-    <profileType id="dfaa-7533-f12e-9263" name="N: Hero (Cav)">
-      <characteristicTypes>
-        <characteristicType id="b1c9-2f22-a7ba-ba8b" name="Sp"/>
-        <characteristicType id="23b9-f924-f635-55db" name="Me"/>
-        <characteristicType id="659c-fb31-c4f8-8a48" name="Ra"/>
-        <characteristicType id="ca47-6927-cbf7-e74a" name="De"/>
-        <characteristicType id="8fc4-63e3-0620-e2a1" name="Att"/>
-        <characteristicType id="3183-4d79-1644-3cd4" name="Ne"/>
-        <characteristicType id="2ddb-8cc5-669a-8362" name="Special"/>
-        <characteristicType id="21ec-65db-afb3-3237" name="Key"/>
-        <characteristicType id="650c-f96d-1a04-a6f5" name="Ht"/>
-        <characteristicType id="fcbe-0e85-3ecb-923d" name="US"/>
-      </characteristicTypes>
-    </profileType>
-    <profileType id="9f4f-34df-15bd-2cf5" name="L: Hero (Inf)">
-      <characteristicTypes>
-        <characteristicType id="2ac5-5c60-0d27-bc30" name="Sp"/>
-        <characteristicType id="42a1-cc74-963b-dddf" name="Me"/>
-        <characteristicType id="df56-a645-cf4a-6557" name="Ra"/>
-        <characteristicType id="5015-d373-65e5-e0a5" name="De"/>
-        <characteristicType id="3968-89f1-8bd8-1206" name="Att"/>
-        <characteristicType id="52f2-d1db-ef54-0a35" name="Ne"/>
-        <characteristicType id="4b1b-bcf3-1959-24d1" name="Special"/>
-        <characteristicType id="2a22-161b-b147-e63c" name="Key"/>
-        <characteristicType id="962b-22cd-b9cd-cddd" name="Ht"/>
-        <characteristicType id="60ad-deac-7ea5-37ac" name="US"/>
-      </characteristicTypes>
-    </profileType>
-    <profileType id="1a08-b2ef-33aa-b76e" name="M: Hero (Hvy Inf)">
-      <characteristicTypes>
-        <characteristicType id="fc1f-b5c4-1143-36d0" name="Sp"/>
-        <characteristicType id="26a5-b26e-680f-0824" name="Me"/>
-        <characteristicType id="e1e7-a6ad-da6e-01fa" name="Ra"/>
-        <characteristicType id="c532-a67c-ce49-368e" name="De"/>
-        <characteristicType id="372d-a962-a85c-8d16" name="Att"/>
-        <characteristicType id="ae4a-2e10-6cee-34fc" name="Ne"/>
-        <characteristicType id="68ae-be81-abf7-dba5" name="Special"/>
-        <characteristicType id="7358-a24d-e12a-afb8" name="Key"/>
-        <characteristicType id="da83-babf-a6c1-77f1" name="Ht"/>
-        <characteristicType id="b72f-f687-c510-731a" name="US"/>
-      </characteristicTypes>
-    </profileType>
-    <profileType id="9a00-ae5e-8cb1-e985" name="P: Hero (Lrg Inf)">
-      <characteristicTypes>
-        <characteristicType id="101d-d1f2-4df4-9210" name="Sp"/>
-        <characteristicType id="cdf8-2a5e-b24d-642a" name="Me"/>
-        <characteristicType id="73f5-4673-4c3b-911a" name="Ra"/>
-        <characteristicType id="0c23-625d-b361-07fe" name="De"/>
-        <characteristicType id="dcdd-d908-ce0f-acc9" name="Att"/>
-        <characteristicType id="2c6b-4f70-9b14-d267" name="Ne"/>
-        <characteristicType id="2bd2-c9c1-86ea-4e47" name="Special"/>
-        <characteristicType id="ad60-8557-7a47-ceee" name="Key"/>
-        <characteristicType id="2c31-aa4c-c5f9-e380" name="Ht"/>
-        <characteristicType id="3f16-60df-856d-2e50" name="US"/>
-      </characteristicTypes>
-    </profileType>
-    <profileType id="01c2-5b81-35a6-9bd7" name="R: Hero (Lrg Cav)">
-      <characteristicTypes>
-        <characteristicType id="942a-9359-0753-a94a" name="Sp"/>
-        <characteristicType id="390b-7b78-d6e5-fd98" name="Me"/>
-        <characteristicType id="2abe-d46a-f288-fbea" name="Ra"/>
-        <characteristicType id="27de-2711-ab18-e395" name="De"/>
-        <characteristicType id="599b-b0ac-9f55-5575" name="Att"/>
-        <characteristicType id="4a81-b2fb-478d-357f" name="Ne"/>
-        <characteristicType id="8fcc-00d7-507f-5023" name="Special"/>
-        <characteristicType id="cfcf-a99e-1df3-990b" name="Key"/>
-        <characteristicType id="5f63-9272-6d37-6345" name="Ht"/>
-        <characteristicType id="9534-ec7e-9d5c-6ceb" name="US"/>
-      </characteristicTypes>
-    </profileType>
-    <profileType id="9e45-f03c-faf6-c996" name="S: Hero (Cht)">
-      <characteristicTypes>
-        <characteristicType id="696d-50f2-6f8e-9a18" name="Sp"/>
-        <characteristicType id="a213-05d5-c635-84c5" name="Me"/>
-        <characteristicType id="8b5f-7145-fecc-2b0f" name="Ra"/>
-        <characteristicType id="5ead-8f53-d52e-7e83" name="De"/>
-        <characteristicType id="007f-b4a1-204d-23f6" name="Att"/>
-        <characteristicType id="f8cf-e2c9-341f-c6a0" name="Ne"/>
-        <characteristicType id="8c8b-c15c-3812-c9bd" name="Special"/>
-        <characteristicType id="30c9-a6ee-e6b3-94f6" name="Key"/>
-        <characteristicType id="ca9f-a67f-6ace-61c0" name="Ht"/>
-        <characteristicType id="e360-7768-ce9d-0545" name="US"/>
-      </characteristicTypes>
-    </profileType>
-    <profileType id="25e0-0aa0-7b0b-767f" name="O: Hero (Swa)">
-      <characteristicTypes>
-        <characteristicType id="c143-4c74-a379-7a27" name="Sp"/>
-        <characteristicType id="3641-9771-bed3-d962" name="Me"/>
-        <characteristicType id="47b2-b8da-ac77-33c6" name="Ra"/>
-        <characteristicType id="5425-aa93-336a-eca9" name="De"/>
-        <characteristicType id="f73a-b679-c886-ee0c" name="Att"/>
-        <characteristicType id="0be1-0d8f-14f9-3c00" name="Ne"/>
-        <characteristicType id="bfac-c6d5-75dd-495c" name="Special"/>
-        <characteristicType id="785b-180c-882e-0d53" name="Key"/>
-        <characteristicType id="9aac-a269-f626-5820" name="Ht"/>
-        <characteristicType id="7250-289b-d42c-5ed4" name="US"/>
-      </characteristicTypes>
-    </profileType>
-    <profileType id="5877-8eb5-60b9-eaae" name="T: Hero (War Eng)">
-      <characteristicTypes>
-        <characteristicType id="effd-d1b8-635b-ba56" name="Sp"/>
-        <characteristicType id="b4ce-b843-7094-1a5c" name="Me"/>
-        <characteristicType id="e72b-71ce-41e3-6178" name="Ra"/>
-        <characteristicType id="e41c-9b1d-2004-23bf" name="De"/>
-        <characteristicType id="81eb-2e6c-18f5-992f" name="Att"/>
-        <characteristicType id="eb3f-996c-b037-d766" name="Ne"/>
-        <characteristicType id="7c73-73f1-b61d-46b1" name="Special"/>
-        <characteristicType id="3e93-5d3a-8f1d-c79c" name="Key"/>
-        <characteristicType id="10f0-2c52-0643-a2df" name="Ht"/>
-        <characteristicType id="5724-8796-aa57-e0f5" name="US"/>
-      </characteristicTypes>
-    </profileType>
-    <profileType id="ec46-d8d7-0c23-849f" name="UU: Hero (Mon[Cht])">
-      <characteristicTypes>
-        <characteristicType id="272b-7c8d-221f-4ab7" name="Sp"/>
-        <characteristicType id="44f4-9be2-c251-a5bf" name="Me"/>
-        <characteristicType id="992a-d0b8-fb5b-4364" name="Ra"/>
-        <characteristicType id="53c2-091f-0913-516c" name="De"/>
-        <characteristicType id="8f61-fa53-644b-2cf4" name="Att"/>
-        <characteristicType id="1bca-43b4-b8b9-1e3f" name="Ne"/>
-        <characteristicType id="2b66-6d1e-5b8d-237f" name="Special"/>
-        <characteristicType id="a609-8b4f-b125-b16c" name="Key"/>
-        <characteristicType id="8011-357a-0d61-4870" name="Ht"/>
-        <characteristicType id="92a5-da26-47b3-0ba5" name="US"/>
-      </characteristicTypes>
-    </profileType>
-    <profileType id="321a-7c86-075d-637f" name="V: Hero (Ttn)">
-      <characteristicTypes>
-        <characteristicType id="2868-9f47-c4be-8bae" name="Sp"/>
-        <characteristicType id="f60d-1c2d-770f-99fb" name="Me"/>
-        <characteristicType id="d93a-f1d3-ba60-a5b8" name="Ra"/>
-        <characteristicType id="4c68-8f5e-042d-c43f" name="De"/>
-        <characteristicType id="88a2-d2fd-de3d-4a04" name="Att"/>
-        <characteristicType id="5721-17f7-7b59-5840" name="Ne"/>
-        <characteristicType id="bf76-35e1-b863-1861" name="Special"/>
-        <characteristicType id="25d8-e906-6a9b-f7a0" name="Key"/>
-        <characteristicType id="5e62-8d9b-e99a-c97f" name="Ht"/>
-        <characteristicType id="606d-8172-050a-6ea9" name="US"/>
-      </characteristicTypes>
-    </profileType>
-    <profileType id="4ee2-9323-03b7-aa40" name="Q: Hero (Mon Inf)">
-      <characteristicTypes>
-        <characteristicType id="c9d0-2830-1f56-5924" name="Sp"/>
-        <characteristicType id="28cf-cde4-eeb8-a05f" name="Me"/>
-        <characteristicType id="af2f-a892-db26-b0f1" name="Ra"/>
-        <characteristicType id="c0ad-2b0b-9dcd-f337" name="De"/>
-        <characteristicType id="f9eb-0256-a373-41bf" name="Att"/>
-        <characteristicType id="1944-98f8-678a-fe73" name="Ne"/>
-        <characteristicType id="44ea-be82-7063-5c6e" name="Special"/>
-        <characteristicType id="414f-2d72-acec-07e8" name="Key"/>
-        <characteristicType id="0833-ff3a-e543-2bd4" name="Ht"/>
-        <characteristicType id="3c2a-d661-9aef-acf5" name="US"/>
-      </characteristicTypes>
-    </profileType>
-    <profileType id="a7f1-2e10-bfa4-bc0b" name="K: Ttn">
-      <characteristicTypes>
-        <characteristicType id="32de-f63c-bad5-bf21" name="Sp"/>
-        <characteristicType id="f63f-6183-3ab7-1c6f" name="Me"/>
-        <characteristicType id="d0fa-967f-b561-f2d1" name="Ra"/>
-        <characteristicType id="815d-2fb2-7e79-03fc" name="De"/>
-        <characteristicType id="defd-0bc0-25ae-7649" name="Att"/>
-        <characteristicType id="da38-a96a-ee3c-06b0" name="Ne"/>
-        <characteristicType id="e261-0040-9859-6267" name="Special"/>
-        <characteristicType id="d95e-a620-2ea2-ba1e" name="Key"/>
-        <characteristicType id="c972-db12-dc2a-f9b3" name="Ht"/>
-        <characteristicType id="cac1-5e7c-0722-1e65" name="US"/>
-      </characteristicTypes>
-    </profileType>
-    <profileType id="751c-0710-4e32-3800" name="JJ: Mon [Cht]">
-      <characteristicTypes>
-        <characteristicType id="46a8-1279-5b17-ef86" name="Sp"/>
-        <characteristicType id="aa4d-514b-9944-24fd" name="Me"/>
-        <characteristicType id="1c39-3b49-c85a-97f5" name="Ra"/>
-        <characteristicType id="a1a3-b1d5-e35a-bbc9" name="De"/>
-        <characteristicType id="04d0-fd03-cd75-5d7b" name="Att"/>
-        <characteristicType id="c7f9-3700-7d29-d3b3" name="Ne"/>
-        <characteristicType id="a462-162c-e6cc-4d55" name="Special"/>
-        <characteristicType id="e240-b9b9-0ee0-a967" name="Key"/>
-        <characteristicType id="485e-7b5b-a33a-0c4c" name="Ht"/>
-        <characteristicType id="199d-ef55-34b1-a22c" name="US"/>
-      </characteristicTypes>
-    </profileType>
-    <profileType id="415c-dce6-a161-dfdc" name="U: Hero (Mon)">
-      <characteristicTypes>
-        <characteristicType id="c00c-9835-ae82-422c" name="Sp"/>
-        <characteristicType id="d59a-5e7b-f812-61fb" name="Me"/>
-        <characteristicType id="a9a7-11ba-c0a6-01cb" name="Ra"/>
-        <characteristicType id="087c-74be-54ce-0231" name="De"/>
-        <characteristicType id="98e3-2742-6fdf-655d" name="Att"/>
-        <characteristicType id="f99d-8645-abc0-61ed" name="Ne"/>
-        <characteristicType id="e67d-fb2f-9719-19b5" name="Special"/>
-        <characteristicType id="ac26-7e90-acc6-ad2e" name="Key"/>
-        <characteristicType id="3fe2-4622-7189-df76" name="Ht"/>
-        <characteristicType id="9d74-fad3-5140-4c08" name="US"/>
-      </characteristicTypes>
-    </profileType>
-    <profileType id="82b3-9b7d-5a24-d62b" name="II: War Eng [Cht]">
-      <characteristicTypes>
-        <characteristicType id="88a0-7d58-02f1-e5cd" name="Sp"/>
-        <characteristicType id="0743-09a4-589a-8541" name="Me"/>
-        <characteristicType id="9910-3873-e0e1-136d" name="Ra"/>
-        <characteristicType id="dab5-5a75-d278-2629" name="De"/>
-        <characteristicType id="e59b-de25-7244-e1fb" name="Att"/>
-        <characteristicType id="f7c3-a2b1-4480-b825" name="Ne"/>
-        <characteristicType id="b18b-7475-847c-7a95" name="Special"/>
-        <characteristicType id="5553-38f4-b319-5688" name="Key"/>
-        <characteristicType id="8a34-1585-0d97-f0f1" name="Ht"/>
-        <characteristicType id="3fde-d4d1-e460-ae1e" name="US"/>
-      </characteristicTypes>
-    </profileType>
-    <profileType id="9102-aa05-5858-aff8" name="TT: Hero (War Eng[Cht])">
-      <characteristicTypes>
-        <characteristicType id="611c-6d69-450e-8ebd" name="Sp"/>
-        <characteristicType id="14bb-a323-9b33-76b8" name="Me"/>
-        <characteristicType id="2e68-32cf-3988-9511" name="Ra"/>
-        <characteristicType id="f896-2ae8-3ea8-7628" name="De"/>
-        <characteristicType id="449c-4ed8-b49c-bbaa" name="Att"/>
-        <characteristicType id="d9ff-674f-73c4-e784" name="Ne"/>
-        <characteristicType id="8e71-532a-cdd5-9dd0" name="Special"/>
-        <characteristicType id="6040-f978-5fa2-e25f" name="Key"/>
-        <characteristicType id="f09b-5bad-b95c-59bb" name="Ht"/>
-        <characteristicType id="a358-d7c8-0d29-5099" name="US"/>
-      </characteristicTypes>
-    </profileType>
-    <profileType id="623e-ff99-efa3-c79b" name="Y: Spells">
-      <characteristicTypes>
-        <characteristicType id="7c4e-e8a1-7d63-8168" name="Range"/>
-        <characteristicType id="a0bc-7e42-bdbb-8f93" name="Targets"/>
-        <characteristicType id="938a-b8f3-dbe1-1ab7" name="Effect"/>
-        <characteristicType id="5e5d-5858-75cc-45c9" name="Modifiers"/>
-      </characteristicTypes>
-    </profileType>
-    <profileType id="e8f3-0bb3-a33b-a519" name="X: Artefacts">
-      <characteristicTypes>
-        <characteristicType id="ec79-82a5-5655-16e1" name="Magical Artefact Details"/>
-      </characteristicTypes>
-    </profileType>
-    <profileType id="e2ad-6ad0-c6e0-3413" name="W: Ranged">
-      <characteristicTypes>
-        <characteristicType id="7124-a05e-eb50-3997" name="Ranged Attack Details"/>
-      </characteristicTypes>
-    </profileType>
-    <profileType id="52a4-aa2f-fba6-fa6d" name="GG: Lrg Cav [Cht]">
-      <characteristicTypes>
-        <characteristicType id="4f0e-ba54-d63c-64a0" name="Sp"/>
-        <characteristicType id="55d4-3f59-e3bf-d38c" name="Me"/>
-        <characteristicType id="5357-7248-8c74-fbbc" name="Ra"/>
-        <characteristicType id="0334-d2a3-6553-83f0" name="De"/>
-        <characteristicType id="d4de-3a55-ad2c-a3fc" name="Att"/>
-        <characteristicType id="f144-9084-d6c5-1429" name="Ne"/>
-        <characteristicType id="96de-c248-2d21-7a83" name="Special"/>
-        <characteristicType id="d31a-afa9-88f1-c501" name="Key"/>
-        <characteristicType id="0afa-1c7b-7d22-8e4f" name="Ht"/>
-        <characteristicType id="9910-9b33-3e61-03fd" name="US"/>
-      </characteristicTypes>
-    </profileType>
-    <profileType id="9935-72bc-24cd-997a" name="RR: Hero (Lrg Cav[Cht])">
-      <characteristicTypes>
-        <characteristicType id="6283-0302-f22b-c8ba" name="Sp"/>
-        <characteristicType id="0a63-6d6e-d7b1-f0f4" name="Me"/>
-        <characteristicType id="f8a3-c264-879b-1aa8" name="Ra"/>
-        <characteristicType id="381f-9a15-ce32-a7c6" name="De"/>
-        <characteristicType id="f238-70e1-3df8-33cb" name="Att"/>
-        <characteristicType id="d16d-f579-518e-ac40" name="Ne"/>
-        <characteristicType id="d0d3-7bff-0e2b-d296" name="Special"/>
-        <characteristicType id="f773-3cf9-18e0-56a0" name="Key"/>
-        <characteristicType id="5fe6-dc33-69fd-d204" name="Ht"/>
-        <characteristicType id="b207-d1d6-4b17-7a20" name="US"/>
+        <characteristicType id="4f63-44a9-2812-fac4" name="Range"/>
+        <characteristicType id="60a4-ea61-9d83-f644" name="Targets"/>
+        <characteristicType id="f48e-b59a-1b08-fff7" name="Effect"/>
+        <characteristicType id="b87a-6fa6-8c40-b046" name="Modifiers"/>
       </characteristicTypes>
     </profileType>
   </profileTypes>
   <categoryEntries>
     <categoryEntry id="3bb6-ef33-6b6b-e7f2" name="%Individual" hidden="false"/>
-    <categoryEntry id="8268-0874-ff47-7871" name="FORMATION" hidden="false">
+    <categoryEntry id="8268-0874-ff47-7871" name="FORMATION" hidden="true">
       <constraints>
         <constraint field="selections" scope="a311-bd61-5379-cfcf" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ccc0-3f2d-503c-d373" type="max"/>
       </constraints>
@@ -485,22 +104,14 @@
         <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9d30-f5ad-f3cd-4b16" type="max"/>
       </constraints>
     </categoryEntry>
-    <categoryEntry id="3f26-cf3d-d182-e055" name="(Reminder: Manually Validate)" hidden="true">
+    <categoryEntry id="3f26-cf3d-d182-e055" name="@Hero/Mon/Ttn/War Eng" hidden="true">
       <modifiers>
         <modifier type="increment" field="21b4-fedc-8a79-9ddf" value="0.0">
           <repeats>
             <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9f55-3ef2-5914-9436" repeats="1" roundUp="false"/>
-          </repeats>
-        </modifier>
-        <modifier type="increment" field="21b4-fedc-8a79-9ddf" value="0.0">
-          <repeats>
-            <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9453-4e62-79da-bc74" repeats="1" roundUp="false"/>
-          </repeats>
-        </modifier>
-        <modifier type="increment" field="21b4-fedc-8a79-9ddf" value="0.0">
-          <repeats>
-            <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ad92-e9d5-07d8-3484" repeats="1" roundUp="false"/>
-            <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9837-a7db-5d2a-b412" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ad92-e9d5-07d8-3484" repeats="2" roundUp="false"/>
+            <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9837-a7db-5d2a-b412" repeats="2" roundUp="false"/>
+            <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9453-4e62-79da-bc74" repeats="3" roundUp="false"/>
           </repeats>
         </modifier>
       </modifiers>
@@ -574,12 +185,8 @@
           <repeats>
             <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9f55-3ef2-5914-9436" repeats="1" roundUp="false"/>
             <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9453-4e62-79da-bc74" repeats="1" roundUp="false"/>
-          </repeats>
-        </modifier>
-        <modifier type="increment" field="7f02-8a64-bb28-d98c" value="0.0">
-          <repeats>
-            <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9837-a7db-5d2a-b412" repeats="1" roundUp="false"/>
-            <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ad92-e9d5-07d8-3484" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ad92-e9d5-07d8-3484" repeats="2" roundUp="false"/>
+            <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9837-a7db-5d2a-b412" repeats="2" roundUp="false"/>
           </repeats>
         </modifier>
       </modifiers>
@@ -587,8 +194,8 @@
         <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7f02-8a64-bb28-d98c" type="max"/>
       </constraints>
     </categoryEntry>
-    <categoryEntry id="ae0b-44e7-704c-e312" name="@[H]" hidden="false"/>
-    <categoryEntry id="fa15-db1f-5609-3f6c" name="%H/L" hidden="false"/>
+    <categoryEntry id="ae0b-44e7-704c-e312" name="%[H] Artefacts" hidden="false"/>
+    <categoryEntry id="fa15-db1f-5609-3f6c" name="%HORDE/LEGION Artefacts" hidden="false"/>
     <categoryEntry id="cdb8-f1fd-89c0-f2f8" name="~Bastion [1]" hidden="false">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5413-024f-f681-4770" type="max"/>
@@ -999,46 +606,6 @@
         <cost name=" pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d8dc-ec59-7f35-d0fb" name="-GG Lrg Cav [Cht] (03) Regiment" hidden="false" collective="false" import="true" type="unit">
-      <categoryLinks>
-        <categoryLink id="496f-205d-a018-2692" name="New CategoryLink" hidden="false" targetId="2d7f-1dae-9a2c-ca2f" primary="true"/>
-      </categoryLinks>
-      <entryLinks>
-        <entryLink id="bb78-a874-b9aa-ece6" name="Magical Artefacts" hidden="false" collective="false" import="true" targetId="6816-61a6-c6f9-a79e" type="selectionEntryGroup"/>
-      </entryLinks>
-      <costs>
-        <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
-        <cost name=" pts" typeId="points" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="20d2-0363-6312-9dea" name="-GG Lrg Cav [Cht] (06) Horde" hidden="false" collective="false" import="true" type="unit">
-      <categoryLinks>
-        <categoryLink id="68b0-6fa2-8e36-2cdd" name="New CategoryLink" hidden="false" targetId="2d7f-1dae-9a2c-ca2f" primary="true"/>
-        <categoryLink id="3295-fa5f-e07a-5d67" name="$$Swa/Lrg Inf/Mon Inf/Lrg Cav HORDE" hidden="false" targetId="ad92-e9d5-07d8-3484" primary="false"/>
-        <categoryLink id="aeff-6483-4085-2680" name="%H/L" hidden="false" targetId="fa15-db1f-5609-3f6c" primary="false"/>
-      </categoryLinks>
-      <entryLinks>
-        <entryLink id="bdc2-2adb-7ea2-56a4" name="Magical Artefacts" hidden="false" collective="false" import="true" targetId="6816-61a6-c6f9-a79e" type="selectionEntryGroup"/>
-      </entryLinks>
-      <costs>
-        <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
-        <cost name=" pts" typeId="points" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="ec87-8655-5c8d-b9c8" name="-GG Lrg Cav [Cht] (12) Legion" hidden="false" collective="false" import="true" type="unit">
-      <categoryLinks>
-        <categoryLink id="45f9-e178-f6c1-6b87" name="New CategoryLink" hidden="false" targetId="2d7f-1dae-9a2c-ca2f" primary="true"/>
-        <categoryLink id="c2b9-80c6-79fa-188b" name="$$Swa/Lrg Inf/Mon Inf/Lrg Cav LEGION" hidden="false" targetId="9837-a7db-5d2a-b412" primary="false"/>
-        <categoryLink id="aeb6-9d32-9b8e-0c7e" name="%H/L" hidden="false" targetId="fa15-db1f-5609-3f6c" primary="false"/>
-      </categoryLinks>
-      <entryLinks>
-        <entryLink id="30ad-3231-0f53-d17b" name="Magical Artefacts" hidden="false" collective="false" import="true" targetId="6816-61a6-c6f9-a79e" type="selectionEntryGroup"/>
-      </entryLinks>
-      <costs>
-        <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
-        <cost name=" pts" typeId="points" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="1941-a9a3-d507-5d84" name="-H Cht (02) Troop" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink id="7ab2-4412-1609-99e3" name="New CategoryLink" hidden="false" targetId="57b7-813d-25cc-55dc" primary="true"/>
@@ -1116,29 +683,6 @@
         <cost name=" pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="31f7-893e-62a5-c0d2" name="-II War Eng [Cht]" hidden="false" collective="false" import="true" type="unit">
-      <modifiers>
-        <modifier type="increment" field="5757-d2ce-494b-948b" value="1.0">
-          <repeats>
-            <repeat field="points" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="false"/>
-          </repeats>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="a311-bd61-5379-cfcf" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f2f-d904-a741-fa62" type="max"/>
-        <constraint field="selections" scope="402d-7263-42d3-2871" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ace-20cf-1045-9e1f" type="max"/>
-        <constraint field="selections" scope="0245-63ef-fb4c-50ca" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5757-d2ce-494b-948b" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="498d-8100-68e2-36c6" name="New CategoryLink" hidden="false" targetId="e01f-b962-560b-6912" primary="true"/>
-        <categoryLink id="ef67-fe3b-a186-ac0c" name="@Hero/Mon/Ttn/War Eng" hidden="false" targetId="3f26-cf3d-d182-e055" primary="false"/>
-        <categoryLink id="b8f3-c39a-118b-e8c8" name="@War Eng" hidden="false" targetId="ae43-3862-266c-b0d7" primary="false"/>
-      </categoryLinks>
-      <costs>
-        <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
-        <cost name=" pts" typeId="points" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="b581-cdbf-d44e-e6ec" name="-J Mon" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="increment" field="ee0e-fb21-248b-b229" value="1.0">
@@ -1157,30 +701,6 @@
         <categoryLink id="946a-7483-6c62-aefd" name="@Hero/Mon/Ttn/War Eng" hidden="false" targetId="3f26-cf3d-d182-e055" primary="false"/>
         <categoryLink id="8860-6c26-02db-fd33" name="@Mon" hidden="false" targetId="30f5-eb50-e19f-8bf4" primary="false"/>
         <categoryLink id="69a3-c3dc-458c-cb33" name="@Mon/Ttn" hidden="false" targetId="9c1a-fc55-7971-b5f4" primary="false"/>
-      </categoryLinks>
-      <costs>
-        <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
-        <cost name=" pts" typeId="points" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="c6ac-3428-aa4a-d8dd" name="-JJ Mon [Cht]" hidden="false" collective="false" import="true" type="unit">
-      <modifiers>
-        <modifier type="increment" field="9738-30dc-e0ae-69e4" value="1.0">
-          <repeats>
-            <repeat field="points" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="false"/>
-          </repeats>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="a311-bd61-5379-cfcf" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa75-16e4-80b0-c58b" type="max"/>
-        <constraint field="selections" scope="402d-7263-42d3-2871" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8832-54ce-191a-d0d0" type="max"/>
-        <constraint field="selections" scope="0245-63ef-fb4c-50ca" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9738-30dc-e0ae-69e4" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="73a4-9573-c2a5-d84f" name="New CategoryLink" hidden="false" targetId="3bc2-7070-6db9-5437" primary="true"/>
-        <categoryLink id="62c4-47fe-9da3-b9b7" name="@Hero/Mon/Ttn/War Eng" hidden="false" targetId="3f26-cf3d-d182-e055" primary="false"/>
-        <categoryLink id="4634-9ab6-0806-68eb" name="@Mon" hidden="false" targetId="30f5-eb50-e19f-8bf4" primary="false"/>
-        <categoryLink id="7009-98ac-64af-7c29" name="@Mon/Ttn" hidden="false" targetId="9c1a-fc55-7971-b5f4" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -1255,7 +775,7 @@
         <categoryLink id="c5c0-8ae6-b8cf-1989" name="New CategoryLink" hidden="false" targetId="b057-19ac-bee2-ac91" primary="true"/>
         <categoryLink id="d57b-9433-31ed-5951" name="@Hero" hidden="false" targetId="4ea0-3a9b-13be-2767" primary="false"/>
         <categoryLink id="b7e3-3182-5736-4051" name="@Hero/Mon/Ttn/War Eng" hidden="false" targetId="3f26-cf3d-d182-e055" primary="false"/>
-        <categoryLink id="8597-e068-4f48-6be1" name="@[H]" hidden="false" targetId="ae0b-44e7-704c-e312" primary="false"/>
+        <categoryLink id="b942-2b8f-8bca-098b" name="@[H]" hidden="false" targetId="ae0b-44e7-704c-e312" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="bb06-a163-623b-2613" name="Magical Artefacts" hidden="false" collective="false" import="true" targetId="6816-61a6-c6f9-a79e" type="selectionEntryGroup"/>
@@ -1309,7 +829,7 @@
         <categoryLink id="dd77-d120-d731-f70a" name="New CategoryLink" hidden="false" targetId="b057-19ac-bee2-ac91" primary="true"/>
         <categoryLink id="18b6-6b81-2f60-eea6" name="@Hero" hidden="false" targetId="4ea0-3a9b-13be-2767" primary="false"/>
         <categoryLink id="9da9-fdbd-8935-5a5b" name="@Hero/Mon/Ttn/War Eng" hidden="false" targetId="3f26-cf3d-d182-e055" primary="false"/>
-        <categoryLink id="4273-2400-7199-a406" name="@[H]" hidden="false" targetId="ae0b-44e7-704c-e312" primary="false"/>
+        <categoryLink id="2899-c3e5-f709-d368" name="@[H]" hidden="false" targetId="ae0b-44e7-704c-e312" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="1332-b3b5-d398-0555" name="Magical Artefacts" hidden="false" collective="false" import="true" targetId="6816-61a6-c6f9-a79e" type="selectionEntryGroup"/>
@@ -1336,7 +856,7 @@
         <categoryLink id="087c-64d8-05c1-e22a" name="New CategoryLink" hidden="false" targetId="b057-19ac-bee2-ac91" primary="true"/>
         <categoryLink id="1577-b594-31e7-a23c" name="@Hero" hidden="false" targetId="4ea0-3a9b-13be-2767" primary="false"/>
         <categoryLink id="8313-3f71-ef85-487f" name="@Hero/Mon/Ttn/War Eng" hidden="false" targetId="3f26-cf3d-d182-e055" primary="false"/>
-        <categoryLink id="7021-84a3-6ef7-7b41" name="@[H]" hidden="false" targetId="ae0b-44e7-704c-e312" primary="false"/>
+        <categoryLink id="17b9-8a39-a7b4-82ae" name="@[H]" hidden="false" targetId="ae0b-44e7-704c-e312" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="6d08-03e1-52f4-6feb" name="Magical Artefacts" hidden="false" collective="false" import="true" targetId="6816-61a6-c6f9-a79e" type="selectionEntryGroup"/>
@@ -1363,7 +883,7 @@
         <categoryLink id="f73e-4ab9-dea7-8f20" name="New CategoryLink" hidden="false" targetId="b057-19ac-bee2-ac91" primary="true"/>
         <categoryLink id="a6e7-f420-be7e-0683" name="@Hero" hidden="false" targetId="4ea0-3a9b-13be-2767" primary="false"/>
         <categoryLink id="452c-118e-f602-d167" name="@Hero/Mon/Ttn/War Eng" hidden="false" targetId="3f26-cf3d-d182-e055" primary="false"/>
-        <categoryLink id="1645-504a-d98e-74b7" name="@[H]" hidden="false" targetId="ae0b-44e7-704c-e312" primary="false"/>
+        <categoryLink id="2e9b-5965-30cf-c6aa" name="@[H]" hidden="false" targetId="ae0b-44e7-704c-e312" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="1216-f5ce-d7c5-dcb7" name="Magical Artefacts" hidden="false" collective="false" import="true" targetId="6816-61a6-c6f9-a79e" type="selectionEntryGroup"/>
@@ -1390,37 +910,10 @@
         <categoryLink id="cf3e-616b-9ce2-9ba6" name="New CategoryLink" hidden="false" targetId="b057-19ac-bee2-ac91" primary="true"/>
         <categoryLink id="c658-0be6-b59b-1021" name="@Hero" hidden="false" targetId="4ea0-3a9b-13be-2767" primary="false"/>
         <categoryLink id="50a4-93d5-afc7-79d1" name="@Hero/Mon/Ttn/War Eng" hidden="false" targetId="3f26-cf3d-d182-e055" primary="false"/>
-        <categoryLink id="ef17-eb03-d6f7-0df6" name="@[H]" hidden="false" targetId="ae0b-44e7-704c-e312" primary="false"/>
+        <categoryLink id="aad6-76e9-9c23-7f11" name="@[H]" hidden="false" targetId="ae0b-44e7-704c-e312" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="388b-fcd6-2cc0-a27c" name="Magical Artefacts" hidden="false" collective="false" import="true" targetId="6816-61a6-c6f9-a79e" type="selectionEntryGroup"/>
-      </entryLinks>
-      <costs>
-        <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
-        <cost name=" pts" typeId="points" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="fda8-81f7-f529-016e" name="-RR Hero (Lrg Cav[Cht])" hidden="false" collective="false" import="true" type="unit">
-      <modifiers>
-        <modifier type="increment" field="3acc-6d76-0ddd-b556" value="1.0">
-          <repeats>
-            <repeat field="points" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="false"/>
-          </repeats>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="0245-63ef-fb4c-50ca" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3acc-6d76-0ddd-b556" type="max"/>
-        <constraint field="selections" scope="402d-7263-42d3-2871" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a0e4-0714-2691-d637" type="max"/>
-        <constraint field="selections" scope="a311-bd61-5379-cfcf" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ea3-af7e-efd5-f15c" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="eccf-3896-a0c4-2764" name="New CategoryLink" hidden="false" targetId="b057-19ac-bee2-ac91" primary="true"/>
-        <categoryLink id="7a11-ab07-d4ef-b05d" name="@Hero" hidden="false" targetId="4ea0-3a9b-13be-2767" primary="false"/>
-        <categoryLink id="ce16-0f4c-c430-c2b7" name="@Hero/Mon/Ttn/War Eng" hidden="false" targetId="3f26-cf3d-d182-e055" primary="false"/>
-        <categoryLink id="7463-95f7-5ff2-3e88" name="@[H]" hidden="false" targetId="ae0b-44e7-704c-e312" primary="false"/>
-      </categoryLinks>
-      <entryLinks>
-        <entryLink id="04d4-a4ab-8c0f-ac44" name="Magical Artefacts" hidden="false" collective="false" import="true" targetId="6816-61a6-c6f9-a79e" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -1471,7 +964,7 @@
         <categoryLink id="6e43-808a-7e6a-e2eb" name="New CategoryLink" hidden="false" targetId="b057-19ac-bee2-ac91" primary="true"/>
         <categoryLink id="b370-d8b3-b421-1c87" name="@Hero" hidden="false" targetId="4ea0-3a9b-13be-2767" primary="false"/>
         <categoryLink id="2d73-7b6d-451a-27a6" name="@Hero/Mon/Ttn/War Eng" hidden="false" targetId="3f26-cf3d-d182-e055" primary="false"/>
-        <categoryLink id="8798-1194-e5b2-9930" name="@[H]" hidden="false" targetId="ae0b-44e7-704c-e312" primary="false"/>
+        <categoryLink id="40ea-6d1b-e9ee-00db" name="@[H]" hidden="false" targetId="ae0b-44e7-704c-e312" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="6ffe-7545-064a-b52d" name="Magical Artefacts" hidden="false" collective="false" import="true" targetId="6816-61a6-c6f9-a79e" type="selectionEntryGroup"/>
@@ -1502,33 +995,6 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="aa5d-6294-17a7-3515" name="Magical Artefacts" hidden="false" collective="false" import="true" targetId="6816-61a6-c6f9-a79e" type="selectionEntryGroup"/>
-      </entryLinks>
-      <costs>
-        <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
-        <cost name=" pts" typeId="points" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="be3c-39a2-c1e8-e1e1" name="-UU Hero (Mon[Cht])" hidden="false" collective="false" import="true" type="unit">
-      <modifiers>
-        <modifier type="increment" field="4715-8638-9f6e-bf2d" value="1.0">
-          <repeats>
-            <repeat field="points" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="false"/>
-          </repeats>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="0245-63ef-fb4c-50ca" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4715-8638-9f6e-bf2d" type="max"/>
-        <constraint field="selections" scope="402d-7263-42d3-2871" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0256-2aff-a0c8-7e8e" type="max"/>
-        <constraint field="selections" scope="a311-bd61-5379-cfcf" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c703-62e5-4455-3159" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="a8de-1f1a-f512-0d08" name="New CategoryLink" hidden="false" targetId="b057-19ac-bee2-ac91" primary="true"/>
-        <categoryLink id="c6f1-4a12-7ed6-74f1" name="@Hero" hidden="false" targetId="4ea0-3a9b-13be-2767" primary="false"/>
-        <categoryLink id="622a-3ef2-4de5-bf11" name="@Hero/Mon/Ttn/War Eng" hidden="false" targetId="3f26-cf3d-d182-e055" primary="false"/>
-        <categoryLink id="4886-253a-8215-503a" name="@[H]" hidden="false" targetId="ae0b-44e7-704c-e312" primary="false"/>
-      </categoryLinks>
-      <entryLinks>
-        <entryLink id="32ee-c5fa-56d9-a7a7" name="Magical Artefacts" hidden="false" collective="false" import="true" targetId="6816-61a6-c6f9-a79e" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -1593,6 +1059,13 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2733-2e48-6e29-0e07" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5bfe-69c1-99c4-9229" type="max"/>
           </constraints>
+          <profiles>
+            <profile id="68df-5b44-056b-748e" name="05 - Blade of Slashing" publicationId="eab5-a7fe-b282-0b56" page="46" hidden="false" typeId="e8f3-0bb3-a33b-a519" typeName="Artefacts">
+              <characteristics>
+                <characteristic name="Details" typeId="ec79-82a5-5655-16e1">Whenever this unit rolls to hit in Melee, it can re-roll 1 of the dice that failed to hit.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
           <costs>
             <cost name=" pts" typeId="points" value="5.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -1603,6 +1076,17 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db29-4d17-8f9f-3e9a" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1d34-0772-655d-008d" type="max"/>
           </constraints>
+          <profiles>
+            <profile id="5aec-17de-29e2-c0a9" name="05 - Fire-Oil" publicationId="eab5-a7fe-b282-0b56" page="46" hidden="false" typeId="e8f3-0bb3-a33b-a519" typeName="Artefacts">
+              <characteristics>
+                <characteristic name="Details" typeId="ec79-82a5-5655-16e1">This unit gains both Crushing Strength (+1 vs. units with Regeneration) and Piercing (+1 vs. units with Regeneration).</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="2b87-15df-0d2d-49dc" name="Crushing Strength" hidden="false" targetId="3131-8f0a-0927-8489" type="rule"/>
+            <infoLink id="60fa-e0a6-98df-bf5d" name="Piercing" hidden="false" targetId="cc29-8e7d-2a0e-c995" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="5.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -1613,6 +1097,13 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="17d7-f649-f308-19b7" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1e6d-6562-c71d-c540" type="max"/>
           </constraints>
+          <profiles>
+            <profile id="fd2e-a617-d6f4-3e9b" name="05 - Healing Brew" publicationId="eab5-a7fe-b282-0b56" page="46" hidden="false" typeId="e8f3-0bb3-a33b-a519" typeName="Artefacts">
+              <characteristics>
+                <characteristic name="Details" typeId="ec79-82a5-5655-16e1">Once per game, when given a Movement order, this unit may roll a D6. On a 1-3 it removes 1 damage previously suffered. On a 4-6 it removes 2 damage previously suffered.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
           <costs>
             <cost name=" pts" typeId="points" value="5.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -1623,6 +1114,13 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e495-66f8-80f7-ee40" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b361-630b-4ceb-081e" type="max"/>
           </constraints>
+          <profiles>
+            <profile id="e0c3-57ec-3740-4403" name="05 - Liliana&apos;s Tear" publicationId="eab5-a7fe-b282-0b56" page="46" hidden="false" typeId="e8f3-0bb3-a33b-a519" typeName="Artefacts">
+              <characteristics>
+                <characteristic name="Details" typeId="ec79-82a5-5655-16e1">This unit is not affected by Enemy units&apos; Brutal, Dread, or Shattering.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
           <costs>
             <cost name=" pts" typeId="points" value="5.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -1633,6 +1131,13 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d3be-8f2f-3d7c-15e0" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f784-647c-0b56-b5c7" type="max"/>
           </constraints>
+          <profiles>
+            <profile id="c6bb-9dd8-de3c-849e" name="05 - Mace of Crushing" publicationId="eab5-a7fe-b282-0b56" page="46" hidden="false" typeId="e8f3-0bb3-a33b-a519" typeName="Artefacts">
+              <characteristics>
+                <characteristic name="Details" typeId="ec79-82a5-5655-16e1">Whenever this unit rolls to damage in Melee, it can re-roll 1 of the dice that failed to damage.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
           <costs>
             <cost name=" pts" typeId="points" value="5.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -1643,6 +1148,13 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a434-4e27-0beb-6b9b" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9df0-f71d-46a4-980d" type="max"/>
           </constraints>
+          <profiles>
+            <profile id="dd46-e394-4db1-02f0" name="05 - Staying Stone" publicationId="eab5-a7fe-b282-0b56" page="46" hidden="false" typeId="e8f3-0bb3-a33b-a519" typeName="Artefacts">
+              <characteristics>
+                <characteristic name="Details" typeId="ec79-82a5-5655-16e1">This unit gains +1 to its Wavering Nerve value.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
           <costs>
             <cost name=" pts" typeId="points" value="5.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -1653,6 +1165,14 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc9b-9c3c-76ca-b4e7" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6452-03fa-9680-2dde" type="max"/>
           </constraints>
+          <profiles>
+            <profile id="b0b0-016e-36b9-85e7" name="05 - War-Bow of Kaba" publicationId="eab5-a7fe-b282-0b56" page="46" hidden="false" typeId="e8f3-0bb3-a33b-a519" typeName="Artefacts">
+              <characteristics>
+                <characteristic name="Details" typeId="ec79-82a5-5655-16e1">This unit gains the following Ranged attack:
+&lt;War-Bow of Kaba: 24&quot;, Att: 1, Ra: 4+, Piercing (1), Steady Aim&gt;</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
           <costs>
             <cost name=" pts" typeId="points" value="5.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -1663,6 +1183,16 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="789e-bd77-33ff-7041" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d4ee-708c-6041-69f6" type="max"/>
           </constraints>
+          <profiles>
+            <profile id="a7bc-9d00-2e41-1f70" name="10 - Hann&apos;s Sanguinary Scripture" publicationId="eab5-a7fe-b282-0b56" page="46" hidden="false" typeId="e8f3-0bb3-a33b-a519" typeName="Artefacts">
+              <characteristics>
+                <characteristic name="Details" typeId="ec79-82a5-5655-16e1">This unit gains Lifeleech (+1).</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="8c4d-20ef-f1ce-387f" name="Lifeleech" hidden="false" targetId="2fcc-d747-ea72-2828" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="10.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -1673,6 +1203,16 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c9c-84b0-0627-f28f" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a9b8-52ac-338e-f965" type="max"/>
           </constraints>
+          <profiles>
+            <profile id="6c9e-308e-130d-7796" name="10 - Mead of Madness" publicationId="eab5-a7fe-b282-0b56" page="47" hidden="false" typeId="e8f3-0bb3-a33b-a519" typeName="Artefacts">
+              <characteristics>
+                <characteristic name="Details" typeId="ec79-82a5-5655-16e1">This unit gains Wild Charge (+1).</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="9bdd-f015-99c8-f63e" name="Wild Charge" hidden="false" targetId="05b0-7540-048c-16de" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="10.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -1683,6 +1223,16 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b60-0c91-a230-0956" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e7da-5b73-9f6c-5f34" type="max"/>
           </constraints>
+          <profiles>
+            <profile id="9ffe-583d-46b4-26e8" name="10 - Pipes of Terror" publicationId="eab5-a7fe-b282-0b56" page="47" hidden="false" typeId="e8f3-0bb3-a33b-a519" typeName="Artefacts">
+              <characteristics>
+                <characteristic name="Details" typeId="ec79-82a5-5655-16e1">This unit gains Brutal.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="f5cb-98bd-b68d-62c1" name="Brutal" hidden="false" targetId="51fa-428e-ca3d-8a63" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="10.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -1693,6 +1243,13 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f155-97f4-ea46-abeb" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f222-3a44-80bc-8890" type="max"/>
           </constraints>
+          <profiles>
+            <profile id="f8b0-16c3-c637-5ada" name="10 - Piercing Arrow" publicationId="eab5-a7fe-b282-0b56" page="47" hidden="false" typeId="e8f3-0bb3-a33b-a519" typeName="Artefacts">
+              <characteristics>
+                <characteristic name="Details" typeId="ec79-82a5-5655-16e1">Whenever this unit rolls to damage with a Ranged attack, it can re-roll 1 of the dice that failed to damage.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
           <costs>
             <cost name=" pts" typeId="points" value="10.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -1703,6 +1260,16 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e51c-f659-8018-41fd" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1eb3-88e7-5903-035b" type="max"/>
           </constraints>
+          <profiles>
+            <profile id="f7df-c806-ef55-d7e3" name="15 - Aegis of the Elohi" publicationId="eab5-a7fe-b282-0b56" page="47" hidden="false" typeId="e8f3-0bb3-a33b-a519" typeName="Artefacts">
+              <characteristics>
+                <characteristic name="Details" typeId="ec79-82a5-5655-16e1">This unit gains Iron Resolve. If it already has Iron Resolve, it increases the amount of damage removed each time Iron Resolve is used to 2.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="d4f9-f350-b74e-d264" name="Iron Resolve" hidden="false" targetId="6182-5a87-de7a-4f56" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="15.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -1713,6 +1280,13 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c18-44a3-c53f-5b11" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8648-784a-7df4-1684" type="max"/>
           </constraints>
+          <profiles>
+            <profile id="4a32-b3b2-c7e8-28f0" name="15 - Blood of the Old King" publicationId="eab5-a7fe-b282-0b56" page="48" hidden="false" typeId="e8f3-0bb3-a33b-a519" typeName="Artefacts">
+              <characteristics>
+                <characteristic name="Details" typeId="ec79-82a5-5655-16e1">Once per game, this unit gains Elite (Melee) and Vicious (Melee) for 1 Turn. This must be declared before it rolls any attacks. For each D6 re-rolled, this unit immediately receives 1 damage on itself. No Nerve test is required for this damage.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
           <costs>
             <cost name=" pts" typeId="points" value="15.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -1723,6 +1297,16 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c306-1b95-774f-99c1" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2256-6d08-d445-c6a5" type="max"/>
           </constraints>
+          <profiles>
+            <profile id="c3b3-bb3a-132e-da14" name="15 - Chalice of Wrath" publicationId="eab5-a7fe-b282-0b56" page="48" hidden="false" typeId="e8f3-0bb3-a33b-a519" typeName="Artefacts">
+              <characteristics>
+                <characteristic name="Details" typeId="ec79-82a5-5655-16e1">This unit gains Fury.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="436a-34ae-599a-e8c1" name="Fury" hidden="false" targetId="aabd-ec96-e46d-8dcb" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="15.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -1733,6 +1317,16 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1171-5179-ae43-d2d1" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="27e0-0db8-09c7-ea4c" type="max"/>
           </constraints>
+          <profiles>
+            <profile id="a29e-6fc4-7cc3-88d4" name="15 - Dwarven Ale" publicationId="eab5-a7fe-b282-0b56" page="48" hidden="false" typeId="e8f3-0bb3-a33b-a519" typeName="Artefacts">
+              <characteristics>
+                <characteristic name="Details" typeId="ec79-82a5-5655-16e1">This unit gains Headstrong.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="682e-4ef7-0c09-7b95" name="Headstrong" hidden="false" targetId="6be6-adad-42c1-637f" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="15.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -1743,6 +1337,16 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0829-1c26-8c76-b94b" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a5f8-0f41-102c-3baf" type="max"/>
           </constraints>
+          <profiles>
+            <profile id="2a97-e840-b5ec-e34f" name="15 - Helm of Confidence" publicationId="eab5-a7fe-b282-0b56" page="48" hidden="false" typeId="e8f3-0bb3-a33b-a519" typeName="Artefacts">
+              <characteristics>
+                <characteristic name="Details" typeId="ec79-82a5-5655-16e1">This unit gains Inspiring (Self).</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="381f-f93e-a65c-e2a0" name="Inspiring" hidden="false" targetId="7c18-e2b7-bc3b-fe10" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="15.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -1753,6 +1357,13 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0d4c-71fb-97bd-0b46" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0d19-f841-9a76-324d" type="max"/>
           </constraints>
+          <profiles>
+            <profile id="12f5-d0b6-5352-9cc6" name="15 - Sacred Horn" publicationId="eab5-a7fe-b282-0b56" page="48" hidden="false" typeId="e8f3-0bb3-a33b-a519" typeName="Artefacts">
+              <characteristics>
+                <characteristic name="Details" typeId="ec79-82a5-5655-16e1">This unit gains an additional 3&quot; range to all of its Auras.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
           <costs>
             <cost name=" pts" typeId="points" value="15.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -1763,6 +1374,16 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be65-750e-c226-a979" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d1f1-cd3a-85c1-12a0" type="max"/>
           </constraints>
+          <profiles>
+            <profile id="b5da-93c4-da1b-ab61" name="15 - Sir Jesse&apos;s Boots of Striding" publicationId="eab5-a7fe-b282-0b56" page="48" hidden="false" typeId="e8f3-0bb3-a33b-a519" typeName="Artefacts">
+              <characteristics>
+                <characteristic name="Details" typeId="ec79-82a5-5655-16e1">Once per game, this unit gains Strider until the end of the Turn.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="d6a0-d0d3-60f6-9609" name="Strider" hidden="false" targetId="e70c-1148-97d1-9348" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="15.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -1784,6 +1405,23 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b847-1b4d-9158-e006" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7620-5248-1eac-7824" type="max"/>
           </constraints>
+          <profiles>
+            <profile id="cb33-c96e-e2d9-0591" name="20 - Blessing of the Gods" publicationId="eab5-a7fe-b282-0b56" page="48" hidden="false" typeId="e8f3-0bb3-a33b-a519" typeName="Artefacts">
+              <modifiers>
+                <modifier type="set" field="name" value="30 - Blessing of the Gods">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fa15-db1f-5609-3f6c" type="instanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Details" typeId="ec79-82a5-5655-16e1">This unit gains Elite.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="63b6-f456-a1d9-9c2b" name="Elite" hidden="false" targetId="e0d0-5bf9-11c8-b4f1" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="20.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -1794,6 +1432,13 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb86-b3ca-6e8f-3bd2" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a253-dafd-335d-17e6" type="max"/>
           </constraints>
+          <profiles>
+            <profile id="320d-37a8-8d02-9757" name="20 - Brew of Haste" publicationId="eab5-a7fe-b282-0b56" page="48" hidden="false" typeId="e8f3-0bb3-a33b-a519" typeName="Artefacts">
+              <characteristics>
+                <characteristic name="Details" typeId="ec79-82a5-5655-16e1">This unit increases its Speed value by 1.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
           <costs>
             <cost name=" pts" typeId="points" value="20.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -1815,6 +1460,23 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2108-c6e1-b6e1-0de4" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8fab-4609-e39a-9a27" type="max"/>
           </constraints>
+          <profiles>
+            <profile id="08bb-54d4-e2a5-9748" name="20 - Chant of Hate" publicationId="eab5-a7fe-b282-0b56" page="49" hidden="false" typeId="e8f3-0bb3-a33b-a519" typeName="Artefacts">
+              <modifiers>
+                <modifier type="set" field="name" value="30 - Chant of Hate">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fa15-db1f-5609-3f6c" type="instanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Details" typeId="ec79-82a5-5655-16e1">This unit gains Vicious.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="c0e1-cff0-7c6f-5184" name="Vicious" hidden="false" targetId="47c7-1334-d1bf-24d9" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="20.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -1825,6 +1487,13 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="58ac-625a-2e20-6a55" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="79e5-b186-cd5d-eaf2" type="max"/>
           </constraints>
+          <profiles>
+            <profile id="92aa-f5d8-fe59-f4fa" name="20 - Dragonshard Shield" publicationId="eab5-a7fe-b282-0b56" page="49" hidden="false" typeId="e8f3-0bb3-a33b-a519" typeName="Artefacts">
+              <characteristics>
+                <characteristic name="Details" typeId="ec79-82a5-5655-16e1">Once per game, when this unit carries out a Halt or Change Facing order, it may choose to increase its Defence by 2 to a maximum of 6+ until the start of its next Turn.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
           <costs>
             <cost name=" pts" typeId="points" value="20.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -1835,6 +1504,13 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a883-0067-8402-5c04" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="94c0-4ca0-04d1-7f5b" type="max"/>
           </constraints>
+          <profiles>
+            <profile id="b7cd-1b2e-5310-9525" name="20 - Hammer of Measured Force" publicationId="eab5-a7fe-b282-0b56" page="49" hidden="false" typeId="e8f3-0bb3-a33b-a519" typeName="Artefacts">
+              <characteristics>
+                <characteristic name="Details" typeId="ec79-82a5-5655-16e1">In Melee, this unit will always damage the Enemy on a 4+ regardless of any other modifiers.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
           <costs>
             <cost name=" pts" typeId="points" value="20.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -1845,6 +1521,16 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6678-a9c8-d69c-3b52" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d6e1-a89f-4088-bde8" type="max"/>
           </constraints>
+          <profiles>
+            <profile id="e277-e40f-839f-39a9" name="20 - Maccwar&apos;s Potion of the Caterpillar" publicationId="eab5-a7fe-b282-0b56" page="49" hidden="false" typeId="e8f3-0bb3-a33b-a519" typeName="Artefacts">
+              <characteristics>
+                <characteristic name="Details" typeId="ec79-82a5-5655-16e1">This unit gains Pathfinder.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="8878-429a-193b-fb84" name="Pathfinder" hidden="false" targetId="0bf5-2b12-5cc7-a963" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="20.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -1855,6 +1541,13 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c24-8090-73cd-a89a" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8c9c-1c83-5735-cf51" type="max"/>
           </constraints>
+          <profiles>
+            <profile id="7921-9757-f428-0ac0" name="25 - The Scrying Gem" publicationId="eab5-a7fe-b282-0b56" page="49" hidden="false" typeId="e8f3-0bb3-a33b-a519" typeName="Artefacts">
+              <characteristics>
+                <characteristic name="Details" typeId="ec79-82a5-5655-16e1">When starting to deploy their units, your opponent must deploy (D3+1) units instead of a single one.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
           <costs>
             <cost name=" pts" typeId="points" value="25.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -1865,6 +1558,16 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c13-a84f-43d5-318f" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f80d-78f9-254d-812b" type="max"/>
           </constraints>
+          <profiles>
+            <profile id="a8c3-21b1-8066-88e9" name="30 - Diadem of Dragonkind" publicationId="eab5-a7fe-b282-0b56" page="49" hidden="false" typeId="e8f3-0bb3-a33b-a519" typeName="Artefacts">
+              <characteristics>
+                <characteristic name="Details" typeId="ec79-82a5-5655-16e1">This unit gains Fireball (8). It does not increase existing Fireball values.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="0f16-f11e-df81-5dcb" name="~Fireball" hidden="false" targetId="a496-054d-a2d6-47b8" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="30.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -1886,6 +1589,23 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d84-677f-de05-8c44" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ddf6-4714-df1b-6947" type="max"/>
           </constraints>
+          <profiles>
+            <profile id="c7c6-56fc-6f82-0213" name="30 - Brew of Strength" publicationId="eab5-a7fe-b282-0b56" page="49" hidden="false" typeId="e8f3-0bb3-a33b-a519" typeName="Artefacts">
+              <modifiers>
+                <modifier type="set" field="name" value="40 - Brew of Strength">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fa15-db1f-5609-3f6c" type="instanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Details" typeId="ec79-82a5-5655-16e1">This unit gains Crushing Strength (+1).</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="1449-de99-af62-c650" name="Crushing Strength" hidden="false" targetId="3131-8f0a-0927-8489" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="30.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -1907,6 +1627,20 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f97-1093-dbe1-6238" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0bd8-b7f0-05c7-33ba" type="max"/>
           </constraints>
+          <profiles>
+            <profile id="cc1d-33e3-052c-c1ac" name="35 - Brew of Sharpness" publicationId="eab5-a7fe-b282-0b56" page="49" hidden="false" typeId="e8f3-0bb3-a33b-a519" typeName="Artefacts">
+              <modifiers>
+                <modifier type="set" field="name" value="45 - Brew of Sharpness">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fa15-db1f-5609-3f6c" type="instanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Details" typeId="ec79-82a5-5655-16e1">This unit has a +1 to hit modifier with Melee attacks.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
           <costs>
             <cost name=" pts" typeId="points" value="35.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -1917,6 +1651,16 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="26d7-9911-f902-4a10" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="86a3-6037-dbe5-9dd6" type="max"/>
           </constraints>
+          <profiles>
+            <profile id="232e-53b8-6bf8-f53f" name="40 - Wine of Elvenkind" publicationId="eab5-a7fe-b282-0b56" page="50" hidden="false" typeId="e8f3-0bb3-a33b-a519" typeName="Artefacts">
+              <characteristics>
+                <characteristic name="Details" typeId="ec79-82a5-5655-16e1">This unit gains Nimble.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="3481-39fb-8371-e310" name="Nimble" hidden="false" targetId="b79a-f274-5123-df1d" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="40.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -1927,6 +1671,13 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7556-0f01-bb90-9a20" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e4c6-9909-b700-a853" type="max"/>
           </constraints>
+          <profiles>
+            <profile id="6486-200f-bcc2-0d13" name="50 - Crystal Pendant of Retribution" publicationId="eab5-a7fe-b282-0b56" page="50" hidden="false" typeId="e8f3-0bb3-a33b-a519" typeName="Artefacts">
+              <characteristics>
+                <characteristic name="Details" typeId="ec79-82a5-5655-16e1">When this unit suffers a Rout result, ALL units in base contact with it suffer 2D6 hits, at Piercing (3). These hits are resolved by the player that Routed the unit with the Pendant. After damage has been inflicted, no Nerve tests are taken by affected units. They can Regroup, but can&apos;t move directly forward D6&quot;.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
           <costs>
             <cost name=" pts" typeId="points" value="50.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -1954,12 +1705,19 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="30d5-2fc9-45d4-cc88" type="max"/>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="601a-0368-41a5-a67a" type="max"/>
               </constraints>
+              <profiles>
+                <profile id="4c1a-0f12-234f-7521" name="10 - Conjurer&apos;s Staff" publicationId="eab5-a7fe-b282-0b56" page="51" hidden="false" typeId="e8f3-0bb3-a33b-a519" typeName="Artefacts">
+                  <characteristics>
+                    <characteristic name="Details" typeId="ec79-82a5-5655-16e1">Whenever the unit rolls to hit with non-Unique spells, it can re-roll 1 of the dice that failed to hit.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
               <costs>
                 <cost name=" pts" typeId="points" value="10.0"/>
                 <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="872e-7630-427b-2b56" name="10 - Darklord&apos;s Onyx Ring (Individuals)" page="" hidden="true" collective="false" import="true" type="upgrade">
+            <selectionEntry id="872e-7630-427b-2b56" name="10 - Darklord&apos;s Onyx Ring (Individual)" page="" hidden="true" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="false">
                   <conditions>
@@ -1971,12 +1729,22 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c9cc-f3b8-e9c0-e41c" type="max"/>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="62a8-d550-5a11-1360" type="max"/>
               </constraints>
+              <profiles>
+                <profile id="173d-4521-a1ae-0a94" name="10 - Darklord&apos;s Onyx Ring" publicationId="eab5-a7fe-b282-0b56" page="51" hidden="false" typeId="e8f3-0bb3-a33b-a519" typeName="Artefacts">
+                  <characteristics>
+                    <characteristic name="Details" typeId="ec79-82a5-5655-16e1">Individuals only. This unit gains Regeneration (6+).</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="266a-2154-277e-d3cf" name="Regeneration" hidden="false" targetId="5815-9306-b2e7-0436" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name=" pts" typeId="points" value="10.0"/>
                 <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="67bd-7813-30f1-cce8" name="15 - Mournful Blade (Individuals)" page="" hidden="true" collective="false" import="true" type="upgrade">
+            <selectionEntry id="67bd-7813-30f1-cce8" name="15 - Mournful Blade (Individual)" page="" hidden="true" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="false">
                   <conditions>
@@ -1988,6 +1756,16 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f39-825c-21e9-a0b4" type="max"/>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ec27-d23c-f438-3127" type="max"/>
               </constraints>
+              <profiles>
+                <profile id="54f9-0135-0d8e-59d8" name="15 - Mournful Blade" publicationId="eab5-a7fe-b282-0b56" page="51" hidden="false" typeId="e8f3-0bb3-a33b-a519" typeName="Artefacts">
+                  <characteristics>
+                    <characteristic name="Details" typeId="ec79-82a5-5655-16e1">Individuals only. This unit gains Duelist.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="ef1a-33f7-fb3d-f9f4" name="Duelist" hidden="false" targetId="98e4-44a1-f80f-8faa" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name=" pts" typeId="points" value="15.0"/>
                 <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -1998,6 +1776,16 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b2c4-52ca-d5dd-2288" type="max"/>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2bec-b293-0fb9-b9ea" type="max"/>
               </constraints>
+              <profiles>
+                <profile id="08df-0461-ba9a-ac40" name="15 - Trickster&apos;s Wand" publicationId="eab5-a7fe-b282-0b56" page="51" hidden="false" typeId="e8f3-0bb3-a33b-a519" typeName="Artefacts">
+                  <characteristics>
+                    <characteristic name="Details" typeId="ec79-82a5-5655-16e1">This unit gains Hex (2). It does not increase existing Hex values. If it lands a hit with its Hex against an Enemy Hero also carrying Trickster&apos;s Wand, the Enemy&apos;s Hex granted by this cannot be used for the remainder of the game.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="0c48-0afe-dabc-7484" name="~Hex" hidden="false" targetId="19ab-c007-6f5e-d92b" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name=" pts" typeId="points" value="15.0"/>
                 <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -2008,6 +1796,16 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="241a-9d55-beb4-2104" type="max"/>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7179-9715-1115-6459" type="max"/>
               </constraints>
+              <profiles>
+                <profile id="4fc0-4bd1-cb79-d500" name="20 - Blade of the Beast Slayer" publicationId="eab5-a7fe-b282-0b56" page="51" hidden="false" typeId="e8f3-0bb3-a33b-a519" typeName="Artefacts">
+                  <characteristics>
+                    <characteristic name="Details" typeId="ec79-82a5-5655-16e1">This unit gains Crushing Strength (+2 vs. Lrg Inf, Mon Inf, Lrg Cav, Mon &amp; Ttn).</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="0318-51bb-6897-aafe" name="Crushing Strength" hidden="false" targetId="3131-8f0a-0927-8489" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name=" pts" typeId="points" value="20.0"/>
                 <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -2018,6 +1816,16 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f3e1-786f-ccba-cfa8" type="max"/>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3c20-c6e6-3855-ab35" type="max"/>
               </constraints>
+              <profiles>
+                <profile id="a1f1-2b6c-acd9-f269" name="20 - Inspiring Talisman" publicationId="eab5-a7fe-b282-0b56" page="51" hidden="false" typeId="e8f3-0bb3-a33b-a519" typeName="Artefacts">
+                  <characteristics>
+                    <characteristic name="Details" typeId="ec79-82a5-5655-16e1">This unit gains Inspiring.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="a9a5-7d01-51dd-c7d2" name="Inspiring" hidden="false" targetId="7c18-e2b7-bc3b-fe10" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name=" pts" typeId="points" value="20.0"/>
                 <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -2028,6 +1836,16 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f4e1-9e9a-6ce6-b703" type="max"/>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6a30-5048-ed57-5392" type="max"/>
               </constraints>
+              <profiles>
+                <profile id="7a97-76a0-4db3-ff68" name="20 - Tome of Darkness" publicationId="eab5-a7fe-b282-0b56" page="51" hidden="false" typeId="e8f3-0bb3-a33b-a519" typeName="Artefacts">
+                  <characteristics>
+                    <characteristic name="Details" typeId="ec79-82a5-5655-16e1">This unit gains Surge (4) or if it already has Surge, its value is increased by 4.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="a551-bfb0-af0f-2df3" name="~Surge" hidden="false" targetId="8447-b7bc-2737-f07c" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name=" pts" typeId="points" value="20.0"/>
                 <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -2038,6 +1856,16 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="29b7-31a1-f19f-45ad" type="max"/>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="86bc-77c1-7eac-eb15" type="max"/>
               </constraints>
+              <profiles>
+                <profile id="08f9-6720-02d7-8d34" name="25 - Lute of Insatiable Darkness" publicationId="eab5-a7fe-b282-0b56" page="51" hidden="false" typeId="e8f3-0bb3-a33b-a519" typeName="Artefacts">
+                  <characteristics>
+                    <characteristic name="Details" typeId="ec79-82a5-5655-16e1">This unit gains Bane Chant (2). It does not increase existing Bane Chant values.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="31ed-156b-96d5-60cb" name="~Bane Chant" hidden="false" targetId="0faf-9276-c8a0-9bcd" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name=" pts" typeId="points" value="25.0"/>
                 <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -2048,6 +1876,16 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b672-525a-c269-2d87" type="max"/>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a489-b6cc-96f1-c4e4" type="max"/>
               </constraints>
+              <profiles>
+                <profile id="c836-3939-a1cb-085c" name="25 - Zephyr Crown" publicationId="eab5-a7fe-b282-0b56" page="52" hidden="false" typeId="e8f3-0bb3-a33b-a519" typeName="Artefacts">
+                  <characteristics>
+                    <characteristic name="Details" typeId="ec79-82a5-5655-16e1">This unit gains Wind Blast (5). It does not increase existing Wind Blast values.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="5504-1b13-ffd5-2a05" name="~Wind Blast" hidden="false" targetId="da65-6a10-c6a3-9022" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name=" pts" typeId="points" value="25.0"/>
                 <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -2058,12 +1896,19 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="281f-8b65-e0c5-f70a" type="max"/>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8df7-56c7-a33a-9aa1" type="max"/>
               </constraints>
+              <profiles>
+                <profile id="eb56-0677-6ad0-2172" name="30 - Boots of Levitation" publicationId="eab5-a7fe-b282-0b56" page="52" hidden="false" typeId="e8f3-0bb3-a33b-a519" typeName="Artefacts">
+                  <characteristics>
+                    <characteristic name="Details" typeId="ec79-82a5-5655-16e1">This unit may still make Ranged attacks after moving At the Double.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
               <costs>
                 <cost name=" pts" typeId="points" value="30.0"/>
                 <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="c8fa-c2b5-b316-77d9" name="30 - Boots of the Seven Leagues (Individuals)" page="" hidden="true" collective="false" import="true" type="upgrade">
+            <selectionEntry id="c8fa-c2b5-b316-77d9" name="30 - Boots of the Seven Leagues (Individual)" page="" hidden="true" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="false">
                   <conditions>
@@ -2075,6 +1920,16 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7697-f476-5fd4-0439" type="max"/>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2e13-04eb-a7ae-5464" type="max"/>
               </constraints>
+              <profiles>
+                <profile id="6c75-f322-84d7-936f" name="30 - Boots of the Seven Leagues" publicationId="eab5-a7fe-b282-0b56" page="52" hidden="false" typeId="e8f3-0bb3-a33b-a519" typeName="Artefacts">
+                  <characteristics>
+                    <characteristic name="Details" typeId="ec79-82a5-5655-16e1">Individuals only. This unit gains Scout.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="513b-71b7-b97c-b777" name="Scout" hidden="false" targetId="4172-a0d9-878e-5057" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name=" pts" typeId="points" value="30.0"/>
                 <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -2085,6 +1940,16 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e71f-314b-844d-9d39" type="max"/>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="41d9-91b5-f334-2973" type="max"/>
               </constraints>
+              <profiles>
+                <profile id="da46-9ea4-784f-e8fc" name="30 - Shroud of the Saint" publicationId="eab5-a7fe-b282-0b56" page="52" hidden="false" typeId="e8f3-0bb3-a33b-a519" typeName="Artefacts">
+                  <characteristics>
+                    <characteristic name="Details" typeId="ec79-82a5-5655-16e1">This unit gains Heal (3) or if it already has Heal, its value is increased by 3.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="bf3a-24ca-aef9-8eb9" name="~Heal" hidden="false" targetId="a125-9eee-fc99-05f7" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name=" pts" typeId="points" value="30.0"/>
                 <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -2095,12 +1960,22 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e065-90f8-36cf-27a4" type="max"/>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="565a-875c-8575-8339" type="max"/>
               </constraints>
+              <profiles>
+                <profile id="1b64-00d5-9412-86fd" name="30 - The Boomstick" publicationId="eab5-a7fe-b282-0b56" page="52" hidden="false" typeId="e8f3-0bb3-a33b-a519" typeName="Artefacts">
+                  <characteristics>
+                    <characteristic name="Details" typeId="ec79-82a5-5655-16e1">This unit gains Lightning Bolt (3) or if it already has Lightning Bolt, its value is increased by 3.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="904f-5bff-f434-b293" name="~Lightning Bolt" hidden="false" targetId="643b-d49d-8d14-c765" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name=" pts" typeId="points" value="30.0"/>
                 <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="dfb7-f57a-3570-1aa5" name="40 - Wings of Honeymaze (Individuals)" page="" hidden="true" collective="false" import="true" type="upgrade">
+            <selectionEntry id="dfb7-f57a-3570-1aa5" name="40 - Wings of Honeymaze (Individual)" page="" hidden="true" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="false">
                   <conditions>
@@ -2112,6 +1987,16 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e55-aa3e-5fea-cda1" type="max"/>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c581-b1d8-9b08-cd67" type="max"/>
               </constraints>
+              <profiles>
+                <profile id="7a3c-afe5-0b1b-f6d9" name="40 - Wings of Honeymaze" publicationId="eab5-a7fe-b282-0b56" page="52" hidden="false" typeId="e8f3-0bb3-a33b-a519" typeName="Artefacts">
+                  <characteristics>
+                    <characteristic name="Details" typeId="ec79-82a5-5655-16e1">Individuals only. This unit gains Fly and increases its Speed to 10, but decreases its Defence by 1 to a minimum of 2.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="a4a5-1a49-dcfe-94cc" name="Fly" hidden="false" targetId="dc50-fdaa-d751-9cdf" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name=" pts" typeId="points" value="40.0"/>
                 <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -2121,65 +2006,366 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntryGroup>
+    <selectionEntryGroup id="cc00-4905-3626-245b" name=" Unlocked Units (Pick 3) [Visual Indicator/Reminder]" hidden="false" collective="false" import="true">
+      <selectionEntries>
+        <selectionEntry id="9617-b895-497c-51fb" name="+1 Hero" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bda2-2323-82d8-5fe5" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
+            <cost name=" pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="e071-0885-eb61-de83" name="+1 War Eng" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a70b-e950-854e-0607" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
+            <cost name=" pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="0843-dd6d-ae32-4877" name="Options" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e334-26ae-8db3-9c37" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="b1e4-a0fc-024c-390b" name="+1 Mon" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9406-ca9e-e3be-820b" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
+                <cost name=" pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="9535-92a2-5346-3504" name="+1 Ttn" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0881-2543-e86a-c7f7" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
+                <cost name=" pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="cdc9-7db6-77ed-e134" name=" Unlocked Unit (Pick 1) [Visual Indicator/Reminder]" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a4d8-a6a8-9f2b-c73d" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="7df0-533f-4024-57da" name="+1 Hero" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0139-9ef3-eaf3-6800" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
+            <cost name=" pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="5f9c-e14f-93e5-ff9e" name="+1 Mon" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a07d-d1ef-2d20-8a30" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
+            <cost name=" pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="925f-3df8-7b5c-8b73" name="+1 Ttn" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a66f-e428-276c-67ab" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
+            <cost name=" pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="c1d7-5ee1-08ea-54b6" name="+1 War Eng" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a6bd-dae6-be34-a8ae" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
+            <cost name=" pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="a4ea-60c0-092b-1ec8" name=" Unlocked Units (Pick 1) [Visual Indicator/Reminder]" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec72-fc57-415e-1fa4" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="157e-ddc7-a083-efa4" name="+1 Hero, +1 Mon" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="61ba-bdfd-a740-ba0c" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
+            <cost name=" pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="5995-a211-ff29-a319" name="+1 Mon, +1 Ttn" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f85-1c57-b353-2f69" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
+            <cost name=" pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="3523-5575-57d9-ebca" name="+1 Mon, +1 War Eng" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5127-4f9e-159f-96f0" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
+            <cost name=" pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="6a97-65a2-aef7-316b" name="+1 Ttn, +1 War Eng" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af6a-7774-af34-0611" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
+            <cost name=" pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="4b9e-6d23-e087-f049" name="+1 Hero, +1 Ttn" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="30b7-a434-4832-7224" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
+            <cost name=" pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="ffe1-1fe0-11e8-693b" name="+1 Hero, +1 War Eng" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="71b0-1a3f-4a8b-dadd" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
+            <cost name=" pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="161d-e8c0-0ed4-d2aa" name=" Unlocked Troops (2) [Visual Indicator/Reminder]" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b064-82b0-d9f6-8847" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="bd21-41de-0a8f-a805" name="+2 Troop" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3322-6712-1d8e-ffc5" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
+            <cost name=" pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="6218-0350-198b-26f8" name=" Unlocked Troops (4) [Visual Indicator/Reminder]" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e83e-50b8-621b-4996" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="8477-f6ed-2157-121b" name="+4 Troop" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b652-5001-741d-926a" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
+            <cost name=" pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
-    <rule id="0faf-9276-c8a0-9bcd" name="~Bane Chant" publicationId="eab5-a7fe-b282-0b56" page="54" hidden="false"/>
-    <rule id="11d0-aa5a-4eb4-83a8" name="Big Shield" publicationId="eab5-a7fe-b282-0b56" page="35" hidden="false"/>
-    <rule id="8c02-8957-63ab-1084" name="Blast" publicationId="eab5-a7fe-b282-0b56" page="35" hidden="false"/>
-    <rule id="b3fd-dca3-bedc-58e2" name="~Bloodboil [1]" publicationId="eab5-a7fe-b282-0b56" page="56" hidden="false"/>
-    <rule id="51fa-428e-ca3d-8a63" name="Brutal" publicationId="eab5-a7fe-b282-0b56" page="35" hidden="false"/>
-    <rule id="3131-8f0a-0927-8489" name="Crushing Strength" publicationId="eab5-a7fe-b282-0b56" page="36" hidden="false"/>
-    <rule id="e0d0-5bf9-11c8-b4f1" name="Elite" publicationId="eab5-a7fe-b282-0b56" page="36" hidden="false"/>
-    <rule id="3b62-ea44-71f8-1c42" name="Ensnare" publicationId="eab5-a7fe-b282-0b56" page="36" hidden="false"/>
-    <rule id="a496-054d-a2d6-47b8" name="~Fireball" publicationId="eab5-a7fe-b282-0b56" page="54" hidden="false"/>
-    <rule id="dc50-fdaa-d751-9cdf" name="Fly" publicationId="eab5-a7fe-b282-0b56" page="36" hidden="false"/>
-    <rule id="aabd-ec96-e46d-8dcb" name="Fury" publicationId="eab5-a7fe-b282-0b56" page="36" hidden="false"/>
-    <rule id="6be6-adad-42c1-637f" name="Headstrong" publicationId="eab5-a7fe-b282-0b56" page="36" hidden="false"/>
-    <rule id="a125-9eee-fc99-05f7" name="~Heal" publicationId="eab5-a7fe-b282-0b56" page="54" hidden="false"/>
-    <rule id="140a-2d51-ef73-c9b1" name="Indirect" publicationId="eab5-a7fe-b282-0b56" page="36" hidden="false"/>
-    <rule id="9657-1079-91be-b2bd" name="Individual" publicationId="eab5-a7fe-b282-0b56" page="34" hidden="false"/>
-    <rule id="7c18-e2b7-bc3b-fe10" name="Inspiring" publicationId="eab5-a7fe-b282-0b56" page="37" hidden="false"/>
-    <rule id="6182-5a87-de7a-4f56" name="Iron Resolve" publicationId="eab5-a7fe-b282-0b56" page="37" hidden="false"/>
-    <rule id="2fcc-d747-ea72-2828" name="Lifeleech" publicationId="eab5-a7fe-b282-0b56" page="37" hidden="false"/>
-    <rule id="643b-d49d-8d14-c765" name="~Lightning Bolt" publicationId="eab5-a7fe-b282-0b56" page="54" hidden="false"/>
-    <rule id="b79a-f274-5123-df1d" name="Nimble" publicationId="eab5-a7fe-b282-0b56" page="37" hidden="false"/>
-    <rule id="0bf5-2b12-5cc7-a963" name="Pathfinder" publicationId="eab5-a7fe-b282-0b56" page="37" hidden="false"/>
-    <rule id="fbfb-4339-b268-fbae" name="Phalanx" publicationId="eab5-a7fe-b282-0b56" page="37" hidden="false"/>
-    <rule id="cc29-8e7d-2a0e-c995" name="Piercing" publicationId="eab5-a7fe-b282-0b56" page="37" hidden="false"/>
-    <rule id="a621-0f14-db61-f580" name="Rallying" publicationId="eab5-a7fe-b282-0b56" page="37" hidden="false"/>
-    <rule id="5815-9306-b2e7-0436" name="Regeneration" publicationId="eab5-a7fe-b282-0b56" page="37" hidden="false"/>
-    <rule id="c0b3-3b50-e88f-5461" name="Reload" publicationId="eab5-a7fe-b282-0b56" page="38" hidden="false"/>
-    <rule id="36fd-c324-ddc8-ef9a" name="Shambling" publicationId="eab5-a7fe-b282-0b56" page="37" hidden="false"/>
-    <rule id="bdd0-eb1b-bf45-750e" name="Stealthy" publicationId="eab5-a7fe-b282-0b56" page="38" hidden="false"/>
-    <rule id="e70c-1148-97d1-9348" name="Strider" publicationId="eab5-a7fe-b282-0b56" page="38" hidden="false"/>
-    <rule id="8447-b7bc-2737-f07c" name="~Surge" publicationId="eab5-a7fe-b282-0b56" page="55" hidden="false"/>
-    <rule id="a8ce-2f96-b0be-47d6" name="Thunderous Charge" publicationId="eab5-a7fe-b282-0b56" page="38" hidden="false"/>
-    <rule id="4172-a0d9-878e-5057" name="Scout" publicationId="eab5-a7fe-b282-0b56" page="38" hidden="false"/>
-    <rule id="10ed-04da-d879-ce2e" name="Very Inspiring" publicationId="eab5-a7fe-b282-0b56" page="38" hidden="false"/>
-    <rule id="47c7-1334-d1bf-24d9" name="Vicious" publicationId="eab5-a7fe-b282-0b56" page="38" hidden="false"/>
-    <rule id="3d84-9118-f48e-7415" name="~Weakness" publicationId="eab5-a7fe-b282-0b56" page="55" hidden="false"/>
-    <rule id="da65-6a10-c6a3-9022" name="~Wind Blast" publicationId="eab5-a7fe-b282-0b56" page="55" hidden="false"/>
-    <rule id="5cc2-ea0c-f46d-3e58" name="~Drain Life" publicationId="eab5-a7fe-b282-0b56" page="54" hidden="false"/>
-    <rule id="1653-0b95-2ac5-e2d3" name="~Mind Fog" publicationId="eab5-a7fe-b282-0b56" page="55" hidden="false"/>
-    <rule id="ca1f-9ee1-258c-a3ef" name="~Veil of Shadows [1]" publicationId="eab5-a7fe-b282-0b56" page="56" hidden="false"/>
-    <rule id="0da2-f214-4262-70f4" name="~Martyr&apos;s Prayer [1]" publicationId="eab5-a7fe-b282-0b56" page="56" hidden="false"/>
-    <rule id="aeda-9ce3-1c58-5e26" name="Dread" publicationId="eab5-a7fe-b282-0b56" page="36" hidden="false"/>
-    <rule id="55fc-ab6a-a232-e11d" name="Steady Aim" publicationId="eab5-a7fe-b282-0b56" page="38" hidden="false"/>
-    <rule id="19ab-c007-6f5e-d92b" name="~Hex" publicationId="eab5-a7fe-b282-0b56" page="54" hidden="false"/>
-    <rule id="d525-9a93-3870-34bb" name="~Blizzard [1]" publicationId="eab5-a7fe-b282-0b56" page="56" hidden="false"/>
-    <rule id="2867-1489-00ac-35c6" name="Aura" publicationId="eab5-a7fe-b282-0b56" page="35" hidden="false"/>
-    <rule id="d0e1-9636-ac72-4d0d" name="Cloak of Death" publicationId="eab5-a7fe-b282-0b56" page="36" hidden="false"/>
-    <rule id="98e4-44a1-f80f-8faa" name="Duelist" publicationId="eab5-a7fe-b282-0b56" page="36" hidden="false"/>
-    <rule id="0879-b865-0c47-1960" name="Frozen" publicationId="eab5-a7fe-b282-0b56" page="36" hidden="false"/>
-    <rule id="6629-aa59-2196-07a1" name="Ignore Cover" publicationId="eab5-a7fe-b282-0b56" page="36" hidden="false"/>
-    <rule id="f92c-c1b5-e7bf-0593" name="Mighty" publicationId="eab5-a7fe-b282-0b56" page="37" hidden="false"/>
-    <rule id="84a4-5919-1d93-a1f3" name="Mindthirst" publicationId="eab5-a7fe-b282-0b56" page="37" hidden="false"/>
-    <rule id="1f7d-bacf-948b-f70f" name="Pot Shot" publicationId="eab5-a7fe-b282-0b56" page="37" hidden="false"/>
-    <rule id="690a-2397-0616-63c1" name="Radiance of Life" publicationId="eab5-a7fe-b282-0b56" page="37" hidden="false"/>
-    <rule id="bd38-943f-eb1b-d46d" name="Shattering" publicationId="eab5-a7fe-b282-0b56" page="38" hidden="false"/>
-    <rule id="05b0-7540-048c-16de" name="Wild Charge" publicationId="eab5-a7fe-b282-0b56" page="38" hidden="false"/>
-    <rule id="d444-041f-fcc3-fa4c" name="~Enthral" publicationId="eab5-a7fe-b282-0b56" page="54" hidden="false"/>
-    <rule id="d8d1-1c0b-b26b-5b8a" name="~Icy Breath" publicationId="eab5-a7fe-b282-0b56" page="54" hidden="false"/>
-    <rule id="4276-9c10-70eb-16fb" name="~Bastion [1]" publicationId="eab5-a7fe-b282-0b56" page="56" hidden="false"/>
+    <rule id="0faf-9276-c8a0-9bcd" name="~Bane Chant" publicationId="eab5-a7fe-b282-0b56" page="54" hidden="false">
+      <description>RANGE: 12&quot; || TARGETS: Friendly, CC || MODIFIERS: - || EFFECT: If 1 or more hits land, for the rest of the Turn the target unit gains Crushing Strength (+1). Non-cumulative from this spell.</description>
+    </rule>
+    <rule id="11d0-aa5a-4eb4-83a8" name="Big Shield" publicationId="eab5-a7fe-b282-0b56" page="35" hidden="false">
+      <description>All attacks (Ranged and Melee) against this unit&apos;s front facing treat its Defence as 6+.</description>
+    </rule>
+    <rule id="8c02-8957-63ab-1084" name="Blast" publicationId="eab5-a7fe-b282-0b56" page="35" hidden="false">
+      <description>If this unit&apos;s attack hits, the target suffers (n) hits rather than 1 hit.</description>
+    </rule>
+    <rule id="b3fd-dca3-bedc-58e2" name="~Bloodboil [1]" publicationId="eab5-a7fe-b282-0b56" page="56" hidden="false">
+      <description>RANGE: 12&quot; || TARGETS: Enemy || MODIFIERS: Piercing (1), hits on 5+ against units in Cover or with Stealthy || EFFECT: When rolling to hit, roll a number of D6 equal to the amount of damage on the target.</description>
+    </rule>
+    <rule id="51fa-428e-ca3d-8a63" name="Brutal" publicationId="eab5-a7fe-b282-0b56" page="35" hidden="false">
+      <description>When testing Nerve of an Enemy unit in Melee with 1 or more of your Brutal units, add the highest Brutal (n) value to the total rolled. If no value is specified, the unit has Brutal (1). Not usable with Dread; the attacker must choose which to use.</description>
+    </rule>
+    <rule id="3131-8f0a-0927-8489" name="Crushing Strength" publicationId="eab5-a7fe-b282-0b56" page="36" hidden="false">
+      <description>All Melee hits landed by this unit have a +(n) modifier when rolling to damage.</description>
+    </rule>
+    <rule id="e0d0-5bf9-11c8-b4f1" name="Elite" publicationId="eab5-a7fe-b282-0b56" page="36" hidden="false">
+      <description>Whenever this unit rolls to hit, it must re-roll all dice that score a natural, unmodified 1.</description>
+    </rule>
+    <rule id="3b62-ea44-71f8-1c42" name="Ensnare" publicationId="eab5-a7fe-b282-0b56" page="36" hidden="false">
+      <description>Melee attacks against this unit&apos;s front facing suffer an additional -1 to hit.</description>
+    </rule>
+    <rule id="a496-054d-a2d6-47b8" name="~Fireball" publicationId="eab5-a7fe-b282-0b56" page="54" hidden="false">
+      <description>RANGE: 12&quot; || TARGETS: Enemy || MODIFIERS: Hits on 5+ against units in Cover or with Stealthy || EFFECT: Roll to damage as normal.</description>
+    </rule>
+    <rule id="dc50-fdaa-d751-9cdf" name="Fly" publicationId="eab5-a7fe-b282-0b56" page="36" hidden="false">
+      <description>This unit can move over, and pivot while over, anything, as long as its entire move ends clear of any units or Blocking Terrain. It does not suffer Hindered charges for moving over Difficult Terrain or Obstacles, unless it ends the move within or touching them. While Disordered, it cannot use Fly. If a unit with Fly has Nimble, then that is also lost while Disordered.</description>
+    </rule>
+    <rule id="aabd-ec96-e46d-8dcb" name="Fury" publicationId="eab5-a7fe-b282-0b56" page="36" hidden="false">
+      <description>While Wavering, this unit may still declare a Counter Charge.</description>
+    </rule>
+    <rule id="6be6-adad-42c1-637f" name="Headstrong" publicationId="eab5-a7fe-b282-0b56" page="36" hidden="false">
+      <description>If this unit begins its Turn Wavering, roll a D6 before declaring its Movement order. On a 3+ it shrugs off the effects of Wavering and is Disordered instead.</description>
+    </rule>
+    <rule id="a125-9eee-fc99-05f7" name="~Heal" publicationId="eab5-a7fe-b282-0b56" page="54" hidden="false">
+      <description>RANGE: 12&quot; || TARGETS: Friendly, Self, CC || MODIFIERS: - || EFFECT: For each hit landed, the target regains 1 damage previously suffered.</description>
+    </rule>
+    <rule id="140a-2d51-ef73-c9b1" name="Indirect" publicationId="eab5-a7fe-b282-0b56" page="36" hidden="false">
+      <description>This unit can&apos;t make Ranged attacks on targets that are within 12&quot;.</description>
+    </rule>
+    <rule id="9657-1079-91be-b2bd" name="Individual" publicationId="eab5-a7fe-b282-0b56" page="34" hidden="false">
+      <description>Never block LoS and does not provide Cover. Free 360 degree pivots before Movement orders and picking Ranged targets. Nimble, and may protect this unit&apos;s facings in Friendly base contact. Yielding (see p34), unless also Mighty. Enemies making Ranged attacks against this unit suffer an additional -1 to hit modifier. Steady Aim. Aligns to the first charger to contact (except during Overrun), but the chargers shuffle. Enemies, and this unit, do not double/triple attacks against each other, except this unit against War Engines. Overrun (see p34).</description>
+    </rule>
+    <rule id="7c18-e2b7-bc3b-fe10" name="Inspiring" publicationId="eab5-a7fe-b282-0b56" page="37" hidden="false">
+      <description>If this unit, or any Friendly Core unit within 6&quot; is Routed, the opponent must re-roll that Nerve test, according to name or keyword qualifiers. The second result stands.</description>
+    </rule>
+    <rule id="6182-5a87-de7a-4f56" name="Iron Resolve" publicationId="eab5-a7fe-b282-0b56" page="37" hidden="false">
+      <description>If this unit is Steady as a result of a Nerve test, it removes 1 damage previously suffered.</description>
+    </rule>
+    <rule id="2fcc-d747-ea72-2828" name="Lifeleech" publicationId="eab5-a7fe-b282-0b56" page="37" hidden="false">
+      <description>When this unit completes its hit and damage rolls in Melee combat, it removes 1 damage previously suffered for every 1 damage it causes, up to a max of (n). Lifeleech has a max total of 3.</description>
+    </rule>
+    <rule id="643b-d49d-8d14-c765" name="~Lightning Bolt" publicationId="eab5-a7fe-b282-0b56" page="54" hidden="false">
+      <description>RANGE: 24&quot; || TARGETS: Enemy || MODIFIERS: Piercing (1), hits on 5+ against units in Cover || EFFECT: Roll to damage as normal.</description>
+    </rule>
+    <rule id="b79a-f274-5123-df1d" name="Nimble" publicationId="eab5-a7fe-b282-0b56" page="37" hidden="false">
+      <description>This unit can make a single extra pivot of up to 90 degrees during any Movement order except a Halt. When Disordered by a unit in Melee with Phalanx or Ensnare, it loses Nimble until the end of its following Turn.</description>
+    </rule>
+    <rule id="0bf5-2b12-5cc7-a963" name="Pathfinder" publicationId="eab5-a7fe-b282-0b56" page="37" hidden="false">
+      <description>This unit suffers no movement penalties for Difficult Terrain, treating it as Open Terrain in the Movement Phase. It is not Hindered for Charging through, or ending its Charge on, Difficult Terrain. Obstacles still Hinder.</description>
+    </rule>
+    <rule id="fbfb-4339-b268-fbae" name="Phalanx" publicationId="eab5-a7fe-b282-0b56" page="37" hidden="false">
+      <description>Enemies that Charge this unit&apos;s front facing cannot use Thunderous Charge. Cavalry, Large Cavalry and units with Fly that make an Unhindered Charge against this unit&apos;s front facing suffer a -1 to hit modifier in the subsequent Melee.</description>
+    </rule>
+    <rule id="cc29-8e7d-2a0e-c995" name="Piercing" publicationId="eab5-a7fe-b282-0b56" page="37" hidden="false">
+      <description>All hits caused by Ranged attacks from this unit have a +(n) modifier when rolling to damage.</description>
+    </rule>
+    <rule id="a621-0f14-db61-f580" name="Rallying" publicationId="eab5-a7fe-b282-0b56" page="37" hidden="false">
+      <description>Friendly Core units while within 6&quot; of this unit have +(n) to their Wavering and Rout Nerve values, or just Rout if the affected unit is Fearless. This is cumulative to a maximum total of +2.</description>
+    </rule>
+    <rule id="5815-9306-b2e7-0436" name="Regeneration" publicationId="eab5-a7fe-b282-0b56" page="37" hidden="false">
+      <description>When this unit receives a Movement order, before doing anything else, roll a number of dice equal to the damage on the unit. For every result of (n) or higher, it immediately removes 1 damage previously suffered.</description>
+    </rule>
+    <rule id="c0b3-3b50-e88f-5461" name="Reload" publicationId="eab5-a7fe-b282-0b56" page="38" hidden="false">
+      <description>This unit can only make Ranged attacks if it received a Halt order in its previous Movement Phase.</description>
+    </rule>
+    <rule id="36fd-c324-ddc8-ef9a" name="Shambling" publicationId="eab5-a7fe-b282-0b56" page="37" hidden="false">
+      <description>This unit cannot be given an At the Double Movement order, except when carrying out a Scout move.</description>
+    </rule>
+    <rule id="bdd0-eb1b-bf45-750e" name="Stealthy" publicationId="eab5-a7fe-b282-0b56" page="38" hidden="false">
+      <description>Enemies making Ranged attacks against this unit suffer an additional -1 to hit modifier.</description>
+    </rule>
+    <rule id="e70c-1148-97d1-9348" name="Strider" publicationId="eab5-a7fe-b282-0b56" page="38" hidden="false">
+      <description>This unit&apos;s Charge is not Hindered when charging through, or ending its Charge on, Difficult Terrain or Obstacles.</description>
+    </rule>
+    <rule id="8447-b7bc-2737-f07c" name="~Surge" publicationId="eab5-a7fe-b282-0b56" page="55" hidden="false">
+      <description>RANGE: 12&quot; || TARGETS: Friendly (Shambling) || MODIFIERS: - || EFFECT: For each hit landed, the target must move directly forward 1&quot; (stopping just out of contact with Friendly units and Blocking Terrain). Fly is not in effect for this. Contacting Enemies results in a Charge (so align &amp; shuffle), but those units will now skip this Ranged Phase&apos;s Nerve tests, if any. Align to facing contacted, or IF you&apos;ll Charge a corner, note the leader point BEFORE Surging forward, and align to the arc&apos;s facing that the target Friendly unit&apos;s leader point started in! If contacting 2+ Enemies simultaneously, the casting player chooses which to Charge. Surging over an Obstacle or Difficult Terrain is a Hindered Charge as normal. No effect on units with Speed 0.</description>
+    </rule>
+    <rule id="a8ce-2f96-b0be-47d6" name="Thunderous Charge" publicationId="eab5-a7fe-b282-0b56" page="38" hidden="false">
+      <description>All Melee hits from this unit have a +(n) modifier when rolling to damage, in addition to any Crushing Strength. This bonus is lost when this unit is Disordered and is reduced by 1 when it is Hindered (to a minimum of 0).</description>
+    </rule>
+    <rule id="4172-a0d9-878e-5057" name="Scout" publicationId="eab5-a7fe-b282-0b56" page="38" hidden="false">
+      <description>This unit can make a single At the Double or Advance order after Set-Up is finished but before the first Turn of the first Round begins. If moving At the Double from this, it treats Obstacles and Difficult Terrain as Open Terrain. If both armies have Scout units, each player rolls a D6. Higher scorer decides who moves their first Scout, and then players alternate.</description>
+    </rule>
+    <rule id="10ed-04da-d879-ce2e" name="Very Inspiring" publicationId="eab5-a7fe-b282-0b56" page="38" hidden="false">
+      <description>If this unit, or any Friendly Core unit within 9&quot; is Routed, the opponent must re-roll that Nerve test, according to name or keyword qualifiers. The second result stands. Any rule that affects Inspiring also affects Very Inspiring.</description>
+    </rule>
+    <rule id="47c7-1334-d1bf-24d9" name="Vicious" publicationId="eab5-a7fe-b282-0b56" page="38" hidden="false">
+      <description>Whenever this unit rolls to damage, it must re-roll all dice that score a natural, unmodified 1.</description>
+    </rule>
+    <rule id="3d84-9118-f48e-7415" name="~Weakness" publicationId="eab5-a7fe-b282-0b56" page="55" hidden="false">
+      <description>RANGE: 24&quot; || TARGETS: Enemy, CC || MODIFIERS: - || EFFECT: Instead of damaging, if 1 or more hits land, the target unit has a -1 modifier when rolling to damage during their next Turn (any rolls that unit makes of natural, unmodified 6 will still damage). Non-cumulative.</description>
+    </rule>
+    <rule id="da65-6a10-c6a3-9022" name="~Wind Blast" publicationId="eab5-a7fe-b282-0b56" page="55" hidden="false">
+      <description>RANGE: 18&quot; || TARGETS: Enemy || MODIFIERS: - || EFFECT: For each hit landed, the target Enemy unit is &apos;pushed&apos; 1&quot; directly backward (front), sideways and away from the caster (flank), or forward (rear) if the caster is in the target&apos;s arcs in brackets. The target stops 1&quot; away from Enemy units or just out of contact with Blocking Terrain and Friendly units. No effect on units with Speed 0.</description>
+    </rule>
+    <rule id="5cc2-ea0c-f46d-3e58" name="~Drain Life" publicationId="eab5-a7fe-b282-0b56" page="54" hidden="false">
+      <description>RANGE: 6&quot; || TARGETS: Enemy, CC || MODIFIERS: Piercing (1) || EFFECT: If 1 or more damage inflicted, choose the caster or a Friendly Core unit within 6&quot; of the caster. Remove 1 damage from the chosen Friendly unit for each damage dealt to Enemy target by Drain Life. If cast into Melee, Enemy target will not take a Nerve test from this Ranged Phase&apos;s damage.</description>
+    </rule>
+    <rule id="1653-0b95-2ac5-e2d3" name="~Mind Fog" publicationId="eab5-a7fe-b282-0b56" page="55" hidden="false">
+      <description>RANGE: 36&quot; || TARGETS: Enemy || MODIFIERS: - || EFFECT: Instead of damaging, if 1 or more hits land, make a Nerve test for the target Enemy unit at the end of the Ranged phase as though damage had been caused.</description>
+    </rule>
+    <rule id="ca1f-9ee1-258c-a3ef" name="~Veil of Shadows [1]" publicationId="eab5-a7fe-b282-0b56" page="56" hidden="false">
+      <description>RANGE: - || TARGETS: Self || MODIFIERS: - || EFFECT: If 1 or more hits land, the caster gains Aura (Stealthy) until the start of its next Turn.</description>
+    </rule>
+    <rule id="0da2-f214-4262-70f4" name="~Martyr&apos;s Prayer [1]" publicationId="eab5-a7fe-b282-0b56" page="56" hidden="false">
+      <description>RANGE: 12&quot; || TARGETS: Friendly, CC || MODIFIERS: - || EFFECT: For each hit landed, transfer 1 damage previously suffered by the target unit to the caster. The damaged caster will not take a Nerve test from this. This can Devastate the caster.</description>
+    </rule>
+    <rule id="aeda-9ce3-1c58-5e26" name="Dread" publicationId="eab5-a7fe-b282-0b56" page="36" hidden="false">
+      <description>While within 6&quot; of this unit, Enemy units have -1 to their Wavering and Rout Nerve values, in addition to any other modifiers that may apply. The Dread effect is non-cumulative. Not usable with Brutal or Shattering; the attacker must choose which to use.</description>
+    </rule>
+    <rule id="55fc-ab6a-a232-e11d" name="Steady Aim" publicationId="eab5-a7fe-b282-0b56" page="38" hidden="false">
+      <description>This unit does not suffer from the -1 Moving modifier when making Ranged attacks.</description>
+    </rule>
+    <rule id="19ab-c007-6f5e-d92b" name="~Hex" publicationId="eab5-a7fe-b282-0b56" page="54" hidden="false">
+      <description>RANGE: 30&quot; || TARGETS: Enemy || MODIFIERS: - || EFFECT: Instead of damaging, if 1 or more hits land, the target Enemy unit is Hexed and receives 2 damage each time it lands a hit with a spell until the end of its next Turn. A Nerve test is not required for this damage. No effect on Spellcaster: 0 units.</description>
+    </rule>
+    <rule id="d525-9a93-3870-34bb" name="~Blizzard [1]" publicationId="eab5-a7fe-b282-0b56" page="56" hidden="false">
+      <description>RANGE: 30&quot; || TARGETS: Enemy || MODIFIERS: Indirect, Piercing (1) || EFFECT: For each hit landed, roll a single D3. The combined total is the amount of attacks rolled to damage.</description>
+    </rule>
+    <rule id="2867-1489-00ac-35c6" name="Aura" publicationId="eab5-a7fe-b282-0b56" page="35" hidden="false">
+      <description>This unit and all Friendly Core units while within 6&quot; have the (x) special rule, according to name or keyword qualifiers. Non-cumulative.</description>
+    </rule>
+    <rule id="d0e1-9636-ac72-4d0d" name="Cloak of Death" publicationId="eab5-a7fe-b282-0b56" page="36" hidden="false">
+      <description>After this unit has completed its Movement order, all Enemy units within 6&quot; take an immediate 1 damage. Units can only be damaged by 1 source of Cloak of Death per Turn. No Nerve test is required from this damage.</description>
+    </rule>
+    <rule id="98e4-44a1-f80f-8faa" name="Duelist" publicationId="eab5-a7fe-b282-0b56" page="36" hidden="false">
+      <description>While attacking Enemy Individuals in Melee, this unit doubles its number of Attacks.</description>
+    </rule>
+    <rule id="0879-b865-0c47-1960" name="Frozen" publicationId="eab5-a7fe-b282-0b56" page="36" hidden="false">
+      <description>Frozen units have -1 Speed until the end of their next turn, and then lose Frozen. No unit may have its Speed reduced by more than -1 in a given turn from Frozen. No effect if the Frozen unit&apos;s Speed is already 4 or below.</description>
+    </rule>
+    <rule id="6629-aa59-2196-07a1" name="Ignore Cover" publicationId="eab5-a7fe-b282-0b56" page="36" hidden="false">
+      <description>This unit fires in high arcs, and does not suffer the Ranged -1 to hit modifier for Enemy targets in Cover. This still requires LoS.</description>
+    </rule>
+    <rule id="f92c-c1b5-e7bf-0593" name="Mighty" publicationId="eab5-a7fe-b282-0b56" page="37" hidden="false">
+      <description>Individuals with this rule are no longer Yielding.</description>
+    </rule>
+    <rule id="84a4-5919-1d93-a1f3" name="Mindthirst" publicationId="eab5-a7fe-b282-0b56" page="37" hidden="false">
+      <description>If this unit is within 12&quot; of an Enemy unit with Inspiring or Very Inspiring and is Routed, the opponent must re-roll that Nerve test. The second result stands.</description>
+    </rule>
+    <rule id="1f7d-bacf-948b-f70f" name="Pot Shot" publicationId="eab5-a7fe-b282-0b56" page="37" hidden="false">
+      <description>If this unit is given any order other than Halt in the Movement Phase, any Pot Shot Ranged attacks are resolved with a -2 Moving modifier rather than the normal -1.</description>
+    </rule>
+    <rule id="690a-2397-0616-63c1" name="Radiance of Life" publicationId="eab5-a7fe-b282-0b56" page="37" hidden="false">
+      <description>In the Movement Phase, after it has completed its order, this unit and all Friendly Core units within 6&quot; of it immediately remove 1 damage previously suffered. Units can only be affected by 1 source of Radiance of Life per Turn.</description>
+    </rule>
+    <rule id="bd38-943f-eb1b-d46d" name="Shattering" publicationId="eab5-a7fe-b282-0b56" page="38" hidden="false">
+      <description>Enemy units damaged by at least 1 of this unit&apos;s Ranged attacks add 1 to the subsequent Nerve test. Not usable with Dread; the attacker must choose which to use.</description>
+    </rule>
+    <rule id="05b0-7540-048c-16de" name="Wild Charge" publicationId="eab5-a7fe-b282-0b56" page="38" hidden="false">
+      <description>This unit may add (n) to their Charge range, after Sp is doubled. The (n) may be variable, in which case resolve the (n) roll before choosing your Movement order(s).</description>
+    </rule>
+    <rule id="d444-041f-fcc3-fa4c" name="~Enthral" publicationId="eab5-a7fe-b282-0b56" page="54" hidden="false">
+      <description>RANGE: 18&quot; || TARGETS: Enemy || MODIFIERS: - || EFFECT: For each hit landed, the target Enemy unit is &apos;pulled&apos; 1&quot; directly forward (front), sideways and towards the caster (flank), or backwards (rear) if the caster is in the target&apos;s arcs in brackets. The target stops 1&quot; away from Enemy units or just out of contact with Blocking Terrain and Friendly units. A unit can only be Enthralled once per Turn. No effect on units with Speed 0.</description>
+    </rule>
+    <rule id="d8d1-1c0b-b26b-5b8a" name="~Icy Breath" publicationId="eab5-a7fe-b282-0b56" page="54" hidden="false">
+      <description>RANGE: 10&quot; || TARGETS: Enemy || MODIFIERS: Hits on 5+ against units in Cover || EFFECT: Roll to damage as normal. If 1+ damage is dealt, the target Enemy unit is now Frozen.</description>
+    </rule>
+    <rule id="4276-9c10-70eb-16fb" name="~Bastion [1]" publicationId="eab5-a7fe-b282-0b56" page="56" hidden="false">
+      <description>RANGE: 12&quot; || TARGETS: Friendly, Self, CC || MODIFIERS: - || EFFECT: If 1 or more hits land, until the start of its next Turn, the target increases its Wavering and Rout Nerve values by 1, and gains Rallying (+1), to a maximum of Rallying (2).</description>
+    </rule>
   </sharedRules>
 </gameSystem>
