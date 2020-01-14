@@ -1,7 +1,34 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="90da-d9ac-62c2-eaf8" name="(Good) The Brotherhood: Order of the Brothermark (Basileans)" revision="3" battleScribeVersion="2.03" authorName="John (Ekaznae)" authorContact="bsdata.kow@gmail.com" authorUrl="https://github.com/BSData/kingsofwar" library="false" gameSystemId="0929-4596-8744-bbdb" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="90da-d9ac-62c2-eaf8" name="(Good) The Brotherhood: Order of the Brothermark (Basileans)" revision="4" battleScribeVersion="2.03" authorName="John (Ekaznae)" authorContact="bsdata.kow@gmail.com" authorUrl="https://github.com/BSData/kingsofwar" library="false" gameSystemId="0929-4596-8744-bbdb" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="bdc7-e704-f7e4-3a34" name="Men-at-Arms Swordsmen (10) Troop" page="" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="a2b8-5cdc-39f2-b6b1" name="A: Men-at-Arms Swordsmen (10) Troop" publicationId="eab5-a7fe-b282-0b56" page="238" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <modifiers>
+            <modifier type="set" field="c66d-c39c-c7ce-21c1" value="10/12">
+              <conditions>
+                <condition field="selections" scope="bdc7-e704-f7e4-3a34" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="114a-ac8a-dbc6-ab55" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Inf</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Human, Men-at-Arms</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Iron Resolve</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">5</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">4+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">4+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">10</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">9/11</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">1</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="b165-85b0-5753-1af4" name="Iron Resolve" hidden="false" targetId="6182-5a87-de7a-4f56" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="47c1-77aa-7c63-8f51" name="New CategoryLink" hidden="false" targetId="616e-c1cf-de59-ed6e" primary="true"/>
         <categoryLink id="f4e8-3ec9-42e0-9825" name="@Troop" hidden="false" targetId="9a33-dbd7-2f61-bf74" primary="false"/>
@@ -26,6 +53,33 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="308c-f8a7-419e-7f71" name="Men-at-Arms Swordsmen (20) Regiment" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="d241-d66c-cb86-5d39" name="A: Men-at-Arms Swordsmen (20) Regiment" publicationId="eab5-a7fe-b282-0b56" page="238" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <modifiers>
+            <modifier type="set" field="c66d-c39c-c7ce-21c1" value="14/16">
+              <conditions>
+                <condition field="selections" scope="308c-f8a7-419e-7f71" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e1e3-1cd9-a9b7-fe86" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Inf</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Human, Men-at-Arms</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Iron Resolve</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">5</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">4+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">4+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">12</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">13/15</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">3</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="9f24-1503-84dc-4749" name="Iron Resolve" hidden="false" targetId="6182-5a87-de7a-4f56" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="e368-1579-3034-6738" name="New CategoryLink" hidden="false" targetId="616e-c1cf-de59-ed6e" primary="true"/>
         <categoryLink id="5b31-c236-d38a-4c4d" name="$$Inf/Hvy Inf/Cav/Cht REGIMENT" hidden="false" targetId="9f55-3ef2-5914-9436" primary="false"/>
@@ -52,6 +106,33 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="e0ee-f50e-80b7-9fa0" name="Men-at-Arms Swordsmen (40) Horde" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="b764-0c45-f7ad-ed5c" name="A: Men-at-Arms Swordsmen (40) Horde" publicationId="eab5-a7fe-b282-0b56" page="238" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <modifiers>
+            <modifier type="set" field="c66d-c39c-c7ce-21c1" value="21/23">
+              <conditions>
+                <condition field="selections" scope="e0ee-f50e-80b7-9fa0" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="01a3-5070-d1ec-5336" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Inf</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Human, Men-at-Arms</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Iron Resolve</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">5</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">4+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">4+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">25</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">20/22</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">4</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="95cb-b9d9-09f4-2069" name="Iron Resolve" hidden="false" targetId="6182-5a87-de7a-4f56" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="eb1d-9f05-d00f-5bb9" name="New CategoryLink" hidden="false" targetId="616e-c1cf-de59-ed6e" primary="true"/>
         <categoryLink id="4570-a446-31ee-6ed6" name="$$Inf/Hvy Inf/Cav/Cht HORDE/LEGION" hidden="false" targetId="9453-4e62-79da-bc74" primary="false"/>
@@ -79,6 +160,28 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="3b00-fe56-f3ea-9659" name="Men-at-Arms Crossbowmen (10) Troop" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="7c7b-3e85-5cc3-efe9" name="A: Men-at-Arms Crossbowmen (10) Troop" publicationId="eab5-a7fe-b282-0b56" page="238" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Inf</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Human, Men-at-Arms</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Iron Resolve, &lt;Crossbows: 24&quot;, Piercing (1), Pot Shot&gt;</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">5</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">5+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">5+</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">4+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">8</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">9/11</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">1</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="902b-3f14-3e3d-a272" name="Iron Resolve" hidden="false" targetId="6182-5a87-de7a-4f56" type="rule"/>
+        <infoLink id="0aeb-16d3-5c49-bd83" name="Piercing" hidden="false" targetId="cc29-8e7d-2a0e-c995" type="rule"/>
+        <infoLink id="5a2c-269a-493e-eab5" name="Pot Shot" hidden="false" targetId="1f7d-bacf-948b-f70f" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="cc5b-a4c2-4b9a-2ebc" name="New CategoryLink" hidden="false" targetId="616e-c1cf-de59-ed6e" primary="true"/>
         <categoryLink id="2ad6-cad2-2e49-3225" name="@Troop" hidden="false" targetId="9a33-dbd7-2f61-bf74" primary="false"/>
@@ -92,6 +195,28 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="d701-8ef5-4ede-24a9" name="Men-at-Arms Crossbowmen (20) Regiment" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="035e-6d48-a482-ec88" name="A: Men-at-Arms Crossbowmen (20) Regiment" publicationId="40c7-f3d7-48f3-3cc9" page="36" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Inf</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Human, Men-at-Arms</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Iron Resolve, &lt;Crossbows: 24&quot;, Piercing (1), Pot Shot&gt;</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">5</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">5+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">5+</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">4+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">10</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">13/15</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">2</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="4f5d-3c61-3dff-a137" name="Iron Resolve" hidden="false" targetId="6182-5a87-de7a-4f56" type="rule"/>
+        <infoLink id="865b-6d98-c6ea-8d7b" name="Piercing" hidden="false" targetId="cc29-8e7d-2a0e-c995" type="rule"/>
+        <infoLink id="80cb-3bb9-273a-4c36" name="Pot Shot" hidden="false" targetId="1f7d-bacf-948b-f70f" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="90cb-7a86-5fb1-5f88" name="New CategoryLink" hidden="false" targetId="616e-c1cf-de59-ed6e" primary="true"/>
         <categoryLink id="1c5a-f2a6-9595-23fd" name="$$Inf/Hvy Inf/Cav/Cht REGIMENT" hidden="false" targetId="9f55-3ef2-5914-9436" primary="false"/>
@@ -107,6 +232,28 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="54eb-e099-9a5a-4fe0" name="Men-at-Arms Crossbowmen (40) Horde" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="14c0-e557-ed13-d93b" name="A: Men-at-Arms Crossbowmen (40) Horde" publicationId="eab5-a7fe-b282-0b56" page="238" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Inf</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Human, Men-at-Arms</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Iron Resolve, &lt;Crossbows: 24&quot;, Piercing (1), Pot Shot&gt;</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">5</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">5+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">5+</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">4+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">20</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">20/22</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">3</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="301e-7546-d70c-c060" name="Iron Resolve" hidden="false" targetId="6182-5a87-de7a-4f56" type="rule"/>
+        <infoLink id="de2e-1fa2-fc9e-27b3" name="Piercing" hidden="false" targetId="cc29-8e7d-2a0e-c995" type="rule"/>
+        <infoLink id="817f-6883-8166-d9ce" name="Pot Shot" hidden="false" targetId="1f7d-bacf-948b-f70f" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="144d-fe4a-bdf6-8c7d" name="New CategoryLink" hidden="false" targetId="616e-c1cf-de59-ed6e" primary="true"/>
         <categoryLink id="99a7-24a5-5c03-7591" name="$$Inf/Hvy Inf/Cav/Cht HORDE/LEGION" hidden="false" targetId="9453-4e62-79da-bc74" primary="false"/>
@@ -123,6 +270,34 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="2f5a-04c9-aa81-df3a" name="Men-at-Arms Spearmen (10) Troop" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="1703-44ae-0f65-ac45" name="A: Men-at-Arms Spearmen (10) Troop" publicationId="eab5-a7fe-b282-0b56" page="237" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <modifiers>
+            <modifier type="set" field="c66d-c39c-c7ce-21c1" value="10/12">
+              <conditions>
+                <condition field="selections" scope="2f5a-04c9-aa81-df3a" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="88e3-2f93-7ef2-0ab1" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Inf</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Human, Men-at-Arms</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Iron Resolve, Phalanx</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">5</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">4+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">4+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">12</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">9/11</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">1</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="a514-d0e5-e7e2-8dea" name="Iron Resolve" hidden="false" targetId="6182-5a87-de7a-4f56" type="rule"/>
+        <infoLink id="18ee-8e64-99bf-2b40" name="Phalanx" hidden="false" targetId="fbfb-4339-b268-fbae" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="4925-ce47-2a78-0b93" name="New CategoryLink" hidden="false" targetId="616e-c1cf-de59-ed6e" primary="true"/>
         <categoryLink id="ed20-50e7-37e6-1fcf" name="@Troop" hidden="false" targetId="9a33-dbd7-2f61-bf74" primary="false"/>
@@ -147,6 +322,34 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="9068-653e-67a1-601d" name="Men-at-Arms Spearmen (20) Regiment" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="99a8-e967-6a14-d3a2" name="A: Men-at-Arms Spearmen (20) Regiment" publicationId="eab5-a7fe-b282-0b56" page="237" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <modifiers>
+            <modifier type="set" field="c66d-c39c-c7ce-21c1" value="14/16">
+              <conditions>
+                <condition field="selections" scope="9068-653e-67a1-601d" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2dc6-035e-d981-838f" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Inf</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Human, Men-at-Arms</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Iron Resolve, Phalanx</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">5</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">4+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">4+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">15</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">13/15</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">3</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="8f29-8b83-df9e-8242" name="Iron Resolve" hidden="false" targetId="6182-5a87-de7a-4f56" type="rule"/>
+        <infoLink id="406f-1b01-85bd-7a13" name="Phalanx" hidden="false" targetId="fbfb-4339-b268-fbae" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="5757-1667-8fea-1cae" name="New CategoryLink" hidden="false" targetId="616e-c1cf-de59-ed6e" primary="true"/>
         <categoryLink id="01f8-e010-1e44-3ebb" name="$$Inf/Hvy Inf/Cav/Cht REGIMENT" hidden="false" targetId="9f55-3ef2-5914-9436" primary="false"/>
@@ -173,6 +376,34 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="fe89-0345-879a-6dd4" name="Men-at-Arms Spearmen (40) Horde" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="8fa1-025b-9d67-3a49" name="A: Men-at-Arms Spearmen (40) Horde" publicationId="eab5-a7fe-b282-0b56" page="237" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <modifiers>
+            <modifier type="set" field="c66d-c39c-c7ce-21c1" value="21/23">
+              <conditions>
+                <condition field="selections" scope="fe89-0345-879a-6dd4" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4333-c7c2-ab65-1f0f" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Inf</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Human, Men-at-Arms</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Iron Resolve, Phalanx</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">5</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">4+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">4+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">30</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">20/22</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">4</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="2725-91fb-8fd8-e8e7" name="Iron Resolve" hidden="false" targetId="6182-5a87-de7a-4f56" type="rule"/>
+        <infoLink id="a3d6-4cc9-ee69-535f" name="Phalanx" hidden="false" targetId="fbfb-4339-b268-fbae" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="9f17-84ea-659a-1b8a" name="New CategoryLink" hidden="false" targetId="616e-c1cf-de59-ed6e" primary="true"/>
         <categoryLink id="5a81-85da-4dc6-cb1a" name="$$Inf/Hvy Inf/Cav/Cht HORDE/LEGION" hidden="false" targetId="9453-4e62-79da-bc74" primary="false"/>
@@ -203,6 +434,40 @@
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c22c-d64a-c188-4c36" type="max"/>
       </constraints>
+      <profiles>
+        <profile id="4126-2d77-477f-1c85" name="A: Paladin Defenders [1] (20) Regiment" publicationId="eab5-a7fe-b282-0b56" page="237" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <modifierGroups>
+            <modifierGroup>
+              <conditions>
+                <condition field="selections" scope="a735-0b66-1759-4591" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ebf2-4a80-308a-e9c8" type="equalTo"/>
+              </conditions>
+              <modifiers>
+                <modifier type="set" field="0430-25ef-96a4-6510" value="4+"/>
+                <modifier type="set" field="0e93-1f12-f5f3-c8df" value="Aura (Elite:(Melee):Paladin Inf only), Crushing Strength (1), Headstrong, Iron Resolve"/>
+              </modifiers>
+            </modifierGroup>
+          </modifierGroups>
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Inf</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Human, Paladin</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Aura (Elite:(Melee):Paladin Inf only), Headstrong, Iron Resolve</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">5</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">3+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">5+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">12</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">15/17</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">3</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="d26e-653f-0e37-99e8" name="Headstrong" hidden="false" targetId="6be6-adad-42c1-637f" type="rule"/>
+        <infoLink id="51c0-92a9-7c9e-e1f9" name="Iron Resolve" hidden="false" targetId="6182-5a87-de7a-4f56" type="rule"/>
+        <infoLink id="705d-9aaa-10f2-cc8a" name="Aura" hidden="false" targetId="2867-1489-00ac-35c6" type="rule"/>
+        <infoLink id="c97a-7528-21b3-2406" name="Elite" hidden="false" targetId="e0d0-5bf9-11c8-b4f1" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="535e-76aa-1a24-7722" name="New CategoryLink" hidden="false" targetId="616e-c1cf-de59-ed6e" primary="true"/>
         <categoryLink id="ce13-6ede-7b23-dec4" name="$$Inf/Hvy Inf/Cav/Cht REGIMENT" hidden="false" targetId="9f55-3ef2-5914-9436" primary="false"/>
@@ -213,6 +478,9 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df80-1c7d-cb5b-9e5f" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="bea9-0df8-098c-3b2e" name="Aegis Fragment" hidden="false" targetId="0937-0930-a174-871d" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="5.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -222,6 +490,9 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f946-768b-d8ed-7f4b" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="e976-0d13-38e6-f7c9" name="Crushing Strength" hidden="false" targetId="3131-8f0a-0927-8489" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
             <cost name=" pts" typeId="points" value="0.0"/>
@@ -238,6 +509,38 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="36eb-1855-a6c0-e50b" name="Paladin Foot Guard (10) Troop" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="f097-19d0-97b2-8567" name="A: Paladin Foot Guard (10) Troop" publicationId="eab5-a7fe-b282-0b56" page="237" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <modifierGroups>
+            <modifierGroup>
+              <conditions>
+                <condition field="selections" scope="36eb-1855-a6c0-e50b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="93cb-d263-74ef-e207" type="equalTo"/>
+              </conditions>
+              <modifiers>
+                <modifier type="set" field="0430-25ef-96a4-6510" value="4+"/>
+                <modifier type="set" field="0e93-1f12-f5f3-c8df" value="Crushing Strength (1), Headstrong, Iron Resolve"/>
+              </modifiers>
+            </modifierGroup>
+          </modifierGroups>
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Inf</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Human, Paladin</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Headstrong, Iron Resolve</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">5</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">3+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">5+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">10</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">11/13</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">1</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="7d28-b833-95be-4866" name="Headstrong" hidden="false" targetId="6be6-adad-42c1-637f" type="rule"/>
+        <infoLink id="1901-cb84-a521-27c2" name="Iron Resolve" hidden="false" targetId="6182-5a87-de7a-4f56" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="3e32-b063-7249-1743" name="New CategoryLink" hidden="false" targetId="616e-c1cf-de59-ed6e" primary="true"/>
         <categoryLink id="de11-9701-13d8-3ae8" name="@Troop" hidden="false" targetId="9a33-dbd7-2f61-bf74" primary="false"/>
@@ -247,6 +550,9 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9fed-6e0e-8e88-44b7" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="9057-2bc3-9c8c-2b53" name="Aegis Fragment" hidden="false" targetId="0937-0930-a174-871d" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="5.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -256,6 +562,9 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8c3f-8901-76d5-a6d0" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="3292-7c58-7ced-964e" name="Crushing Strength" hidden="false" targetId="3131-8f0a-0927-8489" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
             <cost name=" pts" typeId="points" value="0.0"/>
@@ -271,6 +580,38 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="4e6a-faf2-d066-7246" name="Paladin Foot Guard (20) Regiment" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="26ac-6783-2338-5bd8" name="A: Paladin Foot Guard (20) Regiment" publicationId="eab5-a7fe-b282-0b56" page="237" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <modifierGroups>
+            <modifierGroup>
+              <conditions>
+                <condition field="selections" scope="4e6a-faf2-d066-7246" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4d76-ffcf-93f1-6c34" type="equalTo"/>
+              </conditions>
+              <modifiers>
+                <modifier type="set" field="0430-25ef-96a4-6510" value="4+"/>
+                <modifier type="set" field="0e93-1f12-f5f3-c8df" value="Crushing Strength (1), Headstrong, Iron Resolve"/>
+              </modifiers>
+            </modifierGroup>
+          </modifierGroups>
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Inf</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Human, Paladin</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Headstrong, Iron Resolve</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">5</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">3+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">5+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">12</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">15/17</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">3</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="267d-21ac-d91e-59ce" name="Headstrong" hidden="false" targetId="6be6-adad-42c1-637f" type="rule"/>
+        <infoLink id="d116-820c-7f3f-4e05" name="Iron Resolve" hidden="false" targetId="6182-5a87-de7a-4f56" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="9fe0-9c03-8d31-2a72" name="New CategoryLink" hidden="false" targetId="616e-c1cf-de59-ed6e" primary="true"/>
         <categoryLink id="1e56-c82a-d327-21f7" name="$$Inf/Hvy Inf/Cav/Cht REGIMENT" hidden="false" targetId="9f55-3ef2-5914-9436" primary="false"/>
@@ -280,6 +621,9 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c38e-5c9f-d240-dfda" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="a89d-5582-44b3-df9f" name="Aegis Fragment" hidden="false" targetId="0937-0930-a174-871d" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="5.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -289,6 +633,9 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1a78-c54d-d7ac-80a8" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="4dea-f17c-28e5-7201" name="Crushing Strength" hidden="false" targetId="3131-8f0a-0927-8489" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
             <cost name=" pts" typeId="points" value="0.0"/>
@@ -306,6 +653,28 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="d7e2-b9be-18e6-8d2a" name="Paladin Knights (05) Troop" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="2ade-4dca-ce4d-0384" name="C: Paladin Knights (05) Troop" publicationId="eab5-a7fe-b282-0b56" page="238" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Cav</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Human, Paladin</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Headstrong, Iron Resolve, Thunderous Charge (2)</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">8</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">3+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">5+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">8</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">12/14</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">1</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="9bf2-2862-c41b-946a" name="Headstrong" hidden="false" targetId="6be6-adad-42c1-637f" type="rule"/>
+        <infoLink id="89aa-4276-8abd-541e" name="Iron Resolve" hidden="false" targetId="6182-5a87-de7a-4f56" type="rule"/>
+        <infoLink id="ca7e-cc04-a8fa-8968" name="Thunderous Charge" hidden="false" targetId="a8ce-2f96-b0be-47d6" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="e2ea-4746-7b86-9cd0" name="New CategoryLink" hidden="false" targetId="f4f2-57cc-03dc-1dcc" primary="true"/>
         <categoryLink id="db5a-2240-b772-81db" name="@Troop" hidden="false" targetId="9a33-dbd7-2f61-bf74" primary="false"/>
@@ -315,6 +684,9 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3cf7-0e9e-1647-26a4" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="3583-eaf1-3bfd-be65" name="Aegis Fragment" hidden="false" targetId="0937-0930-a174-871d" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="5.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -330,6 +702,28 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="6792-0065-6b56-81de" name="Paladin Knights (10) Regiment" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="0a39-396f-0af0-d8c7" name="C: Paladin Knights (10) Regiment" publicationId="eab5-a7fe-b282-0b56" page="238" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Cav</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Human, Paladin</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Headstrong, Iron Resolve, Thunderous Charge (2)</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">8</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">3+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">5+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">16</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">15/17</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">3</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="a4b8-f551-dacb-1db8" name="Headstrong" hidden="false" targetId="6be6-adad-42c1-637f" type="rule"/>
+        <infoLink id="4b9e-d51a-6054-c2a3" name="Iron Resolve" hidden="false" targetId="6182-5a87-de7a-4f56" type="rule"/>
+        <infoLink id="7ce8-4f14-8b86-9618" name="Thunderous Charge" hidden="false" targetId="a8ce-2f96-b0be-47d6" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="31b0-94ed-beb5-3b1b" name="New CategoryLink" hidden="false" targetId="f4f2-57cc-03dc-1dcc" primary="true"/>
         <categoryLink id="fc95-02f4-1ab9-72e3" name="$$Inf/Hvy Inf/Cav/Cht REGIMENT" hidden="false" targetId="9f55-3ef2-5914-9436" primary="false"/>
@@ -339,6 +733,9 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f2e1-4aef-d743-71d8" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="589d-d6bf-3592-ea47" name="Aegis Fragment" hidden="false" targetId="0937-0930-a174-871d" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="5.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -356,6 +753,28 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="5e69-fdd8-7a74-4b7c" name="Paladin Knights (20) Horde" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="c809-5c3b-a30c-0221" name="C: Paladin Knights (20) Horde" publicationId="eab5-a7fe-b282-0b56" page="238" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Cav</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Human, Paladin</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Headstrong, Iron Resolve, Thunderous Charge (2)</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">8</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">3+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">5+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">32</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">22/24</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">4</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="e39f-c2f0-2f15-6777" name="Headstrong" hidden="false" targetId="6be6-adad-42c1-637f" type="rule"/>
+        <infoLink id="08f6-52dd-a55e-b775" name="Iron Resolve" hidden="false" targetId="6182-5a87-de7a-4f56" type="rule"/>
+        <infoLink id="99ec-35e8-20e6-c086" name="Thunderous Charge" hidden="false" targetId="a8ce-2f96-b0be-47d6" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="d870-08b4-0b46-a2be" name="New CategoryLink" hidden="false" targetId="f4f2-57cc-03dc-1dcc" primary="true"/>
         <categoryLink id="928b-51d5-041d-f120" name="$$Inf/Hvy Inf/Cav/Cht HORDE/LEGION" hidden="false" targetId="9453-4e62-79da-bc74" primary="false"/>
@@ -366,6 +785,9 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2494-0ea8-5b0a-e1f9" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="b5cf-efea-c183-6fbc" name="Aegis Fragment" hidden="false" targetId="0937-0930-a174-871d" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="5.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -383,6 +805,28 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="6ad2-685d-1323-e66f" name="Ogre Palace Guard (03) Regiment" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="771b-9f59-0bc4-0cf1" name="E: Ogre Palace Guard (03) Regiment" publicationId="eab5-a7fe-b282-0b56" page="239" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Lrg Inf</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Ogre</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Brutal, Crushing Strength (2), Iron Resolve</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">6</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">3+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">5+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">9</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">12/14</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">2</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="adc4-936d-9c86-55f5" name="Brutal" hidden="false" targetId="51fa-428e-ca3d-8a63" type="rule"/>
+        <infoLink id="71f5-38a5-d5a1-4d54" name="Crushing Strength" hidden="false" targetId="3131-8f0a-0927-8489" type="rule"/>
+        <infoLink id="348e-809c-2ff9-0540" name="Iron Resolve" hidden="false" targetId="6182-5a87-de7a-4f56" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="14b9-73e5-c5af-32fa" name="New CategoryLink" hidden="false" targetId="0074-fa7f-9e80-cd99" primary="true"/>
       </categoryLinks>
@@ -395,6 +839,28 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="f298-8aff-30d4-2e9c" name="Ogre Palace Guard (06) Horde" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="32c3-9c63-e1d7-2dcd" name="E: Ogre Palace Guard (06) Horde" publicationId="eab5-a7fe-b282-0b56" page="239" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Lrg Inf</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Ogre</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Brutal, Crushing Strength (2), Iron Resolve</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">6</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">3+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">5+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">18</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">15/17</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">3</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="e684-0c93-82a9-a4c8" name="Brutal" hidden="false" targetId="51fa-428e-ca3d-8a63" type="rule"/>
+        <infoLink id="4045-852d-c1fb-adbb" name="Crushing Strength" hidden="false" targetId="3131-8f0a-0927-8489" type="rule"/>
+        <infoLink id="379e-f953-b0b5-207d" name="Iron Resolve" hidden="false" targetId="6182-5a87-de7a-4f56" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="f0a1-0632-33e4-d550" name="New CategoryLink" hidden="false" targetId="0074-fa7f-9e80-cd99" primary="true"/>
         <categoryLink id="d08a-78d1-ac03-359f" name="$$Swa/Lrg Inf/Mon Inf/Lrg Cav HORDE" hidden="false" targetId="ad92-e9d5-07d8-3484" primary="false"/>
@@ -423,6 +889,29 @@
         <constraint field="selections" scope="402d-7263-42d3-2871" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="584f-1160-d4cf-3ccf" type="max"/>
         <constraint field="selections" scope="0245-63ef-fb4c-50ca" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0257-4769-a857-4658" type="max"/>
       </constraints>
+      <profiles>
+        <profile id="15bd-4b15-3e3d-efe8" name="I: Heavy Arbalest" publicationId="eab5-a7fe-b282-0b56" page="239" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">War Eng</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Human, Men-at-Arms</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Iron Resolve, &lt;Heavy Arbalest: 48&quot;, Blast (D3), Piercing (2), Reload&gt;</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">5</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">-</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">4+</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">4+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">2</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">10/12</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">0</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="739f-5c20-63ca-25e7" name="Blast" hidden="false" targetId="8c02-8957-63ab-1084" type="rule"/>
+        <infoLink id="ed15-8c93-d7f3-c740" name="Iron Resolve" hidden="false" targetId="6182-5a87-de7a-4f56" type="rule"/>
+        <infoLink id="5ed9-e378-1d9f-6289" name="Piercing" hidden="false" targetId="cc29-8e7d-2a0e-c995" type="rule"/>
+        <infoLink id="b628-e6be-8ecb-9643" name="Reload" hidden="false" targetId="c0b3-3b50-e88f-5461" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="60de-de3f-f1b6-e1f9" name="New CategoryLink" hidden="false" targetId="e01f-b962-560b-6912" primary="true"/>
         <categoryLink id="c27b-a1d9-2379-cfeb" name="@Hero/Mon/Ttn/War Eng" hidden="false" targetId="3f26-cf3d-d182-e055" primary="false"/>
@@ -446,6 +935,33 @@
         <constraint field="selections" scope="402d-7263-42d3-2871" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d2cb-cd12-d8ba-a2cf" type="max"/>
         <constraint field="selections" scope="0245-63ef-fb4c-50ca" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="47e8-af9a-71ff-51ed" type="max"/>
       </constraints>
+      <profiles>
+        <profile id="4990-b86e-d4fa-918f" name="K: Phoenix" publicationId="eab5-a7fe-b282-0b56" page="239" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Ttn</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">~Spellcaster: 0, Angelic, Flamebound, Majestic</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Crushing Strength (1), Fly, Nimble, Radiance of Life, Regeneration (4+)
+~Fireball (10) ~Heal (5)</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">10</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">3+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">3+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">5</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">14/16</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">1</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">6</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="dbc2-30fb-431e-0882" name="Crushing Strength" hidden="false" targetId="3131-8f0a-0927-8489" type="rule"/>
+        <infoLink id="ccf1-de68-665a-1aba" name="Fly" hidden="false" targetId="dc50-fdaa-d751-9cdf" type="rule"/>
+        <infoLink id="3065-c789-3340-c4e2" name="Nimble" hidden="false" targetId="b79a-f274-5123-df1d" type="rule"/>
+        <infoLink id="f523-df32-1093-aabb" name="Radiance of Life" hidden="false" targetId="690a-2397-0616-63c1" type="rule"/>
+        <infoLink id="670c-2fc4-02dc-58fd" name="Regeneration" hidden="false" targetId="5815-9306-b2e7-0436" type="rule"/>
+        <infoLink id="1485-af8d-55b2-f801" name="~Fireball" hidden="false" targetId="a496-054d-a2d6-47b8" type="rule"/>
+        <infoLink id="1384-c7b9-66b5-9835" name="~Heal" hidden="false" targetId="a125-9eee-fc99-05f7" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="cc03-e9ff-9e0d-b78a" name="New CategoryLink" hidden="false" targetId="1147-f7f8-1825-be09" primary="true"/>
         <categoryLink id="9a0e-43b3-4b65-53a0" name="@Hero/Mon/Ttn/War Eng" hidden="false" targetId="3f26-cf3d-d182-e055" primary="false"/>
@@ -470,6 +986,35 @@
         <constraint field="selections" scope="402d-7263-42d3-2871" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d498-d4ba-cdf4-6a29" type="max"/>
         <constraint field="selections" scope="0245-63ef-fb4c-50ca" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e4a-981b-bbb0-419f" type="max"/>
       </constraints>
+      <profiles>
+        <profile id="0648-8bf8-60aa-633a" name="L: Bearer of the Holy Icon" publicationId="eab5-a7fe-b282-0b56" page="239" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="c5d2-73a9-c5c4-3683" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="acaa-5679-de70-0965" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Hero (Inf)</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Human</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Individual, Inspiring, Iron Resolve</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">5</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">5+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">4+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">1</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">10/12</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">0</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="4554-86a1-82d0-5540" name="Individual" hidden="false" targetId="9657-1079-91be-b2bd" type="rule"/>
+        <infoLink id="e19b-f3a7-36c7-7343" name="Inspiring" hidden="false" targetId="7c18-e2b7-bc3b-fe10" type="rule"/>
+        <infoLink id="c098-758d-c1aa-8a9a" name="Iron Resolve" hidden="false" targetId="6182-5a87-de7a-4f56" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="56a3-0765-7f69-f0f3" name="New CategoryLink" hidden="false" targetId="b057-19ac-bee2-ac91" primary="true"/>
         <categoryLink id="41b0-f0b4-0310-1979" name="@Hero/Mon/Ttn/War Eng" hidden="false" targetId="3f26-cf3d-d182-e055" primary="false"/>
@@ -482,6 +1027,23 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c23b-9f57-7c91-ed67" type="max"/>
           </constraints>
+          <profiles>
+            <profile id="0f01-f39f-7d3c-1a55" name="N: Bearer of the Holy Icon (on Horse)" publicationId="eab5-a7fe-b282-0b56" page="239" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+              <characteristics>
+                <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Hero (Cav)</characteristic>
+                <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Human</characteristic>
+                <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Individual, Inspiring, Iron Resolve</characteristic>
+                <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">8</characteristic>
+                <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">5+</characteristic>
+                <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+                <characteristic name="De" typeId="0430-25ef-96a4-6510">4+</characteristic>
+                <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">1</characteristic>
+                <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">10/12</characteristic>
+                <characteristic name="US" typeId="fcfd-0d73-228b-9814">0</characteristic>
+                <characteristic name="Ht" typeId="3656-74c6-668b-5919">3</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
           <costs>
             <cost name=" pts" typeId="points" value="25.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -509,6 +1071,31 @@
         <constraint field="selections" scope="402d-7263-42d3-2871" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f959-f8b9-aeb8-73c4" type="max"/>
         <constraint field="selections" scope="0245-63ef-fb4c-50ca" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="151d-50a7-1c6c-30fc" type="max"/>
       </constraints>
+      <profiles>
+        <profile id="0888-a8d4-6fb1-f8ca" name="L: Dictator" publicationId="eab5-a7fe-b282-0b56" page="239" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Hero (Inf)</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Human</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Crushing Strength (2), Duelist, Individual, Inspiring, Iron Resolve, Mighty</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">5</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">3+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">5+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">4</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">12/14</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">0</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="4535-fae9-8208-46cc" name="Crushing Strength" hidden="false" targetId="3131-8f0a-0927-8489" type="rule"/>
+        <infoLink id="940f-b0d8-c525-62f2" name="Duelist" hidden="false" targetId="98e4-44a1-f80f-8faa" type="rule"/>
+        <infoLink id="3d73-74a7-3ee7-d3e1" name="Individual" hidden="false" targetId="9657-1079-91be-b2bd" type="rule"/>
+        <infoLink id="5dec-f46c-18f5-346d" name="Inspiring" hidden="false" targetId="7c18-e2b7-bc3b-fe10" type="rule"/>
+        <infoLink id="09d8-5403-f6af-5c04" name="Iron Resolve" hidden="false" targetId="6182-5a87-de7a-4f56" type="rule"/>
+        <infoLink id="61a8-afd9-04f0-1714" name="Mighty" hidden="false" targetId="f92c-c1b5-e7bf-0593" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="9098-888b-f3b8-5ba2" name="New CategoryLink" hidden="false" targetId="b057-19ac-bee2-ac91" primary="true"/>
         <categoryLink id="3837-30c1-acdd-db00" name="@Hero/Mon/Ttn/War Eng" hidden="false" targetId="3f26-cf3d-d182-e055" primary="false"/>
@@ -547,6 +1134,58 @@
         <constraint field="selections" scope="402d-7263-42d3-2871" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2051-c585-d0a4-bad8" type="max"/>
         <constraint field="selections" scope="0245-63ef-fb4c-50ca" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec72-81c9-6ede-ba1e" type="max"/>
       </constraints>
+      <profiles>
+        <profile id="76f1-14a7-b6ff-2b39" name="L: Priest" publicationId="eab5-a7fe-b282-0b56" page="240" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="0e1b-ebe8-e410-0a6f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="69ab-da7c-a016-40ba" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" field="0e93-1f12-f5f3-c8df" value=" ~Bastion (1) [1]">
+              <conditions>
+                <condition field="selections" scope="0e1b-ebe8-e410-0a6f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1db2-ecb4-be16-51d9" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" field="0e93-1f12-f5f3-c8df" value=" ~Bane Chant (2)">
+              <conditions>
+                <condition field="selections" scope="0e1b-ebe8-e410-0a6f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5af5-8834-099e-169d" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" field="0e93-1f12-f5f3-c8df" value=" ~Martyr&apos;s Prayer (7) [1]">
+              <conditions>
+                <condition field="selections" scope="0e1b-ebe8-e410-0a6f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="017c-2f8d-2065-8049" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Hero (Inf)</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">~Spellcaster: 1, Human</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Cleanse, Crushing Strength (1), Individual, Inspiring, Iron Resolve
+~Heal (3)</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">5</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">4+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">4+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">1</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">11/13</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">0</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="2edb-1427-4ecb-c3e2" name="Cleanse" publicationId="eab5-a7fe-b282-0b56" page="240" hidden="false">
+          <description>If 1 or more hits land by this unit&apos;s Heal, the target unit is no longer Weakened or Hexed.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="9152-4367-a3aa-f37e" name="Crushing Strength" hidden="false" targetId="3131-8f0a-0927-8489" type="rule"/>
+        <infoLink id="ebd1-db0a-c730-245d" name="Individual" hidden="false" targetId="9657-1079-91be-b2bd" type="rule"/>
+        <infoLink id="05b4-97b1-04b0-dc24" name="Inspiring" hidden="false" targetId="7c18-e2b7-bc3b-fe10" type="rule"/>
+        <infoLink id="98cc-39d5-e419-2e3f" name="Iron Resolve" hidden="false" targetId="6182-5a87-de7a-4f56" type="rule"/>
+        <infoLink id="66ab-9b6b-5523-664b" name="~Heal" hidden="false" targetId="a125-9eee-fc99-05f7" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="fbcc-f721-47cb-7b7c" name="New CategoryLink" hidden="false" targetId="b057-19ac-bee2-ac91" primary="true"/>
         <categoryLink id="ff9b-a654-8409-ee1b" name="@Hero/Mon/Ttn/War Eng" hidden="false" targetId="3f26-cf3d-d182-e055" primary="false"/>
@@ -559,6 +1198,41 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c4e7-373f-b563-049a" type="max"/>
           </constraints>
+          <profiles>
+            <profile id="67ae-4792-d885-65f3" name="N: Priest (on Horse)" publicationId="eab5-a7fe-b282-0b56" page="240" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+              <modifiers>
+                <modifier type="append" field="0e93-1f12-f5f3-c8df" value=" ~Bastion (1) [1]">
+                  <conditions>
+                    <condition field="selections" scope="0e1b-ebe8-e410-0a6f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1db2-ecb4-be16-51d9" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="append" field="0e93-1f12-f5f3-c8df" value=" ~Bane Chant (2)">
+                  <conditions>
+                    <condition field="selections" scope="0e1b-ebe8-e410-0a6f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5af5-8834-099e-169d" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="append" field="0e93-1f12-f5f3-c8df" value=" ~Martyr&apos;s Prayer (7) [1]">
+                  <conditions>
+                    <condition field="selections" scope="0e1b-ebe8-e410-0a6f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="017c-2f8d-2065-8049" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Hero (Cav)</characteristic>
+                <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">~Spellcaster: 1, Human</characteristic>
+                <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Cleanse, Crushing Strength (1), Individual, Inspiring, Iron Resolve
+~Heal (3)</characteristic>
+                <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">8</characteristic>
+                <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">4+</characteristic>
+                <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+                <characteristic name="De" typeId="0430-25ef-96a4-6510">4+</characteristic>
+                <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">1</characteristic>
+                <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">11/13</characteristic>
+                <characteristic name="US" typeId="fcfd-0d73-228b-9814">0</characteristic>
+                <characteristic name="Ht" typeId="3656-74c6-668b-5919">3</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
           <costs>
             <cost name=" pts" typeId="points" value="25.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -568,6 +1242,9 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="822f-eec5-2298-d0e0" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="25cc-badb-7312-5ce6" name="~Bane Chant" hidden="false" targetId="0faf-9276-c8a0-9bcd" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="20.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -577,6 +1254,9 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e62-b5a5-9ec7-a7ba" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="459a-5269-189d-cc30" name="~Bastion [1]" hidden="false" targetId="4276-9c10-70eb-16fb" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="10.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -586,6 +1266,9 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f9e2-e044-f9df-8120" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="2e16-8075-ff37-756a" name="~Martyr&apos;s Prayer [1]" hidden="false" targetId="0da2-f214-4262-70f4" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="35.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -613,6 +1296,60 @@
         <constraint field="selections" scope="402d-7263-42d3-2871" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d435-d95f-f2ad-9a75" type="max"/>
         <constraint field="selections" scope="0245-63ef-fb4c-50ca" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f35-d545-c0bf-2c64" type="max"/>
       </constraints>
+      <profiles>
+        <profile id="8ecc-9ff9-04ae-d54b" name="L: War Wizard" publicationId="eab5-a7fe-b282-0b56" page="240" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="741a-1eeb-f01f-cc89" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="418e-1e08-a8d6-284a" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" field="0e93-1f12-f5f3-c8df" value=" ~Bane Chant (2)">
+              <conditions>
+                <condition field="selections" scope="741a-1eeb-f01f-cc89" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1a1f-4d48-7abf-308a" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" field="0e93-1f12-f5f3-c8df" value=" ~Wind Blast (6)">
+              <conditions>
+                <condition field="selections" scope="741a-1eeb-f01f-cc89" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0c88-bac1-f4a3-2aee" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" field="0e93-1f12-f5f3-c8df" value=" ~Fireball (10)">
+              <conditions>
+                <condition field="selections" scope="741a-1eeb-f01f-cc89" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8a60-f4c0-4f6a-afad" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" field="0e93-1f12-f5f3-c8df" value=" ~Lightning Bolt (4)">
+              <conditions>
+                <condition field="selections" scope="741a-1eeb-f01f-cc89" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9769-0cc4-f51b-f796" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" field="0e93-1f12-f5f3-c8df" value=" ~Fireball (10) ~Lightning Bolt (4)">
+              <conditions>
+                <condition field="selections" scope="741a-1eeb-f01f-cc89" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="69f8-a222-3128-acf0" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Hero (Inf)</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">~Spellcaster: 2, Human</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Individual, Iron Resolve
+</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">5</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">5+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">4+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">1</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">10/12</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">0</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="6666-ba04-a611-06cb" name="Individual" hidden="false" targetId="9657-1079-91be-b2bd" type="rule"/>
+        <infoLink id="5a68-3a74-55bd-3a62" name="Iron Resolve" hidden="false" targetId="6182-5a87-de7a-4f56" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="010f-7086-f39e-1e4d" name="New CategoryLink" hidden="false" targetId="b057-19ac-bee2-ac91" primary="true"/>
         <categoryLink id="7927-a5a6-e30e-463a" name="@Hero/Mon/Ttn/War Eng" hidden="false" targetId="3f26-cf3d-d182-e055" primary="false"/>
@@ -625,6 +1362,9 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="566a-ed76-4310-b20e" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="4dd6-bf97-514e-e0f0" name="~Bane Chant" hidden="false" targetId="0faf-9276-c8a0-9bcd" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="20.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -634,6 +1374,9 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="acb1-1c02-aa61-e5c8" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="130c-8e9f-46fd-b5cc" name="~Wind Blast" hidden="false" targetId="da65-6a10-c6a3-9022" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="25.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -643,6 +1386,51 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cccd-9733-ed52-7b25" type="max"/>
           </constraints>
+          <profiles>
+            <profile id="cbe1-a790-da30-2013" name="N: War Wizard (on Horse)" publicationId="eab5-a7fe-b282-0b56" page="240" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+              <modifiers>
+                <modifier type="append" field="0e93-1f12-f5f3-c8df" value=" ~Bane Chant (2)">
+                  <conditions>
+                    <condition field="selections" scope="741a-1eeb-f01f-cc89" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1a1f-4d48-7abf-308a" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="append" field="0e93-1f12-f5f3-c8df" value=" ~Wind Blast (6)">
+                  <conditions>
+                    <condition field="selections" scope="741a-1eeb-f01f-cc89" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0c88-bac1-f4a3-2aee" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="append" field="0e93-1f12-f5f3-c8df" value=" ~Fireball (10)">
+                  <conditions>
+                    <condition field="selections" scope="741a-1eeb-f01f-cc89" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8a60-f4c0-4f6a-afad" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="append" field="0e93-1f12-f5f3-c8df" value=" ~Lightning Bolt (4)">
+                  <conditions>
+                    <condition field="selections" scope="741a-1eeb-f01f-cc89" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9769-0cc4-f51b-f796" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="append" field="0e93-1f12-f5f3-c8df" value=" ~Fireball (10) ~Lightning Bolt (4)">
+                  <conditions>
+                    <condition field="selections" scope="741a-1eeb-f01f-cc89" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="69f8-a222-3128-acf0" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Hero (Cav)</characteristic>
+                <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">~Spellcaster: 2, Human</characteristic>
+                <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Individual, Iron Resolve
+</characteristic>
+                <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">8</characteristic>
+                <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">5+</characteristic>
+                <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+                <characteristic name="De" typeId="0430-25ef-96a4-6510">4+</characteristic>
+                <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">1</characteristic>
+                <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">10/12</characteristic>
+                <characteristic name="US" typeId="fcfd-0d73-228b-9814">0</characteristic>
+                <characteristic name="Ht" typeId="3656-74c6-668b-5919">3</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
           <costs>
             <cost name=" pts" typeId="points" value="25.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -650,7 +1438,7 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="ca35-08e2-249a-3988" name="Further Spell Options" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="ca35-08e2-249a-3988" name="Further Spell Options" hidden="false" collective="false" import="true" defaultSelectionEntryId="8a60-f4c0-4f6a-afad">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6952-bd06-5652-bc88" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f54-30fa-4896-966e" type="min"/>
@@ -660,6 +1448,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5dc4-799e-1fcd-007b" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="d934-2b0c-02d9-a264" name="~Fireball" hidden="false" targetId="a496-054d-a2d6-47b8" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
                 <cost name=" pts" typeId="points" value="0.0"/>
@@ -669,6 +1460,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="faef-4ca9-2292-165d" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="3794-1a84-5151-7c0a" name="~Lightning Bolt" hidden="false" targetId="643b-d49d-8d14-c765" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
                 <cost name=" pts" typeId="points" value="0.0"/>
@@ -678,6 +1472,10 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c0b-b370-3511-0c04" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="38b5-9f35-88a2-5f55" name="~Fireball" hidden="false" targetId="a496-054d-a2d6-47b8" type="rule"/>
+                <infoLink id="f31a-6889-c3b3-5df4" name="~Lightning Bolt" hidden="false" targetId="643b-d49d-8d14-c765" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name=" pts" typeId="points" value="30.0"/>
                 <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -707,6 +1505,39 @@
         <constraint field="selections" scope="402d-7263-42d3-2871" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="80ce-11b8-f71a-5898" type="max"/>
         <constraint field="selections" scope="0245-63ef-fb4c-50ca" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="81b6-6f7a-eff2-937e" type="max"/>
       </constraints>
+      <profiles>
+        <profile id="296c-883d-a0ee-327f" name="V: High Paladin on Dragon" publicationId="eab5-a7fe-b282-0b56" page="241" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <modifiers>
+            <modifier type="append" field="0e93-1f12-f5f3-c8df" value=" ~Heal (4)">
+              <conditions>
+                <condition field="selections" scope="f292-13f5-435d-0093" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b6bb-dc1a-ad2d-496c" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Hero (Ttn)</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">~Spellcaster: 0, Draconic, Human, Paladin</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Crushing Strength (3), Fly, Inspiring, Iron Resolve, Nimble, &lt;Dragon&apos;s Breath: 12&quot;, Steady Aim&gt;
+</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">10</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">3+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">4+</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">5+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">10</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">-/19</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">1</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">6</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="0964-e65a-fbd7-6bd5" name="Crushing Strength" hidden="false" targetId="3131-8f0a-0927-8489" type="rule"/>
+        <infoLink id="f2a1-9002-aa22-f098" name="Fly" hidden="false" targetId="dc50-fdaa-d751-9cdf" type="rule"/>
+        <infoLink id="d2f4-feaf-7049-f812" name="Inspiring" hidden="false" targetId="7c18-e2b7-bc3b-fe10" type="rule"/>
+        <infoLink id="0b77-aad7-b4bf-027f" name="Iron Resolve" hidden="false" targetId="6182-5a87-de7a-4f56" type="rule"/>
+        <infoLink id="94be-3057-49d0-2ea0" name="Nimble" hidden="false" targetId="b79a-f274-5123-df1d" type="rule"/>
+        <infoLink id="6156-c913-ff2d-8128" name="Steady Aim" hidden="false" targetId="55fc-ab6a-a232-e11d" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="f184-d4d5-a526-1854" name="New CategoryLink" hidden="false" targetId="b057-19ac-bee2-ac91" primary="true"/>
         <categoryLink id="8646-0784-917b-41ef" name="@Hero" hidden="false" targetId="4ea0-3a9b-13be-2767" primary="false"/>
@@ -718,6 +1549,9 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="35ad-92ee-8265-abaf" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="88ae-835c-146e-fc71" name="~Heal" hidden="false" targetId="a125-9eee-fc99-05f7" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="15.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -727,6 +1561,9 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aca4-0821-8fae-98fd" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="c25a-c239-0aa0-6b47" name="Aegis Fragment" hidden="false" targetId="0937-0930-a174-871d" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="5.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -742,6 +1579,26 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="722f-0ac0-d6fc-8129" name="Villein Penitents* (20) Regiment" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="2238-6a95-21b4-63da" name="A: Villein Penitents* (20) Regiment" publicationId="40c7-f3d7-48f3-3cc9" page="36" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Inf</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Expendable, Human, Villein</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Crushing Strength (1)</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">5</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">5+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">3+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">12</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">11/14</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">2</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="6f96-33ce-412d-0859" name="Crushing Strength" hidden="false" targetId="3131-8f0a-0927-8489" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="4080-1135-4a7d-2df1" name="New CategoryLink" hidden="false" targetId="616e-c1cf-de59-ed6e" primary="true"/>
         <categoryLink id="f6ce-b18a-19d8-6e03" name="*Irregular" hidden="false" targetId="6731-d255-50a0-0474" primary="false"/>
@@ -756,6 +1613,26 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="d105-5e4d-f938-959e" name="Villein Penitents* (40) Horde" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="cd59-3ae7-eab9-7007" name="A: Villein Penitents* (40) Horde" publicationId="40c7-f3d7-48f3-3cc9" page="36" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Inf</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Expendable, Human, Villein</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Crushing Strength (1)</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">5</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">5+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">3+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">25</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">18/21</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">3</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="32cc-c3ca-5ea4-26c0" name="Crushing Strength" hidden="false" targetId="3131-8f0a-0927-8489" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="9fdb-6434-c181-f25f" name="New CategoryLink" hidden="false" targetId="616e-c1cf-de59-ed6e" primary="true"/>
         <categoryLink id="9adf-99f5-2fc6-3290" name="*Irregular" hidden="false" targetId="6731-d255-50a0-0474" primary="false"/>
@@ -771,6 +1648,26 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="f42d-c9d8-7a6d-bd77" name="Villein Penitents* (60) Legion" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="f9ad-b309-c759-5ef0" name="A: Villein Penitents* (60) Legion" publicationId="40c7-f3d7-48f3-3cc9" page="36" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Inf</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Expendable, Human, Villein</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Crushing Strength (1)</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">5</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">5+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">3+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">30</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">24/27</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">4</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="37ff-ece9-edc5-a827" name="Crushing Strength" hidden="false" targetId="3131-8f0a-0927-8489" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="61ee-71d7-3d89-a938" name="New CategoryLink" hidden="false" targetId="616e-c1cf-de59-ed6e" primary="true"/>
         <categoryLink id="979a-d675-c21c-0857" name="*Irregular" hidden="false" targetId="6731-d255-50a0-0474" primary="false"/>
@@ -786,6 +1683,26 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="e351-0114-ccd7-4144" name="Villein Bowmen (10) Troop" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="8a40-5b15-6d5f-be26" name="A: Villein Bowmen (10) Troop" publicationId="40c7-f3d7-48f3-3cc9" page="36" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Inf</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Human, Villein</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Phalanx, &lt;Bows: 24&quot;&gt;</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">5</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">6+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">5+</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">3+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">8</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">8/10</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">1</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="4f56-42ca-bfab-d7c5" name="Phalanx" hidden="false" targetId="fbfb-4339-b268-fbae" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="8b25-a015-1d5b-d899" name="New CategoryLink" hidden="false" targetId="616e-c1cf-de59-ed6e" primary="true"/>
         <categoryLink id="daaf-7f15-5bd9-2393" name="@Troop" hidden="false" targetId="9a33-dbd7-2f61-bf74" primary="false"/>
@@ -799,6 +1716,26 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="124e-383f-9a0a-59e1" name="Villein Bowmen (20) Regiment" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="ed41-465b-1377-c5cd" name="A: Villein Bowmen (20) Regiment" publicationId="40c7-f3d7-48f3-3cc9" page="36" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Inf</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Human, Villein</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Phalanx, &lt;Bows: 24&quot;&gt;</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">5</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">6+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">5+</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">3+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">10</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">12/14</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">2</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="ed4c-3832-26ac-c17c" name="Phalanx" hidden="false" targetId="fbfb-4339-b268-fbae" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="1cb0-c721-d74e-efb3" name="New CategoryLink" hidden="false" targetId="616e-c1cf-de59-ed6e" primary="true"/>
         <categoryLink id="528c-ca74-b042-60fc" name="$$Inf/Hvy Inf/Cav/Cht REGIMENT" hidden="false" targetId="9f55-3ef2-5914-9436" primary="false"/>
@@ -814,6 +1751,26 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="60ea-3174-9569-9a5c" name="Villein Bowmen (40) Horde" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="c5e6-8286-85f8-6caf" name="A: Villein Bowmen (40) Horde" publicationId="40c7-f3d7-48f3-3cc9" page="36" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Inf</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Human, Villein</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Phalanx, &lt;Bows: 24&quot;&gt;</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">5</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">6+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">5+</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">3+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">20</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">19/21</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">3</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="014b-a743-36da-aaf7" name="Phalanx" hidden="false" targetId="fbfb-4339-b268-fbae" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="9c61-8c9e-7df9-18b0" name="New CategoryLink" hidden="false" targetId="616e-c1cf-de59-ed6e" primary="true"/>
         <categoryLink id="58ea-ece8-a900-45b3" name="$$Inf/Hvy Inf/Cav/Cht HORDE/LEGION" hidden="false" targetId="9453-4e62-79da-bc74" primary="false"/>
@@ -830,6 +1787,37 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="378b-277c-09e9-67ee" name="Order of the Abyssal Hunt (05) Troop" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="45d2-ac9f-7232-9eca" name="C: Order of the Abyssal Hunt (05) Troop" publicationId="40c7-f3d7-48f3-3cc9" page="36" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="378b-277c-09e9-67ee" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ec13-2f4f-e78a-645f" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Cav</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Human, Order, Tracker</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Crushing Strength (1), Fury, Iron Resolve, Thunderous Charge (1), Vicious:(Melee):(Mon and Ttn only)</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">8</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">3+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">5+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">8</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">12/14</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">1</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="85aa-628b-4088-98d0" name="Crushing Strength" hidden="false" targetId="3131-8f0a-0927-8489" type="rule"/>
+        <infoLink id="608a-34ce-7386-0c40" name="Fury" hidden="false" targetId="aabd-ec96-e46d-8dcb" type="rule"/>
+        <infoLink id="0ee1-72bc-961a-6e39" name="Iron Resolve" hidden="false" targetId="6182-5a87-de7a-4f56" type="rule"/>
+        <infoLink id="982b-4a35-b869-d3cc" name="Thunderous Charge" hidden="false" targetId="a8ce-2f96-b0be-47d6" type="rule"/>
+        <infoLink id="3770-38d4-1b9a-0061" name="Vicious" hidden="false" targetId="47c7-1334-d1bf-24d9" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="6075-5b51-e10d-54f8" name="New CategoryLink" hidden="false" targetId="f4f2-57cc-03dc-1dcc" primary="true"/>
         <categoryLink id="0549-2007-621b-940c" name="@Troop" hidden="false" targetId="9a33-dbd7-2f61-bf74" primary="false"/>
@@ -839,6 +1827,27 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ee1e-306f-d539-7e16" type="max"/>
           </constraints>
+          <profiles>
+            <profile id="2d3d-d2b4-3636-c7c2" name="C: Order of the Abyssal Hunt (05) Troop (The Gauntlet)" publicationId="40c7-f3d7-48f3-3cc9" page="36" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+              <characteristics>
+                <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Cav</characteristic>
+                <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Human, Order, Tracker</characteristic>
+                <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Crushing Strength (1), Duelist, Fury, Iron Resolve, Thunderous Charge (1), Vicious:(Melee):(Mon and Ttn only)</characteristic>
+                <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">8</characteristic>
+                <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">3+</characteristic>
+                <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+                <characteristic name="De" typeId="0430-25ef-96a4-6510">5+</characteristic>
+                <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">8</characteristic>
+                <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">12/14</characteristic>
+                <characteristic name="US" typeId="fcfd-0d73-228b-9814">1</characteristic>
+                <characteristic name="Ht" typeId="3656-74c6-668b-5919">3</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="e033-ef32-8b2b-5dfe" name="The Gauntket" hidden="false" targetId="b4f5-a8a8-55a1-3316" type="rule"/>
+            <infoLink id="c285-276c-9b1f-501d" name="Duelist" hidden="false" targetId="98e4-44a1-f80f-8faa" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="10.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -848,6 +1857,9 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="579f-e7df-9092-9239" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="6b91-1a99-a91e-0060" name="Aegis Fragment" hidden="false" targetId="0937-0930-a174-871d" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="5.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -863,6 +1875,37 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="b401-3090-516e-1024" name="Order of the Abyssal Hunt (10) Regiment" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="5171-db5c-65f2-fc9f" name="C: Order of the Abyssal Hunt (10) Regiment" publicationId="40c7-f3d7-48f3-3cc9" page="36" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="b401-3090-516e-1024" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6727-6690-869b-ccd1" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Cav</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Human, Order, Tracker</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Crushing Strength (1), Fury, Iron Resolve, Thunderous Charge (1), Vicious:(Melee):(Mon and Ttn only)</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">8</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">3+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">5+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">16</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">15/17</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">3</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="0658-f538-e9c0-c43d" name="Crushing Strength" hidden="false" targetId="3131-8f0a-0927-8489" type="rule"/>
+        <infoLink id="46ca-06f0-2b96-ae42" name="Fury" hidden="false" targetId="aabd-ec96-e46d-8dcb" type="rule"/>
+        <infoLink id="6f96-2e58-dfd3-0570" name="Iron Resolve" hidden="false" targetId="6182-5a87-de7a-4f56" type="rule"/>
+        <infoLink id="ed52-b0fa-cad6-8d8f" name="Thunderous Charge" hidden="false" targetId="a8ce-2f96-b0be-47d6" type="rule"/>
+        <infoLink id="dee6-25ae-cb36-85a2" name="Vicious" hidden="false" targetId="47c7-1334-d1bf-24d9" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="66e5-095e-01d8-7b47" name="New CategoryLink" hidden="false" targetId="f4f2-57cc-03dc-1dcc" primary="true"/>
         <categoryLink id="945d-27b1-caef-19d9" name="$$Inf/Hvy Inf/Cav/Cht REGIMENT" hidden="false" targetId="9f55-3ef2-5914-9436" primary="false"/>
@@ -872,6 +1915,9 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1a1f-3e48-fa8b-0a02" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="df9b-9698-6654-22dd" name="Aegis Fragment" hidden="false" targetId="0937-0930-a174-871d" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="5.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -881,6 +1927,27 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a48d-6375-44db-7c76" type="max"/>
           </constraints>
+          <profiles>
+            <profile id="cbf4-8eae-c7b6-4dc4" name="C: Order of the Abyssal Hunt (10) Regiment (The Gauntlet)" publicationId="40c7-f3d7-48f3-3cc9" page="36" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+              <characteristics>
+                <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Cav</characteristic>
+                <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Human, Order, Tracker</characteristic>
+                <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Crushing Strength (1), Duelist, Fury, Iron Resolve, Thunderous Charge (1), Vicious:(Melee):(Mon and Ttn only)</characteristic>
+                <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">8</characteristic>
+                <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">3+</characteristic>
+                <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+                <characteristic name="De" typeId="0430-25ef-96a4-6510">5+</characteristic>
+                <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">16</characteristic>
+                <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">15/17</characteristic>
+                <characteristic name="US" typeId="fcfd-0d73-228b-9814">3</characteristic>
+                <characteristic name="Ht" typeId="3656-74c6-668b-5919">3</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="a0ba-f7b3-6a48-6917" name="The Gauntket" hidden="false" targetId="b4f5-a8a8-55a1-3316" type="rule"/>
+            <infoLink id="c064-9061-5d94-ab33" name="Duelist" hidden="false" targetId="98e4-44a1-f80f-8faa" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="10.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -898,6 +1965,27 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="96fd-fea8-38e7-fb95" name="Villein Skirmishers (05) Troop" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="5bd1-6521-8e03-db88" name="C: Villein Skirmishers (05) Troop" publicationId="40c7-f3d7-48f3-3cc9" page="36" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Cav</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Human, Villein</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Nimble, Thunderous Charge (1)</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">9</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">4+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">4+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">7</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">9/11</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">1</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="cb6c-902c-c8bf-07bc" name="Thunderous Charge" hidden="false" targetId="a8ce-2f96-b0be-47d6" type="rule"/>
+        <infoLink id="b7b3-6bd0-9e9e-13a3" name="Nimble" hidden="false" targetId="b79a-f274-5123-df1d" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="b147-ec4d-4d30-f989" name="New CategoryLink" hidden="false" targetId="f4f2-57cc-03dc-1dcc" primary="true"/>
         <categoryLink id="4cb1-a90f-25f6-14db" name="@Troop" hidden="false" targetId="9a33-dbd7-2f61-bf74" primary="false"/>
@@ -911,6 +1999,27 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="3c69-8e34-6354-ac51" name="Villein Skirmishers (10) Regiment" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="4945-d1c2-946f-8682" name="C: Villein Skirmishers (10) Regiment" publicationId="40c7-f3d7-48f3-3cc9" page="36" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Cav</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Human, Villein</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Nimble, Thunderous Charge (1)</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">9</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">4+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">4+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">14</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">12/14</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">3</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="1aee-a50f-7d85-a217" name="Thunderous Charge" hidden="false" targetId="a8ce-2f96-b0be-47d6" type="rule"/>
+        <infoLink id="87a5-99f3-806b-b8c3" name="Nimble" hidden="false" targetId="b79a-f274-5123-df1d" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="6e4b-859b-40f5-4cd9" name="New CategoryLink" hidden="false" targetId="f4f2-57cc-03dc-1dcc" primary="true"/>
         <categoryLink id="ae56-77e1-df37-35f8" name="$$Inf/Hvy Inf/Cav/Cht REGIMENT" hidden="false" targetId="9f55-3ef2-5914-9436" primary="false"/>
@@ -938,6 +2047,30 @@
         <constraint field="selections" scope="402d-7263-42d3-2871" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="91c3-d917-5f90-d0dc" type="max"/>
         <constraint field="selections" scope="0245-63ef-fb4c-50ca" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5edf-4af7-555f-5a57" type="max"/>
       </constraints>
+      <profiles>
+        <profile id="c2da-b464-91a6-a472" name="I: Villein Siege Artillery" publicationId="40c7-f3d7-48f3-3cc9" page="37" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">War Eng</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Human, Villein</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">&lt;Artillery Strike: 48&quot;, Blast (D3+1), Ignore Cover, Indirect, Piercing (3), Reload&gt;</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">5</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">-</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">5+</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">4+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">2</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">9/11</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">0</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="5de7-07aa-a23d-e1b5" name="Blast" hidden="false" targetId="8c02-8957-63ab-1084" type="rule"/>
+        <infoLink id="371d-d53a-1364-5681" name="Ignore Cover" hidden="false" targetId="6629-aa59-2196-07a1" type="rule"/>
+        <infoLink id="c2a4-46fd-b1c1-ea3b" name="Indirect" hidden="false" targetId="140a-2d51-ef73-c9b1" type="rule"/>
+        <infoLink id="c812-c591-72d1-19a4" name="Piercing" hidden="false" targetId="cc29-8e7d-2a0e-c995" type="rule"/>
+        <infoLink id="e880-e163-1229-57f1" name="Reload" hidden="false" targetId="c0b3-3b50-e88f-5461" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="b5bf-d2c6-cb07-6bf7" name="New CategoryLink" hidden="false" targetId="e01f-b962-560b-6912" primary="true"/>
         <categoryLink id="ff7c-e024-0ea9-a834" name="@Hero/Mon/Ttn/War Eng" hidden="false" targetId="3f26-cf3d-d182-e055" primary="false"/>
@@ -961,6 +2094,49 @@
         <constraint field="selections" scope="402d-7263-42d3-2871" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c1ea-7acc-eb3a-7cb1" type="max"/>
         <constraint field="selections" scope="0245-63ef-fb4c-50ca" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f262-fe55-f6ef-197a" type="max"/>
       </constraints>
+      <profiles>
+        <profile id="de86-a274-4baa-be05" name="L: Exemplar Paladin" publicationId="40c7-f3d7-48f3-3cc9" page="37" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="b16c-bd9a-6ec1-f2e3" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1065-05e3-b062-498b" type="equalTo"/>
+                    <condition field="selections" scope="b16c-bd9a-6ec1-f2e3" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9649-1429-2428-9115" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="0e93-1f12-f5f3-c8df" value="Crushing Strength (1), Duelist, Elite:(Melee), Headstrong, Individual, Inspiring, Iron Resolve, Mighty">
+              <conditions>
+                <condition field="selections" scope="b16c-bd9a-6ec1-f2e3" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="31ca-dd49-c6d9-df35" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Hero (Inf)</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Human, Paladin</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Crushing Strength (1), Elite:(Melee), Headstrong, Individual, Inspiring, Iron Resolve, Mighty</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">5</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">3+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">5+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">5</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">13/15</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">0</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="8706-1bab-65af-297e" name="Crushing Strength" hidden="false" targetId="3131-8f0a-0927-8489" type="rule"/>
+        <infoLink id="ae46-4d51-087f-b36b" name="Elite" hidden="false" targetId="e0d0-5bf9-11c8-b4f1" type="rule"/>
+        <infoLink id="8d0e-2e39-4efd-0adf" name="Headstrong" hidden="false" targetId="6be6-adad-42c1-637f" type="rule"/>
+        <infoLink id="08fb-92cc-cbbe-0405" name="Individual" hidden="false" targetId="9657-1079-91be-b2bd" type="rule"/>
+        <infoLink id="0619-49fb-95ec-a95b" name="Inspiring" hidden="false" targetId="7c18-e2b7-bc3b-fe10" type="rule"/>
+        <infoLink id="332f-5e3f-fe74-11d8" name="Iron Resolve" hidden="false" targetId="6182-5a87-de7a-4f56" type="rule"/>
+        <infoLink id="a826-8816-3180-8ca8" name="Mighty" hidden="false" targetId="f92c-c1b5-e7bf-0593" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="eeca-f99a-5fa3-d842" name="New CategoryLink" hidden="false" targetId="b057-19ac-bee2-ac91" primary="true"/>
         <categoryLink id="5d96-a212-bfea-57ee" name="@Hero/Mon/Ttn/War Eng" hidden="false" targetId="3f26-cf3d-d182-e055" primary="false"/>
@@ -973,6 +2149,9 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a144-f312-25fa-415b" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="6baa-30f5-f2ef-5108" name="Aegis Fragment" hidden="false" targetId="0937-0930-a174-871d" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="5.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -982,6 +2161,10 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="98e1-807c-e7e8-8188" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="136e-7634-0f22-36ad" name="Duelist" hidden="false" targetId="98e4-44a1-f80f-8faa" type="rule"/>
+            <infoLink id="2954-615e-69bf-54c6" name="The Gauntlet" hidden="false" targetId="b4f5-a8a8-55a1-3316" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="10.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -1002,6 +2185,30 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c02-6690-dd8b-fc17" type="max"/>
           </constraints>
+          <profiles>
+            <profile id="bde4-8db9-dbb9-2406" name="N: Exemplar Paladin (on Horse)" publicationId="40c7-f3d7-48f3-3cc9" page="37" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+              <modifiers>
+                <modifier type="set" field="0e93-1f12-f5f3-c8df" value="Crushing Strength (1), Duelist, Elite:(Melee), Headstrong, Individual, Inspiring, Iron Resolve, Mighty">
+                  <conditions>
+                    <condition field="selections" scope="b16c-bd9a-6ec1-f2e3" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="31ca-dd49-c6d9-df35" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Hero (Cav)</characteristic>
+                <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Human, Paladin</characteristic>
+                <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Crushing Strength (1), Elite:(Melee), Headstrong, Individual, Inspiring, Iron Resolve, Mighty</characteristic>
+                <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">8</characteristic>
+                <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">3+</characteristic>
+                <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+                <characteristic name="De" typeId="0430-25ef-96a4-6510">5+</characteristic>
+                <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">5</characteristic>
+                <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">13/15</characteristic>
+                <characteristic name="US" typeId="fcfd-0d73-228b-9814">0</characteristic>
+                <characteristic name="Ht" typeId="3656-74c6-668b-5919">3</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
           <costs>
             <cost name=" pts" typeId="points" value="35.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -1023,6 +2230,33 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3762-d71b-8eb1-0bd0" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e06a-27b8-075c-8412" type="max"/>
           </constraints>
+          <profiles>
+            <profile id="d202-b922-0976-effc" name="L: Exemplar Paladin (Rallying)" publicationId="40c7-f3d7-48f3-3cc9" page="37" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+              <modifiers>
+                <modifier type="set" field="0e93-1f12-f5f3-c8df" value="Crushing Strength (1), Duelist, Elite:(Melee), Headstrong, Individual, Inspiring, Iron Resolve, Mighty, Rallying (1:(Inf only))">
+                  <conditions>
+                    <condition field="selections" scope="b16c-bd9a-6ec1-f2e3" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="31ca-dd49-c6d9-df35" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Hero (Inf)</characteristic>
+                <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Human, Paladin</characteristic>
+                <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Crushing Strength (1), Elite:(Melee), Headstrong, Individual, Inspiring, Iron Resolve, Mighty, Rallying (1:(Inf only))</characteristic>
+                <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">5</characteristic>
+                <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">3+</characteristic>
+                <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+                <characteristic name="De" typeId="0430-25ef-96a4-6510">5+</characteristic>
+                <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">5</characteristic>
+                <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">13/15</characteristic>
+                <characteristic name="US" typeId="fcfd-0d73-228b-9814">0</characteristic>
+                <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="8833-7b93-6d6a-9309" name="Rallying" hidden="false" targetId="a621-0f14-db61-f580" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="10.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -1050,6 +2284,53 @@
         <constraint field="selections" scope="402d-7263-42d3-2871" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="371c-7ea5-4ba7-4931" type="max"/>
         <constraint field="selections" scope="0245-63ef-fb4c-50ca" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9aba-3fce-3833-08b7" type="max"/>
       </constraints>
+      <profiles>
+        <profile id="f0d5-e2fb-6ec0-2e3f" name="I: Exemplar Chaplain" publicationId="40c7-f3d7-48f3-3cc9" page="37" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="9e99-047f-a22f-4e6e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cd16-90d2-caa2-5ced" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" field="0e93-1f12-f5f3-c8df" value="Aura (Fury:(Villein only)),">
+              <conditions>
+                <condition field="selections" scope="9e99-047f-a22f-4e6e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e048-11d9-6116-5794" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" field="0e93-1f12-f5f3-c8df" value="~Heal (2)">
+              <conditions>
+                <condition field="selections" scope="9e99-047f-a22f-4e6e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8121-8083-002c-b22c" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Hero (Inf)</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">~Spellcaster: 1, Human, Paladin</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Cleanse, Crushing Strength (1), Elite:(Melee), Individual, Iron Resolve, Rallying (1:(Villein only)),
+</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">5</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">3+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">5+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">3</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">11/13</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">0</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="1b81-5495-42f7-e819" name="Cleanse" publicationId="40c7-f3d7-48f3-3cc9" page="37" hidden="false">
+          <description>Exemplar Champion: If 1 or more hits are scored by this unit&apos;s Heal spell, the target unit is no longer Weakened or Hexed.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="b496-5c76-476a-f348" name="Crushing Strength" hidden="false" targetId="3131-8f0a-0927-8489" type="rule"/>
+        <infoLink id="3c10-8d85-b656-9eb2" name="Elite" hidden="false" targetId="e0d0-5bf9-11c8-b4f1" type="rule"/>
+        <infoLink id="6e49-884c-ee70-8be6" name="Individual" hidden="false" targetId="9657-1079-91be-b2bd" type="rule"/>
+        <infoLink id="f99a-eb14-0ef4-f875" name="Iron Resolve" hidden="false" targetId="6182-5a87-de7a-4f56" type="rule"/>
+        <infoLink id="41ac-403e-d51f-bfbc" name="Rallying" hidden="false" targetId="a621-0f14-db61-f580" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="48a5-4579-2f47-a694" name="New CategoryLink" hidden="false" targetId="b057-19ac-bee2-ac91" primary="true"/>
         <categoryLink id="d2e3-a643-c474-42de" name="@Hero/Mon/Ttn/War Eng" hidden="false" targetId="3f26-cf3d-d182-e055" primary="false"/>
@@ -1062,6 +2343,36 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0232-656e-8e6e-95fa" type="max"/>
           </constraints>
+          <profiles>
+            <profile id="965e-ad78-515c-114b" name="N: Exemplar Chaplain (on Horse)" publicationId="40c7-f3d7-48f3-3cc9" page="37" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+              <modifiers>
+                <modifier type="append" field="0e93-1f12-f5f3-c8df" value="Aura (Fury:(Villein only)),">
+                  <conditions>
+                    <condition field="selections" scope="9e99-047f-a22f-4e6e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e048-11d9-6116-5794" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="append" field="0e93-1f12-f5f3-c8df" value="~Heal (2)">
+                  <conditions>
+                    <condition field="selections" scope="9e99-047f-a22f-4e6e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8121-8083-002c-b22c" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Hero (Cav)</characteristic>
+                <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">~Spellcaster: 1, Human, Paladin</characteristic>
+                <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Cleanse, Crushing Strength (1), Elite:(Melee), Individual, Iron Resolve, Rallying (1:(Villein only)),
+</characteristic>
+                <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">8</characteristic>
+                <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">3+</characteristic>
+                <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+                <characteristic name="De" typeId="0430-25ef-96a4-6510">5+</characteristic>
+                <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">3</characteristic>
+                <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">11/13</characteristic>
+                <characteristic name="US" typeId="fcfd-0d73-228b-9814">0</characteristic>
+                <characteristic name="Ht" typeId="3656-74c6-668b-5919">3</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
           <costs>
             <cost name=" pts" typeId="points" value="25.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -1071,6 +2382,10 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6cac-6642-0162-265e" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="54cf-8034-afd3-e145" name="Aura" hidden="false" targetId="2867-1489-00ac-35c6" type="rule"/>
+            <infoLink id="b172-2c40-3ef3-a3df" name="Fury" hidden="false" targetId="aabd-ec96-e46d-8dcb" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="5.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -1080,6 +2395,9 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e56-34cc-1980-42cd" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="25da-d24e-2298-5026" name="~Heal" hidden="false" targetId="a125-9eee-fc99-05f7" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="10.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -1089,6 +2407,9 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="35f8-5ad6-a7bb-c5b8" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="e578-b58b-2433-64e7" name="Aegis Fragment" hidden="false" targetId="0937-0930-a174-871d" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="5.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -1116,6 +2437,48 @@
         <constraint field="selections" scope="402d-7263-42d3-2871" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f38-79cf-8859-d081" type="max"/>
         <constraint field="selections" scope="0245-63ef-fb4c-50ca" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f6c5-0170-b708-2d45" type="max"/>
       </constraints>
+      <profiles>
+        <profile id="bc56-980c-68a3-229e" name="L: Exemplar Hunter" publicationId="40c7-f3d7-48f3-3cc9" page="37" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <modifiers>
+            <modifier type="set" field="0e93-1f12-f5f3-c8df" value="Crushing Strength (2), Dragon Slayer, Duelist, Elite:(Melee), Individual, Iron Resolve, Mighty, Vicious:(Melee:(Mon and Ttn only))">
+              <conditions>
+                <condition field="selections" scope="e0ca-e355-4850-7bd1" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5a96-5fd2-e5ff-5c32" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="e0ca-e355-4850-7bd1" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="bb9d-4d4d-44ad-1e58" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Hero (Inf)</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Human, Paladin, Tracker</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Crushing Strength (2), Dragon Slayer, Elite:(Melee), Individual, Iron Resolve, Mighty, Vicious:(Melee:(Mon and Ttn only))</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">5</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">3+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">5+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">4</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">12/14</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">0</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="f2c5-1d9e-1932-82ab" name="Dragon Slayer" publicationId="40c7-f3d7-48f3-3cc9" page="37" hidden="false">
+          <description>Exemplar Hunter: This unit doubles its Attacks value while attacking a Monster or Titan in Melee.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="cc53-494d-6f31-01c2" name="Crushing Strength" hidden="false" targetId="3131-8f0a-0927-8489" type="rule"/>
+        <infoLink id="e737-aae4-b742-995f" name="Elite" hidden="false" targetId="e0d0-5bf9-11c8-b4f1" type="rule"/>
+        <infoLink id="ba2d-c6b5-e63f-9b66" name="Individual" hidden="false" targetId="9657-1079-91be-b2bd" type="rule"/>
+        <infoLink id="c0a1-6bab-00d5-6ba3" name="Iron Resolve" hidden="false" targetId="6182-5a87-de7a-4f56" type="rule"/>
+        <infoLink id="cce0-12de-7380-fbf9" name="Mighty" hidden="false" targetId="f92c-c1b5-e7bf-0593" type="rule"/>
+        <infoLink id="eaf1-0c73-437c-0ea5" name="Vicious" hidden="false" targetId="47c7-1334-d1bf-24d9" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="b797-a00e-507e-68ed" name="New CategoryLink" hidden="false" targetId="b057-19ac-bee2-ac91" primary="true"/>
         <categoryLink id="fe6a-0da6-dbfc-7d54" name="@Hero/Mon/Ttn/War Eng" hidden="false" targetId="3f26-cf3d-d182-e055" primary="false"/>
@@ -1128,6 +2491,10 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e49a-676b-3636-88ea" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="f771-6b6c-2c09-5ee1" name="Duelist" hidden="false" targetId="98e4-44a1-f80f-8faa" type="rule"/>
+            <infoLink id="0339-1140-72ac-71d5" name="The Gauntlet" hidden="false" targetId="b4f5-a8a8-55a1-3316" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="10.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -1137,6 +2504,30 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f03-85d1-4d93-fcc3" type="max"/>
           </constraints>
+          <profiles>
+            <profile id="0993-a413-cfdb-d2fb" name="N: Exemplar Hunter (on Horse)" publicationId="40c7-f3d7-48f3-3cc9" page="37" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+              <modifiers>
+                <modifier type="set" field="0e93-1f12-f5f3-c8df" value="Crushing Strength (2), Dragon Slayer, Duelist, Elite:(Melee), Individual, Iron Resolve, Mighty, Vicious:(Melee:(Mon and Ttn only))">
+                  <conditions>
+                    <condition field="selections" scope="e0ca-e355-4850-7bd1" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5a96-5fd2-e5ff-5c32" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Hero (Cav)</characteristic>
+                <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Human, Paladin, Tracker</characteristic>
+                <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Crushing Strength (2), Dragon Slayer, Elite:(Melee), Individual, Iron Resolve, Mighty, Vicious:(Melee:(Mon and Ttn only))</characteristic>
+                <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">8</characteristic>
+                <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">3+</characteristic>
+                <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+                <characteristic name="De" typeId="0430-25ef-96a4-6510">5+</characteristic>
+                <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">4</characteristic>
+                <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">12/14</characteristic>
+                <characteristic name="US" typeId="fcfd-0d73-228b-9814">0</characteristic>
+                <characteristic name="Ht" typeId="3656-74c6-668b-5919">3</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
           <costs>
             <cost name=" pts" typeId="points" value="35.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -1152,4 +2543,12 @@
       </costs>
     </selectionEntry>
   </selectionEntries>
+  <sharedRules>
+    <rule id="0937-0930-a174-871d" name="Aegis Fragment" publicationId="40c7-f3d7-48f3-3cc9" page="36" hidden="false">
+      <description>Once per game, when this unit&apos;s Iron Resolve is used, it can regain a maximum of 2 damage previously suffered, instead of 1. The Fragment is then destroyed.</description>
+    </rule>
+    <rule id="b4f5-a8a8-55a1-3316" name="The Gauntlet" publicationId="40c7-f3d7-48f3-3cc9" page="36" hidden="false">
+      <description>This unit gains Duelist.</description>
+    </rule>
+  </sharedRules>
 </catalogue>
