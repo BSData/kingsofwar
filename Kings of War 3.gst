@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="0929-4596-8744-bbdb" name="Kings of War: 3rd Edition" revision="7" battleScribeVersion="2.03" authorName="John (Ekaznae)" authorContact="bsdata.kow@gmail.com" authorUrl="https://github.com/BSData/kingsofwar" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="0929-4596-8744-bbdb" name="Kings of War: 3rd Edition" revision="8" battleScribeVersion="2.03" authorName="John (Ekaznae)" authorContact="bsdata.kow@gmail.com" authorUrl="https://github.com/BSData/kingsofwar" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="eab5-a7fe-b282-0b56" name="KoW3"/>
     <publication id="40c7-f3d7-48f3-3cc9" name="UE3"/>
@@ -1079,7 +1079,7 @@
           <profiles>
             <profile id="5aec-17de-29e2-c0a9" name="05 - Fire-Oil" publicationId="eab5-a7fe-b282-0b56" page="46" hidden="false" typeId="e8f3-0bb3-a33b-a519" typeName="Artefacts">
               <characteristics>
-                <characteristic name="Details" typeId="ec79-82a5-5655-16e1">This unit gains both Crushing Strength (+1 vs. units with Regeneration) and Piercing (+1 vs. units with Regeneration).</characteristic>
+                <characteristic name="Details" typeId="ec79-82a5-5655-16e1">This unit gains both Crushing Strength (+1 vs. units with Regeneration) and Piercing (+1 vs. units with Regeneration) (not already in unit Profile).</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1151,7 +1151,7 @@
           <profiles>
             <profile id="dd46-e394-4db1-02f0" name="05 - Staying Stone" publicationId="eab5-a7fe-b282-0b56" page="46" hidden="false" typeId="e8f3-0bb3-a33b-a519" typeName="Artefacts">
               <characteristics>
-                <characteristic name="Details" typeId="ec79-82a5-5655-16e1">This unit gains +1 to its Wavering Nerve value.</characteristic>
+                <characteristic name="Details" typeId="ec79-82a5-5655-16e1">This unit gains +1 to its Wavering Nerve value (not already in unit Profile).</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1168,11 +1168,15 @@
           <profiles>
             <profile id="b0b0-016e-36b9-85e7" name="05 - War-Bow of Kaba" publicationId="eab5-a7fe-b282-0b56" page="46" hidden="false" typeId="e8f3-0bb3-a33b-a519" typeName="Artefacts">
               <characteristics>
-                <characteristic name="Details" typeId="ec79-82a5-5655-16e1">This unit gains the following Ranged attack:
+                <characteristic name="Details" typeId="ec79-82a5-5655-16e1">This unit gains the following Ranged attack (not already in unit Profile):
 &lt;War-Bow of Kaba: 24&quot;, Att: 1, Ra: 4+, Piercing (1), Steady Aim&gt;</characteristic>
               </characteristics>
             </profile>
           </profiles>
+          <infoLinks>
+            <infoLink id="eee9-c58d-644b-cb4b" name="Piercing" hidden="false" targetId="cc29-8e7d-2a0e-c995" type="rule"/>
+            <infoLink id="3c09-756a-ef9f-1ad7" name="Steady Aim" hidden="false" targetId="55fc-ab6a-a232-e11d" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="5.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -1186,7 +1190,7 @@
           <profiles>
             <profile id="a7bc-9d00-2e41-1f70" name="10 - Hann&apos;s Sanguinary Scripture" publicationId="eab5-a7fe-b282-0b56" page="46" hidden="false" typeId="e8f3-0bb3-a33b-a519" typeName="Artefacts">
               <characteristics>
-                <characteristic name="Details" typeId="ec79-82a5-5655-16e1">This unit gains Lifeleech (+1).</characteristic>
+                <characteristic name="Details" typeId="ec79-82a5-5655-16e1">This unit gains Lifeleech (+1) (not already in unit Profile).</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1206,7 +1210,7 @@
           <profiles>
             <profile id="6c9e-308e-130d-7796" name="10 - Mead of Madness" publicationId="eab5-a7fe-b282-0b56" page="47" hidden="false" typeId="e8f3-0bb3-a33b-a519" typeName="Artefacts">
               <characteristics>
-                <characteristic name="Details" typeId="ec79-82a5-5655-16e1">This unit gains Wild Charge (+1).</characteristic>
+                <characteristic name="Details" typeId="ec79-82a5-5655-16e1">This unit gains Wild Charge (+1) (not already in unit Profile).</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1226,7 +1230,7 @@
           <profiles>
             <profile id="9ffe-583d-46b4-26e8" name="10 - Pipes of Terror" publicationId="eab5-a7fe-b282-0b56" page="47" hidden="false" typeId="e8f3-0bb3-a33b-a519" typeName="Artefacts">
               <characteristics>
-                <characteristic name="Details" typeId="ec79-82a5-5655-16e1">This unit gains Brutal.</characteristic>
+                <characteristic name="Details" typeId="ec79-82a5-5655-16e1">This unit gains Brutal (not already in unit Profile).</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1263,7 +1267,7 @@
           <profiles>
             <profile id="f7df-c806-ef55-d7e3" name="15 - Aegis of the Elohi" publicationId="eab5-a7fe-b282-0b56" page="47" hidden="false" typeId="e8f3-0bb3-a33b-a519" typeName="Artefacts">
               <characteristics>
-                <characteristic name="Details" typeId="ec79-82a5-5655-16e1">This unit gains Iron Resolve. If it already has Iron Resolve, it increases the amount of damage removed each time Iron Resolve is used to 2.</characteristic>
+                <characteristic name="Details" typeId="ec79-82a5-5655-16e1">This unit gains Iron Resolve (not already in unit Profile). If it already has Iron Resolve, it increases the amount of damage removed each time Iron Resolve is used to 2.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1283,7 +1287,7 @@
           <profiles>
             <profile id="4a32-b3b2-c7e8-28f0" name="15 - Blood of the Old King" publicationId="eab5-a7fe-b282-0b56" page="48" hidden="false" typeId="e8f3-0bb3-a33b-a519" typeName="Artefacts">
               <characteristics>
-                <characteristic name="Details" typeId="ec79-82a5-5655-16e1">Once per game, this unit gains Elite (Melee) and Vicious (Melee) for 1 Turn. This must be declared before it rolls any attacks. For each D6 re-rolled, this unit immediately receives 1 damage on itself. No Nerve test is required for this damage.</characteristic>
+                <characteristic name="Details" typeId="ec79-82a5-5655-16e1">Once per game, this unit gains Elite:(Melee) and Vicious:(Melee) for 1 Turn. This must be declared before it rolls any attacks. For each D6 re-rolled, this unit immediately receives 1 damage on itself. No Nerve test is required for this damage.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1300,7 +1304,7 @@
           <profiles>
             <profile id="c3b3-bb3a-132e-da14" name="15 - Chalice of Wrath" publicationId="eab5-a7fe-b282-0b56" page="48" hidden="false" typeId="e8f3-0bb3-a33b-a519" typeName="Artefacts">
               <characteristics>
-                <characteristic name="Details" typeId="ec79-82a5-5655-16e1">This unit gains Fury.</characteristic>
+                <characteristic name="Details" typeId="ec79-82a5-5655-16e1">This unit gains Fury (not already in unit Profile).</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1320,7 +1324,7 @@
           <profiles>
             <profile id="a29e-6fc4-7cc3-88d4" name="15 - Dwarven Ale" publicationId="eab5-a7fe-b282-0b56" page="48" hidden="false" typeId="e8f3-0bb3-a33b-a519" typeName="Artefacts">
               <characteristics>
-                <characteristic name="Details" typeId="ec79-82a5-5655-16e1">This unit gains Headstrong.</characteristic>
+                <characteristic name="Details" typeId="ec79-82a5-5655-16e1">This unit gains Headstrong (not already in unit Profile).</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1340,7 +1344,7 @@
           <profiles>
             <profile id="2a97-e840-b5ec-e34f" name="15 - Helm of Confidence" publicationId="eab5-a7fe-b282-0b56" page="48" hidden="false" typeId="e8f3-0bb3-a33b-a519" typeName="Artefacts">
               <characteristics>
-                <characteristic name="Details" typeId="ec79-82a5-5655-16e1">This unit gains Inspiring (Self).</characteristic>
+                <characteristic name="Details" typeId="ec79-82a5-5655-16e1">This unit gains Inspiring:(Self) (not already in unit Profile).</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1415,7 +1419,7 @@
                 </modifier>
               </modifiers>
               <characteristics>
-                <characteristic name="Details" typeId="ec79-82a5-5655-16e1">This unit gains Elite.</characteristic>
+                <characteristic name="Details" typeId="ec79-82a5-5655-16e1">This unit gains Elite (not already in unit Profile).</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1435,7 +1439,7 @@
           <profiles>
             <profile id="320d-37a8-8d02-9757" name="20 - Brew of Haste" publicationId="eab5-a7fe-b282-0b56" page="48" hidden="false" typeId="e8f3-0bb3-a33b-a519" typeName="Artefacts">
               <characteristics>
-                <characteristic name="Details" typeId="ec79-82a5-5655-16e1">This unit increases its Speed value by 1.</characteristic>
+                <characteristic name="Details" typeId="ec79-82a5-5655-16e1">This unit increases its Speed value by 1 (not already in unit Profile).</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1470,7 +1474,7 @@
                 </modifier>
               </modifiers>
               <characteristics>
-                <characteristic name="Details" typeId="ec79-82a5-5655-16e1">This unit gains Vicious.</characteristic>
+                <characteristic name="Details" typeId="ec79-82a5-5655-16e1">This unit gains Vicious (not already in unit Profile).</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1524,7 +1528,7 @@
           <profiles>
             <profile id="e277-e40f-839f-39a9" name="20 - Maccwar&apos;s Potion of the Caterpillar" publicationId="eab5-a7fe-b282-0b56" page="49" hidden="false" typeId="e8f3-0bb3-a33b-a519" typeName="Artefacts">
               <characteristics>
-                <characteristic name="Details" typeId="ec79-82a5-5655-16e1">This unit gains Pathfinder.</characteristic>
+                <characteristic name="Details" typeId="ec79-82a5-5655-16e1">This unit gains Pathfinder (not already in unit Profile).</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1561,7 +1565,7 @@
           <profiles>
             <profile id="a8c3-21b1-8066-88e9" name="30 - Diadem of Dragonkind" publicationId="eab5-a7fe-b282-0b56" page="49" hidden="false" typeId="e8f3-0bb3-a33b-a519" typeName="Artefacts">
               <characteristics>
-                <characteristic name="Details" typeId="ec79-82a5-5655-16e1">This unit gains Fireball (8). It does not increase existing Fireball values.</characteristic>
+                <characteristic name="Details" typeId="ec79-82a5-5655-16e1">This unit gains Fireball (8) (not already in unit Profile). It does not increase existing Fireball values.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1599,7 +1603,7 @@
                 </modifier>
               </modifiers>
               <characteristics>
-                <characteristic name="Details" typeId="ec79-82a5-5655-16e1">This unit gains Crushing Strength (+1).</characteristic>
+                <characteristic name="Details" typeId="ec79-82a5-5655-16e1">This unit gains Crushing Strength (+1) (not already in unit Profile).</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1637,7 +1641,7 @@
                 </modifier>
               </modifiers>
               <characteristics>
-                <characteristic name="Details" typeId="ec79-82a5-5655-16e1">This unit has a +1 to hit modifier with Melee attacks.</characteristic>
+                <characteristic name="Details" typeId="ec79-82a5-5655-16e1">This unit has a +1 to hit modifier with Melee attacks (not already in unit Profile).</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1654,7 +1658,7 @@
           <profiles>
             <profile id="232e-53b8-6bf8-f53f" name="40 - Wine of Elvenkind" publicationId="eab5-a7fe-b282-0b56" page="50" hidden="false" typeId="e8f3-0bb3-a33b-a519" typeName="Artefacts">
               <characteristics>
-                <characteristic name="Details" typeId="ec79-82a5-5655-16e1">This unit gains Nimble.</characteristic>
+                <characteristic name="Details" typeId="ec79-82a5-5655-16e1">This unit gains Nimble (not already in unit Profile).</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1678,6 +1682,9 @@
               </characteristics>
             </profile>
           </profiles>
+          <infoLinks>
+            <infoLink id="26ab-eb51-0942-c825" name="Piercing" hidden="false" targetId="cc29-8e7d-2a0e-c995" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="50.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -1708,7 +1715,7 @@
               <profiles>
                 <profile id="4c1a-0f12-234f-7521" name="10 - Conjurer&apos;s Staff" publicationId="eab5-a7fe-b282-0b56" page="51" hidden="false" typeId="e8f3-0bb3-a33b-a519" typeName="Artefacts">
                   <characteristics>
-                    <characteristic name="Details" typeId="ec79-82a5-5655-16e1">Whenever the unit rolls to hit with non-Unique spells, it can re-roll 1 of the dice that failed to hit.</characteristic>
+                    <characteristic name="Details" typeId="ec79-82a5-5655-16e1">Whenever this unit rolls to hit with non-Unique spells, it can re-roll 1 of the dice that failed to hit.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1732,7 +1739,7 @@
               <profiles>
                 <profile id="173d-4521-a1ae-0a94" name="10 - Darklord&apos;s Onyx Ring" publicationId="eab5-a7fe-b282-0b56" page="51" hidden="false" typeId="e8f3-0bb3-a33b-a519" typeName="Artefacts">
                   <characteristics>
-                    <characteristic name="Details" typeId="ec79-82a5-5655-16e1">Individuals only. This unit gains Regeneration (6+).</characteristic>
+                    <characteristic name="Details" typeId="ec79-82a5-5655-16e1">Individuals only. This unit gains Regeneration (6+) (not already in unit Profile).</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1759,7 +1766,7 @@
               <profiles>
                 <profile id="54f9-0135-0d8e-59d8" name="15 - Mournful Blade" publicationId="eab5-a7fe-b282-0b56" page="51" hidden="false" typeId="e8f3-0bb3-a33b-a519" typeName="Artefacts">
                   <characteristics>
-                    <characteristic name="Details" typeId="ec79-82a5-5655-16e1">Individuals only. This unit gains Duelist.</characteristic>
+                    <characteristic name="Details" typeId="ec79-82a5-5655-16e1">Individuals only. This unit gains Duelist (not already in unit Profile).</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1779,7 +1786,7 @@
               <profiles>
                 <profile id="08df-0461-ba9a-ac40" name="15 - Trickster&apos;s Wand" publicationId="eab5-a7fe-b282-0b56" page="51" hidden="false" typeId="e8f3-0bb3-a33b-a519" typeName="Artefacts">
                   <characteristics>
-                    <characteristic name="Details" typeId="ec79-82a5-5655-16e1">This unit gains Hex (2). It does not increase existing Hex values. If it lands a hit with its Hex against an Enemy Hero also carrying Trickster&apos;s Wand, the Enemy&apos;s Hex granted by this cannot be used for the remainder of the game.</characteristic>
+                    <characteristic name="Details" typeId="ec79-82a5-5655-16e1">This unit gains Hex (2) (not already in unit Profile). It does not increase existing Hex values. If it lands a hit with its Hex against an Enemy Hero also carrying Trickster&apos;s Wand, the Enemy&apos;s Hex granted by this cannot be used for the remainder of the game.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1799,7 +1806,7 @@
               <profiles>
                 <profile id="4fc0-4bd1-cb79-d500" name="20 - Blade of the Beast Slayer" publicationId="eab5-a7fe-b282-0b56" page="51" hidden="false" typeId="e8f3-0bb3-a33b-a519" typeName="Artefacts">
                   <characteristics>
-                    <characteristic name="Details" typeId="ec79-82a5-5655-16e1">This unit gains Crushing Strength (+2 vs. Lrg Inf, Mon Inf, Lrg Cav, Mon &amp; Ttn).</characteristic>
+                    <characteristic name="Details" typeId="ec79-82a5-5655-16e1">This unit gains Crushing Strength (+2 vs. Lrg Inf, Mon Inf, Lrg Cav, Mon &amp; Ttn) (not already in unit Profile).</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1819,7 +1826,7 @@
               <profiles>
                 <profile id="a1f1-2b6c-acd9-f269" name="20 - Inspiring Talisman" publicationId="eab5-a7fe-b282-0b56" page="51" hidden="false" typeId="e8f3-0bb3-a33b-a519" typeName="Artefacts">
                   <characteristics>
-                    <characteristic name="Details" typeId="ec79-82a5-5655-16e1">This unit gains Inspiring.</characteristic>
+                    <characteristic name="Details" typeId="ec79-82a5-5655-16e1">This unit gains Inspiring (not already in unit Profile).</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1839,7 +1846,7 @@
               <profiles>
                 <profile id="7a97-76a0-4db3-ff68" name="20 - Tome of Darkness" publicationId="eab5-a7fe-b282-0b56" page="51" hidden="false" typeId="e8f3-0bb3-a33b-a519" typeName="Artefacts">
                   <characteristics>
-                    <characteristic name="Details" typeId="ec79-82a5-5655-16e1">This unit gains Surge (4) or if it already has Surge, its value is increased by 4.</characteristic>
+                    <characteristic name="Details" typeId="ec79-82a5-5655-16e1">This unit gains Surge (4) or if it already has Surge, its value is increased by 4 (not already in unit Profile).</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1859,7 +1866,7 @@
               <profiles>
                 <profile id="08f9-6720-02d7-8d34" name="25 - Lute of Insatiable Darkness" publicationId="eab5-a7fe-b282-0b56" page="51" hidden="false" typeId="e8f3-0bb3-a33b-a519" typeName="Artefacts">
                   <characteristics>
-                    <characteristic name="Details" typeId="ec79-82a5-5655-16e1">This unit gains Bane Chant (2). It does not increase existing Bane Chant values.</characteristic>
+                    <characteristic name="Details" typeId="ec79-82a5-5655-16e1">This unit gains Bane Chant (2) (not already in unit Profile). It does not increase existing Bane Chant values.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1879,7 +1886,7 @@
               <profiles>
                 <profile id="c836-3939-a1cb-085c" name="25 - Zephyr Crown" publicationId="eab5-a7fe-b282-0b56" page="52" hidden="false" typeId="e8f3-0bb3-a33b-a519" typeName="Artefacts">
                   <characteristics>
-                    <characteristic name="Details" typeId="ec79-82a5-5655-16e1">This unit gains Wind Blast (5). It does not increase existing Wind Blast values.</characteristic>
+                    <characteristic name="Details" typeId="ec79-82a5-5655-16e1">This unit gains Wind Blast (5) (not already in unit Profile). It does not increase existing Wind Blast values.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1923,7 +1930,7 @@
               <profiles>
                 <profile id="6c75-f322-84d7-936f" name="30 - Boots of the Seven Leagues" publicationId="eab5-a7fe-b282-0b56" page="52" hidden="false" typeId="e8f3-0bb3-a33b-a519" typeName="Artefacts">
                   <characteristics>
-                    <characteristic name="Details" typeId="ec79-82a5-5655-16e1">Individuals only. This unit gains Scout.</characteristic>
+                    <characteristic name="Details" typeId="ec79-82a5-5655-16e1">Individuals only. This unit gains Scout (not already in unit Profile).</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1943,7 +1950,7 @@
               <profiles>
                 <profile id="da46-9ea4-784f-e8fc" name="30 - Shroud of the Saint" publicationId="eab5-a7fe-b282-0b56" page="52" hidden="false" typeId="e8f3-0bb3-a33b-a519" typeName="Artefacts">
                   <characteristics>
-                    <characteristic name="Details" typeId="ec79-82a5-5655-16e1">This unit gains Heal (3) or if it already has Heal, its value is increased by 3.</characteristic>
+                    <characteristic name="Details" typeId="ec79-82a5-5655-16e1">This unit gains Heal (3) or if it already has Heal, its value is increased by 3 (not already in unit Profile).</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1963,7 +1970,7 @@
               <profiles>
                 <profile id="1b64-00d5-9412-86fd" name="30 - The Boomstick" publicationId="eab5-a7fe-b282-0b56" page="52" hidden="false" typeId="e8f3-0bb3-a33b-a519" typeName="Artefacts">
                   <characteristics>
-                    <characteristic name="Details" typeId="ec79-82a5-5655-16e1">This unit gains Lightning Bolt (3) or if it already has Lightning Bolt, its value is increased by 3.</characteristic>
+                    <characteristic name="Details" typeId="ec79-82a5-5655-16e1">This unit gains Lightning Bolt (3) or if it already has Lightning Bolt, its value is increased by 3 (not already in unit Profile).</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1990,7 +1997,7 @@
               <profiles>
                 <profile id="7a3c-afe5-0b1b-f6d9" name="40 - Wings of Honeymaze" publicationId="eab5-a7fe-b282-0b56" page="52" hidden="false" typeId="e8f3-0bb3-a33b-a519" typeName="Artefacts">
                   <characteristics>
-                    <characteristic name="Details" typeId="ec79-82a5-5655-16e1">Individuals only. This unit gains Fly and increases its Speed to 10, but decreases its Defence by 1 to a minimum of 2.</characteristic>
+                    <characteristic name="Details" typeId="ec79-82a5-5655-16e1">Individuals only. This unit gains Fly and increases its Speed to 10, but decreases its Defence by 1 to a minimum of 2 (not already in unit Profile).</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2221,7 +2228,7 @@
       <description>RANGE: 12&quot; || TARGETS: Enemy || MODIFIERS: Hits on 5+ against units in Cover or with Stealthy || EFFECT: Roll to damage as normal.</description>
     </rule>
     <rule id="dc50-fdaa-d751-9cdf" name="Fly" publicationId="eab5-a7fe-b282-0b56" page="36" hidden="false">
-      <description>This unit can move over, and pivot while over, anything, as long as its entire move ends clear of any units or Blocking Terrain. It does not suffer Hindered charges for moving over Difficult Terrain or Obstacles, unless it ends the move within or touching them. While Disordered, it cannot use Fly. If a unit with Fly has Nimble, then that is also lost while Disordered.</description>
+      <description>This unit can move over, and pivot while over, anything, as long as its entire move ends clear of any units or Blocking Terrain. It does not suffer Hindered Charges for moving over Difficult Terrain or Obstacles, unless it ends the move within or touching them. While Disordered, it cannot use Fly. If a unit with Fly has Nimble, then that is also lost while Disordered.</description>
     </rule>
     <rule id="aabd-ec96-e46d-8dcb" name="Fury" publicationId="eab5-a7fe-b282-0b56" page="36" hidden="false">
       <description>While Wavering, this unit may still declare a Counter Charge.</description>
@@ -2230,13 +2237,13 @@
       <description>If this unit begins its Turn Wavering, roll a D6 before declaring its Movement order. On a 3+ it shrugs off the effects of Wavering and is Disordered instead.</description>
     </rule>
     <rule id="a125-9eee-fc99-05f7" name="~Heal" publicationId="eab5-a7fe-b282-0b56" page="54" hidden="false">
-      <description>RANGE: 12&quot; || TARGETS: Friendly, Self, CC || MODIFIERS: - || EFFECT: For each hit landed, the target regains 1 damage previously suffered.</description>
+      <description>RANGE: 12&quot; || TARGETS: Friendly, Self, CC || MODIFIERS: - || EFFECT: For each hit landed, the target removes 1 damage previously suffered.</description>
     </rule>
     <rule id="140a-2d51-ef73-c9b1" name="Indirect" publicationId="eab5-a7fe-b282-0b56" page="36" hidden="false">
       <description>This unit can&apos;t make Ranged attacks on targets that are within 12&quot;.</description>
     </rule>
     <rule id="9657-1079-91be-b2bd" name="Individual" publicationId="eab5-a7fe-b282-0b56" page="34" hidden="false">
-      <description>Never block LoS and does not provide Cover. Free 360 degree pivots before Movement orders and picking Ranged targets. Nimble, and may protect this unit&apos;s facings in Friendly base contact. Yielding (see p34), unless also Mighty. Enemies making Ranged attacks against this unit suffer an additional -1 to hit modifier. Steady Aim. Aligns to the first charger to contact (except during Overrun), but the chargers shuffle. Enemies, and this unit, do not double/triple attacks against each other, except this unit against War Engines. Overrun (see p34).</description>
+      <description>Never block LoS and does not provide Cover. Free 360 degree pivots before Movement orders and picking Ranged targets. Nimble, and may protect this unit&apos;s facings in Friendly base contact. Yielding (KoW3 p34), unless also Mighty. Enemies making Ranged attacks against this unit suffer an additional -1 to hit modifier. Steady Aim. Aligns to the first Charger to contact (except during Overrun), but the Chargers shuffle. Enemies, and this unit, do not double/triple attacks against each other for flank/rear Charges, except this unit against War Engines. Overrun (KoW3 p34).</description>
     </rule>
     <rule id="7c18-e2b7-bc3b-fe10" name="Inspiring" publicationId="eab5-a7fe-b282-0b56" page="37" hidden="false">
       <description>If this unit, or any Friendly Core unit within 6&quot; is Routed, the opponent must re-roll that Nerve test, according to name or keyword qualifiers. The second result stands.</description>
@@ -2257,7 +2264,7 @@
       <description>This unit suffers no movement penalties for Difficult Terrain, treating it as Open Terrain in the Movement Phase. It is not Hindered for Charging through, or ending its Charge on, Difficult Terrain. Obstacles still Hinder.</description>
     </rule>
     <rule id="fbfb-4339-b268-fbae" name="Phalanx" publicationId="eab5-a7fe-b282-0b56" page="37" hidden="false">
-      <description>Enemies that Charge this unit&apos;s front facing cannot use Thunderous Charge. Cavalry, Large Cavalry and units with Fly that make an Unhindered Charge against this unit&apos;s front facing suffer a -1 to hit modifier in the subsequent Melee.</description>
+      <description>Enemies that Charge this unit&apos;s front facing cannot use Thunderous Charge. Cavalry, Large Cavalry and units with Fly that make an un-Hindered Charge against this unit&apos;s front facing suffer a -1 to hit modifier in the subsequent Melee.</description>
     </rule>
     <rule id="cc29-8e7d-2a0e-c995" name="Piercing" publicationId="eab5-a7fe-b282-0b56" page="37" hidden="false">
       <description>All hits caused by Ranged attacks from this unit have a +(n) modifier when rolling to damage.</description>
@@ -2305,7 +2312,7 @@
       <description>RANGE: 6&quot; || TARGETS: Enemy, CC || MODIFIERS: Piercing (1) || EFFECT: If 1 or more damage inflicted, choose the caster or a Friendly Core unit within 6&quot; of the caster. Remove 1 damage from the chosen Friendly unit for each damage dealt to Enemy target by Drain Life. If cast into Melee, Enemy target will not take a Nerve test from this Ranged Phase&apos;s damage.</description>
     </rule>
     <rule id="1653-0b95-2ac5-e2d3" name="~Mind Fog" publicationId="eab5-a7fe-b282-0b56" page="55" hidden="false">
-      <description>RANGE: 36&quot; || TARGETS: Enemy || MODIFIERS: - || EFFECT: Instead of damaging, if 1 or more hits land, make a Nerve test for the target Enemy unit at the end of the Ranged phase as though damage had been caused.</description>
+      <description>RANGE: 36&quot; || TARGETS: Enemy || MODIFIERS: - || EFFECT: Instead of damaging, if 1 or more hits land, make a Nerve test for the target Enemy unit at the end of the Ranged Phase as though damage had been caused.</description>
     </rule>
     <rule id="ca1f-9ee1-258c-a3ef" name="~Veil of Shadows [1]" publicationId="eab5-a7fe-b282-0b56" page="56" hidden="false">
       <description>RANGE: - || TARGETS: Self || MODIFIERS: - || EFFECT: If 1 or more hits land, the caster gains Aura (Stealthy) until the start of its next Turn.</description>
@@ -2323,7 +2330,7 @@
       <description>RANGE: 30&quot; || TARGETS: Enemy || MODIFIERS: - || EFFECT: Instead of damaging, if 1 or more hits land, the target Enemy unit is Hexed and receives 2 damage each time it lands a hit with a spell until the end of its next Turn. A Nerve test is not required for this damage. No effect on Spellcaster: 0 units.</description>
     </rule>
     <rule id="d525-9a93-3870-34bb" name="~Blizzard [1]" publicationId="eab5-a7fe-b282-0b56" page="56" hidden="false">
-      <description>RANGE: 30&quot; || TARGETS: Enemy || MODIFIERS: Indirect, Piercing (1) || EFFECT: For each hit landed, roll a single D3. The combined total is the amount of attacks rolled to damage.</description>
+      <description>RANGE: 30&quot; || TARGETS: Enemy || MODIFIERS: Indirect, Piercing (1) || EFFECT: For each hit landed, roll a single D3. The combined total is the amount of dice rolled to damage.</description>
     </rule>
     <rule id="2867-1489-00ac-35c6" name="Aura" publicationId="eab5-a7fe-b282-0b56" page="35" hidden="false">
       <description>This unit and all Friendly Core units while within 6&quot; have the (x) special rule, according to name or keyword qualifiers. Non-cumulative.</description>
@@ -2335,7 +2342,7 @@
       <description>While attacking Enemy Individuals in Melee, this unit doubles its number of Attacks.</description>
     </rule>
     <rule id="0879-b865-0c47-1960" name="Frozen" publicationId="eab5-a7fe-b282-0b56" page="36" hidden="false">
-      <description>Frozen units have -1 Speed until the end of their next turn, and then lose Frozen. No unit may have its Speed reduced by more than -1 in a given turn from Frozen. No effect if the Frozen unit&apos;s Speed is already 4 or below.</description>
+      <description>Frozen units have -1 Speed until the end of their next Turn, and then lose Frozen. No unit may have its Speed reduced by more than -1 in a given Turn from Frozen. No effect if the Frozen unit&apos;s Speed is already 4 or below.</description>
     </rule>
     <rule id="6629-aa59-2196-07a1" name="Ignore Cover" publicationId="eab5-a7fe-b282-0b56" page="36" hidden="false">
       <description>This unit fires in high arcs, and does not suffer the Ranged -1 to hit modifier for Enemy targets in Cover. This still requires LoS.</description>

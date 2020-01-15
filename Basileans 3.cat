@@ -536,6 +536,7 @@
       <entryLinks>
         <entryLink id="470b-6126-327f-03f4" name="Allowed Troops (2) [Visual Indicator]" hidden="false" collective="false" import="true" targetId="161d-e8c0-0ed4-d2aa" type="selectionEntryGroup"/>
         <entryLink id="e71b-3eeb-8f43-c5ac" name="Allowed Unit (Pick 1) [Visual Indicator]" hidden="false" collective="false" import="true" targetId="cdc9-7db6-77ed-e134" type="selectionEntryGroup"/>
+        <entryLink id="cd4a-f0da-d478-6764" name="Magical Artefacts" hidden="false" collective="false" import="true" targetId="6816-61a6-c6f9-a79e" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="  US" typeId="8bd1-3402-32b0-82da" value="3.0"/>
@@ -1738,7 +1739,7 @@
                 <condition field="selections" scope="bbd3-111a-cd14-5a67" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8c7b-5754-d837-15a6" type="equalTo"/>
               </conditions>
             </modifier>
-            <modifier type="append" field="0e93-1f12-f5f3-c8df" value=" ~Heal (2)">
+            <modifier type="append" field="0e93-1f12-f5f3-c8df" value="~Heal (2)">
               <conditions>
                 <condition field="selections" scope="bbd3-111a-cd14-5a67" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d6d9-50c1-9043-90f1" type="equalTo"/>
               </conditions>
@@ -1760,16 +1761,13 @@
           </characteristics>
         </profile>
       </profiles>
-      <rules>
-        <rule id="a8f6-4bbf-4ee8-6471" name="Cleanse" publicationId="eab5-a7fe-b282-0b56" page="240" hidden="false">
-          <description>If 1 or more hits land by this unit&apos;s Heal, the target unit is no longer Weakened or Hexed.</description>
-        </rule>
-      </rules>
       <infoLinks>
         <infoLink id="0f64-cbfb-9827-0e03" name="Crushing Strength" hidden="false" targetId="3131-8f0a-0927-8489" type="rule"/>
         <infoLink id="b58c-6c0b-4fd4-c68d" name="Headstrong" hidden="false" targetId="6be6-adad-42c1-637f" type="rule"/>
         <infoLink id="289d-8e5c-3093-3555" name="Individual" hidden="false" targetId="9657-1079-91be-b2bd" type="rule"/>
         <infoLink id="4de9-04bc-d720-5d15" name="Iron Resolve" hidden="false" targetId="6182-5a87-de7a-4f56" type="rule"/>
+        <infoLink id="e2c2-48ac-cdea-0182" name="Cleanse" hidden="false" targetId="883b-aa06-f245-fd3b" type="profile"/>
+        <infoLink id="5c24-4d65-5e87-78ce" name="Cleanse" hidden="false" targetId="6da3-026f-760e-feeb" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="f64c-6028-c42b-25f1" name="New CategoryLink" hidden="false" targetId="b057-19ac-bee2-ac91" primary="true"/>
@@ -1810,7 +1808,7 @@
           <profiles>
             <profile id="8d7e-e73e-cbc8-86b7" name="N: Paladin Chaplain (on Horse)" publicationId="eab5-a7fe-b282-0b56" page="240" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
               <modifiers>
-                <modifier type="append" field="0e93-1f12-f5f3-c8df" value=" ~Heal (2)">
+                <modifier type="append" field="0e93-1f12-f5f3-c8df" value="~Heal (2)">
                   <conditions>
                     <condition field="selections" scope="bbd3-111a-cd14-5a67" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d6d9-50c1-9043-90f1" type="equalTo"/>
                   </conditions>
@@ -1867,7 +1865,7 @@
                 <condition field="selections" scope="8a0b-4f30-fa4c-fdd5" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8eb4-2215-b96a-ca16" type="equalTo"/>
               </conditions>
             </modifier>
-            <modifier type="append" field="0e93-1f12-f5f3-c8df" value=" ~Heal (2)">
+            <modifier type="append" field="0e93-1f12-f5f3-c8df" value="~Heal (2)">
               <conditions>
                 <condition field="selections" scope="8a0b-4f30-fa4c-fdd5" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fe76-a741-e676-3a31" type="equalTo"/>
               </conditions>
@@ -1936,7 +1934,7 @@
           <profiles>
             <profile id="a76c-9127-becc-e68b" name="N: High Paladin (on Horse)" publicationId="eab5-a7fe-b282-0b56" page="240" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
               <modifiers>
-                <modifier type="append" field="0e93-1f12-f5f3-c8df" value=" ~Heal (2)">
+                <modifier type="append" field="0e93-1f12-f5f3-c8df" value="~Heal (2)">
                   <conditions>
                     <condition field="selections" scope="8a0b-4f30-fa4c-fdd5" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fe76-a741-e676-3a31" type="equalTo"/>
                   </conditions>
@@ -2038,7 +2036,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be96-74a8-9a61-6d55" type="max"/>
           </constraints>
           <profiles>
-            <profile id="9399-0fed-9d8e-6b31" name="N: Abbess on Gur Panther" publicationId="eab5-a7fe-b282-0b56" page="240" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+            <profile id="9399-0fed-9d8e-6b31" name="N: Abbess (on Gur Panther)" publicationId="eab5-a7fe-b282-0b56" page="240" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
               <characteristics>
                 <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Hero (Cav)</characteristic>
                 <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Human, Sisterhood</characteristic>
@@ -2099,17 +2097,17 @@
                 <condition field="selections" scope="ee61-c436-feda-6dcc" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="822d-585d-4a7a-ce2d" type="equalTo"/>
               </conditions>
             </modifier>
-            <modifier type="append" field="0e93-1f12-f5f3-c8df" value=" ~Bastion (1) [1]">
+            <modifier type="append" field="0e93-1f12-f5f3-c8df" value="~Bastion (1) [1]">
               <conditions>
                 <condition field="selections" scope="ee61-c436-feda-6dcc" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="24c8-1993-3f03-89ef" type="equalTo"/>
               </conditions>
             </modifier>
-            <modifier type="append" field="0e93-1f12-f5f3-c8df" value=" ~Bane Chant (2)">
+            <modifier type="append" field="0e93-1f12-f5f3-c8df" value="~Bane Chant (2)">
               <conditions>
                 <condition field="selections" scope="ee61-c436-feda-6dcc" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f82c-8ec5-c9ac-7e8a" type="equalTo"/>
               </conditions>
             </modifier>
-            <modifier type="append" field="0e93-1f12-f5f3-c8df" value=" ~Martyr&apos;s Prayer (7) [1]">
+            <modifier type="append" field="0e93-1f12-f5f3-c8df" value="~Martyr&apos;s Prayer (7) [1]">
               <conditions>
                 <condition field="selections" scope="ee61-c436-feda-6dcc" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="949c-4924-04e7-2928" type="equalTo"/>
               </conditions>
@@ -2131,17 +2129,14 @@
           </characteristics>
         </profile>
       </profiles>
-      <rules>
-        <rule id="429b-fb73-7ad4-ff8f" name="Cleanse" publicationId="eab5-a7fe-b282-0b56" page="240" hidden="false">
-          <description>If 1 or more hits land by this unit&apos;s Heal, the target unit is no longer Weakened or Hexed.</description>
-        </rule>
-      </rules>
       <infoLinks>
         <infoLink id="14bd-096c-f55b-b58b" name="Crushing Strength" hidden="false" targetId="3131-8f0a-0927-8489" type="rule"/>
         <infoLink id="277a-c6d2-f2cd-5f76" name="Individual" hidden="false" targetId="9657-1079-91be-b2bd" type="rule"/>
         <infoLink id="7952-eeea-a975-ecca" name="Inspiring" hidden="false" targetId="7c18-e2b7-bc3b-fe10" type="rule"/>
         <infoLink id="2631-1c4a-0cb7-4b9a" name="Iron Resolve" hidden="false" targetId="6182-5a87-de7a-4f56" type="rule"/>
         <infoLink id="b826-fac2-dfb1-ecc7" name="~Heal" hidden="false" targetId="a125-9eee-fc99-05f7" type="rule"/>
+        <infoLink id="06a8-ad7c-2e73-ca53" name="Cleanse" hidden="false" targetId="883b-aa06-f245-fd3b" type="profile"/>
+        <infoLink id="7a4e-b317-0ac7-9683" name="Cleanse" hidden="false" targetId="6da3-026f-760e-feeb" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="df4b-40bd-a25f-6f03" name="New CategoryLink" hidden="false" targetId="b057-19ac-bee2-ac91" primary="true"/>
@@ -2158,17 +2153,17 @@
           <profiles>
             <profile id="2d8a-da4b-1133-29dd" name="N: Priest (on Horse)" publicationId="eab5-a7fe-b282-0b56" page="240" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
               <modifiers>
-                <modifier type="append" field="0e93-1f12-f5f3-c8df" value=" ~Bastion (1) [1]">
+                <modifier type="append" field="0e93-1f12-f5f3-c8df" value="~Bastion (1) [1]">
                   <conditions>
                     <condition field="selections" scope="ee61-c436-feda-6dcc" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="24c8-1993-3f03-89ef" type="equalTo"/>
                   </conditions>
                 </modifier>
-                <modifier type="append" field="0e93-1f12-f5f3-c8df" value=" ~Bane Chant (2)">
+                <modifier type="append" field="0e93-1f12-f5f3-c8df" value="~Bane Chant (2)">
                   <conditions>
                     <condition field="selections" scope="ee61-c436-feda-6dcc" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f82c-8ec5-c9ac-7e8a" type="equalTo"/>
                   </conditions>
                 </modifier>
-                <modifier type="append" field="0e93-1f12-f5f3-c8df" value=" ~Martyr&apos;s Prayer (7) [1]">
+                <modifier type="append" field="0e93-1f12-f5f3-c8df" value="~Martyr&apos;s Prayer (7) [1]">
                   <conditions>
                     <condition field="selections" scope="ee61-c436-feda-6dcc" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="949c-4924-04e7-2928" type="equalTo"/>
                   </conditions>
@@ -2313,27 +2308,27 @@
                 <condition field="selections" scope="3602-3cac-1316-4566" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fb98-5ac8-4494-3bbb" type="equalTo"/>
               </conditions>
             </modifier>
-            <modifier type="append" field="0e93-1f12-f5f3-c8df" value=" ~Bane Chant (2)">
+            <modifier type="append" field="0e93-1f12-f5f3-c8df" value="~Bane Chant (2)">
               <conditions>
                 <condition field="selections" scope="3602-3cac-1316-4566" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9f0e-bf07-1234-fd1d" type="equalTo"/>
               </conditions>
             </modifier>
-            <modifier type="append" field="0e93-1f12-f5f3-c8df" value=" ~Wind Blast (6)">
+            <modifier type="append" field="0e93-1f12-f5f3-c8df" value="~Wind Blast (6)">
               <conditions>
                 <condition field="selections" scope="3602-3cac-1316-4566" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="38d2-da4f-0520-df26" type="equalTo"/>
               </conditions>
             </modifier>
-            <modifier type="append" field="0e93-1f12-f5f3-c8df" value=" ~Fireball (10)">
+            <modifier type="append" field="0e93-1f12-f5f3-c8df" value="~Fireball (10)">
               <conditions>
                 <condition field="selections" scope="3602-3cac-1316-4566" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5aac-66f5-bb53-8c27" type="equalTo"/>
               </conditions>
             </modifier>
-            <modifier type="append" field="0e93-1f12-f5f3-c8df" value=" ~Lightning Bolt (4)">
+            <modifier type="append" field="0e93-1f12-f5f3-c8df" value="~Lightning Bolt (4)">
               <conditions>
                 <condition field="selections" scope="3602-3cac-1316-4566" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f249-fab3-58eb-1fab" type="equalTo"/>
               </conditions>
             </modifier>
-            <modifier type="append" field="0e93-1f12-f5f3-c8df" value=" ~Fireball (10) ~Lightning Bolt (4)">
+            <modifier type="append" field="0e93-1f12-f5f3-c8df" value="~Fireball (10) ~Lightning Bolt (4)">
               <conditions>
                 <condition field="selections" scope="3602-3cac-1316-4566" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4b9f-ef8b-053d-94df" type="equalTo"/>
               </conditions>
@@ -2398,27 +2393,27 @@
           <profiles>
             <profile id="c20a-0d1e-ed78-fdc5" name="N: War Wizard (on Horse)" publicationId="eab5-a7fe-b282-0b56" page="240" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
               <modifiers>
-                <modifier type="append" field="0e93-1f12-f5f3-c8df" value=" ~Bane Chant (2)">
+                <modifier type="append" field="0e93-1f12-f5f3-c8df" value="~Bane Chant (2)">
                   <conditions>
                     <condition field="selections" scope="3602-3cac-1316-4566" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9f0e-bf07-1234-fd1d" type="equalTo"/>
                   </conditions>
                 </modifier>
-                <modifier type="append" field="0e93-1f12-f5f3-c8df" value=" ~Wind Blast (6)">
+                <modifier type="append" field="0e93-1f12-f5f3-c8df" value="~Wind Blast (6)">
                   <conditions>
                     <condition field="selections" scope="3602-3cac-1316-4566" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="38d2-da4f-0520-df26" type="equalTo"/>
                   </conditions>
                 </modifier>
-                <modifier type="append" field="0e93-1f12-f5f3-c8df" value=" ~Fireball (10)">
+                <modifier type="append" field="0e93-1f12-f5f3-c8df" value="~Fireball (10)">
                   <conditions>
                     <condition field="selections" scope="3602-3cac-1316-4566" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5aac-66f5-bb53-8c27" type="equalTo"/>
                   </conditions>
                 </modifier>
-                <modifier type="append" field="0e93-1f12-f5f3-c8df" value=" ~Lightning Bolt (4)">
+                <modifier type="append" field="0e93-1f12-f5f3-c8df" value="~Lightning Bolt (4)">
                   <conditions>
                     <condition field="selections" scope="3602-3cac-1316-4566" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f249-fab3-58eb-1fab" type="equalTo"/>
                   </conditions>
                 </modifier>
-                <modifier type="append" field="0e93-1f12-f5f3-c8df" value=" ~Fireball (10) ~Lightning Bolt (4)">
+                <modifier type="append" field="0e93-1f12-f5f3-c8df" value="~Fireball (10) ~Lightning Bolt (4)">
                   <conditions>
                     <condition field="selections" scope="3602-3cac-1316-4566" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4b9f-ef8b-053d-94df" type="equalTo"/>
                   </conditions>
@@ -2568,7 +2563,7 @@
       <profiles>
         <profile id="396d-b90b-a042-389d" name="V: High Paladin on Dragon" publicationId="eab5-a7fe-b282-0b56" page="241" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
           <modifiers>
-            <modifier type="append" field="0e93-1f12-f5f3-c8df" value=" ~Heal (4)">
+            <modifier type="append" field="0e93-1f12-f5f3-c8df" value="~Heal (4)">
               <conditions>
                 <condition field="selections" scope="44aa-74c2-d301-649f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c62b-443c-bb2f-f249" type="equalTo"/>
               </conditions>
@@ -2720,6 +2715,11 @@
             <characteristic name="Ht" typeId="3656-74c6-668b-5919">3</characteristic>
           </characteristics>
         </profile>
+        <profile id="f2e4-67a7-f903-6b0c" name="Purging Flame" publicationId="eab5-a7fe-b282-0b56" page="241" hidden="false" typeId="7b58-7536-0187-dd6e" typeName="Misc">
+          <characteristics>
+            <characteristic name="Details" typeId="3bee-e669-3aae-6327">Samacris, Mother of Phoenixes [1]: This unit&apos;s Fireball has Piercing (1).</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <rules>
         <rule id="373f-47e7-4b68-fce1" name="Purging Flame" publicationId="eab5-a7fe-b282-0b56" page="241" hidden="false">
@@ -2736,6 +2736,7 @@
         <infoLink id="b176-f542-682e-716d" name="Regeneration" hidden="false" targetId="5815-9306-b2e7-0436" type="rule"/>
         <infoLink id="53e6-4fe6-2ae1-a7bb" name="~Fireball" hidden="false" targetId="a496-054d-a2d6-47b8" type="rule"/>
         <infoLink id="cf9d-f233-27bc-d725" name="~Heal" hidden="false" targetId="a125-9eee-fc99-05f7" type="rule"/>
+        <infoLink id="e0eb-eb66-4560-75aa" name="Piercing" hidden="false" targetId="cc29-8e7d-2a0e-c995" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="c6c7-c33d-ee89-6b80" name="@Hero" hidden="false" targetId="4ea0-3a9b-13be-2767" primary="false"/>
@@ -2767,6 +2768,11 @@
             <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">10/12</characteristic>
             <characteristic name="US" typeId="fcfd-0d73-228b-9814">0</characteristic>
             <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="4823-dd46-4725-38a0" name="Staff of Silibar" publicationId="eab5-a7fe-b282-0b56" page="241" hidden="false" typeId="7b58-7536-0187-dd6e" typeName="Misc">
+          <characteristics>
+            <characteristic name="Details" typeId="3bee-e669-3aae-6327">Danor the Wizard [1]: After using a spell, Danor may immediately use another, different spell he possesses on his basic profile (not an upgrade), against the same or a different target. He may continue to do this until he has used each of his spells once, in any of his Ranged Phases.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2842,7 +2848,17 @@
   </selectionEntries>
   <sharedRules>
     <rule id="c6d2-bf54-8d3a-98bc" name="Aegis Fragment" publicationId="eab5-a7fe-b282-0b56" page="237" hidden="false">
-      <description>Once per game, when this unit&apos;s Iron Resolve is used, it can regain a maximum of 2 damage previously suffered, instead of 1. The Fragment is then destroyed.</description>
+      <description>Once per game, when this unit&apos;s Iron Resolve is used, it can recover a maximum of 2 damage previously suffered, instead of 1.</description>
+    </rule>
+    <rule id="6da3-026f-760e-feeb" name="Cleanse" publicationId="eab5-a7fe-b282-0b56" page="240" hidden="false">
+      <description>Paladin Chaplain/Priest: If 1 or more hits land by this unit&apos;s Heal, the target unit is no longer Weakened or Hexed.</description>
     </rule>
   </sharedRules>
+  <sharedProfiles>
+    <profile id="883b-aa06-f245-fd3b" name="Cleanse" publicationId="eab5-a7fe-b282-0b56" page="240" hidden="false" typeId="7b58-7536-0187-dd6e" typeName="Misc">
+      <characteristics>
+        <characteristic name="Details" typeId="3bee-e669-3aae-6327">Paladin Chaplain/Priest: If 1 or more hits land by this unit&apos;s Heal, the target unit is no longer Weakened or Hexed.</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
 </catalogue>

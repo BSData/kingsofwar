@@ -502,6 +502,7 @@
       <entryLinks>
         <entryLink id="a723-fe30-258b-09c6" name=" Unlocked Troops (2) [Visual Indicator/Reminder]" hidden="false" collective="false" import="true" targetId="161d-e8c0-0ed4-d2aa" type="selectionEntryGroup"/>
         <entryLink id="d16a-9744-7403-7965" name=" Unlocked Unit (Pick 1) [Visual Indicator/Reminder]" hidden="false" collective="false" import="true" targetId="cdc9-7db6-77ed-e134" type="selectionEntryGroup"/>
+        <entryLink id="d0fe-088a-ed5f-e585" name="Magical Artefacts" hidden="false" collective="false" import="true" targetId="6816-61a6-c6f9-a79e" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="  US" typeId="8bd1-3402-32b0-82da" value="3.0"/>
@@ -1142,17 +1143,17 @@
                 <condition field="selections" scope="0e1b-ebe8-e410-0a6f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="69ab-da7c-a016-40ba" type="equalTo"/>
               </conditions>
             </modifier>
-            <modifier type="append" field="0e93-1f12-f5f3-c8df" value=" ~Bastion (1) [1]">
+            <modifier type="append" field="0e93-1f12-f5f3-c8df" value="~Bastion (1) [1]">
               <conditions>
                 <condition field="selections" scope="0e1b-ebe8-e410-0a6f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1db2-ecb4-be16-51d9" type="equalTo"/>
               </conditions>
             </modifier>
-            <modifier type="append" field="0e93-1f12-f5f3-c8df" value=" ~Bane Chant (2)">
+            <modifier type="append" field="0e93-1f12-f5f3-c8df" value="~Bane Chant (2)">
               <conditions>
                 <condition field="selections" scope="0e1b-ebe8-e410-0a6f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5af5-8834-099e-169d" type="equalTo"/>
               </conditions>
             </modifier>
-            <modifier type="append" field="0e93-1f12-f5f3-c8df" value=" ~Martyr&apos;s Prayer (7) [1]">
+            <modifier type="append" field="0e93-1f12-f5f3-c8df" value="~Martyr&apos;s Prayer (7) [1]">
               <conditions>
                 <condition field="selections" scope="0e1b-ebe8-e410-0a6f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="017c-2f8d-2065-8049" type="equalTo"/>
               </conditions>
@@ -1174,17 +1175,14 @@
           </characteristics>
         </profile>
       </profiles>
-      <rules>
-        <rule id="2edb-1427-4ecb-c3e2" name="Cleanse" publicationId="eab5-a7fe-b282-0b56" page="240" hidden="false">
-          <description>If 1 or more hits land by this unit&apos;s Heal, the target unit is no longer Weakened or Hexed.</description>
-        </rule>
-      </rules>
       <infoLinks>
         <infoLink id="9152-4367-a3aa-f37e" name="Crushing Strength" hidden="false" targetId="3131-8f0a-0927-8489" type="rule"/>
         <infoLink id="ebd1-db0a-c730-245d" name="Individual" hidden="false" targetId="9657-1079-91be-b2bd" type="rule"/>
         <infoLink id="05b4-97b1-04b0-dc24" name="Inspiring" hidden="false" targetId="7c18-e2b7-bc3b-fe10" type="rule"/>
         <infoLink id="98cc-39d5-e419-2e3f" name="Iron Resolve" hidden="false" targetId="6182-5a87-de7a-4f56" type="rule"/>
         <infoLink id="66ab-9b6b-5523-664b" name="~Heal" hidden="false" targetId="a125-9eee-fc99-05f7" type="rule"/>
+        <infoLink id="0d57-f4de-006a-03d8" name="Cleanse" hidden="false" targetId="395c-7a3e-3942-2a3c" type="rule"/>
+        <infoLink id="5fb5-67a6-198b-b6f3" name="Cleanse" hidden="false" targetId="7889-fece-1c97-ca58" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="fbcc-f721-47cb-7b7c" name="New CategoryLink" hidden="false" targetId="b057-19ac-bee2-ac91" primary="true"/>
@@ -1201,17 +1199,17 @@
           <profiles>
             <profile id="67ae-4792-d885-65f3" name="N: Priest (on Horse)" publicationId="eab5-a7fe-b282-0b56" page="240" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
               <modifiers>
-                <modifier type="append" field="0e93-1f12-f5f3-c8df" value=" ~Bastion (1) [1]">
+                <modifier type="append" field="0e93-1f12-f5f3-c8df" value="~Bastion (1) [1]">
                   <conditions>
                     <condition field="selections" scope="0e1b-ebe8-e410-0a6f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1db2-ecb4-be16-51d9" type="equalTo"/>
                   </conditions>
                 </modifier>
-                <modifier type="append" field="0e93-1f12-f5f3-c8df" value=" ~Bane Chant (2)">
+                <modifier type="append" field="0e93-1f12-f5f3-c8df" value="~Bane Chant (2)">
                   <conditions>
                     <condition field="selections" scope="0e1b-ebe8-e410-0a6f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5af5-8834-099e-169d" type="equalTo"/>
                   </conditions>
                 </modifier>
-                <modifier type="append" field="0e93-1f12-f5f3-c8df" value=" ~Martyr&apos;s Prayer (7) [1]">
+                <modifier type="append" field="0e93-1f12-f5f3-c8df" value="~Martyr&apos;s Prayer (7) [1]">
                   <conditions>
                     <condition field="selections" scope="0e1b-ebe8-e410-0a6f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="017c-2f8d-2065-8049" type="equalTo"/>
                   </conditions>
@@ -1304,27 +1302,27 @@
                 <condition field="selections" scope="741a-1eeb-f01f-cc89" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="418e-1e08-a8d6-284a" type="equalTo"/>
               </conditions>
             </modifier>
-            <modifier type="append" field="0e93-1f12-f5f3-c8df" value=" ~Bane Chant (2)">
+            <modifier type="append" field="0e93-1f12-f5f3-c8df" value="~Bane Chant (2)">
               <conditions>
                 <condition field="selections" scope="741a-1eeb-f01f-cc89" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1a1f-4d48-7abf-308a" type="equalTo"/>
               </conditions>
             </modifier>
-            <modifier type="append" field="0e93-1f12-f5f3-c8df" value=" ~Wind Blast (6)">
+            <modifier type="append" field="0e93-1f12-f5f3-c8df" value="~Wind Blast (6)">
               <conditions>
                 <condition field="selections" scope="741a-1eeb-f01f-cc89" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0c88-bac1-f4a3-2aee" type="equalTo"/>
               </conditions>
             </modifier>
-            <modifier type="append" field="0e93-1f12-f5f3-c8df" value=" ~Fireball (10)">
+            <modifier type="append" field="0e93-1f12-f5f3-c8df" value="~Fireball (10)">
               <conditions>
                 <condition field="selections" scope="741a-1eeb-f01f-cc89" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8a60-f4c0-4f6a-afad" type="equalTo"/>
               </conditions>
             </modifier>
-            <modifier type="append" field="0e93-1f12-f5f3-c8df" value=" ~Lightning Bolt (4)">
+            <modifier type="append" field="0e93-1f12-f5f3-c8df" value="~Lightning Bolt (4)">
               <conditions>
                 <condition field="selections" scope="741a-1eeb-f01f-cc89" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9769-0cc4-f51b-f796" type="equalTo"/>
               </conditions>
             </modifier>
-            <modifier type="append" field="0e93-1f12-f5f3-c8df" value=" ~Fireball (10) ~Lightning Bolt (4)">
+            <modifier type="append" field="0e93-1f12-f5f3-c8df" value="~Fireball (10) ~Lightning Bolt (4)">
               <conditions>
                 <condition field="selections" scope="741a-1eeb-f01f-cc89" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="69f8-a222-3128-acf0" type="equalTo"/>
               </conditions>
@@ -1389,27 +1387,27 @@
           <profiles>
             <profile id="cbe1-a790-da30-2013" name="N: War Wizard (on Horse)" publicationId="eab5-a7fe-b282-0b56" page="240" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
               <modifiers>
-                <modifier type="append" field="0e93-1f12-f5f3-c8df" value=" ~Bane Chant (2)">
+                <modifier type="append" field="0e93-1f12-f5f3-c8df" value="~Bane Chant (2)">
                   <conditions>
                     <condition field="selections" scope="741a-1eeb-f01f-cc89" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1a1f-4d48-7abf-308a" type="equalTo"/>
                   </conditions>
                 </modifier>
-                <modifier type="append" field="0e93-1f12-f5f3-c8df" value=" ~Wind Blast (6)">
+                <modifier type="append" field="0e93-1f12-f5f3-c8df" value="~Wind Blast (6)">
                   <conditions>
                     <condition field="selections" scope="741a-1eeb-f01f-cc89" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0c88-bac1-f4a3-2aee" type="equalTo"/>
                   </conditions>
                 </modifier>
-                <modifier type="append" field="0e93-1f12-f5f3-c8df" value=" ~Fireball (10)">
+                <modifier type="append" field="0e93-1f12-f5f3-c8df" value="~Fireball (10)">
                   <conditions>
                     <condition field="selections" scope="741a-1eeb-f01f-cc89" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8a60-f4c0-4f6a-afad" type="equalTo"/>
                   </conditions>
                 </modifier>
-                <modifier type="append" field="0e93-1f12-f5f3-c8df" value=" ~Lightning Bolt (4)">
+                <modifier type="append" field="0e93-1f12-f5f3-c8df" value="~Lightning Bolt (4)">
                   <conditions>
                     <condition field="selections" scope="741a-1eeb-f01f-cc89" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9769-0cc4-f51b-f796" type="equalTo"/>
                   </conditions>
                 </modifier>
-                <modifier type="append" field="0e93-1f12-f5f3-c8df" value=" ~Fireball (10) ~Lightning Bolt (4)">
+                <modifier type="append" field="0e93-1f12-f5f3-c8df" value="~Fireball (10) ~Lightning Bolt (4)">
                   <conditions>
                     <condition field="selections" scope="741a-1eeb-f01f-cc89" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="69f8-a222-3128-acf0" type="equalTo"/>
                   </conditions>
@@ -1508,7 +1506,7 @@
       <profiles>
         <profile id="296c-883d-a0ee-327f" name="V: High Paladin on Dragon" publicationId="eab5-a7fe-b282-0b56" page="241" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
           <modifiers>
-            <modifier type="append" field="0e93-1f12-f5f3-c8df" value=" ~Heal (4)">
+            <modifier type="append" field="0e93-1f12-f5f3-c8df" value="~Heal (4)">
               <conditions>
                 <condition field="selections" scope="f292-13f5-435d-0093" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b6bb-dc1a-ad2d-496c" type="equalTo"/>
               </conditions>
@@ -2319,17 +2317,14 @@
           </characteristics>
         </profile>
       </profiles>
-      <rules>
-        <rule id="1b81-5495-42f7-e819" name="Cleanse" publicationId="40c7-f3d7-48f3-3cc9" page="37" hidden="false">
-          <description>Exemplar Champion: If 1 or more hits are scored by this unit&apos;s Heal spell, the target unit is no longer Weakened or Hexed.</description>
-        </rule>
-      </rules>
       <infoLinks>
         <infoLink id="b496-5c76-476a-f348" name="Crushing Strength" hidden="false" targetId="3131-8f0a-0927-8489" type="rule"/>
         <infoLink id="3c10-8d85-b656-9eb2" name="Elite" hidden="false" targetId="e0d0-5bf9-11c8-b4f1" type="rule"/>
         <infoLink id="6e49-884c-ee70-8be6" name="Individual" hidden="false" targetId="9657-1079-91be-b2bd" type="rule"/>
         <infoLink id="f99a-eb14-0ef4-f875" name="Iron Resolve" hidden="false" targetId="6182-5a87-de7a-4f56" type="rule"/>
         <infoLink id="41ac-403e-d51f-bfbc" name="Rallying" hidden="false" targetId="a621-0f14-db61-f580" type="rule"/>
+        <infoLink id="d31a-7150-425b-6d2e" name="Cleanse" hidden="false" targetId="395c-7a3e-3942-2a3c" type="rule"/>
+        <infoLink id="9d6a-761c-2ec4-3750" name="Cleanse" hidden="false" targetId="7889-fece-1c97-ca58" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="48a5-4579-2f47-a694" name="New CategoryLink" hidden="false" targetId="b057-19ac-bee2-ac91" primary="true"/>
@@ -2465,10 +2460,15 @@
             <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
           </characteristics>
         </profile>
+        <profile id="e190-2282-9782-53c3" name="Dragon Slayer" publicationId="40c7-f3d7-48f3-3cc9" page="37" hidden="false" typeId="7b58-7536-0187-dd6e" typeName="Misc">
+          <characteristics>
+            <characteristic name="Details" typeId="3bee-e669-3aae-6327">Exemplar Hunter: While attacking a Mon or Ttn in Melee, this unit doubles its number of Attacks.</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <rules>
         <rule id="f2c5-1d9e-1932-82ab" name="Dragon Slayer" publicationId="40c7-f3d7-48f3-3cc9" page="37" hidden="false">
-          <description>Exemplar Hunter: This unit doubles its Attacks value while attacking a Monster or Titan in Melee.</description>
+          <description>Exemplar Hunter: While attacking a Mon or Ttn in Melee, this unit doubles its number of Attacks.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -2545,10 +2545,20 @@
   </selectionEntries>
   <sharedRules>
     <rule id="0937-0930-a174-871d" name="Aegis Fragment" publicationId="40c7-f3d7-48f3-3cc9" page="36" hidden="false">
-      <description>Once per game, when this unit&apos;s Iron Resolve is used, it can regain a maximum of 2 damage previously suffered, instead of 1. The Fragment is then destroyed.</description>
+      <description>Once per game, when this unit&apos;s Iron Resolve is used, it can recover a maximum of 2 damage previously suffered, instead of 1.</description>
     </rule>
     <rule id="b4f5-a8a8-55a1-3316" name="The Gauntlet" publicationId="40c7-f3d7-48f3-3cc9" page="36" hidden="false">
       <description>This unit gains Duelist.</description>
     </rule>
+    <rule id="395c-7a3e-3942-2a3c" name="Cleanse" publicationId="eab5-a7fe-b282-0b56" page="240" hidden="false">
+      <description>Exemplar Chaplain/Priest: If 1 or more hits land by this unit&apos;s Heal, the target unit is no longer Weakened or Hexed.</description>
+    </rule>
   </sharedRules>
+  <sharedProfiles>
+    <profile id="7889-fece-1c97-ca58" name="Cleanse" publicationId="eab5-a7fe-b282-0b56" page="240" hidden="false" typeId="7b58-7536-0187-dd6e" typeName="Misc">
+      <characteristics>
+        <characteristic name="Details" typeId="3bee-e669-3aae-6327">Exemplar Chaplain/Priest: If 1 or more hits land by this unit&apos;s Heal, the target unit is no longer Weakened or Hexed.</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
 </catalogue>
