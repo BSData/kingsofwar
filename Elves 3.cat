@@ -1369,7 +1369,7 @@
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="0583-3e04-7c2e-bdfd" name="The Shardblade [1] - (Melee 2+)" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="0583-3e04-7c2e-bdfd" name="The Shardblade [1]" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e9d-eb7a-6c51-6770" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7eda-8487-bbc2-63eb" type="max"/>
@@ -1543,6 +1543,11 @@
             <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">11/13</characteristic>
             <characteristic name="US" typeId="fcfd-0d73-228b-9814">0</characteristic>
             <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="917b-eae5-f3d3-f339" name="Master of Magic" publicationId="eab5-a7fe-b282-0b56" page="264" hidden="false" typeId="7b58-7536-0187-dd6e" typeName="Misc">
+          <characteristics>
+            <characteristic name="Details" typeId="3bee-e669-3aae-6327">Elven Archmage: This unit can re-roll all to hit rolls of a natural, unmodified 1 with Bane Chant, Heal, Hex, Lightning Bolt, Mind Fog and Wind Blast.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2019,10 +2024,15 @@
             <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
           </characteristics>
         </profile>
+        <profile id="7295-d647-d31f-ea1b" name="Trick Shot" publicationId="eab5-a7fe-b282-0b56" page="265" hidden="false" typeId="7b58-7536-0187-dd6e" typeName="Misc">
+          <characteristics>
+            <characteristic name="Details" typeId="3bee-e669-3aae-6327">Madriga the Elf [1]: Once per game, Madriga can use the following Ranged attack: &lt;Trick Shot: 48&quot;, Att: 1, Blast (D6), Ignore Cover, Piercing (2)&gt;</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <rules>
         <rule id="fb04-dae1-af25-0cc8" name="Trick Shot" publicationId="eab5-a7fe-b282-0b56" page="265" hidden="false">
-          <description>Madriga the Elf [1]: Once per game, Madriga can use the following ranged weapon - &lt;Trick Shot: 48&quot;, Att: 1, Blast (D6), Piercing (2), Ignores Cover&gt;</description>
+          <description>Madriga the Elf [1]: Once per game, Madriga can use the following Ranged attack: &lt;Trick Shot: 48&quot;, Att: 1, Blast (D6), Ignore Cover, Piercing (2)&gt;</description>
         </rule>
       </rules>
       <infoLinks>
@@ -2034,6 +2044,7 @@
         <infoLink id="ae66-ee5b-9eec-d657" name="Pathfinder" hidden="false" targetId="0bf5-2b12-5cc7-a963" type="rule"/>
         <infoLink id="939a-7d80-56ab-68cf" name="Stealthy" hidden="false" targetId="bdd0-eb1b-bf45-750e" type="rule"/>
         <infoLink id="0234-3a5c-db72-67d5" name="Scout" hidden="false" targetId="4172-a0d9-878e-5057" type="rule"/>
+        <infoLink id="40c6-e8ff-7ee9-921d" name="Piercing" hidden="false" targetId="cc29-8e7d-2a0e-c995" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="9f92-3719-b58b-e67c" name="@Hero/Mon/Ttn/War Eng" hidden="false" targetId="3f26-cf3d-d182-e055" primary="false"/>
@@ -2066,6 +2077,11 @@
             <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">-/13</characteristic>
             <characteristic name="US" typeId="fcfd-0d73-228b-9814">0</characteristic>
             <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="33d0-61cf-2cf4-ed6c" name="Altar of the Elements" publicationId="eab5-a7fe-b282-0b56" page="265" hidden="false" typeId="7b58-7536-0187-dd6e" typeName="Misc">
+          <characteristics>
+            <characteristic name="Details" typeId="3bee-e669-3aae-6327">Argus Rodinar [1]: As long as this unit is present and in play on the table, at the start of each of your Ranged Phases you may select 1 Friendly Core unit on the battlefield regardless of range or LoS. That unit is granted Inspiring until the start of your next Turn.</characteristic>
           </characteristics>
         </profile>
       </profiles>
