@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="a5d3-3244-338b-6c5e" name="[Neutral] Kingdoms of Men" revision="3" battleScribeVersion="2.03" authorName="John (Ekaznae)" authorContact="bsdata.kow@gmail.com" authorUrl="https://github.com/BSData/kingsofwar" library="false" gameSystemId="0929-4596-8744-bbdb" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="a5d3-3244-338b-6c5e" name="[Neutral] Kingdoms of Men" revision="4" battleScribeVersion="2.03" authorName="John (Ekaznae)" authorContact="bsdata.kow@gmail.com" authorUrl="https://github.com/BSData/kingsofwar" library="false" gameSystemId="0929-4596-8744-bbdb" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="f566-790f-4011-8163" name="Shield Wall (10) Troop" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="36e9-1029-7f00-a64c" name="A: Shield Wall (10) Troop" publicationId="40c7-f3d7-48f3-3cc9" page="75" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Inf</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Human</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">-</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">5</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">4+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">4+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">10</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">9/11</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">1</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <categoryLinks>
         <categoryLink id="9998-9fbc-bdae-6f67" name="New CategoryLink" hidden="false" targetId="616e-c1cf-de59-ed6e" primary="true"/>
         <categoryLink id="6806-2198-7622-d832" name="@Troop" hidden="false" targetId="9a33-dbd7-2f61-bf74" primary="false"/>
@@ -11,6 +28,10 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d8d8-89db-815e-6b3d" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="84ee-e5b6-c654-aa78" name="Indomitable Will" hidden="false" targetId="ae6d-cd14-c1ac-74a1" type="profile"/>
+            <infoLink id="c7da-cb22-dd16-b1cb" name="Indomitable Will" hidden="false" targetId="5b98-f396-f001-bc0d" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="10.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -26,6 +47,23 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="65ba-e246-e8bc-cd11" name="Shield Wall (20) Regiment" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="e284-83e0-1f65-3f31" name="A: Shield Wall (20) Regiment" publicationId="40c7-f3d7-48f3-3cc9" page="75" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Inf</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Human</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">-</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">5</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">4+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">4+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">12</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">13/15</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">3</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <categoryLinks>
         <categoryLink id="25b8-1f8d-d642-1a05" name="New CategoryLink" hidden="false" targetId="616e-c1cf-de59-ed6e" primary="true"/>
         <categoryLink id="fc1d-37fe-ba87-70ac" name="$$Inf/Hvy Inf/Cav/Cht REGIMENT" hidden="false" targetId="9f55-3ef2-5914-9436" primary="false"/>
@@ -35,6 +73,10 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc53-b9c5-1519-ddd5" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="7722-1ae9-c84e-c7aa" name="Indomitable Will" hidden="false" targetId="ae6d-cd14-c1ac-74a1" type="profile"/>
+            <infoLink id="fcc3-3013-a730-75ff" name="Indomitable Will" hidden="false" targetId="5b98-f396-f001-bc0d" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="10.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -52,6 +94,23 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="e790-097f-40d3-7042" name="Shield Wall (40) Horde" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="3ed8-5f8d-0de4-9489" name="A: Shield Wall (40) Horde" publicationId="40c7-f3d7-48f3-3cc9" page="75" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Inf</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Human</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">-</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">5</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">4+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">4+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">25</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">20/22</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">4</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <categoryLinks>
         <categoryLink id="6eae-c106-c47f-10fe" name="New CategoryLink" hidden="false" targetId="616e-c1cf-de59-ed6e" primary="true"/>
         <categoryLink id="aaa2-022a-cff0-9f58" name="$$Inf/Hvy Inf/Cav/Cht HORDE/LEGION" hidden="false" targetId="9453-4e62-79da-bc74" primary="false"/>
@@ -62,6 +121,10 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5be6-70ce-1df0-5483" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="eb63-31ba-ade5-0669" name="Indomitable Will" hidden="false" targetId="ae6d-cd14-c1ac-74a1" type="profile"/>
+            <infoLink id="da8e-eec4-9530-981b" name="Indomitable Will" hidden="false" targetId="5b98-f396-f001-bc0d" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="10.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -79,6 +142,26 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="ab49-2fe1-b122-fb76" name="Pole-Arms Block (20) Regiment" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="60a6-c22e-3232-45de" name="A: Pole-Arms Block (20) Regiment" publicationId="40c7-f3d7-48f3-3cc9" page="75" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Inf</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Human</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Crushing Strength (1)</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">5</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">4+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">3+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">12</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">13/15</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">3</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="7220-1e58-e82f-2121" name="Crushing Strength" hidden="false" targetId="3131-8f0a-0927-8489" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="8e4e-7b72-558b-43ee" name="New CategoryLink" hidden="false" targetId="616e-c1cf-de59-ed6e" primary="true"/>
         <categoryLink id="f6a2-24e0-6f51-45e7" name="$$Inf/Hvy Inf/Cav/Cht REGIMENT" hidden="false" targetId="9f55-3ef2-5914-9436" primary="false"/>
@@ -88,6 +171,10 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1501-408f-c847-331a" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="3b53-e661-d149-b557" name="Indomitable Will" hidden="false" targetId="ae6d-cd14-c1ac-74a1" type="profile"/>
+            <infoLink id="2b71-c880-cf24-294e" name="Indomitable Will" hidden="false" targetId="5b98-f396-f001-bc0d" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="10.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -105,6 +192,26 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="203f-92d7-8068-7168" name="Pole-Arms Block (40) Horde" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="c858-4084-84be-6fec" name="A: Pole-Arms Block (40) Horde" publicationId="40c7-f3d7-48f3-3cc9" page="75" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Inf</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Human</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Crushing Strength (1)</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">5</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">4+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">3+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">25</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">20/22</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">4</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="cf8c-cf9f-f270-73fa" name="Crushing Strength" hidden="false" targetId="3131-8f0a-0927-8489" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="087f-c341-5b0b-4e59" name="New CategoryLink" hidden="false" targetId="616e-c1cf-de59-ed6e" primary="true"/>
         <categoryLink id="5408-a8ae-b1f5-df85" name="$$Inf/Hvy Inf/Cav/Cht HORDE/LEGION" hidden="false" targetId="9453-4e62-79da-bc74" primary="false"/>
@@ -115,6 +222,10 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d1b9-e75c-c031-23bf" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="e7bd-cd09-5df5-cf4e" name="Indomitable Will" hidden="false" targetId="ae6d-cd14-c1ac-74a1" type="profile"/>
+            <infoLink id="a0eb-506b-748a-ae7c" name="Indomitable Will" hidden="false" targetId="5b98-f396-f001-bc0d" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="10.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -132,6 +243,33 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="5fdc-b812-a7a4-9845" name="Spear Phalanx (20) Regiment" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="13c1-3f6e-3dae-c120" name="A: Spear Phalanx (20) Regiment" publicationId="40c7-f3d7-48f3-3cc9" page="75" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="5fdc-b812-a7a4-9845" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d396-35a8-050e-87d3" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Inf</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Human</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Phalanx</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">5</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">4+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">4+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">15</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">13/15</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">3</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="928a-dca6-e595-a408" name="Phalanx" hidden="false" targetId="fbfb-4339-b268-fbae" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="afa6-e52b-4b94-73f3" name="New CategoryLink" hidden="false" targetId="616e-c1cf-de59-ed6e" primary="true"/>
         <categoryLink id="1ffa-a0de-1760-b55e" name="$$Inf/Hvy Inf/Cav/Cht REGIMENT" hidden="false" targetId="9f55-3ef2-5914-9436" primary="false"/>
@@ -141,6 +279,10 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1191-ec31-b643-bd54" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="4e0b-5602-0604-8b68" name="Indomitable Will" hidden="false" targetId="ae6d-cd14-c1ac-74a1" type="profile"/>
+            <infoLink id="018b-c04a-db70-a705" name="Indomitable Will" hidden="false" targetId="5b98-f396-f001-bc0d" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="10.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -150,6 +292,26 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="940b-29be-9ed7-155e" type="max"/>
           </constraints>
+          <profiles>
+            <profile id="de43-3d17-9407-ec05" name="A: Pike Phalanx (20) Regiment" publicationId="40c7-f3d7-48f3-3cc9" page="75" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+              <characteristics>
+                <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Inf</characteristic>
+                <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Human</characteristic>
+                <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Ensnare, Phalanx</characteristic>
+                <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">5</characteristic>
+                <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">4+</characteristic>
+                <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+                <characteristic name="De" typeId="0430-25ef-96a4-6510">4+</characteristic>
+                <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">15</characteristic>
+                <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">13/15</characteristic>
+                <characteristic name="US" typeId="fcfd-0d73-228b-9814">3</characteristic>
+                <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="f34d-38f1-d566-91d1" name="Ensnare" hidden="false" targetId="3b62-ea44-71f8-1c42" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="20.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -167,6 +329,33 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="1542-43a7-b6b9-273e" name="Spear Phalanx (40) Horde" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="a5e9-0b42-d140-a514" name="A: Spear Phalanx (40) Horde" publicationId="40c7-f3d7-48f3-3cc9" page="75" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="1542-43a7-b6b9-273e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d5d3-bbfd-33a6-97ec" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Inf</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Human</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Phalanx</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">5</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">4+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">4+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">30</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">20/22</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">4</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="b1b8-dc69-b6fa-d5c7" name="Phalanx" hidden="false" targetId="fbfb-4339-b268-fbae" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="41d8-4f3c-228e-7cf3" name="New CategoryLink" hidden="false" targetId="616e-c1cf-de59-ed6e" primary="true"/>
         <categoryLink id="c3b8-d3e7-8dc0-836d" name="$$Inf/Hvy Inf/Cav/Cht HORDE/LEGION" hidden="false" targetId="9453-4e62-79da-bc74" primary="false"/>
@@ -177,6 +366,10 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5065-3c33-f295-0382" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="645f-ed2b-3465-e38c" name="Indomitable Will" hidden="false" targetId="ae6d-cd14-c1ac-74a1" type="profile"/>
+            <infoLink id="f069-6860-0f4b-8bf0" name="Indomitable Will" hidden="false" targetId="5b98-f396-f001-bc0d" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="10.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -186,6 +379,26 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f2fa-40c0-f916-5db1" type="max"/>
           </constraints>
+          <profiles>
+            <profile id="e9f0-9098-12d7-1a7f" name="A: Pike Phalanx (40) Horde" publicationId="40c7-f3d7-48f3-3cc9" page="75" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+              <characteristics>
+                <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Inf</characteristic>
+                <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Human</characteristic>
+                <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Ensnare, Phalanx</characteristic>
+                <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">5</characteristic>
+                <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">4+</characteristic>
+                <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+                <characteristic name="De" typeId="0430-25ef-96a4-6510">4+</characteristic>
+                <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">30</characteristic>
+                <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">20/22</characteristic>
+                <characteristic name="US" typeId="fcfd-0d73-228b-9814">4</characteristic>
+                <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="dc35-f5c7-a22b-70b5" name="Ensnare" hidden="false" targetId="3b62-ea44-71f8-1c42" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="30.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -203,6 +416,34 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="ca91-3560-9a2a-b59c" name="Foot Guard (10) Troop" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="ae19-3dcd-7642-bc8c" name="A: Foot Guard (10) Troop" publicationId="40c7-f3d7-48f3-3cc9" page="75" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <modifierGroups>
+            <modifierGroup>
+              <conditions>
+                <condition field="selections" scope="ca91-3560-9a2a-b59c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8097-7788-34d5-5762" type="equalTo"/>
+              </conditions>
+              <modifiers>
+                <modifier type="set" field="0430-25ef-96a4-6510" value="4+"/>
+                <modifier type="set" field="0e93-1f12-f5f3-c8df" value="Crushing Strength (1)"/>
+              </modifiers>
+            </modifierGroup>
+          </modifierGroups>
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Inf</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Human, Knight</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">-</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">5</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">3+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">5+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">10</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">10/12</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">1</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <categoryLinks>
         <categoryLink id="ac30-2435-4c8a-dbb8" name="New CategoryLink" hidden="false" targetId="616e-c1cf-de59-ed6e" primary="true"/>
         <categoryLink id="d966-8d34-c1c6-445b" name="@Troop" hidden="false" targetId="9a33-dbd7-2f61-bf74" primary="false"/>
@@ -212,6 +453,10 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d5ce-c491-9a65-d566" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="8f3e-b1cc-da2d-314e" name="Indomitable Will" hidden="false" targetId="ae6d-cd14-c1ac-74a1" type="profile"/>
+            <infoLink id="95e1-3c76-0bfc-d6e5" name="Indomitable Will" hidden="false" targetId="5b98-f396-f001-bc0d" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="10.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -221,6 +466,9 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d67d-98ee-d4ca-97e6" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="c721-2d43-1934-65dd" name="Crushing Strength" hidden="false" targetId="3131-8f0a-0927-8489" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
             <cost name=" pts" typeId="points" value="0.0"/>
@@ -236,6 +484,34 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="3355-e419-6d94-bfdb" name="Foot Guard (20) Regiment" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="93ff-7f02-e255-eeed" name="A: Foot Guard (20) Regiment" publicationId="40c7-f3d7-48f3-3cc9" page="75" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <modifierGroups>
+            <modifierGroup>
+              <conditions>
+                <condition field="selections" scope="3355-e419-6d94-bfdb" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="da00-51c1-4618-2c35" type="equalTo"/>
+              </conditions>
+              <modifiers>
+                <modifier type="set" field="0430-25ef-96a4-6510" value="4+"/>
+                <modifier type="set" field="0e93-1f12-f5f3-c8df" value="Crushing Strength (1)"/>
+              </modifiers>
+            </modifierGroup>
+          </modifierGroups>
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Inf</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Human, Knight</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">-</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">5</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">3+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">5+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">12</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">14/16</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">3</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <categoryLinks>
         <categoryLink id="4ef8-856e-33be-97d7" name="New CategoryLink" hidden="false" targetId="616e-c1cf-de59-ed6e" primary="true"/>
         <categoryLink id="ad0f-9487-8f43-1f55" name="$$Inf/Hvy Inf/Cav/Cht REGIMENT" hidden="false" targetId="9f55-3ef2-5914-9436" primary="false"/>
@@ -245,6 +521,10 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5dcd-4a59-fb81-811b" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="9e82-e688-77f3-8013" name="Indomitable Will" hidden="false" targetId="ae6d-cd14-c1ac-74a1" type="profile"/>
+            <infoLink id="da4f-e413-2b02-08e4" name="Indomitable Will" hidden="false" targetId="5b98-f396-f001-bc0d" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="10.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -254,6 +534,9 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a72-252c-32e2-2181" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="0642-15cd-d6ae-0ab8" name="Crushing Strength" hidden="false" targetId="3131-8f0a-0927-8489" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
             <cost name=" pts" typeId="points" value="0.0"/>
@@ -271,6 +554,34 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="91db-f73a-f3cf-5742" name="Foot Guard (40) Horde" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="cb4b-3f02-e716-6602" name="A: Foot Guard (40) Horde" publicationId="40c7-f3d7-48f3-3cc9" page="75" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <modifierGroups>
+            <modifierGroup>
+              <conditions>
+                <condition field="selections" scope="91db-f73a-f3cf-5742" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d77a-6fe4-e645-dc55" type="equalTo"/>
+              </conditions>
+              <modifiers>
+                <modifier type="set" field="0430-25ef-96a4-6510" value="4+"/>
+                <modifier type="set" field="0e93-1f12-f5f3-c8df" value="Crushing Strength (1)"/>
+              </modifiers>
+            </modifierGroup>
+          </modifierGroups>
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Inf</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Human, Knight</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">-</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">5</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">3+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">5+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">25</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">21/23</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">4</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <categoryLinks>
         <categoryLink id="d1d3-8e52-8819-c5dd" name="New CategoryLink" hidden="false" targetId="616e-c1cf-de59-ed6e" primary="true"/>
         <categoryLink id="8412-7389-3b3d-2525" name="$$Inf/Hvy Inf/Cav/Cht HORDE/LEGION" hidden="false" targetId="9453-4e62-79da-bc74" primary="false"/>
@@ -281,6 +592,10 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb9d-87f7-86fc-da49" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="71cd-6346-7547-af9d" name="Indomitable Will" hidden="false" targetId="ae6d-cd14-c1ac-74a1" type="profile"/>
+            <infoLink id="b5f0-feea-2b31-ee6c" name="Indomitable Will" hidden="false" targetId="5b98-f396-f001-bc0d" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="10.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -290,6 +605,9 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db74-fa04-da2a-5302" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="9f37-cf92-c1e7-fe1d" name="Crushing Strength" hidden="false" targetId="3131-8f0a-0927-8489" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
             <cost name=" pts" typeId="points" value="0.0"/>
@@ -307,6 +625,23 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="4ab4-b8f3-9b30-9767" name="Militia Mob* (20) Regiment" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="841f-88cc-03ec-e647" name="A: Militia Mob* (20) Regiment" publicationId="40c7-f3d7-48f3-3cc9" page="75" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Inf</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Expendable, Human</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">-</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">5</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">5+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">3+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">12</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">11/14</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">2</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <categoryLinks>
         <categoryLink id="f747-b93c-9e3f-913c" name="New CategoryLink" hidden="false" targetId="616e-c1cf-de59-ed6e" primary="true"/>
         <categoryLink id="a9a3-e833-e30e-3c5a" name="*Irregular" hidden="false" targetId="6731-d255-50a0-0474" primary="false"/>
@@ -321,6 +656,23 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="a1fa-9ff2-878b-b837" name="Militia Mob* (40) Horde" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="777e-b40b-f8f1-465c" name="A: Militia Mob* (40) Horde" publicationId="40c7-f3d7-48f3-3cc9" page="75" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Inf</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Expendable, Human</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">-</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">5</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">5+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">3+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">25</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">18/21</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">3</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <categoryLinks>
         <categoryLink id="957c-c04d-a3bc-88d7" name="New CategoryLink" hidden="false" targetId="616e-c1cf-de59-ed6e" primary="true"/>
         <categoryLink id="cccf-ec00-8887-41b0" name="*Irregular" hidden="false" targetId="6731-d255-50a0-0474" primary="false"/>
@@ -336,6 +688,23 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="0715-2d46-2533-028f" name="Militia Mob* (60) Legion" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="d49d-fc0c-581d-cbb7" name="A: Militia Mob* (60) Legion" publicationId="40c7-f3d7-48f3-3cc9" page="75" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Inf</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Expendable, Human</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">-</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">5</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">5+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">3+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">30</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">24/27</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">4</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <categoryLinks>
         <categoryLink id="0f58-deb5-e6ef-d604" name="New CategoryLink" hidden="false" targetId="616e-c1cf-de59-ed6e" primary="true"/>
         <categoryLink id="34e3-0ca2-45db-7bcd" name="*Irregular" hidden="false" targetId="6731-d255-50a0-0474" primary="false"/>
@@ -351,6 +720,27 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="dbb3-1e5b-9186-bd50" name="Fanatics (10) Troop" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="12b6-6f72-260d-f9c4" name="A: Fanatics (10) Troop" publicationId="40c7-f3d7-48f3-3cc9" page="75" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Inf</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Berserker, Human</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Crushing Strength (1), Wild Charge (D3)</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">5</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">3+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">3+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">12</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">-/11</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">1</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="5da8-2bbe-d9c1-a6e7" name="Crushing Strength" hidden="false" targetId="3131-8f0a-0927-8489" type="rule"/>
+        <infoLink id="f634-cce0-ac80-512f" name="Wild Charge" hidden="false" targetId="05b0-7540-048c-16de" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="5eae-3ec3-ddb9-679d" name="New CategoryLink" hidden="false" targetId="616e-c1cf-de59-ed6e" primary="true"/>
         <categoryLink id="12e5-3ccd-d75d-9de2" name="@Troop" hidden="false" targetId="9a33-dbd7-2f61-bf74" primary="false"/>
@@ -364,6 +754,27 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="997e-fab7-2cbf-5e65" name="Fanatics (20) Regiment" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="3c1d-3db7-ae28-3e74" name="A: Fanatics (20) Regiment" publicationId="40c7-f3d7-48f3-3cc9" page="75" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Inf</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Berserker, Human</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Crushing Strength (1), Wild Charge (D3)</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">5</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">3+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">3+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">15</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">-/15</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">3</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="4f24-ebeb-c360-cefd" name="Crushing Strength" hidden="false" targetId="3131-8f0a-0927-8489" type="rule"/>
+        <infoLink id="337c-fa15-bfbf-4e21" name="Wild Charge" hidden="false" targetId="05b0-7540-048c-16de" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="4ddb-7756-79a4-6b25" name="New CategoryLink" hidden="false" targetId="616e-c1cf-de59-ed6e" primary="true"/>
         <categoryLink id="14ef-5b9a-5361-def0" name="$$Inf/Hvy Inf/Cav/Cht REGIMENT" hidden="false" targetId="9f55-3ef2-5914-9436" primary="false"/>
@@ -379,6 +790,27 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="cad3-17c5-662e-e8b7" name="Fanatics (40) Horde" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="f9dd-2c7a-0b1f-75cb" name="A: Fanatics (40) Horde" publicationId="40c7-f3d7-48f3-3cc9" page="75" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Inf</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Berserker, Human</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Crushing Strength (1), Wild Charge (D3)</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">5</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">3+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">3+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">30</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">-/22</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">4</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="dac6-3a9e-bd19-1495" name="Crushing Strength" hidden="false" targetId="3131-8f0a-0927-8489" type="rule"/>
+        <infoLink id="f52d-b425-fc25-c787" name="Wild Charge" hidden="false" targetId="05b0-7540-048c-16de" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="db6a-3c1a-a857-9c50" name="New CategoryLink" hidden="false" targetId="616e-c1cf-de59-ed6e" primary="true"/>
         <categoryLink id="12bc-6784-2a0d-1975" name="$$Inf/Hvy Inf/Cav/Cht HORDE/LEGION" hidden="false" targetId="9453-4e62-79da-bc74" primary="false"/>
@@ -395,6 +827,23 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="30c1-bad0-fa5b-045b" name="Bowmen (10) Troop" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="9ba3-4be6-375b-06f8" name="A: Bowmen (10) Troop" publicationId="40c7-f3d7-48f3-3cc9" page="76" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Inf</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Human</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">&lt;Bows: 24&quot;&gt;</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">5</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">5+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">5+</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">3+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">8</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">9/11</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">1</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <categoryLinks>
         <categoryLink id="9ee9-55d0-258d-5d12" name="New CategoryLink" hidden="false" targetId="616e-c1cf-de59-ed6e" primary="true"/>
         <categoryLink id="2920-3acc-76db-12fb" name="@Troop" hidden="false" targetId="9a33-dbd7-2f61-bf74" primary="false"/>
@@ -408,6 +857,23 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="409b-d97b-0143-8983" name="Bowmen (20) Regiment" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="6f38-405b-5579-6c78" name="A: Bowmen (20) Regiment" publicationId="40c7-f3d7-48f3-3cc9" page="76" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Inf</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Human</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">&lt;Bows: 24&quot;&gt;</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">5</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">5+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">5+</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">3+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">10</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">13/15</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">2</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <categoryLinks>
         <categoryLink id="1d85-6209-2af0-b62b" name="New CategoryLink" hidden="false" targetId="616e-c1cf-de59-ed6e" primary="true"/>
         <categoryLink id="aeed-eaad-aa38-106a" name="$$Inf/Hvy Inf/Cav/Cht REGIMENT" hidden="false" targetId="9f55-3ef2-5914-9436" primary="false"/>
@@ -423,6 +889,23 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="9908-287e-a8fb-9e08" name="Bowmen (40) Horde" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="ba7b-1bd7-5230-51f0" name="A: Bowmen (40) Horde" publicationId="40c7-f3d7-48f3-3cc9" page="76" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Inf</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Human</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">&lt;Bows: 24&quot;&gt;</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">5</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">5+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">5+</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">3+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">20</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">20/22</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">3</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <categoryLinks>
         <categoryLink id="6f1c-e547-c883-2171" name="New CategoryLink" hidden="false" targetId="616e-c1cf-de59-ed6e" primary="true"/>
         <categoryLink id="3769-5a22-46bb-188e" name="$$Inf/Hvy Inf/Cav/Cht HORDE/LEGION" hidden="false" targetId="9453-4e62-79da-bc74" primary="false"/>
@@ -439,13 +922,34 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="b2f6-c698-507c-b731" name="Crossbow Block (10) Troop" hidden="false" collective="false" import="true" type="unit">
-      <modifiers>
-        <modifier type="set" field="name" value="Rifle Block (10) Troop">
-          <conditions>
-            <condition field="selections" scope="b2f6-c698-507c-b731" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5586-1588-3d03-8769" type="equalTo"/>
-          </conditions>
-        </modifier>
-      </modifiers>
+      <profiles>
+        <profile id="8478-07c2-85eb-e308" name="A: Crossbow Block (10) Troop" publicationId="40c7-f3d7-48f3-3cc9" page="76" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="b2f6-c698-507c-b731" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5586-1588-3d03-8769" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Inf</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Human</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">&lt;Crossbows: 24&quot;, Piercing (1), Pot Shot&gt;</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">5</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">5+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">5+</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">3+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">8</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">9/11</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">1</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="7074-62b1-919b-0775" name="Pot Shot" hidden="false" targetId="1f7d-bacf-948b-f70f" type="rule"/>
+        <infoLink id="88b0-9daa-cc0f-5b68" name="Piercing" hidden="false" targetId="cc29-8e7d-2a0e-c995" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="3178-353c-ac4f-3f74" name="New CategoryLink" hidden="false" targetId="616e-c1cf-de59-ed6e" primary="true"/>
         <categoryLink id="5510-63df-b943-fd14" name="@Troop" hidden="false" targetId="9a33-dbd7-2f61-bf74" primary="false"/>
@@ -455,6 +959,23 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="391a-a89b-3864-c142" type="max"/>
           </constraints>
+          <profiles>
+            <profile id="b44b-1130-0982-eaae" name="A: Rifle Block (10) Troop" publicationId="40c7-f3d7-48f3-3cc9" page="76" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+              <characteristics>
+                <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Inf</characteristic>
+                <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Human</characteristic>
+                <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">&lt;Rifles: 24&quot;, Piercing (2), Pot Shot&gt;</characteristic>
+                <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">5</characteristic>
+                <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">5+</characteristic>
+                <characteristic name="Ra" typeId="72b7-f977-94ef-971d">5+</characteristic>
+                <characteristic name="De" typeId="0430-25ef-96a4-6510">3+</characteristic>
+                <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">8</characteristic>
+                <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">9/11</characteristic>
+                <characteristic name="US" typeId="fcfd-0d73-228b-9814">1</characteristic>
+                <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
           <costs>
             <cost name=" pts" typeId="points" value="10.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -470,13 +991,34 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="1117-d6fa-2089-8c6c" name="Crossbow Block (20) Regiment" hidden="false" collective="false" import="true" type="unit">
-      <modifiers>
-        <modifier type="set" field="name" value="Rifle Block (20) Regiment">
-          <conditions>
-            <condition field="selections" scope="1117-d6fa-2089-8c6c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b4c6-6375-12c3-1145" type="equalTo"/>
-          </conditions>
-        </modifier>
-      </modifiers>
+      <profiles>
+        <profile id="e84e-8570-9854-f3c2" name="A: Crossbow Block (20) Regiment" publicationId="40c7-f3d7-48f3-3cc9" page="76" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="1117-d6fa-2089-8c6c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b4c6-6375-12c3-1145" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Inf</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Human</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">&lt;Crossbows: 24&quot;, Piercing (1), Pot Shot&gt;</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">5</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">5+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">5+</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">3+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">10</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">13/15</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">2</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="b109-9058-55bd-7054" name="Piercing" hidden="false" targetId="cc29-8e7d-2a0e-c995" type="rule"/>
+        <infoLink id="791d-46c5-9753-14c0" name="Pot Shot" hidden="false" targetId="1f7d-bacf-948b-f70f" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="edac-9d02-0908-27f4" name="New CategoryLink" hidden="false" targetId="616e-c1cf-de59-ed6e" primary="true"/>
         <categoryLink id="e018-9fd5-da84-df98" name="$$Inf/Hvy Inf/Cav/Cht REGIMENT" hidden="false" targetId="9f55-3ef2-5914-9436" primary="false"/>
@@ -486,6 +1028,23 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="77ff-1995-e82f-0eb0" type="max"/>
           </constraints>
+          <profiles>
+            <profile id="040d-6158-ed16-30ed" name="A: Rifle Block (20) Regiment" publicationId="40c7-f3d7-48f3-3cc9" page="76" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+              <characteristics>
+                <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Inf</characteristic>
+                <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Human</characteristic>
+                <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">&lt;Rifles: 24&quot;, Piercing (2), Pot Shot&gt;</characteristic>
+                <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">5</characteristic>
+                <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">5+</characteristic>
+                <characteristic name="Ra" typeId="72b7-f977-94ef-971d">5+</characteristic>
+                <characteristic name="De" typeId="0430-25ef-96a4-6510">3+</characteristic>
+                <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">10</characteristic>
+                <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">13/15</characteristic>
+                <characteristic name="US" typeId="fcfd-0d73-228b-9814">2</characteristic>
+                <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
           <costs>
             <cost name=" pts" typeId="points" value="15.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -503,13 +1062,34 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="3ea1-933f-755c-f360" name="Crossbow Block (40) Horde" hidden="false" collective="false" import="true" type="unit">
-      <modifiers>
-        <modifier type="set" field="name" value="Rifle Block (40) Horde">
-          <conditions>
-            <condition field="selections" scope="3ea1-933f-755c-f360" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0dfe-efde-a3bd-296f" type="equalTo"/>
-          </conditions>
-        </modifier>
-      </modifiers>
+      <profiles>
+        <profile id="55e6-14f1-7a0d-1da8" name="A: Crossbow Block (40) Horde" publicationId="40c7-f3d7-48f3-3cc9" page="76" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="3ea1-933f-755c-f360" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0dfe-efde-a3bd-296f" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Inf</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Human</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">&lt;Crossbows: 24&quot;, Piercing (1), Pot Shot&gt;</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">5</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">5+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">5+</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">3+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">20</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">20/22</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">3</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="e735-9869-1906-cb95" name="Piercing" hidden="false" targetId="cc29-8e7d-2a0e-c995" type="rule"/>
+        <infoLink id="4359-7928-ac66-004d" name="Pot Shot" hidden="false" targetId="1f7d-bacf-948b-f70f" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="729d-df98-bbaa-e9be" name="New CategoryLink" hidden="false" targetId="616e-c1cf-de59-ed6e" primary="true"/>
         <categoryLink id="7ecb-9ff3-8dde-0e3c" name="$$Inf/Hvy Inf/Cav/Cht HORDE/LEGION" hidden="false" targetId="9453-4e62-79da-bc74" primary="false"/>
@@ -520,6 +1100,23 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca5c-3350-4364-2057" type="max"/>
           </constraints>
+          <profiles>
+            <profile id="1084-72f5-c4fe-906e" name="A: Rifle Block (40) Horde" publicationId="40c7-f3d7-48f3-3cc9" page="76" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+              <characteristics>
+                <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Inf</characteristic>
+                <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Human</characteristic>
+                <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">&lt;Rifles: 24&quot;, Piercing (2), Pot Shot&gt;</characteristic>
+                <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">5</characteristic>
+                <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">5+</characteristic>
+                <characteristic name="Ra" typeId="72b7-f977-94ef-971d">5+</characteristic>
+                <characteristic name="De" typeId="0430-25ef-96a4-6510">3+</characteristic>
+                <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">20</characteristic>
+                <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">20/22</characteristic>
+                <characteristic name="US" typeId="fcfd-0d73-228b-9814">3</characteristic>
+                <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
           <costs>
             <cost name=" pts" typeId="points" value="25.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -537,6 +1134,27 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="6a04-2f9c-7c70-faa5" name="Knights (05) Troop" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="0ce8-3c14-8638-e02d" name="C: Knights (05) Troop" publicationId="40c7-f3d7-48f3-3cc9" page="76" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Cav</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Human, Knight</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Headstrong, Thunderous Charge (2)</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">8</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">3+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">5+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">8</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">11/13</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">1</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="7665-6076-0c25-884f" name="Headstrong" hidden="false" targetId="6be6-adad-42c1-637f" type="rule"/>
+        <infoLink id="3d93-f3d1-6581-d1aa" name="Thunderous Charge" hidden="false" targetId="a8ce-2f96-b0be-47d6" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="db67-3480-a583-49d9" name="New CategoryLink" hidden="false" targetId="f4f2-57cc-03dc-1dcc" primary="true"/>
         <categoryLink id="1cad-d6ed-0ce2-d67c" name="@Troop" hidden="false" targetId="9a33-dbd7-2f61-bf74" primary="false"/>
@@ -546,6 +1164,10 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ae7f-8c5c-20d7-fa92" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="0775-cc22-7069-c0f5" name="Indomitable Will" hidden="false" targetId="ae6d-cd14-c1ac-74a1" type="profile"/>
+            <infoLink id="838a-df44-793a-7456" name="Indomitable Will" hidden="false" targetId="5b98-f396-f001-bc0d" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="10.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -561,6 +1183,27 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="6e59-266f-4ef0-411c" name="Knights (10) Regiment" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="f35d-8c36-96ce-f867" name="C: Knights (10) Regiment" publicationId="40c7-f3d7-48f3-3cc9" page="76" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Cav</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Human, Knight</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Headstrong, Thunderous Charge (2)</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">8</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">3+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">5+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">16</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">14/16</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">3</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="54d4-af1b-98cb-69ad" name="Headstrong" hidden="false" targetId="6be6-adad-42c1-637f" type="rule"/>
+        <infoLink id="f5b0-2070-0ad9-6374" name="Thunderous Charge" hidden="false" targetId="a8ce-2f96-b0be-47d6" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="40b9-2215-d3fb-5bad" name="New CategoryLink" hidden="false" targetId="f4f2-57cc-03dc-1dcc" primary="true"/>
         <categoryLink id="0be7-1e58-cfec-05e4" name="$$Inf/Hvy Inf/Cav/Cht REGIMENT" hidden="false" targetId="9f55-3ef2-5914-9436" primary="false"/>
@@ -570,6 +1213,10 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f38-0e75-e121-9353" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="1c97-28f2-e94e-10ad" name="Indomitable Will" hidden="false" targetId="ae6d-cd14-c1ac-74a1" type="profile"/>
+            <infoLink id="ab89-992e-543c-79e5" name="Indomitable Will" hidden="false" targetId="5b98-f396-f001-bc0d" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="10.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -587,6 +1234,27 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="7dd8-14f6-d1a6-5c15" name="Knights (20) Horde" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="4ca5-dca1-53d3-9975" name="C: Knights (20) Horde" publicationId="40c7-f3d7-48f3-3cc9" page="76" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Cav</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Human, Knight</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Headstrong, Thunderous Charge (2)</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">8</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">3+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">5+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">32</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">21/23</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">4</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="4816-ee77-0814-d566" name="Headstrong" hidden="false" targetId="6be6-adad-42c1-637f" type="rule"/>
+        <infoLink id="140c-25e0-f872-0696" name="Thunderous Charge" hidden="false" targetId="a8ce-2f96-b0be-47d6" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="2b5c-45b0-5713-0ac8" name="New CategoryLink" hidden="false" targetId="f4f2-57cc-03dc-1dcc" primary="true"/>
         <categoryLink id="895f-5265-f205-72e8" name="$$Inf/Hvy Inf/Cav/Cht HORDE/LEGION" hidden="false" targetId="9453-4e62-79da-bc74" primary="false"/>
@@ -597,6 +1265,10 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6de7-ab6b-1a77-21d9" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="439f-fd36-a001-afdb" name="Indomitable Will" hidden="false" targetId="ae6d-cd14-c1ac-74a1" type="profile"/>
+            <infoLink id="fc78-e60e-aeec-7398" name="Indomitable Will" hidden="false" targetId="5b98-f396-f001-bc0d" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="10.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -614,6 +1286,27 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="076e-198f-bcec-d29d" name="Mounted Sergeants (05) Troop" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="a84a-783c-4cc3-60a6" name="C: Mounted Sergeants (05) Troop" publicationId="40c7-f3d7-48f3-3cc9" page="76" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Cav</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Human</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Nimble, Thunderous Charge (1)</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">9</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">4+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">4+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">7</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">10/12</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">1</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="98cc-606a-8ac9-b3ee" name="Thunderous Charge" hidden="false" targetId="a8ce-2f96-b0be-47d6" type="rule"/>
+        <infoLink id="1c33-ddb3-f84b-0f43" name="Nimble" hidden="false" targetId="b79a-f274-5123-df1d" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="b8cc-e909-d7b1-1ee1" name="New CategoryLink" hidden="false" targetId="f4f2-57cc-03dc-1dcc" primary="true"/>
         <categoryLink id="1b2e-1448-79e6-4fca" name="@Troop" hidden="false" targetId="9a33-dbd7-2f61-bf74" primary="false"/>
@@ -627,6 +1320,27 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="8a30-e0b0-c346-5b78" name="Mounted Sergeants (10) Regiment" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="cd78-2fd8-a3dc-176b" name="C: Mounted Sergeants (10) Regiment" publicationId="40c7-f3d7-48f3-3cc9" page="76" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+          <characteristics>
+            <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Cav</characteristic>
+            <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Human</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Nimble, Thunderous Charge (1)</characteristic>
+            <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">9</characteristic>
+            <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">4+</characteristic>
+            <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+            <characteristic name="De" typeId="0430-25ef-96a4-6510">4+</characteristic>
+            <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">14</characteristic>
+            <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">13/15</characteristic>
+            <characteristic name="US" typeId="fcfd-0d73-228b-9814">3</characteristic>
+            <characteristic name="Ht" typeId="3656-74c6-668b-5919">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="f7d2-0686-b2e2-6d08" name="Thunderous Charge" hidden="false" targetId="a8ce-2f96-b0be-47d6" type="rule"/>
+        <infoLink id="94bd-73cf-fc45-a47c" name="Nimble" hidden="false" targetId="b79a-f274-5123-df1d" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="b60b-8be1-89a0-6639" name="New CategoryLink" hidden="false" targetId="f4f2-57cc-03dc-1dcc" primary="true"/>
         <categoryLink id="5ed0-4f97-9e82-8258" name="$$Inf/Hvy Inf/Cav/Cht REGIMENT" hidden="false" targetId="9f55-3ef2-5914-9436" primary="false"/>
@@ -1325,4 +2039,16 @@
       </costs>
     </selectionEntry>
   </selectionEntries>
+  <sharedRules>
+    <rule id="5b98-f396-f001-bc0d" name="Indomitable Will" publicationId="40c7-f3d7-48f3-3cc9" page="75" hidden="false">
+      <description>Once per game, during your Turn, you may choose to make this unit Fearless and gain Inspiring:(Self), both lasting until the start of your next Turn. In addition, if this unit is currently Wavered it becomes Steady.</description>
+    </rule>
+  </sharedRules>
+  <sharedProfiles>
+    <profile id="ae6d-cd14-c1ac-74a1" name="Indomitable Will" publicationId="40c7-f3d7-48f3-3cc9" page="75" hidden="false" typeId="7b58-7536-0187-dd6e" typeName="Misc">
+      <characteristics>
+        <characteristic name="Details" typeId="3bee-e669-3aae-6327">Once per game, during your Turn, you may choose to make this unit Fearless and gain Inspiring:(Self), both lasting until the start of your next Turn. In addition, if this unit is currently Wavered it becomes Steady.</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
 </catalogue>
