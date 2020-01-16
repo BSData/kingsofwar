@@ -795,6 +795,7 @@
           </constraints>
           <infoLinks>
             <infoLink id="b1d0-9194-74e4-6baf" name="Crocodog" hidden="false" targetId="5435-0629-99e5-092f" type="rule"/>
+            <infoLink id="1a57-037f-f4db-a3b4" name="Crocodog" hidden="false" targetId="8d65-838a-5a64-70cd" type="profile"/>
           </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="5.0"/>
@@ -865,6 +866,7 @@
           </constraints>
           <infoLinks>
             <infoLink id="b1be-f97a-620a-2d7e" name="Crocodog" hidden="false" targetId="5435-0629-99e5-092f" type="rule"/>
+            <infoLink id="efdb-48c0-5147-6017" name="Crocodog" hidden="false" targetId="8d65-838a-5a64-70cd" type="profile"/>
           </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="5.0"/>
@@ -937,6 +939,7 @@
           </constraints>
           <infoLinks>
             <infoLink id="f23b-eafa-d47f-464e" name="Crocodog" hidden="false" targetId="5435-0629-99e5-092f" type="rule"/>
+            <infoLink id="4e3c-702b-15b0-9a19" name="Crocodog" hidden="false" targetId="8d65-838a-5a64-70cd" type="profile"/>
           </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="5.0"/>
@@ -989,6 +992,7 @@
           </constraints>
           <infoLinks>
             <infoLink id="d39a-841b-9a89-6ed6" name="Crocodog" hidden="false" targetId="5435-0629-99e5-092f" type="rule"/>
+            <infoLink id="b30f-666f-4819-0df3" name="Crocodog" hidden="false" targetId="8d65-838a-5a64-70cd" type="profile"/>
           </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="5.0"/>
@@ -1006,7 +1010,7 @@
     </selectionEntry>
     <selectionEntry id="0ba7-ace0-8a0d-0951" name="Hunters (06) Horde" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="548e-5626-c132-cb27" name="E: Hunters (03) Regiment" publicationId="eab5-a7fe-b282-0b56" page="298" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+        <profile id="548e-5626-c132-cb27" name="E: Hunters (03) Horde" publicationId="eab5-a7fe-b282-0b56" page="298" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
           <characteristics>
             <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Lrg Inf</characteristic>
             <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Ogre, Tracker</characteristic>
@@ -1041,6 +1045,7 @@
           </constraints>
           <infoLinks>
             <infoLink id="d75b-fd7a-ce79-0660" name="Crocodog" hidden="false" targetId="5435-0629-99e5-092f" type="rule"/>
+            <infoLink id="5963-2e55-d188-4b83" name="Crocodog" hidden="false" targetId="8d65-838a-5a64-70cd" type="profile"/>
           </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="5.0"/>
@@ -1094,7 +1099,7 @@
     </selectionEntry>
     <selectionEntry id="3a8b-0eb6-6f89-8702" name="Berserker Braves (06) Horde" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="a7a4-6ec0-847e-4fd0" name="E: Berserker Braves (06)" publicationId="eab5-a7fe-b282-0b56" page="299" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+        <profile id="a7a4-6ec0-847e-4fd0" name="E: Berserker Braves (06) Horde" publicationId="eab5-a7fe-b282-0b56" page="299" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
           <characteristics>
             <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Lrg Inf</characteristic>
             <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Berserker, Ogre</characteristic>
@@ -1229,6 +1234,11 @@
             <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">-/10</characteristic>
             <characteristic name="US" typeId="fcfd-0d73-228b-9814">1</characteristic>
             <characteristic name="Ht" typeId="3656-74c6-668b-5919">3</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="5763-f1a8-1edd-2989" name="Boom!" publicationId="eab5-a7fe-b282-0b56" page="299" hidden="false" typeId="7b58-7536-0187-dd6e" typeName="Misc">
+          <characteristics>
+            <characteristic name="Details" typeId="3bee-e669-3aae-6327">Red Goblin Blaster: At the end of a Turn in which this unit scores a successful hit in Melee, it is immediately Routed and removed from play.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1453,6 +1463,11 @@
             <characteristic name="Ht" typeId="3656-74c6-668b-5919">3</characteristic>
           </characteristics>
         </profile>
+        <profile id="b302-108e-db83-56b4" name="Ogre Warlock" publicationId="eab5-a7fe-b282-0b56" page="300" hidden="false" typeId="7b58-7536-0187-dd6e" typeName="Misc">
+          <characteristics>
+            <characteristic name="Details" typeId="3bee-e669-3aae-6327">For each Friendly Core Lrg Inf Regiment, Lrg Inf Horde, or Lrg Inf Legion within 6”, increase the amount of dice rolled with Drain Life, Fireball, Lightning Bolt and Mind Fog by 1 to a maximum bonus of +3.</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <rules>
         <rule id="bb03-3c3b-fd1e-3a5e" name="Ogre Warlock" publicationId="eab5-a7fe-b282-0b56" page="300" hidden="false">
@@ -1607,6 +1622,7 @@
           </constraints>
           <infoLinks>
             <infoLink id="9e7e-687e-181f-a680" name="Crocodog" hidden="false" targetId="5435-0629-99e5-092f" type="rule"/>
+            <infoLink id="cf2f-aa78-047d-f631" name="Crocodog" hidden="false" targetId="8d65-838a-5a64-70cd" type="profile"/>
           </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="5.0"/>
@@ -1969,6 +1985,7 @@
           </constraints>
           <infoLinks>
             <infoLink id="282f-2f19-05fe-7f82" name="Crocodog" hidden="false" targetId="5435-0629-99e5-092f" type="rule"/>
+            <infoLink id="d9ce-8bdb-92ea-af5a" name="Crocodog" hidden="false" targetId="8d65-838a-5a64-70cd" type="profile"/>
           </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="5.0"/>
@@ -2178,6 +2195,16 @@
             <characteristic name="Ht" typeId="3656-74c6-668b-5919">3</characteristic>
           </characteristics>
         </profile>
+        <profile id="bef8-eee7-e56e-d4a2" name="Ravenous Lizard" publicationId="eab5-a7fe-b282-0b56" page="301" hidden="false" typeId="7b58-7536-0187-dd6e" typeName="Misc">
+          <characteristics>
+            <characteristic name="Details" typeId="3bee-e669-3aae-6327">Kuzlo &amp; Madfall [1]: While within 6&quot; of this unit, all units, both Friendly and Enemy, have -1 to their Waver and Rout Nerve values.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="3125-81ca-2e1a-5661" name="Sticky Tongue" publicationId="eab5-a7fe-b282-0b56" page="301" hidden="false" typeId="7b58-7536-0187-dd6e" typeName="Misc">
+          <characteristics>
+            <characteristic name="Details" typeId="3bee-e669-3aae-6327">Kuzlo &amp; Madfall [1]: This unit&apos;s Enthral spell only has a range of 12&quot;. While casting Enthral, in addition to moving the target, roll to damage for each hit scored.</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <rules>
         <rule id="bf5b-298e-aaf7-46b4" name="Ravenous Lizard" publicationId="eab5-a7fe-b282-0b56" page="301" hidden="false">
@@ -2253,4 +2280,11 @@
       <description>Once per game, when this unit rolls to hit in Melee, you may choose to re-roll up to 3 dice that score a natural, unmodified 1.</description>
     </rule>
   </sharedRules>
+  <sharedProfiles>
+    <profile id="8d65-838a-5a64-70cd" name="Crocodog" publicationId="eab5-a7fe-b282-0b56" page="297" hidden="false" typeId="7b58-7536-0187-dd6e" typeName="Misc">
+      <characteristics>
+        <characteristic name="Details" typeId="3bee-e669-3aae-6327">Once per game, when this unit rolls to hit in Melee, you may choose to re-roll up to 3 dice that score a natural, unmodified 1.</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
 </catalogue>

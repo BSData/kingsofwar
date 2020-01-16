@@ -45,6 +45,7 @@
           </constraints>
           <infoLinks>
             <infoLink id="ad02-3f6b-8ecc-08fe" name="Sacrificial Imp" hidden="false" targetId="b193-f31e-3ca6-9e70" type="rule"/>
+            <infoLink id="363c-0d33-3304-e919" name="Sacrificial Imp" hidden="false" targetId="85ea-a059-4e47-e2a7" type="profile"/>
           </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="5.0"/>
@@ -128,6 +129,7 @@
           </constraints>
           <infoLinks>
             <infoLink id="16ec-2c5b-7e8c-6a7b" name="Sacrificial Imp" hidden="false" targetId="b193-f31e-3ca6-9e70" type="rule"/>
+            <infoLink id="0ff6-fefc-7453-ad5d" name="Sacrificial Imp" hidden="false" targetId="85ea-a059-4e47-e2a7" type="profile"/>
           </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="10.0"/>
@@ -202,6 +204,7 @@
           </constraints>
           <infoLinks>
             <infoLink id="d5f6-cf06-3d59-2246" name="Sacrificial Imp" hidden="false" targetId="b193-f31e-3ca6-9e70" type="rule"/>
+            <infoLink id="6668-aa25-0346-4d26" name="Sacrificial Imp" hidden="false" targetId="85ea-a059-4e47-e2a7" type="profile"/>
           </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="15.0"/>
@@ -262,6 +265,7 @@
           </constraints>
           <infoLinks>
             <infoLink id="1fdf-c590-19f5-ced0" name="Sacrificial Imp" hidden="false" targetId="b193-f31e-3ca6-9e70" type="rule"/>
+            <infoLink id="1674-83b6-e7b6-2446" name="Sacrificial Imp" hidden="false" targetId="85ea-a059-4e47-e2a7" type="profile"/>
           </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="5.0"/>
@@ -344,6 +348,7 @@
           </constraints>
           <infoLinks>
             <infoLink id="2c87-4aab-6748-0fa3" name="Sacrificial Imp" hidden="false" targetId="b193-f31e-3ca6-9e70" type="rule"/>
+            <infoLink id="eb01-a40d-f27c-51fe" name="Sacrificial Imp" hidden="false" targetId="85ea-a059-4e47-e2a7" type="profile"/>
           </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="10.0"/>
@@ -720,6 +725,7 @@
           </constraints>
           <infoLinks>
             <infoLink id="4e73-b18c-2477-2e23" name="Sacrificial Imp" hidden="false" targetId="b193-f31e-3ca6-9e70" type="rule"/>
+            <infoLink id="7333-d409-652b-aee2" name="Sacrificial Imp" hidden="false" targetId="85ea-a059-4e47-e2a7" type="profile"/>
           </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="5.0"/>
@@ -770,6 +776,7 @@
           </constraints>
           <infoLinks>
             <infoLink id="f996-589a-43ba-ce51" name="Sacrificial Imp" hidden="false" targetId="b193-f31e-3ca6-9e70" type="rule"/>
+            <infoLink id="6841-d9ce-4407-76c5" name="Sacrificial Imp" hidden="false" targetId="85ea-a059-4e47-e2a7" type="profile"/>
           </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="10.0"/>
@@ -841,6 +848,7 @@
           </constraints>
           <infoLinks>
             <infoLink id="db80-8ed8-74de-7632" name="Sacrificial Imp" hidden="false" targetId="b193-f31e-3ca6-9e70" type="rule"/>
+            <infoLink id="c8f4-4963-f35b-d113" name="Sacrificial Imp" hidden="false" targetId="85ea-a059-4e47-e2a7" type="profile"/>
           </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="10.0"/>
@@ -914,6 +922,7 @@
           </constraints>
           <infoLinks>
             <infoLink id="4286-5d5c-f106-dbf2" name="Sacrificial Imp" hidden="false" targetId="b193-f31e-3ca6-9e70" type="rule"/>
+            <infoLink id="9e39-15f1-dd98-912c" name="Sacrificial Imp" hidden="false" targetId="85ea-a059-4e47-e2a7" type="profile"/>
           </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="15.0"/>
@@ -2018,6 +2027,11 @@
             <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
           </characteristics>
         </profile>
+        <profile id="bbf8-f532-5847-10b9" name="Terrible Majesty" publicationId="eab5-a7fe-b282-0b56" page="348" hidden="false" typeId="7b58-7536-0187-dd6e" typeName="Misc">
+          <characteristics>
+            <characteristic name="Details" typeId="3bee-e669-3aae-6327">Mau&apos;ti-bu-su [1]: This unit has Brutal (D3).</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <rules>
         <rule id="f186-4bbe-46e0-f272" name="Terrible Majesty" publicationId="eab5-a7fe-b282-0b56" page="348" hidden="false">
@@ -2106,10 +2120,15 @@
             <characteristic name="Ht" typeId="3656-74c6-668b-5919">5</characteristic>
           </characteristics>
         </profile>
+        <profile id="927f-227e-b846-97ed" name="Soul Drain" publicationId="eab5-a7fe-b282-0b56" page="349" hidden="false" typeId="7b58-7536-0187-dd6e" typeName="Misc">
+          <characteristics>
+            <characteristic name="Details" typeId="3bee-e669-3aae-6327">The Well of Souls [1]: When this unit is given an order, it may put up to 20 damage on itself. However, this cannot take it to more than 20 damage in total. For each damage taken in this way, it may remove 1 damage from 1 Friendly Core unit within 9&quot;. The Well will not take a Nerve test for damage taken in this way.</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <rules>
         <rule id="883c-554c-292d-b13c" name="Soul Drain" publicationId="eab5-a7fe-b282-0b56" page="349" hidden="false">
-          <description>The Well of Souls [1]: When this unit is given an order, it may put up to 20 damage on itself. However, this cannot take it to more than 20 damage in total. For each damage taken in this way, it may remove 1 damage from 1 Friendly Core unit within 9&quot;. The Well will not take a Nerve Test for damage taken in this way.</description>
+          <description>The Well of Souls [1]: When this unit is given an order, it may put up to 20 damage on itself. However, this cannot take it to more than 20 damage in total. For each damage taken in this way, it may remove 1 damage from 1 Friendly Core unit within 9&quot;. The Well will not take a Nerve test for damage taken in this way.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -2152,6 +2171,11 @@
             <characteristic name="Ht" typeId="3656-74c6-668b-5919">4</characteristic>
           </characteristics>
         </profile>
+        <profile id="27cb-7f22-97a6-6deb" name="From the Pit I Curse Thee!" publicationId="eab5-a7fe-b282-0b56" page="349" hidden="false" typeId="7b58-7536-0187-dd6e" typeName="Misc">
+          <characteristics>
+            <characteristic name="Details" typeId="3bee-e669-3aae-6327">Manifestation of Ba&apos;el [1]: This ability is a Ranged attack that can be used once per game. When this is used, all Enemy units within 6&quot; of Ba&apos;el become Disordered.</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <rules>
         <rule id="82ca-3afc-e337-8fa9" name="From the Pit I Curse Thee!" publicationId="eab5-a7fe-b282-0b56" page="349" hidden="false">
@@ -2187,4 +2211,11 @@
       <description>Once per game, before this unit rolls for Regeneration, you can choose to re-roll any of its failed Regeneration dice.</description>
     </rule>
   </sharedRules>
+  <sharedProfiles>
+    <profile id="85ea-a059-4e47-e2a7" name="Sacrificial Imp" publicationId="eab5-a7fe-b282-0b56" page="345" hidden="false" typeId="7b58-7536-0187-dd6e" typeName="Misc">
+      <characteristics>
+        <characteristic name="Details" typeId="3bee-e669-3aae-6327">Once per game, before this unit rolls for Regeneration, you can choose to re-roll any of its failed Regeneration dice.</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
 </catalogue>
