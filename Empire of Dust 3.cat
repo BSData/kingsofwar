@@ -498,6 +498,7 @@
           </constraints>
           <infoLinks>
             <infoLink id="0dde-80f7-59a3-0df6" name="Casket of the Damned" hidden="false" targetId="8f46-d28c-952e-54a8" type="rule"/>
+            <infoLink id="f2fe-6171-a703-7cb7" name="Casket of the Damned" hidden="false" targetId="8a16-5c25-075e-32a8" type="profile"/>
           </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="10.0"/>
@@ -548,6 +549,7 @@
           </constraints>
           <infoLinks>
             <infoLink id="28e2-23fc-f545-da6c" name="Casket of the Damned" hidden="false" targetId="8f46-d28c-952e-54a8" type="rule"/>
+            <infoLink id="00fc-0f51-112d-961a" name="Casket of the Damned" hidden="false" targetId="8a16-5c25-075e-32a8" type="profile"/>
           </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="10.0"/>
@@ -825,7 +827,7 @@
           <characteristics>
             <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Cav</characteristic>
             <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Skeleton</characteristic>
-            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Lifeleech (1), Nimble, Skeleton, &lt;Shortbows: 18&quot;, Steady Aim&gt;</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Lifeleech (1), Nimble, Shambling, &lt;Shortbows: 18&quot;, Steady Aim&gt;</characteristic>
             <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">9</characteristic>
             <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">4+</characteristic>
             <characteristic name="Ra" typeId="72b7-f977-94ef-971d">5+</characteristic>
@@ -862,7 +864,7 @@
           <characteristics>
             <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Cav</characteristic>
             <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">Skeleton</characteristic>
-            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Lifeleech (1), Nimble, Skeleton, &lt;Shortbows: 18&quot;, Steady Aim&gt;</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Lifeleech (1), Nimble, Shambling, &lt;Shortbows: 18&quot;, Steady Aim&gt;</characteristic>
             <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">9</characteristic>
             <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">4+</characteristic>
             <characteristic name="Ra" typeId="72b7-f977-94ef-971d">5+</characteristic>
@@ -1556,7 +1558,8 @@
           <characteristics>
             <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Ttn</characteristic>
             <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">~Spellcaster: 0, Construct, Shrine</characteristic>
-            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Inspiring, Monolith</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Inspiring, Monolith
+(~Surge (8))</characteristic>
             <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">5</characteristic>
             <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">-</characteristic>
             <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
@@ -2029,7 +2032,7 @@
       <profiles>
         <profile id="0135-3168-7b79-9d83" name="L: Ahmunite Pharaoh" publicationId="eab5-a7fe-b282-0b56" page="336" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
           <modifiers>
-            <modifier type="set" field="0e93-1f12-f5f3-c8df" value="Aura (Elite:(Melee)(Mummy only)), Crushing Strength (2), Individual, Inspiring, Lifeleech (1), Mighty, Regeneration (5+)">
+            <modifier type="set" field="hidden" value="true">
               <conditions>
                 <condition field="selections" scope="4444-9dea-3cc5-f44f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5a9a-77c4-f084-3228" type="equalTo"/>
               </conditions>
@@ -2038,7 +2041,8 @@
           <characteristics>
             <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Hero (Inf)</characteristic>
             <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">~Spellcaster: 2, Mummy, Royal Court</characteristic>
-            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Crushing Strength (2), Individual, Inspiring, Lifeleech (1), Mighty, Regeneration (5+)</characteristic>
+            <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Crushing Strength (2), Individual, Inspiring, Lifeleech (1), Mighty, Regeneration (5+)
+~Surge (8)</characteristic>
             <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">5</characteristic>
             <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">3+</characteristic>
             <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
@@ -2083,6 +2087,24 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc02-eafe-ec68-e4c4" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="eeb2-e709-e425-0923" type="max"/>
           </constraints>
+          <profiles>
+            <profile id="d7f2-9bf2-f5f6-dd37" name="L: Ahmunite Pharaoh (Eternal Guard)" publicationId="eab5-a7fe-b282-0b56" page="336" hidden="false" typeId="29fe-f6ec-b0b4-dfe4" typeName="   Profile">
+              <characteristics>
+                <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Hero (Inf)</characteristic>
+                <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">~Spellcaster: 2, Mummy, Royal Court</characteristic>
+                <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Aura (Elite:(Melee)(Mummy only)), Crushing Strength (2), Individual, Inspiring, Lifeleech (1), Mighty, Regeneration (5+)
+~Surge (8)</characteristic>
+                <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">5</characteristic>
+                <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">3+</characteristic>
+                <characteristic name="Ra" typeId="72b7-f977-94ef-971d">-</characteristic>
+                <characteristic name="De" typeId="0430-25ef-96a4-6510">6+</characteristic>
+                <characteristic name="Att" typeId="084b-d9a3-febd-fdfc">5</characteristic>
+                <characteristic name="Ne" typeId="c66d-c39c-c7ce-21c1">-/16</characteristic>
+                <characteristic name="US" typeId="fcfd-0d73-228b-9814">0</characteristic>
+                <characteristic name="Ht" typeId="3656-74c6-668b-5919">2</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
           <infoLinks>
             <infoLink id="fc8e-5a6b-aa57-48e3" name="Aura" hidden="false" targetId="2867-1489-00ac-35c6" type="rule"/>
             <infoLink id="5c08-6851-ef0e-756f" name="Elite" hidden="false" targetId="e0d0-5bf9-11c8-b4f1" type="rule"/>
@@ -2279,6 +2301,9 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4fb0-6027-2f08-cefc" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="a58a-9822-5cd7-4bdd" name="~Drain Life" hidden="false" targetId="5cc2-ea0c-f46d-3e58" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="35.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -2288,6 +2313,9 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="54ee-6e8b-43ad-6664" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="1d4d-62b6-8518-dab9" name="~Fireball" hidden="false" targetId="a496-054d-a2d6-47b8" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="35.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -2297,6 +2325,9 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab89-1adc-636b-236f" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="f1ea-5d48-e648-a6f9" name="~Heal" hidden="false" targetId="a125-9eee-fc99-05f7" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="35.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -2306,6 +2337,9 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca21-90e9-961d-f6f7" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="bf7f-b858-06c0-1a42" name="~Hex" hidden="false" targetId="19ab-c007-6f5e-d92b" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="15.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -2315,6 +2349,9 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd81-d1ae-9be7-2192" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="4ab2-f590-bf72-f8b6" name="~Surge" hidden="false" targetId="8447-b7bc-2737-f07c" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="30.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -2324,6 +2361,9 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d819-5a2d-3b0c-198b" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="72a0-ae96-8464-1462" name="~Weakness" hidden="false" targetId="3d84-9118-f48e-7415" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="20.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -2333,6 +2373,9 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1c8c-0b4c-d5be-c733" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="6e38-2112-c5ae-0b03" name="~Wind Blast" hidden="false" targetId="da65-6a10-c6a3-9022" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" pts" typeId="points" value="25.0"/>
             <cost name="  US" typeId="8bd1-3402-32b0-82da" value="0.0"/>
@@ -2421,7 +2464,6 @@
                 <characteristic name="Type" typeId="c00f-fb16-6ddc-46e5">Hero (Ttn)</characteristic>
                 <characteristic name="Key" typeId="7c30-69bb-c7b1-c931">~Spellcaster: 0, Draconic, Revenant, Skeleton</characteristic>
                 <characteristic name="Special" typeId="0e93-1f12-f5f3-c8df">Crushing Strength (3), Fly, Inspiring, Lifeleech (1), Nimble, &lt;Plagued Breath: 12&quot;, Ra: 4+, Steady Aim&gt;
-
 </characteristic>
                 <characteristic name="Sp" typeId="c044-a8ff-9bf8-5756">10</characteristic>
                 <characteristic name="Me" typeId="4e82-4c97-c6b5-da6d">4+</characteristic>
